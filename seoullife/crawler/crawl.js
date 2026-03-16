@@ -131,12 +131,9 @@ function mergeCoords(newItems, existingData) {
   console.log(`좌표 이월: ${mergedCount}/${newItems.length}건`);
 }
 
-// 카카오 주소 검색 API로 좌표 조회 (BusanLife 방식)
-let geocodeDebugCount = 0;
-function geocode(address) {
+// 카카오 API 공통 GET 요청
+function kakaoGet(reqPath) {
   return new Promise((resolve, reject) => {
-    const encodedAddr = encodeURIComponent(address);
-    const reqPath = `/v2/local/search/address.json?query=${encodedAddr}`;
     const options = {
       hostname: 'dapi.kakao.com',
       path: reqPath,
@@ -146,40 +143,12 @@ function geocode(address) {
       }
     };
 
-    // 처음 3건 디버그 출력
-    if (geocodeDebugCount < 3) {
-      console.log(`  [DEBUG] URL: https://dapi.kakao.com${reqPath}`);
-    }
-
     https.get(options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try {
-          if (geocodeDebugCount < 3) {
-            console.log(`  [DEBUG] HTTP ${res.statusCode}, 응답: ${data.substring(0, 200)}`);
-            geocodeDebugCount++;
-          }
-
-          const json = JSON.parse(data);
-          if (json.documents && json.documents.length > 0) {
-            const doc = json.documents[0];
-            // address 객체에서 좌표 추출 (BusanLife 방식)
-            if (doc.address) {
-              resolve({
-                x: parseFloat(doc.address.y), // 위도
-                y: parseFloat(doc.address.x)  // 경도
-              });
-            } else {
-              // address 없으면 최상위 x,y 사용
-              resolve({
-                x: parseFloat(doc.y),
-                y: parseFloat(doc.x)
-              });
-            }
-          } else {
-            resolve(null);
-          }
+          resolve(JSON.parse(data));
         } catch (e) {
           reject(e);
         }
@@ -189,12 +158,58 @@ function geocode(address) {
   });
 }
 
+// 카카오 주소 검색 API (BusanLife 방식)
+function geocodeByAddress(address) {
+  const encodedAddr = encodeURIComponent(address);
+  const reqPath = `/v2/local/search/address.json?query=${encodedAddr}`;
+  return kakaoGet(reqPath);
+}
+
+// 카카오 키워드 검색 API (주소 검색 실패 시 폴백)
+function geocodeByKeyword(address) {
+  const encodedAddr = encodeURIComponent(address);
+  const reqPath = `/v2/local/search/keyword.json?query=${encodedAddr}`;
+  return kakaoGet(reqPath);
+}
+
+// JSON 응답에서 좌표 추출
+function extractCoords(json) {
+  if (!json.documents || json.documents.length === 0) return null;
+  const doc = json.documents[0];
+  // 주소 검색: address 객체에서 추출
+  if (doc.address) {
+    return {
+      x: parseFloat(doc.address.y), // 위도
+      y: parseFloat(doc.address.x)  // 경도
+    };
+  }
+  // 키워드 검색 또는 address 없는 경우: 최상위 x,y 사용
+  return {
+    x: parseFloat(doc.y),
+    y: parseFloat(doc.x)
+  };
+}
+
+// 이중 전략: 주소 검색 → 키워드 검색 폴백
+async function geocode(address) {
+  // 1차: 주소 검색 API
+  const addrResult = await geocodeByAddress(address);
+  const coords = extractCoords(addrResult);
+  if (coords) return coords;
+
+  // 2차: 키워드 검색 API 폴백
+  await new Promise(r => setTimeout(r, 100)); // API 간격
+  const kwResult = await geocodeByKeyword(address);
+  return extractCoords(kwResult);
+}
+
 // 좌표 없는 항목에 Geocoding 실행
 async function fillMissingCoords(items) {
   const missing = items.filter(item => !item.x || !item.y);
   console.log(`좌표 없는 항목: ${missing.length}건, Geocoding 시작...`);
 
-  let successCount = 0;
+  let addrCount = 0;   // 주소 검색 성공
+  let kwCount = 0;     // 키워드 폴백 성공
   let failCount = 0;
 
   for (const item of missing) {
@@ -205,14 +220,28 @@ async function fillMissingCoords(items) {
 
     const address = `서울특별시 ${item.gu_nm} ${item.reprsnt_jibun}`;
     try {
-      const coords = await geocode(address);
+      // 1차: 주소 검색
+      const addrResult = await geocodeByAddress(address);
+      let coords = extractCoords(addrResult);
+
       if (coords) {
         item.x = coords.x;
         item.y = coords.y;
-        successCount++;
+        addrCount++;
       } else {
-        failCount++;
-        console.log(`  Geocoding 실패: ${address}`);
+        // 2차: 키워드 검색 폴백
+        await new Promise(r => setTimeout(r, 100));
+        const kwResult = await geocodeByKeyword(address);
+        coords = extractCoords(kwResult);
+
+        if (coords) {
+          item.x = coords.x;
+          item.y = coords.y;
+          kwCount++;
+        } else {
+          failCount++;
+          console.log(`  Geocoding 실패: ${address}`);
+        }
       }
     } catch (e) {
       failCount++;
@@ -223,7 +252,7 @@ async function fillMissingCoords(items) {
     await new Promise(r => setTimeout(r, 150));
   }
 
-  console.log(`Geocoding 완료: 성공 ${successCount}, 실패 ${failCount}`);
+  console.log(`Geocoding 완료: 주소검색 ${addrCount}, 키워드폴백 ${kwCount}, 실패 ${failCount}`);
 }
 
 // 기존 데이터 로드

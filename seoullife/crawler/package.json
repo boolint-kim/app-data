@@ -1,0 +1,14 @@
+{
+  "name": "seoullife-crawler",
+  "version": "1.0.0",
+  "description": "정비사업 정보몽땅 크롤러",
+  "main": "crawl.js",
+  "scripts": {
+    "crawl": "node crawl.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5",
+    "simple-git": "^3.22.0",
+    "dotenv": "^16.4.5"
+  }
+}

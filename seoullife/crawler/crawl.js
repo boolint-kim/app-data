@@ -131,21 +131,23 @@ function mergeCoords(newItems, existingData) {
   console.log(`좌표 이월: ${mergedCount}/${newItems.length}건`);
 }
 
-// 카카오 키워드 검색 API로 좌표 조회
+// 카카오 주소 검색 API로 좌표 조회 (BusanLife 방식)
 let geocodeDebugCount = 0;
 function geocode(address) {
   return new Promise((resolve, reject) => {
     const encodedAddr = encodeURIComponent(address);
-    const reqPath = `/v2/local/search/keyword.json?query=${encodedAddr}`;
+    const reqPath = `/v2/local/search/address.json?query=${encodedAddr}`;
     const options = {
       hostname: 'dapi.kakao.com',
       path: reqPath,
-      headers: { 'Authorization': `KakaoAK ${KAKAO_API_KEY}` }
+      headers: {
+        'Authorization': `KakaoAK ${KAKAO_API_KEY}`,
+        'X-Requested-With': 'curl'
+      }
     };
 
     // 처음 3건 디버그 출력
     if (geocodeDebugCount < 3) {
-      console.log(`  [DEBUG] API KEY: ${KAKAO_API_KEY ? KAKAO_API_KEY.substring(0, 8) + '...' : 'EMPTY'}`);
       console.log(`  [DEBUG] URL: https://dapi.kakao.com${reqPath}`);
     }
 
@@ -154,7 +156,6 @@ function geocode(address) {
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try {
-          // 처음 3건 응답 디버그
           if (geocodeDebugCount < 3) {
             console.log(`  [DEBUG] HTTP ${res.statusCode}, 응답: ${data.substring(0, 200)}`);
             geocodeDebugCount++;
@@ -163,10 +164,19 @@ function geocode(address) {
           const json = JSON.parse(data);
           if (json.documents && json.documents.length > 0) {
             const doc = json.documents[0];
-            resolve({
-              x: parseFloat(doc.y), // 위도
-              y: parseFloat(doc.x)  // 경도
-            });
+            // address 객체에서 좌표 추출 (BusanLife 방식)
+            if (doc.address) {
+              resolve({
+                x: parseFloat(doc.address.y), // 위도
+                y: parseFloat(doc.address.x)  // 경도
+              });
+            } else {
+              // address 없으면 최상위 x,y 사용
+              resolve({
+                x: parseFloat(doc.y),
+                y: parseFloat(doc.x)
+              });
+            }
           } else {
             resolve(null);
           }
@@ -193,7 +203,7 @@ async function fillMissingCoords(items) {
       continue;
     }
 
-    const address = `${item.gu_nm} ${item.reprsnt_jibun}`;
+    const address = `서울특별시 ${item.gu_nm} ${item.reprsnt_jibun}`;
     try {
       const coords = await geocode(address);
       if (coords) {

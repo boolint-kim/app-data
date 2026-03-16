@@ -218,7 +218,10 @@ async function fillMissingCoords(items) {
       continue;
     }
 
-    const address = `서울특별시 ${item.gu_nm} ${item.reprsnt_jibun}`;
+    // 지번 주소에 '번지' 붙이기 (예: "개포동 138" → "개포동 138번지", "역삼동 711-1" → "역삼동 711-1번지")
+    const jibun = item.reprsnt_jibun;
+    const addrJibun = /\d$/.test(jibun) || /\d-\d+$/.test(jibun) ? jibun + '번지' : jibun;
+    const address = `서울특별시 ${item.gu_nm} ${addrJibun}`;
     try {
       // 1차: 주소 검색
       const addrResult = await geocodeByAddress(address);

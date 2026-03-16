@@ -132,20 +132,34 @@ function mergeCoords(newItems, existingData) {
 }
 
 // 카카오 키워드 검색 API로 좌표 조회
+let geocodeDebugCount = 0;
 function geocode(address) {
   return new Promise((resolve, reject) => {
     const encodedAddr = encodeURIComponent(address);
+    const reqPath = `/v2/local/search/keyword.json?query=${encodedAddr}`;
     const options = {
       hostname: 'dapi.kakao.com',
-      path: `/v2/local/search/keyword.json?query=${encodedAddr}`,
+      path: reqPath,
       headers: { 'Authorization': `KakaoAK ${KAKAO_API_KEY}` }
     };
+
+    // 처음 3건 디버그 출력
+    if (geocodeDebugCount < 3) {
+      console.log(`  [DEBUG] API KEY: ${KAKAO_API_KEY ? KAKAO_API_KEY.substring(0, 8) + '...' : 'EMPTY'}`);
+      console.log(`  [DEBUG] URL: https://dapi.kakao.com${reqPath}`);
+    }
 
     https.get(options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try {
+          // 처음 3건 응답 디버그
+          if (geocodeDebugCount < 3) {
+            console.log(`  [DEBUG] HTTP ${res.statusCode}, 응답: ${data.substring(0, 200)}`);
+            geocodeDebugCount++;
+          }
+
           const json = JSON.parse(data);
           if (json.documents && json.documents.length > 0) {
             const doc = json.documents[0];

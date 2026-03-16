@@ -1,0 +1,3 @@
+crawler/.env
+crawler/node_modules/
+crawler/package-lock.json

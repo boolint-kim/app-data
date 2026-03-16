@@ -131,13 +131,13 @@ function mergeCoords(newItems, existingData) {
   console.log(`좌표 이월: ${mergedCount}/${newItems.length}건`);
 }
 
-// 카카오 Geocoding API 호출
+// 카카오 키워드 검색 API로 좌표 조회
 function geocode(address) {
   return new Promise((resolve, reject) => {
     const encodedAddr = encodeURIComponent(address);
     const options = {
       hostname: 'dapi.kakao.com',
-      path: `/v2/local/search/address.json?query=${encodedAddr}`,
+      path: `/v2/local/search/keyword.json?query=${encodedAddr}`,
       headers: { 'Authorization': `KakaoAK ${KAKAO_API_KEY}` }
     };
 
@@ -179,7 +179,7 @@ async function fillMissingCoords(items) {
       continue;
     }
 
-    const address = `서울 ${item.gu_nm} ${item.reprsnt_jibun}`;
+    const address = `${item.gu_nm} ${item.reprsnt_jibun}`;
     try {
       const coords = await geocode(address);
       if (coords) {

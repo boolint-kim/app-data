@@ -11,6 +11,11 @@ const PUBLIC_DIR = path.join(__dirname, '..', 'public');
 const DATA_FILE = path.join(PUBLIC_DIR, 'cleanup_data.json');
 const VERSION_FILE = path.join(PUBLIC_DIR, 'cleanup_version.txt');
 const EXCEL_URL = 'https://cleanup.seoul.go.kr/cleanup/bsnssttus/lsubBsnsSttusExcel.do';
+const OVERRIDE_FILE = path.join(__dirname, 'coords_override.json');
+
+// PositionSeoulHelper 좌표 데이터 (896건)
+// 키: "대표지번" (reprsnt_jibun)
+const POSITION_SEOUL = JSON.parse(fs.readFileSync(path.join(__dirname, 'position_seoul.json'), 'utf-8'));
 
 // 엑셀 다운로드 (POST 요청)
 function downloadExcel() {
@@ -105,30 +110,73 @@ function parseExcel(filePath) {
   return items;
 }
 
-// 기존 JSON에서 좌표 이월
+// coords_override.json에서 수동 좌표 적용
+function applyOverrides(items) {
+  try {
+    if (!fs.existsSync(OVERRIDE_FILE)) return 0;
+    const overrides = JSON.parse(fs.readFileSync(OVERRIDE_FILE, 'utf-8'));
+    const seoulOverrides = overrides.seoul || [];
+
+    // key(대표지번) → 좌표 맵
+    const overrideMap = {};
+    for (const o of seoulOverrides) {
+      if (o.x && o.y) overrideMap[o.key] = { x: o.x, y: o.y };
+    }
+
+    let count = 0;
+    for (const item of items) {
+      const coords = overrideMap[item.reprsnt_jibun];
+      if (coords) {
+        item.x = coords.x;
+        item.y = coords.y;
+        count++;
+      }
+    }
+    return count;
+  } catch (e) {
+    console.log('coords_override 로드 실패:', e.message);
+    return 0;
+  }
+}
+
+// PositionSeoul 좌표 매칭 + 기존 JSON 이월
 function mergeCoords(newItems, existingData) {
-  if (!existingData || !existingData.items) return;
-
-  // 대표지번 → 좌표 맵 생성
-  const coordMap = {};
-  for (const item of existingData.items) {
-    if (item.x && item.y && item.reprsnt_jibun) {
-      coordMap[item.reprsnt_jibun] = { x: item.x, y: item.y };
+  // 기존 JSON에서 대표지번 → 좌표 맵 생성 (x=0,y=0도 포함 = 이미 시도한 항목)
+  const existingCoordMap = {};
+  if (existingData && existingData.items) {
+    for (const item of existingData.items) {
+      if (item.reprsnt_jibun) {
+        existingCoordMap[item.reprsnt_jibun] = { x: item.x || 0, y: item.y || 0 };
+      }
     }
   }
 
-  // 좌표 이월
-  let mergedCount = 0;
+  let positionCount = 0; // PositionSeoul 매칭
+  let existingCount = 0; // 기존 JSON 이월 (좌표 있음)
+  let skippedCount = 0;  // 기존 JSON 이월 (이전 실패)
+  let missingCount = 0;
+
   for (const item of newItems) {
-    const coords = coordMap[item.reprsnt_jibun];
-    if (coords) {
-      item.x = coords.x;
-      item.y = coords.y;
-      mergedCount++;
+    // 1순위: PositionSeoul 하드코딩 좌표
+    if (POSITION_SEOUL[item.reprsnt_jibun]) {
+      item.x = POSITION_SEOUL[item.reprsnt_jibun][0];
+      item.y = POSITION_SEOUL[item.reprsnt_jibun][1];
+      positionCount++;
+    }
+    // 2순위: 기존 JSON 이월
+    else if (existingCoordMap[item.reprsnt_jibun]) {
+      item.x = existingCoordMap[item.reprsnt_jibun].x;
+      item.y = existingCoordMap[item.reprsnt_jibun].y;
+      if (item.x && item.y) existingCount++;
+      else skippedCount++;
+      item._geocoded = true; // 이미 처리된 항목 표시
+    }
+    else {
+      missingCount++;
     }
   }
 
-  console.log(`좌표 이월: ${mergedCount}/${newItems.length}건`);
+  console.log(`좌표 매칭: PositionSeoul ${positionCount}, 기존이월 ${existingCount}, 이전실패 ${skippedCount}, 신규 ${missingCount}건`);
 }
 
 // 카카오 API 공통 GET 요청
@@ -203,10 +251,11 @@ async function geocode(address) {
   return extractCoords(kwResult);
 }
 
-// 좌표 없는 항목에 Geocoding 실행
+// 좌표 없는 신규 항목에만 Geocoding 실행 (이미 시도한 항목 제외)
 async function fillMissingCoords(items) {
-  const missing = items.filter(item => !item.x || !item.y);
-  console.log(`좌표 없는 항목: ${missing.length}건, Geocoding 시작...`);
+  const missing = items.filter(item => (!item.x || !item.y) && !item._geocoded);
+  const skipped = items.filter(item => (!item.x || !item.y) && item._geocoded).length;
+  console.log(`좌표 없는 항목: ${missing.length}건 Geocoding, ${skipped}건 이전실패 건너뜀`);
 
   let addrCount = 0;   // 주소 검색 성공
   let kwCount = 0;     // 키워드 폴백 성공
@@ -295,18 +344,24 @@ function saveResults(items) {
     fs.mkdirSync(PUBLIC_DIR, { recursive: true });
   }
 
-  const now = new Date();
-  const version = now.getFullYear().toString() +
-    String(now.getMonth() + 1).padStart(2, '0') +
-    String(now.getDate()).padStart(2, '0');
+  // 기존 version.txt 읽어서 +1 (없으면 1부터 시작)
+  let version = 1;
+  try {
+    if (fs.existsSync(VERSION_FILE)) {
+      version = parseInt(fs.readFileSync(VERSION_FILE, 'utf-8').trim(), 10) + 1;
+      if (isNaN(version)) version = 1;
+    }
+  } catch (e) {
+    version = 1;
+  }
 
-  const data = {
-    version,
-    items
-  };
+  // 내부 플래그 제거 후 저장
+  items.forEach(item => delete item._geocoded);
+
+  const data = { items };
 
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf-8');
-  fs.writeFileSync(VERSION_FILE, version, 'utf-8');
+  fs.writeFileSync(VERSION_FILE, String(version), 'utf-8');
 
   console.log(`저장 완료: ${items.length}건, 버전: ${version}`);
 }
@@ -332,21 +387,26 @@ async function main() {
       return;
     }
 
-    // 3. 기존 좌표 이월
-    console.log('\n3. 기존 좌표 이월...');
+    // 3. 수동 좌표 오버라이드
+    console.log('\n3. 수동 좌표 오버라이드...');
+    const overrideCount = applyOverrides(items);
+    console.log(`   오버라이드 적용: ${overrideCount}건`);
+
+    // 4. 좌표 매칭 (PositionSeoul + 기존 JSON 이월)
+    console.log('\n4. 좌표 매칭...');
     const existingData = loadExistingData();
     mergeCoords(items, existingData);
 
-    // 4. 누락 좌표 Geocoding
+    // 5. 누락 좌표 Geocoding
     if (KAKAO_API_KEY) {
-      console.log('\n4. 누락 좌표 Geocoding...');
+      console.log('\n5. 누락 좌표 Geocoding...');
       await fillMissingCoords(items);
     } else {
-      console.log('\n4. KAKAO_REST_API_KEY 미설정, Geocoding 건너뜀');
+      console.log('\n5. KAKAO_REST_API_KEY 미설정, Geocoding 건너뜀');
     }
 
-    // 5. 변경 확인 및 저장
-    console.log('\n5. 변경 확인...');
+    // 6. 변경 확인 및 저장
+    console.log('\n6. 변경 확인...');
     if (hasChanges(items, existingData)) {
       saveResults(items);
       console.log('   데이터 변경 감지, 저장 완료');
@@ -363,3 +423,4 @@ async function main() {
 }
 
 main();
+

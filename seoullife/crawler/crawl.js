@@ -157,8 +157,11 @@ function mergeCoords(newItems, existingData) {
   let missingCount = 0;
 
   for (const item of newItems) {
-    // 1순위: PositionSeoul 하드코딩 좌표 (override 적용된 항목은 건너뜀)
-    if (POSITION_SEOUL[item.reprsnt_jibun] && !item.x && !item.y) {
+    // 0순위: coords_override에서 이미 좌표가 적용된 항목은 건너뜀
+    if (item.x && item.y) continue;
+
+    // 1순위: PositionSeoul 하드코딩 좌표
+    if (POSITION_SEOUL[item.reprsnt_jibun]) {
       item.x = POSITION_SEOUL[item.reprsnt_jibun][0];
       item.y = POSITION_SEOUL[item.reprsnt_jibun][1];
       positionCount++;

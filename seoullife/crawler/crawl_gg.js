@@ -129,10 +129,13 @@ function mergeCoords(newItems, existingData) {
   let missingCount = 0;
 
   for (const item of newItems) {
+    // 0순위: coords_override에서 이미 좌표가 적용된 항목은 건너뜀
+    if (item.x && item.y) continue;
+
     const namePkey = item.SIGUN_NM + '_' + item.IMPRV_ZONE_NM;
 
-    // 1순위: PositionGgHelper 하드코딩 좌표 (override 적용된 항목은 건너뜀)
-    if (POSITION_GG[namePkey] && !item.x && !item.y) {
+    // 1순위: PositionGgHelper 하드코딩 좌표
+    if (POSITION_GG[namePkey]) {
       item.x = POSITION_GG[namePkey][0];
       item.y = POSITION_GG[namePkey][1];
       positionCount++;

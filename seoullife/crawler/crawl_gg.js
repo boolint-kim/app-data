@@ -218,7 +218,7 @@ async function fillMissingCoords(items) {
 
   for (const item of missing) {
     const addr = item.LOCPLC_ADDR;
-    if (!addr) { failCount++; continue; }
+    if (!addr || addr.includes('nan')) { failCount++; continue; }
 
     try {
       // 1차: 주소 검색
@@ -229,6 +229,7 @@ async function fillMissingCoords(items) {
         item.x = coords.x;
         item.y = coords.y;
         addrCount++;
+        console.log(`  Geocoding 성공(주소): ${addr} → x=${coords.x}, y=${coords.y}`);
       } else {
         // 2차: 키워드 검색 폴백
         await new Promise(r => setTimeout(r, 100));
@@ -239,6 +240,7 @@ async function fillMissingCoords(items) {
           item.x = coords.x;
           item.y = coords.y;
           kwCount++;
+          console.log(`  Geocoding 성공(키워드): ${addr} → x=${coords.x}, y=${coords.y}`);
         } else {
           failCount++;
           console.log(`  Geocoding 실패: ${addr}`);

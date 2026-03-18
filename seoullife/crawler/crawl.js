@@ -283,6 +283,7 @@ async function fillMissingCoords(items) {
         item.x = coords.x;
         item.y = coords.y;
         addrCount++;
+        console.log(`  Geocoding 성공(주소): ${address} → x=${coords.x}, y=${coords.y}`);
       } else {
         // 2차: 키워드 검색 폴백
         await new Promise(r => setTimeout(r, 100));
@@ -293,6 +294,7 @@ async function fillMissingCoords(items) {
           item.x = coords.x;
           item.y = coords.y;
           kwCount++;
+          console.log(`  Geocoding 성공(키워드): ${address} → x=${coords.x}, y=${coords.y}`);
         } else {
           failCount++;
           console.log(`  Geocoding 실패: ${address}`);

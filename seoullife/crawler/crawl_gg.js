@@ -131,8 +131,8 @@ function mergeCoords(newItems, existingData) {
   for (const item of newItems) {
     const namePkey = item.SIGUN_NM + '_' + item.IMPRV_ZONE_NM;
 
-    // 1순위: PositionGgHelper 하드코딩 좌표
-    if (POSITION_GG[namePkey]) {
+    // 1순위: PositionGgHelper 하드코딩 좌표 (override 적용된 항목은 건너뜀)
+    if (POSITION_GG[namePkey] && !item.x && !item.y) {
       item.x = POSITION_GG[namePkey][0];
       item.y = POSITION_GG[namePkey][1];
       positionCount++;

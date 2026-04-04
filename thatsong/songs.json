@@ -910,6 +910,20 @@
     "kind": "kpop"
   },
   {
+    "artist": "PSY",
+    "title": "RIGHT NOW",
+    "videoId": "UmHdefsaL6I",
+    "year": 2010,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "RIGHT NOW (Seo Woo Ver.)",
+    "videoId": "jWXcjZ3LX3c",
+    "year": 2010,
+    "kind": "kpop"
+  },
+  {
     "artist": "SHINee",
     "title": "샤이니 'Hello'",
     "videoId": "skZxb5sBoiU",
@@ -1137,6 +1151,13 @@
     "artist": "KANGTA",
     "title": "강타 '화살 (Arrow)' (From SBS Drama \"아테나 : 전쟁의 여신\")",
     "videoId": "Uld5AG1oVog",
+    "year": 2011,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "예술이야(IT'S ART)",
+    "videoId": "1cKc1rkZwf8",
     "year": 2011,
     "kind": "kpop"
   },
@@ -1568,6 +1589,27 @@
     "kind": "kpop"
   },
   {
+    "artist": "PSY (ft. HYUNA)",
+    "title": "오빤 딱 내 스타일",
+    "videoId": "wcLNteez3c4",
+    "year": 2012,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "GANGNAM STYLE(강남스타일)",
+    "videoId": "9bZkp7q19f0",
+    "year": 2012,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "KOREA",
+    "videoId": "rpYq1lSce1U",
+    "year": 2012,
+    "kind": "kpop"
+  },
+  {
     "artist": "SHINee",
     "title": "샤이니 'Sherlock•셜록 (Clue + Note)'",
     "videoId": "8kyG5tTZ1iE",
@@ -1827,6 +1869,27 @@
     "kind": "kpop"
   },
   {
+    "artist": "PSY",
+    "title": "GENTLEMAN",
+    "videoId": "ASO_zypdnsQ",
+    "year": 2013,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "WE ARE THE ONE",
+    "videoId": "VOud7M_qzGk",
+    "year": 2013,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "새(BIRD)",
+    "videoId": "2pB0zurYJAc",
+    "year": 2013,
+    "kind": "kpop"
+  },
+  {
     "artist": "SHINee",
     "title": "샤이니 'Colorful'",
     "videoId": "a3bgxXKimGA",
@@ -1858,6 +1921,13 @@
     "artist": "SHINee",
     "title": "샤이니 'Why So Serious?'",
     "videoId": "hgeAmF7bgoE",
+    "year": 2013,
+    "kind": "kpop"
+  },
+  {
+    "artist": "SISTAR(씨스타)",
+    "title": "Give It To Me",
+    "videoId": "p6XLNsJ9YrA",
     "year": 2013,
     "kind": "kpop"
   },
@@ -2040,6 +2110,13 @@
     "artist": "Girls' Generation",
     "title": "소녀시대 'Mr.Mr.'",
     "videoId": "Z8j_XEn9b_8",
+    "year": 2014,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "HANGOVER (feat. Snoop Dogg)",
+    "videoId": "HkMNOlYcpHg",
     "year": 2014,
     "kind": "kpop"
   },
@@ -2506,9 +2583,30 @@
     "kind": "kpop"
   },
   {
+    "artist": "MONSTA X (몬스타엑스)",
+    "title": "무단침입 (Trespass)",
+    "videoId": "NLWCnvWEjU4",
+    "year": 2015,
+    "kind": "kpop"
+  },
+  {
     "artist": "PSY",
     "title": "DADDY(feat. CL of 2NE1)",
     "videoId": "FrG4TEcSuRg",
+    "year": 2015,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "FATHER (with Lang Lang)",
+    "videoId": "ig8AaFSzzGI",
+    "year": 2015,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "나팔바지(NAPAL BAJI)",
+    "videoId": "tF27TNC_4pc",
     "year": 2015,
     "kind": "kpop"
   },
@@ -2684,6 +2782,13 @@
     "artist": "miss A",
     "title": "“Only You(다른 남자 말고 너)”",
     "videoId": "zO9RzrhYR-I",
+    "year": 2015,
+    "kind": "kpop"
+  },
+  {
+    "artist": "몬스타엑스 (MONSTA X)",
+    "title": "신속히 (RUSH)",
+    "videoId": "bSo7gYXp-bA",
     "year": 2015,
     "kind": "kpop"
   },
@@ -2912,6 +3017,41 @@
     "kind": "kpop"
   },
   {
+    "artist": "MONSTA X",
+    "title": "Y틴(몬스타엑스 X 우주소녀) _ Do Better",
+    "videoId": "1JX48ClBg9E",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "[Special Clip] 몬스타엑스(MONSTA X) _ 네게만 집착해(Stuck)",
+    "videoId": "ro74Ki2jsNg",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "[Y틴] 몬스타엑스 X 우주소녀 _ Do Better MV (360º ver.)",
+    "videoId": "jHH0_5gU8no",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 (MONSTA X) _ Fighter",
+    "videoId": "5jTtU9VNALs",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 (MONSTA X) _ 걸어 (ALL IN)",
+    "videoId": "wNxPGbk-gwA",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
     "artist": "NCT 127",
     "title": "[STATION] NCT 127 엔시티 127 'Taste The Feeling'",
     "videoId": "uwMngvoyYMw",
@@ -2943,6 +3083,20 @@
     "artist": "NCT DREAM",
     "title": "엔시티 드림 'Chewing Gum'",
     "videoId": "fwmvF5ffmhg",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PENTAGON(펜타곤)",
+    "title": "'Gorilla'",
+    "videoId": "dKPAzfLxKzI",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PENTAGON(펜타곤)",
+    "title": "'감이 오지(Can you feel it)'",
+    "videoId": "svNhuxBDkTo",
     "year": 2016,
     "kind": "kpop"
   },
@@ -3062,6 +3216,27 @@
     "artist": "WINNER",
     "title": "SENTIMENTAL (Japanese Ver.)",
     "videoId": "Q2RzK0564Sw",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "WJSN",
+    "title": "우주소녀(WJSN)(COSMIC GIRLS) _ Catch Me",
+    "videoId": "VtLwAAhhXBo",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "WJSN",
+    "title": "우주소녀(WJSN)(COSMIC GIRLS) _ Mo Mo Mo (모모모)",
+    "videoId": "XuSCSFl4mqI",
+    "year": 2016,
+    "kind": "kpop"
+  },
+  {
+    "artist": "WJSN",
+    "title": "우주소녀(WJSN)(COSMIC GIRLS) _ 비밀이야 (Secret)",
+    "videoId": "_uJxJ7tSi1w",
     "year": 2016,
     "kind": "kpop"
   },
@@ -3465,6 +3640,13 @@
     "kind": "kpop"
   },
   {
+    "artist": "IVE",
+    "title": "정기고(JUNGGIGO)_ACROSS THE UNIVERSE",
+    "videoId": "uPISvnTISAM",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
     "artist": "NCT 127",
     "title": "엔시티 127 'Cherry Bomb'",
     "videoId": "WkuHLzMMTZM",
@@ -3514,9 +3696,30 @@
     "kind": "kpop"
   },
   {
+    "artist": "PENTAGON(펜타곤)",
+    "title": "'예쁨(Pretty Pretty)'",
+    "videoId": "MhySKtz2PT0",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
     "artist": "PSY",
     "title": "'LOVE' (feat.TAEYANG)",
     "videoId": "K5ve5lzs0wM",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "‘I LUV IT’",
+    "videoId": "Xvjnoagk6GU",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "‘New Face’",
+    "videoId": "OwJPPaEyqhI",
     "year": 2017,
     "kind": "kpop"
   },
@@ -3710,6 +3913,13 @@
     "kind": "kpop"
   },
   {
+    "artist": "WJSN",
+    "title": "우주소녀(WJSN) _ 너에게 닿기를(I Wish)",
+    "videoId": "GiT8zS8uIpg",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
     "artist": "iKON",
     "title": "'BLING BLING'",
     "videoId": "GUFw8wTzF_I",
@@ -3738,6 +3948,62 @@
     "kind": "kpop"
   },
   {
+    "artist": "몬스타엑스(MONSTA X)",
+    "title": "DRAMARAMA",
+    "videoId": "r1afdZk0qcI",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "몬스타엑스(MONSTA X)",
+    "title": "NEWTON",
+    "videoId": "TFk0M_Jhr_A",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "몬스타엑스(MONSTA X)",
+    "title": "SHINE FOREVER",
+    "videoId": "iewWMqeMpqU",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "몬스타엑스(MONSTA X)",
+    "title": "아름다워(Beautiful)",
+    "videoId": "f5Zedh_5DDM",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀(WJSN)",
+    "title": "HAPPY",
+    "videoId": "sZVB_zCBlCU",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀(WJSN)",
+    "title": "KISS ME",
+    "videoId": "oSG_plpPA58",
+    "year": 2017,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'LATATA'",
+    "videoId": "p4RIhcY7V3c",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'한(一)(HANN(Alone))'",
+    "videoId": "OKNXn2qCEws",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
     "artist": "2PM",
     "title": "JUNHO(준호) Of 2PM \"겨울잠(Winter Sleep)\"",
     "videoId": "aqExfBo_ZrM",
@@ -3762,6 +4028,13 @@
     "artist": "2PM",
     "title": "장우영 (Of 2PM) \"뚝\"",
     "videoId": "7iJ292hvGdg",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Treasure'",
+    "videoId": "tLV83ndOwz4",
     "year": 2018,
     "kind": "kpop"
   },
@@ -3965,6 +4238,13 @@
     "artist": "JENNIE",
     "title": "'SOLO'",
     "videoId": "b73BI9eUkjM",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스  'Shoot Out'",
+    "videoId": "MS10Zz49FHE",
     "year": 2018,
     "kind": "kpop"
   },
@@ -4263,6 +4543,13 @@
     "kind": "kpop"
   },
   {
+    "artist": "YDPP",
+    "title": "LOVE IT LIVE IT",
+    "videoId": "AdGzuQqoWo4",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
     "artist": "iKON",
     "title": "'이별길(GOODBYE ROAD)'",
     "videoId": "2O6dRaBbFoo",
@@ -4305,6 +4592,76 @@
     "kind": "kpop"
   },
   {
+    "artist": "몬스타엑스(MONSTA X)",
+    "title": "JEALOUSY",
+    "videoId": "TSA9VZduuZ4",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "비투비(BTOB)",
+    "title": "'아름답고도 아프구나(Beautiful Pain)' M/V SPOT",
+    "videoId": "te-Iimsyrqc",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 (WJSN)",
+    "title": "부탁해 (SAVE ME, SAVE YOU)",
+    "videoId": "2wOBbRu3OOc",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀(WJSN) & Mickey",
+    "title": "It's A Good Time",
+    "videoId": "Ql9Fcrg9pzc",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀(WJSN)",
+    "title": "꿈꾸는 마음으로(Dreams Come True)",
+    "videoId": "IrircflFHzw",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "주영(Jooyoung)",
+    "title": "Dive",
+    "videoId": "geIA1GmwaqQ",
+    "year": 2018,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(G)I-DLE",
+    "title": "「LATATA」(Japanese ver.) MUSIC VIDEO",
+    "videoId": "ypNJMDlJvY4",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'LION'",
+    "videoId": "6oanIo_2Z4Q",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Senorita'",
+    "videoId": "2cevbhEqQF4",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Uh-Oh'",
+    "videoId": "I66oFXdf0KU",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
     "artist": "2PM",
     "title": "NICHKHUN (닉쿤) \"Lucky Charm\"",
     "videoId": "yNe39XGY9YU",
@@ -4315,6 +4672,34 @@
     "artist": "AKMU",
     "title": "'어떻게 이별까지 사랑하겠어, 널 사랑하는 거지(How can I love the heartbreak, you`re the one I love)'",
     "videoId": "m3DZsBw5bnE",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'ILLUSION'",
+    "videoId": "i_HzsHss94E",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Say My Name'",
+    "videoId": "nKU4OVH18mE",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'WAVE'",
+    "videoId": "FIInyEWWW-s",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'WONDERLAND'",
+    "videoId": "Z_BhMhZpAug",
     "year": 2019,
     "kind": "kpop"
   },
@@ -4420,6 +4805,34 @@
     "artist": "ITZY",
     "title": "달라달라(DALLA DALLA)\" M/V @ITZY",
     "videoId": "pNfTK39k55U",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'Alligator'",
+    "videoId": "3C3hIJg4rHo",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'FIND YOU'",
+    "videoId": "SRSBHbmV7hM",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'FOLLOW'",
+    "videoId": "aa7hl8A0tAY",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Monsta X",
+    "title": "Pepsi For The Love Of It (Korean Version)",
+    "videoId": "IPxSQTRLss0",
     "year": 2019,
     "kind": "kpop"
   },
@@ -4816,9 +5229,79 @@
     "kind": "kpop"
   },
   {
+    "artist": "우주소녀 (WJSN)",
+    "title": "Boogie Up",
+    "videoId": "rVeMvBTd8vQ",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 (WJSN)",
+    "title": "La La Love",
+    "videoId": "YAUfVpLTnOM",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 (WJSN)",
+    "title": "이루리 (As You Wish)",
+    "videoId": "2Q9G6R2hKIQ",
+    "year": 2019,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(G)I-DLE",
+    "title": "「Oh my god」(Japanese ver.) MUSIC VIDEO",
+    "videoId": "u7wSlAgEcvg",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Oh my god'",
+    "videoId": "om3n2ni8luE",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'덤디덤디 (DUMDi DUMDi)'",
+    "videoId": "HPQ5mqovXHo",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
     "artist": "AKMU",
     "title": "'HAPPENING'",
     "videoId": "wgVyY-snqd4",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ",
+    "title": "(에이티즈) ZERO : FEVER Part.1 'Diary Film'",
+    "videoId": "g833H8DPC4Q",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Answer'",
+    "videoId": "yW7wZX3DUaY",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'INCEPTION'",
+    "videoId": "2NArH91kHoQ",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'THANXX’",
+    "videoId": "K7LY9Ta0eiY",
     "year": 2020,
     "kind": "kpop"
   },
@@ -4882,6 +5365,27 @@
     "artist": "BoA",
     "title": "보아 'Better'",
     "videoId": "fOxl2OIOVII",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'BREAK ALL THE RULES'",
+    "videoId": "NFlceOv8LMU",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Cloud 9'",
+    "videoId": "AUc9pglUn2E",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Flame'",
+    "videoId": "ijXBdUxMnCE",
     "year": 2020,
     "kind": "kpop"
   },
@@ -4966,6 +5470,20 @@
     "artist": "ITZY",
     "title": "“Not Shy” M/V @ITZY",
     "videoId": "wTowEKjDGkU",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'FANTASIA'",
+    "videoId": "p2JzPlpA1Iw",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'Love Killa'",
+    "videoId": "-ToHbHcolfA",
     "year": 2020,
     "kind": "kpop"
   },
@@ -5271,6 +5789,13 @@
     "kind": "kpop"
   },
   {
+    "artist": "[EDEN_STARDUST2] vol.07 이든(EDEN), ATEEZ(에이티즈), 마독스(Maddox), Eden-ary",
+    "title": "'Call Me Anytime'",
+    "videoId": "5X8Qn23FRMA",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
     "artist": "aespa",
     "title": "에스파 'Black Mamba'",
     "videoId": "ZeerrnuLi5E",
@@ -5289,6 +5814,34 @@
     "title": "'뛰어들게(Dive)'",
     "videoId": "brP5M0o4hi8",
     "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 (WJSN)",
+    "title": "BUTTERFLY",
+    "videoId": "ftyLwZ68LnU",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 쪼꼬미 (WJSN CHOCOME)",
+    "title": "흥칫뿡 (Hmph!)",
+    "videoId": "RGnLdUJbYmQ",
+    "year": 2020,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'화(火花)(HWAA)'",
+    "videoId": "z3szNvgQxHo",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE), Dimitri Vegas & Like Mike",
+    "title": "'HWAA (Dimitri Vegas & Like Mike Remix)'",
+    "videoId": "P62kgQCuxGE",
+    "year": 2021,
     "kind": "kpop"
   },
   {
@@ -5411,6 +5964,41 @@
     "kind": "kpop"
   },
   {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "‘Deja Vu’",
+    "videoId": "nlnMDttgTbk",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "‘Eternal Sunshine’",
+    "videoId": "WJgTnDAmJHc",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "‘멋(The Real) (흥 : 興 Ver.)’",
+    "videoId": "yxfCbV21ck8",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "‘불놀이야 (I'm The One)’",
+    "videoId": "xtcVwuauVV0",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "‘야간비행 (Turbulence)’",
+    "videoId": "80WvAnsHOdM",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
     "artist": "BLACKPINK",
     "title": "「How you like that -JP Ver.-」",
     "videoId": "DjL9di-UIYc",
@@ -5442,6 +6030,20 @@
     "artist": "BTS",
     "title": "(방탄소년단) 'Film out'",
     "videoId": "zFT3f9biz68",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Gas Pedal'",
+    "videoId": "5G1i4WwgddE",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'My Turn'",
+    "videoId": "IrnhtBxHDBY",
     "year": 2021,
     "kind": "kpop"
   },
@@ -5537,6 +6139,20 @@
     "kind": "kpop"
   },
   {
+    "artist": "IU",
+    "title": "(아이유)_Epilogue(에필로그)",
+    "videoId": "c9E2IT1jHQY",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'ELEVEN'",
+    "videoId": "--FmExEAsM8",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
     "artist": "KANGTA",
     "title": "강타 '7월의 크리스마스 (Christmas in July)'",
     "videoId": "omRMIR9sQHQ",
@@ -5554,6 +6170,13 @@
     "artist": "KANGTA",
     "title": "강타 '자유롭게 날 수 있도록 2021 (Free To Fly 2021)'",
     "videoId": "_eprOE_CdEI",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kim Jong Kook(김종국) X ATEEZ(에이티즈)",
+    "title": "‘바다 보러 갈래?’",
+    "videoId": "JUFpIKx6y2c",
     "year": 2021,
     "kind": "kpop"
   },
@@ -5582,6 +6205,20 @@
     "artist": "LISA",
     "title": "'LALISA' M/V HIGHLIGHT CLIP #3",
     "videoId": "a7n_Wtl8ed4",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'GAMBLER'",
+    "videoId": "yY13X0BKaUw",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'Rush Hour'",
+    "videoId": "qRdTyoZd3rg",
     "year": 2021,
     "kind": "kpop"
   },
@@ -5638,6 +6275,20 @@
     "artist": "NCT DREAM",
     "title": "엔시티 드림 '맛 (Hot Sauce)'",
     "videoId": "PkKnp4SdE-w",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "RAIN(비) X MONSTA X(몬스타엑스) X Brave Girls(브레이브걸스) X ATEEZ(에이티즈)",
+    "title": "Summer Taste",
+    "videoId": "VHA1jgEj-dc",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "RAIN(비) X MONSTA X(몬스타엑스) X Brave Girls(브레이브걸스) X ATEEZ(에이티즈)",
+    "title": "Summer Taste (Lip ver.)",
+    "videoId": "nimQy8ksj1I",
     "year": 2021,
     "kind": "kpop"
   },
@@ -6006,6 +6657,62 @@
     "kind": "kpop"
   },
   {
+    "artist": "우주소녀 (WJSN)",
+    "title": "UNNATURAL",
+    "videoId": "wcgTStAuXQw",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 더 블랙 (WJSN THE BLACK)",
+    "title": "Easy",
+    "videoId": "p_C_ZmSWpzc",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 더 블랙 (WJSN THE BLACK)",
+    "title": "Easy (Director's Cut)",
+    "videoId": "xExysVWbw1o",
+    "year": 2021,
+    "kind": "kpop"
+  },
+  {
+    "artist": "'OHMYGIRL' 효정, 아린 X 'IVE' 장원영, 이서 X 'CRAVITY' 세림, 정모",
+    "title": "BLUE & BLACK",
+    "videoId": "ur6IoC1B3-M",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Nxde'",
+    "videoId": "fCO7f0SmrDc",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'TOMBOY'",
+    "videoId": "Jh4QFaPmdss",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'HALAZIA'",
+    "videoId": "SszP3hlQ55Y",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "‘Guerrilla’",
+    "videoId": "2HcVZm_4qAI",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
     "artist": "BIGBANG",
     "title": "'봄여름가을겨울 (Still Life)'",
     "videoId": "eN5mG_yMDiM",
@@ -6051,6 +6758,20 @@
     "artist": "BoA",
     "title": "보아 'Forgive Me'",
     "videoId": "WS5u-6LnyUU",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Adrenaline'",
+    "videoId": "vG2haZWk01s",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'PARTY ROCK'",
+    "videoId": "MJSSta_QNow",
     "year": 2022,
     "kind": "kpop"
   },
@@ -6132,6 +6853,20 @@
     "kind": "kpop"
   },
   {
+    "artist": "IVE",
+    "title": "아이브 'After LIKE'",
+    "videoId": "F0B7HDiY-10",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'LOVE DIVE'",
+    "videoId": "Y8JFxS1HlDo",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
     "artist": "Jin",
     "title": "진 (Jin) 'The Astronaut'",
     "videoId": "c6ASQOwKkhk",
@@ -6167,6 +6902,34 @@
     "kind": "kpop"
   },
   {
+    "artist": "Kep1er",
+    "title": "케플러 l 'Up!'",
+    "videoId": "hr-325mclek",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 l 'Wing Wing'",
+    "videoId": "eK4i2oN8jCk",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 | ‘WA DA DA’",
+    "videoId": "n0j5NPptyM0",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 | ‘We Fresh'",
+    "videoId": "zkvIzKwzYNc",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
     "artist": "LE SSERAFIM",
     "title": "(르세라핌) 'ANTIFRAGILE'",
     "videoId": "pyf8cbqyfPs",
@@ -6184,6 +6947,13 @@
     "artist": "LE SSERAFIM",
     "title": "FEARLESS",
     "videoId": "4vbDFu0PUew",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'LOVE'",
+    "videoId": "vaKVbKPQOqY",
     "year": 2022,
     "kind": "kpop"
   },
@@ -6310,6 +7080,34 @@
     "artist": "NewJeans",
     "title": "(뉴진스) 'Hype Boy' Official MV (MINJI ver.)",
     "videoId": "Rrf8uQFvICE",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "'Celeb'",
+    "videoId": "vg6Iq_Es3Wk",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "'Everyday'",
+    "videoId": "T2BUvCcqk8I",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "'Happier (feat. Crush)'",
+    "videoId": "fc3yJgfAO6o",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "PSY",
+    "title": "'That That (prod. & feat. SUGA of BTS)'",
+    "videoId": "8dJyRm2jJ-U",
     "year": 2022,
     "kind": "kpop"
   },
@@ -6566,6 +7364,13 @@
     "kind": "kpop"
   },
   {
+    "artist": "WJSN",
+    "title": "우주소녀 WJSN 'Last Sequence'",
+    "videoId": "z0YLZmcARRU",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
     "artist": "WayV",
     "title": "威神V 'Phantom'",
     "videoId": "_1NuPFnuvEc",
@@ -6590,6 +7395,20 @@
     "artist": "Xdinary Heroes",
     "title": "Test Me\"",
     "videoId": "CL6wr7jozs8",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "YENA (최예나)",
+    "title": "SMARTPHONE",
+    "videoId": "5ncp-_GXBsU",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "YENA (최예나)",
+    "title": "SMILEY (Feat. BIBI)",
+    "videoId": "y9kkXTucnLU",
     "year": 2022,
     "kind": "kpop"
   },
@@ -6706,6 +7525,41 @@
     "kind": "kpop"
   },
   {
+    "artist": "강다니엘(KANGDANIEL), 아이브 안유진(IVE ANYUJIN)",
+    "title": "‘Move Like This (Feat. 김연아 (YUNA KIM))’",
+    "videoId": "EkiMQaWc5ZI",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "우주소녀 쪼꼬미(CHOCOME)",
+    "title": "슈퍼 그럼요(Super Yuppers!)",
+    "videoId": "vo2p352SOaM",
+    "year": 2022,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Allergy'",
+    "videoId": "XZaBkbvteBc",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'I Want That'",
+    "videoId": "Iewisp9KYRw",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'퀸카 (Queencard)'",
+    "videoId": "7HDeem-JaSY",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
     "artist": "AKMU",
     "title": "'Give Love' M/V HITS 100 MILLION VIEWS",
     "videoId": "Uqd1GMLmSVU",
@@ -6716,6 +7570,27 @@
     "artist": "AKMU",
     "title": "‘Love Lee’",
     "videoId": "EIz09kLzN9k",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'BOUNCY (K-HOT CHILLI PEPPERS)'",
+    "videoId": "U0G5OA6ZH5w",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'BOUNCY (K-HOT CHILLI PEPPERS)' Official MV Opening Sequence",
+    "videoId": "t1pxO4FZJ6w",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'미친 폼 (Crazy Form)'",
+    "videoId": "9t57C7NcjWo",
     "year": 2023,
     "kind": "kpop"
   },
@@ -6902,6 +7777,34 @@
     "kind": "kpop"
   },
   {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Cheese'",
+    "videoId": "U6l7gkrzLD0",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Groovy'",
+    "videoId": "uqrGN_BiC2g",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'MEGAPHONE'",
+    "videoId": "7IenwlC1oKc",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Ready or Not'",
+    "videoId": "0nkjjcB5oZ0",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
     "artist": "ENHYPEN",
     "title": "#ENHYPEN 'Sacrifice (Eat Me Up)'",
     "videoId": "A_r1YPQgn6w",
@@ -7021,6 +7924,48 @@
     "kind": "kpop"
   },
   {
+    "artist": "IVE",
+    "title": "아이브 'Baddie'",
+    "videoId": "Da4P2uT4mVc",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'Either Way’",
+    "videoId": "_Hu4GYtye5U",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'I AM'",
+    "videoId": "6ZUIwj3FgUY",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'I WANT'",
+    "videoId": "okVTSehE414",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'Kitsch'",
+    "videoId": "pG6iaOMV46I",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'Off The Record'",
+    "videoId": "_ApV7Lm87cg",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
     "artist": "Jimin",
     "title": "지민 (Jimin) 'Closer Than This'",
     "videoId": "zzKV_T9ybe8",
@@ -7070,6 +8015,41 @@
     "kind": "kpop"
   },
   {
+    "artist": "Kep1er",
+    "title": "케플러 X TAYO | ‘RESCUE TAYO’",
+    "videoId": "cHF0-s0kBME",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 l 'Giddy'",
+    "videoId": "w9ueRzymcU0",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 l 'Grand Prix'",
+    "videoId": "4nAdvTkoP1Q",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 | 'I do! Do you?'",
+    "videoId": "tJG13dtV464",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 | ‘Galileo’",
+    "videoId": "_Uvi-FgAsy4",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
     "artist": "LE SSERAFIM",
     "title": "(르세라핌) 'FEARLESS -Japanese ver.-'",
     "videoId": "DiGnWwgLAfE",
@@ -7101,6 +8081,13 @@
     "artist": "LE SSERAFIM",
     "title": "(르세라핌) ‘이브, 프시케 그리고 푸른 수염의 아내’",
     "videoId": "dZs_cLHfnNA",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'Beautiful Liar'",
+    "videoId": "2zXg8CbymYc",
     "year": 2023,
     "kind": "kpop"
   },
@@ -7602,6 +8589,48 @@
     "kind": "kpop"
   },
   {
+    "artist": "YENA (최예나)",
+    "title": "Hate Rodrigo (Feat. 우기 ((여자)아이들))",
+    "videoId": "1XIi9ofX2kE",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "YENA (최예나)",
+    "title": "Love War (Feat. BE'O)",
+    "videoId": "AWIpPQ6z-rk",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "YENA (최예나)",
+    "title": "WICKED LOVE",
+    "videoId": "oJ2EmLEUIto",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'CRUSH (가시)'",
+    "videoId": "AZoZbtI67Yk",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'In Bloom'",
+    "videoId": "trzeUClQIIg",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'MELTING POINT'",
+    "videoId": "LK7ca_PWEoY",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
     "artist": "aespa",
     "title": "YESUNG 예성 'Floral Sense (Feat. 윈터 of aespa)'",
     "videoId": "dK7a9rDgU3g",
@@ -7700,9 +8729,121 @@
     "kind": "kpop"
   },
   {
+    "artist": "xikers(싸이커스)",
+    "title": "'HOMEBOY'",
+    "videoId": "bqGd-JvIn0Q",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "'ROCKSTAR'",
+    "videoId": "Rr2i3L5LgeQ",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "'도깨비집 (TRICKY HOUSE)'",
+    "videoId": "HefrSFeMyPs",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "‘DO or DIE’",
+    "videoId": "wcig2Rn9Rak",
+    "year": 2023,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Revenge'",
+    "videoId": "KAymeaEyPr8",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Super Lady'",
+    "videoId": "6f3RzjXPQwA",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'Wife'",
+    "videoId": "baaNwRAhHBo",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "(여자)아이들((G)I-DLE)",
+    "title": "'클락션 (Klaxon)'",
+    "videoId": "rTKqSmX9XhQ",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
     "artist": "AKMU",
     "title": "‘Hero’",
     "videoId": "q2lyOOawg_s",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Birthday'",
+    "videoId": "H5AtTIXTbGg",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Everything (종호)'",
+    "videoId": "0FTL_zgvzAM",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'IT's You (여상, 산, 우영)'",
+    "videoId": "CeIODBamkQ0",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Ice On My Teeth'",
+    "videoId": "5OflOlcHLb8",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'MATZ (홍중, 성화)'",
+    "videoId": "3PA5FG1NX9U",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'NOT OKAY'",
+    "videoId": "oc_2sjQXa0Q",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'WORK'",
+    "videoId": "VGnOpZhsPk4",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Youth (윤호, 민기)'",
+    "videoId": "Wv1moh1Dvqw",
     "year": 2024,
     "kind": "kpop"
   },
@@ -7917,6 +9058,27 @@
     "kind": "kpop"
   },
   {
+    "artist": "CRAVITY",
+    "title": "크래비티 'C'est La Vie'",
+    "videoId": "A7gXSXm1Vvs",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Love or Die'",
+    "videoId": "nnBiA1iq8r0",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Now or Never'",
+    "videoId": "wn1ZKGXZt-A",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
     "artist": "DAY6",
     "title": "(데이식스) \"Welcome to the Show\"",
     "videoId": "RowlrvmyFEk",
@@ -8127,6 +9289,83 @@
     "kind": "kpop"
   },
   {
+    "artist": "IU",
+    "title": "Love wins all'",
+    "videoId": "JleoAppaxi0",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IU",
+    "title": "Shh.. (Feat. HYEIN, 조원선 & Special Narr. 패티김)'",
+    "videoId": "VIDQTyNmkN4",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IU",
+    "title": "Shopper'",
+    "videoId": "kHW-UVXOcLU",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IU",
+    "title": "홀씨(Holssi)'",
+    "videoId": "mFbILexYSQg",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": ", David Guetta, BE@RBRICK 'Supernova Love'",
+    "videoId": "Wwb-U41oLIc",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'Accendio'",
+    "videoId": "PGLx4V680J8",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'All Night (Feat. Saweetie)'",
+    "videoId": "xU8mQMLx0tk",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'SUMMER FESTA'",
+    "videoId": "9adnWMIVHQ0",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 '해야 (HEYA)'",
+    "videoId": "07EzMbVH3QE",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE, David Guetta",
+    "title": "Supernova Love",
+    "videoId": "fyk6vjwI3wc",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE, David Guetta",
+    "title": "Supernova Love MV BTS",
+    "videoId": "vS4xzjHCI1o",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
     "artist": "J.Y. Park, Stray Kids, ITZY, NMIXX",
     "title": "\"Like Magic\"",
     "videoId": "t6bBDAlpQZs",
@@ -8179,6 +9418,27 @@
     "artist": "Jin",
     "title": "진 (Jin) 'Running Wild' MV OUT NOW #진 #Jin #Jin_RunningWild #Jin_Happy",
     "videoId": "r059DKnXi3w",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er (케플러)",
+    "title": "TIPI-TAP",
+    "videoId": "hznUlMSRIfs",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 l 'Straight Line'",
+    "videoId": "-8ECgGWuoew",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 | 'TIPI-TAP'",
+    "videoId": "gXCCiVqI_VQ",
     "year": 2024,
     "kind": "kpop"
   },
@@ -8925,6 +10185,41 @@
     "kind": "kpop"
   },
   {
+    "artist": "YENA (최예나)",
+    "title": "Good Morning",
+    "videoId": "BRaR-vc1Hs4",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "YENA (최예나)",
+    "title": "네모네모 (NEMONEMO)",
+    "videoId": "j_kWethGokY",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'Feel the POP'",
+    "videoId": "L9Ts6kiEAts",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'GOOD SO BAD'",
+    "videoId": "V5ACuj_jOnc",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'ゆらゆら -運命の花-'",
+    "videoId": "xx8qT6H8bkM",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
     "artist": "ZICO",
     "title": "(지코) ‘SPOT! (feat. JENNIE)’",
     "videoId": "xfqBQ2XhBCg",
@@ -9034,6 +10329,48 @@
     "title": "(프로미스나인) 'Supersonic'",
     "videoId": "0LiQp7y8Wwc",
     "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "'Tsuki (Lunatic)'",
+    "videoId": "oAnvhI0gl8s",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "‘We Don’t Stop’",
+    "videoId": "_mha4kFtHD4",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "‘위치 (WITCH)’",
+    "videoId": "Se6lN0a4-28",
+    "year": 2024,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Ash'",
+    "videoId": "cRFWo5vWrcw",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'In Your Fantasy'",
+    "videoId": "JOF2ZTqvzwY",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Lemon Drop'",
+    "videoId": "H4H99b1CjPU",
+    "year": 2025,
     "kind": "kpop"
   },
   {
@@ -9222,6 +10559,20 @@
     "artist": "BoA",
     "title": "보아 'Crazier'",
     "videoId": "H07Zz90QE3E",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'Lemonade Fever'",
+    "videoId": "SksA5JlCtI8",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "CRAVITY",
+    "title": "크래비티 'SET NET G0?!'",
+    "videoId": "IV6yrrLyhCA",
     "year": 2025,
     "kind": "kpop"
   },
@@ -9436,6 +10787,62 @@
     "kind": "kpop"
   },
   {
+    "artist": "IU",
+    "title": "8월의 크리스마스를 오마주한 '네버 엔딩 스토리' MV #아이유 #IU #NeverEndingStory",
+    "videoId": "atFssXKJGAs",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IU",
+    "title": "Never Ending Story'",
+    "videoId": "6J9ixwhDYSM",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IU",
+    "title": "미인 (Feat. Balming Tiger)'",
+    "videoId": "l5Z1PBJLUss",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "JOOHONEY 주헌 'Push (Feat. 레이 (IVE))'",
+    "videoId": "AlwlzC_6fu8",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "JOOHONEY 주헌 'Push (Feat. 레이 (IVE))'",
+    "videoId": "eDSb9J1DJKc",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'ATTITUDE'",
+    "videoId": "38xYeot-ciM",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'REBEL HEART'",
+    "videoId": "g36q0ZLvygQ",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 ‘XOXZ’",
+    "videoId": "B1ShLiq3EVc",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
     "artist": "Jin",
     "title": "#진 (#Jin) 'Don’t Say You Love Me' MV OUT NOW #Jin_Echo #Dont_Say_You_Love_Me",
     "videoId": "hDqRAGR2Elk",
@@ -9460,6 +10867,27 @@
     "artist": "KANG SEUNG YOON",
     "title": "'ME (美)' M/V OUT NOW #KANGSEUNGYOON #WINNER #2ndFULLALBUM #PAGE2 #ME #OUTNOW",
     "videoId": "VaMbRB1DPgU",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er (케플러)",
+    "title": "BUBBLE GUM",
+    "videoId": "dtvT082JKoQ",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 l 'BUBBLE GUM'",
+    "videoId": "MZm4qcvbvbQ",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 | 'Yum'",
+    "videoId": "3nMOUzBZ0ZI",
     "year": 2025,
     "kind": "kpop"
   },
@@ -9495,6 +10923,34 @@
     "artist": "LE SSERAFIM",
     "title": "(르세라핌) 'Kawaii (Prod. Gen Hoshino)'",
     "videoId": "DY4ckIx94xw",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'Do What I Want'",
+    "videoId": "4PGX1ZYvzvo",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'N the Front'",
+    "videoId": "ykFHzr0oVog",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'baby blue'",
+    "videoId": "PxZej9IEVxc",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'baby blue' MV #MONSTAX #몬스타엑스",
+    "videoId": "GxCbJ9a5HZU",
     "year": 2025,
     "kind": "kpop"
   },
@@ -9933,6 +11389,48 @@
     "kind": "kpop"
   },
   {
+    "artist": "YENA (최예나)",
+    "title": "착하다는 말이 제일 싫어 (Being a Good Girl Hurts)",
+    "videoId": "m0SgymNMkpI",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'BLUE'",
+    "videoId": "2hwiRN8t8Ok",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'Doctor! Doctor!'",
+    "videoId": "9BXF8gSpEwY",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'ICONIK'",
+    "videoId": "HnYtDIW7elY",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'NOW OR NEVER'",
+    "videoId": "whrNetEPe_M",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) 'SLAM DUNK'",
+    "videoId": "05P1XXRmOYI",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
     "artist": "ZICO",
     "title": "(지코), Lilas (YOASOBI’s ikura) ‘DUET’",
     "videoId": "sssoyDLFPWE",
@@ -10010,6 +11508,27 @@
     "kind": "kpop"
   },
   {
+    "artist": "xikers(싸이커스)",
+    "title": "'SUPERPOWER (Peak)'",
+    "videoId": "26TTuFQXEW4",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "'Up All Night'",
+    "videoId": "Iy8-qPT8rQE",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
+    "artist": "xikers(싸이커스)",
+    "title": "‘BREATHE’",
+    "videoId": "aUMr0Oi1I-E",
+    "year": 2025,
+    "kind": "kpop"
+  },
+  {
     "artist": "이찬혁 (LEE CHANHYUK)",
     "title": "'돌아버렸어' M/V OUT NOW #LEECHANHYUK #AKMU #2ndFULLALBUM #EROS #돌아버렸어 #MV #OUTNOW",
     "videoId": "HCibLAM7Ifc",
@@ -10041,6 +11560,13 @@
     "artist": "AKMU",
     "title": "'소문의 낙원 (Paradise of Rumors)'",
     "videoId": "D54StAZFUrc",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ATEEZ(에이티즈)",
+    "title": "'Adrenaline'",
+    "videoId": "vqkfEUqjl6Y",
     "year": 2026,
     "kind": "kpop"
   },
@@ -10111,6 +11637,62 @@
     "artist": "ILLIT",
     "title": "(아일릿) 'Sunday Morning’",
     "videoId": "-01oDwXKSuE",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'BANG BANG'",
+    "videoId": "9qkpcLK422o",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "IVE",
+    "title": "아이브 'BLACKHOLE'",
+    "videoId": "1Lmy7qwmSMc",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er (케플러)",
+    "title": "KILLA (Face the other me)",
+    "videoId": "r7b2N8UAU0M",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "Kep1er",
+    "title": "케플러 l 'KILLA (Face the other me)'",
+    "videoId": "AMwK8YGZGnU",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'growing pains' Self-cam",
+    "videoId": "6oeAGAM2BIE",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'growing pains' Self-cam",
+    "videoId": "tUHmmMqV7pI",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'heal'",
+    "videoId": "2EFwncas9Z4",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "MONSTA X",
+    "title": "몬스타엑스 'heal' MV #MONSTAX #몬스타엑스",
+    "videoId": "c_i0CzqF42s",
     "year": 2026,
     "kind": "kpop"
   },
@@ -10199,9 +11781,44 @@
     "kind": "kpop"
   },
   {
+    "artist": "WJSN",
+    "title": "우주소녀 WJSN 'Bloom hour'",
+    "videoId": "ItvDjeiqdlE",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
     "artist": "Xdinary Heroes",
     "title": "X room\"",
     "videoId": "kG68WXnzSbQ",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "YENA (최예나)",
+    "title": "캐치 캐치 (Catch Catch)",
+    "videoId": "NOiyDlWl534",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) ‘LOVEPOCALYPSE’",
+    "videoId": "nYueShCPYUY",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) ‘ROSES’",
+    "videoId": "JUeZL0TyT3I",
+    "year": 2026,
+    "kind": "kpop"
+  },
+  {
+    "artist": "ZEROBASEONE",
+    "title": "(제로베이스원) ‘Running to Future’",
+    "videoId": "v5_GoNFr5wc",
     "year": 2026,
     "kind": "kpop"
   },

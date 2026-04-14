@@ -1,7 +1,651 @@
 {
   "dramas": [
     {
-      "drama_name": "대장금/Jewel in the palace",
+      "drama_name": "펜트하우스1/ThePenthouse",
+      "drama_name_en": "",
+      "channel": "SBS 스브스 Drama",
+      "country": "kr",
+      "episode_count": 20,
+      "year": 2023,
+      "thumbnail": "yCbeyETQ1cQ",
+      "episodes": [
+        {
+          "no": 1,
+          "title1": "EP.1",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "yCbeyETQ1cQ",
+              "title": "펜트하우스 1회 요약🔥 시작부터 불륜💔?! 본격 그들이 사는 세상..! 대서사의 시작🏠 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2083
+            }
+          ],
+          "duration": 2083
+        },
+        {
+          "no": 2,
+          "title1": "EP.2",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "KUHazeiwEjk",
+              "title": "펜트하우스 2회 요약 | 너 따위가 어딜! 무시는 기본, 괴롭힘은 옵션 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2089
+            }
+          ],
+          "duration": 2089
+        },
+        {
+          "no": 3,
+          "title1": "EP.3",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "DlAUJDF9tYE",
+              "title": "펜트하우스 3회 요약🚫 아기는 건들이면 안되지 주단태... 남편은 내 전 남편을 죽이고 내 딸마저 앗아갔다 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2046
+            }
+          ],
+          "duration": 2046
+        },
+        {
+          "no": 4,
+          "title1": "EP.4",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "ruDSAbzHdM4",
+              "title": "펜트하우스 4회 요약 🏠 펜트하우스에서 일어난 살인 사건! 집값 떨어지는 소리 하지 마! #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2108
+            }
+          ],
+          "duration": 2108
+        },
+        {
+          "no": 5,
+          "title1": "EP.5",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "mzmeqeN77eo",
+              "title": "펜트하우스 5회 요약🤫 살인 사건 속 감춘 비밀들, 따라다니는 죽음의 그림자👻 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2141
+            }
+          ],
+          "duration": 2141
+        },
+        {
+          "no": 6,
+          "title1": "EP.6",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "tNn7KAIeRGc",
+              "title": "펜트하우스 6회 요약💣 살인은 또 다른 살인을, 복수는 또 다른 복수를 낳는다 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2106
+            }
+          ],
+          "duration": 2106
+        },
+        {
+          "no": 7,
+          "title1": "EP.7",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "tyFu8RYcaeo",
+              "title": "펜트하우스 7회 요약💔 인생은 한 방이야!💸 새로운 관계의 시작 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2011
+            }
+          ],
+          "duration": 2011
+        },
+        {
+          "no": 8,
+          "title1": "EP.8",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "PdgSV5SW7Xs",
+              "title": "펜트하우스 13회 요약💥헤라펠리스 내부에 민설아를 죽인 범인이 있다? #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2038
+            }
+          ],
+          "duration": 2038
+        },
+        {
+          "no": 9,
+          "title1": "EP.9",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "GqWanaZ_Ue8",
+              "title": "펜트하우스 14회 요약🤝 범인을 잡기 위해 로건리와 손을 잡은 심수련 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2117
+            }
+          ],
+          "duration": 2117
+        },
+        {
+          "no": 10,
+          "title1": "EP.10",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "Q-qzYLysXn8",
+              "title": "펜트하우스 16회 요약 😏내 자식을 위해 마두기를 이용하는 천서진과 주단태 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2186
+            }
+          ],
+          "duration": 2186
+        },
+        {
+          "no": 11,
+          "title1": "EP.11",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "j1TwqdhTgzQ",
+              "title": "펜트하우스 15회 요약 ✨청아재단 이사장의 자리를 받다? #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2139
+            }
+          ],
+          "duration": 2139
+        },
+        {
+          "no": 12,
+          "title1": "EP.12",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "90bMrxEb7BM",
+              "title": "펜트하우스 17회 요약😱민설아를 죽인 범인이 바로 나? #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2165
+            }
+          ],
+          "duration": 2165
+        },
+        {
+          "no": 13,
+          "title1": "EP.13",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "djmC07m3buE",
+              "title": "펜트하��스 18회 요약😈심수련을 배신하고 주단태와 손을 잡은 오윤희 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2169
+            }
+          ],
+          "duration": 2169
+        },
+        {
+          "no": 14,
+          "title1": "EP.14",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "S_4Srnu-JGA",
+              "title": "펜트하우스 9회 요약👀 맑은 눈의 광인이 다 이기는 세계관?! 주단태 머리 위에 있는 심수련 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2147
+            }
+          ],
+          "duration": 2147
+        },
+        {
+          "no": 15,
+          "title1": "EP.15",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "TVNpuCTdlbM",
+              "title": "펜트하우스 10회 요약🔄 가까운 과거와 먼 과거.. 현실의 부메랑이 되어 돌아올지어다.. #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2052
+            }
+          ],
+          "duration": 2052
+        },
+        {
+          "no": 16,
+          "title1": "EP.16",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "XgLnCUhgkbw",
+              "title": "펜트하우스 11회 요약💔 우리 이혼해!! 안 해!! 도대체 나한테 왜 이래…! 반전의 반전🫢 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2048
+            }
+          ],
+          "duration": 2048
+        },
+        {
+          "no": 17,
+          "title1": "EP.17",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "DEEcrk-pAX0",
+              "title": "펜트하우스 8회 요약🥸 미스터’리’ 구호동의 등장! 더 단단해지는 수련과 윤희👭 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2087
+            }
+          ],
+          "duration": 2087
+        },
+        {
+          "no": 18,
+          "title1": "EP.18",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "V2kEhxhLdCA",
+              "title": "[#습포이드] 펜트하우스 19회 요약😡 내 딸을 죽인 범인이 내 친구란 걸 알았을 때 #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2166
+            }
+          ],
+          "duration": 2166
+        },
+        {
+          "no": 19,
+          "title1": "EP.19",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "qzQaQpKuO2g",
+              "title": "펜트하우스 20회 요약🥲천서진 심수련에게 무릎을 꿇다?!",
+              "duration": 2157
+            }
+          ],
+          "duration": 2157
+        },
+        {
+          "no": 20,
+          "title1": "EP.20",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "ARVz_N1D7Vc",
+              "title": "[#습포이드] 펜트하우스 21회 요약🔥 심수련을 죽인 자는 누구? #펜트하우스 #ThePenthouse #SBSdrama",
+              "duration": 2110
+            }
+          ],
+          "duration": 2110
+        }
+      ]
+    },
+    {
+      "drama_name": "펜트하우스3/ThePenthouse",
+      "drama_name_en": "",
+      "channel": "SBS 스브스 Drama",
+      "country": "kr",
+      "episode_count": 14,
+      "year": 2024,
+      "thumbnail": "I-ORwI2wujQ",
+      "episodes": [
+        {
+          "no": 1,
+          "title1": "EP.1",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "I-ORwI2wujQ",
+              "title": "펜트하우스3 1회 요약 | 끈질긴 악인들의 컴백♾️ 믿을 사람 하나 없네... #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2168
+            }
+          ],
+          "duration": 2168
+        },
+        {
+          "no": 2,
+          "title1": "EP.2",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "8NHsjz5NdCc",
+              "title": "펜트하우스3 2회 요약 | 이기적인 욕망이 불러온 재앙☠️ #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2172
+            }
+          ],
+          "duration": 2172
+        },
+        {
+          "no": 3,
+          "title1": "EP.3",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "RLcG0EFYuv0",
+              "title": "펜트하우스3 3회 요약 | 아직도 형만 보면 가슴이 미친 듯이 뛰어...😏💔 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2151
+            }
+          ],
+          "duration": 2151
+        },
+        {
+          "no": 4,
+          "title1": "EP.4",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "9sf2Ol-kOfk",
+              "title": "펜트하우스3 4회 요약 | 그들의 묘한 커넥션... 그리고 또다시 발생한 사건🩸 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2099
+            }
+          ],
+          "duration": 2099
+        },
+        {
+          "no": 5,
+          "title1": "EP.5",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "lmUN-peuOaM",
+              "title": "펜트하우스3 5회 요약 | 타인의 불행은 자신의 기회가 되는 이 세계관🤯 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2161
+            }
+          ],
+          "duration": 2161
+        },
+        {
+          "no": 6,
+          "title1": "EP.6",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "KriepJ1P3j8",
+              "title": "펜트하우스3 6회 요약 | 얽힌 실타래를 풀어야 해🧐 공공의 적을 두고 힘을 합친 그들🤝 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2168
+            }
+          ],
+          "duration": 2168
+        },
+        {
+          "no": 7,
+          "title1": "EP.7",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "2gIs5UBd5qI",
+              "title": "펜트하우스3 7회 요약 | 우리 아빠가 범인이라고...?! 믿고싶지 않은 그날의 진실😰 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2073
+            }
+          ],
+          "duration": 2073
+        },
+        {
+          "no": 8,
+          "title1": "EP.8",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "3Ff-v9knafg",
+              "title": "펜트하우스3 8회 요약 | 내 복수의 계기는 너야 심수련...👿 열등감이 복수로 태어났다🩸 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2229
+            }
+          ],
+          "duration": 2229
+        },
+        {
+          "no": 9,
+          "title1": "EP.9",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "Nry11ORQtWI",
+              "title": "펜트하우스3 9회 요약 | N과 S극처럼 떨어질 수 없는 단태❤️서��� 나락 갈 때도 함께하자 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2204
+            }
+          ],
+          "duration": 2204
+        },
+        {
+          "no": 10,
+          "title1": "EP.10",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "0wsLAxOo6Ts",
+              "title": "펜트하우스3 10회 요약 | 그걸 믿냐? 바보 주단탱 아니 백준기? 속고 속이는🌀 게임 시작 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2166
+            }
+          ],
+          "duration": 2166
+        },
+        {
+          "no": 11,
+          "title1": "EP.11",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "mzx6q91s35I",
+              "title": "펜트하우스3 11회 요약 | 그냥 보내줄 순 없지 똑같이 당해봐! 산지옥이 뭔지 알려줄게🪦 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2214
+            }
+          ],
+          "duration": 2214
+        },
+        {
+          "no": 12,
+          "title1": "EP.12",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "43ii-9e8l_M",
+              "title": "펜트하우스3 12회 요약 | 이야기의 끝을 내야지... 헤라팰리스의 붕괴?!🫨 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2244
+            }
+          ],
+          "duration": 2244
+        },
+        {
+          "no": 13,
+          "title1": "EP.13",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "pfIjgoiC1-Q",
+              "title": "펜트하우스3 13회 요약 | 악랄함과 간사함의 끝을 보는 천서진🩸 보는 내가 머리 터질 것 같아🤯 #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2177
+            }
+          ],
+          "duration": 2177
+        },
+        {
+          "no": 14,
+          "title1": "EP.14",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "XuD23_9d4vI",
+              "title": "펜트하우스3 14회 요약 | 모든 비극의 시작은 나였으니까... 다시 되돌려 놓을게😢 이제 정말 놓아줄게 (찐찐찐최종) #펜트하우스3 #ThePenthouse3 #SBSdrama",
+              "duration": 2151
+            }
+          ],
+          "duration": 2151
+        }
+      ]
+    },
+    {
+      "drama_name": "펜트하우스2/ThePenthouse",
+      "drama_name_en": "",
+      "channel": "SBS 스브스 Drama",
+      "country": "kr",
+      "episode_count": 13,
+      "year": 2024,
+      "thumbnail": "XgbUenq6mMQ",
+      "episodes": [
+        {
+          "no": 1,
+          "title1": "EP.1",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "XgbUenq6mMQ",
+              "title": "펜트하우스2 1회 요약 | 모든 게 완벽해 보였는데... 다시 시작된 비극🩸 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2198
+            }
+          ],
+          "duration": 2198
+        },
+        {
+          "no": 2,
+          "title1": "EP.2",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "DYvjQ8zYPkw",
+              "title": "펜트하우스2 2회 요약 | 내 여자한테 함부로 대하지 마😡 윤철과 윤희가 자꾸만 신경 쓰인다... #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2180
+            }
+          ],
+          "duration": 2180
+        },
+        {
+          "no": 3,
+          "title1": "EP.3",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "kRowiBfGBHM",
+              "title": "펜트하우스2 3회 요약 | 거긴 네 자리가 아냐😏 은퇴해 가짜 소프라노 천서진👄 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2188
+            }
+          ],
+          "duration": 2188
+        },
+        {
+          "no": 4,
+          "title1": "EP.4",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "mt__OsrafDs",
+              "title": "펜트하우스2 4회 요약 | 로나의 컴백💫 네가 못 이룬 꿈 내가 이뤄줄게... 근데 그게 쉽게 되겠어?😏 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2166
+            }
+          ],
+          "duration": 2166
+        },
+        {
+          "no": 5,
+          "title1": "EP.5",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "aV8qly5L6xg",
+              "title": "펜트하우스2 5회 요약 | 죽여서라도 이겨야 돼 은별아...😡 대상🏆이 그렇게 받고 싶었어?! #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 1960
+            }
+          ],
+          "duration": 1960
+        },
+        {
+          "no": 6,
+          "title1": "EP.6",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "wqYOEOtJJ1A",
+              "title": "펜트하우스2 6회 요약 | 딸바보 천서진&오윤희🥰 근데 조금 엇나간...❤️‍🩹 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2077
+            }
+          ],
+          "duration": 2077
+        },
+        {
+          "no": 7,
+          "title1": "EP.7",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "HfQt-WOLJW4",
+              "title": "펜트하우스2 7회 요약 | 심수련 아니 나애교🦋의 등장! 그리고 밝혀지는 그 날의 진실😱 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2158
+            }
+          ],
+          "duration": 2158
+        },
+        {
+          "no": 8,
+          "title1": "EP.8",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "6vdkaq7yjuY",
+              "title": "펜트하우스2 8회 요약 | 배신하면 죽음 뿐☠️ 악랄한 주단태의 실체 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2178
+            }
+          ],
+          "duration": 2178
+        },
+        {
+          "no": 9,
+          "title1": "EP.9",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "jiQVCtaHeHE",
+              "title": "펜트하우스2 9회 요약 | 사랑하는 사람들을 위해 다 포기하고 결혼하는 천서진😰 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2102
+            }
+          ],
+          "duration": 2102
+        },
+        {
+          "no": 10,
+          "title1": "EP.10",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "FcyWM_9ep8Y",
+              "title": "펜트하우스2 10회 요약 | 의심이 확신이 된 순간🫨 이거 맞아? #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2189
+            }
+          ],
+          "duration": 2189
+        },
+        {
+          "no": 11,
+          "title1": "EP.11",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "bJh3c8mUFKk",
+              "title": "펜트하우스2 11회 요약 | 당하기만 하면 천서진이 아니지🫤 어머!! 단태씨~🫢 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2186
+            }
+          ],
+          "duration": 2186
+        },
+        {
+          "no": 12,
+          "title1": "EP.12",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "sKvbhfKfUOw",
+              "title": "펜트하우스2 12회 요약 | 심수련이 깔아둔 판에 제대로 놀아난 주단태🚨 벌받는 거예요😒 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2053
+            }
+          ],
+          "duration": 2053
+        },
+        {
+          "no": 13,
+          "title1": "EP.13",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "JS3ec-lLRQ4",
+              "title": "펜트하우스2 13회 요약 | 증거 다 있는데 발뺌해? 정신 못차린 사람들 혼쭐내주기 성공한 심수련😎 #펜트하우스2 #ThePenthouse2 #SBSdrama",
+              "duration": 2096
+            }
+          ],
+          "duration": 2096
+        }
+      ]
+    },
+    {
+      "drama_name": "[#대장금/Jewel in the palace] 1-4회",
       "drama_name_en": "",
       "channel": "옛드 : MBC 옛날 드라마",
       "country": "kr",

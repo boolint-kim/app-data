@@ -1,6 +1,199 @@
 {
   "dramas": [
     {
+      "drama_name": "대장금",
+      "drama_name_en": "",
+      "channel": "옛드 : MBC 옛날 드라마",
+      "country": "kr",
+      "episode_count": 14,
+      "year": 2024,
+      "thumbnail": "_BxrdQDv_iU",
+      "episodes": [
+        {
+          "no": 9,
+          "title1": "EP.1",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "_BxrdQDv_iU",
+              "title": "[#대장금] 53-54(최종회) | 민정호와 딸과 함께 다시 궁으로 돌아가는 장금! 대장금 그 이야기의 끝은?#Jewel in the palace🔥 MBC040322방송",
+              "duration": 5008
+            }
+          ],
+          "duration": 5008
+        },
+        {
+          "no": 8,
+          "title1": "EP.2",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "tdVuqSYPllU",
+              "title": "[#대장금] 49-52회 |오랜 인연이었던 장금이와 중종? 장금이를 향한 민정호와 중종의 대결? #Jewel in the palace MBC040308방송",
+              "duration": 8614
+            }
+          ],
+          "duration": 8614
+        },
+        {
+          "no": 7,
+          "title1": "EP.3",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "MIbd1Na0Uk0",
+              "title": "[#대장금] 45-48회 | 🔥복수 성공최고 상궁이 된 장금이! 궁에서 쫓겨난 최상궁과 금영의 결말은? #Jewel in the palace MBC040223방송",
+              "duration": 9078
+            }
+          ],
+          "duration": 9078
+        },
+        {
+          "no": 6,
+          "title1": "EP.4",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "0FQugwwHJ4E",
+              "title": "[#대장금] 41-44회 | 한상궁의 복수를 시작한 장금이?! ＂니까짓게!!!＂ 싸움은 이제부터다!#Jewel in the palace🔥 MBC040209방송",
+              "duration": 8781
+            }
+          ],
+          "duration": 8781
+        },
+        {
+          "no": 5,
+          "title1": "EP.5",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "3retnuRDqak",
+              "title": "[#대장금] 37-40회 | 장금이를 쫒아내려는 또 다른 방해꾼 등장? 장금이와 내기를 하게된 대비! 승자는 누구?#Jewel in the palace MBC040126방송",
+              "duration": 8914
+            }
+          ],
+          "duration": 8914
+        },
+        {
+          "no": 6,
+          "title1": "EP.6",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "AChoWr4JLlk",
+              "title": "[#대장금] 33-36회 | 다시 만난 장금이와 금영! 그리고 최상궁!? 🔥복수를 하기 위해 의녀가 된 장금이?#Jewel in the palace🔥MBC40112방송",
+              "duration": 8908
+            }
+          ],
+          "duration": 8908
+        },
+        {
+          "no": 7,
+          "title1": "EP.7",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "_Kli2Kx8UQ8",
+              "title": "[#대장금/Jewel in the palace] 29-32회 | 장금이에게 생긴 또 다른 스승님들?! 인복 터지는 장금이의 새로운 도전은 의녀 시험?! MBC031222방송",
+              "duration": 8887
+            }
+          ],
+          "duration": 8887
+        },
+        {
+          "no": 4,
+          "title1": "EP.8",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "pkhAolsFuos",
+              "title": "[#대장금/Jewel in the palace] 25-28회 | 최상궁의 음모로 제주로 유배를 가게된 장금이와 한상궁?! 그곳에서 목숨을 잃다...?!MBC031208방송",
+              "duration": 9275
+            }
+          ],
+          "duration": 9275
+        },
+        {
+          "no": 3,
+          "title1": "EP.9",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "QGcnAI7bCDc",
+              "title": "[#대장금/Jewel in the palace] 21-24회 | 마지막 경합!? 한상궁vs최상궁의 대결!⚠️ 어머니의 친구를 드디어 찾아낸 장금MBC031124방송",
+              "duration": 8952
+            }
+          ],
+          "duration": 8952
+        },
+        {
+          "no": 10,
+          "title1": "EP.10",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "Msql2O2IKL4",
+              "title": "[#대장금/Jewel in the palace] 17-20회 | 사신을 감동시키고 중전의 입맛을 사로잡은 장금이?! 요리를 향한 장금이의 뚝심!?🔥 MBC031110방송",
+              "duration": 8796
+            }
+          ],
+          "duration": 8796
+        },
+        {
+          "no": 11,
+          "title1": "EP.11",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "17d9sbEPiIs",
+              "title": "[#대장금/Jewel in the palace] 13-16회 | 민정호의 목숨을 구해준 장금이와의 인연? 노을진 바다에서 둘만의 데이트?✨MBC031027방송",
+              "duration": 9210
+            }
+          ],
+          "duration": 9210
+        },
+        {
+          "no": 12,
+          "title1": "EP.12",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "Mk9ZQ8df0OQ",
+              "title": "[#대장금/Jewel in the palace] 9-12회 | 미각을 잃은 장금이?🍚  한상궁과 팀이 되어 경합을!?  MBC031013방송",
+              "duration": 9810
+            }
+          ],
+          "duration": 9810
+        },
+        {
+          "no": 2,
+          "title1": "EP.13",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "wSVwVv-1O80",
+              "title": "[#대장금/Jewel in the palace] 5-8회 | 내금위행으로 끌려간 장금이? 금영을 돕다가 수랏간에서 쫒겨나게 생기다?! 장금이의 운명은?MBC030929방송",
+              "duration": 9021
+            }
+          ],
+          "duration": 9021
+        },
+        {
+          "no": 1,
+          "title1": "EP.14",
+          "parts": [
+            {
+              "part": 1,
+              "videoid": "JzAOM5EvsX4",
+              "title": "[#대장금/Jewel in the palace] 1-4회 | 시청률 57.8% MBC레전드 드라마 몰아보기 장금이의 사랑과 성장스토리 x이영애💜 MBC030915방송",
+              "duration": 8993
+            }
+          ],
+          "duration": 8993
+        }
+      ]
+    },
+    {
       "drama_name": "A Beautiful Mind 뷰티풀마인드",
       "drama_name_en": "",
       "channel": "KBS World TV",

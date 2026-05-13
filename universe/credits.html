@@ -1,64 +1,195 @@
-Universe
-인류가 우주를 관측해 공개한 이미지를 매일 큐레이션하는 안드로이드 앱.
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0A0A0F">
+  <title>Universe — 출처 / Credits</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0A0A0F;
+      --fg: #E7E7EA;
+      --muted: rgba(231, 231, 234, 0.6);
+      --accent: #FFC547;
+      --border: rgba(231, 231, 234, 0.15);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo",
+                   "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 6px;
+      letter-spacing: -0.5px;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 40px 0 16px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .source {
+      margin-bottom: 22px;
+    }
+    .source-name {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0 0 4px;
+      color: var(--accent);
+    }
+    .source-meta {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 0 0 6px;
+    }
+    .source-attr {
+      font-size: 13px;
+      color: var(--fg);
+      margin: 0;
+      opacity: 0.92;
+    }
+    p {
+      margin: 0 0 12px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+    }
+    a:hover, a:focus {
+      border-bottom-color: var(--accent);
+    }
+    ul {
+      padding-left: 20px;
+      margin: 8px 0;
+    }
+    li {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+    .note {
+      font-size: 13px;
+      color: var(--muted);
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin: 16px 0;
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
 
-이 페이지는 본 앱이 사용하는 모든 데이터원·라이브러리·플랫폼의 출처와 라이선스를 정리합니다.
+  <h1>Universe</h1>
+  <p class="lead">인류가 우주를 관측해 공개한 이미지를 매일 큐레이션하는 안드로이드 앱.</p>
+  <p class="lead">이 페이지는 본 앱이 사용하는 모든 데이터원·라이브러리·플랫폼의 출처와 라이선스를 정리합니다.</p>
 
-이미지 데이터 / Image Sources
-NASA SDO — Solar Dynamics Observatory
+  <h2>이미지 데이터 / Image Sources</h2>
 
-Public Domain · sdo.gsfc.nasa.gov
+  <div class="source">
+    <p class="source-name">NASA SDO — Solar Dynamics Observatory</p>
+    <p class="source-meta">Public Domain · <a href="https://sdo.gsfc.nasa.gov" target="_blank" rel="noopener">sdo.gsfc.nasa.gov</a></p>
+    <p class="source-attr">"Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams"</p>
+  </div>
 
-"Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams"
+  <div class="source">
+    <p class="source-name">NASA APOD — Astronomy Picture of the Day</p>
+    <p class="source-meta">Public Domain (기본) / 사진가 저작권 (copyright 필드가 있는 일자) · <a href="https://apod.nasa.gov" target="_blank" rel="noopener">apod.nasa.gov</a></p>
+    <p class="source-attr">"NASA / Astronomy Picture of the Day" · copyright 필드가 있는 일자는 해당 카드에서 사진가를 별도 명시</p>
+  </div>
 
-NASA APOD — Astronomy Picture of the Day
+  <div class="source">
+    <p class="source-name">NASA SVS — Moon Phase &amp; Libration 2026</p>
+    <p class="source-meta">Public Domain · <a href="https://svs.gsfc.nasa.gov/5587/" target="_blank" rel="noopener">svs.gsfc.nasa.gov/5587/</a></p>
+    <p class="source-attr">"NASA's Scientific Visualization Studio"</p>
+  </div>
 
-Public Domain (기본) / 사진가 저작권 (copyright 필드가 있는 일자) · apod.nasa.gov
+  <div class="source">
+    <p class="source-name">NASA DSCOVR EPIC — Earth Polychromatic Imaging Camera (L1)</p>
+    <p class="source-meta">Public Domain · <a href="https://epic.gsfc.nasa.gov" target="_blank" rel="noopener">epic.gsfc.nasa.gov</a></p>
+    <p class="source-attr">"NASA / DSCOVR EPIC"</p>
+  </div>
 
-"NASA / Astronomy Picture of the Day" · copyright 필드가 있는 일자는 해당 카드에서 사진가를 별도 명시
+  <div class="source">
+    <p class="source-name">ESA/Hubble Space Telescope</p>
+    <p class="source-meta">CC BY 4.0 · <a href="https://esahubble.org" target="_blank" rel="noopener">esahubble.org</a></p>
+    <p class="source-attr">"Image: ESA/Hubble &amp; NASA, {Acknowledgement}"</p>
+  </div>
 
-NASA SVS — Moon Phase & Libration 2026
+  <div class="source">
+    <p class="source-name">ESA/Webb Space Telescope (JWST)</p>
+    <p class="source-meta">CC BY 4.0 · <a href="https://esawebb.org" target="_blank" rel="noopener">esawebb.org</a></p>
+    <p class="source-attr">"Image: NASA, ESA, CSA, STScI"</p>
+  </div>
 
-Public Domain · svs.gsfc.nasa.gov/5587/
+  <div class="source">
+    <p class="source-name">ESO — European Southern Observatory</p>
+    <p class="source-meta">CC BY 4.0 (대부분) · <a href="https://www.eso.org/public/" target="_blank" rel="noopener">www.eso.org/public/</a></p>
+    <p class="source-attr">"Credit: ESO" 또는 "ESO/{기여자명}"</p>
+  </div>
 
-"NASA's Scientific Visualization Studio"
+  <h2>CC BY 4.0 컷의 사용에 대해</h2>
+  <p class="note">
+    본 앱이 사용하는 ESA/Hubble, ESA/Webb, ESO 컷은 모두 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 International</a> 라이선스로 배포됩니다. 본 라이선스는 적절한 출처 표기와 라이선스 링크 명시를 조건으로 상업적 이용을 포함한 다양한 사용을 허가합니다. 본 앱은 모든 이미지에 카드별 출처를 명시하며, 본 페이지의 권장 표기 문구를 그대로 따릅니다. ESA·NASA·ESO 등이 본 앱의 활동을 보증하는 것은 아닙니다.
+  </p>
 
-NASA DSCOVR EPIC — Earth Polychromatic Imaging Camera (L1)
+  <h2>소프트웨어 / Software</h2>
+  <ul>
+    <li><a href="https://square.github.io/retrofit/" target="_blank" rel="noopener">Retrofit</a> / <a href="https://square.github.io/okhttp/" target="_blank" rel="noopener">OkHttp</a> — Square (Apache 2.0)</li>
+    <li><a href="https://bumptech.github.io/glide/" target="_blank" rel="noopener">Glide</a> — Bumptech (BSD/MIT)</li>
+    <li><a href="https://github.com/material-components/material-components-android" target="_blank" rel="noopener">Material Components for Android</a> — Google (Apache 2.0)</li>
+    <li>AndroidX libraries — Google (Apache 2.0)</li>
+  </ul>
 
-Public Domain · epic.gsfc.nasa.gov
+  <h2>플랫폼 / Platform</h2>
+  <ul>
+    <li>Cloudflare Workers · R2 · Pages — Cloudflare, Inc.</li>
+  </ul>
 
-"NASA / DSCOVR EPIC"
+  <h2>연관 문서</h2>
+  <ul>
+    <li><a href="https://sites.google.com/view/boolint/%ED%99%88" target="_blank" rel="noopener">개인정보처리방침</a></li>
+  </ul>
 
-ESA/Hubble Space Telescope
+  <h2>문의 / Contact</h2>
+  <p>boolint.kim@gmail.com</p>
 
-CC BY 4.0 · esahubble.org
+  <div class="footer">
+    Universe · 마지막 갱신 2026-05-13
+  </div>
 
-"Image: ESA/Hubble & NASA, {Acknowledgement}"
-
-ESA/Webb Space Telescope (JWST)
-
-CC BY 4.0 · esawebb.org
-
-"Image: NASA, ESA, CSA, STScI"
-
-ESO — European Southern Observatory
-
-CC BY 4.0 (대부분) · www.eso.org/public/
-
-"Credit: ESO" 또는 "ESO/{기여자명}"
-
-CC BY 4.0 컷의 사용에 대해
-본 앱이 사용하는 ESA/Hubble, ESA/Webb, ESO 컷은 모두 Creative Commons Attribution 4.0 International 라이선스로 배포됩니다. 본 라이선스는 적절한 출처 표기와 라이선스 링크 명시를 조건으로 상업적 이용을 포함한 다양한 사용을 허가합니다. 본 앱은 모든 이미지에 카드별 출처를 명시하며, 본 페이지의 권장 표기 문구를 그대로 따릅니다. ESA·NASA·ESO 등이 본 앱의 활동을 보증하는 것은 아닙니다.
-
-소프트웨어 / Software
-Retrofit / OkHttp — Square (Apache 2.0)
-Glide — Bumptech (BSD/MIT)
-Material Components for Android — Google (Apache 2.0)
-AndroidX libraries — Google (Apache 2.0)
-플랫폼 / Platform
-Cloudflare Workers · R2 · Pages — Cloudflare, Inc.
-연관 문서
-개인정보처리방침
-문의 / Contact
-boolint.kim@gmail.com
-
-Universe · 마지막 갱신 2026-05-13
+</div>
+</body>
+</html>

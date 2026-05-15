@@ -1,0 +1,14 @@
+{
+  "id": "2026-05-14",
+  "source": "apod",
+  "ko": {
+    "title": "메시에 목록을 동일 배율로",
+    "caption": "밤하늘에서 볼 수 있는 가장 흥미로운 천체들은 무엇일까요? 북반구에 사신다면 좋은 쌍안경이나 작은 망원경으로 메시에 목록의 인기 천체들을 찾아볼 수 있고, 대부분(전부는 아닙니다)이 남반구에서도 보입니다. 이 이미지는 목록의 110개 천체를 모두 같은 배율로 표시한 것입니다. 18세기에 샤를 메시에가 만든 이 목록은 원래 혜성과 헷갈리지 않도록 \"피해야 할\" 혜성 모양 천체들의 리스트였습니다. 게성운(M1) 같은 초신성 잔해, 안드로메다(M31) 같은 외부 은하, 오리온 성운(M42) 같은 별 탄생 영역, 플레이아데스(M45) 같은 산개성단이 모두 포함됩니다."
+  },
+  "en": {
+    "title": "Messier Catalog at Uniform Scale",
+    "caption": "What are some of the most interesting astronomical objects you can see in the night sky? Armed with a good pair of binoculars or a small telescope, if you live in the Northern Hemisphere, you can look for the very popular objects in the Messier Catalog. Most of them, but not all, are also visible from the southern half of the Earth. The featured image shows all 110 objects in the catalog at uniform scale -- the same magnification. Charles Messier created the catalog in the 18th century. He was interested in comets, and his catalog was a list of known comet-like \"objects to avoid\" in the sky when observing or hunting for comets. The deep sky objects in the catalog include a supernova remnant (the Crab Nebula, M1), other galaxies (such as Andromeda, M31), nebulae (e.g. the Orion Nebula, M42, a star-forming region) and stellar clusters (such as the Pleiades, M45, a bright young open cluster)."
+  },
+  "curatedAt": "2026-05-16T00:00:00Z",
+  "curator": "boolint"
+}

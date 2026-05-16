@@ -281,3 +281,79 @@ curl -s "https://universe-api.boolint-kim.workers.dev/v1/apod/latest?lang=en" | 
 - 스키마/필드 정의 — `../README.md`
 - 백엔드 fetch 동작 — `~/server/universe-api/src/curation.ts`
 - 설계 — `~/Documents/Claude/Projects/Universe/docs/v2_global.md` §2, §8 B3
+
+---
+
+## 매일 운영 루틴 (검증된 흐름)
+
+2026-05-16 APOD `2026-05-15` 큐레이션으로 end-to-end 검증 완료
+(commit `5f9a1bf`, 라이브 즉시 반영).
+
+### 5분 루틴 — 매일 APOD 1개
+
+```bash
+# 0. 작업 위치 이동
+cd ~/server/app-data
+
+# 1. 오늘 APOD 스켈레톤 생성 + index/ver 자동 갱신 (1초)
+node universe/scripts/curate.js apod
+
+# → 출력:
+#    ✓ 스켈레톤 생성: universe/curation/apod/<오늘 날짜>.json
+#    영어 원문 자동 채움 (title NN자, caption NNN자)
+#    ✓ curation_index.json items.apod 갱신 (ver X → X+1)
+#    ✓ curation_ver.txt: X → X+1
+
+# 2. 생성된 파일 열어서 ko.title / ko.caption 작성 (1~2분)
+#    경로는 ① 출력 메시지에 표시됨
+$EDITOR universe/curation/apod/<오늘 날짜>.json
+#   또는: code universe/curation/apod/<오늘 날짜>.json
+
+# 3. commit + push (30초)
+git add universe/
+git commit -m "universe: APOD <날짜> ko 큐레이션"
+git push
+
+# 4. 라이브 확인 (선택, 즉시~5분)
+curl -s "https://universe-api.boolint-kim.workers.dev/v1/apod/latest?lang=ko" \
+  | python3 -m json.tool
+```
+
+### 갤러리 source — 골라서 큐레이션
+
+```bash
+# 미큐레이션 후보 목록 출력 (탭하면 ReaderActivity 노출되니 흥미로운 것만)
+node universe/scripts/curate.js hubble
+# → 상위 10개 출력. id와 영문 title 보고 선택
+
+# 선택한 id 큐레이션
+node universe/scripts/curate.js hubble heic2608b
+
+# 이하 2~4단계는 APOD와 동일 (파일 열기 → commit → push)
+```
+
+다른 source (`jwst`, `eso`, `mars_rover`)도 동일 패턴.
+
+### 작성 가이드
+
+| 필드 | 갤러리 카드 노출 | Reader 진입 시 노출 | 작성 권장도 |
+|---|---|---|---|
+| `ko.title` | ✓ 보임 | ✓ 보임 | **필수** |
+| `ko.caption` | ✗ 안 보임 | ✓ 보임 | 오늘 APOD는 필수, 갤러리는 선택 |
+
+- **APOD (오늘 화면)**: title + caption 둘 다 — 메인 노출
+- **Hubble/JWST/ESO/Mars (갤러리)**: title만으로도 충분, caption은 인기 항목만
+
+### 자주 쓰는 점검 명령
+
+```bash
+# 현재 큐레이션된 항목 목록 (인덱스)
+cat universe/curation_index.json | python3 -m json.tool
+
+# 라이브 인덱스 (Pages 배포본)
+curl -s https://app-data.pages.dev/universe/curation_index.json | python3 -m json.tool
+
+# 라이브 ko 응답
+curl -s "https://universe-api.boolint-kim.workers.dev/v1/hubble/recent?lang=ko" \
+  | python3 -m json.tool | head -40
+```

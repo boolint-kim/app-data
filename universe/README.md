@@ -66,6 +66,8 @@ universe/
 
 ## 워크플로우
 
+> 단계별 핸즈온 가이드는 [`docs/CURATION_GUIDE.md`](docs/CURATION_GUIDE.md) 참조.
+
 ### 새 큐레이션 추가
 
 1. `curation/<source>/<id>.json` 작성

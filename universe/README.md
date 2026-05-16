@@ -19,6 +19,8 @@ universe/
 ├── credits.html                    # 출처 페이지 (앱에서 외부 링크로 열림)
 ├── curation_index.json             # 어떤 source/ID 큐레이션이 있는지 인덱스
 ├── curation_ver.txt                # 정수 +1, 워커 캐시 invalidation 트리거
+├── docs/CURATION_GUIDE.md          # 큐레이터용 핸즈온 가이드
+├── scripts/curate.js               # 큐레이션 자동화 (Node 18+, npm 의존성 0)
 └── curation/
     ├── apod/<date>.json            # APOD: date가 자연 키 (예: 2026-05-14.json)
     ├── hubble/<pageId>.json        # ESA Hubble 페이지 ID (예: heic2401a.json)

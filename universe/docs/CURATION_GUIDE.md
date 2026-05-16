@@ -85,6 +85,8 @@ Universe 앱의 한국어 큐레이션을 추가/수정하는 큐레이터용 �
 universe/
 ├── curation_index.json            # 어떤 source/ID 큐레이션이 있는지 인덱스
 ├── curation_ver.txt               # 정수 +1, 워커 캐시 invalidation 트리거
+├── scripts/
+│   └── curate.js                  # 큐레이션 자동화 (스켈레톤 생성 + index/ver 갱신)
 └── curation/
     ├── apod/<date>.json           # APOD: date가 자연 키 (예: 2026-05-17.json)
     ├── hubble/<pageId>.json       # ESA Hubble (예: heic2401a.json)
@@ -92,6 +94,48 @@ universe/
     ├── eso/<pageId>.json          # ESO (예: eso2401a.json)
     └── mars_rover/<nasaId>.json   # NASA Image Library (예: PIA26638.json)
 ```
+
+---
+
+## 자동화 — `curate.js` (권장)
+
+수동 5분 작업을 1~2분으로 줄여주는 Node 스크립트. 라이브 API에서 영어 원문
+자동 fetch → 스켈레톤 생성 → index/ver 자동 갱신. 큐레이터는 ko 슬롯만 작성.
+
+### 사용
+
+```bash
+cd ~/server/app-data
+
+# 오늘 APOD (자동 fetch)
+node universe/scripts/curate.js apod
+
+# 갤러리 source — 미큐레이션 후보 목록 출력
+node universe/scripts/curate.js hubble
+node universe/scripts/curate.js jwst
+node universe/scripts/curate.js eso
+node universe/scripts/curate.js mars_rover
+
+# 특정 id 지정
+node universe/scripts/curate.js hubble heic2608b
+```
+
+### 스크립트가 자동으로 하는 것
+
+- ✅ 라이브 API에서 영어 원문 추출 → `en.title`/`en.caption` 채움
+- ✅ 이미 큐레이션된 id 자동 제외 (후보 목록에서)
+- ✅ JSON 스켈레톤 생성 (스키마 자동, ISO 시각·curator 자동)
+- ✅ `curation_index.json` items 갱신 + `ver` +1
+- ✅ `curation_ver.txt` +1
+
+### 큐레이터가 해야 할 것
+
+1. 생성된 스켈레톤 파일 열어서 `ko.title` 작성 (`ko.caption`은 선택)
+2. `git add universe/ && git commit -m "..." && git push`
+
+### 의존성
+
+Node 18 이상 (내장 `fetch` 사용). 외부 npm 의존성 없음.
 
 ---
 

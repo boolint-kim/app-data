@@ -73,9 +73,12 @@ function applyOverrides(items) {
 function fetchApi() {
   return new Promise((resolve, reject) => {
     https.get(API_URL, { timeout: 30000 }, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
+      // 청크를 Buffer로 모은 뒤 한 번에 UTF-8 디코딩.
+      // (chunk마다 data += chunk 하면 한글 3바이트가 청크 경계에서 잘려 U+FFFD로 깨짐)
+      const chunks = [];
+      res.on('data', chunk => chunks.push(chunk));
       res.on('end', () => {
+        const data = Buffer.concat(chunks).toString('utf8');
         console.log(`   응답 크기: ${Buffer.byteLength(data)} bytes, 상태: ${res.statusCode}`);
         if (res.statusCode !== 200) {
           reject(new Error(`HTTP ${res.statusCode}`));
@@ -169,9 +172,11 @@ function kakaoGet(reqPath) {
     };
 
     https.get(options, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
+      // 청크 경계 한글 깨짐 방지: Buffer로 모은 뒤 한 번에 디코딩
+      const chunks = [];
+      res.on('data', chunk => chunks.push(chunk));
       res.on('end', () => {
+        const data = Buffer.concat(chunks).toString('utf8');
         try { resolve(JSON.parse(data)); }
         catch (e) { reject(e); }
       });

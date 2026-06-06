@@ -5,6 +5,13 @@ const https = require('https');
 const http = require('http');
 const XLSX = require('xlsx');
 
+// === 서울 재개발·재건축 크롤러 비활성화 (2026-06-06) ===
+// 사유: 정보몽땅(공공누리 제4유형, 상업이용 금지) 데이터 수집·배포 중단.
+//       cleanup_data.json 은 {"items":[]} 로 고정, 앱 서울 메뉴는 잠정 중단됨.
+// 재개 시: 상업이용 가능 API 부활하면 아래 process.exit(0); 한 줄만 제거.
+console.log('[crawl.js] 서울 재개발 크롤러 비활성화 상태 — 수집/갱신하지 않고 종료합니다.');
+process.exit(0);
+
 // 설정
 const KAKAO_API_KEY = process.env.KAKAO_REST_API_KEY;
 const PUBLIC_DIR = path.join(__dirname, '..', 'public');

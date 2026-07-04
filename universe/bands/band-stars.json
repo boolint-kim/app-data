@@ -1098,6 +1098,660 @@
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Position_Alpha_Cmi.png"
     },
     {
+      "id": "polaris",
+      "bandId": "stars",
+      "type": "object",
+      "name": "폴라리스",
+      "nameI18n": {
+        "en": "Polaris"
+      },
+      "summary": "천구 북극 가까이 있어 길잡이가 되는 별. 밝기가 주기적으로 변하는 세페이드 변광성이다.",
+      "summaryI18n": {
+        "en": "A guide star near the north celestial pole — a Cepheid variable whose brightness pulses periodically."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "polaris",
+      "lensValues": {
+        "size": 37.5,
+        "distance": 433
+      },
+      "hrPosition": {
+        "temp": 6015,
+        "luminosity": 1260,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "F7 Ib (세페이드 변광성)"
+        },
+        {
+          "label": "특징",
+          "value": "북극성 — 천구 북극 근처"
+        },
+        {
+          "label": "거리",
+          "value": "약 433광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "F7 Ib (Cepheid variable)"
+          },
+          {
+            "label": "Note",
+            "value": "The North Star, near the celestial pole"
+          },
+          {
+            "label": "Distance",
+            "value": "~433 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "capella"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Polaris",
+        "de": "Polarstern",
+        "es": "Polaris (estrella)",
+        "ja": "ポラリス (恒星)",
+        "ko": "폴라리스",
+        "pt": "Polaris",
+        "zh": "勾陳一"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/polaris.jpg",
+      "imageCredit": "Ursa Minor constellation map.png : Torsten Bronger / derivative work: Kxx",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ursa_Minor_constellation_map.svg"
+    },
+    {
+      "id": "alpha-centauri",
+      "bandId": "stars",
+      "type": "object",
+      "name": "알파 센타우리",
+      "nameI18n": {
+        "en": "Alpha Centauri"
+      },
+      "summary": "태양에서 가장 가까운 항성계. 태양을 닮은 별로, 프록시마 켄타우리와 한 계를 이룬다.",
+      "summaryI18n": {
+        "en": "The closest star system to the Sun — a Sun-like star that forms a system with Proxima Centauri."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "alpha-centauri",
+      "lensValues": {
+        "size": 1.22,
+        "distance": 4.37
+      },
+      "hrPosition": {
+        "temp": 5790,
+        "luminosity": 1.52,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "G2V (태양과 유사)"
+        },
+        {
+          "label": "특징",
+          "value": "태양계 최근접 항성계"
+        },
+        {
+          "label": "거리",
+          "value": "4.37광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "G2V (Sun-like)"
+          },
+          {
+            "label": "Note",
+            "value": "Nearest star system to the Solar System"
+          },
+          {
+            "label": "Distance",
+            "value": "4.37 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "proxima",
+        "sun"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Alpha Centauri",
+        "de": "Alpha Centauri",
+        "es": "Alfa Centauri",
+        "ja": "ケンタウルス座アルファ星",
+        "ko": "센타우루스자리 알파",
+        "pt": "Alpha Centauri",
+        "zh": "南門二"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/alpha-centauri.jpg",
+      "imageCredit": "Digitized Sky Survey 2. Acknowledgement: Davide De Martin/ Mahdi Zamani",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_sky_around_Alpha_Centauri_and_Proxima_Centauri_(eso1629i).jpg"
+    },
+    {
+      "id": "deneb",
+      "bandId": "stars",
+      "type": "object",
+      "name": "데네브",
+      "nameI18n": {
+        "en": "Deneb"
+      },
+      "summary": "백조자리의 청백색 초거성. 알려진 가장 밝은 별 중 하나로 여름의 대삼각형을 이룬다.",
+      "summaryI18n": {
+        "en": "The blue-white supergiant of Cygnus — one of the most luminous known stars, part of the Summer Triangle."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "deneb",
+      "lensValues": {
+        "size": 203,
+        "distance": 2600
+      },
+      "hrPosition": {
+        "temp": 8525,
+        "luminosity": 196000,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "A2 Ia 청백색 초거성"
+        },
+        {
+          "label": "광도",
+          "value": "약 196,000 L☉"
+        },
+        {
+          "label": "특징",
+          "value": "여름의 대삼각형"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "A2 Ia blue-white supergiant"
+          },
+          {
+            "label": "Luminosity",
+            "value": "~196,000 L☉"
+          },
+          {
+            "label": "Note",
+            "value": "Summer Triangle"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "rigel",
+        "altair"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Deneb",
+        "de": "Deneb",
+        "es": "Deneb",
+        "ja": "デネブ",
+        "ko": "데네브",
+        "pt": "Deneb",
+        "zh": "天津四"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/deneb.jpg",
+      "imageCredit": "Cygnus_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cygnus_constellation_map.svg"
+    },
+    {
+      "id": "altair",
+      "bandId": "stars",
+      "type": "object",
+      "name": "알타이르",
+      "nameI18n": {
+        "en": "Altair"
+      },
+      "summary": "독수리자리의 밝은 별. 매우 빠르게 자전해 적도가 부푼 타원체다. 여름의 대삼각형.",
+      "summaryI18n": {
+        "en": "The bright star of Aquila — it spins so fast its equator bulges. Part of the Summer Triangle."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "altair",
+      "lensValues": {
+        "size": 1.7,
+        "distance": 16.7
+      },
+      "hrPosition": {
+        "temp": 7550,
+        "luminosity": 10.6,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "A7V"
+        },
+        {
+          "label": "특징",
+          "value": "빠른 자전으로 납작함"
+        },
+        {
+          "label": "거리",
+          "value": "16.7광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "A7V"
+          },
+          {
+            "label": "Note",
+            "value": "Flattened by rapid rotation"
+          },
+          {
+            "label": "Distance",
+            "value": "16.7 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "vega",
+        "deneb"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Altair",
+        "de": "Altair",
+        "es": "Altaír",
+        "ja": "アルタイル",
+        "ko": "알타이르",
+        "pt": "Altair (estrela)",
+        "zh": "河鼓二"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/altair.jpg",
+      "imageCredit": "Aquila_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aquila_constellation_map.svg"
+    },
+    {
+      "id": "canopus",
+      "bandId": "stars",
+      "type": "object",
+      "name": "카노푸스",
+      "nameI18n": {
+        "en": "Canopus"
+      },
+      "summary": "시리우스 다음으로 밝은 별. 남쪽 하늘의 밝은 초거성으로 우주선 항법 기준별로도 쓰인다.",
+      "summaryI18n": {
+        "en": "The second-brightest star after Sirius — a luminous southern supergiant, also used for spacecraft navigation."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "canopus",
+      "lensValues": {
+        "size": 71,
+        "distance": 310
+      },
+      "hrPosition": {
+        "temp": 7400,
+        "luminosity": 10700,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "A9 II 초거성"
+        },
+        {
+          "label": "특징",
+          "value": "밤하늘 두 번째로 밝은 별"
+        },
+        {
+          "label": "거리",
+          "value": "약 310광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "A9 II supergiant"
+          },
+          {
+            "label": "Note",
+            "value": "2nd-brightest star in the night sky"
+          },
+          {
+            "label": "Distance",
+            "value": "~310 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "sirius"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Canopus",
+        "de": "Canopus",
+        "es": "Canopus (estrella)",
+        "ja": "カノープス",
+        "ko": "카노푸스",
+        "pt": "Canopus",
+        "zh": "老人星"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/canopus.jpg",
+      "imageCredit": "NASA",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Canopus.jpg"
+    },
+    {
+      "id": "capella",
+      "bandId": "stars",
+      "type": "object",
+      "name": "카펠라",
+      "nameI18n": {
+        "en": "Capella"
+      },
+      "summary": "마차부자리의 밝은 노란 별. 실제로는 두 거성이 가까이 도는 다중성이다.",
+      "summaryI18n": {
+        "en": "The bright yellow star of Auriga — actually a multiple system of two giant stars orbiting closely."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "capella",
+      "lensValues": {
+        "size": 12,
+        "distance": 43
+      },
+      "hrPosition": {
+        "temp": 4970,
+        "luminosity": 79,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "G형 거성 (다중성)"
+        },
+        {
+          "label": "특징",
+          "value": "마차부자리 가장 밝은 별"
+        },
+        {
+          "label": "거리",
+          "value": "43광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "G-type giants (multiple)"
+          },
+          {
+            "label": "Note",
+            "value": "Brightest star in Auriga"
+          },
+          {
+            "label": "Distance",
+            "value": "43 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "pollux"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Capella",
+        "de": "Capella (Stern)",
+        "es": "Capella",
+        "ja": "カペラ (恒星)",
+        "ko": "카펠라",
+        "pt": "Capella (estrela)",
+        "zh": "五車二"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/capella.jpg",
+      "imageCredit": "Auriga_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Auriga_constellation_map.svg"
+    },
+    {
+      "id": "pollux",
+      "bandId": "stars",
+      "type": "object",
+      "name": "폴룩스",
+      "nameI18n": {
+        "en": "Pollux"
+      },
+      "summary": "쌍둥이자리의 주황색 거성. 태양에서 가장 가까운 거성이며 외계행성을 거느린다.",
+      "summaryI18n": {
+        "en": "The orange giant of Gemini — the nearest giant star to the Sun, and it hosts an exoplanet."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "pollux",
+      "lensValues": {
+        "size": 8.8,
+        "distance": 34
+      },
+      "hrPosition": {
+        "temp": 4586,
+        "luminosity": 43,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "K0 III 거성"
+        },
+        {
+          "label": "특징",
+          "value": "최근접 거성 · 행성 보유"
+        },
+        {
+          "label": "거리",
+          "value": "34광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "K0 III giant"
+          },
+          {
+            "label": "Note",
+            "value": "Nearest giant · hosts a planet"
+          },
+          {
+            "label": "Distance",
+            "value": "34 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "capella",
+        "aldebaran"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Pollux (star)",
+        "de": "Pollux (Stern)",
+        "es": "Pólux (estrella)",
+        "ja": "ポルックス (恒星)",
+        "ko": "폴룩스 (항성)",
+        "pt": "Pólux (estrela)",
+        "zh": "北河三"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/pollux.jpg",
+      "imageCredit": "Gemini_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gemini_constellation_map.svg"
+    },
+    {
+      "id": "fomalhaut",
+      "bandId": "stars",
+      "type": "object",
+      "name": "포말하우트",
+      "nameI18n": {
+        "en": "Fomalhaut"
+      },
+      "summary": "남쪽물고기자리의 밝은 별. 주위에 뚜렷한 잔해 원반을 둘러 「외로운 별」로도 불린다.",
+      "summaryI18n": {
+        "en": "The bright star of Piscis Austrinus — ringed by a prominent debris disk, nicknamed \"the Lonely Star\"."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "fomalhaut",
+      "lensValues": {
+        "size": 1.84,
+        "distance": 25
+      },
+      "hrPosition": {
+        "temp": 8590,
+        "luminosity": 16.6,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "A3V"
+        },
+        {
+          "label": "특징",
+          "value": "먼지(잔해) 원반 보유"
+        },
+        {
+          "label": "거리",
+          "value": "25광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "A3V"
+          },
+          {
+            "label": "Note",
+            "value": "Has a debris disk"
+          },
+          {
+            "label": "Distance",
+            "value": "25 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "vega"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Fomalhaut",
+        "de": "Fomalhaut",
+        "es": "Fomalhaut",
+        "ja": "フォーマルハウト",
+        "ko": "포말하우트",
+        "pt": "Fomalhaut",
+        "zh": "北落师门"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/fomalhaut.jpg",
+      "imageCredit": "NASA, ESA, P. Kalas, J. Graham, E. Chiang, E. Kite (University of California, Berkeley), M. Clampin (NASA Goddard Space Flight Center), M. Fitzgerald (Lawrence Livermore National Laboratory), and K. Stapelfeldt and J. Krist (NASA Jet Propulsion Laboratory)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fomalhaut_with_Disk_Ring_and_extrasolar_planet_b.jpg"
+    },
+    {
+      "id": "regulus",
+      "bandId": "stars",
+      "type": "object",
+      "name": "레굴루스",
+      "nameI18n": {
+        "en": "Regulus"
+      },
+      "summary": "사자자리의 청백색 별. 매우 빠르게 자전해 찌그러져 있으며 사자의 심장에 해당한다.",
+      "summaryI18n": {
+        "en": "The blue-white star of Leo — spinning so fast it is squashed, it marks the lion's heart."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "regulus",
+      "lensValues": {
+        "size": 4.2,
+        "distance": 79
+      },
+      "hrPosition": {
+        "temp": 12460,
+        "luminosity": 316,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "B8 IV"
+        },
+        {
+          "label": "특징",
+          "value": "사자자리 심장 · 초고속 자전"
+        },
+        {
+          "label": "거리",
+          "value": "79광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "B8 IV"
+          },
+          {
+            "label": "Note",
+            "value": "Heart of Leo · very fast rotator"
+          },
+          {
+            "label": "Distance",
+            "value": "79 ly"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "spica"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Regulus",
+        "de": "Regulus (Stern)",
+        "es": "Regulus",
+        "ja": "レグルス",
+        "ko": "레굴루스",
+        "pt": "Regulus",
+        "zh": "軒轅十四"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/regulus.jpg",
+      "imageCredit": "Leo_constellation_map.png : Torsten Bronger . derivative work: Kxx ( talk )",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leo_constellation_map.svg"
+    },
+    {
       "id": "neutron",
       "bandId": "stars",
       "type": "object",

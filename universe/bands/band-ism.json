@@ -1,6 +1,6 @@
 {
   "bandId": "ism",
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-04T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -24,48 +24,216 @@
           { "label": "Grave", "value": "Planetary nebula & SNR = a star's death" }
         ]
       },
-      "related": ["emission", "planetary", "snr", "stellar-life"],
+      "related": ["orion", "ring", "crab"],
       "crossAxis": ["element-origin"]
     },
     {
-      "id": "emission", "bandId": "ism", "type": "object",
-      "name": "발광성운", "nameI18n": { "en": "Emission Nebula" },
-      "summary": "뜨거운 젊은 별의 자외선이 수소를 달궈 붉게 빛나는 별의 요람.",
-      "summaryI18n": { "en": "A stellar nursery glowing red as UV from hot young stars excites hydrogen." },
-      "scene": "scene-ism", "sceneFocus": "emission", "hostCard": false,
-      "related": ["nebula-types", "reflection", "dark"], "crossAxis": []
+      "id": "orion",
+      "bandId": "ism",
+      "type": "object",
+      "name": "오리온 성운 (M42)",
+      "nameI18n": { "en": "Orion Nebula (M42)" },
+      "summary": "육안으로도 보이는 가장 유명한 발광성운. 뜨거운 어린 별들이 태어나는 요람이다.",
+      "summaryI18n": { "en": "The most famous emission nebula, visible to the naked eye — a cradle where hot young stars are born." },
+      "scene": "scene-ism",
+      "sceneFocus": "emission",
+      "facts": [
+        { "label": "종류", "value": "발광성운 (H II)" },
+        { "label": "거리", "value": "약 1,344광년" },
+        { "label": "특징", "value": "육안 관측 가능한 별 탄생 영역" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Emission (H II)" },
+          { "label": "Distance", "value": "~1,344 ly" },
+          { "label": "Note", "value": "Naked-eye star-forming region" }
+        ]
+      },
+      "related": ["nebula-types", "eagle", "horsehead"],
+      "crossAxis": ["element-origin"],
+      "wiki": { "en": "Orion Nebula", "ko": "오리온 성운", "ja": "オリオン大星雲", "es": "Nebulosa de Orión", "de": "Orionnebel", "pt": "Nebulosa de Órion", "zh": "猎户座大星云" }
     },
     {
-      "id": "reflection", "bandId": "ism", "type": "object",
-      "name": "반사성운", "nameI18n": { "en": "Reflection Nebula" },
-      "summary": "스스로 빛나지 않고 근처 별빛을 파랗게 반사하는 성운.",
-      "summaryI18n": { "en": "A nebula that reflects nearby starlight blue rather than shining on its own." },
-      "scene": "scene-ism", "sceneFocus": "reflection", "hostCard": false,
-      "related": ["nebula-types", "emission"], "crossAxis": []
+      "id": "eagle",
+      "bandId": "ism",
+      "type": "object",
+      "name": "독수리 성운 (M16)",
+      "nameI18n": { "en": "Eagle Nebula (M16)" },
+      "summary": "허블이 촬영한 「창조의 기둥」으로 유명한 발광성운. 기둥 속에서 별이 태어난다.",
+      "summaryI18n": { "en": "The emission nebula famous for Hubble's \"Pillars of Creation\" — stars are born inside the pillars." },
+      "scene": "scene-ism",
+      "sceneFocus": "emission",
+      "facts": [
+        { "label": "종류", "value": "발광성운" },
+        { "label": "거리", "value": "약 7,000광년" },
+        { "label": "특징", "value": "\"창조의 기둥\"" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Emission" },
+          { "label": "Distance", "value": "~7,000 ly" },
+          { "label": "Note", "value": "\"Pillars of Creation\"" }
+        ]
+      },
+      "related": ["nebula-types", "orion"],
+      "crossAxis": ["element-origin"],
+      "wiki": { "en": "Eagle Nebula", "ko": "수리 성운", "ja": "わし星雲", "es": "Nebulosa del Águila", "de": "Adlernebel", "pt": "Nebulosa da Águia", "zh": "鹰星云" }
     },
     {
-      "id": "dark", "bandId": "ism", "type": "object",
-      "name": "암흑성운", "nameI18n": { "en": "Dark Nebula" },
-      "summary": "짙은 먼지가 뒤 별빛을 가려 검게 보이는 성운. 말머리 성운이 대표.",
-      "summaryI18n": { "en": "A nebula that appears black as thick dust blocks the starlight behind it — the Horsehead is the classic." },
-      "scene": "scene-ism", "sceneFocus": "dark", "hostCard": false,
-      "related": ["nebula-types", "emission"], "crossAxis": []
+      "id": "witch-head",
+      "bandId": "ism",
+      "type": "object",
+      "name": "마녀머리 성운",
+      "nameI18n": { "en": "Witch Head Nebula" },
+      "summary": "밝은 별 리겔의 별빛을 파랗게 반사하는 반사성운. 옆얼굴 실루엣을 닮았다.",
+      "summaryI18n": { "en": "A reflection nebula glowing blue with light from the bright star Rigel — shaped like a profile face." },
+      "scene": "scene-ism",
+      "sceneFocus": "reflection",
+      "facts": [
+        { "label": "종류", "value": "반사성운" },
+        { "label": "특징", "value": "리겔의 별빛을 반사" },
+        { "label": "모양", "value": "옆얼굴 형상" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Reflection" },
+          { "label": "Note", "value": "Reflects light from Rigel" },
+          { "label": "Shape", "value": "Profile of a face" }
+        ]
+      },
+      "related": ["nebula-types", "orion"],
+      "crossAxis": [],
+      "wiki": { "en": "IC 2118", "ko": "마귀 할멈 성운", "ja": "IC 2118", "es": "IC 2118", "de": "IC 2118", "pt": "Nebulosa Cabeça da Bruxa", "zh": "IC 2118" }
     },
     {
-      "id": "planetary", "bandId": "ism", "type": "object",
-      "name": "행성상성운", "nameI18n": { "en": "Planetary Nebula" },
-      "summary": "태양급 별이 바깥층을 벗어던진 고리. 이름과 달리 행성과 무관.",
-      "summaryI18n": { "en": "A ring where a Sun-like star cast off its outer layers — despite the name, nothing to do with planets." },
-      "scene": "scene-ism", "sceneFocus": "planetary", "hostCard": false,
-      "related": ["nebula-types", "stellar-life", "white-dwarf"], "crossAxis": ["element-origin"]
+      "id": "horsehead",
+      "bandId": "ism",
+      "type": "object",
+      "name": "말머리 성운",
+      "nameI18n": { "en": "Horsehead Nebula" },
+      "summary": "짙은 먼지가 뒤 별빛을 가려 말 머리 실루엣으로 보이는 대표적 암흑성운.",
+      "summaryI18n": { "en": "The iconic dark nebula whose thick dust blocks the light behind it, forming a horse's-head silhouette." },
+      "scene": "scene-ism",
+      "sceneFocus": "dark",
+      "facts": [
+        { "label": "종류", "value": "암흑성운" },
+        { "label": "거리", "value": "약 1,500광년" },
+        { "label": "특징", "value": "오리온자리 대표 암흑성운" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Dark" },
+          { "label": "Distance", "value": "~1,500 ly" },
+          { "label": "Note", "value": "Iconic dark nebula in Orion" }
+        ]
+      },
+      "related": ["nebula-types", "orion", "veil"],
+      "crossAxis": [],
+      "wiki": { "en": "Horsehead Nebula", "ko": "말머리 성운", "ja": "馬頭星雲", "es": "Nebulosa Cabeza de Caballo", "de": "Pferdekopfnebel", "pt": "Nebulosa Cabeça de Cavalo", "zh": "馬頭星雲" }
     },
     {
-      "id": "snr", "bandId": "ism", "type": "object",
-      "name": "초신성 잔해", "nameI18n": { "en": "Supernova Remnant" },
-      "summary": "초신성이 흩뿌린 필라멘트. 무거운 원소를 우주에 공급한다. 게 성운이 대표.",
-      "summaryI18n": { "en": "The filaments scattered by a supernova, seeding the cosmos with heavy elements — the Crab is the classic." },
-      "scene": "scene-ism", "sceneFocus": "snr", "hostCard": false,
-      "related": ["nebula-types", "stellar-life", "neutron-star"], "crossAxis": ["element-origin"]
+      "id": "ring",
+      "bandId": "ism",
+      "type": "object",
+      "name": "고리 성운 (M57)",
+      "nameI18n": { "en": "Ring Nebula (M57)" },
+      "summary": "태양급 별이 바깥층을 벗어던진 고리 모양의 행성상성운. 중심엔 백색왜성이 남는다.",
+      "summaryI18n": { "en": "A ring-shaped planetary nebula where a Sun-like star cast off its outer layers — a white dwarf remains at the center." },
+      "scene": "scene-ism",
+      "sceneFocus": "planetary",
+      "facts": [
+        { "label": "종류", "value": "행성상성운" },
+        { "label": "거리", "value": "약 2,300광년" },
+        { "label": "특징", "value": "죽어가는 별의 고리" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Planetary" },
+          { "label": "Distance", "value": "~2,300 ly" },
+          { "label": "Note", "value": "Ring cast off by a dying star" }
+        ]
+      },
+      "related": ["nebula-types", "helix"],
+      "crossAxis": ["element-origin"],
+      "wiki": { "en": "Ring Nebula", "ko": "고리 성운", "ja": "環状星雲", "es": "Nebulosa del Anillo", "de": "Ringnebel", "pt": "Nebulosa do Anel", "zh": "環狀星雲" }
+    },
+    {
+      "id": "helix",
+      "bandId": "ism",
+      "type": "object",
+      "name": "나선 성운 (Helix)",
+      "nameI18n": { "en": "Helix Nebula" },
+      "summary": "「신의 눈」으로 불리는 행성상성운. 가장 가까운 축에 드는 죽어가는 별의 껍질이다.",
+      "summaryI18n": { "en": "A planetary nebula nicknamed the \"Eye of God\" — one of the nearest shells of a dying star." },
+      "scene": "scene-ism",
+      "sceneFocus": "planetary",
+      "facts": [
+        { "label": "종류", "value": "행성상성운" },
+        { "label": "거리", "value": "약 650광년" },
+        { "label": "특징", "value": "\"신의 눈\", 가장 가까운 편" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Planetary" },
+          { "label": "Distance", "value": "~650 ly" },
+          { "label": "Note", "value": "\"Eye of God\", one of the nearest" }
+        ]
+      },
+      "related": ["nebula-types", "ring"],
+      "crossAxis": ["element-origin"],
+      "wiki": { "en": "Helix Nebula", "ko": "쌍가락지 성운", "ja": "らせん星雲", "es": "Nebulosa de la Hélice", "de": "Helixnebel", "pt": "Nebulosa de Hélix", "zh": "螺旋星雲" }
+    },
+    {
+      "id": "crab",
+      "bandId": "ism",
+      "type": "object",
+      "name": "게 성운 (M1)",
+      "nameI18n": { "en": "Crab Nebula (M1)" },
+      "summary": "1054년 초신성이 남긴 잔해 성운. 중심엔 게 펄사(중성자별)가 회전한다.",
+      "summaryI18n": { "en": "The remnant nebula of the supernova of 1054 — the Crab Pulsar (a neutron star) spins at its center." },
+      "scene": "scene-ism",
+      "sceneFocus": "snr",
+      "facts": [
+        { "label": "종류", "value": "초신성 잔해" },
+        { "label": "기원", "value": "SN 1054" },
+        { "label": "특징", "value": "중심에 게 펄사" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Supernova remnant" },
+          { "label": "Origin", "value": "SN 1054" },
+          { "label": "Note", "value": "Crab Pulsar at its center" }
+        ]
+      },
+      "related": ["nebula-types", "veil"],
+      "crossAxis": ["element-origin"],
+      "wiki": { "en": "Crab Nebula", "ko": "게 성운", "ja": "かに星雲", "es": "Nebulosa del Cangrejo", "de": "Krebsnebel", "pt": "Nebulosa do Caranguejo", "zh": "蟹狀星雲" }
+    },
+    {
+      "id": "veil",
+      "bandId": "ism",
+      "type": "object",
+      "name": "베일 성운",
+      "nameI18n": { "en": "Veil Nebula" },
+      "summary": "수천 년 전 폭발한 초신성의 잔해. 백조자리에 얇은 실 같은 필라멘트로 펼쳐진다.",
+      "summaryI18n": { "en": "The remnant of a supernova that exploded thousands of years ago — thin, thread-like filaments spread across Cygnus." },
+      "scene": "scene-ism",
+      "sceneFocus": "snr",
+      "facts": [
+        { "label": "종류", "value": "초신성 잔해" },
+        { "label": "거리", "value": "약 2,400광년" },
+        { "label": "특징", "value": "백조자리 고리의 일부" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Supernova remnant" },
+          { "label": "Distance", "value": "~2,400 ly" },
+          { "label": "Note", "value": "Part of the Cygnus Loop" }
+        ]
+      },
+      "related": ["nebula-types", "crab"],
+      "crossAxis": ["element-origin"],
+      "wiki": { "en": "Veil Nebula", "ko": "망상 성운", "ja": "網状星雲", "es": "Nebulosa del Velo", "de": "Cirrusnebel", "pt": "Nebulosa do Véu", "zh": "面紗星雲" }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "bandId": "large-scale",
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-04T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -24,32 +24,183 @@
           { "label": "Made of", "value": "Clusters · filaments · voids" }
         ]
       },
-      "related": ["filament", "void", "cluster"],
+      "related": ["laniakea", "sloan-wall", "cmb"],
       "crossAxis": ["light-delay"]
     },
     {
-      "id": "filament", "bandId": "large-scale", "type": "object",
-      "name": "필라멘트", "nameI18n": { "en": "Filament" },
-      "summary": "은하와 암흑물질이 이룬 실. 수억 광년까지 뻗은 '은하의 강'.",
-      "summaryI18n": { "en": "A thread of galaxies and dark matter — a 'river of galaxies' stretching hundreds of millions of light-years." },
-      "scene": "scene-large-scale", "hostCard": false,
-      "related": ["cosmic-web", "cluster", "void"], "crossAxis": []
+      "id": "local-group",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "국부 은하군",
+      "nameI18n": { "en": "Local Group" },
+      "summary": "우리 은하와 안드로메다를 포함한 약 80개 은하의 무리. 우리가 속한 가장 작은 단위.",
+      "summaryI18n": { "en": "The group of ~80 galaxies including the Milky Way and Andromeda — the smallest unit we belong to." },
+      "scene": "scene-large-scale",
+      "facts": [
+        { "label": "규모", "value": "은하군" },
+        { "label": "구성", "value": "우리 은하·안드로메다 등 ~80개" },
+        { "label": "지름", "value": "약 1,000만 광년" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "Galaxy group" },
+          { "label": "Members", "value": "Milky Way, Andromeda, ~80" },
+          { "label": "Diameter", "value": "~10 million ly" }
+        ]
+      },
+      "related": ["cosmic-web", "virgo-cluster", "virgo-supercluster"],
+      "crossAxis": [],
+      "wiki": { "en": "Local Group", "ko": "국부 은하군", "ja": "局所銀河群", "es": "Grupo Local", "de": "Lokale Gruppe", "pt": "Grupo Local", "zh": "本星系群" }
     },
     {
-      "id": "void", "bandId": "large-scale", "type": "object",
-      "name": "보이드", "nameI18n": { "en": "Void" },
-      "summary": "지름 수억 광년의 거의 빈 거품. 우주 부피의 대부분을 차지한다.",
-      "summaryI18n": { "en": "A near-empty bubble hundreds of millions of light-years across — most of the universe's volume." },
-      "scene": "scene-large-scale", "hostCard": false,
-      "related": ["cosmic-web", "filament"], "crossAxis": []
+      "id": "virgo-cluster",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "처녀자리 은하단",
+      "nameI18n": { "en": "Virgo Cluster" },
+      "summary": "우리에게 가장 가까운 대형 은하단. 1,000개가 넘는 은하가 중력으로 묶여 있다.",
+      "summaryI18n": { "en": "The nearest large galaxy cluster — over a thousand galaxies bound together by gravity." },
+      "scene": "scene-large-scale",
+      "facts": [
+        { "label": "규모", "value": "은하단" },
+        { "label": "은하", "value": "약 1,300~2,000개" },
+        { "label": "거리", "value": "약 5,400만 광년" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "Galaxy cluster" },
+          { "label": "Galaxies", "value": "~1,300–2,000" },
+          { "label": "Distance", "value": "~54 million ly" }
+        ]
+      },
+      "related": ["cosmic-web", "virgo-supercluster", "local-group"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Virgo Cluster", "ko": "처녀자리 은하단", "ja": "おとめ座銀河団", "es": "Cúmulo de Virgo", "de": "Virgo-Galaxienhaufen", "pt": "Aglomerado de Virgem", "zh": "室女座星系團" }
     },
     {
-      "id": "cluster", "bandId": "large-scale", "type": "object",
-      "name": "은하단", "nameI18n": { "en": "Galaxy Cluster" },
-      "summary": "필라멘트가 만나는 교점. 수천 개의 은하가 중력으로 묶인 우주의 도시.",
-      "summaryI18n": { "en": "The node where filaments meet — thousands of galaxies bound by gravity, a city of the cosmos." },
-      "scene": "scene-large-scale", "hostCard": false,
-      "related": ["cosmic-web", "filament"], "crossAxis": []
+      "id": "virgo-supercluster",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "처녀자리 초은하단",
+      "nameI18n": { "en": "Virgo Supercluster" },
+      "summary": "국부 은하군을 품는 초은하단. 수만 개의 은하가 지름 1억 광년 규모로 퍼져 있다.",
+      "summaryI18n": { "en": "The supercluster that contains our Local Group — tens of thousands of galaxies spread over ~110 million light-years." },
+      "scene": "scene-large-scale",
+      "facts": [
+        { "label": "규모", "value": "초은하단" },
+        { "label": "구성", "value": "국부 은하군 포함" },
+        { "label": "지름", "value": "약 1.1억 광년" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "Supercluster" },
+          { "label": "Contains", "value": "Our Local Group" },
+          { "label": "Diameter", "value": "~110 million ly" }
+        ]
+      },
+      "related": ["cosmic-web", "laniakea", "virgo-cluster"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Virgo Supercluster", "ko": "처녀자리 초은하단", "ja": "おとめ座超銀河団", "es": "Supercúmulo de Virgo", "de": "Virgo-Superhaufen", "pt": "Superaglomerado de Virgem", "zh": "室女超星系团" }
+    },
+    {
+      "id": "laniakea",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "라니아케아 초은하단",
+      "nameI18n": { "en": "Laniakea Supercluster" },
+      "summary": "우리 은하가 속한 고향 초은하단. 약 10만 개의 은하가 5억 광년에 걸쳐 흐르듯 모인다.",
+      "summaryI18n": { "en": "Our home supercluster — about 100,000 galaxies flowing together across ~520 million light-years." },
+      "scene": "scene-large-scale",
+      "facts": [
+        { "label": "규모", "value": "초은하단 (우리의 고향)" },
+        { "label": "은하", "value": "약 10만 개" },
+        { "label": "지름", "value": "약 5.2억 광년" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "Supercluster (our home)" },
+          { "label": "Galaxies", "value": "~100,000" },
+          { "label": "Diameter", "value": "~520 million ly" }
+        ]
+      },
+      "related": ["cosmic-web", "virgo-supercluster", "sloan-wall"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Laniakea Supercluster", "ko": "라니아케아 초은하단", "ja": "ラニアケア超銀河団", "es": "Laniakea", "de": "Laniakea", "pt": "Laniakea", "zh": "拉尼亚凯亚超星系团" }
+    },
+    {
+      "id": "sloan-wall",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "슬론 장성",
+      "nameI18n": { "en": "Sloan Great Wall" },
+      "summary": "은하가 실처럼 이어진 거대한 벽(필라멘트). 알려진 우주 구조 중 최대급이다.",
+      "summaryI18n": { "en": "A colossal wall of galaxies strung together like a filament — one of the largest known structures in the universe." },
+      "scene": "scene-large-scale",
+      "facts": [
+        { "label": "규모", "value": "장성 (필라멘트)" },
+        { "label": "길이", "value": "약 13.7억 광년" },
+        { "label": "특징", "value": "알려진 최대급 구조" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "Great wall (filament)" },
+          { "label": "Length", "value": "~1.37 billion ly" },
+          { "label": "Note", "value": "One of the largest known structures" }
+        ]
+      },
+      "related": ["cosmic-web", "laniakea", "bootes-void"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Sloan Great Wall", "ko": "슬론 장성", "ja": "スローン・グレートウォール", "es": "Gran Muralla Sloan", "de": "Sloan Great Wall", "pt": "Grande Muralha Sloan", "zh": "史隆長城" }
+    },
+    {
+      "id": "bootes-void",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "부트 보이드",
+      "nameI18n": { "en": "Boötes Void" },
+      "summary": "은하가 거의 없는 거대한 빈 공간. 지름 3억 광년의 「거대한 무(無)」로 불린다.",
+      "summaryI18n": { "en": "A vast empty region with almost no galaxies — a ~330-million-light-year \"Great Nothing\"." },
+      "scene": "scene-large-scale",
+      "facts": [
+        { "label": "규모", "value": "보이드" },
+        { "label": "지름", "value": "약 3.3억 광년" },
+        { "label": "특징", "value": "\"거대한 무(無)\", 은하 거의 없음" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "Void" },
+          { "label": "Diameter", "value": "~330 million ly" },
+          { "label": "Note", "value": "\"The Great Nothing\", nearly empty" }
+        ]
+      },
+      "related": ["cosmic-web", "sloan-wall"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Boötes Void", "ko": "목동자리 공동", "ja": "うしかい座ボイド", "es": "Vacío de Bootes", "de": "Bootes Void", "pt": "Vazio de Boötes", "zh": "牧夫座空洞" }
+    },
+    {
+      "id": "cmb",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "우주배경복사 (CMB)",
+      "nameI18n": { "en": "Cosmic Microwave Background" },
+      "summary": "빅뱅 약 38만 년 뒤 퍼져나온 우주에서 가장 오래된 빛. 우주 전체를 채우는 잔광이다.",
+      "summaryI18n": { "en": "The oldest light in the universe, released ~380,000 years after the Big Bang — an afterglow filling all of space." },
+      "scene": "scene-large-scale",
+      "facts": [
+        { "label": "정체", "value": "우주배경복사" },
+        { "label": "나이", "value": "빅뱅 후 약 38만 년" },
+        { "label": "특징", "value": "우주에서 가장 오래된 빛" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "What", "value": "Cosmic microwave background" },
+          { "label": "Age", "value": "~380,000 yr after the Big Bang" },
+          { "label": "Note", "value": "The oldest light in the universe" }
+        ]
+      },
+      "related": ["cosmic-web"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Cosmic microwave background", "ko": "우주 마이크로파 배경", "ja": "宇宙マイクロ波背景放射", "es": "Radiación de fondo de microondas", "de": "Hintergrundstrahlung", "pt": "Radiação cósmica de fundo em micro-ondas", "zh": "宇宙微波背景" }
     }
   ]
 }

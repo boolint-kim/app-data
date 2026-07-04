@@ -214,7 +214,11 @@
         "ko": "태양",
         "pt": "Sol",
         "zh": "太阳"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sun.jpg",
+      "imageCredit": "Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SDO_20230621_000005_4096_4500_(AIA).jpg"
     },
     {
       "id": "sirius",
@@ -282,7 +286,11 @@
         "ko": "시리우스",
         "pt": "Sirius",
         "zh": "天狼星"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sirius.jpg",
+      "imageCredit": "ESA/ Hubble and Digitized Sky Survey 2 . Acknowledgements: Davide De Martin ( ESA / Hubble )",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sirius_(ground-based_image)_(heic0516e).jpg"
     },
     {
       "id": "vega",
@@ -350,7 +358,11 @@
         "ko": "베가",
         "pt": "Vega (estrela)",
         "zh": "織女一"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/vega.jpg",
+      "imageCredit": "Lyra_constellation_map.png : Torsten Bronger derivative work",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lyra_constellation_map.svg"
     },
     {
       "id": "proxima",
@@ -418,7 +430,11 @@
         "ko": "센타우루스자리 프록시마",
         "pt": "Proxima Centauri",
         "zh": "比邻星"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/proxima.jpg",
+      "imageCredit": "ESA/Hubble & NASA",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:New_shot_of_Proxima_Centauri%2C_our_nearest_neighbour.jpg"
     },
     {
       "id": "spica",
@@ -486,7 +502,11 @@
         "ko": "스피카",
         "pt": "Espiga (estrela)",
         "zh": "角宿一"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/spica.jpg",
+      "imageCredit": "Virgo_constellation_map.png : Torsten Bronger derivative wor",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Virgo_constellation_map.svg"
     },
     {
       "id": "arcturus",
@@ -554,7 +574,11 @@
         "ko": "아르크투루스",
         "pt": "Arcturo",
         "zh": "大角星"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/arcturus.jpg",
+      "imageCredit": "IAU and Sky & Telescope magazine (Roger Sinnott & Ri",
+      "imageLicense": "CC BY 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bo%C3%B6tes_IAU.svg"
     },
     {
       "id": "aldebaran",
@@ -622,7 +646,11 @@
         "ko": "알데바란",
         "pt": "Aldebarã",
         "zh": "畢宿五"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/aldebaran.jpg",
+      "imageCredit": "Taurus_constellation_map.png : Torsten Bronger derivative wo",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taurus_constellation_map.svg"
     },
     {
       "id": "rigel",
@@ -692,7 +720,11 @@
         "ko": "리겔",
         "pt": "Rígel",
         "zh": "參宿七"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/rigel.jpg",
+      "imageCredit": "Orion_constellation_map.png : Torsten Bronger derivative wor",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Orion_constellation_map.svg"
     },
     {
       "id": "betelgeuse",
@@ -764,7 +796,11 @@
         "ko": "베텔게우스",
         "pt": "Betelgeuse",
         "zh": "參宿四"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/betelgeuse.jpg",
+      "imageCredit": "ESO/M. Montargès et al.",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Betelgeuse%E2%80%99s_surface_before_and_during_its_2019%E2%80%932020_Great_Dimming_(eso2109a).jpg"
     },
     {
       "id": "antares",
@@ -834,7 +870,11 @@
         "ko": "안타레스",
         "pt": "Antares",
         "zh": "心宿二"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/antares.jpg",
+      "imageCredit": "ESO/K. Ohnaka",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VLTI_reconstructed_view_of_the_surface_of_Antares.jpg"
     },
     {
       "id": "uyscuti",
@@ -904,7 +944,11 @@
         "ko": "방패자리 UY",
         "pt": "UY Scuti",
         "zh": "盾牌座UY"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/uyscuti.jpg",
+      "imageCredit": "ESO/Digitized Sky Survey 2",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:UY_Scuti_zoomed_in%2C_DSS2_survey%2C_2003.png"
     },
     {
       "id": "siriusb",
@@ -975,7 +1019,11 @@
         "ko": "시리우스",
         "pt": "Sirius",
         "zh": "天狼星"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/siriusb.jpg",
+      "imageCredit": "ESA/ Hubble and Digitized Sky Survey 2 . Acknowledgements: Davide De Martin ( ESA / Hubble )",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sirius_(ground-based_image)_(heic0516e).jpg"
     },
     {
       "id": "procyonb",
@@ -1043,7 +1091,11 @@
         "ko": "프로키온",
         "pt": "Prócion",
         "zh": "南河三"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/procyonb.jpg",
+      "imageCredit": "",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Position_Alpha_Cmi.png"
     },
     {
       "id": "neutron",
@@ -1116,7 +1168,11 @@
         "ko": "중성자별",
         "pt": "Estrela de nêutrons",
         "zh": "中子星"
-      }
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/neutron.jpg",
+      "imageCredit": "NASA, ESA",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Moving_heart_of_the_Crab_Nebula.jpg"
     }
   ]
 }

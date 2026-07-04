@@ -9,179 +9,431 @@
       "type": "diagram",
       "featured": true,
       "name": "밀도 체감",
-      "nameI18n": { "en": "Feel the Density" },
+      "nameI18n": {
+        "en": "Feel the Density"
+      },
       "summary": "백색왜성·중성자별·블랙홀의 크기와 밀도를 눈으로 비교. 태양을 압축해보세요.",
-      "summaryI18n": { "en": "Compare the size and density of white dwarfs, neutron stars, and black holes — compress the Sun and watch." },
+      "summaryI18n": {
+        "en": "Compare the size and density of white dwarfs, neutron stars, and black holes — compress the Sun and watch."
+      },
       "scene": "scene-remnants",
       "hostCard": false,
       "facts": [
-        { "label": "대상", "value": "백색왜성 · 중성자별 · 블랙홀" },
-        { "label": "체감", "value": "태양 질량을 압축" }
+        {
+          "label": "대상",
+          "value": "백색왜성 · 중성자별 · 블랙홀"
+        },
+        {
+          "label": "체감",
+          "value": "태양 질량을 압축"
+        }
       ],
       "factsI18n": {
         "en": [
-          { "label": "Objects", "value": "White dwarf · neutron star · black hole" },
-          { "label": "Demo", "value": "Compress one solar mass" }
+          {
+            "label": "Objects",
+            "value": "White dwarf · neutron star · black hole"
+          },
+          {
+            "label": "Demo",
+            "value": "Compress one solar mass"
+          }
         ]
       },
-      "related": ["crab-pulsar", "sirius-b", "cygnus-x1"],
-      "crossAxis": ["element-origin"]
+      "related": [
+        "crab-pulsar",
+        "sirius-b",
+        "cygnus-x1"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ]
     },
     {
       "id": "crab-pulsar",
       "bandId": "remnants",
       "type": "object",
       "name": "게성운 펄사",
-      "nameI18n": { "en": "Crab Pulsar" },
+      "nameI18n": {
+        "en": "Crab Pulsar"
+      },
       "summary": "1054년 초신성이 남긴 중성자별. 게 성운(M1) 중심에서 초당 약 30회 회전하며 맥동한다.",
-      "summaryI18n": { "en": "The neutron star left by the supernova of 1054 — it spins ~30 times per second at the heart of the Crab Nebula (M1)." },
+      "summaryI18n": {
+        "en": "The neutron star left by the supernova of 1054 — it spins ~30 times per second at the heart of the Crab Nebula (M1)."
+      },
       "scene": "scene-remnants",
       "sceneFocus": "ns",
       "facts": [
-        { "label": "분류", "value": "펄사 (중성자별)" },
-        { "label": "기원", "value": "SN 1054 → 게 성운(M1)" },
-        { "label": "자전", "value": "초당 약 30회" }
+        {
+          "label": "분류",
+          "value": "펄사 (중성자별)"
+        },
+        {
+          "label": "기원",
+          "value": "SN 1054 → 게 성운(M1)"
+        },
+        {
+          "label": "자전",
+          "value": "초당 약 30회"
+        }
       ],
       "factsI18n": {
         "en": [
-          { "label": "Class", "value": "Pulsar (neutron star)" },
-          { "label": "Origin", "value": "SN 1054 → Crab Nebula (M1)" },
-          { "label": "Spin", "value": "~30 per second" }
+          {
+            "label": "Class",
+            "value": "Pulsar (neutron star)"
+          },
+          {
+            "label": "Origin",
+            "value": "SN 1054 → Crab Nebula (M1)"
+          },
+          {
+            "label": "Spin",
+            "value": "~30 per second"
+          }
         ]
       },
-      "related": ["density", "vela-pulsar", "cygnus-x1"],
-      "crossAxis": ["element-origin"],
-      "wiki": { "en": "Crab Pulsar", "ko": "게성운 펄사", "ja": "かにパルサー", "es": "Púlsar del Cangrejo", "pt": "Pulsar do Caranguejo", "zh": "蟹状星云脉冲星" }
+      "related": [
+        "density",
+        "vela-pulsar",
+        "cygnus-x1"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "Crab Pulsar",
+        "ko": "게성운 펄사",
+        "ja": "かにパルサー",
+        "es": "Púlsar del Cangrejo",
+        "pt": "Pulsar do Caranguejo",
+        "zh": "蟹状星云脉冲星"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/crab-pulsar.jpg",
+      "imageCredit": "Optical: NASA/HST/ASU/J. Hester et al. X-Ray: NASA/CXC/ASU/J",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chandra-crab.jpg"
     },
     {
       "id": "vela-pulsar",
       "bandId": "remnants",
       "type": "object",
       "name": "벨라 펄사",
-      "nameI18n": { "en": "Vela Pulsar" },
+      "nameI18n": {
+        "en": "Vela Pulsar"
+      },
       "summary": "약 1만 년 전 초신성 잔해 속 중성자별. 감마선으로도 밝게 맥동하는 대표 펄사.",
-      "summaryI18n": { "en": "A neutron star inside an ~11,000-year-old supernova remnant — a bright gamma-ray pulsar." },
+      "summaryI18n": {
+        "en": "A neutron star inside an ~11,000-year-old supernova remnant — a bright gamma-ray pulsar."
+      },
       "scene": "scene-remnants",
       "sceneFocus": "ns",
       "facts": [
-        { "label": "분류", "value": "펄사 (중성자별)" },
-        { "label": "자전", "value": "초당 약 11회" },
-        { "label": "거리", "value": "약 1,000광년" }
+        {
+          "label": "분류",
+          "value": "펄사 (중성자별)"
+        },
+        {
+          "label": "자전",
+          "value": "초당 약 11회"
+        },
+        {
+          "label": "거리",
+          "value": "약 1,000광년"
+        }
       ],
       "factsI18n": {
         "en": [
-          { "label": "Class", "value": "Pulsar (neutron star)" },
-          { "label": "Spin", "value": "~11 per second" },
-          { "label": "Distance", "value": "~1,000 ly" }
+          {
+            "label": "Class",
+            "value": "Pulsar (neutron star)"
+          },
+          {
+            "label": "Spin",
+            "value": "~11 per second"
+          },
+          {
+            "label": "Distance",
+            "value": "~1,000 ly"
+          }
         ]
       },
-      "related": ["density", "crab-pulsar"],
-      "crossAxis": ["element-origin"],
-      "wiki": { "en": "Vela Pulsar", "ja": "ベラパルサー", "es": "Púlsar de Vela", "de": "PSR J0835-4510", "pt": "Pulsar de Vela", "zh": "船帆座脉冲星" }
+      "related": [
+        "density",
+        "crab-pulsar"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "Vela Pulsar",
+        "ja": "ベラパルサー",
+        "es": "Púlsar de Vela",
+        "de": "PSR J0835-4510",
+        "pt": "Pulsar de Vela",
+        "zh": "船帆座脉冲星"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/vela-pulsar.jpg",
+      "imageCredit": "NASA/CXC/PSU/G.Pavlov et al.",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vela_Pulsar_jet.jpg"
     },
     {
       "id": "sirius-b",
       "bandId": "remnants",
       "type": "object",
       "name": "시리우스 B",
-      "nameI18n": { "en": "Sirius B" },
+      "nameI18n": {
+        "en": "Sirius B"
+      },
       "summary": "밤하늘 가장 밝은 별 시리우스의 동반 백색왜성. 지구 크기에 태양급 질량이 담긴 잔해.",
-      "summaryI18n": { "en": "The white-dwarf companion of Sirius, the brightest star — a solar mass packed into an Earth-sized remnant." },
+      "summaryI18n": {
+        "en": "The white-dwarf companion of Sirius, the brightest star — a solar mass packed into an Earth-sized remnant."
+      },
       "scene": "scene-remnants",
       "sceneFocus": "wd",
       "facts": [
-        { "label": "분류", "value": "백색왜성" },
-        { "label": "질량", "value": "태양의 약 1배 (지구 크기)" },
-        { "label": "동반성", "value": "시리우스 A" }
+        {
+          "label": "분류",
+          "value": "백색왜성"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 1배 (지구 크기)"
+        },
+        {
+          "label": "동반성",
+          "value": "시리우스 A"
+        }
       ],
       "factsI18n": {
         "en": [
-          { "label": "Class", "value": "White dwarf" },
-          { "label": "Mass", "value": "~1 solar (Earth-sized)" },
-          { "label": "Companion", "value": "Sirius A" }
+          {
+            "label": "Class",
+            "value": "White dwarf"
+          },
+          {
+            "label": "Mass",
+            "value": "~1 solar (Earth-sized)"
+          },
+          {
+            "label": "Companion",
+            "value": "Sirius A"
+          }
         ]
       },
-      "related": ["density", "procyon-b"],
-      "crossAxis": ["element-origin"],
-      "wiki": { "en": "Sirius", "ko": "시리우스", "ja": "シリウス", "es": "Sirio", "de": "Sirius", "pt": "Sirius", "zh": "天狼星" }
+      "related": [
+        "density",
+        "procyon-b"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "Sirius",
+        "ko": "시리우스",
+        "ja": "シリウス",
+        "es": "Sirio",
+        "de": "Sirius",
+        "pt": "Sirius",
+        "zh": "天狼星"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sirius-b.jpg",
+      "imageCredit": "ESA/ Hubble and Digitized Sky Survey 2 . Acknowledgements: Davide De Martin ( ESA / Hubble )",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sirius_(ground-based_image)_(heic0516e).jpg"
     },
     {
       "id": "procyon-b",
       "bandId": "remnants",
       "type": "object",
       "name": "프로키온 B",
-      "nameI18n": { "en": "Procyon B" },
+      "nameI18n": {
+        "en": "Procyon B"
+      },
       "summary": "작은개자리 프로키온의 동반 백색왜성. 11.5광년 거리의 가까운 항성 잔해.",
-      "summaryI18n": { "en": "The white-dwarf companion of Procyon in Canis Minor — a nearby stellar remnant 11.5 light-years away." },
+      "summaryI18n": {
+        "en": "The white-dwarf companion of Procyon in Canis Minor — a nearby stellar remnant 11.5 light-years away."
+      },
       "scene": "scene-remnants",
       "sceneFocus": "wd",
       "facts": [
-        { "label": "분류", "value": "백색왜성" },
-        { "label": "거리", "value": "11.5광년" },
-        { "label": "동반성", "value": "프로키온 A" }
+        {
+          "label": "분류",
+          "value": "백색왜성"
+        },
+        {
+          "label": "거리",
+          "value": "11.5광년"
+        },
+        {
+          "label": "동반성",
+          "value": "프로키온 A"
+        }
       ],
       "factsI18n": {
         "en": [
-          { "label": "Class", "value": "White dwarf" },
-          { "label": "Distance", "value": "11.5 ly" },
-          { "label": "Companion", "value": "Procyon A" }
+          {
+            "label": "Class",
+            "value": "White dwarf"
+          },
+          {
+            "label": "Distance",
+            "value": "11.5 ly"
+          },
+          {
+            "label": "Companion",
+            "value": "Procyon A"
+          }
         ]
       },
-      "related": ["density", "sirius-b"],
+      "related": [
+        "density",
+        "sirius-b"
+      ],
       "crossAxis": [],
-      "wiki": { "en": "Procyon", "ko": "프로키온", "ja": "プロキオン", "es": "Procyon (estrella)", "de": "Prokyon", "pt": "Prócion", "zh": "南河三" }
+      "wiki": {
+        "en": "Procyon",
+        "ko": "프로키온",
+        "ja": "プロキオン",
+        "es": "Procyon (estrella)",
+        "de": "Prokyon",
+        "pt": "Prócion",
+        "zh": "南河三"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/procyon-b.jpg",
+      "imageCredit": "",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Position_Alpha_Cmi.png"
     },
     {
       "id": "cygnus-x1",
       "bandId": "remnants",
       "type": "object",
       "name": "백조자리 X-1",
-      "nameI18n": { "en": "Cygnus X-1" },
+      "nameI18n": {
+        "en": "Cygnus X-1"
+      },
       "summary": "최초로 널리 인정된 항성질량 블랙홀. 동반성의 물질이 빨려들며 강한 X선을 낸다.",
-      "summaryI18n": { "en": "The first widely accepted stellar-mass black hole — it emits strong X-rays as it devours matter from a companion star." },
+      "summaryI18n": {
+        "en": "The first widely accepted stellar-mass black hole — it emits strong X-rays as it devours matter from a companion star."
+      },
       "scene": "scene-remnants",
       "sceneFocus": "bh",
       "facts": [
-        { "label": "분류", "value": "항성질량 블랙홀" },
-        { "label": "질량", "value": "태양의 약 21배" },
-        { "label": "의의", "value": "최초 확인 블랙홀 후보 (1971)" }
+        {
+          "label": "분류",
+          "value": "항성질량 블랙홀"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 21배"
+        },
+        {
+          "label": "의의",
+          "value": "최초 확인 블랙홀 후보 (1971)"
+        }
       ],
       "factsI18n": {
         "en": [
-          { "label": "Class", "value": "Stellar-mass black hole" },
-          { "label": "Mass", "value": "~21 solar masses" },
-          { "label": "Note", "value": "First confirmed BH candidate (1971)" }
+          {
+            "label": "Class",
+            "value": "Stellar-mass black hole"
+          },
+          {
+            "label": "Mass",
+            "value": "~21 solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "First confirmed BH candidate (1971)"
+          }
         ]
       },
-      "related": ["density", "sagittarius-a", "crab-pulsar"],
+      "related": [
+        "density",
+        "sagittarius-a",
+        "crab-pulsar"
+      ],
       "crossAxis": [],
-      "wiki": { "en": "Cygnus X-1", "ko": "백조자리 X-1", "ja": "はくちょう座X-1", "es": "Cygnus X-1", "de": "Cygnus X-1", "pt": "Cygnus X-1", "zh": "天鵝座X-1" }
+      "wiki": {
+        "en": "Cygnus X-1",
+        "ko": "백조자리 X-1",
+        "ja": "はくちょう座X-1",
+        "es": "Cygnus X-1",
+        "de": "Cygnus X-1",
+        "pt": "Cygnus X-1",
+        "zh": "天鵝座X-1"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/cygnus-x1.jpg",
+      "imageCredit": "IAU and Sky & Telescope magazine (Roger Sinnott & Ri",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cygnus_IAU.svg"
     },
     {
       "id": "sagittarius-a",
       "bandId": "remnants",
       "type": "object",
       "name": "궁수자리 A*",
-      "nameI18n": { "en": "Sagittarius A*" },
+      "nameI18n": {
+        "en": "Sagittarius A*"
+      },
       "summary": "우리 은하 중심의 초대질량 블랙홀. 2022년 사건지평선망원경이 그 그림자를 촬영했다.",
-      "summaryI18n": { "en": "The supermassive black hole at the center of the Milky Way — the Event Horizon Telescope imaged its shadow in 2022." },
+      "summaryI18n": {
+        "en": "The supermassive black hole at the center of the Milky Way — the Event Horizon Telescope imaged its shadow in 2022."
+      },
       "scene": "scene-remnants",
       "sceneFocus": "bh",
       "facts": [
-        { "label": "분류", "value": "초대질량 블랙홀" },
-        { "label": "질량", "value": "태양의 약 430만 배" },
-        { "label": "위치", "value": "우리 은하 중심 (약 26,000광년)" }
+        {
+          "label": "분류",
+          "value": "초대질량 블랙홀"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 430만 배"
+        },
+        {
+          "label": "위치",
+          "value": "우리 은하 중심 (약 26,000광년)"
+        }
       ],
       "factsI18n": {
         "en": [
-          { "label": "Class", "value": "Supermassive black hole" },
-          { "label": "Mass", "value": "~4.3 million solar masses" },
-          { "label": "Location", "value": "Milky Way center (~26,000 ly)" }
+          {
+            "label": "Class",
+            "value": "Supermassive black hole"
+          },
+          {
+            "label": "Mass",
+            "value": "~4.3 million solar masses"
+          },
+          {
+            "label": "Location",
+            "value": "Milky Way center (~26,000 ly)"
+          }
         ]
       },
-      "related": ["density", "cygnus-x1"],
-      "crossAxis": ["light-delay"],
-      "wiki": { "en": "Sagittarius A*", "ko": "궁수자리 A*", "ja": "いて座A*", "es": "Sagitario A*", "de": "Sagittarius A*", "pt": "Sagittarius A*", "zh": "人馬座A*" }
+      "related": [
+        "density",
+        "cygnus-x1"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Sagittarius A*",
+        "ko": "궁수자리 A*",
+        "ja": "いて座A*",
+        "es": "Sagitario A*",
+        "de": "Sagittarius A*",
+        "pt": "Sagittarius A*",
+        "zh": "人馬座A*"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sagittarius-a.jpg",
+      "imageCredit": "EHT Collaboration",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:EHT_Saggitarius_A_black_hole.tif"
     }
   ]
 }

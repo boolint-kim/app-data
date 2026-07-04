@@ -1,0 +1,67 @@
+{
+  "bandId": "galaxies",
+  "version": 1,
+  "updatedAt": "2026-07-04T00:00:00Z",
+  "curator": "boolint",
+  "items": [
+    {
+      "id": "hubble-fork",
+      "type": "diagram",
+      "featured": true,
+      "name": "허블 음차도",
+      "nameI18n": { "en": "Hubble Tuning Fork" },
+      "summary": "은하를 형태로 분류하는 지도 — 타원에서 나선·막대나선으로 갈라진다. 진화 순서 아님.",
+      "summaryI18n": { "en": "A map that classifies galaxies by shape — ellipticals branch into spirals and barred spirals. Not an evolutionary sequence." },
+      "scene": "scene-hubble-fork",
+      "hostCard": false,
+      "facts": [
+        { "label": "손잡이", "value": "타원 E0~E7 → 렌즈 S0" },
+        { "label": "갈래", "value": "나선 S / 막대나선 SB" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Handle", "value": "Elliptical E0–E7 → lenticular S0" },
+          { "label": "Prongs", "value": "Spiral S / barred spiral SB" }
+        ]
+      },
+      "related": ["agn", "quasar-3c273"],
+      "crossAxis": ["light-delay"]
+    },
+    {
+      "id": "agn",
+      "type": "process",
+      "featured": true,
+      "name": "AGN 통합모델",
+      "nameI18n": { "en": "AGN Unified Model" },
+      "summary": "블레이자·퀘이사·세이퍼트는 사실 같은 천체 — 보는 각도만 다를 뿐. 각도를 돌려보라.",
+      "summaryI18n": { "en": "Blazars, quasars, and Seyferts are really the same object seen at different angles. Rotate to change the view." },
+      "scene": "scene-agn",
+      "hostCard": false,
+      "facts": [
+        { "label": "핵", "value": "초대질량 블랙홀 + 강착원반 + 제트" },
+        { "label": "분류", "value": "시선각 (정면→블레이자, 옆면→가려짐)" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Core", "value": "Supermassive black hole + disk + jets" },
+          { "label": "Class", "value": "Viewing angle (pole-on → blazar, edge-on → obscured)" }
+        ]
+      },
+      "related": ["hubble-fork", "quasar-3c273", "black-hole"],
+      "crossAxis": ["multiwavelength", "light-delay"]
+    },
+    {
+      "id": "quasar-3c273",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "퀘이사 3C 273",
+      "nameI18n": { "en": "Quasar 3C 273" },
+      "summary": "처음 확인된 퀘이사. 은하 전체보다 밝은 활동핵으로, 별이 아니라 H-R도엔 없다.",
+      "summaryI18n": { "en": "The first quasar ever identified — an active nucleus brighter than a whole galaxy. Not a star, so it's absent from the H-R diagram." },
+      "scene": "scene-agn",
+      "hostCard": false,
+      "related": ["agn", "hubble-fork"],
+      "crossAxis": ["multiwavelength"]
+    }
+  ]
+}

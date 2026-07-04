@@ -58,7 +58,8 @@
       "scaleLabelI18n": { "en": "tens of thousands to millions of light-years" },
       "accent": "#FF9445",
       "lenses": ["size", "distance"],
-      "status": "coming-soon"
+      "status": "live",
+      "source": "band-galaxies.json"
     },
     {
       "id": "large-scale",

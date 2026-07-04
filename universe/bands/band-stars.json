@@ -1,0 +1,414 @@
+{
+  "bandId": "stars",
+  "version": 1,
+  "updatedAt": "2026-07-04T00:00:00Z",
+  "curator": "boolint",
+  "items": [
+    {
+      "id": "hr-diagram",
+      "type": "diagram",
+      "featured": true,
+      "name": "H-R도",
+      "nameI18n": { "en": "H-R Diagram" },
+      "summary": "별을 표면온도(가로)와 광도(세로)로 배치하는 분류 지도. 주계열이 대각선 띠로 드러난다.",
+      "summaryI18n": { "en": "A map that arranges stars by surface temperature (x) and luminosity (y). The main sequence appears as a diagonal band." },
+      "scene": "scene-hr-diagram",
+      "facts": [
+        { "label": "가로축", "value": "표면온도 (왼쪽이 뜨거움, OBAFGKM)" },
+        { "label": "세로축", "value": "광도 (위가 밝음)" },
+        { "label": "주계열", "value": "왼쪽 위 → 오른쪽 아래 대각선 띠" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "X axis", "value": "Surface temperature (hotter to the left, OBAFGKM)" },
+          { "label": "Y axis", "value": "Luminosity (brighter at top)" },
+          { "label": "Main sequence", "value": "Diagonal band, upper-left to lower-right" }
+        ]
+      },
+      "related": ["sun", "sirius", "betelgeuse", "uyscuti", "neutron"],
+      "crossAxis": []
+    },
+    {
+      "id": "sun",
+      "bandId": "stars",
+      "type": "object",
+      "name": "태양",
+      "nameI18n": { "en": "Sun" },
+      "summary": "우리 항성. G2V 분광형의 주계열성.",
+      "summaryI18n": { "en": "Our home star — a G2V main-sequence star." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "sun",
+      "lensValues": { "size": 1.0, "distance": 0 },
+      "hrPosition": { "temp": 5778, "luminosity": 1.0, "withinStandard": true },
+      "facts": [
+        { "label": "분광형", "value": "G2V" },
+        { "label": "표면온도", "value": "약 5,778 K" },
+        { "label": "광도", "value": "1 L☉ (기준)" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Spectral type", "value": "G2V" },
+          { "label": "Surface temp", "value": "~5,778 K" },
+          { "label": "Luminosity", "value": "1 L☉ (reference)" }
+        ]
+      },
+      "related": ["hr-diagram", "sirius"],
+      "crossAxis": ["element-origin"]
+    },
+    {
+      "id": "sirius",
+      "bandId": "stars",
+      "type": "object",
+      "name": "시리우스",
+      "nameI18n": { "en": "Sirius" },
+      "summary": "밤하늘에서 가장 밝은 별. A1V 주계열성이며 백색왜성 동반성(시리우스 B)을 거느린다.",
+      "summaryI18n": { "en": "The brightest star in the night sky — an A1V main-sequence star with a white-dwarf companion (Sirius B)." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "sirius",
+      "lensValues": { "size": 1.71, "distance": 8.6 },
+      "hrPosition": { "temp": 9940, "luminosity": 25.4, "withinStandard": true },
+      "facts": [
+        { "label": "분광형", "value": "A1V" },
+        { "label": "표면온도", "value": "약 9,940 K" },
+        { "label": "광도", "value": "25 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Spectral type", "value": "A1V" },
+          { "label": "Surface temp", "value": "~9,940 K" },
+          { "label": "Luminosity", "value": "25 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "siriusb"],
+      "crossAxis": []
+    },
+    {
+      "id": "vega",
+      "bandId": "stars",
+      "type": "object",
+      "name": "베가",
+      "nameI18n": { "en": "Vega" },
+      "summary": "거문고자리의 청백색 주계열성. 한때 사진 측광의 밝기 기준이었다.",
+      "summaryI18n": { "en": "The blue-white main-sequence star of Lyra — once the zero-point standard for photometric brightness." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "vega",
+      "lensValues": { "size": 2.36, "distance": 25 },
+      "hrPosition": { "temp": 9602, "luminosity": 40, "withinStandard": true },
+      "facts": [
+        { "label": "분광형", "value": "A0V" },
+        { "label": "표면온도", "value": "약 9,600 K" },
+        { "label": "광도", "value": "40 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Spectral type", "value": "A0V" },
+          { "label": "Surface temp", "value": "~9,600 K" },
+          { "label": "Luminosity", "value": "40 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "sirius"],
+      "crossAxis": []
+    },
+    {
+      "id": "proxima",
+      "bandId": "stars",
+      "type": "object",
+      "name": "프록시마 켄타우리",
+      "nameI18n": { "en": "Proxima Centauri" },
+      "summary": "태양에서 가장 가까운 별. 어둡고 차가운 적색왜성이다.",
+      "summaryI18n": { "en": "The closest star to the Sun — a dim, cool red dwarf." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "proxima",
+      "lensValues": { "size": 0.15, "distance": 4.24 },
+      "hrPosition": { "temp": 3042, "luminosity": 0.0017, "withinStandard": true },
+      "facts": [
+        { "label": "분광형", "value": "M5.5V 적색왜성" },
+        { "label": "표면온도", "value": "약 3,040 K" },
+        { "label": "거리", "value": "4.24 광년 (최근접 별)" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Spectral type", "value": "M5.5V red dwarf" },
+          { "label": "Surface temp", "value": "~3,040 K" },
+          { "label": "Distance", "value": "4.24 ly (nearest star)" }
+        ]
+      },
+      "related": ["hr-diagram", "sun"],
+      "crossAxis": []
+    },
+    {
+      "id": "spica",
+      "bandId": "stars",
+      "type": "object",
+      "name": "스피카",
+      "nameI18n": { "en": "Spica" },
+      "summary": "처녀자리의 뜨거운 청색 별. 밝고 무거운 B형 주계열성이다.",
+      "summaryI18n": { "en": "The hot blue star of Virgo — a bright, massive B-type main-sequence star." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "spica",
+      "lensValues": { "size": 7.4, "distance": 250 },
+      "hrPosition": { "temp": 22400, "luminosity": 20000, "withinStandard": true },
+      "facts": [
+        { "label": "분광형", "value": "B1V" },
+        { "label": "표면온도", "value": "약 22,400 K" },
+        { "label": "광도", "value": "20,000 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Spectral type", "value": "B1V" },
+          { "label": "Surface temp", "value": "~22,400 K" },
+          { "label": "Luminosity", "value": "20,000 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "rigel"],
+      "crossAxis": []
+    },
+    {
+      "id": "arcturus",
+      "bandId": "stars",
+      "type": "object",
+      "name": "아크투루스",
+      "nameI18n": { "en": "Arcturus" },
+      "summary": "목동자리의 주황색 거성. 주계열을 떠나 부풀어 오른 늙은 별이다.",
+      "summaryI18n": { "en": "The orange giant of Boötes — an aged star that has left the main sequence and swollen up." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "arcturus",
+      "lensValues": { "size": 25.4, "distance": 37 },
+      "hrPosition": { "temp": 4286, "luminosity": 170, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "K1.5 III 적색거성" },
+        { "label": "반지름", "value": "약 25 R☉" },
+        { "label": "광도", "value": "170 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "K1.5 III red giant" },
+          { "label": "Radius", "value": "~25 R☉" },
+          { "label": "Luminosity", "value": "170 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "aldebaran"],
+      "crossAxis": []
+    },
+    {
+      "id": "aldebaran",
+      "bandId": "stars",
+      "type": "object",
+      "name": "알데바란",
+      "nameI18n": { "en": "Aldebaran" },
+      "summary": "황소자리의 눈에 해당하는 주황색 거성.",
+      "summaryI18n": { "en": "The orange giant marking the eye of Taurus." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "aldebaran",
+      "lensValues": { "size": 44, "distance": 65 },
+      "hrPosition": { "temp": 3910, "luminosity": 439, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "K5 III 거성" },
+        { "label": "반지름", "value": "약 44 R☉" },
+        { "label": "광도", "value": "439 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "K5 III giant" },
+          { "label": "Radius", "value": "~44 R☉" },
+          { "label": "Luminosity", "value": "439 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "arcturus"],
+      "crossAxis": []
+    },
+    {
+      "id": "rigel",
+      "bandId": "stars",
+      "type": "object",
+      "name": "리겔",
+      "nameI18n": { "en": "Rigel" },
+      "summary": "오리온자리의 청색 초거성. 짧고 격렬하게 타다 초신성으로 생을 마칠 운명이다.",
+      "summaryI18n": { "en": "The blue supergiant of Orion — burning fiercely and destined to end as a supernova." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "rigel",
+      "lensValues": { "size": 78, "distance": 860 },
+      "hrPosition": { "temp": 12100, "luminosity": 120000, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "B8 Ia 청색 초거성" },
+        { "label": "반지름", "value": "약 78 R☉" },
+        { "label": "광도", "value": "120,000 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "B8 Ia blue supergiant" },
+          { "label": "Radius", "value": "~78 R☉" },
+          { "label": "Luminosity", "value": "120,000 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "betelgeuse"],
+      "crossAxis": ["light-delay"]
+    },
+    {
+      "id": "betelgeuse",
+      "bandId": "stars",
+      "type": "object",
+      "name": "베텔게우스",
+      "nameI18n": { "en": "Betelgeuse" },
+      "summary": "오리온자리의 적색 초거성. 지구 궤도를 삼킬 만큼 크며 언제든 초신성이 될 수 있다.",
+      "summaryI18n": { "en": "The red supergiant of Orion — large enough to swallow Earth's orbit, and could go supernova at any time." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "betelgeuse",
+      "lensValues": { "size": 887, "distance": 640 },
+      "hrPosition": { "temp": 3500, "luminosity": 126000, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "M1 Ia 적색 초거성" },
+        { "label": "반지름", "value": "약 887 R☉" },
+        { "label": "광도", "value": "126,000 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "M1 Ia red supergiant" },
+          { "label": "Radius", "value": "~887 R☉" },
+          { "label": "Luminosity", "value": "126,000 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "uyscuti", "rigel"],
+      "crossAxis": ["light-delay", "element-origin"]
+    },
+    {
+      "id": "antares",
+      "bandId": "stars",
+      "type": "object",
+      "name": "안타레스",
+      "nameI18n": { "en": "Antares" },
+      "summary": "전갈자리의 심장에 해당하는 붉은 초거성. 이름은 '화성의 라이벌'이라는 뜻이다.",
+      "summaryI18n": { "en": "The red supergiant at the heart of Scorpius — its name means 'rival of Mars'." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "antares",
+      "lensValues": { "size": 680, "distance": 550 },
+      "hrPosition": { "temp": 3660, "luminosity": 75000, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "M1.5 적색 초거성" },
+        { "label": "반지름", "value": "약 680 R☉" },
+        { "label": "광도", "value": "75,000 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "M1.5 red supergiant" },
+          { "label": "Radius", "value": "~680 R☉" },
+          { "label": "Luminosity", "value": "75,000 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "betelgeuse"],
+      "crossAxis": ["light-delay"]
+    },
+    {
+      "id": "uyscuti",
+      "bandId": "stars",
+      "type": "object",
+      "name": "UY Scuti",
+      "nameI18n": { "en": "UY Scuti" },
+      "summary": "알려진 가장 큰 별 중 하나. 태양 자리에 두면 목성 궤도 부근까지 닿는 극대거성이다.",
+      "summaryI18n": { "en": "One of the largest known stars — a hypergiant that, placed at the Sun, would reach out near Jupiter's orbit." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "uyscuti",
+      "lensValues": { "size": 1700, "distance": 5100 },
+      "hrPosition": { "temp": 3365, "luminosity": 340000, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "M4 극대거성" },
+        { "label": "반지름", "value": "약 1,700 R☉" },
+        { "label": "광도", "value": "340,000 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "M4 hypergiant" },
+          { "label": "Radius", "value": "~1,700 R☉" },
+          { "label": "Luminosity", "value": "340,000 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "betelgeuse"],
+      "crossAxis": ["light-delay"]
+    },
+    {
+      "id": "siriusb",
+      "bandId": "stars",
+      "type": "object",
+      "name": "시리우스 B",
+      "nameI18n": { "en": "Sirius B" },
+      "summary": "시리우스의 동반 백색왜성. 핵융합이 끝난 별의 뜨겁고 작은 잔해다.",
+      "summaryI18n": { "en": "The white-dwarf companion of Sirius — the hot, tiny remnant of a star that finished fusion." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "siriusb",
+      "lensValues": { "size": 0.0084, "distance": 8.6 },
+      "hrPosition": { "temp": 25000, "luminosity": 0.026, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "백색왜성" },
+        { "label": "크기", "value": "지구 정도" },
+        { "label": "밀도", "value": "1스푼 ≈ 1톤" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "White dwarf" },
+          { "label": "Size", "value": "About Earth-sized" },
+          { "label": "Density", "value": "1 tsp ≈ 1 ton" }
+        ]
+      },
+      "related": ["hr-diagram", "sirius", "neutron"],
+      "crossAxis": ["element-origin"]
+    },
+    {
+      "id": "procyonb",
+      "bandId": "stars",
+      "type": "object",
+      "name": "프로키온 B",
+      "nameI18n": { "en": "Procyon B" },
+      "summary": "프로키온의 동반 백색왜성. 어둡게 식어가는 별의 잔해다.",
+      "summaryI18n": { "en": "The white-dwarf companion of Procyon — a stellar remnant slowly cooling into darkness." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "procyonb",
+      "lensValues": { "size": 0.012, "distance": 11.5 },
+      "hrPosition": { "temp": 7740, "luminosity": 0.00049, "withinStandard": true },
+      "facts": [
+        { "label": "분류", "value": "백색왜성" },
+        { "label": "표면온도", "value": "약 7,740 K" },
+        { "label": "광도", "value": "0.0005 L☉" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "White dwarf" },
+          { "label": "Surface temp", "value": "~7,740 K" },
+          { "label": "Luminosity", "value": "0.0005 L☉" }
+        ]
+      },
+      "related": ["hr-diagram", "siriusb"],
+      "crossAxis": []
+    },
+    {
+      "id": "neutron",
+      "bandId": "stars",
+      "type": "object",
+      "name": "중성자별",
+      "nameI18n": { "en": "Neutron Star" },
+      "summary": "핵융합을 하지 않는 '별의 시체'. 표준 H-R도의 온도축을 한참 벗어나 축 바깥에 표기된다.",
+      "summaryI18n": { "en": "A 'stellar corpse' that no longer fuses — plotted outside the standard H-R axes because it lies far beyond them." },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "neutron",
+      "lensValues": { "size": 0.000014 },
+      "hrPosition": { "temp": 600000, "luminosity": 0.0001, "withinStandard": false },
+      "facts": [
+        { "label": "분류", "value": "항성 잔해 · 펄사" },
+        { "label": "크기", "value": "도시 정도 (~20 km)" },
+        { "label": "밀도", "value": "1스푼 ≈ 수십억 톤" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "Stellar remnant · pulsar" },
+          { "label": "Size", "value": "City-sized (~20 km)" },
+          { "label": "Density", "value": "1 tsp ≈ billions of tons" }
+        ]
+      },
+      "note": "표면온도가 약 60만 K로 표준 H-R도의 온도축(~5만 K)을 한참 벗어납니다. 핵융합을 하지 않는 「별의 시체」라 표준 도표 밖으로 둡니다.",
+      "noteI18n": {
+        "en": "Its surface temperature (~600,000 K) lies far beyond the standard H-R temperature axis (~50,000 K). As a non-fusing 'stellar corpse', it is placed outside the standard diagram."
+      },
+      "related": ["hr-diagram", "siriusb"],
+      "crossAxis": ["element-origin"]
+    }
+  ]
+}

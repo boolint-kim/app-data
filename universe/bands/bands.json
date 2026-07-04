@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-04T00:00:00Z",
+  "bands": [
+    {
+      "id": "solar-system",
+      "order": 1,
+      "name": "태양계",
+      "nameI18n": { "en": "Solar System" },
+      "scaleLabel": "AU",
+      "scaleLabelI18n": { "en": "AU" },
+      "accent": "#F2B33D",
+      "lenses": ["position", "size", "distance"],
+      "status": "live",
+      "source": "native"
+    },
+    {
+      "id": "stars",
+      "order": 2,
+      "name": "별·항성계",
+      "nameI18n": { "en": "Stars" },
+      "scaleLabel": "광년",
+      "scaleLabelI18n": { "en": "light-years" },
+      "accent": "#6FA8FF",
+      "lenses": ["size", "distance"],
+      "status": "live",
+      "source": "band-stars.json"
+    },
+    {
+      "id": "remnants",
+      "order": 3,
+      "name": "항성 잔해",
+      "nameI18n": { "en": "Stellar Remnants" },
+      "scaleLabel": "광년",
+      "scaleLabelI18n": { "en": "light-years" },
+      "accent": "#C39BFF",
+      "lenses": ["size"],
+      "status": "coming-soon"
+    },
+    {
+      "id": "ism",
+      "order": 4,
+      "name": "성간물질",
+      "nameI18n": { "en": "Interstellar Medium" },
+      "scaleLabel": "광년~수백 광년",
+      "scaleLabelI18n": { "en": "light-years to hundreds" },
+      "accent": "#FF6FB5",
+      "lenses": ["size"],
+      "status": "coming-soon"
+    },
+    {
+      "id": "galaxies",
+      "order": 5,
+      "name": "은하",
+      "nameI18n": { "en": "Galaxies" },
+      "scaleLabel": "수만~수백만 광년",
+      "scaleLabelI18n": { "en": "tens of thousands to millions of light-years" },
+      "accent": "#FF9445",
+      "lenses": ["size", "distance"],
+      "status": "coming-soon"
+    },
+    {
+      "id": "large-scale",
+      "order": 6,
+      "name": "우주 거대구조",
+      "nameI18n": { "en": "Large-Scale Structure" },
+      "scaleLabel": "수억 광년~",
+      "scaleLabelI18n": { "en": "hundreds of millions of light-years and beyond" },
+      "accent": "#5B6CE8",
+      "lenses": ["position"],
+      "status": "coming-soon"
+    }
+  ]
+}

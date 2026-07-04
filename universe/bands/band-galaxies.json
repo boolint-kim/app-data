@@ -1,6 +1,6 @@
 {
   "bandId": "galaxies",
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-04T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -24,7 +24,7 @@
           { "label": "Prongs", "value": "Spiral S / barred spiral SB" }
         ]
       },
-      "related": ["agn", "quasar-3c273"],
+      "related": ["agn", "andromeda", "milky-way"],
       "crossAxis": ["light-delay"]
     },
     {
@@ -47,8 +47,190 @@
           { "label": "Class", "value": "Viewing angle (pole-on → blazar, edge-on → obscured)" }
         ]
       },
-      "related": ["hubble-fork", "quasar-3c273", "black-hole"],
+      "related": ["hubble-fork", "quasar-3c273", "m87"],
       "crossAxis": ["multiwavelength", "light-delay"]
+    },
+    {
+      "id": "andromeda",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "안드로메다 은하",
+      "nameI18n": { "en": "Andromeda Galaxy" },
+      "summary": "우리 은하에서 가장 가까운 대형 나선은하. 약 40억 년 뒤 우리 은하와 충돌·합병한다.",
+      "summaryI18n": { "en": "The nearest large spiral galaxy to us — it will collide and merge with the Milky Way in about 4 billion years." },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Sb",
+      "facts": [
+        { "label": "형태", "value": "나선은하 (Sb)" },
+        { "label": "거리", "value": "약 250만 광년" },
+        { "label": "지름", "value": "약 22만 광년" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Spiral (Sb)" },
+          { "label": "Distance", "value": "~2.5 million ly" },
+          { "label": "Diameter", "value": "~220,000 ly" }
+        ]
+      },
+      "related": ["hubble-fork", "milky-way", "m87"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Andromeda Galaxy", "ko": "안드로메다 은하", "ja": "アンドロメダ銀河", "es": "Galaxia de Andrómeda", "de": "Andromedagalaxie", "pt": "Galáxia de Andrômeda", "zh": "仙女座星系" }
+    },
+    {
+      "id": "milky-way",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "우리 은하",
+      "nameI18n": { "en": "Milky Way" },
+      "summary": "태양계가 속한 막대나선은하. 지름 약 10만 광년에 수천억 개의 별을 품는다.",
+      "summaryI18n": { "en": "The barred spiral galaxy that hosts the Solar System — ~100,000 light-years across with hundreds of billions of stars." },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "SBb",
+      "facts": [
+        { "label": "형태", "value": "막대나선 (SBb)" },
+        { "label": "지름", "value": "약 10만 광년" },
+        { "label": "별", "value": "1,000억~4,000억 개" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Barred spiral (SBb)" },
+          { "label": "Diameter", "value": "~100,000 ly" },
+          { "label": "Stars", "value": "100–400 billion" }
+        ]
+      },
+      "related": ["hubble-fork", "andromeda", "large-magellanic"],
+      "crossAxis": [],
+      "wiki": { "en": "Milky Way", "ko": "우리 은하", "ja": "銀河系", "es": "Vía Láctea", "de": "Milchstraße", "pt": "Via Láctea", "zh": "银河系" }
+    },
+    {
+      "id": "large-magellanic",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "대마젤란 은하",
+      "nameI18n": { "en": "Large Magellanic Cloud" },
+      "summary": "우리 은하를 도는 불규칙 위성은하. 남반구 밤하늘에서 육안으로 보인다.",
+      "summaryI18n": { "en": "An irregular satellite galaxy orbiting the Milky Way — visible to the naked eye in the southern sky." },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Irr",
+      "facts": [
+        { "label": "형태", "value": "불규칙은하" },
+        { "label": "거리", "value": "약 16만 광년" },
+        { "label": "특징", "value": "우리 은하 위성은하" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Irregular" },
+          { "label": "Distance", "value": "~160,000 ly" },
+          { "label": "Note", "value": "Satellite of the Milky Way" }
+        ]
+      },
+      "related": ["hubble-fork", "small-magellanic", "milky-way"],
+      "crossAxis": [],
+      "wiki": { "en": "Large Magellanic Cloud", "ko": "대마젤란 은하", "ja": "大マゼラン雲", "es": "Gran Nube de Magallanes", "de": "Große Magellansche Wolke", "pt": "Grande Nuvem de Magalhães", "zh": "大麦哲伦星系" }
+    },
+    {
+      "id": "small-magellanic",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "소마젤란 은하",
+      "nameI18n": { "en": "Small Magellanic Cloud" },
+      "summary": "대마젤란운과 짝을 이루는 불규칙 위성은하. 역시 남반구에서 맨눈으로 보인다.",
+      "summaryI18n": { "en": "An irregular satellite galaxy paired with the LMC — also visible to the naked eye from the southern hemisphere." },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Irr",
+      "facts": [
+        { "label": "형태", "value": "불규칙은하" },
+        { "label": "거리", "value": "약 20만 광년" },
+        { "label": "특징", "value": "대마젤란운과 짝" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Irregular" },
+          { "label": "Distance", "value": "~200,000 ly" },
+          { "label": "Note", "value": "Paired with the LMC" }
+        ]
+      },
+      "related": ["hubble-fork", "large-magellanic"],
+      "crossAxis": [],
+      "wiki": { "en": "Small Magellanic Cloud", "ko": "소마젤란 은하", "ja": "小マゼラン雲", "es": "Pequeña Nube de Magallanes", "de": "Kleine Magellansche Wolke", "pt": "Pequena Nuvem de Magalhães", "zh": "小麦哲伦星系" }
+    },
+    {
+      "id": "m87",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "M87",
+      "nameI18n": { "en": "Messier 87" },
+      "summary": "거대 타원은하. 중심의 초대질량 블랙홀 M87*가 2019년 인류 최초로 촬영된 블랙홀이다.",
+      "summaryI18n": { "en": "A giant elliptical galaxy — its central supermassive black hole, M87*, was the first black hole ever imaged (2019)." },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "E0",
+      "facts": [
+        { "label": "형태", "value": "거대 타원은하 (E0)" },
+        { "label": "거리", "value": "약 5,300만 광년" },
+        { "label": "특징", "value": "M87* 최초 촬영 (2019)" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Giant elliptical (E0)" },
+          { "label": "Distance", "value": "~53 million ly" },
+          { "label": "Note", "value": "M87* first imaged (2019)" }
+        ]
+      },
+      "related": ["hubble-fork", "agn", "andromeda"],
+      "crossAxis": ["multiwavelength", "light-delay"],
+      "wiki": { "en": "Messier 87", "ko": "처녀자리 A 은하", "ja": "M87 (天体)", "es": "Galaxia elíptica M87", "de": "Messier 87", "pt": "Messier 87", "zh": "室女A星系" }
+    },
+    {
+      "id": "pinwheel",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "바람개비 은하 (M101)",
+      "nameI18n": { "en": "Pinwheel Galaxy (M101)" },
+      "summary": "정면으로 보이는 나선은하. 크고 느슨한 팔이 바람개비처럼 펼쳐진다.",
+      "summaryI18n": { "en": "A face-on spiral galaxy — its large, loose arms spread out like a pinwheel." },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Sc",
+      "facts": [
+        { "label": "형태", "value": "나선은하 (Sc)" },
+        { "label": "거리", "value": "약 2,100만 광년" },
+        { "label": "특징", "value": "정면 나선" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Spiral (Sc)" },
+          { "label": "Distance", "value": "~21 million ly" },
+          { "label": "Note", "value": "Face-on spiral" }
+        ]
+      },
+      "related": ["hubble-fork", "andromeda"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Pinwheel Galaxy", "ko": "바람개비 은하", "ja": "M101 (天体)", "es": "Galaxia espiral M101", "de": "Messier 101", "pt": "Galáxia do Cata-Vento", "zh": "風車星系" }
+    },
+    {
+      "id": "sombrero",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "솜브레로 은하 (M104)",
+      "nameI18n": { "en": "Sombrero Galaxy (M104)" },
+      "summary": "두꺼운 먼지 띠와 밝은 중심 팽대부가 챙 넓은 모자처럼 보이는 나선은하.",
+      "summaryI18n": { "en": "A spiral galaxy whose thick dust lane and bright bulge make it look like a wide-brimmed hat." },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Sa",
+      "facts": [
+        { "label": "형태", "value": "나선은하 (Sa)" },
+        { "label": "거리", "value": "약 2,800만 광년" },
+        { "label": "특징", "value": "두꺼운 먼지 띠" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Type", "value": "Spiral (Sa)" },
+          { "label": "Distance", "value": "~28 million ly" },
+          { "label": "Note", "value": "Prominent dust lane" }
+        ]
+      },
+      "related": ["hubble-fork", "m87"],
+      "crossAxis": ["light-delay"],
+      "wiki": { "en": "Sombrero Galaxy", "ko": "솜브레로 은하", "ja": "ソンブレロ銀河", "es": "Galaxia del Sombrero", "de": "Sombrerogalaxie", "pt": "Galáxia do Sombreiro", "zh": "闊邊帽星系" }
     },
     {
       "id": "quasar-3c273",
@@ -59,9 +241,21 @@
       "summary": "처음 확인된 퀘이사. 은하 전체보다 밝은 활동핵으로, 별이 아니라 H-R도엔 없다.",
       "summaryI18n": { "en": "The first quasar ever identified — an active nucleus brighter than a whole galaxy. Not a star, so it's absent from the H-R diagram." },
       "scene": "scene-agn",
-      "hostCard": false,
-      "related": ["agn", "hubble-fork"],
-      "crossAxis": ["multiwavelength"]
+      "facts": [
+        { "label": "분류", "value": "퀘이사 (활동은하핵)" },
+        { "label": "거리", "value": "약 24억 광년" },
+        { "label": "의의", "value": "최초로 확인된 퀘이사" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Class", "value": "Quasar (AGN)" },
+          { "label": "Distance", "value": "~2.4 billion ly" },
+          { "label": "Note", "value": "First quasar ever identified" }
+        ]
+      },
+      "related": ["agn", "hubble-fork", "m87"],
+      "crossAxis": ["multiwavelength", "light-delay"],
+      "wiki": { "en": "3C 273", "ko": "3C 273", "ja": "3C 273", "es": "3C273", "de": "3C 273", "pt": "3C 273", "zh": "3C 273" }
     }
   ]
 }

@@ -1,0 +1,73 @@
+{
+  "bandId": "remnants",
+  "version": 1,
+  "updatedAt": "2026-07-04T00:00:00Z",
+  "curator": "boolint",
+  "items": [
+    {
+      "id": "density",
+      "type": "diagram",
+      "featured": true,
+      "name": "밀도 체감",
+      "nameI18n": { "en": "Feel the Density" },
+      "summary": "백색왜성·중성자별·블랙홀의 크기와 밀도를 눈으로 비교. 태양을 압축해보세요.",
+      "summaryI18n": { "en": "Compare the size and density of white dwarfs, neutron stars, and black holes — compress the Sun and watch." },
+      "scene": "scene-remnants",
+      "hostCard": false,
+      "facts": [
+        { "label": "대상", "value": "백색왜성 · 중성자별 · 블랙홀" },
+        { "label": "체감", "value": "태양 질량을 압축" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Objects", "value": "White dwarf · neutron star · black hole" },
+          { "label": "Demo", "value": "Compress one solar mass" }
+        ]
+      },
+      "related": ["stellar-life", "white-dwarf", "neutron-star", "black-hole"],
+      "crossAxis": ["element-origin"]
+    },
+    {
+      "id": "white-dwarf",
+      "bandId": "remnants",
+      "type": "object",
+      "name": "백색왜성",
+      "nameI18n": { "en": "White Dwarf" },
+      "summary": "핵융합이 끝난 별의 뜨겁고 작은 잔해. 지구만 한 공에 태양의 절반이 든다.",
+      "summaryI18n": { "en": "The hot, tiny remnant of a star that finished fusion — half the Sun packed into an Earth-sized ball." },
+      "scene": "scene-remnants",
+      "sceneFocus": "wd",
+      "hostCard": false,
+      "related": ["density", "stellar-life", "neutron-star"],
+      "crossAxis": ["element-origin"]
+    },
+    {
+      "id": "neutron-star",
+      "bandId": "remnants",
+      "type": "object",
+      "name": "중성자별 · 펄사",
+      "nameI18n": { "en": "Neutron Star · Pulsar" },
+      "summary": "초신성 후 남은 도시 크기의 초고밀도 핵. 회전 빔이 지구를 스치면 펄사로 보인다.",
+      "summaryI18n": { "en": "A city-sized, ultra-dense core left after a supernova — when its beam sweeps Earth we see a pulsar." },
+      "scene": "scene-remnants",
+      "sceneFocus": "ns",
+      "hostCard": false,
+      "related": ["density", "black-hole", "stellar-life"],
+      "crossAxis": ["element-origin"]
+    },
+    {
+      "id": "black-hole",
+      "bandId": "remnants",
+      "type": "object",
+      "name": "블랙홀",
+      "nameI18n": { "en": "Black Hole" },
+      "summary": "중력이 축퇴압을 이긴 잔해. 사건지평선 안쪽은 빛조차 빠져나오지 못한다.",
+      "summaryI18n": { "en": "A remnant where gravity overwhelms all pressure — not even light escapes the event horizon." },
+      "scene": "scene-remnants",
+      "sceneFocus": "bh",
+      "hostCard": false,
+      "related": ["density", "neutron-star"],
+      "crossAxis": []
+    }
+  ]
+}

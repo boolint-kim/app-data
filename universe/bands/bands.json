@@ -35,7 +35,8 @@
       "scaleLabelI18n": { "en": "light-years" },
       "accent": "#C39BFF",
       "lenses": ["size"],
-      "status": "coming-soon"
+      "status": "live",
+      "source": "band-remnants.json"
     },
     {
       "id": "ism",

@@ -1,0 +1,55 @@
+{
+  "bandId": "large-scale",
+  "version": 1,
+  "updatedAt": "2026-07-04T00:00:00Z",
+  "curator": "boolint",
+  "items": [
+    {
+      "id": "cosmic-web",
+      "type": "diagram",
+      "featured": true,
+      "name": "코스믹 웹",
+      "nameI18n": { "en": "The Cosmic Web" },
+      "summary": "우주 최대 규모의 그물 구조 — 은하가 필라멘트를 따라 모이고 그 사이는 텅 빈 보이드.",
+      "summaryI18n": { "en": "The largest structure in the universe — galaxies gather along filaments, with empty voids between them." },
+      "scene": "scene-large-scale",
+      "hostCard": false,
+      "facts": [
+        { "label": "규모", "value": "수억 광년~" },
+        { "label": "구성", "value": "은하단 · 필라멘트 · 보이드" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "Hundreds of millions of light-years+" },
+          { "label": "Made of", "value": "Clusters · filaments · voids" }
+        ]
+      },
+      "related": ["filament", "void", "cluster"],
+      "crossAxis": ["light-delay"]
+    },
+    {
+      "id": "filament", "bandId": "large-scale", "type": "object",
+      "name": "필라멘트", "nameI18n": { "en": "Filament" },
+      "summary": "은하와 암흑물질이 이룬 실. 수억 광년까지 뻗은 '은하의 강'.",
+      "summaryI18n": { "en": "A thread of galaxies and dark matter — a 'river of galaxies' stretching hundreds of millions of light-years." },
+      "scene": "scene-large-scale", "hostCard": false,
+      "related": ["cosmic-web", "cluster", "void"], "crossAxis": []
+    },
+    {
+      "id": "void", "bandId": "large-scale", "type": "object",
+      "name": "보이드", "nameI18n": { "en": "Void" },
+      "summary": "지름 수억 광년의 거의 빈 거품. 우주 부피의 대부분을 차지한다.",
+      "summaryI18n": { "en": "A near-empty bubble hundreds of millions of light-years across — most of the universe's volume." },
+      "scene": "scene-large-scale", "hostCard": false,
+      "related": ["cosmic-web", "filament"], "crossAxis": []
+    },
+    {
+      "id": "cluster", "bandId": "large-scale", "type": "object",
+      "name": "은하단", "nameI18n": { "en": "Galaxy Cluster" },
+      "summary": "필라멘트가 만나는 교점. 수천 개의 은하가 중력으로 묶인 우주의 도시.",
+      "summaryI18n": { "en": "The node where filaments meet — thousands of galaxies bound by gravity, a city of the cosmos." },
+      "scene": "scene-large-scale", "hostCard": false,
+      "related": ["cosmic-web", "filament"], "crossAxis": []
+    }
+  ]
+}

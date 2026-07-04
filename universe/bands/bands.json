@@ -47,7 +47,8 @@
       "scaleLabelI18n": { "en": "light-years to hundreds" },
       "accent": "#FF6FB5",
       "lenses": ["size"],
-      "status": "coming-soon"
+      "status": "live",
+      "source": "band-ism.json"
     },
     {
       "id": "galaxies",
@@ -70,7 +71,8 @@
       "scaleLabelI18n": { "en": "hundreds of millions of light-years and beyond" },
       "accent": "#5B6CE8",
       "lenses": ["position"],
-      "status": "coming-soon"
+      "status": "live",
+      "source": "band-large-scale.json"
     }
   ]
 }

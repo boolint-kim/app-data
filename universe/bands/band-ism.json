@@ -1,0 +1,71 @@
+{
+  "bandId": "ism",
+  "version": 1,
+  "updatedAt": "2026-07-04T00:00:00Z",
+  "curator": "boolint",
+  "items": [
+    {
+      "id": "nebula-types",
+      "type": "diagram",
+      "featured": true,
+      "name": "성운의 종류",
+      "nameI18n": { "en": "Types of Nebulae" },
+      "summary": "별이 태어나고 죽는 우주의 가스 구름들 — 발광·반사·암흑·행성상·초신성 잔해.",
+      "summaryI18n": { "en": "The cosmic gas clouds where stars are born and die — emission, reflection, dark, planetary, and supernova remnants." },
+      "scene": "scene-ism",
+      "hostCard": false,
+      "facts": [
+        { "label": "요람", "value": "발광성운 = 별 탄생 영역" },
+        { "label": "무덤", "value": "행성상성운·초신성 잔해 = 별의 죽음" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Cradle", "value": "Emission nebula = star-forming region" },
+          { "label": "Grave", "value": "Planetary nebula & SNR = a star's death" }
+        ]
+      },
+      "related": ["emission", "planetary", "snr", "stellar-life"],
+      "crossAxis": ["element-origin"]
+    },
+    {
+      "id": "emission", "bandId": "ism", "type": "object",
+      "name": "발광성운", "nameI18n": { "en": "Emission Nebula" },
+      "summary": "뜨거운 젊은 별의 자외선이 수소를 달궈 붉게 빛나는 별의 요람.",
+      "summaryI18n": { "en": "A stellar nursery glowing red as UV from hot young stars excites hydrogen." },
+      "scene": "scene-ism", "sceneFocus": "emission", "hostCard": false,
+      "related": ["nebula-types", "reflection", "dark"], "crossAxis": []
+    },
+    {
+      "id": "reflection", "bandId": "ism", "type": "object",
+      "name": "반사성운", "nameI18n": { "en": "Reflection Nebula" },
+      "summary": "스스로 빛나지 않고 근처 별빛을 파랗게 반사하는 성운.",
+      "summaryI18n": { "en": "A nebula that reflects nearby starlight blue rather than shining on its own." },
+      "scene": "scene-ism", "sceneFocus": "reflection", "hostCard": false,
+      "related": ["nebula-types", "emission"], "crossAxis": []
+    },
+    {
+      "id": "dark", "bandId": "ism", "type": "object",
+      "name": "암흑성운", "nameI18n": { "en": "Dark Nebula" },
+      "summary": "짙은 먼지가 뒤 별빛을 가려 검게 보이는 성운. 말머리 성운이 대표.",
+      "summaryI18n": { "en": "A nebula that appears black as thick dust blocks the starlight behind it — the Horsehead is the classic." },
+      "scene": "scene-ism", "sceneFocus": "dark", "hostCard": false,
+      "related": ["nebula-types", "emission"], "crossAxis": []
+    },
+    {
+      "id": "planetary", "bandId": "ism", "type": "object",
+      "name": "행성상성운", "nameI18n": { "en": "Planetary Nebula" },
+      "summary": "태양급 별이 바깥층을 벗어던진 고리. 이름과 달리 행성과 무관.",
+      "summaryI18n": { "en": "A ring where a Sun-like star cast off its outer layers — despite the name, nothing to do with planets." },
+      "scene": "scene-ism", "sceneFocus": "planetary", "hostCard": false,
+      "related": ["nebula-types", "stellar-life", "white-dwarf"], "crossAxis": ["element-origin"]
+    },
+    {
+      "id": "snr", "bandId": "ism", "type": "object",
+      "name": "초신성 잔해", "nameI18n": { "en": "Supernova Remnant" },
+      "summary": "초신성이 흩뿌린 필라멘트. 무거운 원소를 우주에 공급한다. 게 성운이 대표.",
+      "summaryI18n": { "en": "The filaments scattered by a supernova, seeding the cosmos with heavy elements — the Crab is the classic." },
+      "scene": "scene-ism", "sceneFocus": "snr", "hostCard": false,
+      "related": ["nebula-types", "stellar-life", "neutron-star"], "crossAxis": ["element-origin"]
+    }
+  ]
+}

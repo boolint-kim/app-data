@@ -52,6 +52,29 @@
       "crossAxis": []
     },
     {
+      "id": "stellar-life",
+      "type": "process",
+      "featured": true,
+      "name": "별의 일생",
+      "nameI18n": { "en": "The Life of a Star" },
+      "summary": "질량이 별의 운명을 가른다 — 분자운에서 백색왜성·중성자별까지 단계별로.",
+      "summaryI18n": { "en": "Mass decides a star's fate — step from molecular cloud to white dwarf or neutron star." },
+      "scene": "scene-stellar-life",
+      "hostCard": false,
+      "facts": [
+        { "label": "경로", "value": "태양급 / 무거운 별" },
+        { "label": "다리", "value": "별(띠2) → 항성 잔해(띠3)" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Paths", "value": "Sun-like / Massive" },
+          { "label": "Bridge", "value": "Stars (band 2) → Remnants (band 3)" }
+        ]
+      },
+      "related": ["hr-diagram", "sun", "betelgeuse", "neutron"],
+      "crossAxis": ["element-origin"]
+    },
+    {
       "id": "sun",
       "bandId": "stars",
       "type": "object",

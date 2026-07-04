@@ -29,6 +29,29 @@
       "crossAxis": []
     },
     {
+      "id": "star-sizes",
+      "type": "diagram",
+      "featured": true,
+      "name": "별 크기 비교",
+      "nameI18n": { "en": "Star Size Comparison" },
+      "summary": "지구부터 UY Scuti까지, 실제 비율로 별 크기를 단계별로 비교.",
+      "summaryI18n": { "en": "Compare star sizes true-to-scale, step by step — from Earth to UY Scuti." },
+      "scene": "scene-stars",
+      "hostCard": false,
+      "facts": [
+        { "label": "축", "value": "실제 비율 (R☉)" },
+        { "label": "범위", "value": "지구 ~ UY Scuti (1,700 R☉)" }
+      ],
+      "factsI18n": {
+        "en": [
+          { "label": "Scale", "value": "True proportion (R☉)" },
+          { "label": "Range", "value": "Earth to UY Scuti (1,700 R☉)" }
+        ]
+      },
+      "related": ["hr-diagram", "sun", "betelgeuse", "uyscuti"],
+      "crossAxis": []
+    },
+    {
       "id": "sun",
       "bandId": "stars",
       "type": "object",

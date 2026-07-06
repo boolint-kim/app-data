@@ -215,10 +215,10 @@
         "pt": "Sol",
         "zh": "太阳"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sun.jpg",
-      "imageCredit": "Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.",
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sun.jpg?v=2",
+      "imageCredit": "NASA/SDO (AIA)",
       "imageLicense": "Public domain",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SDO_20230621_000005_4096_4500_(AIA).jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg"
     },
     {
       "id": "sirius",
@@ -287,10 +287,10 @@
         "pt": "Sirius",
         "zh": "天狼星"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sirius.jpg",
-      "imageCredit": "ESA/ Hubble and Digitized Sky Survey 2 . Acknowledgements: Davide De Martin ( ESA / Hubble )",
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sirius.jpg?v=2",
+      "imageCredit": "NASA, ESA, H. Bond (STScI), M. Barstow (University of Leicester)",
       "imageLicense": "Public domain",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sirius_(ground-based_image)_(heic0516e).jpg"
+      "imageSourceUrl": "https://esahubble.org/images/heic0516a/"
     },
     {
       "id": "vega",
@@ -359,10 +359,10 @@
         "pt": "Vega (estrela)",
         "zh": "織女一"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/vega.jpg",
-      "imageCredit": "Lyra_constellation_map.png : Torsten Bronger derivative work",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lyra_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/vega.jpg?v=2",
+      "imageCredit": "NASA/JPL-Caltech",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.jpl.nasa.gov/images/pia16610-rocky-ring-of-debris-around-vega-artist-concept/"
     },
     {
       "id": "proxima",
@@ -503,10 +503,10 @@
         "pt": "Espiga (estrela)",
         "zh": "角宿一"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/spica.jpg",
-      "imageCredit": "Virgo_constellation_map.png : Torsten Bronger derivative wor",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Virgo_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/spica.jpg?v=2",
+      "imageCredit": "NASA/JPL-Caltech/R. Hurt (IPAC)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://images.nasa.gov/details-PIA21472"
     },
     {
       "id": "arcturus",
@@ -575,10 +575,10 @@
         "pt": "Arcturo",
         "zh": "大角星"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/arcturus.jpg",
-      "imageCredit": "IAU and Sky & Telescope magazine (Roger Sinnott & Ri",
-      "imageLicense": "CC BY 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bo%C3%B6tes_IAU.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/arcturus.jpg?v=2",
+      "imageCredit": "NASA's Goddard Space Flight Center / Chris Smith (KBRwyle)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://science.nasa.gov/universe/stars/types/"
     },
     {
       "id": "aldebaran",
@@ -647,10 +647,10 @@
         "pt": "Aldebarã",
         "zh": "畢宿五"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/aldebaran.jpg",
-      "imageCredit": "Taurus_constellation_map.png : Torsten Bronger derivative wo",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taurus_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/aldebaran.jpg?v=2",
+      "imageCredit": "NASA, ESA, CSA, Ralf Crawford (STScI)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.jpl.nasa.gov/news/nasa-webbs-autopsy-of-planet-swallowed-by-star-yields-surprise/"
     },
     {
       "id": "rigel",
@@ -721,10 +721,10 @@
         "pt": "Rígel",
         "zh": "參宿七"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/rigel.jpg",
-      "imageCredit": "Orion_constellation_map.png : Torsten Bronger derivative wor",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Orion_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/rigel.jpg?v=2",
+      "imageCredit": "NASA/JPL-Caltech",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.nasa.gov/image-article/witch-nebula-casts-starry-spell/"
     },
     {
       "id": "betelgeuse",
@@ -1021,10 +1021,10 @@
         "pt": "Sirius",
         "zh": "天狼星"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/siriusb.jpg",
-      "imageCredit": "ESA/ Hubble and Digitized Sky Survey 2 . Acknowledgements: Davide De Martin ( ESA / Hubble )",
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/siriusb.jpg?v=2",
+      "imageCredit": "NASA, ESA and G. Bacon (STScI)",
       "imageLicense": "Public domain",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sirius_(ground-based_image)_(heic0516e).jpg"
+      "imageSourceUrl": "https://esahubble.org/images/heic0516b/"
     },
     {
       "id": "procyonb",
@@ -1166,10 +1166,10 @@
         "pt": "Polaris",
         "zh": "勾陳一"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/polaris.jpg",
-      "imageCredit": "Ursa Minor constellation map.png : Torsten Bronger / derivative work: Kxx",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ursa_Minor_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/polaris.jpg?v=2",
+      "imageCredit": "NASA, ESA, N. Evans (Harvard-Smithsonian CfA), H. Bond (STScI)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://science.nasa.gov/asset/hubble/hubble-images-polariss-companion/"
     },
     {
       "id": "alpha-centauri",
@@ -1314,10 +1314,10 @@
         "pt": "Deneb",
         "zh": "天津四"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/deneb.jpg",
-      "imageCredit": "Cygnus_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cygnus_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/deneb.jpg?v=2",
+      "imageCredit": "NASA/JPL-Caltech",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.jpl.nasa.gov/images/pia13845-north-america-nebula-in-different-lights/"
     },
     {
       "id": "altair",
@@ -1387,10 +1387,10 @@
         "pt": "Altair (estrela)",
         "zh": "河鼓二"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/altair.jpg",
-      "imageCredit": "Aquila_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aquila_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/altair.jpg?v=2",
+      "imageCredit": "NASA, ESA and G. Bacon (STScI)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.eso.org/public/images/eso1147b/"
     },
     {
       "id": "canopus",
@@ -1531,10 +1531,10 @@
         "pt": "Capella (estrela)",
         "zh": "五車二"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/capella.jpg",
-      "imageCredit": "Auriga_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Auriga_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/capella.jpg?v=2",
+      "imageCredit": "NASA/JPL-Caltech/Univ. of Ariz.",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.jpl.nasa.gov/images/pia09228-alien-sunset-artist-concept/"
     },
     {
       "id": "pollux",
@@ -1604,10 +1604,10 @@
         "pt": "Pólux (estrela)",
         "zh": "北河三"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/pollux.jpg",
-      "imageCredit": "Gemini_constellation_map.png : Torsten Bronger derivative work: Kxx ( talk )",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gemini_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/pollux.jpg?v=2",
+      "imageCredit": "NASA, ESA and G. Bacon (STScI)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://science.nasa.gov/asset/hubble/artists-concept-of-nearest-exoplanet-to-our-solar-system/"
     },
     {
       "id": "fomalhaut",
@@ -1748,10 +1748,10 @@
         "pt": "Regulus",
         "zh": "軒轅十四"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/regulus.jpg",
-      "imageCredit": "Leo_constellation_map.png : Torsten Bronger . derivative work: Kxx ( talk )",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leo_constellation_map.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/regulus.jpg?v=2",
+      "imageCredit": "NASA/JPL-Caltech/UCLA",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.jpl.nasa.gov/images/pia13455-zeta-ophiuchi-runaway-star-plowing-through-space-dust/"
     },
     {
       "id": "neutron",
@@ -1769,7 +1769,7 @@
       "scene": "scene-hr-diagram",
       "sceneFocus": "neutron",
       "lensValues": {
-        "size": 0.000014
+        "size": 1.4e-05
       },
       "hrPosition": {
         "temp": 600000,

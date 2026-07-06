@@ -238,10 +238,10 @@
         "pt": "Sirius",
         "zh": "天狼星"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sirius-b.jpg",
-      "imageCredit": "ESA/ Hubble and Digitized Sky Survey 2 . Acknowledgements: Davide De Martin ( ESA / Hubble )",
-      "imageLicense": "Public domain",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sirius_(ground-based_image)_(heic0516e).jpg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sirius-b.jpg?v=2",
+      "imageCredit": "NASA, ESA and T. Pyle (Caltech/IPAC)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://esahubble.org/images/heic2511a/"
     },
     {
       "id": "procyon-b",
@@ -301,10 +301,10 @@
         "pt": "Prócion",
         "zh": "南河三"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/procyon-b.jpg",
-      "imageCredit": "",
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/procyon-b.jpg?v=2",
+      "imageCredit": "NASA/JPL-Caltech",
       "imageLicense": "Public domain",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Position_Alpha_Cmi.png"
+      "imageSourceUrl": "https://www.jpl.nasa.gov/images/pia16885-dead-star-warps-light-of-red-star-artists-animation/"
     },
     {
       "id": "cygnus-x1",
@@ -365,10 +365,10 @@
         "pt": "Cygnus X-1",
         "zh": "天鵝座X-1"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/cygnus-x1.jpg",
-      "imageCredit": "IAU and Sky & Telescope magazine (Roger Sinnott & Ri",
-      "imageLicense": "CC BY 4.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cygnus_IAU.svg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/cygnus-x1.jpg?v=2",
+      "imageCredit": "Illustration: NASA/CXC/M. Weiss",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://chandra.harvard.edu/photo/2011/cygx1/"
     },
     {
       "id": "sagittarius-a",

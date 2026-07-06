@@ -367,10 +367,10 @@
         "pt": "Grande Muralha Sloan",
         "zh": "史隆長城"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sloan-wall.jpg",
-      "imageCredit": "Willem Schaap",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2dfdtfe.gif"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sloan-wall.jpg?v=2",
+      "imageCredit": "M. Blanton and Sloan Digital Sky Survey (SDSS)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://www.sdss.org/collaboration/image-use-policy/"
     },
     {
       "id": "bootes-void",

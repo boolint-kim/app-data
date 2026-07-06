@@ -1,0 +1,518 @@
+{
+  "bandId": "clusters",
+  "version": 1,
+  "updatedAt": "2026-07-06T00:00:00Z",
+  "curator": "boolint",
+  "items": [
+    {
+      "id": "pleiades",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "플레이아데스 성단",
+      "nameI18n": {
+        "en": "Pleiades"
+      },
+      "summary": "황소자리의 젊은 산개성단. 맨눈으로 예닐곱 별이 보여 '좀생이별'로도 불린다. 고온 청색별과 이를 감싼 반사성운이 특징.",
+      "summaryI18n": {
+        "en": "A young open cluster in Taurus, seen as six or seven stars by eye. Known for hot blue stars wrapped in reflection nebulosity."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "산개성단"
+        },
+        {
+          "label": "거리",
+          "value": "약 444 광년"
+        },
+        {
+          "label": "나이",
+          "value": "약 1억 년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Open cluster"
+          },
+          {
+            "label": "Distance",
+            "value": "~444 ly"
+          },
+          {
+            "label": "Age",
+            "value": "~100 million yr"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay"
+      ],
+      "related": [
+        "hyades",
+        "beehive"
+      ],
+      "wiki": {
+        "en": "Pleiades",
+        "de": "Plejaden",
+        "es": "Pléyades (astronomía)",
+        "ja": "プレアデス星団",
+        "ko": "플레이아데스 성단",
+        "pt": "Plêiades",
+        "zh": "昴宿星團"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/pleiades.jpg",
+      "imageCredit": "NASA, ESA, AURA/Caltech, Palomar Observatory",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pleiades_large.jpg"
+    },
+    {
+      "id": "hyades",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "히아데스 성단",
+      "nameI18n": {
+        "en": "Hyades (star cluster)"
+      },
+      "summary": "지구에서 가장 가까운 산개성단. 황소자리의 'V'자 얼굴을 이룬다(밝은 알데바란은 전경별로 성단 멤버가 아니다).",
+      "summaryI18n": {
+        "en": "The nearest open cluster to Earth, forming the 'V'-shaped face of Taurus. Bright Aldebaran is a foreground star, not a member."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "산개성단"
+        },
+        {
+          "label": "거리",
+          "value": "약 153 광년"
+        },
+        {
+          "label": "나이",
+          "value": "약 6억 년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Open cluster"
+          },
+          {
+            "label": "Distance",
+            "value": "~153 ly"
+          },
+          {
+            "label": "Age",
+            "value": "~625 million yr"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay"
+      ],
+      "related": [
+        "pleiades",
+        "beehive"
+      ],
+      "wiki": {
+        "en": "Hyades (star cluster)",
+        "de": "Hyaden (Astronomie)",
+        "es": "Híades (astronomía)",
+        "ja": "ヒアデス星団",
+        "ko": "히아데스 성단",
+        "pt": "Híades (aglomerado aberto)",
+        "zh": "畢宿星團"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/hyades.jpg",
+      "imageCredit": "NASA, ESA, and STScI",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hyades_cluster.jpg"
+    },
+    {
+      "id": "double-cluster",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "이중 성단",
+      "nameI18n": {
+        "en": "Double Cluster"
+      },
+      "summary": "페르세우스자리에 나란히 놓인 두 산개성단(NGC 869·884). 매우 젊고 밝은 별들로 가득하며 맨눈으로도 보인다.",
+      "summaryI18n": {
+        "en": "A pair of open clusters side by side in Perseus (NGC 869 & 884), brimming with very young, luminous stars and visible to the naked eye."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "산개성단(쌍)"
+        },
+        {
+          "label": "거리",
+          "value": "약 7,500 광년"
+        },
+        {
+          "label": "나이",
+          "value": "약 1,400만 년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Open clusters (pair)"
+          },
+          {
+            "label": "Distance",
+            "value": "~7,500 ly"
+          },
+          {
+            "label": "Age",
+            "value": "~14 million yr"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay"
+      ],
+      "related": [
+        "pleiades",
+        "hyades"
+      ],
+      "wiki": {
+        "en": "Double Cluster",
+        "es": "Cúmulo Doble de Perseo",
+        "ja": "二重星団",
+        "ko": "이중 성단",
+        "zh": "雙星團"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/double-cluster.jpg",
+      "imageCredit": "Genuson (Wikimedia Commons)",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Double_Cluster.jpg"
+    },
+    {
+      "id": "beehive",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "프레세페 성단",
+      "nameI18n": {
+        "en": "Beehive Cluster"
+      },
+      "summary": "게자리의 밝은 산개성단. 맨눈엔 흐릿한 구름처럼 보여 '벌집성단'으로 불린다. 히아데스와 나이·운동이 비슷해 기원을 공유한 것으로 본다.",
+      "summaryI18n": {
+        "en": "A bright open cluster in Cancer, a hazy patch to the eye — hence 'Beehive'. Its age and motion match the Hyades, hinting at a shared origin."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "산개성단"
+        },
+        {
+          "label": "거리",
+          "value": "약 577 광년"
+        },
+        {
+          "label": "나이",
+          "value": "약 6억 년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Open cluster"
+          },
+          {
+            "label": "Distance",
+            "value": "~577 ly"
+          },
+          {
+            "label": "Age",
+            "value": "~600 million yr"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay"
+      ],
+      "related": [
+        "hyades",
+        "pleiades"
+      ],
+      "wiki": {
+        "en": "Beehive Cluster",
+        "de": "Messier 44",
+        "es": "El Pesebre",
+        "ja": "プレセペ星団",
+        "ko": "프레세페 성단",
+        "pt": "Messier 44",
+        "zh": "鬼宿星團"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/beehive.jpg",
+      "imageCredit": "Chuck Ayoub",
+      "imageLicense": "CC0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M44-Star-Cluster.png"
+    },
+    {
+      "id": "omega-centauri",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "센타우루스자리 오메가",
+      "nameI18n": {
+        "en": "Omega Centauri"
+      },
+      "summary": "우리 은하에서 가장 크고 밝은 구상성단. 약 1000만 개의 늙은 별이 공 모양으로 뭉쳐 있으며, 삼켜진 왜소은하의 잔해 핵으로 추정된다.",
+      "summaryI18n": {
+        "en": "The largest, brightest globular in the Milky Way — some 10 million ancient stars in a sphere, thought to be the stripped core of a swallowed dwarf galaxy."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "구상성단"
+        },
+        {
+          "label": "거리",
+          "value": "약 17,000 광년"
+        },
+        {
+          "label": "별 수",
+          "value": "약 1000만 개"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Globular cluster"
+          },
+          {
+            "label": "Distance",
+            "value": "~17,000 ly"
+          },
+          {
+            "label": "Stars",
+            "value": "~10 million"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay",
+        "element-origin"
+      ],
+      "related": [
+        "m13",
+        "47tuc",
+        "m22"
+      ],
+      "wiki": {
+        "en": "Omega Centauri",
+        "de": "Omega Centauri",
+        "es": "Omega Centauri",
+        "ja": "Ω星団",
+        "ko": "센타우루스자리 오메가",
+        "pt": "Omega Centauri",
+        "zh": "半人马座ω"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/omega-centauri.jpg",
+      "imageCredit": "Chuck Ayoub",
+      "imageLicense": "CC0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Omega_Centauri_Stars.png"
+    },
+    {
+      "id": "m13",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "허큘리스 대성단",
+      "nameI18n": {
+        "en": "Messier 13"
+      },
+      "summary": "헤라클레스자리의 대구상성단. 북반구에서 가장 볼 만한 구상성단으로, 1974년 아레시보 전파 메시지를 보낸 목표이기도 하다.",
+      "summaryI18n": {
+        "en": "The Great Globular Cluster in Hercules — the finest globular for northern skies, and target of the 1974 Arecibo radio message."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "구상성단"
+        },
+        {
+          "label": "거리",
+          "value": "약 22,000 광년"
+        },
+        {
+          "label": "별 수",
+          "value": "수십만 개"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Globular cluster"
+          },
+          {
+            "label": "Distance",
+            "value": "~22,000 ly"
+          },
+          {
+            "label": "Stars",
+            "value": "hundreds of thousands"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay",
+        "element-origin"
+      ],
+      "related": [
+        "omega-centauri",
+        "47tuc",
+        "m22"
+      ],
+      "wiki": {
+        "en": "Messier 13",
+        "de": "Messier 13",
+        "es": "Cúmulo de Hércules",
+        "ja": "M13 (天体)",
+        "ko": "허큘리스 대성단",
+        "pt": "Grande Aglomerado Globular de Hércules",
+        "zh": "梅西耶13"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/m13.jpg",
+      "imageCredit": "Chuck Ayoub",
+      "imageLicense": "CC0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M13-Globular-Cluster.png"
+    },
+    {
+      "id": "47tuc",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "큰부리새자리 47",
+      "nameI18n": {
+        "en": "47 Tucanae"
+      },
+      "summary": "오메가 센타우리 다음으로 밝은 구상성단. 극도로 조밀한 중심핵을 지녔으며 남반구 하늘의 보석으로 꼽힌다.",
+      "summaryI18n": {
+        "en": "The second-brightest globular after Omega Centauri, with an extremely dense core — a jewel of the southern sky."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "구상성단"
+        },
+        {
+          "label": "거리",
+          "value": "약 13,000 광년"
+        },
+        {
+          "label": "별 수",
+          "value": "수백만 개"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Globular cluster"
+          },
+          {
+            "label": "Distance",
+            "value": "~13,000 ly"
+          },
+          {
+            "label": "Stars",
+            "value": "millions"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay",
+        "element-origin"
+      ],
+      "related": [
+        "omega-centauri",
+        "m13",
+        "m22"
+      ],
+      "wiki": {
+        "en": "47 Tucanae",
+        "de": "47 Tucanae",
+        "es": "47 Tucanae",
+        "ja": "きょしちょう座47",
+        "ko": "큰부리새자리 47",
+        "pt": "47 Tucanae",
+        "zh": "杜鵑座47"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/47tuc.jpg",
+      "imageCredit": "NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Heic1510a.tif"
+    },
+    {
+      "id": "m22",
+      "bandId": "clusters",
+      "type": "object",
+      "name": "메시에 22",
+      "nameI18n": {
+        "en": "Messier 22"
+      },
+      "summary": "궁수자리의 밝은 구상성단으로, 지구에서 가장 가까운 구상성단 중 하나다. 밝아서 작은 망원경으로도 별이 분해되어 보인다.",
+      "summaryI18n": {
+        "en": "A bright globular in Sagittarius and one of the nearest to Earth — bright enough that small scopes begin to resolve its stars."
+      },
+      "facts": [
+        {
+          "label": "분류",
+          "value": "구상성단"
+        },
+        {
+          "label": "거리",
+          "value": "약 10,400 광년"
+        },
+        {
+          "label": "나이",
+          "value": "약 120억 년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Globular cluster"
+          },
+          {
+            "label": "Distance",
+            "value": "~10,400 ly"
+          },
+          {
+            "label": "Age",
+            "value": "~12 billion yr"
+          }
+        ]
+      },
+      "crossAxis": [
+        "light-delay",
+        "element-origin"
+      ],
+      "related": [
+        "omega-centauri",
+        "m13",
+        "47tuc"
+      ],
+      "wiki": {
+        "en": "Messier 22",
+        "de": "Messier 22",
+        "es": "Cúmulo globular M22",
+        "ja": "M22 (天体)",
+        "ko": "메시에 22",
+        "pt": "Messier 22",
+        "zh": "M22 (星團)"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/m22.jpg",
+      "imageCredit": "ESA/Hubble & NASA",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_crammed_centre_of_Messier_22.jpg"
+    }
+  ]
+}

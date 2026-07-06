@@ -5,6 +5,50 @@
   "curator": "boolint",
   "items": [
     {
+      "id": "cluster-cmd",
+      "bandId": "clusters",
+      "type": "diagram",
+      "featured": true,
+      "name": "색등급도 · 성단 나이",
+      "nameI18n": {
+        "en": "Color–Magnitude · Cluster Age"
+      },
+      "summary": "성단의 색등급도에서 주계열 전향점의 높이가 곧 나이. 슬라이더로 젊은 산개↔늙은 구상을 오가며 전향점이 내려가는 걸 확인.",
+      "summaryI18n": {
+        "en": "In a cluster's color–magnitude diagram, the main-sequence turnoff marks its age — slide from a young open cluster to an old globular and watch it drop."
+      },
+      "scene": "scene-cluster-cmd",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "축",
+          "value": "온도 × 광도 (H-R도)"
+        },
+        {
+          "label": "원리",
+          "value": "전향점 높이 = 나이"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Axes",
+            "value": "Temperature × Luminosity (H-R)"
+          },
+          {
+            "label": "Principle",
+            "value": "Turnoff height = age"
+          }
+        ]
+      },
+      "related": [
+        "pleiades",
+        "omega-centauri",
+        "m13"
+      ],
+      "crossAxis": []
+    },
+    {
       "id": "pleiades",
       "bandId": "clusters",
       "type": "object",

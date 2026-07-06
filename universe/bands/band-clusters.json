@@ -169,10 +169,10 @@
         "pt": "Híades (aglomerado aberto)",
         "zh": "畢宿星團"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/hyades.jpg",
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/hyades.jpg?v=2",
       "imageCredit": "NASA, ESA, and STScI",
-      "imageLicense": "CC BY-SA 4.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hyades_cluster.jpg"
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://esahubble.org/images/heic1309c/"
     },
     {
       "id": "double-cluster",
@@ -230,10 +230,10 @@
         "ko": "이중 성단",
         "zh": "雙星團"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/double-cluster.jpg",
-      "imageCredit": "Genuson (Wikimedia Commons)",
-      "imageLicense": "CC BY-SA 3.0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Double_Cluster.jpg"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/double-cluster.jpg?v=2",
+      "imageCredit": "N.A.Sharp/NOIRLab/NSF/AURA",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://noirlab.edu/public/images/noao-hcper/"
     },
     {
       "id": "beehive",
@@ -293,10 +293,10 @@
         "pt": "Messier 44",
         "zh": "鬼宿星團"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/beehive.jpg",
-      "imageCredit": "Chuck Ayoub",
-      "imageLicense": "CC0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M44-Star-Cluster.png"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/beehive.jpg?v=2",
+      "imageCredit": "KPNO/NOIRLab/NSF/AURA/Tom Bash and John Fox/Adam Block",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://noirlab.edu/public/images/noao-m44bash/"
     },
     {
       "id": "omega-centauri",
@@ -358,10 +358,10 @@
         "pt": "Omega Centauri",
         "zh": "半人马座ω"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/omega-centauri.jpg",
-      "imageCredit": "Chuck Ayoub",
-      "imageLicense": "CC0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Omega_Centauri_Stars.png"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/omega-centauri.jpg?v=2",
+      "imageCredit": "NASA, ESA and the Hubble Heritage Team (STScI/AURA)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://esahubble.org/images/heic0809a/"
     },
     {
       "id": "m13",
@@ -423,10 +423,10 @@
         "pt": "Grande Aglomerado Globular de Hércules",
         "zh": "梅西耶13"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/m13.jpg",
-      "imageCredit": "Chuck Ayoub",
-      "imageLicense": "CC0",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M13-Globular-Cluster.png"
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/m13.jpg?v=2",
+      "imageCredit": "ESA/Hubble and NASA",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://esahubble.org/images/potw1011a/"
     },
     {
       "id": "47tuc",

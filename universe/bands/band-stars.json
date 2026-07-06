@@ -954,6 +954,7 @@
       "id": "siriusb",
       "bandId": "stars",
       "type": "object",
+      "diagramOnly": true,
       "name": "시리우스 B",
       "nameI18n": {
         "en": "Sirius B"
@@ -1029,6 +1030,7 @@
       "id": "procyonb",
       "bandId": "stars",
       "type": "object",
+      "diagramOnly": true,
       "name": "프로키온 B",
       "nameI18n": {
         "en": "Procyon B"
@@ -1755,6 +1757,7 @@
       "id": "neutron",
       "bandId": "stars",
       "type": "object",
+      "diagramOnly": true,
       "name": "중성자별",
       "nameI18n": {
         "en": "Neutron Star"

@@ -1,7 +1,7 @@
 {
   "bandId": "remnants",
   "version": 2,
-  "updatedAt": "2026-07-04T00:00:00Z",
+  "updatedAt": "2026-07-06T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -434,6 +434,72 @@
       "imageCredit": "EHT Collaboration",
       "imageLicense": "CC BY 4.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:EHT_Saggitarius_A_black_hole.tif"
+    },
+    {
+      "id": "m87-star",
+      "bandId": "remnants",
+      "type": "object",
+      "name": "M87*",
+      "nameI18n": {
+        "en": "M87*"
+      },
+      "summary": "처녀자리 A 은하 중심의 초대질량 블랙홀. 2019년 사건지평선망원경(EHT)이 인류 최초로 블랙홀의 그림자를 촬영했다.",
+      "summaryI18n": {
+        "en": "The supermassive black hole at the heart of galaxy M87 — the first black hole ever imaged, by the Event Horizon Telescope in 2019."
+      },
+      "scene": "scene-remnants",
+      "sceneFocus": "bh",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "초대질량 블랙홀"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 65억 배"
+        },
+        {
+          "label": "의의",
+          "value": "최초로 촬영된 블랙홀 (2019)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Supermassive black hole"
+          },
+          {
+            "label": "Mass",
+            "value": "~6.5 billion solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "First black hole imaged (2019)"
+          }
+        ]
+      },
+      "related": [
+        "density",
+        "sagittarius-a",
+        "cygnus-x1"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Messier 87",
+        "ko": "처녀자리 A 은하",
+        "ja": "M87 (天体)",
+        "es": "Galaxia elíptica M87",
+        "de": "Messier 87",
+        "pt": "Messier 87",
+        "zh": "室女A星系"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/m87-star.jpg",
+      "imageCredit": "Event Horizon Telescope",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
     }
   ]
 }

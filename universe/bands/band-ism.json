@@ -1,7 +1,7 @@
 {
   "bandId": "ism",
   "version": 2,
-  "updatedAt": "2026-07-04T00:00:00Z",
+  "updatedAt": "2026-07-06T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -566,6 +566,204 @@
       "imageCredit": "Ken Crawford",
       "imageLicense": "CC BY-SA 3.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Veil_Nebula_-_NGC6960.jpg"
+    },
+    {
+      "id": "carina",
+      "bandId": "ism",
+      "type": "object",
+      "name": "용골자리 성운 (카리나)",
+      "nameI18n": {
+        "en": "Carina Nebula"
+      },
+      "summary": "우리 은하에서 가장 크고 밝은 별 생성 영역 중 하나. 제임스 웹이 「우주 절벽」으로 촬영한 발광성운이다.",
+      "summaryI18n": {
+        "en": "One of the largest, brightest star-forming regions in the Milky Way — the emission nebula James Webb captured as the \"Cosmic Cliffs\"."
+      },
+      "scene": "scene-ism",
+      "sceneFocus": "emission",
+      "facts": [
+        {
+          "label": "종류",
+          "value": "발광성운 (H II)"
+        },
+        {
+          "label": "거리",
+          "value": "약 7,500광년"
+        },
+        {
+          "label": "특징",
+          "value": "거대 별 생성 영역"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type",
+            "value": "Emission (H II)"
+          },
+          {
+            "label": "Distance",
+            "value": "~7,500 ly"
+          },
+          {
+            "label": "Note",
+            "value": "Giant star-forming region"
+          }
+        ]
+      },
+      "related": [
+        "nebula-types",
+        "orion",
+        "eagle"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "Carina Nebula",
+        "ko": "용골자리 성운",
+        "ja": "イータカリーナ星雲",
+        "es": "Nebulosa de la Quilla",
+        "de": "Carinanebel",
+        "pt": "Nebulosa de Carina",
+        "zh": "船底座星雲"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/carina.jpg",
+      "imageCredit": "NASA, ESA, CSA, STScI",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Webb_Reveals_Cosmic_Cliffs,_Glittering_Landscape_of_Star_Birth.jpg"
+    },
+    {
+      "id": "lagoon",
+      "bandId": "ism",
+      "type": "object",
+      "name": "석호 성운 (M8)",
+      "nameI18n": {
+        "en": "Lagoon Nebula (M8)"
+      },
+      "summary": "궁수자리의 거대한 발광성운. 어두운 하늘에서 맨눈으로도 희미하게 보이는 별 탄생의 요람이다.",
+      "summaryI18n": {
+        "en": "A giant emission nebula in Sagittarius — a cradle of star birth, faintly visible to the naked eye under dark skies."
+      },
+      "scene": "scene-ism",
+      "sceneFocus": "emission",
+      "facts": [
+        {
+          "label": "종류",
+          "value": "발광성운 (H II)"
+        },
+        {
+          "label": "거리",
+          "value": "약 4,100광년"
+        },
+        {
+          "label": "특징",
+          "value": "맨눈 관측 가능"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type",
+            "value": "Emission (H II)"
+          },
+          {
+            "label": "Distance",
+            "value": "~4,100 ly"
+          },
+          {
+            "label": "Note",
+            "value": "Visible to the naked eye"
+          }
+        ]
+      },
+      "related": [
+        "nebula-types",
+        "orion",
+        "trifid"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "Lagoon Nebula",
+        "ko": "석호 성운",
+        "ja": "干潟星雲",
+        "es": "Nebulosa de la Laguna",
+        "de": "Lagunennebel",
+        "pt": "Nebulosa Laguna",
+        "zh": "礁湖星雲"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/lagoon.jpg",
+      "imageCredit": "ESO/VPHAS+ team",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VST_images_the_Lagoon_Nebula.jpg"
+    },
+    {
+      "id": "trifid",
+      "bandId": "ism",
+      "type": "object",
+      "name": "삼렬 성운 (M20)",
+      "nameI18n": {
+        "en": "Trifid Nebula (M20)"
+      },
+      "summary": "발광·반사·암흑 성운이 한자리에 모인 보기 드문 성운. 어두운 먼지 띠가 붉은 성운을 셋으로 가른다.",
+      "summaryI18n": {
+        "en": "A rare nebula combining emission, reflection, and dark nebulae in one — dark dust lanes split the red glow into three lobes."
+      },
+      "scene": "scene-ism",
+      "sceneFocus": "emission",
+      "facts": [
+        {
+          "label": "종류",
+          "value": "발광+반사+암흑성운"
+        },
+        {
+          "label": "거리",
+          "value": "약 5,200광년"
+        },
+        {
+          "label": "특징",
+          "value": "먼지 띠로 삼분"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type",
+            "value": "Emission+reflection+dark"
+          },
+          {
+            "label": "Distance",
+            "value": "~5,200 ly"
+          },
+          {
+            "label": "Note",
+            "value": "Split into three by dust lanes"
+          }
+        ]
+      },
+      "related": [
+        "nebula-types",
+        "lagoon",
+        "orion"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "Trifid Nebula",
+        "ko": "삼렬 성운",
+        "ja": "三裂星雲",
+        "es": "Nebulosa Trífida",
+        "de": "Trifidnebel",
+        "pt": "Nebulosa Trífida",
+        "zh": "三葉星雲"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/trifid.jpg",
+      "imageCredit": "ESO",
+      "imageLicense": "CC BY 3.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ESO-Trifid_Nebula.jpg"
     }
   ]
 }

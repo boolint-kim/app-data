@@ -1,7 +1,7 @@
 {
   "bandId": "galaxies",
   "version": 2,
-  "updatedAt": "2026-07-04T00:00:00Z",
+  "updatedAt": "2026-07-06T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -614,6 +614,206 @@
       "imageCredit": "Hubble ESA",
       "imageLicense": "CC BY 2.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Best_image_of_bright_quasar_3C_273_(10953173335).jpg"
+    },
+    {
+      "id": "whirlpool",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "소용돌이 은하 (M51)",
+      "nameI18n": {
+        "en": "Whirlpool Galaxy (M51)"
+      },
+      "summary": "정면으로 보이는 대표적 대설계 나선은하. 작은 동반은하 NGC 5195와 상호작용하며 팔이 뚜렷하다.",
+      "summaryI18n": {
+        "en": "A textbook grand-design spiral seen face-on — its arms sharply defined as it interacts with the small companion galaxy NGC 5195."
+      },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Sc",
+      "facts": [
+        {
+          "label": "형태",
+          "value": "나선은하 (Sc)"
+        },
+        {
+          "label": "거리",
+          "value": "약 2,300만 광년"
+        },
+        {
+          "label": "특징",
+          "value": "동반은하와 상호작용"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type",
+            "value": "Spiral (Sc)"
+          },
+          {
+            "label": "Distance",
+            "value": "~23 million ly"
+          },
+          {
+            "label": "Note",
+            "value": "Interacting with a companion"
+          }
+        ]
+      },
+      "related": [
+        "hubble-fork",
+        "pinwheel",
+        "andromeda"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Whirlpool Galaxy",
+        "ko": "소용돌이 은하",
+        "ja": "子持ち銀河",
+        "es": "Galaxia Remolino",
+        "de": "Whirlpool-Galaxie",
+        "pt": "Galáxia do Rodamoinho",
+        "zh": "渦狀星系"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/whirlpool.jpg",
+      "imageCredit": "NASA and European Space Agency",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Messier51_sRGB.jpg"
+    },
+    {
+      "id": "centaurus-a",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "센타우루스자리 A",
+      "nameI18n": {
+        "en": "Centaurus A"
+      },
+      "summary": "가까운 거대 전파은하. 은하 충돌로 생긴 짙은 먼지 띠를 두르고, 중심 블랙홀에서 거대한 제트를 뿜는다.",
+      "summaryI18n": {
+        "en": "A nearby giant radio galaxy — girded by a dark dust lane from a past merger, with huge jets launched by its central black hole."
+      },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "S0",
+      "facts": [
+        {
+          "label": "형태",
+          "value": "특이 은하 (S0 pec)"
+        },
+        {
+          "label": "거리",
+          "value": "약 1,300만 광년"
+        },
+        {
+          "label": "특징",
+          "value": "거대 전파은하·제트"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type",
+            "value": "Peculiar (S0 pec)"
+          },
+          {
+            "label": "Distance",
+            "value": "~13 million ly"
+          },
+          {
+            "label": "Note",
+            "value": "Radio galaxy with jets"
+          }
+        ]
+      },
+      "related": [
+        "hubble-fork",
+        "agn",
+        "m87"
+      ],
+      "crossAxis": [
+        "multiwavelength",
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Centaurus A",
+        "ko": "센타우루스자리 A",
+        "ja": "ケンタウルス座A",
+        "es": "Centaurus A",
+        "de": "Centaurus A",
+        "pt": "NGC 5128",
+        "zh": "半人馬座A"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/centaurus-a.jpg",
+      "imageCredit": "ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ESO_Centaurus_A_LABOCA.jpg"
+    },
+    {
+      "id": "m82",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "시가 은하 (M82)",
+      "nameI18n": {
+        "en": "Cigar Galaxy (M82)"
+      },
+      "summary": "폭발적으로 별을 만드는 대표적 폭발적 항성생성 은하. 중심에서 붉은 수소 가스를 은하 밖으로 뿜어낸다.",
+      "summaryI18n": {
+        "en": "The archetypal starburst galaxy — forming stars furiously and blasting red hydrogen gas out of its core."
+      },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Irr",
+      "facts": [
+        {
+          "label": "형태",
+          "value": "폭발적 항성생성 (불규칙)"
+        },
+        {
+          "label": "거리",
+          "value": "약 1,200만 광년"
+        },
+        {
+          "label": "특징",
+          "value": "중심 수소 분출"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type",
+            "value": "Starburst (irregular)"
+          },
+          {
+            "label": "Distance",
+            "value": "~12 million ly"
+          },
+          {
+            "label": "Note",
+            "value": "Hydrogen outflow from core"
+          }
+        ]
+      },
+      "related": [
+        "hubble-fork",
+        "pinwheel",
+        "andromeda"
+      ],
+      "crossAxis": [
+        "multiwavelength",
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Messier 82",
+        "ko": "시가 은하",
+        "ja": "M82 (天体)",
+        "es": "Galaxia del Cigarro",
+        "de": "Messier 82",
+        "pt": "Messier 82",
+        "zh": "雪茄星系"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/m82.jpg",
+      "imageCredit": "NASA, ESA, and The Hubble Heritage Team (STScI/AURA)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M82_HST_ACS_2006-14-a-large_web.jpg"
     }
   ]
 }

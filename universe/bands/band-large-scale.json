@@ -1,7 +1,7 @@
 {
   "bandId": "large-scale",
   "version": 2,
-  "updatedAt": "2026-07-04T00:00:00Z",
+  "updatedAt": "2026-07-06T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -498,6 +498,71 @@
       "imageCredit": "ESA and the Planck Collaboration",
       "imageLicense": "CC BY 4.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cosmic_Microwave_Background_(CMB).jpeg"
+    },
+    {
+      "id": "hercules-cbgw",
+      "bandId": "large-scale",
+      "type": "object",
+      "name": "헤라클레스자리-북쪽왕관자리 장성",
+      "nameI18n": {
+        "en": "Hercules–Corona Borealis Great Wall"
+      },
+      "summary": "감마선 폭발의 분포로 발견된 초거대 구조. 지름 약 100억 광년으로, 알려진 우주 최대 구조 중 하나다.",
+      "summaryI18n": {
+        "en": "A colossal structure revealed by the clustering of gamma-ray bursts — about 10 billion light-years across, one of the largest known in the universe."
+      },
+      "scene": "scene-large-scale",
+      "facts": [
+        {
+          "label": "규모",
+          "value": "초거대 장성"
+        },
+        {
+          "label": "크기",
+          "value": "약 100억 광년"
+        },
+        {
+          "label": "발견",
+          "value": "감마선 폭발 분포 (2013)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Scale",
+            "value": "Colossal wall"
+          },
+          {
+            "label": "Size",
+            "value": "~10 billion ly"
+          },
+          {
+            "label": "Found",
+            "value": "GRB distribution (2013)"
+          }
+        ]
+      },
+      "related": [
+        "cosmic-web",
+        "sloan-wall",
+        "laniakea"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Hercules–Corona Borealis Great Wall",
+        "ko": "헤라클레스자리-북쪽왕관자리 장성",
+        "ja": "ヘルクレス座・かんむり座グレートウォール",
+        "es": "Gran Muralla de Hércules-Corona Boreal",
+        "de": "Hercules–Corona Borealis Great Wall",
+        "pt": "Grande Muralha Hércules-Corona Borealis",
+        "zh": "武仙-北冕座長城"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/hercules-cbgw.jpg",
+      "imageCredit": "István Horváth, Zsolt Bagoly, Jon Hakkila, L. V. Tóth",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Horv%C3%A1th_et_al._-_New_data_support_the_existence_of_the_Hercules-Corona_Borealis_Great_Wall_-_Distribution_of_GRBs_with_measured_redshift.svg"
     }
   ]
 }

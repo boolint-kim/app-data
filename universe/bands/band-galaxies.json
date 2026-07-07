@@ -8,7 +8,7 @@
       "id": "hubble-fork",
       "type": "diagram",
       "featured": true,
-      "name": "허블 음차도",
+      "name": "허블 소리굽쇠",
       "nameI18n": {
         "en": "Hubble Tuning Fork"
       },
@@ -53,7 +53,7 @@
       "id": "agn",
       "type": "process",
       "featured": true,
-      "name": "AGN 통합모델",
+      "name": "활동은하핵(AGN) 통합모델",
       "nameI18n": {
         "en": "AGN Unified Model"
       },

@@ -11,11 +11,21 @@
       "featured": true,
       "name": "색등급도 · 성단 나이",
       "nameI18n": {
-        "en": "Color–Magnitude · Cluster Age"
+        "en": "Color–Magnitude · Cluster Age",
+        "ja": "色等級図 · 星団の年齢",
+        "es": "Diagrama color–magnitud · Edad del cúmulo",
+        "de": "Farben-Helligkeits-Diagramm · Alter des Sternhaufens",
+        "zh-TW": "色等圖 · 星團年齡",
+        "pt-BR": "Diagrama cor–magnitude · Idade do aglomerado"
       },
       "summary": "성단의 색등급도에서 주계열 전향점의 높이가 곧 나이. 슬라이더로 젊은 산개↔늙은 구상을 오가며 전향점이 내려가는 걸 확인.",
       "summaryI18n": {
-        "en": "In a cluster's color–magnitude diagram, the main-sequence turnoff marks its age — slide from a young open cluster to an old globular and watch it drop."
+        "en": "In a cluster's color–magnitude diagram, the main-sequence turnoff marks its age — slide from a young open cluster to an old globular and watch it drop.",
+        "ja": "星団の色等級図では、主系列の転向点の高さがその年齢を示す。若い散開星団から古い球状星団へスライドして、転向点が下がる様子を確かめよう。",
+        "es": "En el diagrama color–magnitud de un cúmulo, el punto de desvío de la secuencia principal marca su edad: desliza de un cúmulo abierto joven a uno globular viejo y observa cómo desciende.",
+        "de": "Im Farben-Helligkeits-Diagramm eines Sternhaufens markiert der Abknickpunkt der Hauptreihe sein Alter — schiebe von einem jungen offenen Haufen zu einem alten Kugelsternhaufen und beobachte, wie er sinkt.",
+        "zh-TW": "在星團的色等圖中，主序轉折點的高度標示其年齡——從年輕的疏散星團滑動到年老的球狀星團，觀察轉折點如何下降。",
+        "pt-BR": "No diagrama cor–magnitude de um aglomerado, o ponto de desvio da sequência principal marca sua idade — deslize de um aglomerado aberto jovem para um globular velho e veja-o descer."
       },
       "scene": "scene-cluster-cmd",
       "hostCard": false,
@@ -39,6 +49,56 @@
             "label": "Principle",
             "value": "Turnoff height = age"
           }
+        ],
+        "ja": [
+          {
+            "label": "軸",
+            "value": "温度 × 光度 (H-R図)"
+          },
+          {
+            "label": "原理",
+            "value": "転向点の高さ = 年齢"
+          }
+        ],
+        "es": [
+          {
+            "label": "Ejes",
+            "value": "Temperatura × Luminosidad (H-R)"
+          },
+          {
+            "label": "Principio",
+            "value": "Altura del punto de desvío = edad"
+          }
+        ],
+        "de": [
+          {
+            "label": "Achsen",
+            "value": "Temperatur × Leuchtkraft (H-R)"
+          },
+          {
+            "label": "Prinzip",
+            "value": "Höhe des Abknickpunkts = Alter"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "座標軸",
+            "value": "溫度 × 光度 (H-R圖)"
+          },
+          {
+            "label": "原理",
+            "value": "轉折點高度 = 年齡"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Eixos",
+            "value": "Temperatura × Luminosidade (H-R)"
+          },
+          {
+            "label": "Princípio",
+            "value": "Altura do ponto de desvio = idade"
+          }
         ]
       },
       "related": [
@@ -54,11 +114,21 @@
       "type": "object",
       "name": "플레이아데스 성단",
       "nameI18n": {
-        "en": "Pleiades"
+        "en": "Pleiades",
+        "ja": "プレアデス星団",
+        "es": "Pléyades",
+        "de": "Plejaden",
+        "zh-TW": "昴宿星團",
+        "pt-BR": "Plêiades"
       },
       "summary": "황소자리의 젊은 산개성단. 맨눈으로 예닐곱 별이 보여 '좀생이별'로도 불린다. 고온 청색별과 이를 감싼 반사성운이 특징.",
       "summaryI18n": {
-        "en": "A young open cluster in Taurus, seen as six or seven stars by eye. Known for hot blue stars wrapped in reflection nebulosity."
+        "en": "A young open cluster in Taurus, seen as six or seven stars by eye. Known for hot blue stars wrapped in reflection nebulosity.",
+        "ja": "おうし座にある若い散開星団。肉眼では6〜7個の星が見え「すばる」とも呼ばれる。高温の青い星々とそれを包む反射星雲で知られる。",
+        "es": "Un cúmulo abierto joven en Tauro, visible como seis o siete estrellas a simple vista. Conocido por sus calientes estrellas azules envueltas en nebulosidad de reflexión.",
+        "de": "Ein junger offener Sternhaufen im Stier, mit bloßem Auge als sechs oder sieben Sterne sichtbar. Bekannt für heiße blaue Sterne, umhüllt von Reflexionsnebeln.",
+        "zh-TW": "金牛座中一個年輕的疏散星團，肉眼可見六、七顆星。以被反射星雲環繞的高溫藍色恆星聞名。",
+        "pt-BR": "Um aglomerado aberto jovem em Touro, visto como seis ou sete estrelas a olho nu. Conhecido por suas estrelas azuis quentes envoltas em nebulosidade de reflexão."
       },
       "facts": [
         {
@@ -87,6 +157,76 @@
           {
             "label": "Age",
             "value": "~100 million yr"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "散開星団"
+          },
+          {
+            "label": "距離",
+            "value": "約444光年"
+          },
+          {
+            "label": "年齢",
+            "value": "約1億年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulo abierto"
+          },
+          {
+            "label": "Distancia",
+            "value": "~444 años luz"
+          },
+          {
+            "label": "Edad",
+            "value": "~100 millones de años"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Offener Sternhaufen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~444 Lj"
+          },
+          {
+            "label": "Alter",
+            "value": "~100 Mio. Jahre"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "疏散星團"
+          },
+          {
+            "label": "距離",
+            "value": "約444光年"
+          },
+          {
+            "label": "年齡",
+            "value": "約1億年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerado aberto"
+          },
+          {
+            "label": "Distância",
+            "value": "~444 anos-luz"
+          },
+          {
+            "label": "Idade",
+            "value": "~100 milhões de anos"
           }
         ]
       },
@@ -117,11 +257,21 @@
       "type": "object",
       "name": "히아데스 성단",
       "nameI18n": {
-        "en": "Hyades (star cluster)"
+        "en": "Hyades (star cluster)",
+        "ja": "ヒアデス星団",
+        "es": "Híades",
+        "de": "Hyaden",
+        "zh-TW": "畢宿星團",
+        "pt-BR": "Híades"
       },
       "summary": "지구에서 가장 가까운 산개성단. 황소자리의 'V'자 얼굴을 이룬다(밝은 알데바란은 전경별로 성단 멤버가 아니다).",
       "summaryI18n": {
-        "en": "The nearest open cluster to Earth, forming the 'V'-shaped face of Taurus. Bright Aldebaran is a foreground star, not a member."
+        "en": "The nearest open cluster to Earth, forming the 'V'-shaped face of Taurus. Bright Aldebaran is a foreground star, not a member.",
+        "ja": "地球に最も近い散開星団で、おうし座の「V」字形の顔を形づくる。明るいアルデバランは前景の星で、星団の一員ではない。",
+        "es": "El cúmulo abierto más cercano a la Tierra, que forma la cara en «V» de Tauro. La brillante Aldebarán es una estrella de primer plano, no un miembro.",
+        "de": "Der erdnächste offene Sternhaufen, der das «V»-förmige Gesicht des Stiers bildet. Der helle Aldebaran ist ein Vordergrundstern, kein Mitglied.",
+        "zh-TW": "距離地球最近的疏散星團，構成金牛座「V」字形的臉。明亮的畢宿五是前景恆星，並非成員。",
+        "pt-BR": "O aglomerado aberto mais próximo da Terra, formando a face em «V» de Touro. A brilhante Aldebarã é uma estrela em primeiro plano, não um membro."
       },
       "facts": [
         {
@@ -150,6 +300,76 @@
           {
             "label": "Age",
             "value": "~625 million yr"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "散開星団"
+          },
+          {
+            "label": "距離",
+            "value": "約153光年"
+          },
+          {
+            "label": "年齢",
+            "value": "約6億2500万年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulo abierto"
+          },
+          {
+            "label": "Distancia",
+            "value": "~153 años luz"
+          },
+          {
+            "label": "Edad",
+            "value": "~625 millones de años"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Offener Sternhaufen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~153 Lj"
+          },
+          {
+            "label": "Alter",
+            "value": "~625 Mio. Jahre"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "疏散星團"
+          },
+          {
+            "label": "距離",
+            "value": "約153光年"
+          },
+          {
+            "label": "年齡",
+            "value": "約6億2500萬年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerado aberto"
+          },
+          {
+            "label": "Distância",
+            "value": "~153 anos-luz"
+          },
+          {
+            "label": "Idade",
+            "value": "~625 milhões de anos"
           }
         ]
       },
@@ -180,11 +400,21 @@
       "type": "object",
       "name": "이중 성단",
       "nameI18n": {
-        "en": "Double Cluster"
+        "en": "Double Cluster",
+        "ja": "二重星団",
+        "es": "Cúmulo Doble de Perseo",
+        "de": "Doppelsternhaufen",
+        "zh-TW": "英仙座雙星團",
+        "pt-BR": "Aglomerado Duplo de Perseu"
       },
       "summary": "페르세우스자리에 나란히 놓인 두 산개성단(NGC 869·884). 매우 젊고 밝은 별들로 가득하며 맨눈으로도 보인다.",
       "summaryI18n": {
-        "en": "A pair of open clusters side by side in Perseus (NGC 869 & 884), brimming with very young, luminous stars and visible to the naked eye."
+        "en": "A pair of open clusters side by side in Perseus (NGC 869 & 884), brimming with very young, luminous stars and visible to the naked eye.",
+        "ja": "ペルセウス座に並んで位置する2つの散開星団（NGC 869・884）。非常に若く明るい星々に満ち、肉眼でも見える。",
+        "es": "Un par de cúmulos abiertos uno junto al otro en Perseo (NGC 869 y 884), repletos de estrellas muy jóvenes y luminosas, visibles a simple vista.",
+        "de": "Ein Paar offener Sternhaufen dicht beieinander im Perseus (NGC 869 & 884), randvoll mit sehr jungen, leuchtkräftigen Sternen und mit bloßem Auge sichtbar.",
+        "zh-TW": "英仙座中並肩排列的一對疏散星團（NGC 869 與 884），充滿極年輕、明亮的恆星，肉眼即可見。",
+        "pt-BR": "Um par de aglomerados abertos lado a lado em Perseu (NGC 869 e 884), repletos de estrelas muito jovens e luminosas, visíveis a olho nu."
       },
       "facts": [
         {
@@ -214,6 +444,76 @@
             "label": "Age",
             "value": "~14 million yr"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "散開星団（一対）"
+          },
+          {
+            "label": "距離",
+            "value": "約7,500光年"
+          },
+          {
+            "label": "年齢",
+            "value": "約1,400万年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulos abiertos (par)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~7.500 años luz"
+          },
+          {
+            "label": "Edad",
+            "value": "~14 millones de años"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Offene Sternhaufen (Paar)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~7.500 Lj"
+          },
+          {
+            "label": "Alter",
+            "value": "~14 Mio. Jahre"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "疏散星團（一對）"
+          },
+          {
+            "label": "距離",
+            "value": "約7,500光年"
+          },
+          {
+            "label": "年齡",
+            "value": "約1,400萬年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerados abertos (par)"
+          },
+          {
+            "label": "Distância",
+            "value": "~7.500 anos-luz"
+          },
+          {
+            "label": "Idade",
+            "value": "~14 milhões de anos"
+          }
         ]
       },
       "crossAxis": [
@@ -241,11 +541,21 @@
       "type": "object",
       "name": "프레세페 성단",
       "nameI18n": {
-        "en": "Beehive Cluster"
+        "en": "Beehive Cluster",
+        "ja": "プレセペ星団",
+        "es": "El Pesebre",
+        "de": "Praesepe",
+        "zh-TW": "鬼宿星團",
+        "pt-BR": "Presépio"
       },
       "summary": "게자리의 밝은 산개성단. 맨눈엔 흐릿한 구름처럼 보여 '벌집성단'으로 불린다. 히아데스와 나이·운동이 비슷해 기원을 공유한 것으로 본다.",
       "summaryI18n": {
-        "en": "A bright open cluster in Cancer, a hazy patch to the eye — hence 'Beehive'. Its age and motion match the Hyades, hinting at a shared origin."
+        "en": "A bright open cluster in Cancer, a hazy patch to the eye — hence 'Beehive'. Its age and motion match the Hyades, hinting at a shared origin.",
+        "ja": "かに座にある明るい散開星団。肉眼ではぼんやりとした光の塊に見えることから「蜂の巣」と呼ばれる。年齢と運動がヒアデスと一致し、起源を共有していることを示唆する。",
+        "es": "Un cúmulo abierto brillante en Cáncer, una mancha difusa a simple vista, de ahí «la Colmena». Su edad y movimiento coinciden con las Híades, lo que sugiere un origen común.",
+        "de": "Ein heller offener Sternhaufen im Krebs, mit bloßem Auge ein verschwommener Fleck — daher «Bienenkorb». Alter und Bewegung stimmen mit den Hyaden überein, was auf einen gemeinsamen Ursprung hindeutet.",
+        "zh-TW": "巨蟹座中一個明亮的疏散星團，肉眼看是一團朦朧的光斑，故稱「蜂巢」。其年齡與運動與畢宿星團一致，暗示兩者同源。",
+        "pt-BR": "Um aglomerado aberto brilhante em Câncer, uma mancha difusa a olho nu — daí «Colmeia». Sua idade e movimento coincidem com as Híades, sugerindo uma origem comum."
       },
       "facts": [
         {
@@ -274,6 +584,76 @@
           {
             "label": "Age",
             "value": "~600 million yr"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "散開星団"
+          },
+          {
+            "label": "距離",
+            "value": "約577光年"
+          },
+          {
+            "label": "年齢",
+            "value": "約6億年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulo abierto"
+          },
+          {
+            "label": "Distancia",
+            "value": "~577 años luz"
+          },
+          {
+            "label": "Edad",
+            "value": "~600 millones de años"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Offener Sternhaufen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~577 Lj"
+          },
+          {
+            "label": "Alter",
+            "value": "~600 Mio. Jahre"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "疏散星團"
+          },
+          {
+            "label": "距離",
+            "value": "約577光年"
+          },
+          {
+            "label": "年齡",
+            "value": "約6億年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerado aberto"
+          },
+          {
+            "label": "Distância",
+            "value": "~577 anos-luz"
+          },
+          {
+            "label": "Idade",
+            "value": "~600 milhões de anos"
           }
         ]
       },
@@ -304,11 +684,21 @@
       "type": "object",
       "name": "센타우루스자리 오메가",
       "nameI18n": {
-        "en": "Omega Centauri"
+        "en": "Omega Centauri",
+        "ja": "半人馬座ω星団",
+        "es": "Omega Centauri",
+        "de": "Omega Centauri",
+        "zh-TW": "半人馬座ω星團",
+        "pt-BR": "Omega Centauri"
       },
       "summary": "우리 은하에서 가장 크고 밝은 구상성단. 약 1000만 개의 늙은 별이 공 모양으로 뭉쳐 있으며, 삼켜진 왜소은하의 잔해 핵으로 추정된다.",
       "summaryI18n": {
-        "en": "The largest, brightest globular in the Milky Way — some 10 million ancient stars in a sphere, thought to be the stripped core of a swallowed dwarf galaxy."
+        "en": "The largest, brightest globular in the Milky Way — some 10 million ancient stars in a sphere, thought to be the stripped core of a swallowed dwarf galaxy.",
+        "ja": "天の川銀河で最も大きく明るい球状星団。約1000万個の古い星が球状に集まり、飲み込まれた矮小銀河の剥ぎ取られた核だと考えられている。",
+        "es": "El cúmulo globular más grande y brillante de la Vía Láctea: unos 10 millones de estrellas antiguas en una esfera, que se cree es el núcleo desnudo de una galaxia enana engullida.",
+        "de": "Der größte und hellste Kugelsternhaufen der Milchstraße — etwa 10 Millionen alte Sterne in einer Kugel, vermutlich der freigelegte Kern einer verschluckten Zwerggalaxie.",
+        "zh-TW": "銀河系中最大、最亮的球狀星團——約1000萬顆年老恆星聚成球狀，據信是一個被吞噬的矮星系被剝離後的核心。",
+        "pt-BR": "O maior e mais brilhante aglomerado globular da Via Láctea — cerca de 10 milhões de estrelas antigas em uma esfera, tido como o núcleo despido de uma galáxia anã engolida."
       },
       "facts": [
         {
@@ -337,6 +727,76 @@
           {
             "label": "Stars",
             "value": "~10 million"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "球状星団"
+          },
+          {
+            "label": "距離",
+            "value": "約17,000光年"
+          },
+          {
+            "label": "星の数",
+            "value": "約1000万個"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulo globular"
+          },
+          {
+            "label": "Distancia",
+            "value": "~17.000 años luz"
+          },
+          {
+            "label": "Estrellas",
+            "value": "~10 millones"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Kugelsternhaufen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~17.000 Lj"
+          },
+          {
+            "label": "Sterne",
+            "value": "~10 Millionen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "球狀星團"
+          },
+          {
+            "label": "距離",
+            "value": "約17,000光年"
+          },
+          {
+            "label": "恆星數",
+            "value": "約1000萬顆"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerado globular"
+          },
+          {
+            "label": "Distância",
+            "value": "~17.000 anos-luz"
+          },
+          {
+            "label": "Estrelas",
+            "value": "~10 milhões"
           }
         ]
       },
@@ -369,11 +829,21 @@
       "type": "object",
       "name": "허큘리스 대성단",
       "nameI18n": {
-        "en": "Messier 13"
+        "en": "Messier 13",
+        "ja": "メシエ13",
+        "es": "Messier 13",
+        "de": "Messier 13",
+        "zh-TW": "梅西耶13",
+        "pt-BR": "Messier 13"
       },
       "summary": "헤라클레스자리의 대구상성단. 북반구에서 가장 볼 만한 구상성단으로, 1974년 아레시보 전파 메시지를 보낸 목표이기도 하다.",
       "summaryI18n": {
-        "en": "The Great Globular Cluster in Hercules — the finest globular for northern skies, and target of the 1974 Arecibo radio message."
+        "en": "The Great Globular Cluster in Hercules — the finest globular for northern skies, and target of the 1974 Arecibo radio message.",
+        "ja": "ヘルクレス座の大球状星団。北天で最も見応えのある球状星団で、1974年のアレシボ・メッセージ（電波）の送信先でもある。",
+        "es": "El Gran Cúmulo Globular de Hércules: el mejor cúmulo globular del cielo boreal y destino del mensaje de radio de Arecibo de 1974.",
+        "de": "Der Große Kugelsternhaufen im Herkules — der schönste Kugelsternhaufen des Nordhimmels und Ziel der Arecibo-Radiobotschaft von 1974.",
+        "zh-TW": "武仙座的大球狀星團——北天最壯觀的球狀星團，也是1974年阿雷西博電波訊息的發送目標。",
+        "pt-BR": "O Grande Aglomerado Globular de Hércules — o melhor aglomerado globular do céu do hemisfério norte e alvo da mensagem de rádio de Arecibo de 1974."
       },
       "facts": [
         {
@@ -402,6 +872,76 @@
           {
             "label": "Stars",
             "value": "hundreds of thousands"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "球状星団"
+          },
+          {
+            "label": "距離",
+            "value": "約22,000光年"
+          },
+          {
+            "label": "星の数",
+            "value": "数十万個"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulo globular"
+          },
+          {
+            "label": "Distancia",
+            "value": "~22.000 años luz"
+          },
+          {
+            "label": "Estrellas",
+            "value": "cientos de miles"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Kugelsternhaufen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~22.000 Lj"
+          },
+          {
+            "label": "Sterne",
+            "value": "Hunderttausende"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "球狀星團"
+          },
+          {
+            "label": "距離",
+            "value": "約22,000光年"
+          },
+          {
+            "label": "恆星數",
+            "value": "數十萬顆"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerado globular"
+          },
+          {
+            "label": "Distância",
+            "value": "~22.000 anos-luz"
+          },
+          {
+            "label": "Estrelas",
+            "value": "centenas de milhares"
           }
         ]
       },
@@ -434,11 +974,21 @@
       "type": "object",
       "name": "큰부리새자리 47",
       "nameI18n": {
-        "en": "47 Tucanae"
+        "en": "47 Tucanae",
+        "ja": "きょしちょう座47",
+        "es": "47 Tucanae",
+        "de": "47 Tucanae",
+        "zh-TW": "杜鵑座47",
+        "pt-BR": "47 Tucanae"
       },
       "summary": "오메가 센타우리 다음으로 밝은 구상성단. 극도로 조밀한 중심핵을 지녔으며 남반구 하늘의 보석으로 꼽힌다.",
       "summaryI18n": {
-        "en": "The second-brightest globular after Omega Centauri, with an extremely dense core — a jewel of the southern sky."
+        "en": "The second-brightest globular after Omega Centauri, with an extremely dense core — a jewel of the southern sky.",
+        "ja": "オメガ星団に次いで明るい球状星団で、極めて密集した中心核を持つ。南天の宝石とされる。",
+        "es": "El segundo cúmulo globular más brillante después de Omega Centauri, con un núcleo extremadamente denso: una joya del cielo austral.",
+        "de": "Der nach Omega Centauri zweithellste Kugelsternhaufen, mit einem extrem dichten Kern — ein Juwel des Südhimmels.",
+        "zh-TW": "亮度僅次於半人馬座ω星團的球狀星團，擁有極為緻密的中心核，被譽為南天的寶石。",
+        "pt-BR": "O segundo aglomerado globular mais brilhante depois de Omega Centauri, com um núcleo extremamente denso — uma joia do céu austral."
       },
       "facts": [
         {
@@ -467,6 +1017,76 @@
           {
             "label": "Stars",
             "value": "millions"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "球状星団"
+          },
+          {
+            "label": "距離",
+            "value": "約13,000光年"
+          },
+          {
+            "label": "星の数",
+            "value": "数百万個"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulo globular"
+          },
+          {
+            "label": "Distancia",
+            "value": "~13.000 años luz"
+          },
+          {
+            "label": "Estrellas",
+            "value": "millones"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Kugelsternhaufen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~13.000 Lj"
+          },
+          {
+            "label": "Sterne",
+            "value": "Millionen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "球狀星團"
+          },
+          {
+            "label": "距離",
+            "value": "約13,000光年"
+          },
+          {
+            "label": "恆星數",
+            "value": "數百萬顆"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerado globular"
+          },
+          {
+            "label": "Distância",
+            "value": "~13.000 anos-luz"
+          },
+          {
+            "label": "Estrelas",
+            "value": "milhões"
           }
         ]
       },
@@ -499,11 +1119,21 @@
       "type": "object",
       "name": "메시에 22",
       "nameI18n": {
-        "en": "Messier 22"
+        "en": "Messier 22",
+        "ja": "メシエ22",
+        "es": "Messier 22",
+        "de": "Messier 22",
+        "zh-TW": "梅西耶22",
+        "pt-BR": "Messier 22"
       },
       "summary": "궁수자리의 밝은 구상성단으로, 지구에서 가장 가까운 구상성단 중 하나다. 밝아서 작은 망원경으로도 별이 분해되어 보인다.",
       "summaryI18n": {
-        "en": "A bright globular in Sagittarius and one of the nearest to Earth — bright enough that small scopes begin to resolve its stars."
+        "en": "A bright globular in Sagittarius and one of the nearest to Earth — bright enough that small scopes begin to resolve its stars.",
+        "ja": "いて座にある明るい球状星団で、地球に最も近い球状星団の一つ。明るいため小型望遠鏡でも星が分解して見え始める。",
+        "es": "Un cúmulo globular brillante en Sagitario y uno de los más cercanos a la Tierra, tan brillante que los telescopios pequeños empiezan a resolver sus estrellas.",
+        "de": "Ein heller Kugelsternhaufen im Schützen und einer der erdnächsten — hell genug, dass kleine Teleskope beginnen, seine Sterne aufzulösen.",
+        "zh-TW": "人馬座中一個明亮的球狀星團，也是距離地球最近的球狀星團之一——由於夠亮，小型望遠鏡便能開始分解出其中的恆星。",
+        "pt-BR": "Um aglomerado globular brilhante em Sagitário e um dos mais próximos da Terra — brilhante o bastante para que telescópios pequenos comecem a resolver suas estrelas."
       },
       "facts": [
         {
@@ -532,6 +1162,76 @@
           {
             "label": "Age",
             "value": "~12 billion yr"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "球状星団"
+          },
+          {
+            "label": "距離",
+            "value": "約10,400光年"
+          },
+          {
+            "label": "年齢",
+            "value": "約120億年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cúmulo globular"
+          },
+          {
+            "label": "Distancia",
+            "value": "~10.400 años luz"
+          },
+          {
+            "label": "Edad",
+            "value": "~12 mil millones de años"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Kugelsternhaufen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~10.400 Lj"
+          },
+          {
+            "label": "Alter",
+            "value": "~12 Mrd. Jahre"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "球狀星團"
+          },
+          {
+            "label": "距離",
+            "value": "約10,400光年"
+          },
+          {
+            "label": "年齡",
+            "value": "約120億年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Aglomerado globular"
+          },
+          {
+            "label": "Distância",
+            "value": "~10.400 anos-luz"
+          },
+          {
+            "label": "Idade",
+            "value": "~12 bilhões de anos"
           }
         ]
       },

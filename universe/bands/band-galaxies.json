@@ -10,11 +10,21 @@
       "featured": true,
       "name": "허블 소리굽쇠",
       "nameI18n": {
-        "en": "Hubble Tuning Fork"
+        "en": "Hubble Tuning Fork",
+        "ja": "ハッブルの音叉図",
+        "es": "Diapasón de Hubble",
+        "de": "Hubble-Stimmgabel",
+        "zh-TW": "哈伯音叉圖",
+        "pt-BR": "Diapasão de Hubble"
       },
       "summary": "은하를 형태로 분류하는 지도 — 타원에서 나선·막대나선으로 갈라진다. 진화 순서 아님.",
       "summaryI18n": {
-        "en": "A map that classifies galaxies by shape — ellipticals branch into spirals and barred spirals. Not an evolutionary sequence."
+        "en": "A map that classifies galaxies by shape — ellipticals branch into spirals and barred spirals. Not an evolutionary sequence.",
+        "ja": "銀河を形で分類する図——楕円銀河から渦巻銀河と棒渦巻銀河へ枝分かれする。進化の順序ではない。",
+        "es": "Un mapa que clasifica las galaxias por su forma: las elípticas se ramifican en espirales y espirales barradas. No es una secuencia evolutiva.",
+        "de": "Eine Karte, die Galaxien nach ihrer Form klassifiziert – Elliptische verzweigen sich in Spiral- und Balkenspiralgalaxien. Keine Entwicklungsreihe.",
+        "zh-TW": "依形態分類星系的圖——橢圓星系分岔為螺旋星系與棒旋星系。並非演化序列。",
+        "pt-BR": "Um mapa que classifica as galáxias por forma — as elípticas se ramificam em espirais e espirais barradas. Não é uma sequência evolutiva."
       },
       "scene": "scene-hubble-fork",
       "hostCard": false,
@@ -38,6 +48,56 @@
             "label": "Prongs",
             "value": "Spiral S / barred spiral SB"
           }
+        ],
+        "ja": [
+          {
+            "label": "柄",
+            "value": "楕円 E0〜E7 → レンズ状 S0"
+          },
+          {
+            "label": "枝",
+            "value": "渦巻 S / 棒渦巻 SB"
+          }
+        ],
+        "es": [
+          {
+            "label": "Mango",
+            "value": "Elíptica E0–E7 → lenticular S0"
+          },
+          {
+            "label": "Ramas",
+            "value": "Espiral S / espiral barrada SB"
+          }
+        ],
+        "de": [
+          {
+            "label": "Griff",
+            "value": "Elliptisch E0–E7 → lentikulär S0"
+          },
+          {
+            "label": "Zinken",
+            "value": "Spiral S / Balkenspiral SB"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "柄",
+            "value": "橢圓 E0–E7 → 透鏡狀 S0"
+          },
+          {
+            "label": "分岔",
+            "value": "螺旋 S / 棒旋 SB"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Cabo",
+            "value": "Elíptica E0–E7 → lenticular S0"
+          },
+          {
+            "label": "Ramos",
+            "value": "Espiral S / espiral barrada SB"
+          }
         ]
       },
       "related": [
@@ -55,11 +115,21 @@
       "featured": true,
       "name": "활동은하핵(AGN) 통합모델",
       "nameI18n": {
-        "en": "AGN Unified Model"
+        "en": "AGN Unified Model",
+        "ja": "活動銀河核（AGN）統一モデル",
+        "es": "Modelo unificado de AGN",
+        "de": "Vereinheitlichtes AGN-Modell",
+        "zh-TW": "活動星系核（AGN）統一模型",
+        "pt-BR": "Modelo unificado de AGN"
       },
       "summary": "블레이자·퀘이사·세이퍼트는 사실 같은 천체 — 보는 각도만 다를 뿐. 각도를 돌려보라.",
       "summaryI18n": {
-        "en": "Blazars, quasars, and Seyferts are really the same object seen at different angles. Rotate to change the view."
+        "en": "Blazars, quasars, and Seyferts are really the same object seen at different angles. Rotate to change the view.",
+        "ja": "ブレーザー・クェーサー・セイファートは実は同じ天体を違う角度から見たもの。回転させて視点を変えよう。",
+        "es": "Los blazares, cuásares y galaxias Seyfert son en realidad el mismo objeto visto desde distintos ángulos. Gira para cambiar la vista.",
+        "de": "Blazare, Quasare und Seyfertgalaxien sind eigentlich dasselbe Objekt aus unterschiedlichen Winkeln betrachtet. Drehen, um die Ansicht zu ändern.",
+        "zh-TW": "耀變體、類星體與西佛星系其實是同一天體，只是觀看角度不同。旋轉即可改變視角。",
+        "pt-BR": "Blazares, quasares e galáxias Seyfert são na verdade o mesmo objeto visto de ângulos diferentes. Gire para mudar a vista."
       },
       "scene": "scene-agn",
       "hostCard": false,
@@ -83,6 +153,56 @@
             "label": "Class",
             "value": "Viewing angle (pole-on → blazar, edge-on → obscured)"
           }
+        ],
+        "ja": [
+          {
+            "label": "核",
+            "value": "超大質量ブラックホール＋降着円盤＋ジェット"
+          },
+          {
+            "label": "分類",
+            "value": "視線角（正面→ブレーザー、真横→遮蔽）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Núcleo",
+            "value": "Agujero negro supermasivo + disco + chorros"
+          },
+          {
+            "label": "Clase",
+            "value": "Ángulo de visión (de frente → blazar, de canto → oscurecido)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Kern",
+            "value": "Supermassereiches Schwarzes Loch + Scheibe + Jets"
+          },
+          {
+            "label": "Klasse",
+            "value": "Blickwinkel (frontal → Blazar, seitlich → verdeckt)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "核心",
+            "value": "超大質量黑洞＋吸積盤＋噴流"
+          },
+          {
+            "label": "分類",
+            "value": "視線角度（正面→耀變體，側面→受遮蔽）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Núcleo",
+            "value": "Buraco negro supermassivo + disco + jatos"
+          },
+          {
+            "label": "Classe",
+            "value": "Ângulo de visão (de frente → blazar, de perfil → obscurecido)"
+          }
         ]
       },
       "related": [
@@ -101,11 +221,21 @@
       "type": "object",
       "name": "안드로메다 은하",
       "nameI18n": {
-        "en": "Andromeda Galaxy"
+        "en": "Andromeda Galaxy",
+        "ja": "アンドロメダ銀河",
+        "es": "Galaxia de Andrómeda",
+        "de": "Andromedagalaxie",
+        "zh-TW": "仙女座星系",
+        "pt-BR": "Galáxia de Andrômeda"
       },
       "summary": "우리 은하에서 가장 가까운 대형 나선은하. 약 40억 년 뒤 우리 은하와 충돌·합병한다.",
       "summaryI18n": {
-        "en": "The nearest large spiral galaxy to us — it will collide and merge with the Milky Way in about 4 billion years."
+        "en": "The nearest large spiral galaxy to us — it will collide and merge with the Milky Way in about 4 billion years.",
+        "ja": "私たちに最も近い大型の渦巻銀河。約40億年後に天の川銀河と衝突・合体する。",
+        "es": "La galaxia espiral grande más cercana a nosotros: colisionará y se fusionará con la Vía Láctea dentro de unos 4000 millones de años.",
+        "de": "Die uns nächstgelegene große Spiralgalaxie – in etwa 4 Milliarden Jahren wird sie mit der Milchstraße kollidieren und verschmelzen.",
+        "zh-TW": "距離我們最近的大型螺旋星系——約40億年後將與銀河系碰撞、合併。",
+        "pt-BR": "A grande galáxia espiral mais próxima de nós — vai colidir e se fundir com a Via Láctea em cerca de 4 bilhões de anos."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "Sb",
@@ -137,6 +267,76 @@
             "label": "Diameter",
             "value": "~220,000 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "渦巻銀河（Sb）"
+          },
+          {
+            "label": "距離",
+            "value": "約250万光年"
+          },
+          {
+            "label": "直径",
+            "value": "約22万光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sb)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~2,5 millones de años luz"
+          },
+          {
+            "label": "Diámetro",
+            "value": "~220 000 años luz"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Spiralgalaxie (Sb)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~2,5 Millionen Lj"
+          },
+          {
+            "label": "Durchmesser",
+            "value": "~220.000 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "螺旋星系（Sb）"
+          },
+          {
+            "label": "距離",
+            "value": "約250萬光年"
+          },
+          {
+            "label": "直徑",
+            "value": "約22萬光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sb)"
+          },
+          {
+            "label": "Distância",
+            "value": "~2,5 milhões de anos-luz"
+          },
+          {
+            "label": "Diâmetro",
+            "value": "~220.000 anos-luz"
+          }
         ]
       },
       "related": [
@@ -167,11 +367,21 @@
       "type": "object",
       "name": "우리 은하",
       "nameI18n": {
-        "en": "Milky Way"
+        "en": "Milky Way",
+        "ja": "天の川銀河",
+        "es": "Vía Láctea",
+        "de": "Milchstraße",
+        "zh-TW": "銀河系",
+        "pt-BR": "Via Láctea"
       },
       "summary": "태양계가 속한 막대나선은하. 지름 약 10만 광년에 수천억 개의 별을 품는다.",
       "summaryI18n": {
-        "en": "The barred spiral galaxy that hosts the Solar System — ~100,000 light-years across with hundreds of billions of stars."
+        "en": "The barred spiral galaxy that hosts the Solar System — ~100,000 light-years across with hundreds of billions of stars.",
+        "ja": "太陽系が属する棒渦巻銀河。直径約10万光年に数千億個の星を抱える。",
+        "es": "La galaxia espiral barrada que alberga el Sistema Solar: unos 100 000 años luz de diámetro con cientos de miles de millones de estrellas.",
+        "de": "Die Balkenspiralgalaxie, die das Sonnensystem beherbergt – ~100.000 Lichtjahre groß mit Hunderten Milliarden Sternen.",
+        "zh-TW": "太陽系所在的棒旋星系——直徑約10萬光年，擁有數千億顆恆星。",
+        "pt-BR": "A galáxia espiral barrada que abriga o Sistema Solar — cerca de 100.000 anos-luz de diâmetro com centenas de bilhões de estrelas."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "SBb",
@@ -203,6 +413,76 @@
             "label": "Stars",
             "value": "100–400 billion"
           }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "棒渦巻銀河（SBb）"
+          },
+          {
+            "label": "直径",
+            "value": "約10万光年"
+          },
+          {
+            "label": "星",
+            "value": "1000億〜4000億個"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Espiral barrada (SBb)"
+          },
+          {
+            "label": "Diámetro",
+            "value": "~100 000 años luz"
+          },
+          {
+            "label": "Estrellas",
+            "value": "100 000–400 000 millones"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Balkenspiralgalaxie (SBb)"
+          },
+          {
+            "label": "Durchmesser",
+            "value": "~100.000 Lj"
+          },
+          {
+            "label": "Sterne",
+            "value": "100–400 Milliarden"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "棒旋星系（SBb）"
+          },
+          {
+            "label": "直徑",
+            "value": "約10萬光年"
+          },
+          {
+            "label": "恆星",
+            "value": "1000億～4000億顆"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Espiral barrada (SBb)"
+          },
+          {
+            "label": "Diâmetro",
+            "value": "~100.000 anos-luz"
+          },
+          {
+            "label": "Estrelas",
+            "value": "100–400 bilhões"
+          }
         ]
       },
       "related": [
@@ -231,11 +511,21 @@
       "type": "object",
       "name": "대마젤란 은하",
       "nameI18n": {
-        "en": "Large Magellanic Cloud"
+        "en": "Large Magellanic Cloud",
+        "ja": "大マゼラン雲",
+        "es": "Gran Nube de Magallanes",
+        "de": "Große Magellansche Wolke",
+        "zh-TW": "大麥哲倫雲",
+        "pt-BR": "Grande Nuvem de Magalhães"
       },
       "summary": "우리 은하를 도는 불규칙 위성은하. 남반구 밤하늘에서 육안으로 보인다.",
       "summaryI18n": {
-        "en": "An irregular satellite galaxy orbiting the Milky Way — visible to the naked eye in the southern sky."
+        "en": "An irregular satellite galaxy orbiting the Milky Way — visible to the naked eye in the southern sky.",
+        "ja": "天の川銀河を周回する不規則な伴銀河。南天では肉眼で見える。",
+        "es": "Una galaxia satélite irregular que orbita la Vía Láctea, visible a simple vista en el cielo del sur.",
+        "de": "Eine irreguläre Satellitengalaxie, die die Milchstraße umkreist – am Südhimmel mit bloßem Auge sichtbar.",
+        "zh-TW": "環繞銀河系運行的不規則伴星系——在南天以肉眼即可見。",
+        "pt-BR": "Uma galáxia satélite irregular que orbita a Via Láctea — visível a olho nu no céu do hemisfério sul."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "Irr",
@@ -267,6 +557,76 @@
             "label": "Note",
             "value": "Satellite of the Milky Way"
           }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "不規則銀河"
+          },
+          {
+            "label": "距離",
+            "value": "約16万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "天の川銀河の伴銀河"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Irregular"
+          },
+          {
+            "label": "Distancia",
+            "value": "~160 000 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Satélite de la Vía Láctea"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Irregulär"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~160.000 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Satellit der Milchstraße"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "不規則星系"
+          },
+          {
+            "label": "距離",
+            "value": "約16萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "銀河系的伴星系"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Irregular"
+          },
+          {
+            "label": "Distância",
+            "value": "~160.000 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Satélite da Via Láctea"
+          }
         ]
       },
       "related": [
@@ -295,11 +655,21 @@
       "type": "object",
       "name": "소마젤란 은하",
       "nameI18n": {
-        "en": "Small Magellanic Cloud"
+        "en": "Small Magellanic Cloud",
+        "ja": "小マゼラン雲",
+        "es": "Pequeña Nube de Magallanes",
+        "de": "Kleine Magellansche Wolke",
+        "zh-TW": "小麥哲倫雲",
+        "pt-BR": "Pequena Nuvem de Magalhães"
       },
       "summary": "대마젤란운과 짝을 이루는 불규칙 위성은하. 역시 남반구에서 맨눈으로 보인다.",
       "summaryI18n": {
-        "en": "An irregular satellite galaxy paired with the LMC — also visible to the naked eye from the southern hemisphere."
+        "en": "An irregular satellite galaxy paired with the LMC — also visible to the naked eye from the southern hemisphere.",
+        "ja": "大マゼラン雲と対をなす不規則な伴銀河。こちらも南半球では肉眼で見える。",
+        "es": "Una galaxia satélite irregular emparejada con la Gran Nube de Magallanes, también visible a simple vista desde el hemisferio sur.",
+        "de": "Eine irreguläre Satellitengalaxie, die ein Paar mit der Großen Magellanschen Wolke bildet – ebenfalls von der Südhalbkugel mit bloßem Auge sichtbar.",
+        "zh-TW": "與大麥哲倫雲成對的不規則伴星系——同樣在南半球以肉眼可見。",
+        "pt-BR": "Uma galáxia satélite irregular emparelhada com a Grande Nuvem de Magalhães — também visível a olho nu no hemisfério sul."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "Irr",
@@ -331,6 +701,76 @@
             "label": "Note",
             "value": "Paired with the LMC"
           }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "不規則銀河"
+          },
+          {
+            "label": "距離",
+            "value": "約20万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "大マゼラン雲と対"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Irregular"
+          },
+          {
+            "label": "Distancia",
+            "value": "~200 000 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Emparejada con la Gran Nube de Magallanes"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Irregulär"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~200.000 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Paar mit der Großen Magellanschen Wolke"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "不規則星系"
+          },
+          {
+            "label": "距離",
+            "value": "約20萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "與大麥哲倫雲成對"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Irregular"
+          },
+          {
+            "label": "Distância",
+            "value": "~200.000 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Emparelhada com a Grande Nuvem de Magalhães"
+          }
         ]
       },
       "related": [
@@ -358,11 +798,21 @@
       "type": "object",
       "name": "M87",
       "nameI18n": {
-        "en": "Messier 87"
+        "en": "Messier 87",
+        "ja": "M87",
+        "es": "Messier 87",
+        "de": "Messier 87",
+        "zh-TW": "M87",
+        "pt-BR": "Messier 87"
       },
       "summary": "거대 타원은하. 중심의 초대질량 블랙홀 M87*가 2019년 인류 최초로 촬영된 블랙홀이다.",
       "summaryI18n": {
-        "en": "A giant elliptical galaxy — its central supermassive black hole, M87*, was the first black hole ever imaged (2019)."
+        "en": "A giant elliptical galaxy — its central supermassive black hole, M87*, was the first black hole ever imaged (2019).",
+        "ja": "巨大楕円銀河。中心の超大質量ブラックホールM87*は、人類が初めて撮影したブラックホール（2019年）。",
+        "es": "Una galaxia elíptica gigante; su agujero negro supermasivo central, M87*, fue el primer agujero negro fotografiado (2019).",
+        "de": "Eine riesige elliptische Galaxie – ihr zentrales supermassereiches Schwarzes Loch M87* war das erste je abgebildete Schwarze Loch (2019).",
+        "zh-TW": "巨型橢圓星系——中心的超大質量黑洞M87*是人類首度拍攝到的黑洞（2019年）。",
+        "pt-BR": "Uma galáxia elíptica gigante — seu buraco negro supermassivo central, M87*, foi o primeiro buraco negro já fotografado (2019)."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "E0",
@@ -393,6 +843,76 @@
           {
             "label": "Note",
             "value": "M87* first imaged (2019)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "巨大楕円銀河（E0）"
+          },
+          {
+            "label": "距離",
+            "value": "約5300万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "M87*を初撮影（2019年）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Elíptica gigante (E0)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~53 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Primera imagen de M87* (2019)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Riesige elliptische Galaxie (E0)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~53 Millionen Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "M87* erstmals abgebildet (2019)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "巨型橢圓星系（E0）"
+          },
+          {
+            "label": "距離",
+            "value": "約5300萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "首度拍攝M87*（2019年）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Elíptica gigante (E0)"
+          },
+          {
+            "label": "Distância",
+            "value": "~53 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeira imagem de M87* (2019)"
           }
         ]
       },
@@ -425,11 +945,21 @@
       "type": "object",
       "name": "바람개비 은하 (M101)",
       "nameI18n": {
-        "en": "Pinwheel Galaxy (M101)"
+        "en": "Pinwheel Galaxy (M101)",
+        "ja": "回転花火銀河（M101）",
+        "es": "Galaxia del Molinete (M101)",
+        "de": "Feuerradgalaxie (M101)",
+        "zh-TW": "風車星系（M101）",
+        "pt-BR": "Galáxia do Cata-Vento (M101)"
       },
       "summary": "정면으로 보이는 나선은하. 크고 느슨한 팔이 바람개비처럼 펼쳐진다.",
       "summaryI18n": {
-        "en": "A face-on spiral galaxy — its large, loose arms spread out like a pinwheel."
+        "en": "A face-on spiral galaxy — its large, loose arms spread out like a pinwheel.",
+        "ja": "正面を向いた渦巻銀河。大きくゆるやかな腕が風車のように広がる。",
+        "es": "Una galaxia espiral vista de frente; sus brazos grandes y sueltos se despliegan como un molinete.",
+        "de": "Eine von vorn gesehene Spiralgalaxie – ihre großen, lockeren Arme breiten sich wie ein Feuerrad aus.",
+        "zh-TW": "正面朝向我們的螺旋星系——巨大而鬆散的旋臂像風車般展開。",
+        "pt-BR": "Uma galáxia espiral vista de frente — seus braços grandes e soltos se abrem como um cata-vento."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "Sc",
@@ -461,6 +991,76 @@
             "label": "Note",
             "value": "Face-on spiral"
           }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "渦巻銀河（Sc）"
+          },
+          {
+            "label": "距離",
+            "value": "約2100万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "正面向きの渦巻"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sc)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~21 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Espiral vista de frente"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Spiralgalaxie (Sc)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~21 Millionen Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Spirale in Aufsicht"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "螺旋星系（Sc）"
+          },
+          {
+            "label": "距離",
+            "value": "約2100萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "正面朝向的螺旋"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sc)"
+          },
+          {
+            "label": "Distância",
+            "value": "~21 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Espiral vista de frente"
+          }
         ]
       },
       "related": [
@@ -490,11 +1090,21 @@
       "type": "object",
       "name": "솜브레로 은하 (M104)",
       "nameI18n": {
-        "en": "Sombrero Galaxy (M104)"
+        "en": "Sombrero Galaxy (M104)",
+        "ja": "ソンブレロ銀河（M104）",
+        "es": "Galaxia del Sombrero (M104)",
+        "de": "Sombrerogalaxie (M104)",
+        "zh-TW": "闊邊帽星系（M104）",
+        "pt-BR": "Galáxia do Sombreiro (M104)"
       },
       "summary": "두꺼운 먼지 띠와 밝은 중심 팽대부가 챙 넓은 모자처럼 보이는 나선은하.",
       "summaryI18n": {
-        "en": "A spiral galaxy whose thick dust lane and bright bulge make it look like a wide-brimmed hat."
+        "en": "A spiral galaxy whose thick dust lane and bright bulge make it look like a wide-brimmed hat.",
+        "ja": "分厚いダストレーンと明るいバルジが、つばの広い帽子のように見える渦巻銀河。",
+        "es": "Una galaxia espiral cuya gruesa banda de polvo y brillante bulbo la hacen parecer un sombrero de ala ancha.",
+        "de": "Eine Spiralgalaxie, deren dickes Staubband und heller Bulge sie wie einen breitkrempigen Hut erscheinen lassen.",
+        "zh-TW": "厚實的塵埃帶與明亮的核球，使這個螺旋星系看起來像一頂寬邊帽。",
+        "pt-BR": "Uma galáxia espiral cuja espessa faixa de poeira e o brilhante bojo a fazem parecer um chapéu de abas largas."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "Sa",
@@ -526,6 +1136,76 @@
             "label": "Note",
             "value": "Prominent dust lane"
           }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "渦巻銀河（Sa）"
+          },
+          {
+            "label": "距離",
+            "value": "約2800万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "顕著なダストレーン"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sa)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~28 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Banda de polvo prominente"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Spiralgalaxie (Sa)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~28 Millionen Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Markantes Staubband"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "螺旋星系（Sa）"
+          },
+          {
+            "label": "距離",
+            "value": "約2800萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "顯著的塵埃帶"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sa)"
+          },
+          {
+            "label": "Distância",
+            "value": "~28 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Faixa de poeira proeminente"
+          }
         ]
       },
       "related": [
@@ -555,11 +1235,21 @@
       "type": "object",
       "name": "퀘이사 3C 273",
       "nameI18n": {
-        "en": "Quasar 3C 273"
+        "en": "Quasar 3C 273",
+        "ja": "クェーサー 3C 273",
+        "es": "Cuásar 3C 273",
+        "de": "Quasar 3C 273",
+        "zh-TW": "類星體 3C 273",
+        "pt-BR": "Quasar 3C 273"
       },
       "summary": "처음 확인된 퀘이사. 은하 전체보다 밝은 활동핵으로, 별이 아니라 H-R도엔 없다.",
       "summaryI18n": {
-        "en": "The first quasar ever identified — an active nucleus brighter than a whole galaxy. Not a star, so it's absent from the H-R diagram."
+        "en": "The first quasar ever identified — an active nucleus brighter than a whole galaxy. Not a star, so it's absent from the H-R diagram.",
+        "ja": "初めて同定されたクェーサー。銀河全体より明るい活動核で、恒星ではないためH-R図には載らない。",
+        "es": "El primer cuásar identificado: un núcleo activo más brillante que una galaxia entera. No es una estrella, por lo que no aparece en el diagrama H-R.",
+        "de": "Der erste je identifizierte Quasar – ein aktiver Kern, heller als eine ganze Galaxie. Kein Stern, daher fehlt er im Hertzsprung-Russell-Diagramm.",
+        "zh-TW": "第一個被辨識出的類星體——比整個星系還亮的活動核。它並非恆星，因此不出現在赫羅圖中。",
+        "pt-BR": "O primeiro quasar já identificado — um núcleo ativo mais brilhante que uma galáxia inteira. Não é uma estrela, por isso está ausente do diagrama H-R."
       },
       "scene": "scene-agn",
       "facts": [
@@ -589,6 +1279,76 @@
           {
             "label": "Note",
             "value": "First quasar ever identified"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "クェーサー（活動銀河核）"
+          },
+          {
+            "label": "距離",
+            "value": "約24億光年"
+          },
+          {
+            "label": "意義",
+            "value": "初めて同定されたクェーサー"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Cuásar (AGN)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~2400 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Primer cuásar identificado"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Quasar (AGN)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~2,4 Milliarden Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Erster je identifizierter Quasar"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "類星體（活動星系核）"
+          },
+          {
+            "label": "距離",
+            "value": "約24億光年"
+          },
+          {
+            "label": "意義",
+            "value": "首個被辨識出的類星體"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Quasar (AGN)"
+          },
+          {
+            "label": "Distância",
+            "value": "~2,4 bilhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeiro quasar já identificado"
           }
         ]
       },
@@ -621,11 +1381,21 @@
       "type": "object",
       "name": "소용돌이 은하 (M51)",
       "nameI18n": {
-        "en": "Whirlpool Galaxy (M51)"
+        "en": "Whirlpool Galaxy (M51)",
+        "ja": "子持ち銀河（M51）",
+        "es": "Galaxia Remolino (M51)",
+        "de": "Whirlpool-Galaxie (M51)",
+        "zh-TW": "渦狀星系（M51）",
+        "pt-BR": "Galáxia do Rodamoinho (M51)"
       },
       "summary": "정면으로 보이는 대표적 대설계 나선은하. 작은 동반은하 NGC 5195와 상호작용하며 팔이 뚜렷하다.",
       "summaryI18n": {
-        "en": "A textbook grand-design spiral seen face-on — its arms sharply defined as it interacts with the small companion galaxy NGC 5195."
+        "en": "A textbook grand-design spiral seen face-on — its arms sharply defined as it interacts with the small companion galaxy NGC 5195.",
+        "ja": "正面から見た典型的なグランドデザイン渦巻銀河。小さな伴銀河NGC 5195と相互作用し、腕がくっきりと際立つ。",
+        "es": "Una espiral de gran diseño de manual vista de frente; sus brazos se definen con nitidez mientras interactúa con la pequeña galaxia compañera NGC 5195.",
+        "de": "Eine lehrbuchhafte Grand-Design-Spirale in Aufsicht – ihre Arme sind scharf ausgeprägt, während sie mit der kleinen Begleitgalaxie NGC 5195 wechselwirkt.",
+        "zh-TW": "正面朝向的典型宏觀螺旋星系——因與小型伴星系NGC 5195交互作用，旋臂格外分明。",
+        "pt-BR": "Uma espiral de grande desenho de livro-texto vista de frente — seus braços são nitidamente definidos enquanto interage com a pequena galáxia companheira NGC 5195."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "Sc",
@@ -657,6 +1427,76 @@
             "label": "Note",
             "value": "Interacting with a companion"
           }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "渦巻銀河（Sc）"
+          },
+          {
+            "label": "距離",
+            "value": "約2300万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "伴銀河と相互作用"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sc)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~23 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Interactúa con una compañera"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Spiralgalaxie (Sc)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~23 Millionen Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Wechselwirkung mit Begleiter"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "螺旋星系（Sc）"
+          },
+          {
+            "label": "距離",
+            "value": "約2300萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "與伴星系交互作用"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sc)"
+          },
+          {
+            "label": "Distância",
+            "value": "~23 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Interagindo com uma companheira"
+          }
         ]
       },
       "related": [
@@ -687,11 +1527,21 @@
       "type": "object",
       "name": "센타우루스자리 A",
       "nameI18n": {
-        "en": "Centaurus A"
+        "en": "Centaurus A",
+        "ja": "ケンタウルス座A",
+        "es": "Centaurus A",
+        "de": "Centaurus A",
+        "zh-TW": "半人馬座A",
+        "pt-BR": "Centaurus A"
       },
       "summary": "가까운 거대 전파은하. 은하 충돌로 생긴 짙은 먼지 띠를 두르고, 중심 블랙홀에서 거대한 제트를 뿜는다.",
       "summaryI18n": {
-        "en": "A nearby giant radio galaxy — girded by a dark dust lane from a past merger, with huge jets launched by its central black hole."
+        "en": "A nearby giant radio galaxy — girded by a dark dust lane from a past merger, with huge jets launched by its central black hole.",
+        "ja": "近傍にある巨大な電波銀河。過去の合体で生じた暗いダストレーンをまとい、中心のブラックホールから巨大なジェットを噴き出す。",
+        "es": "Una radiogalaxia gigante cercana, ceñida por una oscura banda de polvo de una fusión pasada, con enormes chorros lanzados por su agujero negro central.",
+        "de": "Eine nahe riesige Radiogalaxie – umgürtet von einem dunklen Staubband aus einer früheren Verschmelzung, mit gewaltigen Jets, die ihr zentrales Schwarzes Loch ausstößt.",
+        "zh-TW": "鄰近的巨型電波星系——纏繞著過去合併留下的暗色塵埃帶，中心黑洞噴出巨大的噴流。",
+        "pt-BR": "Uma radiogaláxia gigante próxima — cingida por uma faixa escura de poeira de uma fusão passada, com jatos enormes lançados por seu buraco negro central."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "S0",
@@ -722,6 +1572,76 @@
           {
             "label": "Note",
             "value": "Radio galaxy with jets"
+          }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "特異銀河（S0 pec）"
+          },
+          {
+            "label": "距離",
+            "value": "約1300万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "ジェットをもつ電波銀河"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Peculiar (S0 pec)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~13 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Radiogalaxia con chorros"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Pekuliar (S0 pec)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~13 Millionen Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Radiogalaxie mit Jets"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "特殊星系（S0 pec）"
+          },
+          {
+            "label": "距離",
+            "value": "約1300萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "帶噴流的電波星系"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Peculiar (S0 pec)"
+          },
+          {
+            "label": "Distância",
+            "value": "~13 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Radiogaláxia com jatos"
           }
         ]
       },
@@ -754,11 +1674,21 @@
       "type": "object",
       "name": "시가 은하 (M82)",
       "nameI18n": {
-        "en": "Cigar Galaxy (M82)"
+        "en": "Cigar Galaxy (M82)",
+        "ja": "葉巻銀河（M82）",
+        "es": "Galaxia del Cigarro (M82)",
+        "de": "Zigarrengalaxie (M82)",
+        "zh-TW": "雪茄星系（M82）",
+        "pt-BR": "Galáxia do Charuto (M82)"
       },
       "summary": "폭발적으로 별을 만드는 대표적 폭발적 항성생성 은하. 중심에서 붉은 수소 가스를 은하 밖으로 뿜어낸다.",
       "summaryI18n": {
-        "en": "The archetypal starburst galaxy — forming stars furiously and blasting red hydrogen gas out of its core."
+        "en": "The archetypal starburst galaxy — forming stars furiously and blasting red hydrogen gas out of its core.",
+        "ja": "代表的なスターバースト銀河。猛烈な勢いで星を生み、中心から赤い水素ガスを噴き出す。",
+        "es": "La galaxia con brote estelar por excelencia: forma estrellas furiosamente y expulsa gas de hidrógeno rojo desde su núcleo.",
+        "de": "Die archetypische Starburstgalaxie – sie bildet ungestüm Sterne und schleudert rotes Wasserstoffgas aus ihrem Kern.",
+        "zh-TW": "最典型的星暴星系——猛烈地形成恆星，並從核心噴出紅色的氫氣。",
+        "pt-BR": "A galáxia com surto estelar por excelência — forma estrelas furiosamente e expele gás de hidrogênio vermelho de seu núcleo."
       },
       "scene": "scene-hubble-fork",
       "sceneFocus": "Irr",
@@ -789,6 +1719,76 @@
           {
             "label": "Note",
             "value": "Hydrogen outflow from core"
+          }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "スターバースト（不規則）"
+          },
+          {
+            "label": "距離",
+            "value": "約1200万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "中心からの水素の流出"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Brote estelar (irregular)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~12 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Flujo de hidrógeno desde el núcleo"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Starburst (irregulär)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~12 Millionen Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Wasserstoffausfluss aus dem Kern"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "星暴（不規則）"
+          },
+          {
+            "label": "距離",
+            "value": "約1200萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "核心的氫氣外流"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Surto estelar (irregular)"
+          },
+          {
+            "label": "Distância",
+            "value": "~12 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Fluxo de hidrogênio do núcleo"
           }
         ]
       },

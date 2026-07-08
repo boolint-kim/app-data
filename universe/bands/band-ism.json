@@ -10,11 +10,21 @@
       "featured": true,
       "name": "성운의 종류",
       "nameI18n": {
-        "en": "Types of Nebulae"
+        "en": "Types of Nebulae",
+        "ja": "星雲の種類",
+        "es": "Tipos de nebulosas",
+        "de": "Typen von Nebeln",
+        "zh-TW": "星雲的種類",
+        "pt-BR": "Tipos de nebulosas"
       },
       "summary": "별이 태어나고 죽는 우주의 가스 구름들 — 발광·반사·암흑·행성상·초신성 잔해.",
       "summaryI18n": {
-        "en": "The cosmic gas clouds where stars are born and die — emission, reflection, dark, planetary, and supernova remnants."
+        "en": "The cosmic gas clouds where stars are born and die — emission, reflection, dark, planetary, and supernova remnants.",
+        "ja": "星が生まれ、死んでいく宇宙のガス雲 — 輝線星雲・反射星雲・暗黒星雲・惑星状星雲・超新星残骸。",
+        "es": "Las nubes de gas cósmicas donde nacen y mueren las estrellas: de emisión, de reflexión, oscuras, planetarias y remanentes de supernova.",
+        "de": "Die kosmischen Gaswolken, in denen Sterne geboren werden und sterben – Emissions-, Reflexions-, Dunkel-, planetarische Nebel und Supernova-Überreste.",
+        "zh-TW": "恆星誕生與死亡的宇宙氣體雲——發射星雲、反射星雲、暗星雲、行星狀星雲與超新星殘骸。",
+        "pt-BR": "As nuvens de gás cósmicas onde as estrelas nascem e morrem — de emissão, de reflexão, escuras, planetárias e remanescentes de supernova."
       },
       "scene": "scene-ism",
       "hostCard": false,
@@ -38,6 +48,56 @@
             "label": "Grave",
             "value": "Planetary nebula & SNR = a star's death"
           }
+        ],
+        "ja": [
+          {
+            "label": "ゆりかご",
+            "value": "輝線星雲＝星形成領域"
+          },
+          {
+            "label": "墓場",
+            "value": "惑星状星雲・超新星残骸＝星の死"
+          }
+        ],
+        "es": [
+          {
+            "label": "Cuna",
+            "value": "Nebulosa de emisión = región de formación estelar"
+          },
+          {
+            "label": "Tumba",
+            "value": "Nebulosa planetaria y RSN = la muerte de una estrella"
+          }
+        ],
+        "de": [
+          {
+            "label": "Wiege",
+            "value": "Emissionsnebel = Sternentstehungsgebiet"
+          },
+          {
+            "label": "Grab",
+            "value": "Planetarischer Nebel & SNR = der Tod eines Sterns"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "搖籃",
+            "value": "發射星雲＝恆星形成區"
+          },
+          {
+            "label": "墳墓",
+            "value": "行星狀星雲與超新星殘骸＝恆星之死"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Berço",
+            "value": "Nebulosa de emissão = região de formação estelar"
+          },
+          {
+            "label": "Túmulo",
+            "value": "Nebulosa planetária e RSN = a morte de uma estrela"
+          }
         ]
       },
       "related": [
@@ -55,11 +115,21 @@
       "type": "object",
       "name": "오리온 성운 (M42)",
       "nameI18n": {
-        "en": "Orion Nebula (M42)"
+        "en": "Orion Nebula (M42)",
+        "ja": "オリオン大星雲 (M42)",
+        "es": "Nebulosa de Orión (M42)",
+        "de": "Orionnebel (M42)",
+        "zh-TW": "獵戶座大星雲 (M42)",
+        "pt-BR": "Nebulosa de Órion (M42)"
       },
       "summary": "육안으로도 보이는 가장 유명한 발광성운. 뜨거운 어린 별들이 태어나는 요람이다.",
       "summaryI18n": {
-        "en": "The most famous emission nebula, visible to the naked eye — a cradle where hot young stars are born."
+        "en": "The most famous emission nebula, visible to the naked eye — a cradle where hot young stars are born.",
+        "ja": "肉眼でも見える最も有名な輝線星雲。高温の若い星々が生まれるゆりかごだ。",
+        "es": "La nebulosa de emisión más famosa, visible a simple vista: una cuna donde nacen estrellas jóvenes y calientes.",
+        "de": "Der berühmteste Emissionsnebel, mit bloßem Auge sichtbar – eine Wiege, in der heiße junge Sterne entstehen.",
+        "zh-TW": "最著名的發射星雲，肉眼即可見——高溫年輕恆星誕生的搖籃。",
+        "pt-BR": "A nebulosa de emissão mais famosa, visível a olho nu — um berço onde nascem estrelas jovens e quentes."
       },
       "scene": "scene-ism",
       "sceneFocus": "emission",
@@ -91,6 +161,76 @@
             "label": "Note",
             "value": "Naked-eye star-forming region"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "輝線星雲（H II）"
+          },
+          {
+            "label": "距離",
+            "value": "約1,344光年"
+          },
+          {
+            "label": "特徴",
+            "value": "肉眼で見える星形成領域"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Emisión (H II)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~1344 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Región de formación estelar visible a simple vista"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Emissionsnebel (H II)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~1.344 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Mit bloßem Auge sichtbares Sternentstehungsgebiet"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "發射星雲（H II）"
+          },
+          {
+            "label": "距離",
+            "value": "約1,344光年"
+          },
+          {
+            "label": "特徵",
+            "value": "肉眼可見的恆星形成區"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Emissão (H II)"
+          },
+          {
+            "label": "Distância",
+            "value": "~1.344 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Região de formação estelar visível a olho nu"
+          }
         ]
       },
       "related": [
@@ -121,11 +261,21 @@
       "type": "object",
       "name": "독수리 성운 (M16)",
       "nameI18n": {
-        "en": "Eagle Nebula (M16)"
+        "en": "Eagle Nebula (M16)",
+        "ja": "わし星雲 (M16)",
+        "es": "Nebulosa del Águila (M16)",
+        "de": "Adlernebel (M16)",
+        "zh-TW": "老鷹星雲 (M16)",
+        "pt-BR": "Nebulosa da Águia (M16)"
       },
       "summary": "허블이 촬영한 「창조의 기둥」으로 유명한 발광성운. 기둥 속에서 별이 태어난다.",
       "summaryI18n": {
-        "en": "The emission nebula famous for Hubble's \"Pillars of Creation\" — stars are born inside the pillars."
+        "en": "The emission nebula famous for Hubble's \"Pillars of Creation\" — stars are born inside the pillars.",
+        "ja": "ハッブルが撮影した「創造の柱」で有名な輝線星雲。柱の中で星が生まれる。",
+        "es": "La nebulosa de emisión famosa por los «Pilares de la Creación» del Hubble: dentro de los pilares nacen estrellas.",
+        "de": "Der Emissionsnebel, berühmt für Hubbles „Säulen der Schöpfung“ – in den Säulen entstehen Sterne.",
+        "zh-TW": "因哈伯拍攝的「創生之柱」而聞名的發射星雲。恆星在柱中誕生。",
+        "pt-BR": "A nebulosa de emissão famosa pelos \"Pilares da Criação\" do Hubble — as estrelas nascem dentro dos pilares."
       },
       "scene": "scene-ism",
       "sceneFocus": "emission",
@@ -157,6 +307,76 @@
             "label": "Note",
             "value": "\"Pillars of Creation\""
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "輝線星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約7,000光年"
+          },
+          {
+            "label": "特徴",
+            "value": "「創造の柱」"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Emisión"
+          },
+          {
+            "label": "Distancia",
+            "value": "~7000 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "«Pilares de la Creación»"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Emissionsnebel"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~7.000 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "„Säulen der Schöpfung“"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "發射星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約7,000光年"
+          },
+          {
+            "label": "特徵",
+            "value": "「創生之柱」"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Emissão"
+          },
+          {
+            "label": "Distância",
+            "value": "~7.000 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "\"Pilares da Criação\""
+          }
         ]
       },
       "related": [
@@ -186,11 +406,21 @@
       "type": "object",
       "name": "마녀머리 성운",
       "nameI18n": {
-        "en": "Witch Head Nebula"
+        "en": "Witch Head Nebula",
+        "ja": "魔女の頭星雲",
+        "es": "Nebulosa Cabeza de Bruja",
+        "de": "Hexenkopfnebel",
+        "zh-TW": "女巫頭星雲",
+        "pt-BR": "Nebulosa Cabeça da Bruxa"
       },
       "summary": "밝은 별 리겔의 별빛을 파랗게 반사하는 반사성운. 옆얼굴 실루엣을 닮았다.",
       "summaryI18n": {
-        "en": "A reflection nebula glowing blue with light from the bright star Rigel — shaped like a profile face."
+        "en": "A reflection nebula glowing blue with light from the bright star Rigel — shaped like a profile face.",
+        "ja": "明るい星リゲルの光を青く反射する反射星雲。横顔のシルエットに似ている。",
+        "es": "Una nebulosa de reflexión que brilla en azul con la luz de la brillante estrella Rigel, con forma de rostro de perfil.",
+        "de": "Ein Reflexionsnebel, der im Licht des hellen Sterns Rigel blau leuchtet – geformt wie ein Gesicht im Profil.",
+        "zh-TW": "反射明亮恆星參宿七藍光的反射星雲，形似側臉輪廓。",
+        "pt-BR": "Uma nebulosa de reflexão que brilha em azul com a luz da brilhante estrela Rigel — com o formato de um rosto de perfil."
       },
       "scene": "scene-ism",
       "sceneFocus": "reflection",
@@ -222,6 +452,76 @@
             "label": "Shape",
             "value": "Profile of a face"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "反射星雲"
+          },
+          {
+            "label": "特徴",
+            "value": "リゲルの光を反射"
+          },
+          {
+            "label": "形",
+            "value": "横顔の形"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Reflexión"
+          },
+          {
+            "label": "Nota",
+            "value": "Refleja la luz de Rigel"
+          },
+          {
+            "label": "Forma",
+            "value": "Perfil de un rostro"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Reflexionsnebel"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Reflektiert das Licht von Rigel"
+          },
+          {
+            "label": "Form",
+            "value": "Gesicht im Profil"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "反射星雲"
+          },
+          {
+            "label": "特徵",
+            "value": "反射參宿七的星光"
+          },
+          {
+            "label": "形狀",
+            "value": "側臉形狀"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Reflexão"
+          },
+          {
+            "label": "Nota",
+            "value": "Reflete a luz de Rigel"
+          },
+          {
+            "label": "Forma",
+            "value": "Perfil de um rosto"
+          }
         ]
       },
       "related": [
@@ -249,11 +549,21 @@
       "type": "object",
       "name": "말머리 성운",
       "nameI18n": {
-        "en": "Horsehead Nebula"
+        "en": "Horsehead Nebula",
+        "ja": "馬頭星雲",
+        "es": "Nebulosa Cabeza de Caballo",
+        "de": "Pferdekopfnebel",
+        "zh-TW": "馬頭星雲",
+        "pt-BR": "Nebulosa Cabeça de Cavalo"
       },
       "summary": "짙은 먼지가 뒤 별빛을 가려 말 머리 실루엣으로 보이는 대표적 암흑성운.",
       "summaryI18n": {
-        "en": "The iconic dark nebula whose thick dust blocks the light behind it, forming a horse's-head silhouette."
+        "en": "The iconic dark nebula whose thick dust blocks the light behind it, forming a horse's-head silhouette.",
+        "ja": "濃い塵が背後の星の光を遮り、馬の頭のシルエットを描く代表的な暗黒星雲。",
+        "es": "La emblemática nebulosa oscura cuyo denso polvo bloquea la luz de fondo, formando la silueta de una cabeza de caballo.",
+        "de": "Der ikonische Dunkelnebel, dessen dichter Staub das dahinterliegende Licht blockiert und die Silhouette eines Pferdekopfs bildet.",
+        "zh-TW": "濃厚塵埃遮擋背後星光、勾勒出馬頭輪廓的代表性暗星雲。",
+        "pt-BR": "A icônica nebulosa escura cujo denso pó bloqueia a luz por trás, formando a silhueta de uma cabeça de cavalo."
       },
       "scene": "scene-ism",
       "sceneFocus": "dark",
@@ -285,6 +595,76 @@
             "label": "Note",
             "value": "Iconic dark nebula in Orion"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "暗黒星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約1,500光年"
+          },
+          {
+            "label": "特徴",
+            "value": "オリオン座を代表する暗黒星雲"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Oscura"
+          },
+          {
+            "label": "Distancia",
+            "value": "~1500 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Nebulosa oscura emblemática de Orión"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Dunkelnebel"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~1.500 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Ikonischer Dunkelnebel im Orion"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "暗星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約1,500光年"
+          },
+          {
+            "label": "特徵",
+            "value": "獵戶座代表性暗星雲"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Escura"
+          },
+          {
+            "label": "Distância",
+            "value": "~1.500 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Icônica nebulosa escura em Órion"
+          }
         ]
       },
       "related": [
@@ -313,11 +693,21 @@
       "type": "object",
       "name": "고리 성운 (M57)",
       "nameI18n": {
-        "en": "Ring Nebula (M57)"
+        "en": "Ring Nebula (M57)",
+        "ja": "環状星雲 (M57)",
+        "es": "Nebulosa del Anillo (M57)",
+        "de": "Ringnebel (M57)",
+        "zh-TW": "環狀星雲 (M57)",
+        "pt-BR": "Nebulosa do Anel (M57)"
       },
       "summary": "태양급 별이 바깥층을 벗어던진 고리 모양의 행성상성운. 중심엔 백색왜성이 남는다.",
       "summaryI18n": {
-        "en": "A ring-shaped planetary nebula where a Sun-like star cast off its outer layers — a white dwarf remains at the center."
+        "en": "A ring-shaped planetary nebula where a Sun-like star cast off its outer layers — a white dwarf remains at the center.",
+        "ja": "太陽ほどの星が外層を放出してできた環状の惑星状星雲。中心には白色矮星が残る。",
+        "es": "Una nebulosa planetaria en forma de anillo donde una estrella similar al Sol expulsó sus capas externas; en el centro queda una enana blanca.",
+        "de": "Ein ringförmiger planetarischer Nebel, bei dem ein sonnenähnlicher Stern seine äußeren Schichten abstieß – im Zentrum bleibt ein Weißer Zwerg.",
+        "zh-TW": "類太陽恆星拋出外層形成的環狀行星狀星雲，中心殘留一顆白矮星。",
+        "pt-BR": "Uma nebulosa planetária em forma de anel onde uma estrela semelhante ao Sol expeliu suas camadas externas — uma anã branca permanece no centro."
       },
       "scene": "scene-ism",
       "sceneFocus": "planetary",
@@ -349,6 +739,76 @@
             "label": "Note",
             "value": "Ring cast off by a dying star"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "惑星状星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約2,300光年"
+          },
+          {
+            "label": "特徴",
+            "value": "死にゆく星が放った環"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Planetaria"
+          },
+          {
+            "label": "Distancia",
+            "value": "~2300 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Anillo expulsado por una estrella moribunda"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Planetarischer Nebel"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~2.300 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Von einem sterbenden Stern abgestoßener Ring"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "行星狀星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約2,300光年"
+          },
+          {
+            "label": "特徵",
+            "value": "垂死恆星拋出的環"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Planetária"
+          },
+          {
+            "label": "Distância",
+            "value": "~2.300 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Anel expelido por uma estrela moribunda"
+          }
         ]
       },
       "related": [
@@ -378,11 +838,21 @@
       "type": "object",
       "name": "나선 성운 (Helix)",
       "nameI18n": {
-        "en": "Helix Nebula"
+        "en": "Helix Nebula",
+        "ja": "らせん星雲",
+        "es": "Nebulosa de la Hélice",
+        "de": "Helixnebel",
+        "zh-TW": "螺旋星雲",
+        "pt-BR": "Nebulosa Hélice"
       },
       "summary": "「신의 눈」으로 불리는 행성상성운. 가장 가까운 축에 드는 죽어가는 별의 껍질이다.",
       "summaryI18n": {
-        "en": "A planetary nebula nicknamed the \"Eye of God\" — one of the nearest shells of a dying star."
+        "en": "A planetary nebula nicknamed the \"Eye of God\" — one of the nearest shells of a dying star.",
+        "ja": "「神の目」と呼ばれる惑星状星雲。死にゆく星の殻としては最も近い部類に入る。",
+        "es": "Una nebulosa planetaria apodada el «Ojo de Dios»: una de las envolturas más cercanas de una estrella moribunda.",
+        "de": "Ein planetarischer Nebel mit dem Beinamen „Auge Gottes“ – eine der nächstgelegenen Hüllen eines sterbenden Sterns.",
+        "zh-TW": "暱稱「上帝之眼」的行星狀星雲，是距離最近的垂死恆星殼層之一。",
+        "pt-BR": "Uma nebulosa planetária apelidada de \"Olho de Deus\" — uma das camadas mais próximas de uma estrela moribunda."
       },
       "scene": "scene-ism",
       "sceneFocus": "planetary",
@@ -414,6 +884,76 @@
             "label": "Note",
             "value": "\"Eye of God\", one of the nearest"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "惑星状星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約650光年"
+          },
+          {
+            "label": "特徴",
+            "value": "「神の目」、最も近い部類"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Planetaria"
+          },
+          {
+            "label": "Distancia",
+            "value": "~650 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "«Ojo de Dios», una de las más cercanas"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Planetarischer Nebel"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~650 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "„Auge Gottes“, eine der nächstgelegenen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "行星狀星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約650光年"
+          },
+          {
+            "label": "特徵",
+            "value": "「上帝之眼」，距離最近之一"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Planetária"
+          },
+          {
+            "label": "Distância",
+            "value": "~650 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "\"Olho de Deus\", uma das mais próximas"
+          }
         ]
       },
       "related": [
@@ -443,11 +983,21 @@
       "type": "object",
       "name": "게 성운 (M1)",
       "nameI18n": {
-        "en": "Crab Nebula (M1)"
+        "en": "Crab Nebula (M1)",
+        "ja": "かに星雲 (M1)",
+        "es": "Nebulosa del Cangrejo (M1)",
+        "de": "Krebsnebel (M1)",
+        "zh-TW": "蟹狀星雲 (M1)",
+        "pt-BR": "Nebulosa do Caranguejo (M1)"
       },
       "summary": "1054년 초신성이 남긴 잔해 성운. 중심엔 게 펄사(중성자별)가 회전한다.",
       "summaryI18n": {
-        "en": "The remnant nebula of the supernova of 1054 — the Crab Pulsar (a neutron star) spins at its center."
+        "en": "The remnant nebula of the supernova of 1054 — the Crab Pulsar (a neutron star) spins at its center.",
+        "ja": "1054年の超新星が残した残骸星雲。中心ではかにパルサー（中性子星）が回転している。",
+        "es": "La nebulosa remanente de la supernova de 1054: en su centro gira el Púlsar del Cangrejo (una estrella de neutrones).",
+        "de": "Der Überrestnebel der Supernova von 1054 – in seinem Zentrum rotiert der Krebspulsar (ein Neutronenstern).",
+        "zh-TW": "1054年超新星遺留的殘骸星雲，中心有蟹狀星雲脈衝星（中子星）在旋轉。",
+        "pt-BR": "A nebulosa remanescente da supernova de 1054 — o Pulsar do Caranguejo (uma estrela de nêutrons) gira em seu centro."
       },
       "scene": "scene-ism",
       "sceneFocus": "snr",
@@ -479,6 +1029,76 @@
             "label": "Note",
             "value": "Crab Pulsar at its center"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "超新星残骸"
+          },
+          {
+            "label": "起源",
+            "value": "SN 1054"
+          },
+          {
+            "label": "特徴",
+            "value": "中心にかにパルサー"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Remanente de supernova"
+          },
+          {
+            "label": "Origen",
+            "value": "SN 1054"
+          },
+          {
+            "label": "Nota",
+            "value": "Púlsar del Cangrejo en su centro"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Supernova-Überrest"
+          },
+          {
+            "label": "Ursprung",
+            "value": "SN 1054"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Krebspulsar im Zentrum"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "超新星殘骸"
+          },
+          {
+            "label": "起源",
+            "value": "SN 1054"
+          },
+          {
+            "label": "特徵",
+            "value": "中心有蟹狀星雲脈衝星"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Remanescente de supernova"
+          },
+          {
+            "label": "Origem",
+            "value": "SN 1054"
+          },
+          {
+            "label": "Nota",
+            "value": "Pulsar do Caranguejo no centro"
+          }
         ]
       },
       "related": [
@@ -508,11 +1128,21 @@
       "type": "object",
       "name": "베일 성운",
       "nameI18n": {
-        "en": "Veil Nebula"
+        "en": "Veil Nebula",
+        "ja": "網状星雲",
+        "es": "Nebulosa del Velo",
+        "de": "Cirrusnebel",
+        "zh-TW": "面紗星雲",
+        "pt-BR": "Nebulosa do Véu"
       },
       "summary": "수천 년 전 폭발한 초신성의 잔해. 백조자리에 얇은 실 같은 필라멘트로 펼쳐진다.",
       "summaryI18n": {
-        "en": "The remnant of a supernova that exploded thousands of years ago — thin, thread-like filaments spread across Cygnus."
+        "en": "The remnant of a supernova that exploded thousands of years ago — thin, thread-like filaments spread across Cygnus.",
+        "ja": "数千年前に爆発した超新星の残骸。はくちょう座に細い糸のようなフィラメントが広がる。",
+        "es": "El remanente de una supernova que estalló hace miles de años: finos filamentos como hilos se extienden por el Cisne.",
+        "de": "Der Überrest einer Supernova, die vor Tausenden von Jahren explodierte – dünne, fadenförmige Filamente ziehen sich durch den Schwan.",
+        "zh-TW": "數千年前爆發的超新星殘骸，細如絲線的絲狀物橫跨天鵝座。",
+        "pt-BR": "O remanescente de uma supernova que explodiu há milhares de anos — filamentos finos como fios se espalham pela constelação do Cisne."
       },
       "scene": "scene-ism",
       "sceneFocus": "snr",
@@ -544,6 +1174,76 @@
             "label": "Note",
             "value": "Part of the Cygnus Loop"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "超新星残骸"
+          },
+          {
+            "label": "距離",
+            "value": "約2,400光年"
+          },
+          {
+            "label": "特徴",
+            "value": "はくちょう座ループの一部"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Remanente de supernova"
+          },
+          {
+            "label": "Distancia",
+            "value": "~2400 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Parte del Bucle de Cygnus"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Supernova-Überrest"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~2.400 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Teil der Cygnusschleife"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "超新星殘骸"
+          },
+          {
+            "label": "距離",
+            "value": "約2,400光年"
+          },
+          {
+            "label": "特徵",
+            "value": "天鵝座環的一部分"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Remanescente de supernova"
+          },
+          {
+            "label": "Distância",
+            "value": "~2.400 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Parte do Anel do Cisne"
+          }
         ]
       },
       "related": [
@@ -573,11 +1273,21 @@
       "type": "object",
       "name": "용골자리 성운 (카리나)",
       "nameI18n": {
-        "en": "Carina Nebula"
+        "en": "Carina Nebula",
+        "ja": "カリーナ星雲",
+        "es": "Nebulosa de la Quilla",
+        "de": "Carinanebel",
+        "zh-TW": "船底座星雲",
+        "pt-BR": "Nebulosa de Carina"
       },
       "summary": "우리 은하에서 가장 크고 밝은 별 생성 영역 중 하나. 제임스 웹이 「우주 절벽」으로 촬영한 발광성운이다.",
       "summaryI18n": {
-        "en": "One of the largest, brightest star-forming regions in the Milky Way — the emission nebula James Webb captured as the \"Cosmic Cliffs\"."
+        "en": "One of the largest, brightest star-forming regions in the Milky Way — the emission nebula James Webb captured as the \"Cosmic Cliffs\".",
+        "ja": "天の川銀河で最大級かつ最も明るい星形成領域の一つ。ジェイムズ・ウェッブが「宇宙の崖」として撮影した輝線星雲だ。",
+        "es": "Una de las regiones de formación estelar más grandes y brillantes de la Vía Láctea: la nebulosa de emisión que James Webb captó como los «Acantilados Cósmicos».",
+        "de": "Eine der größten und hellsten Sternentstehungsregionen der Milchstraße – der Emissionsnebel, den James Webb als „Kosmische Klippen“ aufnahm.",
+        "zh-TW": "銀河系中最大、最明亮的恆星形成區之一——詹姆斯·韋伯拍攝為「宇宙懸崖」的發射星雲。",
+        "pt-BR": "Uma das maiores e mais brilhantes regiões de formação estelar da Via Láctea — a nebulosa de emissão que o James Webb registrou como os \"Penhascos Cósmicos\"."
       },
       "scene": "scene-ism",
       "sceneFocus": "emission",
@@ -609,6 +1319,76 @@
             "label": "Note",
             "value": "Giant star-forming region"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "輝線星雲（H II）"
+          },
+          {
+            "label": "距離",
+            "value": "約7,500光年"
+          },
+          {
+            "label": "特徴",
+            "value": "巨大な星形成領域"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Emisión (H II)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~7500 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Región de formación estelar gigante"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Emissionsnebel (H II)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~7.500 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Riesiges Sternentstehungsgebiet"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "發射星雲（H II）"
+          },
+          {
+            "label": "距離",
+            "value": "約7,500光年"
+          },
+          {
+            "label": "特徵",
+            "value": "巨大的恆星形成區"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Emissão (H II)"
+          },
+          {
+            "label": "Distância",
+            "value": "~7.500 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Região gigante de formação estelar"
+          }
         ]
       },
       "related": [
@@ -639,11 +1419,21 @@
       "type": "object",
       "name": "석호 성운 (M8)",
       "nameI18n": {
-        "en": "Lagoon Nebula (M8)"
+        "en": "Lagoon Nebula (M8)",
+        "ja": "干潟星雲 (M8)",
+        "es": "Nebulosa de la Laguna (M8)",
+        "de": "Lagunennebel (M8)",
+        "zh-TW": "礁湖星雲 (M8)",
+        "pt-BR": "Nebulosa da Lagoa (M8)"
       },
       "summary": "궁수자리의 거대한 발광성운. 어두운 하늘에서 맨눈으로도 희미하게 보이는 별 탄생의 요람이다.",
       "summaryI18n": {
-        "en": "A giant emission nebula in Sagittarius — a cradle of star birth, faintly visible to the naked eye under dark skies."
+        "en": "A giant emission nebula in Sagittarius — a cradle of star birth, faintly visible to the naked eye under dark skies.",
+        "ja": "いて座にある巨大な輝線星雲。暗い空では肉眼でもかすかに見える星誕生のゆりかごだ。",
+        "es": "Una nebulosa de emisión gigante en Sagitario: una cuna de nacimiento estelar, apenas visible a simple vista bajo cielos oscuros.",
+        "de": "Ein riesiger Emissionsnebel im Schützen – eine Wiege der Sternentstehung, unter dunklem Himmel schwach mit bloßem Auge sichtbar.",
+        "zh-TW": "位於人馬座的巨大發射星雲——恆星誕生的搖籃，在暗空下肉眼隱約可見。",
+        "pt-BR": "Uma nebulosa de emissão gigante em Sagitário — um berço de nascimento estelar, fracamente visível a olho nu sob céus escuros."
       },
       "scene": "scene-ism",
       "sceneFocus": "emission",
@@ -675,6 +1465,76 @@
             "label": "Note",
             "value": "Visible to the naked eye"
           }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "輝線星雲（H II）"
+          },
+          {
+            "label": "距離",
+            "value": "約4,100光年"
+          },
+          {
+            "label": "特徴",
+            "value": "肉眼で観測可能"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Emisión (H II)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~4100 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Visible a simple vista"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Emissionsnebel (H II)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~4.100 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Mit bloßem Auge sichtbar"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "發射星雲（H II）"
+          },
+          {
+            "label": "距離",
+            "value": "約4,100光年"
+          },
+          {
+            "label": "特徵",
+            "value": "肉眼可見"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Emissão (H II)"
+          },
+          {
+            "label": "Distância",
+            "value": "~4.100 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Visível a olho nu"
+          }
         ]
       },
       "related": [
@@ -705,11 +1565,21 @@
       "type": "object",
       "name": "삼렬 성운 (M20)",
       "nameI18n": {
-        "en": "Trifid Nebula (M20)"
+        "en": "Trifid Nebula (M20)",
+        "ja": "三裂星雲 (M20)",
+        "es": "Nebulosa Trífida (M20)",
+        "de": "Trifidnebel (M20)",
+        "zh-TW": "三葉星雲 (M20)",
+        "pt-BR": "Nebulosa Trífida (M20)"
       },
       "summary": "발광·반사·암흑 성운이 한자리에 모인 보기 드문 성운. 어두운 먼지 띠가 붉은 성운을 셋으로 가른다.",
       "summaryI18n": {
-        "en": "A rare nebula combining emission, reflection, and dark nebulae in one — dark dust lanes split the red glow into three lobes."
+        "en": "A rare nebula combining emission, reflection, and dark nebulae in one — dark dust lanes split the red glow into three lobes.",
+        "ja": "輝線・反射・暗黒星雲が一か所に集まった珍しい星雲。暗い塵の帯が赤い星雲を三つに分ける。",
+        "es": "Una nebulosa poco común que combina nebulosas de emisión, de reflexión y oscura en una sola: oscuras franjas de polvo dividen el resplandor rojo en tres lóbulos.",
+        "de": "Ein seltener Nebel, der Emissions-, Reflexions- und Dunkelnebel in einem vereint – dunkle Staubbänder teilen das rote Leuchten in drei Lappen.",
+        "zh-TW": "集發射、反射與暗星雲於一身的罕見星雲——暗色塵埃帶將紅色星雲分成三葉。",
+        "pt-BR": "Uma nebulosa rara que combina nebulosas de emissão, de reflexão e escura em uma só — faixas escuras de poeira dividem o brilho vermelho em três lóbulos."
       },
       "scene": "scene-ism",
       "sceneFocus": "emission",
@@ -740,6 +1610,76 @@
           {
             "label": "Note",
             "value": "Split into three by dust lanes"
+          }
+        ],
+        "ja": [
+          {
+            "label": "種類",
+            "value": "輝線＋反射＋暗黒星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約5,200光年"
+          },
+          {
+            "label": "特徴",
+            "value": "塵の帯で三分される"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Emisión + reflexión + oscura"
+          },
+          {
+            "label": "Distancia",
+            "value": "~5200 años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Dividida en tres por franjas de polvo"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Emission + Reflexion + Dunkel"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~5.200 Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Durch Staubbänder in drei geteilt"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "類型",
+            "value": "發射＋反射＋暗星雲"
+          },
+          {
+            "label": "距離",
+            "value": "約5,200光年"
+          },
+          {
+            "label": "特徵",
+            "value": "被塵埃帶分成三部分"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Emissão + reflexão + escura"
+          },
+          {
+            "label": "Distância",
+            "value": "~5.200 anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Dividida em três por faixas de poeira"
           }
         ]
       },

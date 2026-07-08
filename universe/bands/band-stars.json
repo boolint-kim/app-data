@@ -10,11 +10,21 @@
       "featured": true,
       "name": "H-R도",
       "nameI18n": {
-        "en": "H-R Diagram"
+        "en": "H-R Diagram",
+        "ja": "HR図",
+        "es": "Diagrama H-R",
+        "de": "Hertzsprung-Russell-Diagramm",
+        "zh-TW": "赫羅圖",
+        "pt-BR": "Diagrama H-R"
       },
       "summary": "별을 표면온도(가로)와 광도(세로)로 배치하는 분류 지도. 주계열이 대각선 띠로 드러난다.",
       "summaryI18n": {
-        "en": "A map that arranges stars by surface temperature (x) and luminosity (y). The main sequence appears as a diagonal band."
+        "en": "A map that arranges stars by surface temperature (x) and luminosity (y). The main sequence appears as a diagonal band.",
+        "ja": "恒星を表面温度（横軸）と光度（縦軸）で並べる分類図。主系列が対角線上の帯として現れる。",
+        "es": "Un mapa que ordena las estrellas por temperatura superficial (x) y luminosidad (y). La secuencia principal aparece como una banda diagonal.",
+        "de": "Eine Karte, die Sterne nach Oberflächentemperatur (x) und Leuchtkraft (y) anordnet. Die Hauptreihe erscheint als diagonales Band.",
+        "zh-TW": "以表面溫度（橫軸）和光度（縱軸）排列恆星的分類圖。主序星呈現為一條對角線帶。",
+        "pt-BR": "Um mapa que organiza as estrelas por temperatura superficial (x) e luminosidade (y). A sequência principal aparece como uma faixa diagonal."
       },
       "scene": "scene-hr-diagram",
       "facts": [
@@ -45,6 +55,76 @@
             "label": "Main sequence",
             "value": "Diagonal band, upper-left to lower-right"
           }
+        ],
+        "ja": [
+          {
+            "label": "横軸",
+            "value": "表面温度（左ほど高温、OBAFGKM）"
+          },
+          {
+            "label": "縦軸",
+            "value": "光度（上ほど明るい）"
+          },
+          {
+            "label": "主系列",
+            "value": "左上→右下の対角線の帯"
+          }
+        ],
+        "es": [
+          {
+            "label": "Eje X",
+            "value": "Temperatura superficial (más caliente a la izquierda, OBAFGKM)"
+          },
+          {
+            "label": "Eje Y",
+            "value": "Luminosidad (más brillante arriba)"
+          },
+          {
+            "label": "Secuencia principal",
+            "value": "Banda diagonal, de arriba-izquierda a abajo-derecha"
+          }
+        ],
+        "de": [
+          {
+            "label": "X-Achse",
+            "value": "Oberflächentemperatur (links heißer, OBAFGKM)"
+          },
+          {
+            "label": "Y-Achse",
+            "value": "Leuchtkraft (oben heller)"
+          },
+          {
+            "label": "Hauptreihe",
+            "value": "Diagonales Band, oben links nach unten rechts"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "橫軸",
+            "value": "表面溫度（越左越熱，OBAFGKM）"
+          },
+          {
+            "label": "縱軸",
+            "value": "光度（越上越亮）"
+          },
+          {
+            "label": "主序星",
+            "value": "左上到右下的對角線帶"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Eixo X",
+            "value": "Temperatura superficial (mais quente à esquerda, OBAFGKM)"
+          },
+          {
+            "label": "Eixo Y",
+            "value": "Luminosidade (mais brilhante no topo)"
+          },
+          {
+            "label": "Sequência principal",
+            "value": "Faixa diagonal, do canto superior esquerdo ao inferior direito"
+          }
         ]
       },
       "related": [
@@ -62,11 +142,21 @@
       "featured": true,
       "name": "별 크기 비교",
       "nameI18n": {
-        "en": "Star Size Comparison"
+        "en": "Star Size Comparison",
+        "ja": "恒星の大きさ比較",
+        "es": "Comparación de tamaños de estrellas",
+        "de": "Größenvergleich der Sterne",
+        "zh-TW": "恆星大小比較",
+        "pt-BR": "Comparação de tamanhos de estrelas"
       },
       "summary": "지구부터 UY Scuti까지, 실제 비율로 별 크기를 단계별로 비교.",
       "summaryI18n": {
-        "en": "Compare star sizes true-to-scale, step by step — from Earth to UY Scuti."
+        "en": "Compare star sizes true-to-scale, step by step — from Earth to UY Scuti.",
+        "ja": "地球からUY Scutiまで、実際の比率で恒星の大きさを段階的に比較。",
+        "es": "Compara los tamaños de las estrellas a escala real, paso a paso, desde la Tierra hasta UY Scuti.",
+        "de": "Vergleiche Sterngrößen maßstabsgetreu, Schritt für Schritt – von der Erde bis UY Scuti.",
+        "zh-TW": "從地球到 UY Scuti，以真實比例逐步比較恆星的大小。",
+        "pt-BR": "Compare os tamanhos das estrelas em escala real, passo a passo — da Terra até UY Scuti."
       },
       "scene": "scene-stars",
       "hostCard": false,
@@ -90,6 +180,56 @@
             "label": "Range",
             "value": "Earth to UY Scuti (1,700 R☉)"
           }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "実際の比率（R☉）"
+          },
+          {
+            "label": "範囲",
+            "value": "地球～UY Scuti（1,700 R☉）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Proporción real (R☉)"
+          },
+          {
+            "label": "Rango",
+            "value": "De la Tierra a UY Scuti (1.700 R☉)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Maßstab",
+            "value": "Echte Proportion (R☉)"
+          },
+          {
+            "label": "Bereich",
+            "value": "Erde bis UY Scuti (1.700 R☉)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "比例尺",
+            "value": "真實比例（R☉）"
+          },
+          {
+            "label": "範圍",
+            "value": "地球至 UY Scuti（1,700 R☉）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Proporção real (R☉)"
+          },
+          {
+            "label": "Faixa",
+            "value": "Da Terra a UY Scuti (1.700 R☉)"
+          }
         ]
       },
       "related": [
@@ -106,11 +246,21 @@
       "featured": true,
       "name": "별의 일생",
       "nameI18n": {
-        "en": "The Life of a Star"
+        "en": "The Life of a Star",
+        "ja": "星の一生",
+        "es": "La vida de una estrella",
+        "de": "Das Leben eines Sterns",
+        "zh-TW": "恆星的一生",
+        "pt-BR": "A vida de uma estrela"
       },
       "summary": "질량이 별의 운명을 가른다 — 분자운에서 백색왜성·중성자별까지 단계별로.",
       "summaryI18n": {
-        "en": "Mass decides a star's fate — step from molecular cloud to white dwarf or neutron star."
+        "en": "Mass decides a star's fate — step from molecular cloud to white dwarf or neutron star.",
+        "ja": "質量が星の運命を決める――分子雲から白色矮星や中性子星まで段階をたどる。",
+        "es": "La masa decide el destino de una estrella: del paso de la nube molecular a la enana blanca o la estrella de neutrones.",
+        "de": "Die Masse entscheidet über das Schicksal eines Sterns – von der Molekülwolke bis zum Weißen Zwerg oder Neutronenstern.",
+        "zh-TW": "質量決定恆星的命運——從分子雲一路走到白矮星或中子星。",
+        "pt-BR": "A massa decide o destino de uma estrela — da nuvem molecular à anã branca ou estrela de nêutrons."
       },
       "scene": "scene-stellar-life",
       "hostCard": false,
@@ -134,6 +284,56 @@
             "label": "Bridge",
             "value": "Stars (band 2) → Remnants (band 3)"
           }
+        ],
+        "ja": [
+          {
+            "label": "経路",
+            "value": "太陽級 / 大質量星"
+          },
+          {
+            "label": "橋渡し",
+            "value": "恒星（帯2）→ 星の残骸（帯3）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Caminos",
+            "value": "Tipo solar / Masiva"
+          },
+          {
+            "label": "Puente",
+            "value": "Estrellas (banda 2) → Remanentes (banda 3)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Wege",
+            "value": "Sonnenähnlich / Massereich"
+          },
+          {
+            "label": "Brücke",
+            "value": "Sterne (Band 2) → Überreste (Band 3)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "路徑",
+            "value": "類太陽 / 大質量"
+          },
+          {
+            "label": "橋接",
+            "value": "恆星（帶2）→ 恆星殘骸（帶3）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Caminhos",
+            "value": "Tipo solar / Massiva"
+          },
+          {
+            "label": "Ponte",
+            "value": "Estrelas (faixa 2) → Remanescentes (faixa 3)"
+          }
         ]
       },
       "related": [
@@ -152,11 +352,21 @@
       "type": "object",
       "name": "태양",
       "nameI18n": {
-        "en": "Sun"
+        "en": "Sun",
+        "ja": "太陽",
+        "es": "Sol",
+        "de": "Sonne",
+        "zh-TW": "太陽",
+        "pt-BR": "Sol"
       },
       "summary": "우리 항성. G2V 분광형의 주계열성.",
       "summaryI18n": {
-        "en": "Our home star — a G2V main-sequence star."
+        "en": "Our home star — a G2V main-sequence star.",
+        "ja": "私たちの母なる恒星。G2V型の主系列星。",
+        "es": "Nuestra estrella — una estrella de secuencia principal de tipo G2V.",
+        "de": "Unser Heimatstern – ein Hauptreihenstern vom Typ G2V.",
+        "zh-TW": "我們的母恆星——一顆 G2V 型主序星。",
+        "pt-BR": "Nossa estrela — uma estrela de sequência principal do tipo G2V."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "sun",
@@ -197,6 +407,76 @@
             "label": "Luminosity",
             "value": "1 L☉ (reference)"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "G2V"
+          },
+          {
+            "label": "表面温度",
+            "value": "約5,778 K"
+          },
+          {
+            "label": "光度",
+            "value": "1 L☉（基準）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "G2V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~5.778 K"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "1 L☉ (referencia)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "G2V"
+          },
+          {
+            "label": "Oberflächentemp.",
+            "value": "~5.778 K"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "1 L☉ (Referenz)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "G2V"
+          },
+          {
+            "label": "表面溫度",
+            "value": "約 5,778 K"
+          },
+          {
+            "label": "光度",
+            "value": "1 L☉（基準）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "G2V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~5.778 K"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "1 L☉ (referência)"
+          }
         ]
       },
       "related": [
@@ -226,11 +506,21 @@
       "type": "object",
       "name": "시리우스",
       "nameI18n": {
-        "en": "Sirius"
+        "en": "Sirius",
+        "ja": "シリウス",
+        "es": "Sirio",
+        "de": "Sirius",
+        "zh-TW": "天狼星",
+        "pt-BR": "Sirius"
       },
       "summary": "밤하늘에서 가장 밝은 별. A1V 주계열성이며 백색왜성 동반성(시리우스 B)을 거느린다.",
       "summaryI18n": {
-        "en": "The brightest star in the night sky — an A1V main-sequence star with a white-dwarf companion (Sirius B)."
+        "en": "The brightest star in the night sky — an A1V main-sequence star with a white-dwarf companion (Sirius B).",
+        "ja": "夜空で最も明るい星。A1V型の主系列星で、白色矮星の伴星（シリウスB）を従える。",
+        "es": "La estrella más brillante del cielo nocturno: una estrella de secuencia principal A1V con una compañera enana blanca (Sirio B).",
+        "de": "Der hellste Stern am Nachthimmel – ein Hauptreihenstern vom Typ A1V mit einem Weißen Zwerg als Begleiter (Sirius B).",
+        "zh-TW": "夜空中最亮的恆星——一顆 A1V 型主序星，帶有一顆白矮星伴星（天狼星 B）。",
+        "pt-BR": "A estrela mais brilhante do céu noturno — uma estrela de sequência principal A1V com uma companheira anã branca (Sirius B)."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "sirius",
@@ -271,6 +561,76 @@
             "label": "Luminosity",
             "value": "25 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "A1V"
+          },
+          {
+            "label": "表面温度",
+            "value": "約9,940 K"
+          },
+          {
+            "label": "光度",
+            "value": "25 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "A1V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~9.940 K"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "25 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "A1V"
+          },
+          {
+            "label": "Oberflächentemp.",
+            "value": "~9.940 K"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "25 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "A1V"
+          },
+          {
+            "label": "表面溫度",
+            "value": "約 9,940 K"
+          },
+          {
+            "label": "光度",
+            "value": "25 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "A1V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~9.940 K"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "25 L☉"
+          }
         ]
       },
       "related": [
@@ -298,11 +658,21 @@
       "type": "object",
       "name": "베가",
       "nameI18n": {
-        "en": "Vega"
+        "en": "Vega",
+        "ja": "ベガ",
+        "es": "Vega",
+        "de": "Wega",
+        "zh-TW": "織女一",
+        "pt-BR": "Vega"
       },
       "summary": "거문고자리의 청백색 주계열성. 한때 사진 측광의 밝기 기준이었다.",
       "summaryI18n": {
-        "en": "The blue-white main-sequence star of Lyra — once the zero-point standard for photometric brightness."
+        "en": "The blue-white main-sequence star of Lyra — once the zero-point standard for photometric brightness.",
+        "ja": "こと座の青白い主系列星。かつては測光の等級ゼロ点の基準星だった。",
+        "es": "La estrella azul-blanca de secuencia principal de Lyra; en su día fue el punto cero de referencia del brillo fotométrico.",
+        "de": "Der blau-weiße Hauptreihenstern der Leier – einst der Nullpunkt-Standard für die photometrische Helligkeit.",
+        "zh-TW": "天琴座的藍白色主序星——曾是測光亮度的零點標準星。",
+        "pt-BR": "A estrela azul-branca de sequência principal de Lira — outrora o padrão de ponto zero para o brilho fotométrico."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "vega",
@@ -343,6 +713,76 @@
             "label": "Luminosity",
             "value": "40 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "A0V"
+          },
+          {
+            "label": "表面温度",
+            "value": "約9,600 K"
+          },
+          {
+            "label": "光度",
+            "value": "40 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "A0V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~9.600 K"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "40 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "A0V"
+          },
+          {
+            "label": "Oberflächentemp.",
+            "value": "~9.600 K"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "40 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "A0V"
+          },
+          {
+            "label": "表面溫度",
+            "value": "約 9,600 K"
+          },
+          {
+            "label": "光度",
+            "value": "40 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "A0V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~9.600 K"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "40 L☉"
+          }
         ]
       },
       "related": [
@@ -370,11 +810,21 @@
       "type": "object",
       "name": "프록시마 켄타우리",
       "nameI18n": {
-        "en": "Proxima Centauri"
+        "en": "Proxima Centauri",
+        "ja": "プロキシマ・ケンタウリ",
+        "es": "Próxima Centauri",
+        "de": "Proxima Centauri",
+        "zh-TW": "比鄰星",
+        "pt-BR": "Próxima Centauri"
       },
       "summary": "태양에서 가장 가까운 별. 어둡고 차가운 적색왜성이다.",
       "summaryI18n": {
-        "en": "The closest star to the Sun — a dim, cool red dwarf."
+        "en": "The closest star to the Sun — a dim, cool red dwarf.",
+        "ja": "太陽に最も近い恒星。暗くて低温の赤色矮星。",
+        "es": "La estrella más cercana al Sol: una enana roja tenue y fría.",
+        "de": "Der sonnennächste Stern – ein lichtschwacher, kühler Roter Zwerg.",
+        "zh-TW": "距離太陽最近的恆星——一顆暗淡而低溫的紅矮星。",
+        "pt-BR": "A estrela mais próxima do Sol — uma anã vermelha fraca e fria."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "proxima",
@@ -415,6 +865,76 @@
             "label": "Distance",
             "value": "4.24 ly (nearest star)"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "M5.5V 赤色矮星"
+          },
+          {
+            "label": "表面温度",
+            "value": "約3,040 K"
+          },
+          {
+            "label": "距離",
+            "value": "4.24光年（最も近い恒星）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "Enana roja M5.5V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~3.040 K"
+          },
+          {
+            "label": "Distancia",
+            "value": "4,24 al (la estrella más cercana)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "M5.5V Roter Zwerg"
+          },
+          {
+            "label": "Oberflächentemp.",
+            "value": "~3.040 K"
+          },
+          {
+            "label": "Entfernung",
+            "value": "4,24 Lj (nächster Stern)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "M5.5V 紅矮星"
+          },
+          {
+            "label": "表面溫度",
+            "value": "約 3,040 K"
+          },
+          {
+            "label": "距離",
+            "value": "4.24 光年（最近的恆星）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "Anã vermelha M5.5V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~3.040 K"
+          },
+          {
+            "label": "Distância",
+            "value": "4,24 anos-luz (a estrela mais próxima)"
+          }
         ]
       },
       "related": [
@@ -442,11 +962,21 @@
       "type": "object",
       "name": "스피카",
       "nameI18n": {
-        "en": "Spica"
+        "en": "Spica",
+        "ja": "スピカ",
+        "es": "Spica",
+        "de": "Spica",
+        "zh-TW": "角宿一",
+        "pt-BR": "Spica"
       },
       "summary": "처녀자리의 뜨거운 청색 별. 밝고 무거운 B형 주계열성이다.",
       "summaryI18n": {
-        "en": "The hot blue star of Virgo — a bright, massive B-type main-sequence star."
+        "en": "The hot blue star of Virgo — a bright, massive B-type main-sequence star.",
+        "ja": "おとめ座の高温の青い星。明るく大質量のB型主系列星。",
+        "es": "La estrella azul y caliente de Virgo: una estrella de secuencia principal de tipo B, brillante y masiva.",
+        "de": "Der heiße blaue Stern der Jungfrau – ein heller, massereicher Hauptreihenstern vom Typ B.",
+        "zh-TW": "室女座中高溫的藍色恆星——一顆明亮而大質量的 B 型主序星。",
+        "pt-BR": "A estrela azul e quente de Virgem — uma estrela de sequência principal do tipo B, brilhante e massiva."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "spica",
@@ -487,6 +1017,76 @@
             "label": "Luminosity",
             "value": "20,000 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "B1V"
+          },
+          {
+            "label": "表面温度",
+            "value": "約22,400 K"
+          },
+          {
+            "label": "光度",
+            "value": "20,000 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "B1V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~22.400 K"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "20.000 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "B1V"
+          },
+          {
+            "label": "Oberflächentemp.",
+            "value": "~22.400 K"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "20.000 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "B1V"
+          },
+          {
+            "label": "表面溫度",
+            "value": "約 22,400 K"
+          },
+          {
+            "label": "光度",
+            "value": "20,000 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "B1V"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~22.400 K"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "20.000 L☉"
+          }
         ]
       },
       "related": [
@@ -514,11 +1114,21 @@
       "type": "object",
       "name": "아크투루스",
       "nameI18n": {
-        "en": "Arcturus"
+        "en": "Arcturus",
+        "ja": "アークトゥルス",
+        "es": "Arturo",
+        "de": "Arktur",
+        "zh-TW": "大角星",
+        "pt-BR": "Arcturo"
       },
       "summary": "목동자리의 주황색 거성. 주계열을 떠나 부풀어 오른 늙은 별이다.",
       "summaryI18n": {
-        "en": "The orange giant of Boötes — an aged star that has left the main sequence and swollen up."
+        "en": "The orange giant of Boötes — an aged star that has left the main sequence and swollen up.",
+        "ja": "うしかい座のオレンジ色の巨星。主系列を離れて膨れ上がった老いた星。",
+        "es": "La gigante naranja del Boyero: una estrella anciana que ha abandonado la secuencia principal y se ha hinchado.",
+        "de": "Der orangefarbene Riese des Bärenhüters – ein gealterter Stern, der die Hauptreihe verlassen hat und aufgebläht ist.",
+        "zh-TW": "牧夫座的橙色巨星——一顆已離開主序、膨脹起來的年老恆星。",
+        "pt-BR": "A gigante alaranjada do Boieiro — uma estrela idosa que deixou a sequência principal e se expandiu."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "arcturus",
@@ -559,6 +1169,76 @@
             "label": "Luminosity",
             "value": "170 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "K1.5 III 赤色巨星"
+          },
+          {
+            "label": "半径",
+            "value": "約25 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "170 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Gigante roja K1.5 III"
+          },
+          {
+            "label": "Radio",
+            "value": "~25 R☉"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "170 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "K1.5 III Roter Riese"
+          },
+          {
+            "label": "Radius",
+            "value": "~25 R☉"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "170 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "K1.5 III 紅巨星"
+          },
+          {
+            "label": "半徑",
+            "value": "約 25 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "170 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Gigante vermelha K1.5 III"
+          },
+          {
+            "label": "Raio",
+            "value": "~25 R☉"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "170 L☉"
+          }
         ]
       },
       "related": [
@@ -586,11 +1266,21 @@
       "type": "object",
       "name": "알데바란",
       "nameI18n": {
-        "en": "Aldebaran"
+        "en": "Aldebaran",
+        "ja": "アルデバラン",
+        "es": "Aldebarán",
+        "de": "Aldebaran",
+        "zh-TW": "畢宿五",
+        "pt-BR": "Aldebarã"
       },
       "summary": "황소자리의 눈에 해당하는 주황색 거성.",
       "summaryI18n": {
-        "en": "The orange giant marking the eye of Taurus."
+        "en": "The orange giant marking the eye of Taurus.",
+        "ja": "おうし座の目にあたるオレンジ色の巨星。",
+        "es": "La gigante naranja que marca el ojo de Tauro.",
+        "de": "Der orangefarbene Riese, der das Auge des Stiers markiert.",
+        "zh-TW": "標示金牛座之眼的橙色巨星。",
+        "pt-BR": "A gigante alaranjada que marca o olho de Touro."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "aldebaran",
@@ -631,6 +1321,76 @@
             "label": "Luminosity",
             "value": "439 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "K5 III 巨星"
+          },
+          {
+            "label": "半径",
+            "value": "約44 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "439 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Gigante K5 III"
+          },
+          {
+            "label": "Radio",
+            "value": "~44 R☉"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "439 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "K5 III Riese"
+          },
+          {
+            "label": "Radius",
+            "value": "~44 R☉"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "439 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "K5 III 巨星"
+          },
+          {
+            "label": "半徑",
+            "value": "約 44 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "439 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Gigante K5 III"
+          },
+          {
+            "label": "Raio",
+            "value": "~44 R☉"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "439 L☉"
+          }
         ]
       },
       "related": [
@@ -658,11 +1418,21 @@
       "type": "object",
       "name": "리겔",
       "nameI18n": {
-        "en": "Rigel"
+        "en": "Rigel",
+        "ja": "リゲル",
+        "es": "Rigel",
+        "de": "Rigel",
+        "zh-TW": "參宿七",
+        "pt-BR": "Rígel"
       },
       "summary": "오리온자리의 청색 초거성. 짧고 격렬하게 타다 초신성으로 생을 마칠 운명이다.",
       "summaryI18n": {
-        "en": "The blue supergiant of Orion — burning fiercely and destined to end as a supernova."
+        "en": "The blue supergiant of Orion — burning fiercely and destined to end as a supernova.",
+        "ja": "オリオン座の青色超巨星。激しく燃え、いずれ超新星として一生を終える運命にある。",
+        "es": "La supergigante azul de Orión: arde con fiereza y está destinada a terminar como supernova.",
+        "de": "Der blaue Überriese des Orion – er brennt heftig und ist dazu bestimmt, als Supernova zu enden.",
+        "zh-TW": "獵戶座的藍超巨星——猛烈燃燒，注定將以超新星結束一生。",
+        "pt-BR": "A supergigante azul de Órion — queima intensamente e está destinada a terminar como supernova."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "rigel",
@@ -703,6 +1473,76 @@
             "label": "Luminosity",
             "value": "120,000 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "B8 Ia 青色超巨星"
+          },
+          {
+            "label": "半径",
+            "value": "約78 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "120,000 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Supergigante azul B8 Ia"
+          },
+          {
+            "label": "Radio",
+            "value": "~78 R☉"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "120.000 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "B8 Ia Blauer Überriese"
+          },
+          {
+            "label": "Radius",
+            "value": "~78 R☉"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "120.000 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "B8 Ia 藍超巨星"
+          },
+          {
+            "label": "半徑",
+            "value": "約 78 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "120,000 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Supergigante azul B8 Ia"
+          },
+          {
+            "label": "Raio",
+            "value": "~78 R☉"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "120.000 L☉"
+          }
         ]
       },
       "related": [
@@ -732,11 +1572,21 @@
       "type": "object",
       "name": "베텔게우스",
       "nameI18n": {
-        "en": "Betelgeuse"
+        "en": "Betelgeuse",
+        "ja": "ベテルギウス",
+        "es": "Betelgeuse",
+        "de": "Beteigeuze",
+        "zh-TW": "參宿四",
+        "pt-BR": "Betelgeuse"
       },
       "summary": "오리온자리의 적색 초거성. 지구 궤도를 삼킬 만큼 크며 언제든 초신성이 될 수 있다.",
       "summaryI18n": {
-        "en": "The red supergiant of Orion — large enough to swallow Earth's orbit, and could go supernova at any time."
+        "en": "The red supergiant of Orion — large enough to swallow Earth's orbit, and could go supernova at any time.",
+        "ja": "オリオン座の赤色超巨星。地球の軌道を飲み込むほど大きく、いつ超新星になってもおかしくない。",
+        "es": "La supergigante roja de Orión: tan grande que engulliría la órbita de la Tierra, y podría estallar como supernova en cualquier momento.",
+        "de": "Der rote Überriese des Orion – groß genug, um die Erdbahn zu verschlucken, und könnte jederzeit zur Supernova werden.",
+        "zh-TW": "獵戶座的紅超巨星——大到足以吞沒地球的軌道，隨時可能發生超新星爆發。",
+        "pt-BR": "A supergigante vermelha de Órion — grande o suficiente para engolir a órbita da Terra, e pode explodir como supernova a qualquer momento."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "betelgeuse",
@@ -777,6 +1627,76 @@
             "label": "Luminosity",
             "value": "126,000 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "M1 Ia 赤色超巨星"
+          },
+          {
+            "label": "半径",
+            "value": "約887 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "126,000 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Supergigante roja M1 Ia"
+          },
+          {
+            "label": "Radio",
+            "value": "~887 R☉"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "126.000 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "M1 Ia Roter Überriese"
+          },
+          {
+            "label": "Radius",
+            "value": "~887 R☉"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "126.000 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "M1 Ia 紅超巨星"
+          },
+          {
+            "label": "半徑",
+            "value": "約 887 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "126,000 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Supergigante vermelha M1 Ia"
+          },
+          {
+            "label": "Raio",
+            "value": "~887 R☉"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "126.000 L☉"
+          }
         ]
       },
       "related": [
@@ -808,11 +1728,21 @@
       "type": "object",
       "name": "안타레스",
       "nameI18n": {
-        "en": "Antares"
+        "en": "Antares",
+        "ja": "アンタレス",
+        "es": "Antares",
+        "de": "Antares",
+        "zh-TW": "心宿二",
+        "pt-BR": "Antares"
       },
       "summary": "전갈자리의 심장에 해당하는 붉은 초거성. 이름은 '화성의 라이벌'이라는 뜻이다.",
       "summaryI18n": {
-        "en": "The red supergiant at the heart of Scorpius — its name means 'rival of Mars'."
+        "en": "The red supergiant at the heart of Scorpius — its name means 'rival of Mars'.",
+        "ja": "さそり座の心臓部に輝く赤色超巨星。その名は「火星の対抗者」を意味する。",
+        "es": "La supergigante roja en el corazón de Escorpio: su nombre significa «rival de Marte».",
+        "de": "Der rote Überriese im Herzen des Skorpions – sein Name bedeutet „Rivale des Mars“.",
+        "zh-TW": "位於天蠍座心臟的紅超巨星——其名意為「火星的對手」。",
+        "pt-BR": "A supergigante vermelha no coração de Escorpião — seu nome significa \"rival de Marte\"."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "antares",
@@ -853,6 +1783,76 @@
             "label": "Luminosity",
             "value": "75,000 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "M1.5 赤色超巨星"
+          },
+          {
+            "label": "半径",
+            "value": "約680 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "75,000 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Supergigante roja M1.5"
+          },
+          {
+            "label": "Radio",
+            "value": "~680 R☉"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "75.000 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "M1.5 Roter Überriese"
+          },
+          {
+            "label": "Radius",
+            "value": "~680 R☉"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "75.000 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "M1.5 紅超巨星"
+          },
+          {
+            "label": "半徑",
+            "value": "約 680 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "75,000 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Supergigante vermelha M1.5"
+          },
+          {
+            "label": "Raio",
+            "value": "~680 R☉"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "75.000 L☉"
+          }
         ]
       },
       "related": [
@@ -882,11 +1882,21 @@
       "type": "object",
       "name": "UY Scuti",
       "nameI18n": {
-        "en": "UY Scuti"
+        "en": "UY Scuti",
+        "ja": "UY Scuti",
+        "es": "UY Scuti",
+        "de": "UY Scuti",
+        "zh-TW": "UY Scuti",
+        "pt-BR": "UY Scuti"
       },
       "summary": "알려진 가장 큰 별 중 하나. 태양 자리에 두면 목성 궤도 부근까지 닿는 극대거성이다.",
       "summaryI18n": {
-        "en": "One of the largest known stars — a hypergiant that, placed at the Sun, would reach out near Jupiter's orbit."
+        "en": "One of the largest known stars — a hypergiant that, placed at the Sun, would reach out near Jupiter's orbit.",
+        "ja": "知られている最大級の恒星。太陽の位置に置けば木星の軌道付近にまで達する極超巨星。",
+        "es": "Una de las estrellas conocidas más grandes: una hipergigante que, situada en el lugar del Sol, llegaría casi hasta la órbita de Júpiter.",
+        "de": "Einer der größten bekannten Sterne – ein Hyperriese, der am Ort der Sonne fast bis zur Jupiterbahn reichen würde.",
+        "zh-TW": "已知最大的恆星之一——一顆特超巨星，若置於太陽的位置，可延伸到接近木星的軌道。",
+        "pt-BR": "Uma das maiores estrelas conhecidas — uma hipergigante que, no lugar do Sol, alcançaria quase a órbita de Júpiter."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "uyscuti",
@@ -927,6 +1937,76 @@
             "label": "Luminosity",
             "value": "340,000 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "M4 極超巨星"
+          },
+          {
+            "label": "半径",
+            "value": "約1,700 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "340,000 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Hipergigante M4"
+          },
+          {
+            "label": "Radio",
+            "value": "~1.700 R☉"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "340.000 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "M4 Hyperriese"
+          },
+          {
+            "label": "Radius",
+            "value": "~1.700 R☉"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "340.000 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "M4 特超巨星"
+          },
+          {
+            "label": "半徑",
+            "value": "約 1,700 R☉"
+          },
+          {
+            "label": "光度",
+            "value": "340,000 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Hipergigante M4"
+          },
+          {
+            "label": "Raio",
+            "value": "~1.700 R☉"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "340.000 L☉"
+          }
         ]
       },
       "related": [
@@ -957,11 +2037,21 @@
       "diagramOnly": true,
       "name": "시리우스 B",
       "nameI18n": {
-        "en": "Sirius B"
+        "en": "Sirius B",
+        "ja": "シリウスB",
+        "es": "Sirio B",
+        "de": "Sirius B",
+        "zh-TW": "天狼星 B",
+        "pt-BR": "Sirius B"
       },
       "summary": "시리우스의 동반 백색왜성. 핵융합이 끝난 별의 뜨겁고 작은 잔해다.",
       "summaryI18n": {
-        "en": "The white-dwarf companion of Sirius — the hot, tiny remnant of a star that finished fusion."
+        "en": "The white-dwarf companion of Sirius — the hot, tiny remnant of a star that finished fusion.",
+        "ja": "シリウスの伴星である白色矮星。核融合を終えた星の高温で小さな残骸。",
+        "es": "La compañera enana blanca de Sirio: el remanente pequeño y caliente de una estrella que agotó su fusión.",
+        "de": "Der Weiße Zwerg als Begleiter des Sirius – der heiße, winzige Überrest eines Sterns, der die Fusion beendet hat.",
+        "zh-TW": "天狼星的白矮星伴星——一顆已結束核融合的恆星所留下的高溫、微小殘骸。",
+        "pt-BR": "A companheira anã branca de Sirius — o remanescente quente e minúsculo de uma estrela que encerrou a fusão."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "siriusb",
@@ -1002,6 +2092,76 @@
             "label": "Density",
             "value": "1 tsp ≈ 1 ton"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "白色矮星"
+          },
+          {
+            "label": "大きさ",
+            "value": "地球ほど"
+          },
+          {
+            "label": "密度",
+            "value": "小さじ1杯 ≈ 1トン"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Enana blanca"
+          },
+          {
+            "label": "Tamaño",
+            "value": "Aproximadamente como la Tierra"
+          },
+          {
+            "label": "Densidad",
+            "value": "1 cucharadita ≈ 1 tonelada"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Weißer Zwerg"
+          },
+          {
+            "label": "Größe",
+            "value": "Etwa erdgroß"
+          },
+          {
+            "label": "Dichte",
+            "value": "1 TL ≈ 1 Tonne"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "白矮星"
+          },
+          {
+            "label": "大小",
+            "value": "約與地球相當"
+          },
+          {
+            "label": "密度",
+            "value": "1 茶匙 ≈ 1 公噸"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Anã branca"
+          },
+          {
+            "label": "Tamanho",
+            "value": "Aproximadamente do tamanho da Terra"
+          },
+          {
+            "label": "Densidade",
+            "value": "1 colher de chá ≈ 1 tonelada"
+          }
         ]
       },
       "related": [
@@ -1033,11 +2193,21 @@
       "diagramOnly": true,
       "name": "프로키온 B",
       "nameI18n": {
-        "en": "Procyon B"
+        "en": "Procyon B",
+        "ja": "プロキオンB",
+        "es": "Procyon B",
+        "de": "Prokyon B",
+        "zh-TW": "南河三 B",
+        "pt-BR": "Prócion B"
       },
       "summary": "프로키온의 동반 백색왜성. 어둡게 식어가는 별의 잔해다.",
       "summaryI18n": {
-        "en": "The white-dwarf companion of Procyon — a stellar remnant slowly cooling into darkness."
+        "en": "The white-dwarf companion of Procyon — a stellar remnant slowly cooling into darkness.",
+        "ja": "プロキオンの伴星である白色矮星。ゆっくりと冷えて暗くなっていく星の残骸。",
+        "es": "La compañera enana blanca de Procyon: un remanente estelar que se enfría lentamente hacia la oscuridad.",
+        "de": "Der Weiße Zwerg als Begleiter des Prokyon – ein Sternüberrest, der langsam in die Dunkelheit abkühlt.",
+        "zh-TW": "南河三的白矮星伴星——一顆緩慢冷卻、逐漸暗去的恆星殘骸。",
+        "pt-BR": "A companheira anã branca de Prócion — um remanescente estelar que esfria lentamente rumo à escuridão."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "procyonb",
@@ -1078,6 +2248,76 @@
             "label": "Luminosity",
             "value": "0.0005 L☉"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "白色矮星"
+          },
+          {
+            "label": "表面温度",
+            "value": "約7,740 K"
+          },
+          {
+            "label": "光度",
+            "value": "0.0005 L☉"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Enana blanca"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~7.740 K"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "0,0005 L☉"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Weißer Zwerg"
+          },
+          {
+            "label": "Oberflächentemp.",
+            "value": "~7.740 K"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "0,0005 L☉"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "白矮星"
+          },
+          {
+            "label": "表面溫度",
+            "value": "約 7,740 K"
+          },
+          {
+            "label": "光度",
+            "value": "0.0005 L☉"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Anã branca"
+          },
+          {
+            "label": "Temp. superficial",
+            "value": "~7.740 K"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "0,0005 L☉"
+          }
         ]
       },
       "related": [
@@ -1105,11 +2345,21 @@
       "type": "object",
       "name": "폴라리스",
       "nameI18n": {
-        "en": "Polaris"
+        "en": "Polaris",
+        "ja": "ポラリス",
+        "es": "Polaris",
+        "de": "Polarstern",
+        "zh-TW": "北極星",
+        "pt-BR": "Polaris"
       },
       "summary": "천구 북극 가까이 있어 길잡이가 되는 별. 밝기가 주기적으로 변하는 세페이드 변광성이다.",
       "summaryI18n": {
-        "en": "A guide star near the north celestial pole — a Cepheid variable whose brightness pulses periodically."
+        "en": "A guide star near the north celestial pole — a Cepheid variable whose brightness pulses periodically.",
+        "ja": "天の北極近くにあり道しるべとなる星。明るさが周期的に脈動するセファイド変光星。",
+        "es": "Una estrella guía cerca del polo norte celeste: una variable cefeida cuyo brillo pulsa periódicamente.",
+        "de": "Ein Leitstern nahe dem nördlichen Himmelspol – ein Cepheiden-Veränderlicher, dessen Helligkeit periodisch pulsiert.",
+        "zh-TW": "位於天球北極附近的指引之星——一顆亮度週期性脈動的造父變星。",
+        "pt-BR": "Uma estrela-guia próxima ao polo norte celeste — uma variável cefeida cujo brilho pulsa periodicamente."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "polaris",
@@ -1150,6 +2400,76 @@
             "label": "Distance",
             "value": "~433 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "F7 Ib（セファイド変光星）"
+          },
+          {
+            "label": "特徴",
+            "value": "北極星――天の北極の近く"
+          },
+          {
+            "label": "距離",
+            "value": "約433光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "F7 Ib (variable cefeida)"
+          },
+          {
+            "label": "Nota",
+            "value": "La Estrella Polar, cerca del polo celeste"
+          },
+          {
+            "label": "Distancia",
+            "value": "~433 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "F7 Ib (Cepheiden-Veränderlicher)"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Der Polarstern, nahe dem Himmelspol"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~433 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "F7 Ib（造父變星）"
+          },
+          {
+            "label": "特徵",
+            "value": "北極星——靠近天球極點"
+          },
+          {
+            "label": "距離",
+            "value": "約 433 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "F7 Ib (variável cefeida)"
+          },
+          {
+            "label": "Nota",
+            "value": "A Estrela Polar, próxima ao polo celeste"
+          },
+          {
+            "label": "Distância",
+            "value": "~433 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1177,11 +2497,21 @@
       "type": "object",
       "name": "알파 센타우리",
       "nameI18n": {
-        "en": "Alpha Centauri"
+        "en": "Alpha Centauri",
+        "ja": "アルファ・ケンタウリ",
+        "es": "Alfa Centauri",
+        "de": "Alpha Centauri",
+        "zh-TW": "南門二",
+        "pt-BR": "Alfa Centauri"
       },
       "summary": "태양에서 가장 가까운 항성계. 태양을 닮은 별로, 프록시마 켄타우리와 한 계를 이룬다.",
       "summaryI18n": {
-        "en": "The closest star system to the Sun — a Sun-like star that forms a system with Proxima Centauri."
+        "en": "The closest star system to the Sun — a Sun-like star that forms a system with Proxima Centauri.",
+        "ja": "太陽に最も近い恒星系。太陽に似た星で、プロキシマ・ケンタウリとともに一つの系をなす。",
+        "es": "El sistema estelar más cercano al Sol: una estrella parecida al Sol que forma un sistema con Próxima Centauri.",
+        "de": "Das sonnennächste Sternsystem – ein sonnenähnlicher Stern, der mit Proxima Centauri ein System bildet.",
+        "zh-TW": "距離太陽最近的恆星系統——一顆類似太陽的恆星，與比鄰星共同組成一個系統。",
+        "pt-BR": "O sistema estelar mais próximo do Sol — uma estrela semelhante ao Sol que forma um sistema com Próxima Centauri."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "alpha-centauri",
@@ -1222,6 +2552,76 @@
             "label": "Distance",
             "value": "4.37 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "G2V（太陽に類似）"
+          },
+          {
+            "label": "特徴",
+            "value": "太陽系に最も近い恒星系"
+          },
+          {
+            "label": "距離",
+            "value": "4.37光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "G2V (parecida al Sol)"
+          },
+          {
+            "label": "Nota",
+            "value": "El sistema estelar más cercano al Sistema Solar"
+          },
+          {
+            "label": "Distancia",
+            "value": "4,37 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "G2V (sonnenähnlich)"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Das dem Sonnensystem nächste Sternsystem"
+          },
+          {
+            "label": "Entfernung",
+            "value": "4,37 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "G2V（類似太陽）"
+          },
+          {
+            "label": "特徵",
+            "value": "距離太陽系最近的恆星系統"
+          },
+          {
+            "label": "距離",
+            "value": "4.37 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "G2V (semelhante ao Sol)"
+          },
+          {
+            "label": "Nota",
+            "value": "O sistema estelar mais próximo do Sistema Solar"
+          },
+          {
+            "label": "Distância",
+            "value": "4,37 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1250,11 +2650,21 @@
       "type": "object",
       "name": "데네브",
       "nameI18n": {
-        "en": "Deneb"
+        "en": "Deneb",
+        "ja": "デネブ",
+        "es": "Deneb",
+        "de": "Deneb",
+        "zh-TW": "天津四",
+        "pt-BR": "Deneb"
       },
       "summary": "백조자리의 청백색 초거성. 알려진 가장 밝은 별 중 하나로 여름의 대삼각형을 이룬다.",
       "summaryI18n": {
-        "en": "The blue-white supergiant of Cygnus — one of the most luminous known stars, part of the Summer Triangle."
+        "en": "The blue-white supergiant of Cygnus — one of the most luminous known stars, part of the Summer Triangle.",
+        "ja": "はくちょう座の青白い超巨星。知られている最も明るい星の一つで、夏の大三角を形づくる。",
+        "es": "La supergigante azul-blanca del Cisne: una de las estrellas más luminosas conocidas y parte del Triángulo de Verano.",
+        "de": "Der blau-weiße Überriese des Schwans – einer der leuchtkräftigsten bekannten Sterne und Teil des Sommerdreiecks.",
+        "zh-TW": "天鵝座的藍白色超巨星——已知光度最高的恆星之一，也是夏季大三角的一員。",
+        "pt-BR": "A supergigante azul-branca do Cisne — uma das estrelas mais luminosas conhecidas e parte do Triângulo de Verão."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "deneb",
@@ -1295,6 +2705,76 @@
             "label": "Note",
             "value": "Summer Triangle"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "A2 Ia 青白色超巨星"
+          },
+          {
+            "label": "光度",
+            "value": "約196,000 L☉"
+          },
+          {
+            "label": "特徴",
+            "value": "夏の大三角"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "Supergigante azul-blanca A2 Ia"
+          },
+          {
+            "label": "Luminosidad",
+            "value": "~196.000 L☉"
+          },
+          {
+            "label": "Nota",
+            "value": "Triángulo de Verano"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "A2 Ia blau-weißer Überriese"
+          },
+          {
+            "label": "Leuchtkraft",
+            "value": "~196.000 L☉"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Sommerdreieck"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "A2 Ia 藍白色超巨星"
+          },
+          {
+            "label": "光度",
+            "value": "約 196,000 L☉"
+          },
+          {
+            "label": "特徵",
+            "value": "夏季大三角"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "Supergigante azul-branca A2 Ia"
+          },
+          {
+            "label": "Luminosidade",
+            "value": "~196.000 L☉"
+          },
+          {
+            "label": "Nota",
+            "value": "Triângulo de Verão"
+          }
         ]
       },
       "related": [
@@ -1325,11 +2805,21 @@
       "type": "object",
       "name": "알타이르",
       "nameI18n": {
-        "en": "Altair"
+        "en": "Altair",
+        "ja": "アルタイル",
+        "es": "Altaír",
+        "de": "Altair",
+        "zh-TW": "河鼓二",
+        "pt-BR": "Altair"
       },
       "summary": "독수리자리의 밝은 별. 매우 빠르게 자전해 적도가 부푼 타원체다. 여름의 대삼각형.",
       "summaryI18n": {
-        "en": "The bright star of Aquila — it spins so fast its equator bulges. Part of the Summer Triangle."
+        "en": "The bright star of Aquila — it spins so fast its equator bulges. Part of the Summer Triangle.",
+        "ja": "わし座の明るい星。非常に速く自転するため赤道が膨らんでいる。夏の大三角の一つ。",
+        "es": "La estrella brillante del Águila: gira tan rápido que su ecuador se abulta. Forma parte del Triángulo de Verano.",
+        "de": "Der helle Stern des Adlers – er rotiert so schnell, dass sich sein Äquator ausbeult. Teil des Sommerdreiecks.",
+        "zh-TW": "天鷹座的明亮恆星——自轉極快，使其赤道向外隆起。也是夏季大三角的一員。",
+        "pt-BR": "A estrela brilhante da Águia — gira tão rápido que seu equador se projeta. Faz parte do Triângulo de Verão."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "altair",
@@ -1370,6 +2860,76 @@
             "label": "Distance",
             "value": "16.7 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "A7V"
+          },
+          {
+            "label": "特徴",
+            "value": "速い自転で扁平"
+          },
+          {
+            "label": "距離",
+            "value": "16.7光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "A7V"
+          },
+          {
+            "label": "Nota",
+            "value": "Achatada por su rápida rotación"
+          },
+          {
+            "label": "Distancia",
+            "value": "16,7 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "A7V"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Durch schnelle Rotation abgeplattet"
+          },
+          {
+            "label": "Entfernung",
+            "value": "16,7 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "A7V"
+          },
+          {
+            "label": "特徵",
+            "value": "因快速自轉而扁平"
+          },
+          {
+            "label": "距離",
+            "value": "16.7 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "A7V"
+          },
+          {
+            "label": "Nota",
+            "value": "Achatada pela rotação rápida"
+          },
+          {
+            "label": "Distância",
+            "value": "16,7 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1398,11 +2958,21 @@
       "type": "object",
       "name": "카노푸스",
       "nameI18n": {
-        "en": "Canopus"
+        "en": "Canopus",
+        "ja": "カノープス",
+        "es": "Canopus",
+        "de": "Canopus",
+        "zh-TW": "老人星",
+        "pt-BR": "Canopus"
       },
       "summary": "시리우스 다음으로 밝은 별. 남쪽 하늘의 밝은 초거성으로 우주선 항법 기준별로도 쓰인다.",
       "summaryI18n": {
-        "en": "The second-brightest star after Sirius — a luminous southern supergiant, also used for spacecraft navigation."
+        "en": "The second-brightest star after Sirius — a luminous southern supergiant, also used for spacecraft navigation.",
+        "ja": "シリウスに次いで明るい星。南天の明るい超巨星で、探査機の航法基準星としても使われる。",
+        "es": "La segunda estrella más brillante después de Sirio: una supergigante luminosa del hemisferio sur, también usada para la navegación de naves espaciales.",
+        "de": "Der zweithellste Stern nach Sirius – ein leuchtkräftiger Überriese des Südhimmels, der auch zur Navigation von Raumsonden dient.",
+        "zh-TW": "僅次於天狼星的第二亮星——一顆南天明亮的超巨星，也用於太空船的導航。",
+        "pt-BR": "A segunda estrela mais brilhante depois de Sirius — uma supergigante luminosa do céu do sul, também usada para a navegação de espaçonaves."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "canopus",
@@ -1443,6 +3013,76 @@
             "label": "Distance",
             "value": "~310 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "A9 II 超巨星"
+          },
+          {
+            "label": "特徴",
+            "value": "夜空で2番目に明るい星"
+          },
+          {
+            "label": "距離",
+            "value": "約310光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "Supergigante A9 II"
+          },
+          {
+            "label": "Nota",
+            "value": "2.ª estrella más brillante del cielo nocturno"
+          },
+          {
+            "label": "Distancia",
+            "value": "~310 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "A9 II Überriese"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Zweithellster Stern am Nachthimmel"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~310 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "A9 II 超巨星"
+          },
+          {
+            "label": "特徵",
+            "value": "夜空中第二亮的恆星"
+          },
+          {
+            "label": "距離",
+            "value": "約 310 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "Supergigante A9 II"
+          },
+          {
+            "label": "Nota",
+            "value": "2ª estrela mais brilhante do céu noturno"
+          },
+          {
+            "label": "Distância",
+            "value": "~310 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1470,11 +3110,21 @@
       "type": "object",
       "name": "카펠라",
       "nameI18n": {
-        "en": "Capella"
+        "en": "Capella",
+        "ja": "カペラ",
+        "es": "Capella",
+        "de": "Capella",
+        "zh-TW": "五車二",
+        "pt-BR": "Capella"
       },
       "summary": "마차부자리의 밝은 노란 별. 실제로는 두 거성이 가까이 도는 다중성이다.",
       "summaryI18n": {
-        "en": "The bright yellow star of Auriga — actually a multiple system of two giant stars orbiting closely."
+        "en": "The bright yellow star of Auriga — actually a multiple system of two giant stars orbiting closely.",
+        "ja": "ぎょしゃ座の明るい黄色い星。実際には2つの巨星が近接して回る多重星である。",
+        "es": "La brillante estrella amarilla del Cochero: en realidad es un sistema múltiple de dos estrellas gigantes que orbitan muy juntas.",
+        "de": "Der helle gelbe Stern des Fuhrmanns – tatsächlich ein Mehrfachsystem aus zwei eng umeinander kreisenden Riesensternen.",
+        "zh-TW": "御夫座明亮的黃色恆星——實際上是由兩顆巨星近距離互繞組成的聚星系統。",
+        "pt-BR": "A brilhante estrela amarela do Cocheiro — na verdade um sistema múltiplo de duas estrelas gigantes em órbita próxima."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "capella",
@@ -1515,6 +3165,76 @@
             "label": "Distance",
             "value": "43 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "G型の巨星（多重星）"
+          },
+          {
+            "label": "特徴",
+            "value": "ぎょしゃ座で最も明るい星"
+          },
+          {
+            "label": "距離",
+            "value": "43光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "Gigantes de tipo G (múltiple)"
+          },
+          {
+            "label": "Nota",
+            "value": "La estrella más brillante del Cochero"
+          },
+          {
+            "label": "Distancia",
+            "value": "43 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "Riesen vom Typ G (Mehrfachsystem)"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Hellster Stern im Fuhrmann"
+          },
+          {
+            "label": "Entfernung",
+            "value": "43 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "G 型巨星（聚星）"
+          },
+          {
+            "label": "特徵",
+            "value": "御夫座最亮的恆星"
+          },
+          {
+            "label": "距離",
+            "value": "43 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "Gigantes do tipo G (múltiplo)"
+          },
+          {
+            "label": "Nota",
+            "value": "A estrela mais brilhante do Cocheiro"
+          },
+          {
+            "label": "Distância",
+            "value": "43 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1542,11 +3262,21 @@
       "type": "object",
       "name": "폴룩스",
       "nameI18n": {
-        "en": "Pollux"
+        "en": "Pollux",
+        "ja": "ポルックス",
+        "es": "Pólux",
+        "de": "Pollux",
+        "zh-TW": "北河三",
+        "pt-BR": "Pólux"
       },
       "summary": "쌍둥이자리의 주황색 거성. 태양에서 가장 가까운 거성이며 외계행성을 거느린다.",
       "summaryI18n": {
-        "en": "The orange giant of Gemini — the nearest giant star to the Sun, and it hosts an exoplanet."
+        "en": "The orange giant of Gemini — the nearest giant star to the Sun, and it hosts an exoplanet.",
+        "ja": "ふたご座のオレンジ色の巨星。太陽に最も近い巨星で、系外惑星を従えている。",
+        "es": "La gigante naranja de Géminis: la estrella gigante más cercana al Sol, y alberga un exoplaneta.",
+        "de": "Der orangefarbene Riese der Zwillinge – der sonnennächste Riesenstern, der einen Exoplaneten beherbergt.",
+        "zh-TW": "雙子座的橙色巨星——距離太陽最近的巨星，並擁有一顆系外行星。",
+        "pt-BR": "A gigante alaranjada de Gêmeos — a estrela gigante mais próxima do Sol, e hospeda um exoplaneta."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "pollux",
@@ -1587,6 +3317,76 @@
             "label": "Distance",
             "value": "34 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "K0 III 巨星"
+          },
+          {
+            "label": "特徴",
+            "value": "最も近い巨星・惑星を持つ"
+          },
+          {
+            "label": "距離",
+            "value": "34光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "Gigante K0 III"
+          },
+          {
+            "label": "Nota",
+            "value": "La gigante más cercana · alberga un planeta"
+          },
+          {
+            "label": "Distancia",
+            "value": "34 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "K0 III Riese"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Nächster Riese · beherbergt einen Planeten"
+          },
+          {
+            "label": "Entfernung",
+            "value": "34 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "K0 III 巨星"
+          },
+          {
+            "label": "特徵",
+            "value": "最近的巨星・擁有行星"
+          },
+          {
+            "label": "距離",
+            "value": "34 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "Gigante K0 III"
+          },
+          {
+            "label": "Nota",
+            "value": "Gigante mais próxima · hospeda um planeta"
+          },
+          {
+            "label": "Distância",
+            "value": "34 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1615,11 +3415,21 @@
       "type": "object",
       "name": "포말하우트",
       "nameI18n": {
-        "en": "Fomalhaut"
+        "en": "Fomalhaut",
+        "ja": "フォーマルハウト",
+        "es": "Fomalhaut",
+        "de": "Fomalhaut",
+        "zh-TW": "北落師門",
+        "pt-BR": "Fomalhaut"
       },
       "summary": "남쪽물고기자리의 밝은 별. 주위에 뚜렷한 잔해 원반을 둘러 「외로운 별」로도 불린다.",
       "summaryI18n": {
-        "en": "The bright star of Piscis Austrinus — ringed by a prominent debris disk, nicknamed \"the Lonely Star\"."
+        "en": "The bright star of Piscis Austrinus — ringed by a prominent debris disk, nicknamed \"the Lonely Star\".",
+        "ja": "みなみのうお座の明るい星。目立つ塵（残骸）円盤に囲まれ、「孤独な星」とも呼ばれる。",
+        "es": "La estrella brillante del Pez Austral: rodeada por un notable disco de escombros, apodada «la Estrella Solitaria».",
+        "de": "Der helle Stern des Südlichen Fisches – umgeben von einer auffälligen Trümmerscheibe, genannt „der einsame Stern“.",
+        "zh-TW": "南魚座的明亮恆星——被顯著的碎屑盤環繞，暱稱為「孤獨之星」。",
+        "pt-BR": "A estrela brilhante do Peixe Austral — cercada por um notável disco de detritos, apelidada de \"a Estrela Solitária\"."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "fomalhaut",
@@ -1660,6 +3470,76 @@
             "label": "Distance",
             "value": "25 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "A3V"
+          },
+          {
+            "label": "特徴",
+            "value": "塵（残骸）円盤を持つ"
+          },
+          {
+            "label": "距離",
+            "value": "25光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "A3V"
+          },
+          {
+            "label": "Nota",
+            "value": "Posee un disco de escombros"
+          },
+          {
+            "label": "Distancia",
+            "value": "25 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "A3V"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Besitzt eine Trümmerscheibe"
+          },
+          {
+            "label": "Entfernung",
+            "value": "25 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "A3V"
+          },
+          {
+            "label": "特徵",
+            "value": "擁有碎屑盤"
+          },
+          {
+            "label": "距離",
+            "value": "25 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "A3V"
+          },
+          {
+            "label": "Nota",
+            "value": "Possui um disco de detritos"
+          },
+          {
+            "label": "Distância",
+            "value": "25 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1687,11 +3567,21 @@
       "type": "object",
       "name": "레굴루스",
       "nameI18n": {
-        "en": "Regulus"
+        "en": "Regulus",
+        "ja": "レグルス",
+        "es": "Regulus",
+        "de": "Regulus",
+        "zh-TW": "軒轅十四",
+        "pt-BR": "Regulus"
       },
       "summary": "사자자리의 청백색 별. 매우 빠르게 자전해 찌그러져 있으며 사자의 심장에 해당한다.",
       "summaryI18n": {
-        "en": "The blue-white star of Leo — spinning so fast it is squashed, it marks the lion's heart."
+        "en": "The blue-white star of Leo — spinning so fast it is squashed, it marks the lion's heart.",
+        "ja": "しし座の青白い星。非常に速く自転して押しつぶされた形をしており、獅子の心臓にあたる。",
+        "es": "La estrella azul-blanca de Leo: gira tan rápido que está achatada, y marca el corazón del león.",
+        "de": "Der blau-weiße Stern des Löwen – er rotiert so schnell, dass er abgeplattet ist, und markiert das Herz des Löwen.",
+        "zh-TW": "獅子座的藍白色恆星——自轉極快而被壓扁，標示著獅子的心臟。",
+        "pt-BR": "A estrela azul-branca de Leão — gira tão rápido que fica achatada, e marca o coração do leão."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "regulus",
@@ -1732,6 +3622,76 @@
             "label": "Distance",
             "value": "79 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "B8 IV"
+          },
+          {
+            "label": "特徴",
+            "value": "しし座の心臓・超高速自転"
+          },
+          {
+            "label": "距離",
+            "value": "79光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "B8 IV"
+          },
+          {
+            "label": "Nota",
+            "value": "Corazón de Leo · rotación muy rápida"
+          },
+          {
+            "label": "Distancia",
+            "value": "79 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "B8 IV"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Herz des Löwen · sehr schneller Rotator"
+          },
+          {
+            "label": "Entfernung",
+            "value": "79 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "B8 IV"
+          },
+          {
+            "label": "特徵",
+            "value": "獅子座的心臟・自轉極快"
+          },
+          {
+            "label": "距離",
+            "value": "79 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "B8 IV"
+          },
+          {
+            "label": "Nota",
+            "value": "Coração de Leão · rotação muito rápida"
+          },
+          {
+            "label": "Distância",
+            "value": "79 anos-luz"
+          }
         ]
       },
       "related": [
@@ -1760,11 +3720,21 @@
       "diagramOnly": true,
       "name": "중성자별",
       "nameI18n": {
-        "en": "Neutron Star"
+        "en": "Neutron Star",
+        "ja": "中性子星",
+        "es": "Estrella de neutrones",
+        "de": "Neutronenstern",
+        "zh-TW": "中子星",
+        "pt-BR": "Estrela de nêutrons"
       },
       "summary": "핵융합을 하지 않는 '별의 시체'. 표준 H-R도의 온도축을 한참 벗어나 축 바깥에 표기된다.",
       "summaryI18n": {
-        "en": "A 'stellar corpse' that no longer fuses — plotted outside the standard H-R axes because it lies far beyond them."
+        "en": "A 'stellar corpse' that no longer fuses — plotted outside the standard H-R axes because it lies far beyond them.",
+        "ja": "もはや核融合をしない「星の死体」。標準的なH-R図の軸をはるかに超えるため、軸の外側に描かれる。",
+        "es": "Un «cadáver estelar» que ya no realiza fusión: se representa fuera de los ejes estándar del diagrama H-R porque queda mucho más allá de ellos.",
+        "de": "Eine „Sternenleiche“, die keine Fusion mehr betreibt – sie wird außerhalb der Standardachsen des HR-Diagramms eingezeichnet, weil sie weit darüber hinausliegt.",
+        "zh-TW": "一具不再進行核融合的「恆星屍體」——因遠超出標準赫羅圖的座標軸，故繪於軸外。",
+        "pt-BR": "Um \"cadáver estelar\" que não realiza mais fusão — plotado fora dos eixos padrão do diagrama H-R porque fica muito além deles."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "neutron",
@@ -1804,11 +3774,86 @@
             "label": "Density",
             "value": "1 tsp ≈ billions of tons"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "星の残骸・パルサー"
+          },
+          {
+            "label": "大きさ",
+            "value": "都市ほど（約20 km）"
+          },
+          {
+            "label": "密度",
+            "value": "小さじ1杯 ≈ 数十億トン"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Remanente estelar · púlsar"
+          },
+          {
+            "label": "Tamaño",
+            "value": "Del tamaño de una ciudad (~20 km)"
+          },
+          {
+            "label": "Densidad",
+            "value": "1 cucharadita ≈ miles de millones de toneladas"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Sternüberrest · Pulsar"
+          },
+          {
+            "label": "Größe",
+            "value": "Stadtgroß (~20 km)"
+          },
+          {
+            "label": "Dichte",
+            "value": "1 TL ≈ Milliarden Tonnen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "恆星殘骸・脈衝星"
+          },
+          {
+            "label": "大小",
+            "value": "約一座城市大小（約 20 公里）"
+          },
+          {
+            "label": "密度",
+            "value": "1 茶匙 ≈ 數十億公噸"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Remanescente estelar · pulsar"
+          },
+          {
+            "label": "Tamanho",
+            "value": "Do tamanho de uma cidade (~20 km)"
+          },
+          {
+            "label": "Densidade",
+            "value": "1 colher de chá ≈ bilhões de toneladas"
+          }
         ]
       },
       "note": "표면온도가 약 60만 K로 표준 H-R도의 온도축(~5만 K)을 한참 벗어납니다. 핵융합을 하지 않는 「별의 시체」라 표준 도표 밖으로 둡니다.",
       "noteI18n": {
-        "en": "Its surface temperature (~600,000 K) lies far beyond the standard H-R temperature axis (~50,000 K). As a non-fusing 'stellar corpse', it is placed outside the standard diagram."
+        "en": "Its surface temperature (~600,000 K) lies far beyond the standard H-R temperature axis (~50,000 K). As a non-fusing 'stellar corpse', it is placed outside the standard diagram.",
+        "ja": "表面温度は約60万Kで、標準的なH-R図の温度軸（約5万K）をはるかに超えます。核融合をしない「星の死体」であるため、標準の図の外に配置しています。",
+        "es": "Su temperatura superficial (~600.000 K) queda muy por encima del eje de temperatura estándar del diagrama H-R (~50.000 K). Como «cadáver estelar» que no realiza fusión, se sitúa fuera del diagrama estándar.",
+        "de": "Ihre Oberflächentemperatur (~600.000 K) liegt weit jenseits der standardmäßigen Temperaturachse des HR-Diagramms (~50.000 K). Als nicht fusionierende „Sternenleiche“ wird sie außerhalb des Standarddiagramms platziert.",
+        "zh-TW": "其表面溫度約 60 萬 K，遠遠超出標準赫羅圖的溫度軸（約 5 萬 K）。由於它是不再進行核融合的「恆星屍體」，因此被置於標準圖之外。",
+        "pt-BR": "Sua temperatura superficial (~600.000 K) fica muito além do eixo de temperatura padrão do diagrama H-R (~50.000 K). Como um \"cadáver estelar\" que não realiza fusão, é colocada fora do diagrama padrão."
       },
       "related": [
         "hr-diagram",

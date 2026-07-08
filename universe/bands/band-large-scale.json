@@ -10,11 +10,21 @@
       "featured": true,
       "name": "코스믹 웹",
       "nameI18n": {
-        "en": "The Cosmic Web"
+        "en": "The Cosmic Web",
+        "ja": "宇宙の大規模構造（コズミックウェブ）",
+        "es": "La red cósmica",
+        "de": "Das kosmische Netz",
+        "zh-TW": "宇宙網（大尺度結構）",
+        "pt-BR": "A teia cósmica"
       },
       "summary": "우주 최대 규모의 그물 구조 — 은하가 필라멘트를 따라 모이고 그 사이는 텅 빈 보이드.",
       "summaryI18n": {
-        "en": "The largest structure in the universe — galaxies gather along filaments, with empty voids between them."
+        "en": "The largest structure in the universe — galaxies gather along filaments, with empty voids between them.",
+        "ja": "宇宙で最大規模の網目状構造。銀河はフィラメントに沿って集まり、その間には何もないボイドが広がる。",
+        "es": "La estructura más grande del universo: las galaxias se agrupan a lo largo de filamentos, con vacíos entre ellos.",
+        "de": "Die größte Struktur des Universums – Galaxien sammeln sich entlang von Filamenten, dazwischen liegen leere Voids.",
+        "zh-TW": "宇宙中最大尺度的網狀結構——星系沿著纖維狀結構聚集，之間則是空曠的空洞。",
+        "pt-BR": "A maior estrutura do universo — as galáxias se agrupam ao longo de filamentos, com vazios entre elas."
       },
       "scene": "scene-large-scale",
       "hostCard": false,
@@ -38,6 +48,56 @@
             "label": "Made of",
             "value": "Clusters · filaments · voids"
           }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "数億光年～"
+          },
+          {
+            "label": "構成",
+            "value": "銀河団・フィラメント・ボイド"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Cientos de millones de años luz+"
+          },
+          {
+            "label": "Composición",
+            "value": "Cúmulos · filamentos · vacíos"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Hunderte Millionen Lichtjahre+"
+          },
+          {
+            "label": "Bestandteile",
+            "value": "Haufen · Filamente · Voids"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "數億光年以上"
+          },
+          {
+            "label": "組成",
+            "value": "星系團・纖維狀結構・空洞"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Centenas de milhões de anos-luz+"
+          },
+          {
+            "label": "Composição",
+            "value": "Aglomerados · filamentos · vazios"
+          }
         ]
       },
       "related": [
@@ -55,11 +115,21 @@
       "type": "object",
       "name": "국부 은하군",
       "nameI18n": {
-        "en": "Local Group"
+        "en": "Local Group",
+        "ja": "局所銀河群",
+        "es": "Grupo Local",
+        "de": "Lokale Gruppe",
+        "zh-TW": "本星系群",
+        "pt-BR": "Grupo Local"
       },
       "summary": "우리 은하와 안드로메다를 포함한 약 80개 은하의 무리. 우리가 속한 가장 작은 단위.",
       "summaryI18n": {
-        "en": "The group of ~80 galaxies including the Milky Way and Andromeda — the smallest unit we belong to."
+        "en": "The group of ~80 galaxies including the Milky Way and Andromeda — the smallest unit we belong to.",
+        "ja": "天の川銀河とアンドロメダ銀河を含む約80個の銀河の集まり。私たちが属する最小の単位。",
+        "es": "El grupo de unas 80 galaxias que incluye la Vía Láctea y Andrómeda: la unidad más pequeña a la que pertenecemos.",
+        "de": "Die Gruppe von rund 80 Galaxien einschließlich Milchstraße und Andromeda – die kleinste Einheit, zu der wir gehören.",
+        "zh-TW": "包含銀河系與仙女座星系在內、約80個星系組成的集團，是我們所屬的最小單位。",
+        "pt-BR": "O grupo de cerca de 80 galáxias que inclui a Via Láctea e Andrômeda — a menor unidade à qual pertencemos."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -90,6 +160,76 @@
             "label": "Diameter",
             "value": "~10 million ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "銀河群"
+          },
+          {
+            "label": "メンバー",
+            "value": "天の川銀河・アンドロメダ銀河 ほか約80個"
+          },
+          {
+            "label": "直径",
+            "value": "約1,000万光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Grupo de galaxias"
+          },
+          {
+            "label": "Miembros",
+            "value": "Vía Láctea, Andrómeda, ~80"
+          },
+          {
+            "label": "Diámetro",
+            "value": "~10 millones de años luz"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Galaxiengruppe"
+          },
+          {
+            "label": "Mitglieder",
+            "value": "Milchstraße, Andromeda, ~80"
+          },
+          {
+            "label": "Durchmesser",
+            "value": "~10 Millionen Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "星系群"
+          },
+          {
+            "label": "成員",
+            "value": "銀河系、仙女座星系等約80個"
+          },
+          {
+            "label": "直徑",
+            "value": "約1,000萬光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Grupo de galáxias"
+          },
+          {
+            "label": "Membros",
+            "value": "Via Láctea, Andrômeda, ~80"
+          },
+          {
+            "label": "Diâmetro",
+            "value": "~10 milhões de anos-luz"
+          }
         ]
       },
       "related": [
@@ -118,11 +258,21 @@
       "type": "object",
       "name": "처녀자리 은하단",
       "nameI18n": {
-        "en": "Virgo Cluster"
+        "en": "Virgo Cluster",
+        "ja": "おとめ座銀河団",
+        "es": "Cúmulo de Virgo",
+        "de": "Virgo-Galaxienhaufen",
+        "zh-TW": "室女座星系團",
+        "pt-BR": "Aglomerado de Virgem"
       },
       "summary": "우리에게 가장 가까운 대형 은하단. 1,000개가 넘는 은하가 중력으로 묶여 있다.",
       "summaryI18n": {
-        "en": "The nearest large galaxy cluster — over a thousand galaxies bound together by gravity."
+        "en": "The nearest large galaxy cluster — over a thousand galaxies bound together by gravity.",
+        "ja": "私たちに最も近い大型の銀河団。1,000個を超える銀河が重力で結びついている。",
+        "es": "El cúmulo de galaxias grande más cercano a nosotros: más de mil galaxias unidas por la gravedad.",
+        "de": "Der uns nächstgelegene große Galaxienhaufen – über tausend Galaxien, durch die Schwerkraft zusammengehalten.",
+        "zh-TW": "距離我們最近的大型星系團，超過一千個星系藉由重力聚集在一起。",
+        "pt-BR": "O aglomerado de galáxias grande mais próximo de nós — mais de mil galáxias unidas pela gravidade."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -152,6 +302,76 @@
           {
             "label": "Distance",
             "value": "~54 million ly"
+          }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "銀河団"
+          },
+          {
+            "label": "銀河数",
+            "value": "約1,300～2,000個"
+          },
+          {
+            "label": "距離",
+            "value": "約5,400万光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Cúmulo de galaxias"
+          },
+          {
+            "label": "Galaxias",
+            "value": "~1.300–2.000"
+          },
+          {
+            "label": "Distancia",
+            "value": "~54 millones de años luz"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Galaxienhaufen"
+          },
+          {
+            "label": "Galaxien",
+            "value": "~1.300–2.000"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~54 Millionen Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "星系團"
+          },
+          {
+            "label": "星系數",
+            "value": "約1,300～2,000個"
+          },
+          {
+            "label": "距離",
+            "value": "約5,400萬光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Aglomerado de galáxias"
+          },
+          {
+            "label": "Galáxias",
+            "value": "~1.300–2.000"
+          },
+          {
+            "label": "Distância",
+            "value": "~54 milhões de anos-luz"
           }
         ]
       },
@@ -183,11 +403,21 @@
       "type": "object",
       "name": "처녀자리 초은하단",
       "nameI18n": {
-        "en": "Virgo Supercluster"
+        "en": "Virgo Supercluster",
+        "ja": "おとめ座超銀河団",
+        "es": "Supercúmulo de Virgo",
+        "de": "Virgo-Superhaufen",
+        "zh-TW": "室女座超星系團",
+        "pt-BR": "Superaglomerado de Virgem"
       },
       "summary": "국부 은하군을 품는 초은하단. 수만 개의 은하가 지름 1억 광년 규모로 퍼져 있다.",
       "summaryI18n": {
-        "en": "The supercluster that contains our Local Group — tens of thousands of galaxies spread over ~110 million light-years."
+        "en": "The supercluster that contains our Local Group — tens of thousands of galaxies spread over ~110 million light-years.",
+        "ja": "局所銀河群を含む超銀河団。数万個の銀河が直径約1億1,000万光年にわたって広がっている。",
+        "es": "El supercúmulo que contiene nuestro Grupo Local: decenas de miles de galaxias repartidas por unos 110 millones de años luz.",
+        "de": "Der Superhaufen, der unsere Lokale Gruppe enthält – Zehntausende Galaxien, verteilt über rund 110 Millionen Lichtjahre.",
+        "zh-TW": "包含本星系群的超星系團，數萬個星系分布在直徑約1.1億光年的範圍內。",
+        "pt-BR": "O superaglomerado que contém nosso Grupo Local — dezenas de milhares de galáxias espalhadas por cerca de 110 milhões de anos-luz."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -217,6 +447,76 @@
           {
             "label": "Diameter",
             "value": "~110 million ly"
+          }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "超銀河団"
+          },
+          {
+            "label": "内包",
+            "value": "局所銀河群"
+          },
+          {
+            "label": "直径",
+            "value": "約1億1,000万光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Supercúmulo"
+          },
+          {
+            "label": "Contiene",
+            "value": "Nuestro Grupo Local"
+          },
+          {
+            "label": "Diámetro",
+            "value": "~110 millones de años luz"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Superhaufen"
+          },
+          {
+            "label": "Enthält",
+            "value": "Unsere Lokale Gruppe"
+          },
+          {
+            "label": "Durchmesser",
+            "value": "~110 Millionen Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "超星系團"
+          },
+          {
+            "label": "包含",
+            "value": "本星系群"
+          },
+          {
+            "label": "直徑",
+            "value": "約1.1億光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Superaglomerado"
+          },
+          {
+            "label": "Contém",
+            "value": "Nosso Grupo Local"
+          },
+          {
+            "label": "Diâmetro",
+            "value": "~110 milhões de anos-luz"
           }
         ]
       },
@@ -248,11 +548,21 @@
       "type": "object",
       "name": "라니아케아 초은하단",
       "nameI18n": {
-        "en": "Laniakea Supercluster"
+        "en": "Laniakea Supercluster",
+        "ja": "ラニアケア超銀河団",
+        "es": "Supercúmulo de Laniakea",
+        "de": "Laniakea-Superhaufen",
+        "zh-TW": "拉尼亞凱亞超星系團",
+        "pt-BR": "Superaglomerado de Laniakea"
       },
       "summary": "우리 은하가 속한 고향 초은하단. 약 10만 개의 은하가 5억 광년에 걸쳐 흐르듯 모인다.",
       "summaryI18n": {
-        "en": "Our home supercluster — about 100,000 galaxies flowing together across ~520 million light-years."
+        "en": "Our home supercluster — about 100,000 galaxies flowing together across ~520 million light-years.",
+        "ja": "天の川銀河が属する故郷の超銀河団。約10万個の銀河が約5億2,000万光年にわたり流れるように集まる。",
+        "es": "Nuestro supercúmulo natal: unas 100.000 galaxias que fluyen juntas a lo largo de unos 520 millones de años luz.",
+        "de": "Unser heimatlicher Superhaufen – rund 100.000 Galaxien, die über etwa 520 Millionen Lichtjahre zusammenströmen.",
+        "zh-TW": "銀河系所屬的家鄉超星系團，約10萬個星系在約5.2億光年的範圍內如流水般匯聚。",
+        "pt-BR": "Nosso superaglomerado natal — cerca de 100.000 galáxias que fluem juntas ao longo de aproximadamente 520 milhões de anos-luz."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -282,6 +592,76 @@
           {
             "label": "Diameter",
             "value": "~520 million ly"
+          }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "超銀河団（私たちの故郷）"
+          },
+          {
+            "label": "銀河数",
+            "value": "約10万個"
+          },
+          {
+            "label": "直径",
+            "value": "約5億2,000万光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Supercúmulo (nuestro hogar)"
+          },
+          {
+            "label": "Galaxias",
+            "value": "~100.000"
+          },
+          {
+            "label": "Diámetro",
+            "value": "~520 millones de años luz"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Superhaufen (unsere Heimat)"
+          },
+          {
+            "label": "Galaxien",
+            "value": "~100.000"
+          },
+          {
+            "label": "Durchmesser",
+            "value": "~520 Millionen Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "超星系團（我們的家鄉）"
+          },
+          {
+            "label": "星系數",
+            "value": "約10萬個"
+          },
+          {
+            "label": "直徑",
+            "value": "約5.2億光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Superaglomerado (nosso lar)"
+          },
+          {
+            "label": "Galáxias",
+            "value": "~100.000"
+          },
+          {
+            "label": "Diâmetro",
+            "value": "~520 milhões de anos-luz"
           }
         ]
       },
@@ -313,11 +693,21 @@
       "type": "object",
       "name": "슬론 장성",
       "nameI18n": {
-        "en": "Sloan Great Wall"
+        "en": "Sloan Great Wall",
+        "ja": "スローン・グレートウォール",
+        "es": "Gran Muralla Sloan",
+        "de": "Sloan Great Wall",
+        "zh-TW": "史隆長城",
+        "pt-BR": "Grande Muralha Sloan"
       },
       "summary": "은하가 실처럼 이어진 거대한 벽(필라멘트). 알려진 우주 구조 중 최대급이다.",
       "summaryI18n": {
-        "en": "A colossal wall of galaxies strung together like a filament — one of the largest known structures in the universe."
+        "en": "A colossal wall of galaxies strung together like a filament — one of the largest known structures in the universe.",
+        "ja": "銀河が糸のように連なった巨大な壁（フィラメント）。知られている宇宙の構造の中でも最大級。",
+        "es": "Un colosal muro de galaxias enlazadas como un filamento: una de las mayores estructuras conocidas del universo.",
+        "de": "Eine gewaltige Mauer aus Galaxien, wie ein Filament aufgereiht – eine der größten bekannten Strukturen des Universums.",
+        "zh-TW": "星系如絲線般串聯而成的巨大牆狀結構（纖維狀結構），是已知宇宙中最大級的結構之一。",
+        "pt-BR": "Uma colossal muralha de galáxias alinhadas como um filamento — uma das maiores estruturas conhecidas do universo."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -347,6 +737,76 @@
           {
             "label": "Note",
             "value": "One of the largest known structures"
+          }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "グレートウォール（フィラメント）"
+          },
+          {
+            "label": "長さ",
+            "value": "約13.7億光年"
+          },
+          {
+            "label": "特徴",
+            "value": "知られている最大級の構造"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Gran muralla (filamento)"
+          },
+          {
+            "label": "Longitud",
+            "value": "~1.370 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Una de las mayores estructuras conocidas"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Große Mauer (Filament)"
+          },
+          {
+            "label": "Länge",
+            "value": "~1,37 Milliarden Lj"
+          },
+          {
+            "label": "Besonderheit",
+            "value": "Eine der größten bekannten Strukturen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "長城（纖維狀結構）"
+          },
+          {
+            "label": "長度",
+            "value": "約13.7億光年"
+          },
+          {
+            "label": "特點",
+            "value": "已知最大級的結構之一"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Grande muralha (filamento)"
+          },
+          {
+            "label": "Comprimento",
+            "value": "~1,37 bilhão de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Uma das maiores estruturas conhecidas"
           }
         ]
       },
@@ -378,11 +838,21 @@
       "type": "object",
       "name": "부트 보이드",
       "nameI18n": {
-        "en": "Boötes Void"
+        "en": "Boötes Void",
+        "ja": "うしかい座ボイド",
+        "es": "Vacío de Bootes",
+        "de": "Bootes Void",
+        "zh-TW": "牧夫座空洞",
+        "pt-BR": "Vazio de Boötes"
       },
       "summary": "은하가 거의 없는 거대한 빈 공간. 지름 3억 광년의 「거대한 무(無)」로 불린다.",
       "summaryI18n": {
-        "en": "A vast empty region with almost no galaxies — a ~330-million-light-year \"Great Nothing\"."
+        "en": "A vast empty region with almost no galaxies — a ~330-million-light-year \"Great Nothing\".",
+        "ja": "銀河がほとんど存在しない巨大な空虚な領域。直径約3億3,000万光年の「大いなる無」と呼ばれる。",
+        "es": "Una vasta región vacía casi sin galaxias: la «Gran Nada» de unos 330 millones de años luz.",
+        "de": "Eine riesige leere Region fast ohne Galaxien – das „große Nichts“ mit rund 330 Millionen Lichtjahren Durchmesser.",
+        "zh-TW": "幾乎沒有星系的巨大空曠區域，直徑約3.3億光年，被稱為「巨大的虛無」。",
+        "pt-BR": "Uma vasta região vazia quase sem galáxias — o \"Grande Nada\" de cerca de 330 milhões de anos-luz."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -413,6 +883,76 @@
             "label": "Note",
             "value": "\"The Great Nothing\", nearly empty"
           }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "ボイド"
+          },
+          {
+            "label": "直径",
+            "value": "約3億3,000万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "「大いなる無」、ほぼ空"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Vacío"
+          },
+          {
+            "label": "Diámetro",
+            "value": "~330 millones de años luz"
+          },
+          {
+            "label": "Nota",
+            "value": "«La Gran Nada», casi vacío"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Void"
+          },
+          {
+            "label": "Durchmesser",
+            "value": "~330 Millionen Lj"
+          },
+          {
+            "label": "Besonderheit",
+            "value": "„Das große Nichts“, nahezu leer"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "空洞"
+          },
+          {
+            "label": "直徑",
+            "value": "約3.3億光年"
+          },
+          {
+            "label": "特點",
+            "value": "「巨大的虛無」，幾乎空無一物"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Vazio"
+          },
+          {
+            "label": "Diâmetro",
+            "value": "~330 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "\"O Grande Nada\", quase vazio"
+          }
         ]
       },
       "related": [
@@ -442,11 +982,21 @@
       "type": "object",
       "name": "우주배경복사 (CMB)",
       "nameI18n": {
-        "en": "Cosmic Microwave Background"
+        "en": "Cosmic Microwave Background",
+        "ja": "宇宙マイクロ波背景放射",
+        "es": "Fondo cósmico de microondas",
+        "de": "Kosmische Hintergrundstrahlung",
+        "zh-TW": "宇宙微波背景輻射",
+        "pt-BR": "Radiação cósmica de fundo em micro-ondas"
       },
       "summary": "빅뱅 약 38만 년 뒤 퍼져나온 우주에서 가장 오래된 빛. 우주 전체를 채우는 잔광이다.",
       "summaryI18n": {
-        "en": "The oldest light in the universe, released ~380,000 years after the Big Bang — an afterglow filling all of space."
+        "en": "The oldest light in the universe, released ~380,000 years after the Big Bang — an afterglow filling all of space.",
+        "ja": "ビッグバンから約38万年後に放たれた、宇宙で最も古い光。宇宙全体を満たす残光である。",
+        "es": "La luz más antigua del universo, liberada unos 380.000 años después del Big Bang: un resplandor que llena todo el espacio.",
+        "de": "Das älteste Licht im Universum, freigesetzt rund 380.000 Jahre nach dem Urknall – ein Nachglühen, das den ganzen Raum erfüllt.",
+        "zh-TW": "大霹靂約38萬年後釋放出的宇宙中最古老的光，是充滿整個宇宙的餘暉。",
+        "pt-BR": "A luz mais antiga do universo, liberada cerca de 380.000 anos após o Big Bang — uma luminescência residual que preenche todo o espaço."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -477,6 +1027,76 @@
             "label": "Note",
             "value": "The oldest light in the universe"
           }
+        ],
+        "ja": [
+          {
+            "label": "正体",
+            "value": "宇宙マイクロ波背景放射"
+          },
+          {
+            "label": "年代",
+            "value": "ビッグバンから約38万年後"
+          },
+          {
+            "label": "特徴",
+            "value": "宇宙で最も古い光"
+          }
+        ],
+        "es": [
+          {
+            "label": "Qué es",
+            "value": "Fondo cósmico de microondas"
+          },
+          {
+            "label": "Edad",
+            "value": "~380.000 años tras el Big Bang"
+          },
+          {
+            "label": "Nota",
+            "value": "La luz más antigua del universo"
+          }
+        ],
+        "de": [
+          {
+            "label": "Was",
+            "value": "Kosmische Hintergrundstrahlung"
+          },
+          {
+            "label": "Alter",
+            "value": "~380.000 Jahre nach dem Urknall"
+          },
+          {
+            "label": "Besonderheit",
+            "value": "Das älteste Licht im Universum"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "本質",
+            "value": "宇宙微波背景輻射"
+          },
+          {
+            "label": "年齡",
+            "value": "大霹靂後約38萬年"
+          },
+          {
+            "label": "特點",
+            "value": "宇宙中最古老的光"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "O que é",
+            "value": "Radiação cósmica de fundo em micro-ondas"
+          },
+          {
+            "label": "Idade",
+            "value": "~380.000 anos após o Big Bang"
+          },
+          {
+            "label": "Nota",
+            "value": "A luz mais antiga do universo"
+          }
         ]
       },
       "related": [
@@ -505,11 +1125,21 @@
       "type": "object",
       "name": "헤라클레스자리-북쪽왕관자리 장성",
       "nameI18n": {
-        "en": "Hercules–Corona Borealis Great Wall"
+        "en": "Hercules–Corona Borealis Great Wall",
+        "ja": "ヘルクレス座・かんむり座グレートウォール",
+        "es": "Gran Muralla de Hércules-Corona Boreal",
+        "de": "Hercules–Corona Borealis Great Wall",
+        "zh-TW": "武仙-北冕座長城",
+        "pt-BR": "Grande Muralha Hércules-Corona Borealis"
       },
       "summary": "감마선 폭발의 분포로 발견된 초거대 구조. 지름 약 100억 광년으로, 알려진 우주 최대 구조 중 하나다.",
       "summaryI18n": {
-        "en": "A colossal structure revealed by the clustering of gamma-ray bursts — about 10 billion light-years across, one of the largest known in the universe."
+        "en": "A colossal structure revealed by the clustering of gamma-ray bursts — about 10 billion light-years across, one of the largest known in the universe.",
+        "ja": "ガンマ線バーストの分布から発見された超巨大構造。差し渡し約100億光年で、知られている宇宙最大級の構造の一つ。",
+        "es": "Una estructura colosal revelada por la agrupación de estallidos de rayos gamma: unos 10.000 millones de años luz de extensión, una de las mayores conocidas del universo.",
+        "de": "Eine kolossale Struktur, die durch die Häufung von Gammablitzen entdeckt wurde – etwa 10 Milliarden Lichtjahre groß, eine der größten bekannten im Universum.",
+        "zh-TW": "藉由伽瑪射線暴的分布而發現的超巨大結構，跨度約100億光年，是已知宇宙中最大級的結構之一。",
+        "pt-BR": "Uma estrutura colossal revelada pelo agrupamento de erupções de raios gama — cerca de 10 bilhões de anos-luz de extensão, uma das maiores conhecidas do universo."
       },
       "scene": "scene-large-scale",
       "facts": [
@@ -539,6 +1169,76 @@
           {
             "label": "Found",
             "value": "GRB distribution (2013)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "スケール",
+            "value": "超巨大グレートウォール"
+          },
+          {
+            "label": "大きさ",
+            "value": "約100億光年"
+          },
+          {
+            "label": "発見",
+            "value": "ガンマ線バーストの分布 (2013)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escala",
+            "value": "Muralla colosal"
+          },
+          {
+            "label": "Tamaño",
+            "value": "~10.000 millones de años luz"
+          },
+          {
+            "label": "Descubrimiento",
+            "value": "Distribución de GRB (2013)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Größenordnung",
+            "value": "Kolossale Mauer"
+          },
+          {
+            "label": "Größe",
+            "value": "~10 Milliarden Lj"
+          },
+          {
+            "label": "Entdeckung",
+            "value": "GRB-Verteilung (2013)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "尺度",
+            "value": "超巨大長城"
+          },
+          {
+            "label": "大小",
+            "value": "約100億光年"
+          },
+          {
+            "label": "發現",
+            "value": "伽瑪射線暴分布（2013）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Escala",
+            "value": "Muralha colossal"
+          },
+          {
+            "label": "Tamanho",
+            "value": "~10 bilhões de anos-luz"
+          },
+          {
+            "label": "Descoberta",
+            "value": "Distribuição de GRBs (2013)"
           }
         ]
       },

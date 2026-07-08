@@ -10,11 +10,21 @@
       "featured": true,
       "name": "밀도 체감",
       "nameI18n": {
-        "en": "Feel the Density"
+        "en": "Feel the Density",
+        "ja": "密度を体感",
+        "es": "Siente la densidad",
+        "de": "Dichte erleben",
+        "zh-TW": "感受密度",
+        "pt-BR": "Sinta a densidade"
       },
       "summary": "백색왜성·중성자별·블랙홀의 크기와 밀도를 눈으로 비교. 태양을 압축해보세요.",
       "summaryI18n": {
-        "en": "Compare the size and density of white dwarfs, neutron stars, and black holes — compress the Sun and watch."
+        "en": "Compare the size and density of white dwarfs, neutron stars, and black holes — compress the Sun and watch.",
+        "ja": "白色矮星・中性子星・ブラックホールの大きさと密度を目で比較。太陽を圧縮してみよう。",
+        "es": "Compara el tamaño y la densidad de enanas blancas, estrellas de neutrones y agujeros negros: comprime el Sol y observa.",
+        "de": "Vergleiche Größe und Dichte von Weißen Zwergen, Neutronensternen und Schwarzen Löchern – komprimiere die Sonne und schau zu.",
+        "zh-TW": "比較白矮星、中子星與黑洞的大小和密度——壓縮太陽,親眼觀察。",
+        "pt-BR": "Compare o tamanho e a densidade de anãs brancas, estrelas de nêutrons e buracos negros: comprima o Sol e observe."
       },
       "scene": "scene-remnants",
       "hostCard": false,
@@ -38,6 +48,56 @@
             "label": "Demo",
             "value": "Compress one solar mass"
           }
+        ],
+        "ja": [
+          {
+            "label": "対象",
+            "value": "白色矮星・中性子星・ブラックホール"
+          },
+          {
+            "label": "体感",
+            "value": "太陽質量を圧縮"
+          }
+        ],
+        "es": [
+          {
+            "label": "Objetos",
+            "value": "Enana blanca · estrella de neutrones · agujero negro"
+          },
+          {
+            "label": "Demostración",
+            "value": "Comprime una masa solar"
+          }
+        ],
+        "de": [
+          {
+            "label": "Objekte",
+            "value": "Weißer Zwerg · Neutronenstern · Schwarzes Loch"
+          },
+          {
+            "label": "Demo",
+            "value": "Eine Sonnenmasse komprimieren"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "對象",
+            "value": "白矮星 · 中子星 · 黑洞"
+          },
+          {
+            "label": "體驗",
+            "value": "壓縮一個太陽質量"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Objetos",
+            "value": "Anã branca · estrela de nêutrons · buraco negro"
+          },
+          {
+            "label": "Demonstração",
+            "value": "Comprima uma massa solar"
+          }
         ]
       },
       "related": [
@@ -55,11 +115,21 @@
       "type": "object",
       "name": "게성운 펄사",
       "nameI18n": {
-        "en": "Crab Pulsar"
+        "en": "Crab Pulsar",
+        "ja": "かにパルサー",
+        "es": "Púlsar del Cangrejo",
+        "de": "Krebspulsar",
+        "zh-TW": "蟹狀星雲脈衝星",
+        "pt-BR": "Pulsar do Caranguejo"
       },
       "summary": "1054년 초신성이 남긴 중성자별. 게 성운(M1) 중심에서 초당 약 30회 회전하며 맥동한다.",
       "summaryI18n": {
-        "en": "The neutron star left by the supernova of 1054 — it spins ~30 times per second at the heart of the Crab Nebula (M1)."
+        "en": "The neutron star left by the supernova of 1054 — it spins ~30 times per second at the heart of the Crab Nebula (M1).",
+        "ja": "1054年の超新星が残した中性子星。かに星雲(M1)の中心で毎秒約30回転して脈動する。",
+        "es": "La estrella de neutrones que dejó la supernova de 1054: gira unas 30 veces por segundo en el corazón de la Nebulosa del Cangrejo (M1).",
+        "de": "Der Neutronenstern, den die Supernova von 1054 hinterließ – er rotiert etwa 30-mal pro Sekunde im Herzen des Krebsnebels (M1).",
+        "zh-TW": "1054年超新星留下的中子星,在蟹狀星雲(M1)中心每秒自轉約30次並脈動。",
+        "pt-BR": "A estrela de nêutrons deixada pela supernova de 1054: gira cerca de 30 vezes por segundo no coração da Nebulosa do Caranguejo (M1)."
       },
       "scene": "scene-remnants",
       "sceneFocus": "ns",
@@ -91,6 +161,76 @@
             "label": "Spin",
             "value": "~30 per second"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "パルサー(中性子星)"
+          },
+          {
+            "label": "起源",
+            "value": "SN 1054 → かに星雲(M1)"
+          },
+          {
+            "label": "自転",
+            "value": "毎秒約30回"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Púlsar (estrella de neutrones)"
+          },
+          {
+            "label": "Origen",
+            "value": "SN 1054 → Nebulosa del Cangrejo (M1)"
+          },
+          {
+            "label": "Rotación",
+            "value": "~30 por segundo"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Pulsar (Neutronenstern)"
+          },
+          {
+            "label": "Ursprung",
+            "value": "SN 1054 → Krebsnebel (M1)"
+          },
+          {
+            "label": "Rotation",
+            "value": "~30 pro Sekunde"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "脈衝星(中子星)"
+          },
+          {
+            "label": "起源",
+            "value": "SN 1054 → 蟹狀星雲(M1)"
+          },
+          {
+            "label": "自轉",
+            "value": "每秒約30次"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Pulsar (estrela de nêutrons)"
+          },
+          {
+            "label": "Origem",
+            "value": "SN 1054 → Nebulosa do Caranguejo (M1)"
+          },
+          {
+            "label": "Rotação",
+            "value": "~30 por segundo"
+          }
         ]
       },
       "related": [
@@ -120,11 +260,21 @@
       "type": "object",
       "name": "벨라 펄사",
       "nameI18n": {
-        "en": "Vela Pulsar"
+        "en": "Vela Pulsar",
+        "ja": "ベラパルサー",
+        "es": "Púlsar de Vela",
+        "de": "Vela-Pulsar",
+        "zh-TW": "船帆座脈衝星",
+        "pt-BR": "Pulsar de Vela"
       },
       "summary": "약 1만 년 전 초신성 잔해 속 중성자별. 감마선으로도 밝게 맥동하는 대표 펄사.",
       "summaryI18n": {
-        "en": "A neutron star inside an ~11,000-year-old supernova remnant — a bright gamma-ray pulsar."
+        "en": "A neutron star inside an ~11,000-year-old supernova remnant — a bright gamma-ray pulsar.",
+        "ja": "約1万1千年前の超新星残骸の中にある中性子星。ガンマ線でも明るく脈動する代表的なパルサー。",
+        "es": "Una estrella de neutrones dentro de un remanente de supernova de unos 11.000 años: un púlsar brillante en rayos gamma.",
+        "de": "Ein Neutronenstern in einem etwa 11.000 Jahre alten Supernova-Überrest – ein heller Gammastrahlen-Pulsar.",
+        "zh-TW": "位於約1萬1千年前超新星殘骸中的中子星,是一顆在伽瑪射線下明亮脈動的代表性脈衝星。",
+        "pt-BR": "Uma estrela de nêutrons dentro de um remanescente de supernova com cerca de 11.000 anos: um pulsar brilhante em raios gama."
       },
       "scene": "scene-remnants",
       "sceneFocus": "ns",
@@ -156,6 +306,76 @@
             "label": "Distance",
             "value": "~1,000 ly"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "パルサー(中性子星)"
+          },
+          {
+            "label": "自転",
+            "value": "毎秒約11回"
+          },
+          {
+            "label": "距離",
+            "value": "約1,000光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Púlsar (estrella de neutrones)"
+          },
+          {
+            "label": "Rotación",
+            "value": "~11 por segundo"
+          },
+          {
+            "label": "Distancia",
+            "value": "~1.000 años luz"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Pulsar (Neutronenstern)"
+          },
+          {
+            "label": "Rotation",
+            "value": "~11 pro Sekunde"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~1.000 Lichtjahre"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "脈衝星(中子星)"
+          },
+          {
+            "label": "自轉",
+            "value": "每秒約11次"
+          },
+          {
+            "label": "距離",
+            "value": "約1,000光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Pulsar (estrela de nêutrons)"
+          },
+          {
+            "label": "Rotação",
+            "value": "~11 por segundo"
+          },
+          {
+            "label": "Distância",
+            "value": "~1.000 anos-luz"
+          }
         ]
       },
       "related": [
@@ -184,11 +404,21 @@
       "type": "object",
       "name": "시리우스 B",
       "nameI18n": {
-        "en": "Sirius B"
+        "en": "Sirius B",
+        "ja": "シリウスB",
+        "es": "Sirio B",
+        "de": "Sirius B",
+        "zh-TW": "天狼星B",
+        "pt-BR": "Sirius B"
       },
       "summary": "밤하늘 가장 밝은 별 시리우스의 동반 백색왜성. 지구 크기에 태양급 질량이 담긴 잔해.",
       "summaryI18n": {
-        "en": "The white-dwarf companion of Sirius, the brightest star — a solar mass packed into an Earth-sized remnant."
+        "en": "The white-dwarf companion of Sirius, the brightest star — a solar mass packed into an Earth-sized remnant.",
+        "ja": "夜空で最も明るい星シリウスの伴星である白色矮星。地球サイズに太陽級の質量が詰まった残骸。",
+        "es": "La enana blanca compañera de Sirio, la estrella más brillante: una masa solar comprimida en un remanente del tamaño de la Tierra.",
+        "de": "Der Weiße Zwerg als Begleiter von Sirius, dem hellsten Stern – eine Sonnenmasse, gepackt in einen erdgroßen Überrest.",
+        "zh-TW": "夜空中最亮恆星天狼星的白矮星伴星,將相當於太陽的質量壓縮在地球大小的殘骸中。",
+        "pt-BR": "A anã branca companheira de Sirius, a estrela mais brilhante: uma massa solar comprimida em um remanescente do tamanho da Terra."
       },
       "scene": "scene-remnants",
       "sceneFocus": "wd",
@@ -220,6 +450,76 @@
             "label": "Companion",
             "value": "Sirius A"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "白色矮星"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約1倍(地球サイズ)"
+          },
+          {
+            "label": "伴星",
+            "value": "シリウスA"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Enana blanca"
+          },
+          {
+            "label": "Masa",
+            "value": "~1 solar (tamaño de la Tierra)"
+          },
+          {
+            "label": "Compañera",
+            "value": "Sirio A"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Weißer Zwerg"
+          },
+          {
+            "label": "Masse",
+            "value": "~1 Sonnenmasse (erdgroß)"
+          },
+          {
+            "label": "Begleiter",
+            "value": "Sirius A"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "白矮星"
+          },
+          {
+            "label": "質量",
+            "value": "約1個太陽質量(地球大小)"
+          },
+          {
+            "label": "伴星",
+            "value": "天狼星A"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Anã branca"
+          },
+          {
+            "label": "Massa",
+            "value": "~1 massa solar (tamanho da Terra)"
+          },
+          {
+            "label": "Companheira",
+            "value": "Sirius A"
+          }
         ]
       },
       "related": [
@@ -249,11 +549,21 @@
       "type": "object",
       "name": "프로키온 B",
       "nameI18n": {
-        "en": "Procyon B"
+        "en": "Procyon B",
+        "ja": "プロキオンB",
+        "es": "Procyon B",
+        "de": "Prokyon B",
+        "zh-TW": "南河三B",
+        "pt-BR": "Prócion B"
       },
       "summary": "작은개자리 프로키온의 동반 백색왜성. 11.5광년 거리의 가까운 항성 잔해.",
       "summaryI18n": {
-        "en": "The white-dwarf companion of Procyon in Canis Minor — a nearby stellar remnant 11.5 light-years away."
+        "en": "The white-dwarf companion of Procyon in Canis Minor — a nearby stellar remnant 11.5 light-years away.",
+        "ja": "こいぬ座のプロキオンの伴星である白色矮星。11.5光年の距離にある近い恒星の残骸。",
+        "es": "La enana blanca compañera de Procyon en Can Menor: un remanente estelar cercano a 11,5 años luz.",
+        "de": "Der Weiße Zwerg als Begleiter von Prokyon im Kleinen Hund – ein naher Sternüberrest in 11,5 Lichtjahren Entfernung.",
+        "zh-TW": "小犬座南河三的白矮星伴星,是距離11.5光年的鄰近恆星殘骸。",
+        "pt-BR": "A anã branca companheira de Prócion em Cão Menor: um remanescente estelar próximo a 11,5 anos-luz."
       },
       "scene": "scene-remnants",
       "sceneFocus": "wd",
@@ -285,6 +595,76 @@
             "label": "Companion",
             "value": "Procyon A"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "白色矮星"
+          },
+          {
+            "label": "距離",
+            "value": "11.5光年"
+          },
+          {
+            "label": "伴星",
+            "value": "プロキオンA"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Enana blanca"
+          },
+          {
+            "label": "Distancia",
+            "value": "11,5 años luz"
+          },
+          {
+            "label": "Compañera",
+            "value": "Procyon A"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Weißer Zwerg"
+          },
+          {
+            "label": "Entfernung",
+            "value": "11,5 Lichtjahre"
+          },
+          {
+            "label": "Begleiter",
+            "value": "Prokyon A"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "白矮星"
+          },
+          {
+            "label": "距離",
+            "value": "11.5光年"
+          },
+          {
+            "label": "伴星",
+            "value": "南河三A"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Anã branca"
+          },
+          {
+            "label": "Distância",
+            "value": "11,5 anos-luz"
+          },
+          {
+            "label": "Companheira",
+            "value": "Prócion A"
+          }
         ]
       },
       "related": [
@@ -312,11 +692,21 @@
       "type": "object",
       "name": "백조자리 X-1",
       "nameI18n": {
-        "en": "Cygnus X-1"
+        "en": "Cygnus X-1",
+        "ja": "はくちょう座X-1",
+        "es": "Cygnus X-1",
+        "de": "Cygnus X-1",
+        "zh-TW": "天鵝座X-1",
+        "pt-BR": "Cygnus X-1"
       },
       "summary": "최초로 널리 인정된 항성질량 블랙홀. 동반성의 물질이 빨려들며 강한 X선을 낸다.",
       "summaryI18n": {
-        "en": "The first widely accepted stellar-mass black hole — it emits strong X-rays as it devours matter from a companion star."
+        "en": "The first widely accepted stellar-mass black hole — it emits strong X-rays as it devours matter from a companion star.",
+        "ja": "初めて広く認められた恒星質量ブラックホール。伴星の物質を飲み込みながら強いX線を放つ。",
+        "es": "El primer agujero negro de masa estelar ampliamente aceptado: emite intensos rayos X mientras devora materia de una estrella compañera.",
+        "de": "Das erste allgemein anerkannte Schwarze Loch stellarer Masse – es sendet starke Röntgenstrahlung aus, während es Materie von einem Begleitstern verschlingt.",
+        "zh-TW": "首個被廣泛認可的恆星質量黑洞,一邊吞噬伴星的物質,一邊發出強烈的X射線。",
+        "pt-BR": "O primeiro buraco negro de massa estelar amplamente aceito: emite intensos raios X enquanto devora matéria de uma estrela companheira."
       },
       "scene": "scene-remnants",
       "sceneFocus": "bh",
@@ -348,6 +738,76 @@
             "label": "Note",
             "value": "First confirmed BH candidate (1971)"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "恒星質量ブラックホール"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約21倍"
+          },
+          {
+            "label": "意義",
+            "value": "初の確認されたブラックホール候補(1971年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro de masa estelar"
+          },
+          {
+            "label": "Masa",
+            "value": "~21 masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primer candidato a agujero negro confirmado (1971)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Schwarzes Loch stellarer Masse"
+          },
+          {
+            "label": "Masse",
+            "value": "~21 Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Erster bestätigter Kandidat für ein Schwarzes Loch (1971)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "恆星質量黑洞"
+          },
+          {
+            "label": "質量",
+            "value": "約21個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "首個確認的黑洞候選體(1971年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro de massa estelar"
+          },
+          {
+            "label": "Massa",
+            "value": "~21 massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeiro candidato a buraco negro confirmado (1971)"
+          }
         ]
       },
       "related": [
@@ -376,11 +836,21 @@
       "type": "object",
       "name": "궁수자리 A*",
       "nameI18n": {
-        "en": "Sagittarius A*"
+        "en": "Sagittarius A*",
+        "ja": "いて座A*",
+        "es": "Sagitario A*",
+        "de": "Sagittarius A*",
+        "zh-TW": "人馬座A*",
+        "pt-BR": "Sagittarius A*"
       },
       "summary": "우리 은하 중심의 초대질량 블랙홀. 2022년 사건지평선망원경이 그 그림자를 촬영했다.",
       "summaryI18n": {
-        "en": "The supermassive black hole at the center of the Milky Way — the Event Horizon Telescope imaged its shadow in 2022."
+        "en": "The supermassive black hole at the center of the Milky Way — the Event Horizon Telescope imaged its shadow in 2022.",
+        "ja": "天の川銀河の中心にある超大質量ブラックホール。2022年、イベント・ホライズン・テレスコープがその影を撮影した。",
+        "es": "El agujero negro supermasivo en el centro de la Vía Láctea: el Telescopio del Horizonte de Sucesos fotografió su sombra en 2022.",
+        "de": "Das supermassereiche Schwarze Loch im Zentrum der Milchstraße – das Event Horizon Telescope bildete 2022 seinen Schatten ab.",
+        "zh-TW": "位於銀河系中心的超大質量黑洞,2022年事件視界望遠鏡拍攝到它的陰影。",
+        "pt-BR": "O buraco negro supermassivo no centro da Via Láctea: o Telescópio Event Horizon fotografou sua sombra em 2022."
       },
       "scene": "scene-remnants",
       "sceneFocus": "bh",
@@ -412,6 +882,76 @@
             "label": "Location",
             "value": "Milky Way center (~26,000 ly)"
           }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "超大質量ブラックホール"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約430万倍"
+          },
+          {
+            "label": "位置",
+            "value": "天の川銀河の中心(約26,000光年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro supermasivo"
+          },
+          {
+            "label": "Masa",
+            "value": "~4,3 millones de masas solares"
+          },
+          {
+            "label": "Ubicación",
+            "value": "Centro de la Vía Láctea (~26.000 años luz)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Supermassereiches Schwarzes Loch"
+          },
+          {
+            "label": "Masse",
+            "value": "~4,3 Millionen Sonnenmassen"
+          },
+          {
+            "label": "Standort",
+            "value": "Zentrum der Milchstraße (~26.000 Lichtjahre)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "超大質量黑洞"
+          },
+          {
+            "label": "質量",
+            "value": "約430萬個太陽質量"
+          },
+          {
+            "label": "位置",
+            "value": "銀河系中心(約26,000光年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro supermassivo"
+          },
+          {
+            "label": "Massa",
+            "value": "~4,3 milhões de massas solares"
+          },
+          {
+            "label": "Localização",
+            "value": "Centro da Via Láctea (~26.000 anos-luz)"
+          }
         ]
       },
       "related": [
@@ -441,11 +981,21 @@
       "type": "object",
       "name": "M87*",
       "nameI18n": {
-        "en": "M87*"
+        "en": "M87*",
+        "ja": "M87*",
+        "es": "M87*",
+        "de": "M87*",
+        "zh-TW": "M87*",
+        "pt-BR": "M87*"
       },
       "summary": "처녀자리 A 은하 중심의 초대질량 블랙홀. 2019년 사건지평선망원경(EHT)이 인류 최초로 블랙홀의 그림자를 촬영했다.",
       "summaryI18n": {
-        "en": "The supermassive black hole at the heart of galaxy M87 — the first black hole ever imaged, by the Event Horizon Telescope in 2019."
+        "en": "The supermassive black hole at the heart of galaxy M87 — the first black hole ever imaged, by the Event Horizon Telescope in 2019.",
+        "ja": "銀河M87の中心にある超大質量ブラックホール。2019年、イベント・ホライズン・テレスコープ(EHT)が人類で初めてブラックホールの影を撮影した。",
+        "es": "El agujero negro supermasivo en el corazón de la galaxia M87: el primero jamás fotografiado, por el Telescopio del Horizonte de Sucesos en 2019.",
+        "de": "Das supermassereiche Schwarze Loch im Herzen der Galaxie M87 – das erste jemals abgebildete Schwarze Loch, durch das Event Horizon Telescope 2019.",
+        "zh-TW": "位於M87星系中心的超大質量黑洞,是2019年事件視界望遠鏡(EHT)首次拍攝到的黑洞。",
+        "pt-BR": "O buraco negro supermassivo no coração da galáxia M87: o primeiro já fotografado, pelo Telescópio Event Horizon em 2019."
       },
       "scene": "scene-remnants",
       "sceneFocus": "bh",
@@ -476,6 +1026,76 @@
           {
             "label": "Note",
             "value": "First black hole imaged (2019)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "超大質量ブラックホール"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約65億倍"
+          },
+          {
+            "label": "意義",
+            "value": "初めて撮影されたブラックホール(2019年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro supermasivo"
+          },
+          {
+            "label": "Masa",
+            "value": "~6.500 millones de masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primer agujero negro fotografiado (2019)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Supermassereiches Schwarzes Loch"
+          },
+          {
+            "label": "Masse",
+            "value": "~6,5 Milliarden Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Erstes abgebildetes Schwarzes Loch (2019)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "超大質量黑洞"
+          },
+          {
+            "label": "質量",
+            "value": "約65億個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "首個被拍攝到的黑洞(2019年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro supermassivo"
+          },
+          {
+            "label": "Massa",
+            "value": "~6,5 bilhões de massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeiro buraco negro fotografado (2019)"
           }
         ]
       },

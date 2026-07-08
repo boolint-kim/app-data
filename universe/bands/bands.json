@@ -7,11 +7,21 @@
       "order": 1,
       "name": "태양계",
       "nameI18n": {
-        "en": "Solar System"
+        "en": "Solar System",
+        "ja": "太陽系",
+        "es": "Sistema Solar",
+        "de": "Sonnensystem",
+        "zh-TW": "太陽系",
+        "pt-BR": "Sistema Solar"
       },
       "scaleLabel": "AU",
       "scaleLabelI18n": {
-        "en": "AU"
+        "en": "AU",
+        "ja": "AU",
+        "es": "AU",
+        "de": "AU",
+        "zh-TW": "AU",
+        "pt-BR": "AU"
       },
       "accent": "#F2B33D",
       "lenses": [
@@ -27,11 +37,21 @@
       "order": 2,
       "name": "별·항성계",
       "nameI18n": {
-        "en": "Stars"
+        "en": "Stars",
+        "ja": "恒星",
+        "es": "Estrellas",
+        "de": "Sterne",
+        "zh-TW": "恆星",
+        "pt-BR": "Estrelas"
       },
       "scaleLabel": "광년",
       "scaleLabelI18n": {
-        "en": "light-years"
+        "en": "light-years",
+        "ja": "光年",
+        "es": "años luz",
+        "de": "Lichtjahre",
+        "zh-TW": "光年",
+        "pt-BR": "anos-luz"
       },
       "accent": "#6FA8FF",
       "lenses": [
@@ -46,11 +66,21 @@
       "order": 3,
       "name": "항성 잔해",
       "nameI18n": {
-        "en": "Stellar Remnants"
+        "en": "Stellar Remnants",
+        "ja": "恒星の残骸",
+        "es": "Remanentes Estelares",
+        "de": "Sternüberreste",
+        "zh-TW": "恆星殘骸",
+        "pt-BR": "Remanescentes Estelares"
       },
       "scaleLabel": "광년",
       "scaleLabelI18n": {
-        "en": "light-years"
+        "en": "light-years",
+        "ja": "光年",
+        "es": "años luz",
+        "de": "Lichtjahre",
+        "zh-TW": "光年",
+        "pt-BR": "anos-luz"
       },
       "accent": "#C39BFF",
       "lenses": [
@@ -64,11 +94,21 @@
       "order": 4,
       "name": "성간물질",
       "nameI18n": {
-        "en": "Interstellar Medium"
+        "en": "Interstellar Medium",
+        "ja": "星間物質",
+        "es": "Medio Interestelar",
+        "de": "Interstellares Medium",
+        "zh-TW": "星際物質",
+        "pt-BR": "Meio Interestelar"
       },
       "scaleLabel": "광년~수백 광년",
       "scaleLabelI18n": {
-        "en": "light-years to hundreds"
+        "en": "light-years to hundreds",
+        "ja": "光年～数百光年",
+        "es": "años luz a cientos",
+        "de": "Lichtjahre bis Hunderte",
+        "zh-TW": "光年至數百光年",
+        "pt-BR": "anos-luz a centenas"
       },
       "accent": "#FF6FB5",
       "lenses": [
@@ -82,11 +122,21 @@
       "order": 5,
       "name": "성단",
       "nameI18n": {
-        "en": "Star Clusters"
+        "en": "Star Clusters",
+        "ja": "星団",
+        "es": "Cúmulos Estelares",
+        "de": "Sternhaufen",
+        "zh-TW": "星團",
+        "pt-BR": "Aglomerados Estelares"
       },
       "scaleLabel": "광년",
       "scaleLabelI18n": {
-        "en": "light-years"
+        "en": "light-years",
+        "ja": "光年",
+        "es": "años luz",
+        "de": "Lichtjahre",
+        "zh-TW": "光年",
+        "pt-BR": "anos-luz"
       },
       "accent": "#3FD1C7",
       "lenses": [
@@ -101,11 +151,21 @@
       "order": 6,
       "name": "은하",
       "nameI18n": {
-        "en": "Galaxies"
+        "en": "Galaxies",
+        "ja": "銀河",
+        "es": "Galaxias",
+        "de": "Galaxien",
+        "zh-TW": "星系",
+        "pt-BR": "Galáxias"
       },
       "scaleLabel": "수만~수백만 광년",
       "scaleLabelI18n": {
-        "en": "tens of thousands to millions of light-years"
+        "en": "tens of thousands to millions of light-years",
+        "ja": "数万～数百万光年",
+        "es": "decenas de miles a millones de años luz",
+        "de": "Zehntausende bis Millionen Lichtjahre",
+        "zh-TW": "數萬至數百萬光年",
+        "pt-BR": "dezenas de milhares a milhões de anos-luz"
       },
       "accent": "#FF9445",
       "lenses": [
@@ -120,11 +180,21 @@
       "order": 7,
       "name": "우주 거대구조",
       "nameI18n": {
-        "en": "Large-Scale Structure"
+        "en": "Large-Scale Structure",
+        "ja": "大規模構造",
+        "es": "Estructura a Gran Escala",
+        "de": "Großräumige Struktur",
+        "zh-TW": "大尺度結構",
+        "pt-BR": "Estrutura em Grande Escala"
       },
       "scaleLabel": "수억 광년~",
       "scaleLabelI18n": {
-        "en": "hundreds of millions of light-years and beyond"
+        "en": "hundreds of millions of light-years and beyond",
+        "ja": "数億光年以上",
+        "es": "cientos de millones de años luz y más allá",
+        "de": "Hunderte Millionen Lichtjahre und mehr",
+        "zh-TW": "數億光年以上",
+        "pt-BR": "centenas de milhões de anos-luz e além"
       },
       "accent": "#5B6CE8",
       "lenses": [

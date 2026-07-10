@@ -1,6 +1,6 @@
 {
   "bandId": "galaxies",
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-07-10T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -315,6 +315,111 @@
         "hubble-fork",
         "andromeda",
         "milky-way"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ]
+    },
+    {
+      "id": "rotation-curve",
+      "type": "diagram",
+      "featured": true,
+      "name": "회전곡선과 암흑물질",
+      "nameI18n": {
+        "en": "Rotation Curve & Dark Matter",
+        "ja": "回転曲線とダークマター",
+        "es": "Curva de rotación y materia oscura",
+        "de": "Rotationskurve und Dunkle Materie",
+        "zh-TW": "自轉曲線與暗物質",
+        "pt-BR": "Curva de rotação e matéria escura"
+      },
+      "summary": "바깥 별은 느려야 하는데 실제로는 빠르다 — 평탄한 회전곡선이 폭로한 보이지 않는 질량, 암흑물질.",
+      "summaryI18n": {
+        "en": "Outer stars should be slow, yet they race — the flat rotation curve that exposed the invisible mass we call dark matter.",
+        "ja": "外側の星は遅いはずなのに、実際は速い——平坦な回転曲線が暴いた見えない質量、ダークマター。",
+        "es": "Las estrellas exteriores deberían ser lentas, pero corren: la curva de rotación plana que delató la masa invisible, la materia oscura.",
+        "de": "Äußere Sterne müssten langsam sein, doch sie rasen – die flache Rotationskurve, die die unsichtbare Masse namens Dunkle Materie verriet.",
+        "zh-TW": "外側恆星應該較慢，實際上卻很快——平坦的自轉曲線揭露了看不見的質量：暗物質。",
+        "pt-BR": "As estrelas externas deveriam ser lentas, mas correm — a curva de rotação plana que revelou a massa invisível, a matéria escura."
+      },
+      "scene": "scene-rotation-curve",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "모드",
+          "value": "보이는 물질만 ↔ 암흑 헤일로 ON"
+        },
+        {
+          "label": "단서",
+          "value": "우주 물질의 약 85%가 암흑물질"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Modes",
+            "value": "Visible matter only ↔ dark halo ON"
+          },
+          {
+            "label": "Clue",
+            "value": "~85% of the universe’s matter is dark"
+          }
+        ],
+        "ja": [
+          {
+            "label": "モード",
+            "value": "見える物質だけ ↔ ダークハローON"
+          },
+          {
+            "label": "手がかり",
+            "value": "宇宙の物質の約85%がダークマター"
+          }
+        ],
+        "es": [
+          {
+            "label": "Modos",
+            "value": "Solo materia visible ↔ halo oscuro ON"
+          },
+          {
+            "label": "Pista",
+            "value": "~85 % de la materia del universo es oscura"
+          }
+        ],
+        "de": [
+          {
+            "label": "Modi",
+            "value": "Nur sichtbare Materie ↔ dunkler Halo AN"
+          },
+          {
+            "label": "Indiz",
+            "value": "~85 % der Materie im Universum ist dunkel"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "模式",
+            "value": "只有可見物質 ↔ 暗暈 ON"
+          },
+          {
+            "label": "線索",
+            "value": "宇宙物質約85%是暗物質"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Modos",
+            "value": "Só matéria visível ↔ halo escuro ON"
+          },
+          {
+            "label": "Pista",
+            "value": "~85% da matéria do universo é escura"
+          }
+        ]
+      },
+      "related": [
+        "galaxy-collision",
+        "milky-way",
+        "andromeda"
       ],
       "crossAxis": [
         "light-delay"

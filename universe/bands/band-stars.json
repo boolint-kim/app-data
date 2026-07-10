@@ -1,7 +1,7 @@
 {
   "bandId": "stars",
-  "version": 1,
-  "updatedAt": "2026-07-04T00:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-07-10T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -341,6 +341,111 @@
         "sun",
         "betelgeuse",
         "neutron"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ]
+    },
+    {
+      "id": "binary-transfer",
+      "type": "process",
+      "featured": true,
+      "name": "쌍성 질량이동",
+      "nameI18n": {
+        "en": "Binary Mass Transfer",
+        "ja": "連星の質量移動",
+        "es": "Transferencia de masa binaria",
+        "de": "Massentransfer im Doppelstern",
+        "zh-TW": "雙星質量轉移",
+        "pt-BR": "Transferência de massa binária"
+      },
+      "summary": "부풀어난 별의 물질이 L1 을 넘어 동반성으로 — 알골 역설에서 Ia형 초신성의 도화선까지.",
+      "summaryI18n": {
+        "en": "A bloated star spills matter through L1 onto its companion — from the Algol paradox to the fuse of a Type Ia supernova.",
+        "ja": "膨らんだ星の物質がL1を越えて伴星へ——アルゴルのパラドックスからIa型超新星の導火線まで。",
+        "es": "Una estrella hinchada vierte materia por L1 hacia su compañera: de la paradoja de Algol a la mecha de una supernova Ia.",
+        "de": "Ein aufgeblähter Stern schüttet Materie durch L1 auf seinen Begleiter – vom Algol-Paradoxon zur Zündschnur einer Typ-Ia-Supernova.",
+        "zh-TW": "膨脹恆星的物質越過L1流向伴星——從大陵五悖論到Ia型超新星的導火線。",
+        "pt-BR": "Uma estrela inchada derrama matéria por L1 sobre a companheira — do paradoxo de Algol ao estopim de uma supernova Ia."
+      },
+      "scene": "scene-binary-transfer",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "단계",
+          "value": "분리 쌍성 → 거성 팽창 → 강착원반 → 1.44 M☉"
+        },
+        {
+          "label": "다음",
+          "value": "한계 도달 → Ia형 초신성 (잔해 띠로 연결)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Stages",
+            "value": "Detached pair → giant swells → accretion disk → 1.44 M☉"
+          },
+          {
+            "label": "Next",
+            "value": "At the limit → Type Ia supernova (continues in Remnants)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "段階",
+            "value": "分離連星 → 巨星膨張 → 降着円盤 → 1.44 M☉"
+          },
+          {
+            "label": "次",
+            "value": "限界到達 → Ia型超新星（残骸バンドへ）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Etapas",
+            "value": "Par separado → gigante hinchada → disco de acreción → 1,44 M☉"
+          },
+          {
+            "label": "Siguiente",
+            "value": "En el límite → supernova Ia (sigue en Remanentes)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Phasen",
+            "value": "Getrenntes Paar → Riese bläht sich → Akkretionsscheibe → 1,44 M☉"
+          },
+          {
+            "label": "Weiter",
+            "value": "An der Grenze → Typ-Ia-Supernova (weiter bei Überresten)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "階段",
+            "value": "分離雙星 → 巨星膨脹 → 吸積盤 → 1.44 M☉"
+          },
+          {
+            "label": "接續",
+            "value": "觸及極限 → Ia型超新星（於殘骸帶繼續）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Etapas",
+            "value": "Par separado → gigante incha → disco de acreção → 1,44 M☉"
+          },
+          {
+            "label": "A seguir",
+            "value": "No limite → supernova Ia (continua em Remanescentes)"
+          }
+        ]
+      },
+      "related": [
+        "stellar-life",
+        "sirius",
+        "siriusb"
       ],
       "crossAxis": [
         "element-origin"

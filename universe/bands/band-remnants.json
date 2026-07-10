@@ -1,7 +1,7 @@
 {
   "bandId": "remnants",
-  "version": 2,
-  "updatedAt": "2026-07-06T00:00:00Z",
+  "version": 3,
+  "updatedAt": "2026-07-10T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -107,6 +107,217 @@
       ],
       "crossAxis": [
         "element-origin"
+      ]
+    },
+    {
+      "id": "supernova",
+      "type": "process",
+      "featured": true,
+      "name": "초신성 폭발",
+      "nameI18n": {
+        "en": "Supernova",
+        "ja": "超新星爆発",
+        "es": "Supernova",
+        "de": "Supernova",
+        "zh-TW": "超新星爆炸",
+        "pt-BR": "Supernova"
+      },
+      "summary": "시간을 문질러 별의 마지막 순간을 오가 보라 — 무거운 별의 붕괴(II형)와 백색왜성의 폭주(Ia형), 두 가지 죽음.",
+      "summaryI18n": {
+        "en": "Scrub time through a star's final moments — two deaths: core collapse (Type II) and a white-dwarf runaway (Type Ia).",
+        "ja": "時間をスクラブして星の最期を行き来しよう — 大質量星の崩壊（II型）と白色矮星の暴走（Ia型）、2つの死。",
+        "es": "Desliza el tiempo por los últimos momentos de una estrella: dos muertes, el colapso del núcleo (tipo II) y la enana blanca desbocada (tipo Ia).",
+        "de": "Scrubbe die Zeit durch die letzten Momente eines Sterns — zwei Tode: Kernkollaps (Typ II) und Weißer Zwerg außer Kontrolle (Typ Ia).",
+        "zh-TW": "拖動時間軸來回觀察恆星的最後時刻 — 兩種死亡：核心塌縮（II型）與白矮星失控（Ia型）。",
+        "pt-BR": "Arraste o tempo pelos últimos momentos de uma estrela — duas mortes: colapso do núcleo (tipo II) e anã branca descontrolada (tipo Ia)."
+      },
+      "scene": "scene-supernova",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "II형",
+          "value": "철핵 붕괴 → 뉴트리노 99% → 중성자별 잔존"
+        },
+        {
+          "label": "Ia형",
+          "value": "백색왜성 1.44 M☉ 도달 → 완전 파괴 → 표준촛불"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type II",
+            "value": "Iron-core collapse → 99% neutrinos → neutron star remains"
+          },
+          {
+            "label": "Type Ia",
+            "value": "White dwarf hits 1.44 M☉ → total disruption → standard candle"
+          }
+        ],
+        "ja": [
+          {
+            "label": "II型",
+            "value": "鉄核の崩壊 → ニュートリノ99% → 中性子星が残る"
+          },
+          {
+            "label": "Ia型",
+            "value": "白色矮星が1.44 M☉に到達 → 完全破壊 → 標準光源"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo II",
+            "value": "Colapso del núcleo de hierro → 99% neutrinos → queda una estrella de neutrones"
+          },
+          {
+            "label": "Tipo Ia",
+            "value": "La enana blanca llega a 1,44 M☉ → destrucción total → candela estándar"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ II",
+            "value": "Eisenkern-Kollaps → 99 % Neutrinos → Neutronenstern bleibt"
+          },
+          {
+            "label": "Typ Ia",
+            "value": "Weißer Zwerg erreicht 1,44 M☉ → totale Zerstörung → Standardkerze"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "II型",
+            "value": "鐵核塌縮 → 99%微中子 → 留下中子星"
+          },
+          {
+            "label": "Ia型",
+            "value": "白矮星達1.44 M☉ → 完全瓦解 → 標準燭光"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo II",
+            "value": "Colapso do núcleo de ferro → 99% neutrinos → resta uma estrela de nêutrons"
+          },
+          {
+            "label": "Tipo Ia",
+            "value": "Anã branca atinge 1,44 M☉ → destruição total → vela-padrão"
+          }
+        ]
+      },
+      "related": [
+        "density",
+        "crab-pulsar",
+        "kilonova"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ]
+    },
+    {
+      "id": "kilonova",
+      "type": "process",
+      "featured": true,
+      "name": "킬로노바 — 금의 기원",
+      "nameI18n": {
+        "en": "Kilonova — Where Gold Is Born",
+        "ja": "キロノバ — 金の起源",
+        "es": "Kilonova — el origen del oro",
+        "de": "Kilonova — der Ursprung des Goldes",
+        "zh-TW": "千新星 — 黃金的起源",
+        "pt-BR": "Quilonova — a origem do ouro"
+      },
+      "summary": "두 중성자별이 감겨들며 충돌한다 — 중력파의 처프, 감마선, 그리고 금·백금을 만드는 r-과정까지.",
+      "summaryI18n": {
+        "en": "Two neutron stars spiral in and collide — the gravitational-wave chirp, gamma rays, and the r-process that forges gold and platinum.",
+        "ja": "2つの中性子星が渦を巻いて衝突する — 重力波のチャープ、ガンマ線、そして金・白金を作るr過程まで。",
+        "es": "Dos estrellas de neutrones espiralan y chocan: el chirp de ondas gravitacionales, rayos gamma y el proceso r que forja oro y platino.",
+        "de": "Zwei Neutronensterne spiralen aufeinander zu und kollidieren — der Gravitationswellen-Chirp, Gammastrahlen und der r-Prozess, der Gold und Platin schmiedet.",
+        "zh-TW": "兩顆中子星盤旋相撞 — 重力波啁啾、伽瑪射線，以及鍛造金與鉑的r-過程。",
+        "pt-BR": "Duas estrelas de nêutrons espiralam e colidem — o chirp de ondas gravitacionais, raios gama e o processo r que forja ouro e platina."
+      },
+      "scene": "scene-kilonova",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "실측",
+          "value": "GW170817 — 중력파+감마선+가시광 동시 관측 (2017)"
+        },
+        {
+          "label": "생산",
+          "value": "r-과정 원소 ~0.05 태양질량 — 금·백금·우라늄"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Observed",
+            "value": "GW170817 — gravity, gamma rays and light from one event (2017)"
+          },
+          {
+            "label": "Yield",
+            "value": "~0.05 solar masses of r-process elements — gold, platinum, uranium"
+          }
+        ],
+        "ja": [
+          {
+            "label": "実測",
+            "value": "GW170817 — 重力波・ガンマ線・可視光を同時観測（2017）"
+          },
+          {
+            "label": "生成",
+            "value": "r過程元素 約0.05太陽質量 — 金・白金・ウラン"
+          }
+        ],
+        "es": [
+          {
+            "label": "Observado",
+            "value": "GW170817: gravedad, rayos gamma y luz del mismo evento (2017)"
+          },
+          {
+            "label": "Producción",
+            "value": "~0,05 masas solares de elementos r: oro, platino, uranio"
+          }
+        ],
+        "de": [
+          {
+            "label": "Beobachtet",
+            "value": "GW170817 — Gravitation, Gammastrahlen und Licht eines Ereignisses (2017)"
+          },
+          {
+            "label": "Ausbeute",
+            "value": "~0,05 Sonnenmassen r-Prozess-Elemente — Gold, Platin, Uran"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "實測",
+            "value": "GW170817 — 同時觀測到重力波、伽瑪射線與可見光（2017）"
+          },
+          {
+            "label": "產量",
+            "value": "r-過程元素約0.05太陽質量 — 金、鉑、鈾"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Observado",
+            "value": "GW170817 — gravidade, raios gama e luz do mesmo evento (2017)"
+          },
+          {
+            "label": "Produção",
+            "value": "~0,05 massas solares de elementos r — ouro, platina, urânio"
+          }
+        ]
+      },
+      "related": [
+        "supernova",
+        "crab-pulsar",
+        "density"
+      ],
+      "crossAxis": [
+        "element-origin",
+        "multiwavelength"
       ]
     },
     {

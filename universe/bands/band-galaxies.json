@@ -1,7 +1,7 @@
 {
   "bandId": "galaxies",
-  "version": 2,
-  "updatedAt": "2026-07-06T00:00:00Z",
+  "version": 3,
+  "updatedAt": "2026-07-10T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -212,6 +212,111 @@
       ],
       "crossAxis": [
         "multiwavelength",
+        "light-delay"
+      ]
+    },
+    {
+      "id": "galaxy-collision",
+      "type": "process",
+      "featured": true,
+      "name": "은하 충돌",
+      "nameI18n": {
+        "en": "Galaxy Collision",
+        "ja": "銀河の衝突",
+        "es": "Colisión de galaxias",
+        "de": "Galaxienkollision",
+        "zh-TW": "星系碰撞",
+        "pt-BR": "Colisão de galáxias"
+      },
+      "summary": "은하가 부딪혀도 별끼리는 부딪히지 않는다 — 조석꼬리·고리·병합, 세 시나리오를 재생해 보라.",
+      "summaryI18n": {
+        "en": "When galaxies collide, the stars themselves almost never do. Play three scenarios: tidal tails, a ring, and a merger.",
+        "ja": "銀河が衝突しても星どうしはぶつからない — 潮汐尾・リング・合体の3つのシナリオを再生してみよう。",
+        "es": "Cuando las galaxias chocan, las estrellas casi nunca lo hacen. Reproduce tres escenarios: colas de marea, un anillo y una fusión.",
+        "de": "Wenn Galaxien kollidieren, stoßen die Sterne selbst fast nie zusammen. Spiele drei Szenarien ab: Gezeitenschweife, Ring und Verschmelzung.",
+        "zh-TW": "星系相撞時，恆星本身幾乎不會相撞 — 播放潮汐尾、環與合併三種情境。",
+        "pt-BR": "Quando galáxias colidem, as estrelas em si quase nunca se chocam. Reproduza três cenários: caudas de maré, um anel e uma fusão."
+      },
+      "scene": "scene-galaxy-collision",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "시나리오",
+          "value": "안테나 · 정면 관통(고리) · 은하수×안드로메다"
+        },
+        {
+          "label": "운명",
+          "value": "병합 → 타원은하 (2025년: 충돌 확률 약 50%)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Scenarios",
+            "value": "Antennae · head-on ring · Milky Way × M31"
+          },
+          {
+            "label": "Fate",
+            "value": "Merger → elliptical (2025: ~50% odds)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "シナリオ",
+            "value": "アンテナ銀河・正面衝突（環）・天の川×M31"
+          },
+          {
+            "label": "運命",
+            "value": "合体 → 楕円銀河（2025年: 確率約50%）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Escenarios",
+            "value": "Antenas · anillo frontal · Vía Láctea × M31"
+          },
+          {
+            "label": "Destino",
+            "value": "Fusión → elíptica (2025: ~50% de probabilidad)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Szenarien",
+            "value": "Antennen · frontaler Ring · Milchstraße × M31"
+          },
+          {
+            "label": "Schicksal",
+            "value": "Verschmelzung → Elliptische (2025: ~50 % Chance)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "情境",
+            "value": "觸鬚星系・正面貫穿（環）・銀河系×M31"
+          },
+          {
+            "label": "結局",
+            "value": "合併 → 橢圓星系（2025年：機率約50%）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Cenários",
+            "value": "Antenas · anel frontal · Via Láctea × M31"
+          },
+          {
+            "label": "Destino",
+            "value": "Fusão → elíptica (2025: ~50% de chance)"
+          }
+        ]
+      },
+      "related": [
+        "hubble-fork",
+        "andromeda",
+        "milky-way"
+      ],
+      "crossAxis": [
         "light-delay"
       ]
     },

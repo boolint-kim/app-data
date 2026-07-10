@@ -1,7 +1,7 @@
 {
   "bandId": "remnants",
-  "version": 3,
-  "updatedAt": "2026-07-10T00:00:00Z",
+  "version": 4,
+  "updatedAt": "2026-07-11T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -1331,6 +1331,241 @@
       "imageCredit": "Event Horizon Telescope",
       "imageLicense": "CC BY 4.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
+    },
+    {
+      "id": "gw170817",
+      "bandId": "remnants",
+      "type": "object",
+      "name": "GW170817",
+      "nameI18n": {
+        "en": "GW170817",
+        "ja": "GW170817",
+        "es": "GW170817",
+        "de": "GW170817",
+        "zh-TW": "GW170817",
+        "pt-BR": "GW170817"
+      },
+      "summary": "중성자별 둘의 충돌 — 중력파, 1.7초 뒤 감마선, 그리고 킬로노바의 빛까지 한 사건에서. 다중신호 천문학의 개막.",
+      "summaryI18n": {
+        "en": "Two neutron stars colliding — gravitational waves, gamma rays 1.7 s later, and the glow of a kilonova, all from one event. Multi-messenger astronomy began here.",
+        "ja": "2つの中性子星の衝突——重力波、1.7秒後のガンマ線、そしてキロノバの光までを1つの事象で。マルチメッセンジャー天文学の幕開け。",
+        "es": "Dos estrellas de neutrones chocando: ondas gravitacionales, rayos gamma 1,7 s después y la luz de una kilonova, todo de un mismo evento. Aquí nació la astronomía multimensajero.",
+        "de": "Zwei kollidierende Neutronensterne — Gravitationswellen, 1,7 s später Gammastrahlen und das Leuchten einer Kilonova, alles aus einem Ereignis. Hier begann die Multi-Messenger-Astronomie.",
+        "zh-TW": "兩顆中子星相撞——重力波、1.7秒後的伽瑪射線、還有千新星的光，全來自同一事件。多信使天文學就此展開。",
+        "pt-BR": "Duas estrelas de nêutrons colidindo — ondas gravitacionais, raios gama 1,7 s depois e o brilho de uma quilonova, tudo de um só evento. A astronomia multimensageira começou aqui."
+      },
+      "scene": "scene-kilonova",
+      "facts": [
+        {
+          "label": "일시",
+          "value": "2017년 8월 17일 — 모은하 NGC 4993 (1.3억 광년)"
+        },
+        {
+          "label": "산물",
+          "value": "r-과정 원소 ~0.05 태양질량 — 금·백금 포함"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Date",
+            "value": "17 Aug 2017 — host galaxy NGC 4993 (130 Mly)"
+          },
+          {
+            "label": "Yield",
+            "value": "~0.05 solar masses of r-process elements, gold and platinum included"
+          }
+        ],
+        "ja": [
+          {
+            "label": "日時",
+            "value": "2017年8月17日 — 母銀河NGC 4993（1.3億光年）"
+          },
+          {
+            "label": "産物",
+            "value": "r過程元素 約0.05太陽質量 — 金・白金を含む"
+          }
+        ],
+        "es": [
+          {
+            "label": "Fecha",
+            "value": "17 de agosto de 2017: galaxia anfitriona NGC 4993 (130 M a.l.)"
+          },
+          {
+            "label": "Producto",
+            "value": "~0,05 masas solares de elementos del proceso r, incluidos oro y platino"
+          }
+        ],
+        "de": [
+          {
+            "label": "Datum",
+            "value": "17. August 2017 — Heimatgalaxie NGC 4993 (130 Mio. Lj)"
+          },
+          {
+            "label": "Ausbeute",
+            "value": "~0,05 Sonnenmassen r-Prozess-Elemente, darunter Gold und Platin"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "日期",
+            "value": "2017年8月17日 — 母星系NGC 4993（1.3億光年）"
+          },
+          {
+            "label": "產物",
+            "value": "r-過程元素約0.05太陽質量 — 含金與鉑"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Data",
+            "value": "17 de agosto de 2017 — galáxia hospedeira NGC 4993 (130 Mal)"
+          },
+          {
+            "label": "Produto",
+            "value": "~0,05 massas solares de elementos do processo r, incluindo ouro e platina"
+          }
+        ]
+      },
+      "related": [
+        "kilonova",
+        "crab-pulsar"
+      ],
+      "crossAxis": [
+        "element-origin",
+        "multiwavelength"
+      ],
+      "wiki": {
+        "en": "GW170817",
+        "ko": "GW170817",
+        "ja": "GW170817",
+        "es": "GW170817",
+        "de": "GW170817",
+        "pt": "GW170817",
+        "zh": "GW170817"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/gw170817.jpg",
+      "imageCredit": "ESO/A. Grado",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VST_image_of_kilonova_in_NGC_4993_(eso1733m).jpg"
+    },
+    {
+      "id": "sn1987a",
+      "bandId": "remnants",
+      "type": "object",
+      "name": "SN 1987A",
+      "nameI18n": {
+        "en": "SN 1987A",
+        "ja": "SN 1987A",
+        "es": "SN 1987A",
+        "de": "SN 1987A",
+        "zh-TW": "SN 1987A",
+        "pt-BR": "SN 1987A"
+      },
+      "summary": "1987년 대마젤란은하에서 터진 초신성 — 뉴트리노 25개가 빛보다 몇 시간 먼저 도착해 중심핵 붕괴를 증언했다.",
+      "summaryI18n": {
+        "en": "The 1987 supernova in the Large Magellanic Cloud — 25 neutrinos arrived hours before the light, testifying to the core collapse.",
+        "ja": "1987年、大マゼラン雲で爆発した超新星——25個のニュートリノが光より数時間早く届き、中心核崩壊を証言した。",
+        "es": "La supernova de 1987 en la Gran Nube de Magallanes: 25 neutrinos llegaron horas antes que la luz, testigos del colapso del núcleo.",
+        "de": "Die Supernova von 1987 in der Großen Magellanschen Wolke — 25 Neutrinos trafen Stunden vor dem Licht ein und bezeugten den Kernkollaps.",
+        "zh-TW": "1987年在大麥哲倫雲爆發的超新星——25顆微中子比光早數小時抵達，見證了核心塌縮。",
+        "pt-BR": "A supernova de 1987 na Grande Nuvem de Magalhães — 25 neutrinos chegaram horas antes da luz, testemunhando o colapso do núcleo."
+      },
+      "scene": "scene-supernova",
+      "sceneFocus": "ii",
+      "facts": [
+        {
+          "label": "거리",
+          "value": "약 16만 광년 — 대마젤란은하"
+        },
+        {
+          "label": "뉴트리노",
+          "value": "~25개 검출 — 붕괴 에너지의 99%가 뉴트리노라는 증거"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Distance",
+            "value": "~160,000 light-years — Large Magellanic Cloud"
+          },
+          {
+            "label": "Neutrinos",
+            "value": "~25 detected — evidence that 99% of the collapse energy leaves as neutrinos"
+          }
+        ],
+        "ja": [
+          {
+            "label": "距離",
+            "value": "約16万光年 — 大マゼラン雲"
+          },
+          {
+            "label": "ニュートリノ",
+            "value": "約25個検出 — 崩壊エネルギーの99%がニュートリノである証拠"
+          }
+        ],
+        "es": [
+          {
+            "label": "Distancia",
+            "value": "~160 000 años luz: Gran Nube de Magallanes"
+          },
+          {
+            "label": "Neutrinos",
+            "value": "~25 detectados: prueba de que el 99 % de la energía escapa como neutrinos"
+          }
+        ],
+        "de": [
+          {
+            "label": "Entfernung",
+            "value": "~160.000 Lichtjahre — Große Magellansche Wolke"
+          },
+          {
+            "label": "Neutrinos",
+            "value": "~25 nachgewiesen — Beleg, dass 99 % der Kollapsenergie als Neutrinos entweichen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "距離",
+            "value": "約16萬光年 — 大麥哲倫雲"
+          },
+          {
+            "label": "微中子",
+            "value": "偵測到約25顆 — 證明99%塌縮能量由微中子帶走"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Distância",
+            "value": "~160.000 anos-luz — Grande Nuvem de Magalhães"
+          },
+          {
+            "label": "Neutrinos",
+            "value": "~25 detectados — prova de que 99% da energia escapa como neutrinos"
+          }
+        ]
+      },
+      "related": [
+        "supernova",
+        "crab-pulsar",
+        "vela-pulsar"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "SN 1987A",
+        "ko": "SN 1987A",
+        "ja": "SN 1987A",
+        "es": "SN 1987A",
+        "de": "SN 1987A",
+        "pt": "SN 1987A",
+        "zh": "SN 1987A"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sn1987a.jpg",
+      "imageCredit": "ESA/Hubble & NASA",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SN_1987A_HST.jpg"
     }
   ]
 }

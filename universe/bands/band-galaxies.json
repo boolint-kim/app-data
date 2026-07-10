@@ -1,6 +1,6 @@
 {
   "bandId": "galaxies",
-  "version": 5,
+  "version": 6,
   "updatedAt": "2026-07-11T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -2127,6 +2127,240 @@
       "imageCredit": "NASA, ESA, and The Hubble Heritage Team (STScI/AURA)",
       "imageLicense": "Public domain",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M82_HST_ACS_2006-14-a-large_web.jpg"
+    },
+    {
+      "id": "antennae",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "안테나 은하",
+      "nameI18n": {
+        "en": "Antennae Galaxies",
+        "ja": "触角銀河",
+        "es": "Galaxias Antennae",
+        "de": "Antennen-Galaxien",
+        "zh-TW": "觸鬚星系",
+        "pt-BR": "Galáxias Antenas"
+      },
+      "summary": "충돌 중인 두 나선은하 — 중력이 별들을 긴 더듬이 모양 꼬리로 뽑아냈다. 은하 충돌의 대표 실례.",
+      "summaryI18n": {
+        "en": "Two spiral galaxies caught mid-collision — gravity has drawn their stars into long antenna-like tails. The textbook example of a galactic crash.",
+        "ja": "衝突中の2つの渦巻銀河——重力が星々を触角のような長い尾に引き出した。銀河衝突の代表例。",
+        "es": "Dos galaxias espirales en plena colisión: la gravedad ha estirado sus estrellas en largas colas como antenas. El ejemplo de manual de un choque galáctico.",
+        "de": "Zwei Spiralgalaxien mitten in der Kollision — die Schwerkraft hat ihre Sterne zu langen, antennenartigen Schweifen ausgezogen. Das Lehrbuchbeispiel eines Galaxien-Crashs.",
+        "zh-TW": "正在相撞的兩個螺旋星系——重力把恆星拉成觸鬚般的長尾。星系碰撞的代表案例。",
+        "pt-BR": "Duas galáxias espirais em plena colisão — a gravidade esticou suas estrelas em longas caudas como antenas. O exemplo clássico de um choque galáctico."
+      },
+      "scene": "scene-galaxy-collision",
+      "sceneFocus": "antennae",
+      "facts": [
+        {
+          "label": "거리",
+          "value": "약 6,000만 광년 — 까마귀자리"
+        },
+        {
+          "label": "미래",
+          "value": "수억 년 뒤 하나의 타원은하로 병합"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Distance",
+            "value": "~60 million light-years — in Corvus"
+          },
+          {
+            "label": "Future",
+            "value": "Will merge into one elliptical galaxy in a few hundred million years"
+          }
+        ],
+        "ja": [
+          {
+            "label": "距離",
+            "value": "約6,000万光年 — からす座"
+          },
+          {
+            "label": "未来",
+            "value": "数億年後に1つの楕円銀河へ合体"
+          }
+        ],
+        "es": [
+          {
+            "label": "Distancia",
+            "value": "~60 millones de años luz, en Corvus"
+          },
+          {
+            "label": "Futuro",
+            "value": "Se fusionarán en una elíptica en unos cientos de millones de años"
+          }
+        ],
+        "de": [
+          {
+            "label": "Entfernung",
+            "value": "~60 Millionen Lichtjahre — im Raben"
+          },
+          {
+            "label": "Zukunft",
+            "value": "Verschmelzen in einigen hundert Millionen Jahren zu einer Elliptischen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "距離",
+            "value": "約6,000萬光年 — 烏鴉座"
+          },
+          {
+            "label": "未來",
+            "value": "數億年後合併為一個橢圓星系"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Distância",
+            "value": "~60 milhões de anos-luz — em Corvus"
+          },
+          {
+            "label": "Futuro",
+            "value": "Vão se fundir em uma elíptica em algumas centenas de milhões de anos"
+          }
+        ]
+      },
+      "related": [
+        "galaxy-collision",
+        "cartwheel",
+        "milky-way"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Antennae Galaxies",
+        "ko": "더듬이 은하",
+        "ja": "触角銀河",
+        "es": "Galaxias Antennae",
+        "de": "Antennen-Galaxien",
+        "zh": "觸鬚星系"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/antennae.jpg",
+      "imageCredit": "ESA/Hubble & NASA",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Antennae_Galaxies_reloaded.jpg"
+    },
+    {
+      "id": "cartwheel",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "수레바퀴 은하",
+      "nameI18n": {
+        "en": "Cartwheel Galaxy",
+        "ja": "車輪銀河",
+        "es": "Galaxia Rueda de Carro",
+        "de": "Wagenradgalaxie",
+        "zh-TW": "車輪星系",
+        "pt-BR": "Galáxia Cartwheel"
+      },
+      "summary": "작은 은하가 원반을 정면으로 꿰뚫고 지나가며 남긴 거대한 고리 — 2022년 제임스웹이 다시 포착했다.",
+      "summaryI18n": {
+        "en": "A giant ring left behind when a small galaxy punched straight through the disk — recaptured by James Webb in 2022.",
+        "ja": "小さな銀河が円盤を正面から貫いて残した巨大なリング——2022年、ジェイムズ・ウェッブが再び捉えた。",
+        "es": "Un anillo gigante dejado cuando una galaxia pequeña atravesó el disco de frente, recapturado por James Webb en 2022.",
+        "de": "Ein riesiger Ring, zurückgelassen, als eine kleine Galaxie frontal durch die Scheibe schlug — 2022 vom James-Webb-Teleskop neu aufgenommen.",
+        "zh-TW": "小星系正面貫穿星系盤留下的巨環——2022年由詹姆斯·韋伯再度捕捉。",
+        "pt-BR": "Um anel gigante deixado quando uma galáxia pequena atravessou o disco de frente — recapturado pelo James Webb em 2022."
+      },
+      "scene": "scene-galaxy-collision",
+      "sceneFocus": "cartwheel",
+      "facts": [
+        {
+          "label": "거리",
+          "value": "약 5억 광년 — 조각가자리"
+        },
+        {
+          "label": "고리",
+          "value": "충격 밀도파가 바깥으로 퍼지며 별을 만든 흔적"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Distance",
+            "value": "~500 million light-years — in Sculptor"
+          },
+          {
+            "label": "Ring",
+            "value": "A density wave rippling outward, forming new stars"
+          }
+        ],
+        "ja": [
+          {
+            "label": "距離",
+            "value": "約5億光年 — ちょうこくしつ座"
+          },
+          {
+            "label": "リング",
+            "value": "外へ広がる密度波が星を生んだ跡"
+          }
+        ],
+        "es": [
+          {
+            "label": "Distancia",
+            "value": "~500 millones de años luz, en Sculptor"
+          },
+          {
+            "label": "Anillo",
+            "value": "Una onda de densidad que se propaga formando estrellas"
+          }
+        ],
+        "de": [
+          {
+            "label": "Entfernung",
+            "value": "~500 Millionen Lichtjahre — im Bildhauer"
+          },
+          {
+            "label": "Ring",
+            "value": "Eine nach außen laufende Dichtewelle, die Sterne bildet"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "距離",
+            "value": "約5億光年 — 玉夫座"
+          },
+          {
+            "label": "環",
+            "value": "向外擴散的密度波造星的痕跡"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Distância",
+            "value": "~500 milhões de anos-luz — em Sculptor"
+          },
+          {
+            "label": "Anel",
+            "value": "Uma onda de densidade se propagando e formando estrelas"
+          }
+        ]
+      },
+      "related": [
+        "galaxy-collision",
+        "antennae"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Cartwheel Galaxy",
+        "ko": "수레바퀴 은하",
+        "ja": "車輪銀河",
+        "es": "Galaxia Rueda de Carro",
+        "de": "PGC 2248",
+        "pt": "Galáxia Cartwheel",
+        "zh": "車輪星系"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/cartwheel.jpg",
+      "imageCredit": "NASA, ESA, CSA, STScI",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cartwheel_Galaxy_(NIRCam_and_MIRI_Composite_Image)_(weic2211a).jpeg"
     }
   ]
 }

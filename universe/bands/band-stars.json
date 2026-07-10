@@ -1,6 +1,6 @@
 {
   "bandId": "stars",
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-07-11T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -4085,6 +4085,239 @@
       "imageCredit": "NASA, ESA",
       "imageLicense": "CC BY 4.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Moving_heart_of_the_Crab_Nebula.jpg"
+    },
+    {
+      "id": "algol",
+      "bandId": "stars",
+      "type": "object",
+      "name": "알골",
+      "nameI18n": {
+        "en": "Algol",
+        "ja": "アルゴル",
+        "es": "Algol",
+        "de": "Algol",
+        "zh-TW": "大陵五",
+        "pt-BR": "Algol"
+      },
+      "summary": "2.87일마다 어두워지는 '악마의 별' — 동반성이 앞을 가리는 식쌍성이자 질량이동의 교과서.",
+      "summaryI18n": {
+        "en": "The \"Demon Star\" that dims every 2.87 days — an eclipsing binary whose companion blocks its light, and a textbook case of mass transfer.",
+        "ja": "2.87日ごとに暗くなる「悪魔の星」——伴星が光を遮る食連星で、質量移動の教科書。",
+        "es": "La \"estrella demonio\" que se atenúa cada 2,87 días: una binaria eclipsante cuya compañera bloquea su luz, y un caso de manual de transferencia de masa.",
+        "de": "Der \"Dämonenstern\", der alle 2,87 Tage dunkler wird — ein Bedeckungsveränderlicher, dessen Begleiter das Licht verdeckt, und ein Lehrbuchfall des Massentransfers.",
+        "zh-TW": "每2.87天變暗一次的「惡魔之星」——伴星遮光的食雙星，也是質量轉移的教科書。",
+        "pt-BR": "A \"estrela demônio\" que escurece a cada 2,87 dias — uma binária eclipsante cuja companheira bloqueia sua luz, e um caso clássico de transferência de massa."
+      },
+      "scene": "scene-binary-transfer",
+      "hrPosition": {
+        "temp": 13000,
+        "luminosity": 180,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "주기",
+          "value": "2.87일 — 밝기가 규칙적으로 1/3로 줄어든다"
+        },
+        {
+          "label": "알골 역설",
+          "value": "가벼운 별이 더 늙어 보인다 — 질량을 빼앗긴 증거"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Period",
+            "value": "2.87 days — its brightness regularly drops to a third"
+          },
+          {
+            "label": "Algol paradox",
+            "value": "The lighter star looks older — proof it was robbed of mass"
+          }
+        ],
+        "ja": [
+          {
+            "label": "周期",
+            "value": "2.87日 — 明るさが規則的に3分の1へ"
+          },
+          {
+            "label": "アルゴルのパラドックス",
+            "value": "軽い星のほうが老けて見える — 質量を奪われた証拠"
+          }
+        ],
+        "es": [
+          {
+            "label": "Período",
+            "value": "2,87 días: su brillo cae regularmente a un tercio"
+          },
+          {
+            "label": "Paradoja de Algol",
+            "value": "La estrella ligera parece más vieja: prueba de que le robaron masa"
+          }
+        ],
+        "de": [
+          {
+            "label": "Periode",
+            "value": "2,87 Tage — die Helligkeit sinkt regelmäßig auf ein Drittel"
+          },
+          {
+            "label": "Algol-Paradoxon",
+            "value": "Der leichtere Stern wirkt älter — Beweis für geraubte Masse"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "週期",
+            "value": "2.87天 — 亮度規律地降至三分之一"
+          },
+          {
+            "label": "大陵五悖論",
+            "value": "較輕的星看起來更老 — 質量被奪走的證據"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Período",
+            "value": "2,87 dias — o brilho cai regularmente a um terço"
+          },
+          {
+            "label": "Paradoxo de Algol",
+            "value": "A estrela mais leve parece mais velha — prova de que perdeu massa"
+          }
+        ]
+      },
+      "related": [
+        "binary-transfer",
+        "sirius",
+        "siriusb"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Algol",
+        "ko": "알골",
+        "ja": "アルゴル",
+        "es": "Algol",
+        "de": "Algol (Stern)",
+        "pt": "Beta Persei",
+        "zh": "大陵五"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/algol.jpg",
+      "imageCredit": "ESO/L. Calçada",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_eclipsing_binary.jpg"
+    },
+    {
+      "id": "hl-tau",
+      "bandId": "stars",
+      "type": "object",
+      "name": "HL Tau",
+      "nameI18n": {
+        "en": "HL Tauri",
+        "ja": "おうし座HL星",
+        "es": "HL Tauri",
+        "de": "HL Tauri",
+        "zh-TW": "金牛座HL",
+        "pt-BR": "HL Tauri"
+      },
+      "summary": "태어난 지 100만 년이 안 된 아기별 — ALMA 가 찍은 원반의 갭과 고리는 행성 형성의 실사판이다.",
+      "summaryI18n": {
+        "en": "A baby star less than a million years old — the gaps and rings ALMA imaged in its disk are planet formation, photographed.",
+        "ja": "生まれて100万年足らずの赤ちゃん星——ALMAが撮った円盤のギャップと環は、惑星形成の実写だ。",
+        "es": "Una estrella bebé de menos de un millón de años: las brechas y anillos que ALMA fotografió en su disco son la formación planetaria, en imagen real.",
+        "de": "Ein Babystern, keine Million Jahre alt — die Lücken und Ringe, die ALMA in seiner Scheibe abbildete, sind Planetenentstehung im Foto.",
+        "zh-TW": "誕生不到一百萬年的嬰兒恆星——ALMA拍到的盤面縫隙與環，就是行星形成的實況照片。",
+        "pt-BR": "Uma estrela bebê com menos de um milhão de anos — as lacunas e anéis que o ALMA fotografou em seu disco são a formação planetária, em imagem real."
+      },
+      "scene": "scene-protoplanetary",
+      "facts": [
+        {
+          "label": "거리",
+          "value": "약 450광년 — 황소자리"
+        },
+        {
+          "label": "원반",
+          "value": "2014 ALMA — 원시행성계원반의 갭·고리를 직접 촬영"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Distance",
+            "value": "~450 light-years — in Taurus"
+          },
+          {
+            "label": "Disk",
+            "value": "ALMA 2014 — gaps and rings of a protoplanetary disk, imaged directly"
+          }
+        ],
+        "ja": [
+          {
+            "label": "距離",
+            "value": "約450光年 — おうし座"
+          },
+          {
+            "label": "円盤",
+            "value": "2014年ALMA — 原始惑星系円盤のギャップと環を直接撮影"
+          }
+        ],
+        "es": [
+          {
+            "label": "Distancia",
+            "value": "~450 años luz, en Tauro"
+          },
+          {
+            "label": "Disco",
+            "value": "ALMA 2014: brechas y anillos de un disco protoplanetario, en imagen directa"
+          }
+        ],
+        "de": [
+          {
+            "label": "Entfernung",
+            "value": "~450 Lichtjahre — im Stier"
+          },
+          {
+            "label": "Scheibe",
+            "value": "ALMA 2014 — Lücken und Ringe einer protoplanetaren Scheibe, direkt abgebildet"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "距離",
+            "value": "約450光年 — 金牛座"
+          },
+          {
+            "label": "盤面",
+            "value": "2014年ALMA — 直接拍攝原行星盤的縫隙與環"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Distância",
+            "value": "~450 anos-luz — em Touro"
+          },
+          {
+            "label": "Disco",
+            "value": "ALMA 2014 — lacunas e anéis de um disco protoplanetário, em imagem direta"
+          }
+        ]
+      },
+      "related": [
+        "protoplanetary",
+        "stellar-life",
+        "sun"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "HL Tauri",
+        "ja": "おうし座HL星",
+        "es": "HL Tauri",
+        "de": "HL Tauri",
+        "zh": "金牛座HL"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/hl-tau.jpg",
+      "imageCredit": "ALMA (ESO/NAOJ/NRAO)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:HL_Tau_protoplanetary_disk.jpg"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "bandId": "stars",
-  "version": 2,
-  "updatedAt": "2026-07-10T00:00:00Z",
+  "version": 3,
+  "updatedAt": "2026-07-11T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -341,6 +341,111 @@
         "sun",
         "betelgeuse",
         "neutron"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ]
+    },
+    {
+      "id": "protoplanetary",
+      "type": "process",
+      "featured": true,
+      "name": "행성계의 탄생",
+      "nameI18n": {
+        "en": "The Birth of a Planetary System",
+        "ja": "惑星系の誕生",
+        "es": "El nacimiento de un sistema planetario",
+        "de": "Die Geburt eines Planetensystems",
+        "zh-TW": "行星系的誕生",
+        "pt-BR": "O nascimento de um sistema planetário"
+      },
+      "summary": "먼지 원반에서 행성이 태어나 궤도를 청소한다 — HL Tau 의 고리, 그리고 지구가 암석인 이유.",
+      "summaryI18n": {
+        "en": "Planets are born in a dusty disk and sweep their orbits clean — the rings of HL Tau, and why Earth is rocky.",
+        "ja": "塵の円盤から惑星が生まれ、軌道を掃除する——HL Tauの環、そして地球が岩石である理由。",
+        "es": "Los planetas nacen en un disco de polvo y barren sus órbitas: los anillos de HL Tau y por qué la Tierra es rocosa.",
+        "de": "Planeten entstehen in einer Staubscheibe und fegen ihre Bahnen frei — die Ringe von HL Tau, und warum die Erde felsig ist.",
+        "zh-TW": "行星在塵埃盤中誕生並清掃軌道——金牛座HL的環，以及地球為何是岩石行星。",
+        "pt-BR": "Planetas nascem em um disco de poeira e varrem suas órbitas — os anéis de HL Tau, e por que a Terra é rochosa."
+      },
+      "scene": "scene-protoplanetary",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "단계",
+          "value": "원반 → 미행성 → 갭 열기 → 청소 완료"
+        },
+        {
+          "label": "동결선",
+          "value": "안쪽 암석 행성 · 바깥 거대 행성의 갈림길"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Stages",
+            "value": "Disk → planetesimals → gaps open → swept clean"
+          },
+          {
+            "label": "Frost line",
+            "value": "The divide: rocky planets inside, giants outside"
+          }
+        ],
+        "ja": [
+          {
+            "label": "段階",
+            "value": "円盤 → 微惑星 → ギャップ → 掃除完了"
+          },
+          {
+            "label": "凍結線",
+            "value": "内は岩石惑星、外は巨大惑星の分かれ目"
+          }
+        ],
+        "es": [
+          {
+            "label": "Etapas",
+            "value": "Disco → planetesimales → brechas → barrido"
+          },
+          {
+            "label": "Línea de hielo",
+            "value": "La divisoria: rocosos dentro, gigantes fuera"
+          }
+        ],
+        "de": [
+          {
+            "label": "Phasen",
+            "value": "Scheibe → Planetesimale → Lücken → freigeräumt"
+          },
+          {
+            "label": "Frostgrenze",
+            "value": "Die Scheide: innen Gesteinsplaneten, außen Riesen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "階段",
+            "value": "盤面 → 微行星 → 開縫 → 清掃完成"
+          },
+          {
+            "label": "凍結線",
+            "value": "內側岩石行星、外側巨行星的分界"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Etapas",
+            "value": "Disco → planetesimais → lacunas → varrido"
+          },
+          {
+            "label": "Linha de gelo",
+            "value": "A divisa: rochosos dentro, gigantes fora"
+          }
+        ]
+      },
+      "related": [
+        "stellar-life",
+        "binary-transfer",
+        "sun"
       ],
       "crossAxis": [
         "element-origin"

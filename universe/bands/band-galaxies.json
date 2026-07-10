@@ -1,7 +1,7 @@
 {
   "bandId": "galaxies",
-  "version": 4,
-  "updatedAt": "2026-07-10T00:00:00Z",
+  "version": 5,
+  "updatedAt": "2026-07-11T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -424,6 +424,109 @@
       "crossAxis": [
         "light-delay"
       ]
+    },
+    {
+      "id": "density-wave",
+      "type": "diagram",
+      "featured": true,
+      "name": "나선팔의 비밀",
+      "nameI18n": {
+        "en": "The Secret of Spiral Arms",
+        "ja": "渦状腕の秘密",
+        "es": "El secreto de los brazos espirales",
+        "de": "Das Geheimnis der Spiralarme",
+        "zh-TW": "旋臂的祕密",
+        "pt-BR": "O segredo dos braços espirais"
+      },
+      "summary": "나선팔은 물질 덩어리가 아니라 궤도가 몰리는 정체 구간 — 장축을 흩트리면 팔이 사라진다.",
+      "summaryI18n": {
+        "en": "Spiral arms are not lumps of matter but traffic jams of orbits — scatter the axes and the arms vanish.",
+        "ja": "渦状腕は物質の塊ではなく、軌道が密集する渋滞区間——長軸を乱すと腕は消える。",
+        "es": "Los brazos espirales no son cúmulos de materia sino atascos de órbitas: dispersa los ejes y desaparecen.",
+        "de": "Spiralarme sind keine Materieklumpen, sondern Staus der Bahnen — verstreue die Achsen und die Arme verschwinden.",
+        "zh-TW": "旋臂不是物質團塊，而是軌道擁擠的壅塞路段——打亂長軸，旋臂便消失。",
+        "pt-BR": "Os braços espirais não são aglomerados de matéria, mas engarrafamentos de órbitas — disperse os eixos e eles somem."
+      },
+      "scene": "scene-density-wave",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "원리",
+          "value": "세차 타원궤도가 몰리는 곳이 팔로 보인다 (밀도파)"
+        },
+        {
+          "label": "증거",
+          "value": "별은 팔에 갇히지 않고 통과해 지나간다"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Principle",
+            "value": "Where twisted oval orbits crowd, an arm appears (density wave)"
+          },
+          {
+            "label": "Evidence",
+            "value": "Stars pass through the arms — never trapped"
+          }
+        ],
+        "ja": [
+          {
+            "label": "原理",
+            "value": "ねじれた楕円軌道が密集する所が腕に見える（密度波）"
+          },
+          {
+            "label": "証拠",
+            "value": "星は腕に閉じ込められず通り抜ける"
+          }
+        ],
+        "es": [
+          {
+            "label": "Principio",
+            "value": "Donde se agolpan las órbitas ovales torcidas, surge un brazo (onda de densidad)"
+          },
+          {
+            "label": "Prueba",
+            "value": "Las estrellas atraviesan los brazos, nunca quedan atrapadas"
+          }
+        ],
+        "de": [
+          {
+            "label": "Prinzip",
+            "value": "Wo sich verdrehte ovale Bahnen drängen, erscheint ein Arm (Dichtewelle)"
+          },
+          {
+            "label": "Beleg",
+            "value": "Sterne ziehen durch die Arme hindurch — nie gefangen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "原理",
+            "value": "扭轉的橢圓軌道擁擠處便顯現為旋臂（密度波）"
+          },
+          {
+            "label": "證據",
+            "value": "恆星穿越旋臂而過，從不受困"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Princípio",
+            "value": "Onde as órbitas ovais torcidas se aglomeram, surge um braço (onda de densidade)"
+          },
+          {
+            "label": "Evidência",
+            "value": "As estrelas atravessam os braços — nunca presas"
+          }
+        ]
+      },
+      "related": [
+        "rotation-curve",
+        "hubble-fork",
+        "milky-way"
+      ],
+      "crossAxis": []
     },
     {
       "id": "andromeda",

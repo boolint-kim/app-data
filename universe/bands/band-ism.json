@@ -1,7 +1,7 @@
 {
   "bandId": "ism",
-  "version": 2,
-  "updatedAt": "2026-07-06T00:00:00Z",
+  "version": 3,
+  "updatedAt": "2026-07-11T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -104,6 +104,111 @@
         "orion",
         "ring",
         "crab"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ]
+    },
+    {
+      "id": "ism-cycle",
+      "type": "process",
+      "featured": true,
+      "name": "우주의 재활용",
+      "nameI18n": {
+        "en": "Cosmic Recycling",
+        "ja": "宇宙のリサイクル",
+        "es": "El reciclaje cósmico",
+        "de": "Kosmisches Recycling",
+        "zh-TW": "宇宙的循環再造",
+        "pt-BR": "A reciclagem cósmica"
+      },
+      "summary": "가스가 별이 되고 별이 터져 가스로 — 다섯 지역이 서로 다른 국면으로 순환하는 살아있는 은하 생태계.",
+      "summaryI18n": {
+        "en": "Gas becomes stars, stars explode back into gas — five regions cycling out of phase, a living galactic ecosystem.",
+        "ja": "ガスが星になり、星が爆発してガスに戻る——5つの領域が位相をずらして巡る、生きた銀河の生態系。",
+        "es": "El gas se hace estrellas y las estrellas estallan de vuelta a gas: cinco regiones ciclando desfasadas, un ecosistema galáctico vivo.",
+        "de": "Gas wird zu Sternen, Sterne explodieren zurück zu Gas — fünf Regionen im versetzten Kreislauf, ein lebendes galaktisches Ökosystem.",
+        "zh-TW": "氣體變成恆星，恆星爆炸又化為氣體——五個區域錯開節奏循環，是活的星系生態系。",
+        "pt-BR": "Gás vira estrela, estrelas explodem de volta a gás — cinco regiões em ciclos defasados, um ecossistema galáctico vivo."
+      },
+      "scene": "scene-ism-cycle",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "순환",
+          "value": "분자운 → 별 탄생 → 초신성 → 거품 → 냉각"
+        },
+        {
+          "label": "세대",
+          "value": "순환마다 금속이 쌓인다 — 태양은 3세대쯤"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Cycle",
+            "value": "Molecular cloud → star birth → supernova → bubble → cooling"
+          },
+          {
+            "label": "Generations",
+            "value": "Each cycle builds metals — the Sun is ~3rd generation"
+          }
+        ],
+        "ja": [
+          {
+            "label": "循環",
+            "value": "分子雲 → 星の誕生 → 超新星 → 泡 → 冷却"
+          },
+          {
+            "label": "世代",
+            "value": "循環ごとに金属が増える — 太陽は第3世代ほど"
+          }
+        ],
+        "es": [
+          {
+            "label": "Ciclo",
+            "value": "Nube molecular → estrellas → supernova → burbuja → enfriamiento"
+          },
+          {
+            "label": "Generaciones",
+            "value": "Cada ciclo acumula metales: el Sol es ~3.ª generación"
+          }
+        ],
+        "de": [
+          {
+            "label": "Zyklus",
+            "value": "Molekülwolke → Sterne → Supernova → Blase → Abkühlung"
+          },
+          {
+            "label": "Generationen",
+            "value": "Jeder Zyklus reichert Metalle an — die Sonne ist ~3. Generation"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "循環",
+            "value": "分子雲 → 恆星誕生 → 超新星 → 氣泡 → 冷卻"
+          },
+          {
+            "label": "世代",
+            "value": "每次循環累積金屬——太陽約第三代"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Ciclo",
+            "value": "Nuvem molecular → estrelas → supernova → bolha → resfriamento"
+          },
+          {
+            "label": "Gerações",
+            "value": "Cada ciclo acumula metais — o Sol é ~3ª geração"
+          }
+        ]
+      },
+      "related": [
+        "nebula-types",
+        "orion",
+        "veil"
       ],
       "crossAxis": [
         "element-origin"

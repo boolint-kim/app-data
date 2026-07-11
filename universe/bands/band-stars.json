@@ -1,6 +1,6 @@
 {
   "bandId": "stars",
-  "version": 4,
+  "version": 5,
   "updatedAt": "2026-07-11T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -2099,14 +2099,14 @@
         "zh-TW": "UY Scuti",
         "pt-BR": "UY Scuti"
       },
-      "summary": "알려진 가장 큰 별 중 하나. 태양 자리에 두면 목성 궤도 부근까지 닿는 극대거성이다.",
+      "summary": "한때 가장 큰 별로 꼽힌 극대거성. 거리가 불확실해 반지름 추정이 750~1,700 R☉ 로 크게 갈린다.",
       "summaryI18n": {
-        "en": "One of the largest known stars — a hypergiant that, placed at the Sun, would reach out near Jupiter's orbit.",
-        "ja": "知られている最大級の恒星。太陽の位置に置けば木星の軌道付近にまで達する極超巨星。",
-        "es": "Una de las estrellas conocidas más grandes: una hipergigante que, situada en el lugar del Sol, llegaría casi hasta la órbita de Júpiter.",
-        "de": "Einer der größten bekannten Sterne – ein Hyperriese, der am Ort der Sonne fast bis zur Jupiterbahn reichen würde.",
-        "zh-TW": "已知最大的恆星之一——一顆特超巨星，若置於太陽的位置，可延伸到接近木星的軌道。",
-        "pt-BR": "Uma das maiores estrelas conhecidas — uma hipergigante que, no lugar do Sol, alcançaria quase a órbita de Júpiter."
+        "en": "A hypergiant once billed as the largest known star. Its distance is uncertain, so radius estimates range widely, from 750 to 1,700 R☉.",
+        "ja": "かつて最大の星とされた極大巨星。距離が不確かなため、半径の推定は750〜1,700 R☉と大きく割れている。",
+        "es": "Una hipergigante que llegó a considerarse la estrella más grande conocida. Su distancia es incierta, y las estimaciones de radio van de 750 a 1.700 R☉.",
+        "de": "Ein Hyperriese, der einst als größter bekannter Stern galt. Seine Entfernung ist unsicher, daher schwanken die Radius-Schätzungen stark: 750 bis 1.700 R☉.",
+        "zh-TW": "曾被視為已知最大恆星的特超巨星。因距離不確定，半徑估計從750到1,700 R☉差異很大。",
+        "pt-BR": "Uma hipergigante que já foi apontada como a maior estrela conhecida. Sua distância é incerta, e as estimativas de raio variam muito: de 750 a 1.700 R☉."
       },
       "scene": "scene-hr-diagram",
       "sceneFocus": "uyscuti",
@@ -2126,11 +2126,11 @@
         },
         {
           "label": "반지름",
-          "value": "약 1,700 R☉"
+          "value": "750~1,700 R☉ 추정 (거리 불확실)"
         },
         {
           "label": "광도",
-          "value": "340,000 L☉"
+          "value": "9만~34만 L☉ 추정"
         }
       ],
       "factsI18n": {
@@ -2141,25 +2141,25 @@
           },
           {
             "label": "Radius",
-            "value": "~1,700 R☉"
+            "value": "750–1,700 R☉ est. (distance uncertain)"
           },
           {
             "label": "Luminosity",
-            "value": "340,000 L☉"
+            "value": "90,000–340,000 L☉ est."
           }
         ],
         "ja": [
           {
             "label": "分類",
-            "value": "M4 極超巨星"
+            "value": "M4 極大巨星"
           },
           {
             "label": "半径",
-            "value": "約1,700 R☉"
+            "value": "750〜1,700 R☉ 推定（距離が不確実）"
           },
           {
             "label": "光度",
-            "value": "340,000 L☉"
+            "value": "9万〜34万 L☉ 推定"
           }
         ],
         "es": [
@@ -2169,39 +2169,39 @@
           },
           {
             "label": "Radio",
-            "value": "~1.700 R☉"
+            "value": "750–1.700 R☉ est. (distancia incierta)"
           },
           {
             "label": "Luminosidad",
-            "value": "340.000 L☉"
+            "value": "90.000–340.000 L☉ est."
           }
         ],
         "de": [
           {
             "label": "Klasse",
-            "value": "M4 Hyperriese"
+            "value": "M4-Hyperriese"
           },
           {
             "label": "Radius",
-            "value": "~1.700 R☉"
+            "value": "750–1.700 R☉ gesch. (Entfernung unsicher)"
           },
           {
             "label": "Leuchtkraft",
-            "value": "340.000 L☉"
+            "value": "90.000–340.000 L☉ gesch."
           }
         ],
         "zh-TW": [
           {
-            "label": "分類",
+            "label": "類型",
             "value": "M4 特超巨星"
           },
           {
             "label": "半徑",
-            "value": "約 1,700 R☉"
+            "value": "估計750~1,700 R☉（距離不確定）"
           },
           {
             "label": "光度",
-            "value": "340,000 L☉"
+            "value": "估計9萬~34萬 L☉"
           }
         ],
         "pt-BR": [
@@ -2211,11 +2211,11 @@
           },
           {
             "label": "Raio",
-            "value": "~1.700 R☉"
+            "value": "750–1.700 R☉ est. (distância incerta)"
           },
           {
             "label": "Luminosidade",
-            "value": "340.000 L☉"
+            "value": "90.000–340.000 L☉ est."
           }
         ]
       },

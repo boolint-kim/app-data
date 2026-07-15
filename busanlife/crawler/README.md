@@ -19,15 +19,23 @@ BusanLife(부산 재개발) 앱은 이 파일을 폴링해 **관심(★) 등록�
 ## 로컬 개발 → NCP 실행
 - **코드 수정은 맥북에서** 하고 `git push`. **NCP 는 크론탭에서 pull/실행만** 담당.
 - 의존성 없음(순수 Node `http`/`fs`). 서비스키는 앱 APK에 든 공개 공공데이터 키라 하드코딩.
+- **경로 주의**: 맥북 = `~/server/app-data`, **NCP(root) = `/home/app-data`** (seoullife 크론과 동일 위치).
 
-## NCP 크론탭 등록 (예: 매일 04:00)
+## NCP 크론탭 등록 — 기존 seoullife 크론과 같은 인라인 방식 (권장, 매일 03:40)
 ```
-0 4 * * * /bin/sh ~/server/app-data/busanlife/crawler/run.sh >> /tmp/busan_maintain_step.log 2>&1
+40 3 * * * cd /home/app-data/busanlife && git pull && cd crawler && node crawl_maintain_step.js >> /var/log/busan_maintain_step.log 2>&1 && cd /home/app-data && git add busanlife/maintain_step.json busanlife/maintain_step_ver.txt && git commit -m "maintain step auto update" && git push
 ```
-`run.sh` 는 `git pull → 크롤 → (변동 시에만) git add busanlife/… → commit → push` 를 수행한다.
-단계 변동이 없으면 아무것도 커밋하지 않는다.
+- 변동 없으면 크롤러가 파일을 안 써서 `git commit` 이 "nothing to commit" 으로 실패 → `&&` 체인 중단 → push 안 함(정상, seoullife 크론과 동일 동작).
+- 매주(월)로 맞추려면 `40 3 * * 1` — 단, 앱은 매일 폴링하므로 서버도 매일 갱신이 알림 신선도에 유리.
+
+### 대안: 래퍼 스크립트 (변동 없을 때 로그가 더 깔끔)
+```
+40 3 * * * /bin/sh /home/app-data/busanlife/crawler/run.sh >> /var/log/busan_maintain_step.log 2>&1
+```
+`run.sh` 는 경로 독립적(`$(dirname "$0")/../..` 로 repo 루트 계산)이라 NCP/맥북 어디서 실행해도 됨.
 
 ## 수동 실행
 ```
-node ~/server/app-data/busanlife/crawler/crawl_maintain_step.js
+node /home/app-data/busanlife/crawler/crawl_maintain_step.js    # NCP
+node ~/server/app-data/busanlife/crawler/crawl_maintain_step.js # 맥북
 ```

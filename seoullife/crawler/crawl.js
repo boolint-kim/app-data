@@ -1,120 +1,120 @@
+// 서울 재개발·재건축(정비사업) 데이터 크롤러
+// 서울 열린데이터광장 TbSeoulRedevStatus OpenAPI에서 정비구역 통계를 받아
+// public/cleanup_data.json + cleanup_version.txt 로 저장한다.
+//
+// [출처/라이선스] 데이터셋 OA-22856 "서울특별시 도시정비사업 통계"
+//   - 서비스명 TbSeoulRedevStatus, 공공누리 제1유형(출처표시) → 상업적 이용·변경 가능
+//   - 호출: http://openapi.seoul.go.kr:8088/{인증키}/json/TbSeoulRedevStatus/{start}/{end}/
+//   - 출처표시: "서울특별시 도시정비사업 통계, 서울 열린데이터광장(data.seoul.go.kr)"
+//
+// 이력: 2026-06-06 정보몽땅 엑셀(공공누리 제4유형, 상업금지)로 수집 중단했으나,
+//       2026-07-16 제1유형 OA-22856(상업이용 가능)로 소스 교체·재개.
+//       앱 CleanupDataHelper 는 gu_nm/btyp_nm/cafe_nm/reprsnt_jibun/progrs_sttus/x/y 키를
+//       그대로 파싱하므로 출력 스키마(7키 + sum_bildng_co)를 유지한다.
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
 const http = require('http');
-const XLSX = require('xlsx');
-
-// === 서울 재개발·재건축 크롤러 비활성화 (2026-06-06) ===
-// 사유: 정보몽땅(공공누리 제4유형, 상업이용 금지) 데이터 수집·배포 중단.
-//       cleanup_data.json 은 {"items":[]} 로 고정, 앱 서울 메뉴는 잠정 중단됨.
-// 재개 시: 상업이용 가능 API 부활하면 아래 process.exit(0); 한 줄만 제거.
-console.log('[crawl.js] 서울 재개발 크롤러 비활성화 상태 — 수집/갱신하지 않고 종료합니다.');
-process.exit(0);
+const https = require('https');
 
 // 설정
+const API_KEY = '786e78784a77696e3832525a6c7648'; // 서울 열린데이터 인증키 (앱/건설 크롤러와 동일)
+const BASE_API = `http://openapi.seoul.go.kr:8088/${API_KEY}/json/TbSeoulRedevStatus`;
+const CHUNK = 1000;          // OpenAPI 1회 최대 행수 (전체 ~472라 단일 청크지만 안전상 루프 유지)
+const RETRY = 3;             // 청크별 재시도 횟수
+
 const KAKAO_API_KEY = process.env.KAKAO_REST_API_KEY;
 const PUBLIC_DIR = path.join(__dirname, '..', 'public');
 const DATA_FILE = path.join(PUBLIC_DIR, 'cleanup_data.json');
 const VERSION_FILE = path.join(PUBLIC_DIR, 'cleanup_version.txt');
-const EXCEL_URL = 'https://cleanup.seoul.go.kr/cleanup/bsnssttus/lsubBsnsSttusExcel.do';
 const OVERRIDE_FILE = path.join(__dirname, 'coords_override.json');
 
-// PositionSeoulHelper 좌표 데이터 (896건)
+// 지번주소 정규화용(앞에 자치구명이 붙는 행 처리)
+const SEOUL_GU = ['종로구','중구','용산구','성동구','광진구','동대문구','중랑구','성북구','강북구','도봉구','노원구','은평구','서대문구','마포구','양천구','강서구','구로구','금천구','영등포구','동작구','관악구','서초구','강남구','송파구','강동구'];
+
+// PositionSeoulHelper 좌표 데이터
 // 키: "대표지번" (reprsnt_jibun)
 const POSITION_SEOUL = JSON.parse(fs.readFileSync(path.join(__dirname, 'position_seoul.json'), 'utf-8'));
 
-// 엑셀 다운로드 (POST 요청)
-function downloadExcel() {
+// HTTP GET (텍스트) — 타임아웃 포함 (crawl_construct.js 와 동일 패턴)
+function fetchText(url, timeoutMs = 60000) {
   return new Promise((resolve, reject) => {
-    const tmpFile = path.join(__dirname, 'tmp_cleanup.xlsx');
-
-    // POST 폼 데이터 (빈 검색조건 = 전체 데이터)
-    const postData = 'orderValue=';
-
-    const url = new URL(EXCEL_URL);
-    const options = {
-      hostname: url.hostname,
-      port: url.port || 443,
-      path: url.pathname,
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Content-Length': Buffer.byteLength(postData),
-        'User-Agent': 'Mozilla/5.0 (compatible; SeoulLifeCrawler/1.0)',
-        'Referer': 'https://cleanup.seoul.go.kr/cleanup/bsnssttus/lscrMainIndx.do'
-      }
-    };
-
-    const protocol = url.protocol === 'https:' ? https : http;
-
-    const req = protocol.request(options, (res) => {
-      // 리다이렉트 처리
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        const redirectUrl = new URL(res.headers.location, EXCEL_URL);
-        const redirectProtocol = redirectUrl.protocol === 'https:' ? https : http;
-        redirectProtocol.get(redirectUrl.href, (res2) => {
-          const chunks = [];
-          res2.on('data', chunk => chunks.push(chunk));
-          res2.on('end', () => {
-            fs.writeFileSync(tmpFile, Buffer.concat(chunks));
-            resolve(tmpFile);
-          });
-          res2.on('error', reject);
-        }).on('error', reject);
-        return;
-      }
-
+    const req = http.get(url, (res) => {
       const chunks = [];
-      res.on('data', chunk => chunks.push(chunk));
-      res.on('end', () => {
-        const buf = Buffer.concat(chunks);
-        console.log(`   응답 크기: ${buf.length} bytes, 상태: ${res.statusCode}`);
-        fs.writeFileSync(tmpFile, buf);
-        resolve(tmpFile);
-      });
+      res.on('data', c => chunks.push(c));
+      res.on('end', () => resolve(Buffer.concat(chunks).toString('utf-8')));
       res.on('error', reject);
     });
-
+    req.setTimeout(timeoutMs, () => {
+      req.destroy(new Error('timeout'));
+    });
     req.on('error', reject);
-    req.write(postData);
-    req.end();
   });
 }
 
-// 엑셀 파싱
-function parseExcel(filePath) {
-  const workbook = XLSX.readFile(filePath);
-  const sheetName = workbook.SheetNames[0];
-  const sheet = workbook.Sheets[sheetName];
-  // 첫 행이 빈 행이므로 header를 2번째 행(인덱스 1)으로 지정
-  const rows = XLSX.utils.sheet_to_json(sheet, { range: 1 });
+// 지번주소 정규화: 앞에 자치구명이 붙어 있으면 제거(예 "양천구목동903" → "목동903"),
+// 앞뒤 공백 정리. (표시용 zone_adres 및 좌표키·지오코딩 주소 조립에 사용)
+function normalizeJibun(gu, raw) {
+  let s = (raw || '').toString().trim();
+  if (gu && s.startsWith(gu)) s = s.slice(gu.length).trim();
+  return s;
+}
 
-  const items = [];
-  for (const row of rows) {
-    // 엑셀 컬럼명 매핑 (정보몽땅 엑셀 헤더 기준)
-    const gu_nm = (row['자치구'] || '').trim();
-    const btyp_nm = (row['사업구분'] || '').trim();
-    const cafe_nm = (row['사업장명'] || '').trim();
-    const reprsnt_jibun = (row['대표지번'] || '').trim();
-    const progrs_sttus = (row['진행단계'] || '').trim();
+// 정수 파싱(콤마 등 제거)
+function toInt(v) {
+  const n = parseInt((v == null ? '' : v).toString().replace(/[^0-9]/g, ''), 10);
+  return isNaN(n) ? 0 : n;
+}
 
-    if (!gu_nm || !cafe_nm) continue;
+// API row → 앱 스키마 항목 (7키 + 세대수). _road 는 지오코딩 폴백용(저장 전 제거)
+function mapRow(r) {
+  const gu = (r.DISTRICT || '').trim();
+  let road = (r.ROAD_ADDR || '').trim();
+  if (road === '-') road = '';
+  return {
+    gu_nm: gu,
+    btyp_nm: (r.BIZ_TYPE || '').trim(),
+    cafe_nm: (r.ZONE_NM || '').trim(),          // 구역명 (앱에서 zone_nm=cafe_nm → 리스트 제목)
+    reprsnt_jibun: normalizeJibun(gu, r.JIBUN_ADDR),
+    progrs_sttus: (r.BIZ_STAGE || '').trim(),    // 단계명(정렬은 앱 AppConst.getProgressStatusIndex 확장)
+    sum_bildng_co: toInt(r.TOT_BUILT_HOUSEHOLDS),// 건립세대수 총합 → 앱 세대수 표시/정렬
+    x: 0,
+    y: 0,
+    _road: normalizeJibun(gu, road)
+  };
+}
 
-    items.push({
-      gu_nm,
-      btyp_nm,
-      cafe_nm,
-      reprsnt_jibun,
-      progrs_sttus,
-      x: 0,
-      y: 0
-    });
+// 전체 건수 조회
+async function fetchTotalCount() {
+  const txt = await fetchText(`${BASE_API}/1/2/`);
+  const d = JSON.parse(txt);
+  const body = d.TbSeoulRedevStatus || {};
+  return body.list_total_count || 0;
+}
+
+// 청크 1개 받기 (JSON, 재시도 포함)
+async function fetchChunk(start, end) {
+  let lastErr;
+  for (let attempt = 1; attempt <= RETRY; attempt++) {
+    try {
+      const txt = await fetchText(`${BASE_API}/${start}/${end}/`);
+      let d;
+      try { d = JSON.parse(txt); } catch (e) { throw new Error('JSON 파싱 실패'); }
+      const body = d.TbSeoulRedevStatus;
+      const result = (body && body.RESULT) ? body.RESULT : (d.RESULT || null);
+      if (result && result.CODE && result.CODE !== 'INFO-000') {
+        throw new Error('API 오류: ' + result.CODE + ' ' + (result.MESSAGE || ''));
+      }
+      const rows = (body && Array.isArray(body.row)) ? body.row : [];
+      console.log(`  [${start}-${end}] ${rows.length}건 (시도 ${attempt})`);
+      return rows.map(mapRow);
+    } catch (e) {
+      lastErr = e;
+      console.log(`  [${start}-${end}] 실패(시도 ${attempt}): ${e.message}`);
+      await new Promise(r => setTimeout(r, 2000));
+    }
   }
-
-  // 임시 파일 삭제
-  fs.unlinkSync(filePath);
-  return items;
+  throw lastErr;
 }
 
 // coords_override.json에서 수동 좌표 적용
@@ -123,13 +123,10 @@ function applyOverrides(items) {
     if (!fs.existsSync(OVERRIDE_FILE)) return 0;
     const overrides = JSON.parse(fs.readFileSync(OVERRIDE_FILE, 'utf-8'));
     const seoulOverrides = overrides.seoul || [];
-
-    // key(대표지번) → 좌표 맵
     const overrideMap = {};
     for (const o of seoulOverrides) {
       if (o.x && o.y) overrideMap[o.key] = { x: o.x, y: o.y };
     }
-
     let count = 0;
     for (const item of items) {
       const coords = overrideMap[item.reprsnt_jibun];
@@ -148,7 +145,6 @@ function applyOverrides(items) {
 
 // PositionSeoul 좌표 매칭 + 기존 JSON 이월
 function mergeCoords(newItems, existingData) {
-  // 기존 JSON에서 대표지번 → 좌표 맵 생성 (x=0,y=0도 포함 = 이미 시도한 항목)
   const existingCoordMap = {};
   if (existingData && existingData.items) {
     for (const item of existingData.items) {
@@ -200,123 +196,92 @@ function kakaoGet(reqPath) {
         'X-Requested-With': 'curl'
       }
     };
-
     https.get(options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        try {
-          resolve(JSON.parse(data));
-        } catch (e) {
-          reject(e);
-        }
+        try { resolve(JSON.parse(data)); }
+        catch (e) { reject(e); }
       });
       res.on('error', reject);
     }).on('error', reject);
   });
 }
 
-// 카카오 주소 검색 API (BusanLife 방식)
 function geocodeByAddress(address) {
-  const encodedAddr = encodeURIComponent(address);
-  const reqPath = `/v2/local/search/address.json?query=${encodedAddr}`;
-  return kakaoGet(reqPath);
+  return kakaoGet(`/v2/local/search/address.json?query=${encodeURIComponent(address)}`);
 }
 
-// 카카오 키워드 검색 API (주소 검색 실패 시 폴백)
 function geocodeByKeyword(address) {
-  const encodedAddr = encodeURIComponent(address);
-  const reqPath = `/v2/local/search/keyword.json?query=${encodedAddr}`;
-  return kakaoGet(reqPath);
+  return kakaoGet(`/v2/local/search/keyword.json?query=${encodeURIComponent(address)}`);
 }
 
-// JSON 응답에서 좌표 추출
+// JSON 응답에서 좌표 추출 (x=위도, y=경도)
 function extractCoords(json) {
-  if (!json.documents || json.documents.length === 0) return null;
+  if (!json || !json.documents || json.documents.length === 0) return null;
   const doc = json.documents[0];
-  // 주소 검색: address 객체에서 추출
   if (doc.address) {
-    return {
-      x: parseFloat(doc.address.y), // 위도
-      y: parseFloat(doc.address.x)  // 경도
-    };
+    return { x: parseFloat(doc.address.y), y: parseFloat(doc.address.x) };
   }
-  // 키워드 검색 또는 address 없는 경우: 최상위 x,y 사용
-  return {
-    x: parseFloat(doc.y),
-    y: parseFloat(doc.x)
-  };
+  return { x: parseFloat(doc.y), y: parseFloat(doc.x) };
 }
 
-// 이중 전략: 주소 검색 → 키워드 검색 폴백
-async function geocode(address) {
-  // 1차: 주소 검색 API
+// 한 주소 문자열을 주소검색→키워드검색 순으로 지오코딩
+async function geocodeAddress(address) {
   const addrResult = await geocodeByAddress(address);
-  const coords = extractCoords(addrResult);
-  if (coords) return coords;
-
-  // 2차: 키워드 검색 API 폴백
-  await new Promise(r => setTimeout(r, 100)); // API 간격
+  let coords = extractCoords(addrResult);
+  if (coords) return { coords, via: '주소' };
+  await new Promise(r => setTimeout(r, 100));
   const kwResult = await geocodeByKeyword(address);
-  return extractCoords(kwResult);
+  coords = extractCoords(kwResult);
+  if (coords) return { coords, via: '키워드' };
+  return null;
 }
 
 // 좌표 없는 신규 항목에만 Geocoding 실행 (이미 시도한 항목 제외)
+// 1차: 지번주소, 2차(실패 시): 도로명주소
 async function fillMissingCoords(items) {
   const missing = items.filter(item => (!item.x || !item.y) && !item._geocoded);
   const skipped = items.filter(item => (!item.x || !item.y) && item._geocoded).length;
   console.log(`좌표 없는 항목: ${missing.length}건 Geocoding, ${skipped}건 이전실패 건너뜀`);
 
-  let addrCount = 0;   // 주소 검색 성공
-  let kwCount = 0;     // 키워드 폴백 성공
+  let okCount = 0;
+  let roadCount = 0;
   let failCount = 0;
 
   for (const item of missing) {
-    if (!item.reprsnt_jibun) {
-      failCount++;
-      continue;
-    }
-
-    // 지번 주소에 '번지' 붙이기 (예: "개포동 138" → "개포동 138번지", "역삼동 711-1" → "역삼동 711-1번지")
     const jibun = item.reprsnt_jibun;
-    const addrJibun = /\d$/.test(jibun) || /\d-\d+$/.test(jibun) ? jibun + '번지' : jibun;
-    const address = `서울특별시 ${item.gu_nm} ${addrJibun}`;
-    try {
-      // 1차: 주소 검색
-      const addrResult = await geocodeByAddress(address);
-      let coords = extractCoords(addrResult);
+    let hit = null;
 
-      if (coords) {
-        item.x = coords.x;
-        item.y = coords.y;
-        addrCount++;
-        console.log(`  Geocoding 성공(주소): ${address} → x=${coords.x}, y=${coords.y}`);
-      } else {
-        // 2차: 키워드 검색 폴백
-        await new Promise(r => setTimeout(r, 100));
-        const kwResult = await geocodeByKeyword(address);
-        coords = extractCoords(kwResult);
-
-        if (coords) {
-          item.x = coords.x;
-          item.y = coords.y;
-          kwCount++;
-          console.log(`  Geocoding 성공(키워드): ${address} → x=${coords.x}, y=${coords.y}`);
-        } else {
-          failCount++;
-          console.log(`  Geocoding 실패: ${address}`);
-        }
-      }
-    } catch (e) {
-      failCount++;
-      console.log(`  Geocoding 오류: ${address} - ${e.message}`);
+    if (jibun) {
+      const addrJibun = /\d$/.test(jibun) || /\d-\d+$/.test(jibun) ? jibun + '번지' : jibun;
+      try {
+        hit = await geocodeAddress(`서울특별시 ${item.gu_nm} ${addrJibun}`);
+      } catch (e) { /* 다음 폴백 */ }
     }
 
-    // API 호출 간격 (초당 10회 제한)
-    await new Promise(r => setTimeout(r, 150));
+    // 지번 실패 시 도로명주소 폴백
+    if (!hit && item._road) {
+      await new Promise(r => setTimeout(r, 100));
+      try {
+        const rhit = await geocodeAddress(`서울특별시 ${item.gu_nm} ${item._road}`);
+        if (rhit) { hit = rhit; hit.via = '도로명'; }
+      } catch (e) { /* fall through */ }
+    }
+
+    if (hit && hit.coords && isFinite(hit.coords.x) && isFinite(hit.coords.y)) {
+      item.x = hit.coords.x;
+      item.y = hit.coords.y;
+      if (hit.via === '도로명') roadCount++; else okCount++;
+    } else {
+      failCount++;
+      console.log(`  Geocoding 실패: ${item.gu_nm} ${jibun || item._road || '(주소없음)'}`);
+    }
+
+    await new Promise(r => setTimeout(r, 150)); // API 호출 간격
   }
 
-  console.log(`Geocoding 완료: 주소검색 ${addrCount}, 키워드폴백 ${kwCount}, 실패 ${failCount}`);
+  console.log(`Geocoding 완료: 지번/키워드 ${okCount}, 도로명폴백 ${roadCount}, 실패 ${failCount}`);
 }
 
 // 기존 데이터 로드
@@ -331,32 +296,28 @@ function loadExistingData() {
   return null;
 }
 
-// 데이터 변경 확인
+// 데이터 변경 확인 (건수 / 진행단계 / 세대수 변화)
 function hasChanges(newItems, existingData) {
   if (!existingData || !existingData.items) return true;
   if (newItems.length !== existingData.items.length) return true;
 
-  // 진행단계 변경 등 비교
   const existingMap = {};
   for (const item of existingData.items) {
-    existingMap[item.reprsnt_jibun + '|' + item.cafe_nm] = item.progrs_sttus;
+    existingMap[item.reprsnt_jibun + '|' + item.cafe_nm] = item.progrs_sttus + '|' + (item.sum_bildng_co || 0);
   }
-
   for (const item of newItems) {
     const key = item.reprsnt_jibun + '|' + item.cafe_nm;
-    if (existingMap[key] !== item.progrs_sttus) return true;
+    if (existingMap[key] !== item.progrs_sttus + '|' + (item.sum_bildng_co || 0)) return true;
   }
-
   return false;
 }
 
-// 결과 저장
+// 결과 저장 (버전 +1)
 function saveResults(items) {
   if (!fs.existsSync(PUBLIC_DIR)) {
     fs.mkdirSync(PUBLIC_DIR, { recursive: true });
   }
 
-  // 기존 version.txt 읽어서 +1 (없으면 1부터 시작)
   let version = 1;
   try {
     if (fs.existsSync(VERSION_FILE)) {
@@ -367,12 +328,10 @@ function saveResults(items) {
     version = 1;
   }
 
-  // 내부 플래그 제거 후 저장
-  items.forEach(item => delete item._geocoded);
+  // 내부 플래그/임시필드 제거 후 저장
+  items.forEach(item => { delete item._geocoded; delete item._road; });
 
-  const data = { items };
-
-  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf-8');
+  fs.writeFileSync(DATA_FILE, JSON.stringify({ items }, null, 2), 'utf-8');
   fs.writeFileSync(VERSION_FILE, String(version), 'utf-8');
 
   console.log(`저장 완료: ${items.length}건, 버전: ${version}`);
@@ -380,23 +339,33 @@ function saveResults(items) {
 
 // 메인 실행
 async function main() {
-  console.log('=== 정비사업 데이터 크롤링 시작 ===');
+  console.log('=== 서울 정비사업(OA-22856 / TbSeoulRedevStatus) 크롤링 시작 ===');
   console.log(new Date().toISOString());
 
   try {
-    // 1. 엑셀 다운로드
-    console.log('\n1. 엑셀 다운로드...');
-    const excelPath = await downloadExcel();
-    console.log(`   다운로드 완료: ${excelPath}`);
-
-    // 2. 엑셀 파싱
-    console.log('\n2. 엑셀 파싱...');
-    const items = parseExcel(excelPath);
-    console.log(`   파싱 완료: ${items.length}건`);
-
-    if (items.length === 0) {
-      console.log('파싱된 데이터가 없습니다. 종료합니다.');
+    // 1. 전체 건수
+    console.log('\n1. 전체 건수 조회...');
+    const total = await fetchTotalCount();
+    console.log(`   전체 건수: ${total}`);
+    if (!total) {
+      console.log('전체 건수 0. 종료합니다.');
       return;
+    }
+
+    // 2. 청크 수집
+    console.log('\n2. 데이터 수집...');
+    const items = [];
+    for (let start = 1; start <= total; start += CHUNK) {
+      const end = Math.min(start + CHUNK - 1, total);
+      const rows = await fetchChunk(start, end);
+      items.push(...rows);
+    }
+    console.log(`   수집 완료: ${items.length}건`);
+
+    // 수집 누락 방어: 전체의 95% 미만이면 중단(기존 데이터 보존)
+    if (items.length < total * 0.95) {
+      console.log(`   수집량(${items.length})이 전체(${total})의 95% 미만. 저장 중단.`);
+      process.exit(1);
     }
 
     // 3. 수동 좌표 오버라이드
@@ -435,4 +404,3 @@ async function main() {
 }
 
 main();
-

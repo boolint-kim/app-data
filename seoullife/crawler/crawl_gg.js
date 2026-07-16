@@ -69,10 +69,12 @@ function applyOverrides(items) {
   }
 }
 
-// 경기도 API XML 호출
-function fetchApi() {
+// 경기도 API XML 호출 (1회) — 실효 타임아웃 포함
+// 주의: https.get의 {timeout} 옵션만으로는 hang한 connect를 못 끊는다.
+//       'timeout' 이벤트에서 req.destroy() 해야 실제로 중단된다(경기데이터드림 간헐 지연 대응).
+function fetchApiOnce(timeoutMs) {
   return new Promise((resolve, reject) => {
-    https.get(API_URL, { timeout: 30000 }, (res) => {
+    const req = https.get(API_URL, (res) => {
       // 청크를 Buffer로 모은 뒤 한 번에 UTF-8 디코딩.
       // (chunk마다 data += chunk 하면 한글 3바이트가 청크 경계에서 잘려 U+FFFD로 깨짐)
       const chunks = [];
@@ -87,8 +89,26 @@ function fetchApi() {
         resolve(data);
       });
       res.on('error', reject);
-    }).on('error', reject);
+    });
+    req.setTimeout(timeoutMs, () => req.destroy(new Error('timeout')));
+    req.on('error', reject);
   });
+}
+
+// 재시도 래퍼 (경기데이터드림 간헐적 connect 타임아웃 대응)
+async function fetchApi() {
+  const RETRY = 3;
+  let lastErr;
+  for (let attempt = 1; attempt <= RETRY; attempt++) {
+    try {
+      return await fetchApiOnce(30000);
+    } catch (e) {
+      lastErr = e;
+      console.log(`   API 호출 실패(시도 ${attempt}/${RETRY}): ${e.message}`);
+      if (attempt < RETRY) await new Promise(r => setTimeout(r, 3000));
+    }
+  }
+  throw lastErr;
 }
 
 // XML 파싱 (간단한 정규식 기반, 외부 의존성 없음)

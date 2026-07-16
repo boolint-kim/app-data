@@ -1,0 +1,78 @@
+name: crawl-app-data
+
+# app-data 크롤러 통합 실행 (NCP 크론 이관)
+#   - 매일 03:10 KST(=18:10 UTC 전날) 1회 + 수동 실행(workflow_dispatch)
+#   - 서울 재개발/경기/건설 + 부산 유지관리 크롤러를 순차 실행 → 변경분만 커밋 1개
+#   - hasChanges 가드로 데이터 변화 없으면 파일 미변경 → 커밋 스킵
+#   - KAKAO_REST_API_KEY 는 리포지토리 Secrets 에서 주입(지오코딩용)
+
+on:
+  schedule:
+    - cron: '10 18 * * *'   # 매일 18:10 UTC = 03:10 KST
+  workflow_dispatch:          # 수동 실행 버튼
+
+# 같은 리포에 쓰는 잡이 동시에 push 하지 않도록 직렬화(취소 아님, 대기)
+concurrency:
+  group: app-data-write
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # 크롤 결과 커밋/푸시
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+    steps:
+      - name: Checkout (full history for rebase)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install seoul crawler deps
+        working-directory: seoullife/crawler
+        run: npm ci || npm install --no-save
+
+      # 각 크롤러는 실패해도 다른 크롤러/커밋을 막지 않도록 비치명적 처리
+      # (개별 실패는 GitHub 주석(::error::)으로 노출)
+      - name: 서울 재개발 (crawl.js)
+        working-directory: seoullife/crawler
+        run: node crawl.js || echo "::error title=crawl.js::서울 재개발 크롤 실패"
+
+      - name: 경기 재개발 (crawl_gg.js)
+        working-directory: seoullife/crawler
+        run: node crawl_gg.js || echo "::error title=crawl_gg.js::경기 크롤 실패"
+
+      - name: 서울 건설 (crawl_construct.js)
+        working-directory: seoullife/crawler
+        run: node crawl_construct.js || echo "::error title=crawl_construct.js::서울 건설 크롤 실패"
+
+      - name: 부산 유지관리 (crawl_maintain_step.js)
+        working-directory: busanlife/crawler
+        run: node crawl_maintain_step.js || echo "::error title=crawl_maintain_step.js::부산 크롤 실패"
+
+      - name: Commit & push (변경분만)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seoullife/public \
+                  busanlife/maintain_step.json \
+                  busanlife/maintain_step_ver.txt
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 스킵"
+            exit 0
+          fi
+          git commit -m "auto: app-data crawl (Actions)"
+          # 동시 writer(맥북 등)와 경합 대비: rebase 후 push, 1회 재시도
+          for attempt in 1 2; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "push 재시도 $attempt..."
+            sleep 5
+          done

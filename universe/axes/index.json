@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updatedAt": "2026-07-17T18:00:00Z",
+  "version": 5,
+  "updatedAt": "2026-07-17T21:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -738,6 +738,175 @@
             "es": "La ceniza final de la fusión estelar: un bloque de carbono y oxígeno en cristalización, los restos futuros del Sol.",
             "de": "Die letzte Asche der Sternfusion — ein kristallisierender Klumpen aus Kohlenstoff und Sauerstoff, die künftigen Überreste der Sonne.",
             "pt-BR": "A cinza final da fusão estelar — um bloco de carbono e oxigênio em cristalização, os restos futuros do Sol."
+          }
+        }
+      }
+    },
+    {
+      "id": "multi-messenger",
+      "scene": "scene-gw-replay",
+      "title": "멀티메신저",
+      "titleI18n": {
+        "en": "Multi-Messenger",
+        "ja": "マルチメッセンジャー",
+        "zh-TW": "多信使",
+        "es": "Multimensajero",
+        "de": "Multi-Messenger",
+        "pt-BR": "Multimensageiro"
+      },
+      "objects": {
+        "gw170817": {
+          "hook": "역사상 처음, 같은 사건을 중력파로 듣고 빛으로 본 날 — 70개 관측소가 한 점을 겨눴습니다.",
+          "hookI18n": {
+            "en": "The first event in history both heard in gravity and seen in light — 70 observatories aimed at one point.",
+            "ja": "史上初めて、同じ事象を重力波で聴き、光で見た日 — 70の観測所が一点を狙いました。",
+            "zh-TW": "史上第一次，同一事件既被重力波聽見、又被光看見 — 70座觀測站瞄準同一點。",
+            "es": "El primer suceso de la historia oído en gravedad y visto en luz: 70 observatorios apuntaron a un mismo punto.",
+            "de": "Das erste Ereignis der Geschichte, in Gravitation gehört und in Licht gesehen — 70 Observatorien zielten auf einen Punkt.",
+            "pt-BR": "O primeiro evento da história ouvido em gravidade e visto em luz — 70 observatórios miraram um só ponto."
+          }
+        },
+        "sn1987a": {
+          "hook": "뉴트리노 천문학의 개국 방송 — 빛이 아닌 신호로 별의 죽음을 들은 첫 사건입니다.",
+          "hookI18n": {
+            "en": "The debut broadcast of neutrino astronomy — the first time a star's death was heard in something other than light.",
+            "ja": "ニュートリノ天文学の開局放送 — 光ではない信号で星の死を聴いた最初の事象です。",
+            "zh-TW": "微中子天文學的開台首播 — 首次以光以外的訊號聽見恆星之死。",
+            "es": "La emisión inaugural de la astronomía de neutrinos: la primera vez que la muerte de una estrella se oyó en algo distinto de la luz.",
+            "de": "Die Eröffnungssendung der Neutrinoastronomie — zum ersten Mal wurde der Tod eines Sterns in etwas anderem als Licht gehört.",
+            "pt-BR": "A transmissão de estreia da astronomia de neutrinos — a primeira vez que a morte de uma estrela foi ouvida em algo além da luz."
+          }
+        },
+        "cygnus-x1": {
+          "hook": "X선이라는 새 귀가 열리자마자 들린 첫 블랙홀 후보 — 대기 밖에서만 들리는 소리였습니다.",
+          "hookI18n": {
+            "en": "The first black-hole candidate heard the moment the X-ray ear opened — a sound audible only above the atmosphere.",
+            "ja": "X線という新しい耳が開いた途端に聴こえた最初のブラックホール候補 — 大気の外でしか聴こえない音でした。",
+            "zh-TW": "X光這隻新耳朵一打開就聽見的首個黑洞候選 — 只有在大氣層外才聽得見的聲音。",
+            "es": "El primer candidato a agujero negro oído en cuanto se abrió el oído de rayos X: un sonido audible solo sobre la atmósfera.",
+            "de": "Der erste Schwarzloch-Kandidat, gehört, sobald sich das Röntgenohr öffnete — ein Klang, hörbar nur über der Atmosphäre.",
+            "pt-BR": "O primeiro candidato a buraco negro ouvido assim que o ouvido de raios X se abriu — um som audível só acima da atmosfera."
+          }
+        },
+        "quasar-3c273": {
+          "hook": "'별처럼 보이는 전파원'이라는 이름 자체가 발견사 — 전파 귀가 없었다면 그냥 별인 줄 알았을 겁니다.",
+          "hookI18n": {
+            "en": "Its very name — \"quasi-stellar radio source\" — is discovery history. Without radio ears, we would have taken it for a star.",
+            "ja": "「星のように見える電波源」という名前自体が発見史 — 電波の耳がなければ、ただの星だと思っていたでしょう。",
+            "zh-TW": "「類星電波源」這名字本身就是發現史 — 沒有電波耳朵，我們只會當它是顆星。",
+            "es": "Su propio nombre —«fuente de radio cuasi estelar»— es historia del descubrimiento. Sin oídos de radio, la habríamos tomado por una estrella.",
+            "de": "Schon sein Name — „quasi-stellare Radioquelle\" — ist Entdeckungsgeschichte. Ohne Radioohren hätten wir ihn für einen Stern gehalten.",
+            "pt-BR": "Seu próprio nome — \"fonte de rádio quase estelar\" — é história da descoberta. Sem ouvidos de rádio, o teríamos tomado por uma estrela."
+          }
+        },
+        "centaurus-a": {
+          "hook": "가시광으론 은하 하나, 전파로 보면 보름달 20배의 로브 — 파장을 바꾸면 크기가 바뀝니다.",
+          "hookI18n": {
+            "en": "One galaxy in visible light; lobes twenty full Moons wide in radio — change the wavelength and the size changes.",
+            "ja": "可視光では1つの銀河、電波では満月20個分のローブ — 波長を変えると大きさが変わります。",
+            "zh-TW": "可見光下是一個星系，電波下是二十個滿月寬的瓣 — 換個波長，大小就變了。",
+            "es": "Una galaxia en luz visible; lóbulos de veinte lunas llenas en radio: cambia la longitud de onda y cambia el tamaño.",
+            "de": "Im sichtbaren Licht eine Galaxie; im Radio Keulen von zwanzig Vollmonden Breite — ändere die Wellenlänge, und die Größe ändert sich.",
+            "pt-BR": "Uma galáxia na luz visível; lóbulos de vinte luas cheias no rádio — mude o comprimento de onda e o tamanho muda."
+          }
+        },
+        "m82": {
+          "hook": "가시광은 평범한 시가 모양 — 적외선 귀로 들으면 은하 전체가 별 탄생의 폭발음입니다.",
+          "hookI18n": {
+            "en": "A plain cigar in visible light — through infrared ears, the whole galaxy roars with starbirth.",
+            "ja": "可視光では平凡な葉巻形 — 赤外線の耳で聴くと、銀河全体が星誕生の轟音です。",
+            "zh-TW": "可見光下是根平凡的雪茄 — 用紅外耳朵聽，整個星系都是恆星誕生的轟鳴。",
+            "es": "Un cigarro corriente en luz visible; con oídos infrarrojos, toda la galaxia ruge de nacimiento estelar.",
+            "de": "Im sichtbaren Licht eine schlichte Zigarre — durch Infrarotohren dröhnt die ganze Galaxie vor Sternengeburt.",
+            "pt-BR": "Um charuto comum na luz visível — com ouvidos infravermelhos, a galáxia inteira ruge de nascimento estelar."
+          }
+        },
+        "m87": {
+          "hook": "전파 제트·가시광 은하·X선 강착 — 그리고 EHT가 찍은 그림자까지, 한 천체의 네 얼굴입니다.",
+          "hookI18n": {
+            "en": "A radio jet, a visible galaxy, X-ray accretion — and the shadow EHT photographed: four faces of one object.",
+            "ja": "電波のジェット・可視光の銀河・X線の降着 — そしてEHTが撮った影まで、1つの天体の4つの顔です。",
+            "zh-TW": "電波噴流、可見光星系、X光吸積 — 加上EHT拍下的陰影，一個天體的四張面孔。",
+            "es": "Un chorro en radio, una galaxia visible, acreción en rayos X y la sombra que fotografió el EHT: cuatro caras de un mismo objeto.",
+            "de": "Ein Radiojet, eine sichtbare Galaxie, Röntgenakkretion — und der Schatten, den das EHT fotografierte: vier Gesichter eines Objekts.",
+            "pt-BR": "Um jato de rádio, uma galáxia visível, acreção em raios X — e a sombra que o EHT fotografou: quatro faces de um objeto."
+          }
+        },
+        "sagittarius-a": {
+          "hook": "지구만 한 가상 망원경(EHT)의 두 번째 작품 — 우리 은하 심장의 초상입니다.",
+          "hookI18n": {
+            "en": "The Earth-sized virtual telescope's second portrait — the heart of our own galaxy.",
+            "ja": "地球サイズの仮想望遠鏡（EHT）の2作目 — 私たちの銀河の心臓の肖像です。",
+            "zh-TW": "地球大小虛擬望遠鏡（EHT）的第二幅作品 — 我們銀河心臟的肖像。",
+            "es": "La segunda obra del telescopio virtual del tamaño de la Tierra: el retrato del corazón de nuestra galaxia.",
+            "de": "Das zweite Werk des erdgroßen virtuellen Teleskops — das Porträt des Herzens unserer Galaxie.",
+            "pt-BR": "A segunda obra do telescópio virtual do tamanho da Terra — o retrato do coração da nossa galáxia."
+          }
+        },
+        "crab-pulsar": {
+          "hook": "전파부터 감마선까지 전 대역에서 깜빡이는 표준 촛불 — 새 망원경은 게성운부터 겨눕니다.",
+          "hookI18n": {
+            "en": "A standard candle blinking from radio to gamma rays — new telescopes point at the Crab first.",
+            "ja": "電波からガンマ線まで全帯域で瞬く標準ろうそく — 新しい望遠鏡はまず、かに星雲に向けられます。",
+            "zh-TW": "從電波到伽瑪射線全波段閃爍的標準燭光 — 新望遠鏡總是先對準蟹狀星雲。",
+            "es": "Una vela estándar que parpadea del radio a los rayos gamma: los telescopios nuevos apuntan primero al Cangrejo.",
+            "de": "Eine Standardkerze, die vom Radio bis zu Gammastrahlen blinkt — neue Teleskope richten sich zuerst auf den Krebsnebel.",
+            "pt-BR": "Uma vela padrão piscando do rádio aos raios gama — telescópios novos apontam primeiro para o Caranguejo."
+          }
+        },
+        "milky-way": {
+          "hook": "전파·적외선·X선·감마선 전천 지도를 겹쳐야 비로소 보이는, 우리 집의 전체 구조입니다.",
+          "hookI18n": {
+            "en": "Only by stacking radio, infrared, X-ray and gamma-ray sky maps does our home's full structure appear.",
+            "ja": "電波・赤外線・X線・ガンマ線の全天地図を重ねて初めて見える、私たちの家の全体構造です。",
+            "zh-TW": "把電波、紅外、X光、伽瑪的全天圖疊起來，才看得見我們家園的完整結構。",
+            "es": "Solo superponiendo los mapas del cielo en radio, infrarrojo, rayos X y gamma aparece la estructura completa de nuestro hogar.",
+            "de": "Erst wenn man Radio-, Infrarot-, Röntgen- und Gamma-Himmelskarten übereinanderlegt, zeigt sich die ganze Struktur unseres Zuhauses.",
+            "pt-BR": "Só empilhando os mapas do céu em rádio, infravermelho, raios X e gama aparece a estrutura completa do nosso lar."
+          }
+        },
+        "cmb": {
+          "hook": "마이크로파 귀로만 들리는 우주의 배경음 — 안테나 잡음인 줄 알았던 노벨상입니다.",
+          "hookI18n": {
+            "en": "The universe's background hum, audible only to microwave ears — a Nobel Prize first mistaken for antenna noise.",
+            "ja": "マイクロ波の耳にだけ聴こえる宇宙の背景音 — アンテナ雑音と間違われたノーベル賞です。",
+            "zh-TW": "只有微波耳朵聽得見的宇宙背景音 — 曾被當成天線雜訊的諾貝爾獎。",
+            "es": "El murmullo de fondo del universo, audible solo con oídos de microondas: un Nobel confundido al principio con ruido de antena.",
+            "de": "Das Hintergrundrauschen des Universums, hörbar nur für Mikrowellenohren — ein Nobelpreis, zunächst für Antennenrauschen gehalten.",
+            "pt-BR": "O zumbido de fundo do universo, audível só a ouvidos de micro-ondas — um Nobel confundido no início com ruído de antena."
+          }
+        },
+        "hercules-cbgw": {
+          "hook": "감마선 폭발들의 지도로 드러난, 알려진 가장 큰 구조 — 감마선 귀가 그린 지도입니다.",
+          "hookI18n": {
+            "en": "The largest known structure, revealed by mapping gamma-ray bursts — a map drawn by the gamma-ray ear.",
+            "ja": "ガンマ線バーストの地図から浮かび上がった、既知で最大の構造 — ガンマ線の耳が描いた地図です。",
+            "zh-TW": "由伽瑪射線暴地圖揭示的已知最大結構 — 伽瑪耳朵畫出的地圖。",
+            "es": "La mayor estructura conocida, revelada al cartografiar brotes de rayos gamma: un mapa dibujado por el oído gamma.",
+            "de": "Die größte bekannte Struktur, enthüllt durch die Kartierung von Gammablitzen — eine Karte, gezeichnet vom Gammaohr.",
+            "pt-BR": "A maior estrutura conhecida, revelada pelo mapeamento de explosões de raios gama — um mapa desenhado pelo ouvido gama."
+          }
+        },
+        "betelgeuse": {
+          "hook": "폭발하면 뉴트리노가 먼저, 빛이 나중 — 다음 그랜드슬램의 최유력 후보입니다.",
+          "hookI18n": {
+            "en": "When it blows: neutrinos first, light later — the favorite candidate for the next grand slam.",
+            "ja": "爆発すればニュートリノが先、光が後 — 次のグランドスラムの最有力候補です。",
+            "zh-TW": "一旦爆發：微中子先到，光在後 — 下一場大滿貫的最熱門候選。",
+            "es": "Cuando estalle: primero neutrinos, luego luz. La candidata favorita al próximo pleno.",
+            "de": "Wenn sie explodiert: erst Neutrinos, dann Licht — die Favoritin für den nächsten Grand Slam.",
+            "pt-BR": "Quando explodir: neutrinos primeiro, luz depois — a candidata favorita ao próximo grand slam."
+          }
+        },
+        "sun": {
+          "hook": "빛 + 뉴트리노 + 입자(태양풍) 세 채널을 모두 내는, 가장 가까운 멀티메신저 방송국입니다.",
+          "hookI18n": {
+            "en": "Broadcasting in light, neutrinos and particles (solar wind) — the nearest multi-messenger station.",
+            "ja": "光+ニュートリノ+粒子（太陽風）の3チャンネルで放送する、最も近いマルチメッセンジャー局です。",
+            "zh-TW": "同時以光、微中子、粒子（太陽風）三個頻道播出 — 最近的多信使電台。",
+            "es": "Emitiendo en luz, neutrinos y partículas (viento solar): la emisora multimensajero más cercana.",
+            "de": "Sendet in Licht, Neutrinos und Teilchen (Sonnenwind) — die nächstgelegene Multi-Messenger-Station.",
+            "pt-BR": "Transmitindo em luz, neutrinos e partículas (vento solar) — a estação multimensageira mais próxima."
           }
         }
       }

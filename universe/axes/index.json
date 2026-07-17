@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-07-17T00:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-07-17T12:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -286,6 +286,87 @@
             "es": "La victoria de la gravedad, fotografiada por primera vez: una sombra más ancha que la órbita de Plutón.",
             "de": "Der Sieg der Schwerkraft, zum ersten Mal fotografiert — ein Schatten, größer als die Plutobahn.",
             "pt-BR": "A vitória da gravidade, fotografada pela primeira vez — uma sombra maior que a órbita de Plutão."
+          }
+        }
+      }
+    },
+    {
+      "id": "particle",
+      "scene": "scene-nucleus",
+      "title": "입자물리",
+      "titleI18n": {
+        "en": "Particle Physics",
+        "ja": "素粒子物理",
+        "zh-TW": "粒子物理",
+        "es": "Física de partículas",
+        "de": "Teilchenphysik",
+        "pt-BR": "Física de partículas"
+      },
+      "objects": {
+        "sun": {
+          "hook": "수소 넷이 헬륨 하나로 — 사라진 질량 0.7%가 지금 창밖의 햇빛입니다.",
+          "hookI18n": {
+            "en": "Four hydrogens become one helium — the missing 0.7% of mass is the sunlight outside your window.",
+            "ja": "水素4つがヘリウム1つに — 消えた質量0.7%が、いま窓の外の日差しです。",
+            "zh-TW": "四個氫變成一個氦 — 消失的0.7%質量，就是你窗外的陽光。",
+            "es": "Cuatro hidrógenos se vuelven un helio: el 0,7% de masa que falta es la luz del sol tras tu ventana.",
+            "de": "Vier Wasserstoffkerne werden zu einem Helium — die fehlenden 0,7 % Masse sind das Sonnenlicht vor deinem Fenster.",
+            "pt-BR": "Quatro hidrogênios viram um hélio — os 0,7% de massa que somem são a luz do sol na sua janela."
+          }
+        },
+        "betelgeuse": {
+          "hook": "철까지 조립하면 끝 — 철은 태울 수 없는 재라서, 별의 심장이 멎습니다.",
+          "hookI18n": {
+            "en": "Assembly ends at iron — iron is ash that cannot burn, and the star's heart stops.",
+            "ja": "組み立ては鉄で終わり — 鉄は燃やせない灰なので、星の心臓は止まります。",
+            "zh-TW": "組裝到鐵就結束 — 鐵是燒不動的灰燼，恆星的心臟就此停跳。",
+            "es": "El ensamblaje termina en el hierro: es ceniza que no puede arder, y el corazón de la estrella se detiene.",
+            "de": "Der Aufbau endet beim Eisen — Eisen ist Asche, die nicht brennen kann, und das Herz des Sterns bleibt stehen.",
+            "pt-BR": "A montagem termina no ferro — ferro é cinza que não queima, e o coração da estrela para."
+          }
+        },
+        "sn1987a": {
+          "hook": "철 심장이 무너진 날 — 조립의 종착역이 폭발의 방아쇠였습니다.",
+          "hookI18n": {
+            "en": "The day the iron heart collapsed — the end of assembly was the trigger of the blast.",
+            "ja": "鉄の心臓が崩れた日 — 組み立ての終着駅が、爆発の引き金でした。",
+            "zh-TW": "鐵之心崩塌的那天 — 組裝的終點站，正是爆炸的扳機。",
+            "es": "El día en que el corazón de hierro colapsó: el final del ensamblaje fue el gatillo de la explosión.",
+            "de": "Der Tag, an dem das Eisenherz kollabierte — das Ende des Aufbaus war der Auslöser der Explosion.",
+            "pt-BR": "O dia em que o coração de ferro desabou — o fim da montagem foi o gatilho da explosão."
+          }
+        },
+        "crab": {
+          "hook": "초신성의 빛은 갓 조립된 니켈-56의 방사성 붕괴 — 방사능이 촛불입니다.",
+          "hookI18n": {
+            "en": "A supernova's light is the radioactive decay of freshly built nickel-56 — radioactivity as a candle.",
+            "ja": "超新星の光は、組み立てられたばかりのニッケル-56の放射性崩壊 — 放射能がろうそくです。",
+            "zh-TW": "超新星的光，來自剛組裝好的鎳-56的放射性衰變 — 放射性就是那根蠟燭。",
+            "es": "La luz de una supernova es la desintegración radiactiva del níquel-56 recién construido: radiactividad como vela.",
+            "de": "Das Licht einer Supernova ist der radioaktive Zerfall frisch gebauten Nickel-56 — Radioaktivität als Kerze.",
+            "pt-BR": "A luz de uma supernova é o decaimento radioativo do níquel-56 recém-montado — radioatividade como vela."
+          }
+        },
+        "gw170817": {
+          "hook": "금 원자핵(양성자 79개)은 별로는 못 만듭니다 — 중성자를 퍼붓는 r-과정의 작품입니다.",
+          "hookI18n": {
+            "en": "A gold nucleus (79 protons) is beyond any star — it takes the r-process, a downpour of neutrons.",
+            "ja": "金の原子核（陽子79個）は星では作れません — 中性子を浴びせるr過程の作品です。",
+            "zh-TW": "金原子核（79顆質子）不是恆星造得出的 — 是中子傾盆而下的r過程之作。",
+            "es": "Un núcleo de oro (79 protones) supera a cualquier estrella: exige el proceso r, un aguacero de neutrones.",
+            "de": "Ein Goldkern (79 Protonen) übersteigt jeden Stern — es braucht den r-Prozess, einen Neutronenregen.",
+            "pt-BR": "Um núcleo de ouro (79 prótons) está além de qualquer estrela — exige o processo r, um aguaceiro de nêutrons."
+          }
+        },
+        "crab-pulsar": {
+          "hook": "초신성의 빛은 갓 조립된 니켈-56의 방사성 붕괴 — 방사능이 촛불입니다.",
+          "hookI18n": {
+            "en": "A supernova's light is the radioactive decay of freshly built nickel-56 — radioactivity as a candle.",
+            "ja": "超新星の光は、組み立てられたばかりのニッケル-56の放射性崩壊 — 放射能がろうそくです。",
+            "zh-TW": "超新星的光，來自剛組裝好的鎳-56的放射性衰變 — 放射性就是那根蠟燭。",
+            "es": "La luz de una supernova es la desintegración radiactiva del níquel-56 recién construido: radiactividad como vela.",
+            "de": "Das Licht einer Supernova ist der radioaktive Zerfall frisch gebauten Nickel-56 — Radioaktivität als Kerze.",
+            "pt-BR": "A luz de uma supernova é o decaimento radioativo do níquel-56 recém-montado — radioatividade como vela."
           }
         }
       }

@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updatedAt": "2026-07-17T21:00:00Z",
+  "version": 6,
+  "updatedAt": "2026-07-18T00:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -286,6 +286,325 @@
             "es": "La victoria de la gravedad, fotografiada por primera vez: una sombra más ancha que la órbita de Plutón.",
             "de": "Der Sieg der Schwerkraft, zum ersten Mal fotografiert — ein Schatten, größer als die Plutobahn.",
             "pt-BR": "A vitória da gravidade, fotografada pela primeira vez — uma sombra maior que a órbita de Plutão."
+          }
+        },
+        "mercury": {
+          "hook": "가장 작은 행성 — 그래도 중력은 이미 완승, 암석을 완전한 구로 눌렀습니다.",
+          "hookI18n": {
+            "en": "The smallest planet — yet gravity has long since won, crushing rock into a perfect sphere.",
+            "ja": "最小の惑星 — それでも重力はとうに完勝し、岩石を完全な球に押し固めました。",
+            "zh-TW": "最小的行星 — 但重力早已完勝，把岩石壓成完美的球。",
+            "es": "El planeta más pequeño, pero la gravedad ganó hace mucho: aplastó la roca en una esfera perfecta.",
+            "de": "Der kleinste Planet — doch die Schwerkraft hat längst gesiegt und das Gestein zur perfekten Kugel gepresst.",
+            "pt-BR": "O menor planeta — mas a gravidade venceu há muito, esmagando a rocha numa esfera perfeita."
+          }
+        },
+        "venus": {
+          "hook": "지구의 쌍둥이 균형 — 같은 층에서 벌어지는 같은 힘의 승부입니다.",
+          "hookI18n": {
+            "en": "Earth's twin in balance — the same contest of forces, on the same rung.",
+            "ja": "地球の双子の釣り合い — 同じ階層で繰り広げられる同じ力の勝負です。",
+            "zh-TW": "地球的孿生平衡 — 同一層上演的同一場力量對決。",
+            "es": "El equilibrio gemelo de la Tierra: la misma contienda de fuerzas, en el mismo peldaño.",
+            "de": "Das Zwillingsgleichgewicht der Erde — derselbe Kräftekampf auf derselben Stufe.",
+            "pt-BR": "O equilíbrio gêmeo da Terra — a mesma disputa de forças, no mesmo degrau."
+          }
+        },
+        "mars": {
+          "hook": "중력이 약해 산이 자랍니다 — 올림푸스몬스 22 km는 지구에선 설 수 없는 높이입니다.",
+          "hookI18n": {
+            "en": "Weaker gravity lets mountains grow — Olympus Mons at 22 km could never stand on Earth.",
+            "ja": "重力が弱いので山が育ちます — オリンポス山の22kmは、地球では立っていられない高さです。",
+            "zh-TW": "重力較弱，山才長得高 — 22公里的奧林帕斯山在地球上根本站不住。",
+            "es": "La gravedad más débil deja crecer montañas: los 22 km del monte Olimpo jamás se sostendrían en la Tierra.",
+            "de": "Schwächere Schwerkraft lässt Berge wachsen — die 22 km des Olympus Mons könnten auf der Erde nie stehen.",
+            "pt-BR": "A gravidade mais fraca deixa as montanhas crescerem — os 22 km do monte Olimpo jamais ficariam de pé na Terra."
+          }
+        },
+        "deimos": {
+          "hook": "포보스의 동생 감자 — 이 크기에선 암석의 강성(전자기력)이 중력을 이깁니다.",
+          "hookI18n": {
+            "en": "Phobos's little potato sibling — at this size, rock rigidity (electromagnetism) beats gravity.",
+            "ja": "フォボスの弟ジャガイモ — この大きさでは岩石の強度（電磁気力）が重力に勝ちます。",
+            "zh-TW": "火衛一的馬鈴薯弟弟 — 在這個尺寸，岩石強度（電磁力）勝過重力。",
+            "es": "El hermanito patata de Fobos: a este tamaño, la rigidez de la roca (electromagnetismo) vence a la gravedad.",
+            "de": "Phobos' kleiner Kartoffelbruder — bei dieser Größe schlägt die Gesteinsfestigkeit (Elektromagnetismus) die Schwerkraft.",
+            "pt-BR": "O irmãozinho batata de Fobos — neste tamanho, a rigidez da rocha (eletromagnetismo) vence a gravidade."
+          }
+        },
+        "io": {
+          "hook": "목성 조석이 내부를 반죽해 화산 400여 개를 켰습니다 — 중력이 열이 되는 현장입니다.",
+          "hookI18n": {
+            "en": "Jupiter's tides knead its interior, lighting some 400 volcanoes — gravity turning into heat.",
+            "ja": "木星の潮汐が内部をこね、400ほどの火山を灯しました — 重力が熱に変わる現場です。",
+            "zh-TW": "木星的潮汐揉搓其內部，點燃約400座火山 — 重力化為熱的現場。",
+            "es": "Las mareas de Júpiter amasan su interior y encienden unos 400 volcanes: la gravedad convertida en calor.",
+            "de": "Jupiters Gezeiten kneten sein Inneres und zünden rund 400 Vulkane — Schwerkraft, die zu Wärme wird.",
+            "pt-BR": "As marés de Júpiter amassam seu interior, acendendo cerca de 400 vulcões — gravidade virando calor."
+          }
+        },
+        "europa": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "ganymede": {
+          "hook": "태양계 최대의 위성 — 수성보다 크지만 더 가볍습니다. 얼음이 섞인 몸이라서요.",
+          "hookI18n": {
+            "en": "The largest moon in the solar system — bigger than Mercury, yet lighter, for its body is laced with ice.",
+            "ja": "太陽系最大の衛星 — 水星より大きいのに軽い。氷の混じった体だからです。",
+            "zh-TW": "太陽系最大的衛星 — 比水星大，卻更輕，因為身體摻著冰。",
+            "es": "La luna más grande del sistema solar: mayor que Mercurio pero más ligera, porque su cuerpo está entreverado de hielo.",
+            "de": "Der größte Mond des Sonnensystems — größer als Merkur, doch leichter, denn sein Körper ist von Eis durchsetzt.",
+            "pt-BR": "A maior lua do sistema solar — maior que Mercúrio, porém mais leve, pois seu corpo é entremeado de gelo."
+          }
+        },
+        "callisto": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "saturn": {
+          "hook": "물보다 가벼운 평균 밀도 — 그런데도 중력은 완벽한 구를 빚었고, 고리는 로슈 한계 안쪽에서 위성이 되지 못한 조각들입니다.",
+          "hookI18n": {
+            "en": "Less dense than water on average — yet gravity built a near-perfect sphere, and the rings are shards inside the Roche limit that could never become a moon.",
+            "ja": "平均密度は水より軽い — それでも重力はほぼ完全な球を作り、環はロッシュ限界の内側で衛星になれなかった欠片たちです。",
+            "zh-TW": "平均密度比水還低 — 重力依然塑出近乎完美的球，而光環是洛希極限內永遠成不了衛星的碎片。",
+            "es": "Menos denso que el agua en promedio, y aun así la gravedad formó una esfera casi perfecta; los anillos son fragmentos dentro del límite de Roche que nunca serán luna.",
+            "de": "Im Mittel leichter als Wasser — dennoch formte die Schwerkraft eine fast perfekte Kugel, und die Ringe sind Bruchstücke innerhalb der Roche-Grenze, die nie zum Mond werden konnten.",
+            "pt-BR": "Menos denso que a água em média — ainda assim a gravidade formou uma esfera quase perfeita, e os anéis são fragmentos dentro do limite de Roche que nunca virariam lua."
+          }
+        },
+        "mimas": {
+          "hook": "겨우 둥글어진 최소급 천체(지름 396 km) — 구형화 문턱의 기록 보유자입니다.",
+          "hookI18n": {
+            "en": "One of the smallest bodies to turn round (396 km across) — the record holder at the rounding threshold.",
+            "ja": "かろうじて丸くなった最小級の天体（直径396km）— 球形化のしきい値の記録保持者です。",
+            "zh-TW": "勉強變圓的最小級天體（直徑396公里）— 成球門檻的紀錄保持者。",
+            "es": "Uno de los cuerpos más pequeños en volverse redondo (396 km): el plusmarquista del umbral de redondeo.",
+            "de": "Einer der kleinsten Körper, die rund wurden (396 km Durchmesser) — der Rekordhalter an der Rundungsschwelle.",
+            "pt-BR": "Um dos menores corpos a ficar redondo (396 km) — o recordista do limiar de arredondamento."
+          }
+        },
+        "enceladus": {
+          "hook": "얼음은 암석보다 물러서, 더 작아도 둥글어집니다 — 구형화 문턱 바로 위의 몸입니다.",
+          "hookI18n": {
+            "en": "Ice yields more easily than rock, so smaller bodies can turn round — this one sits just above the threshold.",
+            "ja": "氷は岩より柔らかいので、より小さくても丸くなれます — 球形化のしきい値のすぐ上にいる体です。",
+            "zh-TW": "冰比岩石軟，所以更小也能變圓 — 這是剛跨過成球門檻的身軀。",
+            "es": "El hielo cede más que la roca, así que cuerpos menores pueden redondearse: este está justo sobre el umbral.",
+            "de": "Eis gibt leichter nach als Gestein, darum werden auch kleinere Körper rund — dieser sitzt knapp über der Schwelle.",
+            "pt-BR": "O gelo cede mais que a rocha, então corpos menores podem ficar redondos — este está logo acima do limiar."
+          }
+        },
+        "tethys": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "dione": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "rhea": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "titan": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "iapetus": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "uranus": {
+          "hook": "얼음 거인의 균형 — 목성과 같은 층에서, 더 무거워져도 커지지 않습니다.",
+          "hookI18n": {
+            "en": "An ice giant's balance — on Jupiter's rung, where adding mass no longer adds size.",
+            "ja": "氷の巨人の釣り合い — 木星と同じ階層で、これ以上重くしても大きくなりません。",
+            "zh-TW": "冰巨行星的平衡 — 在木星那一層，再增加質量也不會變大。",
+            "es": "El equilibrio de un gigante de hielo: en el peldaño de Júpiter, donde más masa ya no da más tamaño.",
+            "de": "Das Gleichgewicht eines Eisriesen — auf Jupiters Stufe, wo mehr Masse keine Größe mehr bringt.",
+            "pt-BR": "O equilíbrio de um gigante de gelo — no degrau de Júpiter, onde mais massa já não dá mais tamanho."
+          }
+        },
+        "miranda": {
+          "hook": "얼음은 암석보다 물러서, 더 작아도 둥글어집니다 — 구형화 문턱 바로 위의 몸입니다.",
+          "hookI18n": {
+            "en": "Ice yields more easily than rock, so smaller bodies can turn round — this one sits just above the threshold.",
+            "ja": "氷は岩より柔らかいので、より小さくても丸くなれます — 球形化のしきい値のすぐ上にいる体です。",
+            "zh-TW": "冰比岩石軟，所以更小也能變圓 — 這是剛跨過成球門檻的身軀。",
+            "es": "El hielo cede más que la roca, así que cuerpos menores pueden redondearse: este está justo sobre el umbral.",
+            "de": "Eis gibt leichter nach als Gestein, darum werden auch kleinere Körper rund — dieser sitzt knapp über der Schwelle.",
+            "pt-BR": "O gelo cede mais que a rocha, então corpos menores podem ficar redondos — este está logo acima do limiar."
+          }
+        },
+        "ariel": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "umbriel": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "titania": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "oberon": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "neptune": {
+          "hook": "얼음 거인의 균형 — 목성과 같은 층에서, 더 무거워져도 커지지 않습니다.",
+          "hookI18n": {
+            "en": "An ice giant's balance — on Jupiter's rung, where adding mass no longer adds size.",
+            "ja": "氷の巨人の釣り合い — 木星と同じ階層で、これ以上重くしても大きくなりません。",
+            "zh-TW": "冰巨行星的平衡 — 在木星那一層，再增加質量也不會變大。",
+            "es": "El equilibrio de un gigante de hielo: en el peldaño de Júpiter, donde más masa ya no da más tamaño.",
+            "de": "Das Gleichgewicht eines Eisriesen — auf Jupiters Stufe, wo mehr Masse keine Größe mehr bringt.",
+            "pt-BR": "O equilíbrio de um gigante de gelo — no degrau de Júpiter, onde mais massa já não dá mais tamanho."
+          }
+        },
+        "triton": {
+          "hook": "중력이 얼음과 암석을 이겨 빚은 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat ice and rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が氷と岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝冰與岩石刻出的球 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció al hielo y la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, geformt als die Schwerkraft Eis und Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu o gelo e a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "pluto": {
+          "hook": "'행성이냐' 논쟁의 핵심 조건도 결국 '둥근가(정역학 평형)'였습니다 — 중력은 진작 승리했습니다.",
+          "hookI18n": {
+            "en": "Even the \"is it a planet?\" debate hinged on \"is it round?\" (hydrostatic equilibrium) — gravity won here long ago.",
+            "ja": "「惑星か」論争の核心条件も結局「丸いか（静水圧平衡）」でした — 重力はとうに勝利しています。",
+            "zh-TW": "「是不是行星」之爭的核心條件，說到底也是「圓不圓（流體靜力平衡）」— 重力早就贏了。",
+            "es": "Hasta el debate de «¿es un planeta?» dependía de «¿es redondo?» (equilibrio hidrostático): aquí la gravedad ganó hace mucho.",
+            "de": "Selbst die Debatte „Planet oder nicht?\" hing an „rund oder nicht?\" (hydrostatisches Gleichgewicht) — die Schwerkraft hat hier längst gewonnen.",
+            "pt-BR": "Até o debate \"é planeta?\" dependia de \"é redondo?\" (equilíbrio hidrostático) — a gravidade venceu aqui há muito."
+          }
+        },
+        "charon": {
+          "hook": "중력이 얼음을 이겨 둥글어진 왜소행성급 몸 — 구형화 문턱을 확실히 넘었습니다.",
+          "hookI18n": {
+            "en": "A dwarf-planet-class body rounded as gravity beat ice — well past the rounding threshold.",
+            "ja": "重力が氷に勝って丸くなった準惑星級の体 — 球形化のしきい値をしっかり越えています。",
+            "zh-TW": "重力戰勝冰而變圓的矮行星級身軀 — 已穩穩跨過成球門檻。",
+            "es": "Un cuerpo de clase planeta enano, redondeado cuando la gravedad venció al hielo: bien pasado el umbral.",
+            "de": "Ein Körper der Zwergplanetenklasse, rund geworden, als die Schwerkraft das Eis besiegte — deutlich über der Schwelle.",
+            "pt-BR": "Um corpo de classe planeta anão, arredondado quando a gravidade venceu o gelo — bem além do limiar."
+          }
+        },
+        "eris": {
+          "hook": "중력이 얼음을 이겨 둥글어진 왜소행성급 몸 — 구형화 문턱을 확실히 넘었습니다.",
+          "hookI18n": {
+            "en": "A dwarf-planet-class body rounded as gravity beat ice — well past the rounding threshold.",
+            "ja": "重力が氷に勝って丸くなった準惑星級の体 — 球形化のしきい値をしっかり越えています。",
+            "zh-TW": "重力戰勝冰而變圓的矮行星級身軀 — 已穩穩跨過成球門檻。",
+            "es": "Un cuerpo de clase planeta enano, redondeado cuando la gravedad venció al hielo: bien pasado el umbral.",
+            "de": "Ein Körper der Zwergplanetenklasse, rund geworden, als die Schwerkraft das Eis besiegte — deutlich über der Schwelle.",
+            "pt-BR": "Um corpo de classe planeta anão, arredondado quando a gravidade venceu o gelo — bem além do limiar."
+          }
+        },
+        "makemake": {
+          "hook": "중력이 얼음을 이겨 둥글어진 왜소행성급 몸 — 구형화 문턱을 확실히 넘었습니다.",
+          "hookI18n": {
+            "en": "A dwarf-planet-class body rounded as gravity beat ice — well past the rounding threshold.",
+            "ja": "重力が氷に勝って丸くなった準惑星級の体 — 球形化のしきい値をしっかり越えています。",
+            "zh-TW": "重力戰勝冰而變圓的矮行星級身軀 — 已穩穩跨過成球門檻。",
+            "es": "Un cuerpo de clase planeta enano, redondeado cuando la gravedad venció al hielo: bien pasado el umbral.",
+            "de": "Ein Körper der Zwergplanetenklasse, rund geworden, als die Schwerkraft das Eis besiegte — deutlich über der Schwelle.",
+            "pt-BR": "Um corpo de classe planeta anão, arredondado quando a gravidade venceu o gelo — bem além do limiar."
+          }
+        },
+        "quaoar": {
+          "hook": "중력이 얼음을 이겨 둥글어진 왜소행성급 몸 — 구형화 문턱을 확실히 넘었습니다.",
+          "hookI18n": {
+            "en": "A dwarf-planet-class body rounded as gravity beat ice — well past the rounding threshold.",
+            "ja": "重力が氷に勝って丸くなった準惑星級の体 — 球形化のしきい値をしっかり越えています。",
+            "zh-TW": "重力戰勝冰而變圓的矮行星級身軀 — 已穩穩跨過成球門檻。",
+            "es": "Un cuerpo de clase planeta enano, redondeado cuando la gravedad venció al hielo: bien pasado el umbral.",
+            "de": "Ein Körper der Zwergplanetenklasse, rund geworden, als die Schwerkraft das Eis besiegte — deutlich über der Schwelle.",
+            "pt-BR": "Um corpo de classe planeta anão, arredondado quando a gravidade venceu o gelo — bem além do limiar."
           }
         }
       }

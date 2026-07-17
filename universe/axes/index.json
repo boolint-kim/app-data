@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-07-17T12:00:00Z",
+  "version": 3,
+  "updatedAt": "2026-07-17T15:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -367,6 +367,219 @@
             "es": "La luz de una supernova es la desintegración radiactiva del níquel-56 recién construido: radiactividad como vela.",
             "de": "Das Licht einer Supernova ist der radioaktive Zerfall frisch gebauten Nickel-56 — Radioaktivität als Kerze.",
             "pt-BR": "A luz de uma supernova é o decaimento radioativo do níquel-56 recém-montado — radioatividade como vela."
+          }
+        }
+      }
+    },
+    {
+      "id": "light-delay",
+      "scene": "scene-lookback",
+      "title": "빛의 지연",
+      "titleI18n": {
+        "en": "Light Delay",
+        "ja": "光の遅れ",
+        "zh-TW": "光的延遲",
+        "es": "Retardo de la luz",
+        "de": "Lichtlaufzeit",
+        "pt-BR": "Atraso da luz"
+      },
+      "objects": {
+        "sun": {
+          "hook": "8.3분 전 · 태양이 지금 꺼져도, 우리는 8분 동안 모릅니다.",
+          "hookI18n": {
+            "en": "8.3 minutes ago · If the Sun went out right now, we would not know for 8 minutes.",
+            "ja": "8.3分前 · 太陽がいま消えても、私たちは8分間気づきません。",
+            "zh-TW": "8.3分鐘前 · 就算太陽此刻熄滅，我們也要8分鐘後才知道。",
+            "es": "hace 8,3 minutos · Si el Sol se apagara ahora mismo, no lo sabríamos durante 8 minutos.",
+            "de": "vor 8,3 Minuten · Erlöschte die Sonne jetzt, wüssten wir es 8 Minuten lang nicht.",
+            "pt-BR": "há 8,3 minutos · Se o Sol se apagasse agora, não saberíamos por 8 minutos."
+          }
+        },
+        "proxima": {
+          "hook": "4.2년 전 · 4년 전 — 당신의 생생한 기억 속에 있는 시간입니다. 가장 가까운 이웃 별.",
+          "hookI18n": {
+            "en": "4.2 years ago · Four years ago — a time still vivid in your own memory. Our nearest neighboring star.",
+            "ja": "4.2年前 · 4年前 — あなたの記憶に鮮明に残る時間です。最も近い隣の星。",
+            "zh-TW": "4.2年前 · 四年前 — 仍鮮活在你記憶裡的時間。最近的鄰居恆星。",
+            "es": "hace 4,2 años · Hace cuatro años: un tiempo aún vivo en tu memoria. Nuestra estrella vecina más cercana.",
+            "de": "vor 4,2 Jahren · Vor vier Jahren — eine Zeit, an die du dich noch lebhaft erinnerst. Unser nächster Nachbarstern.",
+            "pt-BR": "há 4,2 anos · Há quatro anos — um tempo ainda vivo na sua memória. Nossa estrela vizinha mais próxima."
+          }
+        },
+        "sirius": {
+          "hook": "8.6년 전 · 밤하늘에서 가장 밝은 별 — 지금 보는 빛은 9년 전의 것입니다.",
+          "hookI18n": {
+            "en": "8.6 years ago · The brightest star in the night sky — the light you see left it nine years ago.",
+            "ja": "8.6年前 · 夜空で最も明るい星 — いま見る光は9年前のものです。",
+            "zh-TW": "8.6年前 · 夜空中最亮的星 — 你現在看到的光是九年前出發的。",
+            "es": "hace 8,6 años · La estrella más brillante del cielo nocturno: su luz partió hace nueve años.",
+            "de": "vor 8,6 Jahren · Der hellste Stern am Nachthimmel — sein Licht brach vor neun Jahren auf.",
+            "pt-BR": "há 8,6 anos · A estrela mais brilhante do céu noturno — a luz que você vê partiu há nove anos."
+          }
+        },
+        "hyades": {
+          "hook": "153년 전 · 1870년대 — 전화기가 발명될 무렵 떠난 빛입니다.",
+          "hookI18n": {
+            "en": "153 years ago · The 1870s — light that left when the telephone was being invented.",
+            "ja": "153年前 · 1870年代 — 電話が発明される頃に出発した光です。",
+            "zh-TW": "153年前 · 1870年代 — 電話發明前後出發的光。",
+            "es": "hace 153 años · La década de 1870: luz que partió cuando se inventaba el teléfono.",
+            "de": "vor 153 Jahren · Die 1870er — Licht, das aufbrach, als das Telefon erfunden wurde.",
+            "pt-BR": "há 153 anos · A década de 1870 — luz que partiu quando o telefone era inventado."
+          }
+        },
+        "pleiades": {
+          "hook": "444년 전 · 1580년대 — 임진왜란 직전의 조선 하늘로 떠난 빛.",
+          "hookI18n": {
+            "en": "444 years ago · The 1580s — light that set out in the age of Elizabeth I and the samurai wars.",
+            "ja": "444年前 · 1580年代 — 戦国時代の空へ旅立った光。",
+            "zh-TW": "444年前 · 1580年代 — 出發於萬曆年間的光。",
+            "es": "hace 444 años · La década de 1580: luz que partió en tiempos de la Armada Invencible.",
+            "de": "vor 444 Jahren · Die 1580er — Licht aus der Zeit der Renaissance.",
+            "pt-BR": "há 444 anos · A década de 1580 — luz que partiu na era das grandes navegações."
+          }
+        },
+        "betelgeuse": {
+          "hook": "640년 전 · 1380년대의 빛 — 이미 폭발했더라도 우리는 아직 모릅니다.",
+          "hookI18n": {
+            "en": "640 years ago · Light from the 1380s — even if it has already exploded, we would not know yet.",
+            "ja": "640年前 · 1380年代の光 — すでに爆発していても、私たちはまだ知りません。",
+            "zh-TW": "640年前 · 1380年代的光 — 就算它已經爆炸，我們也還不知道。",
+            "es": "hace 640 años · Luz de la década de 1380: aunque ya hubiera explotado, aún no lo sabríamos.",
+            "de": "vor 640 Jahren · Licht aus den 1380ern — selbst wenn er schon explodiert wäre, wüssten wir es noch nicht.",
+            "pt-BR": "há 640 anos · Luz da década de 1380 — mesmo que já tenha explodido, ainda não saberíamos."
+          }
+        },
+        "rigel": {
+          "hook": "860년 전 · 1160년대 — 고려 사람들의 밤하늘을 떠난 빛이 지금 도착합니다.",
+          "hookI18n": {
+            "en": "860 years ago · The 1160s — light that left medieval skies is arriving now.",
+            "ja": "860年前 · 1160年代 — 平安時代の夜空を発った光がいま届きます。",
+            "zh-TW": "860年前 · 1160年代 — 從南宋的夜空出發的光此刻抵達。",
+            "es": "hace 860 años · La década de 1160: luz que partió de los cielos medievales llega ahora.",
+            "de": "vor 860 Jahren · Die 1160er — Licht aus mittelalterlichen Nächten trifft jetzt ein.",
+            "pt-BR": "há 860 anos · A década de 1160 — luz que partiu dos céus medievais chega agora."
+          }
+        },
+        "orion": {
+          "hook": "1,344년 전 · 680년대 — 신라의 하늘로 떠난 빛. 별들이 태어나는 요람입니다.",
+          "hookI18n": {
+            "en": "1,344 years ago · The 680s — a stellar nursery, seen as it was in the early Middle Ages.",
+            "ja": "1,344年前 · 680年代 — 飛鳥時代の空へ旅立った光。星々の生まれる揺りかごです。",
+            "zh-TW": "1,344年前 · 680年代 — 從唐代夜空出發的光。恆星誕生的搖籃。",
+            "es": "hace 1.344 años · La década de 680: un vivero de estrellas, visto como era en la Alta Edad Media.",
+            "de": "vor 1.344 Jahren · Die 680er — eine Sternenwiege, gesehen wie im frühen Mittelalter.",
+            "pt-BR": "há 1.344 anos · A década de 680 — um berçário de estrelas, visto como era no início da Idade Média."
+          }
+        },
+        "sagittarius-a": {
+          "hook": "2만 6천 년 전 · 빙하기 한복판 — 매머드가 걷던 시대의 빛입니다.",
+          "hookI18n": {
+            "en": "26,000 years ago · The depth of the Ice Age — light from the time of the mammoths.",
+            "ja": "2万6千年前 · 氷河期の真っ只中 — マンモスが歩いていた時代の光です。",
+            "zh-TW": "2萬6千年前 · 冰河期正盛 — 猛獁象漫步時代的光。",
+            "es": "hace 26.000 años · En plena Edad de Hielo: luz del tiempo de los mamuts.",
+            "de": "vor 26.000 Jahren · Mitten in der Eiszeit — Licht aus der Zeit der Mammuts.",
+            "pt-BR": "há 26.000 anos · No auge da Era do Gelo — luz do tempo dos mamutes."
+          }
+        },
+        "sn1987a": {
+          "hook": "16만 8천 년 전 · 최초의 호모 사피엔스가 살던 시대 — 그 폭발 빛이 1987년에 도착했습니다.",
+          "hookI18n": {
+            "en": "168,000 years ago · The age of the first Homo sapiens — that blast's light arrived in 1987.",
+            "ja": "16万8千年前 · 最初のホモ・サピエンスが生きた時代 — その爆発の光は1987年に届きました。",
+            "zh-TW": "16萬8千年前 · 最早的智人生活的時代 — 那次爆炸的光在1987年抵達。",
+            "es": "hace 168.000 años · La era de los primeros Homo sapiens: la luz de esa explosión llegó en 1987.",
+            "de": "vor 168.000 Jahren · Die Zeit der ersten Homo sapiens — das Licht jener Explosion kam 1987 an.",
+            "pt-BR": "há 168.000 anos · A era dos primeiros Homo sapiens — a luz daquela explosão chegou em 1987."
+          }
+        },
+        "andromeda": {
+          "hook": "250만 년 전 · 인류의 조상이 막 두 발로 걷기 시작할 무렵 떠난 빛입니다.",
+          "hookI18n": {
+            "en": "2.5 million years ago · Light that left when our ancestors were just learning to walk upright.",
+            "ja": "250万年前 · 人類の祖先が二足歩行を始めた頃に旅立った光です。",
+            "zh-TW": "250萬年前 · 人類祖先剛開始直立行走時出發的光。",
+            "es": "hace 2,5 millones de años · Luz que partió cuando nuestros antepasados empezaban a caminar erguidos.",
+            "de": "vor 2,5 Millionen Jahren · Licht, das aufbrach, als unsere Vorfahren gerade aufrecht zu gehen lernten.",
+            "pt-BR": "há 2,5 milhões de anos · Luz que partiu quando nossos ancestrais começavam a andar eretos."
+          }
+        },
+        "m87": {
+          "hook": "5,300만 년 전 · 공룡이 사라진 직후의 지구 — 그 시대에 떠난 빛으로 블랙홀을 찍었습니다.",
+          "hookI18n": {
+            "en": "53 million years ago · Earth just after the dinosaurs — with light from that era we photographed a black hole.",
+            "ja": "5,300万年前 · 恐竜が消えた直後の地球 — その時代の光でブラックホールを撮影しました。",
+            "zh-TW": "5,300萬年前 · 恐龍剛消失後的地球 — 我們用那個時代的光拍下了黑洞。",
+            "es": "hace 53 millones de años · La Tierra justo después de los dinosaurios: con luz de esa era fotografiamos un agujero negro.",
+            "de": "vor 53 Millionen Jahren · Die Erde kurz nach den Dinosauriern — mit Licht jener Zeit fotografierten wir ein Schwarzes Loch.",
+            "pt-BR": "há 53 milhões de anos · A Terra logo após os dinossauros — com luz daquela era fotografamos um buraco negro."
+          }
+        },
+        "cartwheel": {
+          "hook": "5억 년 전 · 캄브리아 대폭발 — 지구에 눈(眼) 달린 동물이 처음 나타난 시대.",
+          "hookI18n": {
+            "en": "500 million years ago · The Cambrian explosion — when the first animals with eyes appeared on Earth.",
+            "ja": "5億年前 · カンブリア爆発 — 地球に目を持つ動物が初めて現れた時代。",
+            "zh-TW": "5億年前 · 寒武紀大爆發 — 地球上第一批有眼睛的動物出現的時代。",
+            "es": "hace 500 millones de años · La explosión cámbrica: cuando aparecieron los primeros animales con ojos.",
+            "de": "vor 500 Millionen Jahren · Die kambrische Explosion — als die ersten Tiere mit Augen erschienen.",
+            "pt-BR": "há 500 milhões de anos · A explosão cambriana — quando surgiram os primeiros animais com olhos."
+          }
+        },
+        "sloan-wall": {
+          "hook": "10억 년 전 · 지구 생명이 아직 전부 단세포이던 시절의 빛입니다.",
+          "hookI18n": {
+            "en": "1 billion years ago · Light from when all life on Earth was still single-celled.",
+            "ja": "10億年前 · 地球の生命がまだすべて単細胞だった頃の光です。",
+            "zh-TW": "10億年前 · 地球生命仍全是單細胞時的光。",
+            "es": "hace 1.000 millones de años · Luz de cuando toda la vida terrestre era aún unicelular.",
+            "de": "vor 1 Milliarde Jahren · Licht aus der Zeit, als alles Leben auf der Erde noch einzellig war.",
+            "pt-BR": "há 1 bilhão de anos · Luz de quando toda a vida na Terra ainda era unicelular."
+          }
+        },
+        "quasar-3c273": {
+          "hook": "24억 년 전 · 대산소화 사건 — 지구 대기에 산소가 처음 쌓이던 시대에 떠난 빛.",
+          "hookI18n": {
+            "en": "2.4 billion years ago · The Great Oxidation — light that left as oxygen first filled Earth's air.",
+            "ja": "24億年前 · 大酸化イベント — 地球の大気に酸素が初めて満ち始めた時代の光。",
+            "zh-TW": "24億年前 · 大氧化事件 — 地球大氣首次累積氧氣時出發的光。",
+            "es": "hace 2.400 millones de años · La Gran Oxidación: luz que partió cuando el oxígeno llenaba por primera vez el aire terrestre.",
+            "de": "vor 2,4 Milliarden Jahren · Die Große Sauerstoffkatastrophe — Licht aus der Zeit, als sich erstmals Sauerstoff in der Erdluft ansammelte.",
+            "pt-BR": "há 2,4 bilhões de anos · A Grande Oxidação — luz que partiu quando o oxigênio enchia pela primeira vez o ar da Terra."
+          }
+        },
+        "hercules-cbgw": {
+          "hook": "100억 년 전 · 태양이 태어나기 50억 년도 더 전 — 알려진 가장 큰 구조입니다.",
+          "hookI18n": {
+            "en": "10 billion years ago · More than 5 billion years before the Sun was born — the largest known structure.",
+            "ja": "100億年前 · 太陽が生まれる50億年以上前 — 既知で最大の構造です。",
+            "zh-TW": "100億年前 · 比太陽誕生早50多億年 — 已知最大的結構。",
+            "es": "hace 10.000 millones de años · Más de 5.000 millones de años antes de que naciera el Sol: la mayor estructura conocida.",
+            "de": "vor 10 Milliarden Jahren · Mehr als 5 Milliarden Jahre vor der Geburt der Sonne — die größte bekannte Struktur.",
+            "pt-BR": "há 10 bilhões de anos · Mais de 5 bilhões de anos antes de o Sol nascer — a maior estrutura conhecida."
+          }
+        },
+        "cmb": {
+          "hook": "138억 년 전 · 빛의 지평선 — 우주 나이 38만 년의 첫 빛. 이보다 먼 과거는 원리적으로 볼 수 없습니다.",
+          "hookI18n": {
+            "en": "13.8 billion years ago · The horizon of light — the first light, from a 380,000-year-old universe. No earlier past can ever be seen.",
+            "ja": "138億年前 · 光の地平線 — 宇宙年齢38万年の最初の光。これより先の過去は原理的に見えません。",
+            "zh-TW": "138億年前 · 光的地平線 — 宇宙38萬歲時的第一道光。比這更早的過去，原理上永遠看不見。",
+            "es": "hace 13.800 millones de años · El horizonte de la luz: la primera luz, de un universo de 380.000 años. Ningún pasado anterior podrá verse jamás.",
+            "de": "vor 13,8 Milliarden Jahren · Der Horizont des Lichts — das erste Licht eines 380.000 Jahre alten Universums. Eine frühere Vergangenheit ist prinzipiell unsichtbar.",
+            "pt-BR": "há 13,8 bilhões de anos · O horizonte da luz — a primeira luz, de um universo de 380.000 anos. Nenhum passado anterior poderá jamais ser visto."
+          }
+        },
+        "m87-star": {
+          "hook": "5,300만 년 전 · 공룡이 사라진 직후의 지구 — 그 시대에 떠난 빛으로 블랙홀을 찍었습니다.",
+          "hookI18n": {
+            "en": "53 million years ago · Earth just after the dinosaurs — with light from that era we photographed a black hole.",
+            "ja": "5,300万年前 · 恐竜が消えた直後の地球 — その時代の光でブラックホールを撮影しました。",
+            "zh-TW": "5,300萬年前 · 恐龍剛消失後的地球 — 我們用那個時代的光拍下了黑洞。",
+            "es": "hace 53 millones de años · La Tierra justo después de los dinosaurios: con luz de esa era fotografiamos un agujero negro.",
+            "de": "vor 53 Millionen Jahren · Die Erde kurz nach den Dinosauriern — mit Licht jener Zeit fotografierten wir ein Schwarzes Loch.",
+            "pt-BR": "há 53 milhões de anos · A Terra logo após os dinossauros — com luz daquela era fotografamos um buraco negro."
           }
         }
       }

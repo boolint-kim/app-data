@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updatedAt": "2026-07-18T00:00:00Z",
+  "version": 7,
+  "updatedAt": "2026-07-18T03:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -623,15 +623,16 @@
       },
       "objects": {
         "sun": {
-          "hook": "수소 넷이 헬륨 하나로 — 사라진 질량 0.7%가 지금 창밖의 햇빛입니다.",
+          "hook": "같은 융합에서 태어난 두 입자 — 뉴트리노는 2초, 햇빛은 10만 년 걸려 태양을 벗어납니다.",
           "hookI18n": {
-            "en": "Four hydrogens become one helium — the missing 0.7% of mass is the sunlight outside your window.",
-            "ja": "水素4つがヘリウム1つに — 消えた質量0.7%が、いま窓の外の日差しです。",
-            "zh-TW": "四個氫變成一個氦 — 消失的0.7%質量，就是你窗外的陽光。",
-            "es": "Cuatro hidrógenos se vuelven un helio: el 0,7% de masa que falta es la luz del sol tras tu ventana.",
-            "de": "Vier Wasserstoffkerne werden zu einem Helium — die fehlenden 0,7 % Masse sind das Sonnenlicht vor deinem Fenster.",
-            "pt-BR": "Quatro hidrogênios viram um hélio — os 0,7% de massa que somem são a luz do sol na sua janela."
-          }
+            "en": "Two particles from the same fusion — the neutrino leaves the Sun in 2 seconds, sunlight takes 100,000 years.",
+            "ja": "同じ核融合で生まれた2つの粒子 — ニュートリノは2秒、日光は10万年かけて太陽を抜け出します。",
+            "zh-TW": "同一場核融合誕生的兩顆粒子 — 微中子2秒逃出太陽，陽光卻要十萬年。",
+            "es": "Dos partículas de la misma fusión: el neutrino sale del Sol en 2 segundos, la luz tarda 100.000 años.",
+            "de": "Zwei Teilchen aus derselben Fusion — das Neutrino verlässt die Sonne in 2 Sekunden, das Sonnenlicht braucht 100.000 Jahre.",
+            "pt-BR": "Duas partículas da mesma fusão — o neutrino sai do Sol em 2 segundos, a luz do sol leva 100.000 anos."
+          },
+          "scene": "scene-neutrino-race"
         },
         "betelgeuse": {
           "hook": "철까지 조립하면 끝 — 철은 태울 수 없는 재라서, 별의 심장이 멎습니다.",
@@ -645,15 +646,16 @@
           }
         },
         "sn1987a": {
-          "hook": "철 심장이 무너진 날 — 조립의 종착역이 폭발의 방아쇠였습니다.",
+          "hook": "빛보다 세 시간 먼저 도착한 뉴트리노 약 20개 — 인류가 별의 심장 붕괴를 직접 들은 최초입니다.",
           "hookI18n": {
-            "en": "The day the iron heart collapsed — the end of assembly was the trigger of the blast.",
-            "ja": "鉄の心臓が崩れた日 — 組み立ての終着駅が、爆発の引き金でした。",
-            "zh-TW": "鐵之心崩塌的那天 — 組裝的終點站，正是爆炸的扳機。",
-            "es": "El día en que el corazón de hierro colapsó: el final del ensamblaje fue el gatillo de la explosión.",
-            "de": "Der Tag, an dem das Eisenherz kollabierte — das Ende des Aufbaus war der Auslöser der Explosion.",
-            "pt-BR": "O dia em que o coração de ferro desabou — o fim da montagem foi o gatilho da explosão."
-          }
+            "en": "About 20 neutrinos arrived three hours before the light — the first time humanity heard a star's heart collapse.",
+            "ja": "光より3時間早く届いた約20個のニュートリノ — 人類が星の心臓の崩壊を直接聴いた最初です。",
+            "zh-TW": "約20顆微中子比光早三小時抵達 — 人類首次直接聽見恆星心臟的崩塌。",
+            "es": "Unos 20 neutrinos llegaron tres horas antes que la luz: la primera vez que la humanidad oyó colapsar el corazón de una estrella.",
+            "de": "Rund 20 Neutrinos kamen drei Stunden vor dem Licht an — zum ersten Mal hörte die Menschheit das Herz eines Sterns kollabieren.",
+            "pt-BR": "Cerca de 20 neutrinos chegaram três horas antes da luz — a primeira vez que a humanidade ouviu o coração de uma estrela colapsar."
+          },
+          "scene": "scene-neutrino-race"
         },
         "crab": {
           "hook": "초신성의 빛은 갓 조립된 니켈-56의 방사성 붕괴 — 방사능이 촛불입니다.",

@@ -1,6 +1,6 @@
 {
   "bandId": "remnants",
-  "version": 5,
+  "version": 6,
   "updatedAt": "2026-07-17T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -319,130 +319,6 @@
         "element-origin",
         "multiwavelength"
       ]
-    },
-    {
-      "id": "four-forces",
-      "type": "process",
-      "featured": true,
-      "name": "질량 다이얼 — 4대 힘",
-      "nameI18n": {
-        "en": "Mass Dial — The Four Forces",
-        "ja": "質量ダイヤル — 四つの力",
-        "es": "Dial de masa — las cuatro fuerzas",
-        "de": "Massenregler — die vier Kräfte",
-        "zh-TW": "質量轉盤 — 四大基本力",
-        "pt-BR": "Dial de massa — as quatro forças"
-      },
-      "summary": "질량을 돌리면 천체가 감자 소행성→행성→별→백색왜성→중성자별→블랙홀로 변한다. 지금 누가 중력에 맞서는지 힘 게이지로 본다.",
-      "summaryI18n": {
-        "en": "Turn the mass dial and a body morphs from potato asteroid to planet, star, white dwarf, neutron star and black hole. A force gauge shows what resists gravity right now.",
-        "ja": "質量ダイヤルを回すと、天体がジャガイモ小惑星→惑星→恒星→白色矮星→中性子星→ブラックホールへ変わる。いま何が重力に抗っているかを力ゲージで見る。",
-        "es": "Gira el dial de masa y el cuerpo pasa de asteroide patata a planeta, estrella, enana blanca, estrella de neutrones y agujero negro. Un medidor muestra qué resiste a la gravedad.",
-        "de": "Dreh am Massenregler: Der Körper wird vom Kartoffel-Asteroiden zu Planet, Stern, Weißem Zwerg, Neutronenstern und Schwarzem Loch. Eine Kraftanzeige zeigt, was der Schwerkraft standhält.",
-        "zh-TW": "轉動質量轉盤，天體從馬鈴薯小行星變成行星、恆星、白矮星、中子星、黑洞。力量計顯示此刻是誰在對抗重力。",
-        "pt-BR": "Gire o dial de massa e o corpo muda de asteroide batata a planeta, estrela, anã branca, estrela de nêutrons e buraco negro. Um medidor mostra o que resiste à gravidade."
-      },
-      "scene": "scene-four-forces",
-      "facts": [
-        {
-          "label": "질문",
-          "value": "이 천체를 누가 붙잡고 있나?"
-        },
-        {
-          "label": "조작",
-          "value": "질량 다이얼 + 지금·최후 전환"
-        },
-        {
-          "label": "범위",
-          "value": "소행성(10^15 kg) → 블랙홀"
-        }
-      ],
-      "factsI18n": {
-        "en": [
-          {
-            "label": "Question",
-            "value": "What holds this body up?"
-          },
-          {
-            "label": "Controls",
-            "value": "Mass dial + Now·Fate toggle"
-          },
-          {
-            "label": "Range",
-            "value": "Asteroid (10^15 kg) → black hole"
-          }
-        ],
-        "ja": [
-          {
-            "label": "問い",
-            "value": "この天体を支えているのは何か？"
-          },
-          {
-            "label": "操作",
-            "value": "質量ダイヤル+現在・最期の切替"
-          },
-          {
-            "label": "範囲",
-            "value": "小惑星(10^15 kg)→ブラックホール"
-          }
-        ],
-        "es": [
-          {
-            "label": "Pregunta",
-            "value": "¿Qué sostiene este cuerpo?"
-          },
-          {
-            "label": "Controles",
-            "value": "Dial de masa + alternar Ahora·Final"
-          },
-          {
-            "label": "Rango",
-            "value": "Asteroide (10^15 kg) → agujero negro"
-          }
-        ],
-        "de": [
-          {
-            "label": "Frage",
-            "value": "Was hält diesen Körper?"
-          },
-          {
-            "label": "Bedienung",
-            "value": "Massenregler + Jetzt·Ende-Umschalter"
-          },
-          {
-            "label": "Bereich",
-            "value": "Asteroid (10^15 kg) → Schwarzes Loch"
-          }
-        ],
-        "zh-TW": [
-          {
-            "label": "問題",
-            "value": "是誰撐住這個天體？"
-          },
-          {
-            "label": "操作",
-            "value": "質量轉盤+現在·結局切換"
-          },
-          {
-            "label": "範圍",
-            "value": "小行星(10^15 kg)→黑洞"
-          }
-        ],
-        "pt-BR": [
-          {
-            "label": "Pergunta",
-            "value": "O que sustenta este corpo?"
-          },
-          {
-            "label": "Controles",
-            "value": "Dial de massa + alternar Agora·Final"
-          },
-          {
-            "label": "Faixa",
-            "value": "Asteroide (10^15 kg) → buraco negro"
-          }
-        ]
-      }
     },
     {
       "id": "crab-pulsar",

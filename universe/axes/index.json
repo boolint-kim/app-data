@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-17T00:00:00Z",
+  "header": "관통축",
+  "headerI18n": {
+    "en": "Cross-Axes",
+    "ja": "貫通軸",
+    "zh-TW": "貫通軸",
+    "es": "Ejes transversales",
+    "de": "Querachsen",
+    "pt-BR": "Eixos transversais"
+  },
+  "axes": [
+    {
+      "id": "four-forces",
+      "scene": "scene-four-forces",
+      "title": "4대 힘",
+      "titleI18n": {
+        "en": "The Four Forces",
+        "ja": "四つの力",
+        "zh-TW": "四大基本力",
+        "es": "Las cuatro fuerzas",
+        "de": "Die vier Kräfte",
+        "pt-BR": "As quatro forças"
+      },
+      "objects": {
+        "phobos": {
+          "hook": "감자 모양인 이유 — 이 크기에선 암석의 강성(전자기력)이 중력을 이깁니다.",
+          "hookI18n": {
+            "en": "Why the potato shape — at this size, rock rigidity (electromagnetism) beats gravity.",
+            "ja": "ジャガイモ形の理由 — この大きさでは岩石の強度（電磁気力）が重力に勝ちます。",
+            "zh-TW": "馬鈴薯形狀的原因 — 在這個尺寸，岩石的強度（電磁力）勝過重力。",
+            "es": "Por qué la forma de patata: a este tamaño, la rigidez de la roca (electromagnetismo) vence a la gravedad.",
+            "de": "Warum die Kartoffelform — bei dieser Größe schlägt die Gesteinsfestigkeit (Elektromagnetismus) die Schwerkraft.",
+            "pt-BR": "Por que a forma de batata — neste tamanho, a rigidez da rocha (eletromagnetismo) vence a gravidade."
+          }
+        },
+        "vesta": {
+          "hook": "거의 둥글어지다 만 몸 — 중력과 암석 강성이 비긴 현장입니다.",
+          "hookI18n": {
+            "en": "A body that almost turned round — where gravity and rock rigidity fought to a draw.",
+            "ja": "丸くなりかけて止まった天体 — 重力と岩石の強度が引き分けた現場です。",
+            "zh-TW": "差一點就變圓的天體 — 重力與岩石強度打成平手的現場。",
+            "es": "Un cuerpo que casi se volvió redondo: donde la gravedad y la rigidez de la roca empataron.",
+            "de": "Ein Körper, der fast rund wurde — hier trennten sich Schwerkraft und Gestein unentschieden.",
+            "pt-BR": "Um corpo que quase ficou redondo — onde a gravidade e a rigidez da rocha empataram."
+          }
+        },
+        "ceres": {
+          "hook": "이 크기부터 중력이 이겨 몸이 둥글어집니다 — 왜소행성의 문턱.",
+          "hookI18n": {
+            "en": "From this size on gravity wins and the body turns round — the dwarf-planet threshold.",
+            "ja": "この大きさから重力が勝ち、天体は丸くなります — 準惑星の入り口。",
+            "zh-TW": "從這個尺寸起重力獲勝，天體變圓 — 矮行星的門檻。",
+            "es": "A partir de este tamaño la gravedad gana y el cuerpo se redondea: el umbral del planeta enano.",
+            "de": "Ab dieser Größe gewinnt die Schwerkraft und der Körper wird rund — die Schwelle zum Zwergplaneten.",
+            "pt-BR": "A partir deste tamanho a gravidade vence e o corpo fica redondo — o limiar do planeta anão."
+          }
+        },
+        "moon": {
+          "hook": "중력이 암석을 이겨 빚은 완전한 구 — '둥근가?'는 곧 '누가 이겼나?'입니다.",
+          "hookI18n": {
+            "en": "A sphere carved as gravity beat rock — \"round?\" really asks \"who won?\".",
+            "ja": "重力が岩に勝って刻んだ球 — 「丸いか」は「どちらが勝ったか」の問いです。",
+            "zh-TW": "重力戰勝岩石刻出的球體 — 「圓不圓」其實是在問「誰贏了」。",
+            "es": "Una esfera tallada cuando la gravedad venció a la roca: «¿redondo?» pregunta en realidad «¿quién ganó?».",
+            "de": "Eine Kugel, entstanden als die Schwerkraft das Gestein besiegte — „rund?\" heißt eigentlich „wer hat gewonnen?\".",
+            "pt-BR": "Uma esfera esculpida quando a gravidade venceu a rocha — \"redondo?\" na verdade pergunta \"quem venceu?\"."
+          }
+        },
+        "earth": {
+          "hook": "지구가 둥근 이유 — 중력이 암석의 강성(전자기력)을 이겼기 때문입니다.",
+          "hookI18n": {
+            "en": "Why Earth is round — gravity beat the rigidity of rock (electromagnetism).",
+            "ja": "地球が丸い理由 — 重力が岩石の強度（電磁気力）に勝ったからです。",
+            "zh-TW": "地球是圓的原因 — 重力戰勝了岩石的強度（電磁力）。",
+            "es": "Por qué la Tierra es redonda: la gravedad venció a la rigidez de la roca (electromagnetismo).",
+            "de": "Warum die Erde rund ist — die Schwerkraft besiegte die Festigkeit des Gesteins (Elektromagnetismus).",
+            "pt-BR": "Por que a Terra é redonda — a gravidade venceu a rigidez da rocha (eletromagnetismo)."
+          }
+        },
+        "jupiter": {
+          "hook": "여기서 더 무거워져도 커지지 않습니다 — 행성 크기의 상한선 근처.",
+          "hookI18n": {
+            "en": "Add more mass and it won't grow — near the upper size limit of planets.",
+            "ja": "これ以上重くしても大きくなりません — 惑星の大きさの上限近くです。",
+            "zh-TW": "再增加質量也不會變大 — 已接近行星大小的上限。",
+            "es": "Añade más masa y no crecerá: cerca del límite superior de tamaño de los planetas.",
+            "de": "Mehr Masse, doch kein Wachstum — nahe der Obergrenze der Planetengröße.",
+            "pt-BR": "Adicione mais massa e ele não cresce — perto do limite superior de tamanho dos planetas."
+          }
+        },
+        "sun": {
+          "hook": "매초 수소폭탄 수십억 개의 폭발을 중력이 정확히 눌러 담는 균형 — 그것이 별입니다.",
+          "hookI18n": {
+            "en": "Every second, gravity bottles up a blast worth billions of H-bombs — that balance is a star.",
+            "ja": "毎秒、水素爆弾数十億個分の爆発を重力が正確に抑え込む釣り合い — それが星です。",
+            "zh-TW": "每一秒，重力都精準壓住相當於數十億顆氫彈的爆炸 — 這種平衡就是恆星。",
+            "es": "Cada segundo la gravedad contiene una explosión equivalente a miles de millones de bombas H: ese equilibrio es una estrella.",
+            "de": "Jede Sekunde bändigt die Schwerkraft eine Explosion von Milliarden Wasserstoffbomben — dieses Gleichgewicht ist ein Stern.",
+            "pt-BR": "A cada segundo a gravidade contém uma explosão de bilhões de bombas H — esse equilíbrio é uma estrela."
+          }
+        },
+        "sirius": {
+          "hook": "태양의 두 배 질량, 스물다섯 배 밝기 — 무거울수록 융합은 맹렬해집니다.",
+          "hookI18n": {
+            "en": "Twice the Sun's mass, twenty-five times its light — the heavier the star, the fiercer the fusion.",
+            "ja": "太陽の2倍の質量で25倍の明るさ — 重いほど核融合は激しくなります。",
+            "zh-TW": "兩倍太陽質量，二十五倍亮度 — 越重的恆星，融合越猛烈。",
+            "es": "El doble de masa que el Sol y veinticinco veces su luz: cuanto más pesada la estrella, más feroz la fusión.",
+            "de": "Doppelte Sonnenmasse, fünfundzwanzigfache Leuchtkraft — je schwerer der Stern, desto heftiger die Fusion.",
+            "pt-BR": "O dobro da massa do Sol, vinte e cinco vezes o brilho — quanto mais pesada a estrela, mais feroz a fusão."
+          }
+        },
+        "proxima": {
+          "hook": "점화선(태양의 8%)을 간신히 넘긴 작은 별 — 그래서 수조 년을 삽니다.",
+          "hookI18n": {
+            "en": "A small star that barely cleared the ignition line (8% of the Sun) — so it will live trillions of years.",
+            "ja": "点火ライン（太陽の8%）をかろうじて超えた小さな星 — だから数兆年も生きます。",
+            "zh-TW": "勉強跨過點火線（太陽的8%）的小恆星 — 因此能活數兆年。",
+            "es": "Una estrella pequeña que apenas cruzó la línea de ignición (8% del Sol): por eso vivirá billones de años.",
+            "de": "Ein kleiner Stern, der die Zündgrenze (8 % der Sonne) knapp überschritt — darum lebt er Billionen Jahre.",
+            "pt-BR": "Uma estrela pequena que mal cruzou a linha de ignição (8% do Sol) — por isso viverá trilhões de anos."
+          }
+        },
+        "spica": {
+          "hook": "무거운 별의 균형 — 복사압의 비중이 커지고, 밝고 뜨겁고 짧게 탑니다.",
+          "hookI18n": {
+            "en": "A massive star's balance — radiation pressure takes over; it burns bright, hot and brief.",
+            "ja": "大質量星の釣り合い — 放射圧の割合が増し、明るく熱く短く燃えます。",
+            "zh-TW": "大質量恆星的平衡 — 輻射壓佔比增大，燃燒得明亮、熾熱而短暫。",
+            "es": "El equilibrio de una estrella masiva: domina la presión de radiación; arde brillante, caliente y breve.",
+            "de": "Das Gleichgewicht eines massereichen Sterns — der Strahlungsdruck übernimmt; er brennt hell, heiß und kurz.",
+            "pt-BR": "O equilíbrio de uma estrela massiva — a pressão de radiação assume; arde brilhante, quente e breve."
+          }
+        },
+        "rigel": {
+          "hook": "무거운 별의 균형 — 복사압의 비중이 커지고, 밝고 뜨겁고 짧게 탑니다.",
+          "hookI18n": {
+            "en": "A massive star's balance — radiation pressure takes over; it burns bright, hot and brief.",
+            "ja": "大質量星の釣り合い — 放射圧の割合が増し、明るく熱く短く燃えます。",
+            "zh-TW": "大質量恆星的平衡 — 輻射壓佔比增大，燃燒得明亮、熾熱而短暫。",
+            "es": "El equilibrio de una estrella masiva: domina la presión de radiación; arde brillante, caliente y breve.",
+            "de": "Das Gleichgewicht eines massereichen Sterns — der Strahlungsdruck übernimmt; er brennt hell, heiß und kurz.",
+            "pt-BR": "O equilíbrio de uma estrela massiva — a pressão de radiação assume; arde brilhante, quente e breve."
+          }
+        },
+        "betelgeuse": {
+          "hook": "중력과 복사압의 균형이 끝나가는 별 — 무너지는 날이 초신성입니다.",
+          "hookI18n": {
+            "en": "A star whose balance of gravity and radiation is running out — the day it fails is a supernova.",
+            "ja": "重力と放射圧の釣り合いが尽きかけた星 — 崩れる日が超新星です。",
+            "zh-TW": "重力與輻射壓的平衡即將耗盡的恆星 — 崩潰之日就是超新星。",
+            "es": "Una estrella cuyo equilibrio entre gravedad y radiación se agota: el día que falle será una supernova.",
+            "de": "Ein Stern, dessen Gleichgewicht aus Schwerkraft und Strahlung zur Neige geht — der Tag des Zusammenbruchs ist eine Supernova.",
+            "pt-BR": "Uma estrela cujo equilíbrio entre gravidade e radiação está no fim — o dia em que falhar será uma supernova."
+          }
+        },
+        "uyscuti": {
+          "hook": "복사압이 중력을 거의 이겨버린 별 — 태양의 1,700배까지 부풀었습니다.",
+          "hookI18n": {
+            "en": "Radiation pressure nearly beat gravity here — the star swelled to 1,700 Suns across.",
+            "ja": "放射圧が重力にほぼ勝った星 — 太陽の1,700倍まで膨らみました。",
+            "zh-TW": "輻射壓幾乎勝過重力的恆星 — 膨脹到太陽的1,700倍。",
+            "es": "Aquí la presión de radiación casi vence a la gravedad: la estrella se hinchó hasta 1.700 soles.",
+            "de": "Der Strahlungsdruck hat die Schwerkraft fast besiegt — der Stern blähte sich auf das 1.700-Fache der Sonne auf.",
+            "pt-BR": "A pressão de radiação quase venceu a gravidade — a estrela inchou até 1.700 sóis."
+          }
+        },
+        "algol": {
+          "hook": "짝별의 가스를 빨아들여 질량이 실시간으로 커지는 별 — 살아 있는 질량 다이얼입니다.",
+          "hookI18n": {
+            "en": "A star gaining mass in real time by devouring its companion's gas — a living mass dial.",
+            "ja": "伴星のガスを吸い込み、質量が今も増え続ける星 — 生きた質量ダイヤルです。",
+            "zh-TW": "吸食伴星氣體、質量即時增加的恆星 — 活生生的質量轉盤。",
+            "es": "Una estrella que gana masa en tiempo real devorando el gas de su compañera: un dial de masa viviente.",
+            "de": "Ein Stern, der in Echtzeit Masse gewinnt, indem er das Gas seines Begleiters verschlingt — ein lebender Massenregler.",
+            "pt-BR": "Uma estrela que ganha massa em tempo real devorando o gás da companheira — um dial de massa vivo."
+          }
+        },
+        "siriusb": {
+          "hook": "전자의 '자리 거부권'(파울리)만이 중력을 막고 있습니다 — 지구 크기에 태양의 질량.",
+          "hookI18n": {
+            "en": "Only the electrons' \"no-crowding rule\" (Pauli) holds gravity back — a Sun's mass at Earth's size.",
+            "ja": "電子の「席の拒否権」（パウリ）だけが重力を止めています — 地球サイズに太陽の質量。",
+            "zh-TW": "只有電子的「拒絕擁擠權」（包立）在擋住重力 — 地球大小，太陽質量。",
+            "es": "Solo la regla de exclusión de los electrones (Pauli) frena la gravedad: la masa del Sol en el tamaño de la Tierra.",
+            "de": "Nur die Quantenregel der Elektronen (Pauli) hält die Schwerkraft auf — eine Sonnenmasse in Erdgröße.",
+            "pt-BR": "Só a regra de exclusão dos elétrons (Pauli) segura a gravidade — a massa do Sol no tamanho da Terra."
+          }
+        },
+        "sirius-b": {
+          "hook": "전자의 '자리 거부권'(파울리)만이 중력을 막고 있습니다 — 지구 크기에 태양의 질량.",
+          "hookI18n": {
+            "en": "Only the electrons' \"no-crowding rule\" (Pauli) holds gravity back — a Sun's mass at Earth's size.",
+            "ja": "電子の「席の拒否権」（パウリ）だけが重力を止めています — 地球サイズに太陽の質量。",
+            "zh-TW": "只有電子的「拒絕擁擠權」（包立）在擋住重力 — 地球大小，太陽質量。",
+            "es": "Solo la regla de exclusión de los electrones (Pauli) frena la gravedad: la masa del Sol en el tamaño de la Tierra.",
+            "de": "Nur die Quantenregel der Elektronen (Pauli) hält die Schwerkraft auf — eine Sonnenmasse in Erdgröße.",
+            "pt-BR": "Só a regra de exclusão dos elétrons (Pauli) segura a gravidade — a massa do Sol no tamanho da Terra."
+          }
+        },
+        "procyonb": {
+          "hook": "식어가며 결정이 되어가는 탄소·산소 핵 — 양자 축퇴 물질의 노년입니다.",
+          "hookI18n": {
+            "en": "A carbon-oxygen core slowly crystallizing as it cools — the old age of quantum-degenerate matter.",
+            "ja": "冷えながら結晶になっていく炭素・酸素の核 — 量子縮退物質の老年期です。",
+            "zh-TW": "一邊冷卻一邊結晶的碳氧核心 — 量子簡併物質的暮年。",
+            "es": "Un núcleo de carbono y oxígeno que cristaliza mientras se enfría: la vejez de la materia degenerada cuántica.",
+            "de": "Ein Kohlenstoff-Sauerstoff-Kern, der beim Abkühlen kristallisiert — das Alter quantenentarteter Materie.",
+            "pt-BR": "Um núcleo de carbono e oxigênio cristalizando enquanto esfria — a velhice da matéria degenerada quântica."
+          }
+        },
+        "procyon-b": {
+          "hook": "식어가며 결정이 되어가는 탄소·산소 핵 — 양자 축퇴 물질의 노년입니다.",
+          "hookI18n": {
+            "en": "A carbon-oxygen core slowly crystallizing as it cools — the old age of quantum-degenerate matter.",
+            "ja": "冷えながら結晶になっていく炭素・酸素の核 — 量子縮退物質の老年期です。",
+            "zh-TW": "一邊冷卻一邊結晶的碳氧核心 — 量子簡併物質的暮年。",
+            "es": "Un núcleo de carbono y oxígeno que cristaliza mientras se enfría: la vejez de la materia degenerada cuántica.",
+            "de": "Ein Kohlenstoff-Sauerstoff-Kern, der beim Abkühlen kristallisiert — das Alter quantenentarteter Materie.",
+            "pt-BR": "Um núcleo de carbono e oxigênio cristalizando enquanto esfria — a velhice da matéria degenerada quântica."
+          }
+        },
+        "neutron": {
+          "hook": "전자마저 항복한 뒤 — 중성자와 강한 핵력의 최후 방어전, 도시 크기의 원자핵입니다.",
+          "hookI18n": {
+            "en": "After even the electrons surrender — the last stand of neutrons and the strong force, a city-sized atomic nucleus.",
+            "ja": "電子さえ降伏した後 — 中性子と強い力による最後の防衛戦、都市サイズの原子核です。",
+            "zh-TW": "連電子都投降之後 — 中子與強核力的最後防線，一顆城市大小的原子核。",
+            "es": "Cuando hasta los electrones se rinden: la última defensa de los neutrones y la fuerza fuerte, un núcleo atómico del tamaño de una ciudad.",
+            "de": "Wenn selbst die Elektronen kapitulieren — das letzte Gefecht der Neutronen und der starken Kraft, ein Atomkern von Stadtgröße.",
+            "pt-BR": "Quando até os elétrons se rendem — a última defesa dos nêutrons e da força forte, um núcleo atômico do tamanho de uma cidade."
+          }
+        },
+        "vela-pulsar": {
+          "hook": "전자마저 항복한 뒤 — 중성자와 강한 핵력의 최후 방어전, 도시 크기의 원자핵입니다.",
+          "hookI18n": {
+            "en": "After even the electrons surrender — the last stand of neutrons and the strong force, a city-sized atomic nucleus.",
+            "ja": "電子さえ降伏した後 — 中性子と強い力による最後の防衛戦、都市サイズの原子核です。",
+            "zh-TW": "連電子都投降之後 — 中子與強核力的最後防線，一顆城市大小的原子核。",
+            "es": "Cuando hasta los electrones se rinden: la última defensa de los neutrones y la fuerza fuerte, un núcleo atómico del tamaño de una ciudad.",
+            "de": "Wenn selbst die Elektronen kapitulieren — das letzte Gefecht der Neutronen und der starken Kraft, ein Atomkern von Stadtgröße.",
+            "pt-BR": "Quando até os elétrons se rendem — a última defesa dos nêutrons e da força forte, um núcleo atômico do tamanho de uma cidade."
+          }
+        },
+        "crab-pulsar": {
+          "hook": "초신성이 남긴 심장 — 중력이 원자를 부숴 도시 크기의 핵으로 만들었습니다.",
+          "hookI18n": {
+            "en": "The heart a supernova left behind — gravity crushed atoms into a city-sized nucleus.",
+            "ja": "超新星が残した心臓 — 重力が原子を砕き、都市サイズの核にしました。",
+            "zh-TW": "超新星留下的心臟 — 重力壓碎原子，揉成城市大小的核。",
+            "es": "El corazón que dejó una supernova: la gravedad trituró los átomos en un núcleo del tamaño de una ciudad.",
+            "de": "Das Herz, das eine Supernova hinterließ — die Schwerkraft zermalmte Atome zu einem stadtgroßen Kern.",
+            "pt-BR": "O coração que uma supernova deixou — a gravidade esmagou átomos num núcleo do tamanho de uma cidade."
+          }
+        },
+        "cygnus-x1": {
+          "hook": "모든 힘이 패배한 자리 — 어떤 압력도 못 막으면 사건의 지평선이 생깁니다.",
+          "hookI18n": {
+            "en": "Where every force has lost — when no pressure can resist, an event horizon forms.",
+            "ja": "あらゆる力が敗れた場所 — どんな圧力も抗えないとき、事象の地平線が生まれます。",
+            "zh-TW": "所有力量都敗下陣的地方 — 當沒有任何壓力能抵抗，事件視界就此形成。",
+            "es": "Donde toda fuerza ha perdido: cuando ninguna presión resiste, nace un horizonte de sucesos.",
+            "de": "Wo jede Kraft verloren hat — wenn kein Druck mehr widersteht, entsteht ein Ereignishorizont.",
+            "pt-BR": "Onde todas as forças perderam — quando nenhuma pressão resiste, nasce um horizonte de eventos."
+          }
+        },
+        "sagittarius-a": {
+          "hook": "태양 400만 개 질량의 완승 — 은하 전체가 이 중력 우물 주위를 돕니다.",
+          "hookI18n": {
+            "en": "A four-million-Sun victory — the whole galaxy orbits this gravity well.",
+            "ja": "太陽400万個分の質量の完勝 — 銀河全体がこの重力の井戸を回っています。",
+            "zh-TW": "四百萬個太陽質量的完勝 — 整個銀河繞著這口重力井旋轉。",
+            "es": "La victoria de cuatro millones de soles: toda la galaxia orbita este pozo de gravedad.",
+            "de": "Der Sieg von vier Millionen Sonnenmassen — die ganze Galaxie kreist um diesen Schwerkrafttrichter.",
+            "pt-BR": "A vitória de quatro milhões de sóis — a galáxia inteira orbita este poço de gravidade."
+          }
+        },
+        "m87-star": {
+          "hook": "인류가 처음 '찍은' 중력의 완승 — 그림자 지름이 명왕성 궤도보다 큽니다.",
+          "hookI18n": {
+            "en": "Gravity's victory, photographed for the first time — a shadow wider than Pluto's orbit.",
+            "ja": "人類が初めて「撮影した」重力の完勝 — 影の直径は冥王星の軌道より大きい。",
+            "zh-TW": "人類首次「拍下」的重力完勝 — 陰影直徑比冥王星軌道還大。",
+            "es": "La victoria de la gravedad, fotografiada por primera vez: una sombra más ancha que la órbita de Plutón.",
+            "de": "Der Sieg der Schwerkraft, zum ersten Mal fotografiert — ein Schatten, größer als die Plutobahn.",
+            "pt-BR": "A vitória da gravidade, fotografada pela primeira vez — uma sombra maior que a órbita de Plutão."
+          }
+        }
+      }
+    }
+  ]
+}

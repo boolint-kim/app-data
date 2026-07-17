@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "updatedAt": "2026-07-18T03:00:00Z",
+  "version": 8,
+  "updatedAt": "2026-07-18T06:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -689,6 +689,18 @@
             "de": "Das Licht einer Supernova ist der radioaktive Zerfall frisch gebauten Nickel-56 — Radioaktivität als Kerze.",
             "pt-BR": "A luz de uma supernova é o decaimento radioativo do níquel-56 recém-montado — radioatividade como vela."
           }
+        },
+        "earth": {
+          "hook": "지구 위의 당신에서 출발합니다 — 세포→원자→원자핵→쿼크, 이번엔 아래로 관통합니다.",
+          "hookI18n": {
+            "en": "Starting from you, standing on Earth — cell, atom, nucleus, quark: this time we pierce downward.",
+            "ja": "地球の上のあなたから出発 — 細胞→原子→原子核→クォーク、今度は下へ貫きます。",
+            "zh-TW": "從站在地球上的你出發 — 細胞→原子→原子核→夸克，這次往下貫穿。",
+            "es": "Partimos de ti, de pie sobre la Tierra: célula, átomo, núcleo, quark — esta vez perforamos hacia abajo.",
+            "de": "Wir starten bei dir, auf der Erde stehend — Zelle, Atom, Kern, Quark: diesmal geht es hinab.",
+            "pt-BR": "Partimos de você, de pé na Terra — célula, átomo, núcleo, quark: desta vez perfuramos para baixo."
+          },
+          "scene": "scene-scale-dive"
         }
       }
     },

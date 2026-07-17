@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updatedAt": "2026-07-17T15:00:00Z",
+  "version": 4,
+  "updatedAt": "2026-07-17T18:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -580,6 +580,164 @@
             "es": "hace 53 millones de años · La Tierra justo después de los dinosaurios: con luz de esa era fotografiamos un agujero negro.",
             "de": "vor 53 Millionen Jahren · Die Erde kurz nach den Dinosauriern — mit Licht jener Zeit fotografierten wir ein Schwarzes Loch.",
             "pt-BR": "há 53 milhões de anos · A Terra logo após os dinossauros — com luz daquela era fotografamos um buraco negro."
+          }
+        }
+      }
+    },
+    {
+      "id": "element-origin",
+      "scene": "scene-periodic",
+      "title": "원소 기원",
+      "titleI18n": {
+        "en": "Element Origins",
+        "ja": "元素の起源",
+        "zh-TW": "元素起源",
+        "es": "Origen de los elementos",
+        "de": "Elementherkunft",
+        "pt-BR": "Origem dos elementos"
+      },
+      "objects": {
+        "sun": {
+          "hook": "지금은 헬륨을 쌓는 중 — 60억 년 뒤 탄소·산소를 빚어 성운으로 반납합니다.",
+          "hookI18n": {
+            "en": "Busy stacking helium — in six billion years it will forge carbon and oxygen and hand them back as a nebula.",
+            "ja": "いまはヘリウムを積み上げ中 — 60億年後には炭素と酸素を鋳造し、星雲として返します。",
+            "zh-TW": "正在累積氦 — 六十億年後將鑄出碳與氧，化作星雲歸還宇宙。",
+            "es": "Ahora acumula helio: en seis mil millones de años forjará carbono y oxígeno y los devolverá como nebulosa.",
+            "de": "Gerade stapelt sie Helium — in sechs Milliarden Jahren schmiedet sie Kohlenstoff und Sauerstoff und gibt sie als Nebel zurück.",
+            "pt-BR": "Agora empilha hélio — em seis bilhões de anos forjará carbono e oxigênio e os devolverá como nebulosa."
+          }
+        },
+        "betelgeuse": {
+          "hook": "폭발 카운트다운의 원소 공장 — 터지는 날 산소부터 철까지 우주에 뿌립니다.",
+          "hookI18n": {
+            "en": "An element factory on a countdown — the day it blows, it will scatter oxygen through iron across space.",
+            "ja": "爆発カウントダウン中の元素工場 — 弾ける日、酸素から鉄までを宇宙に撒き散らします。",
+            "zh-TW": "進入倒數的元素工廠 — 爆發那天，把氧到鐵撒向宇宙。",
+            "es": "Una fábrica de elementos en cuenta atrás: el día que estalle esparcirá del oxígeno al hierro por el espacio.",
+            "de": "Eine Elementfabrik im Countdown — am Tag der Explosion verstreut sie Sauerstoff bis Eisen im All.",
+            "pt-BR": "Uma fábrica de elementos em contagem regressiva — no dia em que explodir, espalhará do oxigênio ao ferro pelo espaço."
+          }
+        },
+        "sirius-b": {
+          "hook": "별 핵융합의 최종 재 — 탄소·산소 결정 덩어리, 태양의 미래 유골입니다.",
+          "hookI18n": {
+            "en": "The final ash of stellar fusion — a crystallizing lump of carbon and oxygen, the Sun's future remains.",
+            "ja": "恒星核融合の最後の灰 — 結晶化していく炭素と酸素の塊、太陽の未来の亡骸です。",
+            "zh-TW": "恆星核融合的最後之灰 — 一團結晶中的碳與氧，太陽未來的遺骸。",
+            "es": "La ceniza final de la fusión estelar: un bloque de carbono y oxígeno en cristalización, los restos futuros del Sol.",
+            "de": "Die letzte Asche der Sternfusion — ein kristallisierender Klumpen aus Kohlenstoff und Sauerstoff, die künftigen Überreste der Sonne.",
+            "pt-BR": "A cinza final da fusão estelar — um bloco de carbono e oxigênio em cristalização, os restos futuros do Sol."
+          }
+        },
+        "sn1987a": {
+          "hook": "400년 만에 맨눈으로 본 초신성 — 갓 만든 니켈·철을 실은 충격파가 지금도 퍼집니다.",
+          "hookI18n": {
+            "en": "The first naked-eye supernova in 400 years — its shockwave, loaded with fresh nickel and iron, is still spreading.",
+            "ja": "400年ぶりに肉眼で見えた超新星 — 作りたてのニッケルと鉄を積んだ衝撃波が今も広がっています。",
+            "zh-TW": "四百年來首顆肉眼可見的超新星 — 載著新造鎳與鐵的衝擊波至今仍在擴散。",
+            "es": "La primera supernova a simple vista en 400 años: su onda de choque, cargada de níquel y hierro recién hechos, aún se expande.",
+            "de": "Die erste mit bloßem Auge sichtbare Supernova seit 400 Jahren — ihre Stoßwelle voll frischem Nickel und Eisen breitet sich noch aus.",
+            "pt-BR": "A primeira supernova a olho nu em 400 anos — sua onda de choque, carregada de níquel e ferro recém-feitos, ainda se espalha."
+          }
+        },
+        "crab": {
+          "hook": "1054년의 잔해 — 이 안의 철·니켈이 다음 세대 별의 재료입니다.",
+          "hookI18n": {
+            "en": "The wreckage of 1054 — the iron and nickel inside are raw material for the next generation of stars.",
+            "ja": "1054年の残骸 — この中の鉄とニッケルが次世代の星の材料です。",
+            "zh-TW": "1054年的殘骸 — 其中的鐵與鎳是下一代恆星的原料。",
+            "es": "Los restos de 1054: el hierro y el níquel de su interior son materia prima para la próxima generación de estrellas.",
+            "de": "Die Trümmer von 1054 — das Eisen und Nickel darin sind Rohstoff für die nächste Sternengeneration.",
+            "pt-BR": "Os destroços de 1054 — o ferro e o níquel lá dentro são matéria-prima para a próxima geração de estrelas."
+          }
+        },
+        "crab-pulsar": {
+          "hook": "초신성이 남긴 심장 — 그날 뿌려진 원소가 다음 별의 재료가 됐습니다.",
+          "hookI18n": {
+            "en": "The heart a supernova left behind — the elements scattered that day became the makings of new stars.",
+            "ja": "超新星が残した心臓 — あの日撒かれた元素が、次の星の材料になりました。",
+            "zh-TW": "超新星留下的心臟 — 那天撒出的元素成了新恆星的材料。",
+            "es": "El corazón que dejó una supernova: los elementos esparcidos aquel día se volvieron material de nuevas estrellas.",
+            "de": "Das Herz, das eine Supernova hinterließ — die an jenem Tag verstreuten Elemente wurden zum Stoff neuer Sterne.",
+            "pt-BR": "O coração que uma supernova deixou — os elementos espalhados naquele dia viraram matéria de novas estrelas."
+          }
+        },
+        "gw170817": {
+          "hook": "인류가 처음 목격한 귀금속 공장 — 금·백금이 이 충돌에서 태어났습니다.",
+          "hookI18n": {
+            "en": "The first jewelry factory humanity ever witnessed — gold and platinum were born in this collision.",
+            "ja": "人類が初めて目撃した貴金属工場 — 金と白金がこの衝突で生まれました。",
+            "zh-TW": "人類首次目擊的貴金屬工廠 — 金與鉑誕生於這場相撞。",
+            "es": "La primera fábrica de joyas que la humanidad presenció: el oro y el platino nacieron en esta colisión.",
+            "de": "Die erste Schmuckfabrik, die die Menschheit je sah — Gold und Platin wurden in dieser Kollision geboren.",
+            "pt-BR": "A primeira fábrica de joias que a humanidade presenciou — ouro e platina nasceram nesta colisão."
+          }
+        },
+        "ring": {
+          "hook": "죽어가는 별이 벗어 놓은 겉옷 — 탄소·질소가 성간으로 반납되는 현장입니다.",
+          "hookI18n": {
+            "en": "The robe a dying star cast off — carbon and nitrogen being handed back to interstellar space.",
+            "ja": "死にゆく星が脱ぎ捨てた衣 — 炭素と窒素が星間空間へ返される現場です。",
+            "zh-TW": "垂死恆星脫下的外袍 — 碳與氮正被歸還給星際空間。",
+            "es": "La túnica que soltó una estrella moribunda: carbono y nitrógeno devueltos al espacio interestelar.",
+            "de": "Das Gewand, das ein sterbender Stern abwarf — Kohlenstoff und Stickstoff werden an den interstellaren Raum zurückgegeben.",
+            "pt-BR": "O manto que uma estrela moribunda largou — carbono e nitrogênio sendo devolvidos ao espaço interestelar."
+          }
+        },
+        "helix": {
+          "hook": "가장 가까운 행성상성운 — 태양의 미래 유언장입니다.",
+          "hookI18n": {
+            "en": "The nearest planetary nebula — the Sun's future last will.",
+            "ja": "最も近い惑星状星雲 — 太陽の未来の遺言状です。",
+            "zh-TW": "最近的行星狀星雲 — 太陽未來的遺囑。",
+            "es": "La nebulosa planetaria más cercana: el testamento futuro del Sol.",
+            "de": "Der nächstgelegene planetarische Nebel — das künftige Testament der Sonne.",
+            "pt-BR": "A nebulosa planetária mais próxima — o testamento futuro do Sol."
+          }
+        },
+        "veil": {
+          "hook": "8천 년 전 초신성의 레이스 커튼 — 산소는 초록, 수소는 빨강으로, 원소가 색이 됩니다.",
+          "hookI18n": {
+            "en": "The lace curtain of an 8,000-year-old supernova — oxygen glows green, hydrogen red: elements become colors.",
+            "ja": "8千年前の超新星のレースカーテン — 酸素は緑、水素は赤に。元素が色になります。",
+            "zh-TW": "八千年前超新星的蕾絲簾幕 — 氧發綠光、氫發紅光，元素化作顏色。",
+            "es": "La cortina de encaje de una supernova de hace 8.000 años: el oxígeno brilla verde, el hidrógeno rojo — los elementos se vuelven colores.",
+            "de": "Der Spitzenvorhang einer 8.000 Jahre alten Supernova — Sauerstoff leuchtet grün, Wasserstoff rot: Elemente werden zu Farben.",
+            "pt-BR": "A cortina de renda de uma supernova de 8.000 anos — o oxigênio brilha verde, o hidrogênio vermelho: elementos viram cores."
+          }
+        },
+        "orion": {
+          "hook": "당신 몸의 재료가 재활용되는 공장 — 옛 별들의 재가 여기서 다시 별이 됩니다.",
+          "hookI18n": {
+            "en": "The recycling plant of your body's ingredients — ashes of old stars become new stars here.",
+            "ja": "あなたの体の材料が再利用される工場 — 昔の星の灰がここで再び星になります。",
+            "zh-TW": "你身體原料的回收廠 — 老恆星的灰燼在這裡再次成為恆星。",
+            "es": "La planta de reciclaje de tus ingredientes: cenizas de viejas estrellas se vuelven estrellas nuevas aquí.",
+            "de": "Die Recyclinganlage deiner Bausteine — Asche alter Sterne wird hier wieder zu Sternen.",
+            "pt-BR": "A usina de reciclagem dos seus ingredientes — cinzas de velhas estrelas viram novas estrelas aqui."
+          }
+        },
+        "eagle": {
+          "hook": "창조의 기둥 — 이전 세대 별이 남긴 가스가 다음 세대 별로 뭉치는 곳입니다.",
+          "hookI18n": {
+            "en": "The Pillars of Creation — gas left by earlier stars gathering into the next generation.",
+            "ja": "創造の柱 — 前の世代の星が残したガスが、次の世代の星に集まる場所です。",
+            "zh-TW": "創生之柱 — 上一代恆星留下的氣體，在此凝聚成下一代。",
+            "es": "Los Pilares de la Creación: gas dejado por estrellas anteriores reuniéndose en la siguiente generación.",
+            "de": "Die Säulen der Schöpfung — Gas früherer Sterne sammelt sich hier zur nächsten Generation.",
+            "pt-BR": "Os Pilares da Criação — gás deixado por estrelas anteriores se reunindo na próxima geração."
+          }
+        },
+        "siriusb": {
+          "hook": "별 핵융합의 최종 재 — 탄소·산소 결정 덩어리, 태양의 미래 유골입니다.",
+          "hookI18n": {
+            "en": "The final ash of stellar fusion — a crystallizing lump of carbon and oxygen, the Sun's future remains.",
+            "ja": "恒星核融合の最後の灰 — 結晶化していく炭素と酸素の塊、太陽の未来の亡骸です。",
+            "zh-TW": "恆星核融合的最後之灰 — 一團結晶中的碳與氧，太陽未來的遺骸。",
+            "es": "La ceniza final de la fusión estelar: un bloque de carbono y oxígeno en cristalización, los restos futuros del Sol.",
+            "de": "Die letzte Asche der Sternfusion — ein kristallisierender Klumpen aus Kohlenstoff und Sauerstoff, die künftigen Überreste der Sonne.",
+            "pt-BR": "A cinza final da fusão estelar — um bloco de carbono e oxigênio em cristalização, os restos futuros do Sol."
           }
         }
       }

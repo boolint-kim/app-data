@@ -135,6 +135,31 @@ function parseXml(xmlStr) {
   return items;
 }
 
+// 원천 중복행 제거: namePkey(시군_구역명) 동일 항목은 첫 건만 유지.
+// 경기 원천엔 완전 동일한 중복 레코드가 존재(주로 안양시 준공 사업 등 18쌍) →
+// 리스트 중복 노출 제거 + 앱 관심(즐겨찾기) 고유키(namePkey) 확보 겸 정제.
+function dedupeItems(items) {
+  const seen = new Map();
+  const result = [];
+  let dropped = 0;
+  for (const item of items) {
+    const key = item.SIGUN_NM + '_' + item.IMPRV_ZONE_NM;
+    if (seen.has(key)) {
+      dropped++;
+      const kept = seen.get(key);
+      // 동일 키인데 단계가 다르면 서로 다른 사업일 수 있으니 경고(실측상 없음, 데이터 이상 감지용)
+      if (kept.BIZ_STEP_NM !== item.BIZ_STEP_NM) {
+        console.log(`  주의: 동일 namePkey인데 단계 상이 → ${key} (${kept.BIZ_STEP_NM} vs ${item.BIZ_STEP_NM})`);
+      }
+      continue;
+    }
+    seen.set(key, item);
+    result.push(item);
+  }
+  console.log(`   중복 제거: ${dropped}건 (${items.length} → ${result.length})`);
+  return result;
+}
+
 // PositionGgHelper 좌표 매칭 + 기존 JSON 이월
 function mergeCoords(newItems, existingData) {
   // 기존 JSON에서 namePkey → 좌표 맵 생성 (x=0,y=0도 포함 = 이미 시도한 항목)
@@ -352,8 +377,11 @@ async function main() {
 
     // 2. XML 파싱
     console.log('\n2. XML 파싱...');
-    const items = parseXml(xmlStr);
+    let items = parseXml(xmlStr);
     console.log(`   파싱 완료: ${items.length}건`);
+
+    // 2-1. 원천 중복행 제거 (관심 고유키 = namePkey 확보)
+    items = dedupeItems(items);
 
     if (items.length === 0) {
       console.log('파싱된 데이터가 없습니다. 종료합니다.');

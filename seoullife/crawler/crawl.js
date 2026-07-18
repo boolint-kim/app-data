@@ -11,6 +11,7 @@
 //       2026-07-16 제1유형 OA-22856(상업이용 가능)로 소스 교체·재개.
 //       앱 CleanupDataHelper 는 gu_nm/btyp_nm/cafe_nm/reprsnt_jibun/progrs_sttus/x/y 키를
 //       그대로 파싱하므로 출력 스키마(7키 + sum_bildng_co)를 유지한다.
+//       2026-07-18 관심(즐겨찾기) 고유키용 bsns_pk(원천 CODE, 472건 전부 고유) 추가.
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
@@ -72,6 +73,7 @@ function mapRow(r) {
   let road = (r.ROAD_ADDR || '').trim();
   if (road === '-') road = '';
   return {
+    bsns_pk: (r.CODE || '').trim(),             // 사업코드(원천 CODE) → 앱 관심 고유키. 472건 전부 고유·빈값 0
     gu_nm: gu,
     btyp_nm: (r.BIZ_TYPE || '').trim(),
     cafe_nm: (r.ZONE_NM || '').trim(),          // 구역명 (앱에서 zone_nm=cafe_nm → 리스트 제목)
@@ -300,6 +302,9 @@ function loadExistingData() {
 function hasChanges(newItems, existingData) {
   if (!existingData || !existingData.items) return true;
   if (newItems.length !== existingData.items.length) return true;
+
+  // 스키마 마이그레이션: 기존 JSON에 bsns_pk가 없으면 강제 저장(관심 고유키 신규 도입 1회)
+  if (existingData.items.length > 0 && !existingData.items[0].bsns_pk) return true;
 
   const existingMap = {};
   for (const item of existingData.items) {

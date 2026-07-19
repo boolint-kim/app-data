@@ -10,8 +10,10 @@
 // 이력: 2026-06-06 정보몽땅 엑셀(공공누리 제4유형, 상업금지)로 수집 중단했으나,
 //       2026-07-16 제1유형 OA-22856(상업이용 가능)로 소스 교체·재개.
 //       앱 CleanupDataHelper 는 gu_nm/btyp_nm/cafe_nm/reprsnt_jibun/progrs_sttus/x/y 키를
-//       그대로 파싱하므로 출력 스키마(7키 + sum_bildng_co)를 유지한다.
+//       그대로 파싱한다.
 //       2026-07-18 관심(즐겨찾기) 고유키용 bsns_pk(원천 CODE, 472건 전부 고유) 추가.
+//       2026-07-19 상세화면 정보 확충: API가 주는 세대수 상세(기존/분양/임대)·사업방식
+//       (공공민간/일반신속)·도로명주소·단계별 진행일자(구역지정~착공)를 출력 스키마에 추가.
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
@@ -67,7 +69,8 @@ function toInt(v) {
   return isNaN(n) ? 0 : n;
 }
 
-// API row → 앱 스키마 항목 (7키 + 세대수). _road 는 지오코딩 폴백용(저장 전 제거)
+// API row → 앱 스키마 항목. road_addr 는 표시·지오코딩 폴백 공용(gu 제거본)
+// 단계별 일자는 빈값도 그대로 저장(앱이 빈값을 자동 스킵하므로 도달 안 한 단계는 화면에 안 뜸)
 function mapRow(r) {
   const gu = (r.DISTRICT || '').trim();
   let road = (r.ROAD_ADDR || '').trim();
@@ -78,11 +81,29 @@ function mapRow(r) {
     btyp_nm: (r.BIZ_TYPE || '').trim(),
     cafe_nm: (r.ZONE_NM || '').trim(),          // 구역명 (앱에서 zone_nm=cafe_nm → 리스트 제목)
     reprsnt_jibun: normalizeJibun(gu, r.JIBUN_ADDR),
+    road_addr: normalizeJibun(gu, road),         // 도로명주소(자치구 제거) — 표시 + 지오코딩 폴백
     progrs_sttus: (r.BIZ_STAGE || '').trim(),    // 단계명(정렬은 앱 AppConst.getProgressStatusIndex 확장)
-    sum_bildng_co: toInt(r.TOT_BUILT_HOUSEHOLDS),// 건립세대수 총합 → 앱 세대수 표시/정렬
+    biz_method_pp: (r.BIZ_METHOD_PUBLIC_PRIVATE || '').trim(),   // 사업방식: 공공/민간
+    biz_method_gp: (r.BIZ_METHOD_GENERAL_PROMOTED || '').trim(), // 추진방식: 일반/신속통합
+    exist_hshld_co: toInt(r.EXISTING_HOUSEHOLDS),   // 기존 세대수
+    sum_bildng_co: toInt(r.TOT_BUILT_HOUSEHOLDS),   // 건립 세대수 총합 → 앱 세대수 표시/정렬
+    sale_hshld_co: toInt(r.SALE_BUILT_HOUSEHOLDS),  // 분양 세대수
+    rent_hshld_co: toInt(r.RENT_BUILT_HOUSEHOLDS),  // 임대 세대수
+    // 단계별 진행 일자(타임라인)
+    ymd_zone_desig: (r.ZONE_DESIGNATION_INIT_YMD || '').trim(),   // 구역지정(최초)
+    ymd_zone_desig_last: (r.ZONE_DESIGNATION_LAST_YMD || '').trim(), // 구역지정(변경)
+    ymd_promo: (r.PROMOTION_COMMITTEE_YMD || '').trim(),          // 추진위 승인
+    ymd_assoc: (r.ASSOCIATION_ESTABLISHMENT_YMD || '').trim(),    // 조합설립인가
+    ymd_arch: (r.ARCHITECTURAL_REVIEW_YMD || '').trim(),          // 건축심의
+    ymd_biz_impl: (r.BIZ_IMPLEMENTATION_INIT_YMD || '').trim(),   // 사업시행인가(최초)
+    ymd_biz_impl_last: (r.BIZ_IMPLEMENTATION_LAST_YMD || '').trim(), // 사업시행인가(변경)
+    ymd_mgmt_disp: (r.MGMT_DISPOSITION_INIT_YMD || '').trim(),    // 관리처분인가(최초)
+    ymd_mgmt_disp_last: (r.MGMT_DISPOSITION_LAST_YMD || '').trim(), // 관리처분인가(변경)
+    ymd_migration_start: (r.MIGRATION_START_YMD || '').trim(),    // 이주 시작
+    ymd_migration_end: (r.MIGRATION_END_YMD || '').trim(),        // 이주 종료
+    ymd_construction: (r.CONSTRUCTION_START_YMD || '').trim(),    // 착공
     x: 0,
-    y: 0,
-    _road: normalizeJibun(gu, road)
+    y: 0
   };
 }
 
@@ -263,10 +284,10 @@ async function fillMissingCoords(items) {
     }
 
     // 지번 실패 시 도로명주소 폴백
-    if (!hit && item._road) {
+    if (!hit && item.road_addr) {
       await new Promise(r => setTimeout(r, 100));
       try {
-        const rhit = await geocodeAddress(`서울특별시 ${item.gu_nm} ${item._road}`);
+        const rhit = await geocodeAddress(`서울특별시 ${item.gu_nm} ${item.road_addr}`);
         if (rhit) { hit = rhit; hit.via = '도로명'; }
       } catch (e) { /* fall through */ }
     }
@@ -305,6 +326,8 @@ function hasChanges(newItems, existingData) {
 
   // 스키마 마이그레이션: 기존 JSON에 bsns_pk가 없으면 강제 저장(관심 고유키 신규 도입 1회)
   if (existingData.items.length > 0 && !existingData.items[0].bsns_pk) return true;
+  // 스키마 확장: 세대수 상세/단계별 일자 신규 도입 → 기존 JSON에 없으면 강제 저장(1회)
+  if (existingData.items.length > 0 && existingData.items[0].exist_hshld_co === undefined) return true;
 
   const existingMap = {};
   for (const item of existingData.items) {
@@ -333,8 +356,8 @@ function saveResults(items) {
     version = 1;
   }
 
-  // 내부 플래그/임시필드 제거 후 저장
-  items.forEach(item => { delete item._geocoded; delete item._road; });
+  // 내부 플래그 제거 후 저장 (road_addr 은 표시용 정식 필드라 유지)
+  items.forEach(item => { delete item._geocoded; });
 
   fs.writeFileSync(DATA_FILE, JSON.stringify({ items }, null, 2), 'utf-8');
   fs.writeFileSync(VERSION_FILE, String(version), 'utf-8');

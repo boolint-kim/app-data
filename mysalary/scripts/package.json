@@ -1,0 +1,12 @@
+{
+  "name": "mysalary-rates",
+  "version": "1.0.0",
+  "description": "국세청 근로소득 간이세액표 엑셀 → mysalary/rates.json 변환기",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

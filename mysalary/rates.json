@@ -3,7 +3,7 @@
   "year": 2026,
   "pension": {"employeeRate":0.0475,"upperBase":6590000,"lowerBase":410000,"baseAppliedFrom":"2026-07-01"},
   "health": {"employeeRate":0.03595},
-  "care": {"rateOfHealthPremium":0.1314},
+  "care": {"rateOfHealthPremium":0.13140472878998607},
   "employment": {"employeeRate":0.009},
   "localIncomeTaxRate": 0.1,
   "minWage": 10320,

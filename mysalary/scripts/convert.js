@@ -37,7 +37,10 @@ const PENSION = {
   baseAppliedFrom: "2026-07-01", // 상·하한 적용 시작 (매년 7월 갱신)
 };
 const HEALTH = { employeeRate: 0.03595 };          // 근로자 3.595% (총 7.19%)
-const CARE = { rateOfHealthPremium: 0.1314 };      // 장기요양 = 건강보험료 × 13.14%
+// 장기요양 = 건강보험료 × (장기요양보험료율 0.9448% ÷ 건강보험료율 7.19%).
+// 공단(4insure.or.kr)이 비율식을 그대로 쓰므로 0.1314 로 반올림하면 경계 월급여에서
+// 10원 어긋난다(예: 월급여 2,004,729원 → 공단 9,470 vs 반올림값 9,460). 나눗셈 유지할 것.
+const CARE = { rateOfHealthPremium: 0.9448 / 7.19 };
 const EMPLOYMENT = { employeeRate: 0.009 };        // 고용보험(실업급여) 0.9%
 const LOCAL_INCOME_TAX_RATE = 0.1;                 // 지방소득세 = 소득세 × 10%
 const MIN_WAGE = 10320;                            // 2026 최저시급

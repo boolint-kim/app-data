@@ -1,6 +1,6 @@
 {
   "bandId": "remnants",
-  "version": 7,
+  "version": 8,
   "updatedAt": "2026-08-06T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -413,6 +413,103 @@
           {
             "label": "O que resiste",
             "value": "Rigidez da rocha · radiação · degenerescência"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spacetime",
+      "type": "process",
+      "featured": true,
+      "name": "중력의 정체 — 시공간",
+      "nameI18n": {
+        "en": "What Gravity Is — Spacetime",
+        "ja": "重力の正体 — 時空",
+        "es": "Qué es la gravedad — espacio-tiempo",
+        "de": "Was Gravitation ist — Raumzeit",
+        "zh-TW": "重力的真面目 — 時空",
+        "pt-BR": "O que é a gravidade — espaço-tempo"
+      },
+      "summary": "중력은 당기는 힘이 아니라 휘어진 시공간 — 평평한 격자에서 수성 세차·별빛 굴절을 지나 블랙홀 그림자와 중력파까지 8단계.",
+      "summaryI18n": {
+        "en": "Gravity is not a pull but curved spacetime — eight steps from a flat grid through Mercury's precession and bending starlight to black-hole shadows and gravitational waves.",
+        "ja": "重力は引っぱる力ではなく曲がった時空 — 平らな格子から水星の近日点移動、星の光の屈折を経て、ブラックホールの影と重力波まで8段階。",
+        "es": "La gravedad no es un tirón sino espacio-tiempo curvo: ocho pasos desde una retícula plana, pasando por la precesión de Mercurio y la luz curvada, hasta la sombra del agujero negro y las ondas gravitacionales.",
+        "de": "Gravitation ist kein Ziehen, sondern gekrümmte Raumzeit — acht Schritte vom flachen Gitter über Merkurs Präzession und gekrümmtes Sternenlicht bis zu Schwarzloch-Schatten und Gravitationswellen.",
+        "zh-TW": "重力不是拉力，而是彎曲的時空 — 從平坦格線經水星進動、星光偏折，到黑洞陰影與重力波，共8步。",
+        "pt-BR": "A gravidade não é uma atração, é espaço-tempo curvo — oito passos da grade plana, passando pela precessão de Mercúrio e a luz curvada, até a sombra do buraco negro e as ondas gravitacionais."
+      },
+      "scene": "scene-spacetime",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "핵심",
+          "value": "당기는 힘이 아니라 휘어진 길"
+        },
+        {
+          "label": "검증",
+          "value": "1919 일식 · GPS · EHT · LIGO"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Key idea",
+            "value": "Not a pull — a curved path"
+          },
+          {
+            "label": "Proofs",
+            "value": "1919 eclipse · GPS · EHT · LIGO"
+          }
+        ],
+        "ja": [
+          {
+            "label": "核心",
+            "value": "引く力ではなく曲がった道"
+          },
+          {
+            "label": "検証",
+            "value": "1919日食・GPS・EHT・LIGO"
+          }
+        ],
+        "es": [
+          {
+            "label": "Idea clave",
+            "value": "No es un tirón: es un camino curvo"
+          },
+          {
+            "label": "Pruebas",
+            "value": "Eclipse de 1919 · GPS · EHT · LIGO"
+          }
+        ],
+        "de": [
+          {
+            "label": "Kernidee",
+            "value": "Kein Ziehen — ein gekrümmter Weg"
+          },
+          {
+            "label": "Belege",
+            "value": "Finsternis 1919 · GPS · EHT · LIGO"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "核心",
+            "value": "不是拉力，是彎曲的路"
+          },
+          {
+            "label": "驗證",
+            "value": "1919日食·GPS·EHT·LIGO"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Ideia central",
+            "value": "Não é atração — é um caminho curvo"
+          },
+          {
+            "label": "Provas",
+            "value": "Eclipse de 1919 · GPS · EHT · LIGO"
           }
         ]
       }

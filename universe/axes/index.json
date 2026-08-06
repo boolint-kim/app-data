@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "updatedAt": "2026-07-18T06:30:00Z",
+  "version": 10,
+  "updatedAt": "2026-08-06T00:30:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -1460,6 +1460,164 @@
             "es": "En febrero de 1987, diecinueve neutrinos llegados de aquí se adelantaron tres horas a la luz: la obertura de la astronomía multimensajero.",
             "de": "Im Februar 1987 trafen neunzehn Neutrinos von hier drei Stunden vor dem Licht ein — die Ouvertüre der Multi-Messenger-Astronomie.",
             "pt-BR": "Em fevereiro de 1987, dezenove neutrinos vindos daqui chegaram três horas antes da luz — a abertura da astronomia multimensageira."
+          }
+        }
+      }
+    },
+    {
+      "id": "spacetime",
+      "scene": "scene-spacetime",
+      "title": "시공간",
+      "titleI18n": {
+        "en": "Spacetime",
+        "ja": "時空",
+        "zh-TW": "時空",
+        "es": "Espacio-tiempo",
+        "de": "Raumzeit",
+        "pt-BR": "Espaço-tempo"
+      },
+      "objects": {
+        "moon": {
+          "hook": "달은 당겨지는 게 아닙니다 — 지구가 휘어 놓은 시공간 속을 곧게 가는 중입니다.",
+          "hookI18n": {
+            "en": "The Moon is not being pulled — it is going straight through spacetime that Earth has curved.",
+            "ja": "月は引っぱられているのではありません — 地球が曲げた時空の中をまっすぐ進んでいるのです。",
+            "zh-TW": "月球不是被拉住 — 它正在地球彎曲的時空裡直直前進。",
+            "es": "La Luna no está siendo tirada: va recta por un espacio-tiempo que la Tierra ha curvado.",
+            "de": "Der Mond wird nicht gezogen — er läuft geradeaus durch die von der Erde gekrümmte Raumzeit.",
+            "pt-BR": "A Lua não está sendo puxada — ela segue reto por um espaço-tempo que a Terra curvou."
+          }
+        },
+        "mercury": {
+          "hook": "뉴턴이 끝내 설명 못 한 100년당 43각초 — 수성 궤도가 일반상대성의 첫 증거였습니다.",
+          "hookI18n": {
+            "en": "The 43 arcseconds per century Newton never explained — Mercury's orbit was general relativity's first proof.",
+            "ja": "ニュートンがついに説明できなかった100年で43秒角 — 水星の軌道が一般相対性理論の最初の証拠でした。",
+            "zh-TW": "牛頓始終解釋不了的每百年43角秒 — 水星軌道是廣義相對論的第一個證據。",
+            "es": "Los 43 segundos de arco por siglo que Newton nunca explicó: la órbita de Mercurio fue la primera prueba de la relatividad general.",
+            "de": "Die 43 Bogensekunden pro Jahrhundert, die Newton nie erklären konnte — Merkurs Bahn war der erste Beweis der Allgemeinen Relativitätstheorie.",
+            "pt-BR": "Os 43 segundos de arco por século que Newton nunca explicou — a órbita de Mercúrio foi a primeira prova da relatividade geral."
+          }
+        },
+        "earth": {
+          "hook": "GPS 위성의 시계는 하루 38마이크로초 빠릅니다 — 내비게이션은 매일 휘어진 시간을 보정하며 작동합니다.",
+          "hookI18n": {
+            "en": "GPS satellite clocks run 38 microseconds fast per day — your navigation corrects for curved time every day.",
+            "ja": "GPS衛星の時計は1日に38マイクロ秒進みます — ナビは毎日、曲がった時間を補正して動いています。",
+            "zh-TW": "GPS衛星的時鐘每天快38微秒 — 導航每天都在校正被彎曲的時間。",
+            "es": "Los relojes de los satélites GPS adelantan 38 microsegundos al día: tu navegador corrige a diario el tiempo curvado.",
+            "de": "Die Uhren der GPS-Satelliten gehen täglich 38 Mikrosekunden vor — die Navigation korrigiert jeden Tag die gekrümmte Zeit.",
+            "pt-BR": "Os relógios dos satélites GPS adiantam 38 microssegundos por dia — a navegação corrige o tempo curvado todos os dias."
+          }
+        },
+        "sun": {
+          "hook": "1919년 개기일식 — 태양 곁에서 별빛이 휘는 것이 관측돼 아인슈타인이 옳았음이 증명됐습니다.",
+          "hookI18n": {
+            "en": "The 1919 total eclipse caught starlight bending past the Sun — the observation that proved Einstein right.",
+            "ja": "1919年の皆既日食 — 太陽のそばで星の光が曲がるのが観測され、アインシュタインの正しさが証明されました。",
+            "zh-TW": "1919年日全食 — 觀測到星光在太陽旁彎曲，證明了愛因斯坦是對的。",
+            "es": "El eclipse total de 1919 captó la luz estelar curvándose junto al Sol: la observación que dio la razón a Einstein.",
+            "de": "Die Sonnenfinsternis von 1919 zeigte Sternenlicht, das sich an der Sonne krümmt — die Beobachtung, die Einstein recht gab.",
+            "pt-BR": "O eclipse total de 1919 flagrou a luz das estrelas se curvando junto ao Sol — a observação que provou que Einstein estava certo."
+          }
+        },
+        "sirius-b": {
+          "hook": "깊은 중력을 기어 나온 빛은 붉게 늘어집니다 — 1925년 시리우스 B에서 처음 측정된 중력 적색편이.",
+          "hookI18n": {
+            "en": "Light climbing out of deep gravity comes out stretched red — gravitational redshift, first measured on Sirius B in 1925.",
+            "ja": "深い重力から這い出た光は赤く引き伸ばされます — 1925年にシリウスBで初めて測定された重力赤方偏移。",
+            "zh-TW": "從深重力中爬出的光被拉長成紅色 — 重力紅移，1925年在天狼星B首次量得。",
+            "es": "La luz que escapa de una gravedad profunda sale estirada hacia el rojo: el corrimiento gravitatorio, medido por primera vez en Sirio B en 1925.",
+            "de": "Licht, das tiefer Gravitation entkommt, kommt rotgedehnt heraus — die gravitative Rotverschiebung, 1925 erstmals an Sirius B gemessen.",
+            "pt-BR": "A luz que escapa de uma gravidade profunda sai esticada para o vermelho — o desvio gravitacional, medido pela primeira vez em Sírius B, em 1925."
+          }
+        },
+        "siriusb": {
+          "hook": "깊은 중력을 기어 나온 빛은 붉게 늘어집니다 — 1925년 시리우스 B에서 처음 측정된 중력 적색편이.",
+          "hookI18n": {
+            "en": "Light climbing out of deep gravity comes out stretched red — gravitational redshift, first measured on Sirius B in 1925.",
+            "ja": "深い重力から這い出た光は赤く引き伸ばされます — 1925年にシリウスBで初めて測定された重力赤方偏移。",
+            "zh-TW": "從深重力中爬出的光被拉長成紅色 — 重力紅移，1925年在天狼星B首次量得。",
+            "es": "La luz que escapa de una gravedad profunda sale estirada hacia el rojo: el corrimiento gravitatorio, medido por primera vez en Sirio B en 1925.",
+            "de": "Licht, das tiefer Gravitation entkommt, kommt rotgedehnt heraus — die gravitative Rotverschiebung, 1925 erstmals an Sirius B gemessen.",
+            "pt-BR": "A luz que escapa de uma gravidade profunda sai esticada para o vermelho — o desvio gravitacional, medido pela primeira vez em Sírius B, em 1925."
+          }
+        },
+        "neutron": {
+          "hook": "표면 중력이 빛을 크게 휘어 별의 뒷면 일부가 보입니다 — 극한 곡률의 세계.",
+          "hookI18n": {
+            "en": "Surface gravity bends light so hard that part of the far side is visible — the realm of extreme curvature.",
+            "ja": "表面重力が光を大きく曲げ、星の裏側の一部まで見えます — 極限曲率の世界。",
+            "zh-TW": "表面重力把光彎得極厲害，連星球背面的一部分都看得到 — 極端曲率的世界。",
+            "es": "La gravedad superficial curva tanto la luz que parte de la cara oculta es visible: el reino de la curvatura extrema.",
+            "de": "Die Oberflächengravitation krümmt das Licht so stark, dass ein Teil der Rückseite sichtbar wird — das Reich extremer Krümmung.",
+            "pt-BR": "A gravidade na superfície curva tanto a luz que parte do lado oculto fica visível — o reino da curvatura extrema."
+          }
+        },
+        "crab-pulsar": {
+          "hook": "이 도시 크기의 별 곁에서 빛은 직진하지 못합니다 — 뒷면까지 내비치는 극한 곡률.",
+          "hookI18n": {
+            "en": "Beside this city-sized star, light cannot travel straight — curvature so extreme the far side shows.",
+            "ja": "この都市サイズの星のそばでは、光はまっすぐ進めません — 裏側まで見えてしまう極限の曲率。",
+            "zh-TW": "在這顆城市大小的星旁，光走不了直線 — 連背面都映出來的極端曲率。",
+            "es": "Junto a esta estrella del tamaño de una ciudad, la luz no puede ir recta: una curvatura tan extrema que asoma la cara oculta.",
+            "de": "Neben diesem stadtgroßen Stern kann Licht nicht geradeaus — eine Krümmung so extrem, dass die Rückseite sichtbar wird.",
+            "pt-BR": "Ao lado desta estrela do tamanho de uma cidade, a luz não anda reto — curvatura tão extrema que o lado oculto aparece."
+          }
+        },
+        "vela-pulsar": {
+          "hook": "이 도시 크기의 별 곁에서 빛은 직진하지 못합니다 — 뒷면까지 내비치는 극한 곡률.",
+          "hookI18n": {
+            "en": "Beside this city-sized star, light cannot travel straight — curvature so extreme the far side shows.",
+            "ja": "この都市サイズの星のそばでは、光はまっすぐ進めません — 裏側まで見えてしまう極限の曲率。",
+            "zh-TW": "在這顆城市大小的星旁，光走不了直線 — 連背面都映出來的極端曲率。",
+            "es": "Junto a esta estrella del tamaño de una ciudad, la luz no puede ir recta: una curvatura tan extrema que asoma la cara oculta.",
+            "de": "Neben diesem stadtgroßen Stern kann Licht nicht geradeaus — eine Krümmung so extrem, dass die Rückseite sichtbar wird.",
+            "pt-BR": "Ao lado desta estrela do tamanho de uma cidade, a luz não anda reto — curvatura tão extrema que o lado oculto aparece."
+          }
+        },
+        "cygnus-x1": {
+          "hook": "탈출속도가 빛의 속도에 닿는 경계, 사건의 지평선 — 곡률이 인과를 끊는 자리입니다.",
+          "hookI18n": {
+            "en": "Where escape velocity reaches light speed, an event horizon forms — curvature severing cause from effect.",
+            "ja": "脱出速度が光速に達する境界、事象の地平線 — 曲率が因果を断ち切る場所です。",
+            "zh-TW": "逃逸速度達到光速的邊界 — 事件視界，是彎曲切斷因果的地方。",
+            "es": "Donde la velocidad de escape alcanza la de la luz nace un horizonte de sucesos: la curvatura corta la causalidad.",
+            "de": "Wo die Fluchtgeschwindigkeit Lichtgeschwindigkeit erreicht, entsteht ein Ereignishorizont — Krümmung, die die Kausalität kappt.",
+            "pt-BR": "Onde a velocidade de escape atinge a da luz, nasce um horizonte de eventos — a curvatura corta a causalidade."
+          }
+        },
+        "sagittarius-a": {
+          "hook": "은하 중심의 깊은 곡률 — 별 S2의 궤도 세차가 2020년 아인슈타인을 다시 증명했습니다.",
+          "hookI18n": {
+            "en": "Deep curvature at the galaxy's heart — star S2's precessing orbit re-proved Einstein in 2020.",
+            "ja": "銀河中心の深い曲率 — 恒星S2の軌道の近点移動が2020年、アインシュタインを再び証明しました。",
+            "zh-TW": "銀河中心的深度彎曲 — 恆星S2的軌道進動在2020年再次證明了愛因斯坦。",
+            "es": "Curvatura profunda en el corazón de la galaxia: la órbita precesante de la estrella S2 volvió a dar la razón a Einstein en 2020.",
+            "de": "Tiefe Krümmung im Herzen der Galaxis — die Periheldrehung des Sterns S2 bestätigte Einstein 2020 erneut.",
+            "pt-BR": "Curvatura profunda no coração da galáxia — a precessão da órbita da estrela S2 provou Einstein de novo em 2020."
+          }
+        },
+        "m87-star": {
+          "hook": "2019년 인류가 처음 본 것은 블랙홀 자체가 아니라, 휘어진 빛이 그려낸 그림자였습니다.",
+          "hookI18n": {
+            "en": "What humanity first saw in 2019 was not the black hole itself, but a shadow drawn by curved light.",
+            "ja": "2019年に人類が初めて見たのは、ブラックホールそのものではなく、曲がった光が描き出した影でした。",
+            "zh-TW": "2019年人類第一次看到的，不是黑洞本身，而是彎曲的光描出的影子。",
+            "es": "Lo que la humanidad vio por primera vez en 2019 no fue el agujero negro en sí, sino una sombra dibujada por luz curvada.",
+            "de": "Was die Menschheit 2019 zuerst sah, war nicht das Schwarze Loch selbst, sondern ein von gekrümmtem Licht gezeichneter Schatten.",
+            "pt-BR": "O que a humanidade viu pela primeira vez em 2019 não foi o buraco negro em si, mas uma sombra desenhada pela luz curvada."
+          }
+        },
+        "gw170817": {
+          "hook": "시공간 그 자체가 출렁여, 빛과 1.7초 차이로 나란히 지구에 도착했습니다 — 곡률의 물결, 중력파.",
+          "hookI18n": {
+            "en": "Spacetime itself rippled, arriving alongside the light just 1.7 seconds apart — waves of curvature.",
+            "ja": "時空そのものがさざめき、光と1.7秒差で並んで地球に届きました — 曲率の波、重力波。",
+            "zh-TW": "時空本身盪起漣漪，與光僅差1.7秒並肩抵達地球 — 彎曲的波，重力波。",
+            "es": "El propio espacio-tiempo onduló y llegó junto a la luz, con solo 1,7 segundos de diferencia: ondas de curvatura.",
+            "de": "Die Raumzeit selbst wogte und traf nur 1,7 Sekunden nach dem Licht ein — Wellen der Krümmung.",
+            "pt-BR": "O próprio espaço-tempo ondulou e chegou junto com a luz, com só 1,7 segundo de diferença — ondas de curvatura."
           }
         }
       }

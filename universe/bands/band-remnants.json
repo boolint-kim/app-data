@@ -1,7 +1,7 @@
 {
   "bandId": "remnants",
-  "version": 6,
-  "updatedAt": "2026-07-17T00:00:00Z",
+  "version": 7,
+  "updatedAt": "2026-08-06T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -319,6 +319,103 @@
         "element-origin",
         "multiwavelength"
       ]
+    },
+    {
+      "id": "four-forces",
+      "type": "diagram",
+      "featured": true,
+      "name": "4대 힘 — 질량 다이얼",
+      "nameI18n": {
+        "en": "The Four Forces — Mass Dial",
+        "ja": "四つの力 — 質量ダイヤル",
+        "es": "Las cuatro fuerzas — dial de masa",
+        "de": "Die vier Kräfte — Massenregler",
+        "zh-TW": "四大基本力 — 質量轉盤",
+        "pt-BR": "As quatro forças — dial de massa"
+      },
+      "summary": "질량 다이얼을 감자 소행성부터 블랙홀까지 돌리며 — 단계마다 누가 중력에 맞서 버티는지 손으로 확인하세요.",
+      "summaryI18n": {
+        "en": "Turn the mass dial from potato asteroid to black hole — and feel what resists gravity at every stage.",
+        "ja": "質量ダイヤルをジャガイモ小惑星からブラックホールまで回して、各段階で何が重力に抗っているかを確かめよう。",
+        "es": "Gira el dial de masa desde un asteroide patata hasta un agujero negro y descubre qué resiste a la gravedad en cada etapa.",
+        "de": "Dreh den Massenregler vom Kartoffel-Asteroiden bis zum Schwarzen Loch — und erlebe, was der Schwerkraft in jeder Stufe standhält.",
+        "zh-TW": "把質量轉盤從馬鈴薯小行星轉到黑洞 — 親手確認每個階段是誰在對抗重力。",
+        "pt-BR": "Gire o dial de massa do asteroide batata ao buraco negro — e veja o que resiste à gravidade em cada estágio."
+      },
+      "scene": "scene-four-forces",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "범위",
+          "value": "10¹⁵ kg ~ 태양질량 150배"
+        },
+        {
+          "label": "대항력",
+          "value": "암석 강성 · 복사압 · 축퇴압"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Range",
+            "value": "10¹⁵ kg to 150 solar masses"
+          },
+          {
+            "label": "What resists",
+            "value": "Rock rigidity · radiation · degeneracy"
+          }
+        ],
+        "ja": [
+          {
+            "label": "範囲",
+            "value": "10¹⁵ kg〜太陽質量150倍"
+          },
+          {
+            "label": "支える力",
+            "value": "岩石の強度・放射圧・縮退圧"
+          }
+        ],
+        "es": [
+          {
+            "label": "Rango",
+            "value": "De 10¹⁵ kg a 150 masas solares"
+          },
+          {
+            "label": "Qué resiste",
+            "value": "Rigidez de la roca · radiación · degeneración"
+          }
+        ],
+        "de": [
+          {
+            "label": "Bereich",
+            "value": "10¹⁵ kg bis 150 Sonnenmassen"
+          },
+          {
+            "label": "Was standhält",
+            "value": "Gesteinsfestigkeit · Strahlung · Entartung"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "範圍",
+            "value": "10¹⁵公斤到150倍太陽質量"
+          },
+          {
+            "label": "抵抗的力",
+            "value": "岩石強度·輻射壓·簡併壓"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Faixa",
+            "value": "De 10¹⁵ kg a 150 massas solares"
+          },
+          {
+            "label": "O que resiste",
+            "value": "Rigidez da rocha · radiação · degenerescência"
+          }
+        ]
+      }
     },
     {
       "id": "crab-pulsar",

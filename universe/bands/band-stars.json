@@ -1,6 +1,6 @@
 {
   "bandId": "stars",
-  "version": 8,
+  "version": 9,
   "updatedAt": "2026-08-06T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -649,6 +649,103 @@
           {
             "label": "O que resiste",
             "value": "Rigidez da rocha · radiação · degenerescência"
+          }
+        ]
+      }
+    },
+    {
+      "id": "electromagnetism",
+      "type": "process",
+      "featured": true,
+      "name": "빛의 정체 — 전자기력",
+      "nameI18n": {
+        "en": "What Light Is — Electromagnetism",
+        "ja": "光の正体 — 電磁気力",
+        "es": "Qué es la luz — electromagnetismo",
+        "de": "Was Licht ist — Elektromagnetismus",
+        "zh-TW": "光的真面目 — 電磁力",
+        "pt-BR": "O que é a luz — eletromagnetismo"
+      },
+      "summary": "전하의 밀당에서 빛·스펙트럼·오로라까지 — 원자를 지키고 우주를 보이게 하는 힘 8단계.",
+      "summaryI18n": {
+        "en": "From charges pushing and pulling to light, the spectrum and aurorae — eight steps through the force that holds atoms and lights the universe.",
+        "ja": "電荷の押し引きから光・スペクトル・オーロラまで — 原子を支え宇宙を見せる力を8段階で。",
+        "es": "De cargas que se empujan y atraen a la luz, el espectro y las auroras: ocho pasos por la fuerza que sostiene los átomos e ilumina el universo.",
+        "de": "Von stoßenden und ziehenden Ladungen zu Licht, Spektrum und Polarlicht — acht Schritte durch die Kraft, die Atome hält und das All erleuchtet.",
+        "zh-TW": "從電荷的推拉到光、光譜與極光 — 守住原子、讓宇宙可見的力，共8步。",
+        "pt-BR": "De cargas que se empurram e atraem à luz, ao espectro e às auroras — oito passos pela força que sustenta os átomos e ilumina o universo."
+      },
+      "scene": "scene-electromagnetism",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "핵심",
+          "value": "빛 = 전자기장의 물결"
+        },
+        {
+          "label": "무대",
+          "value": "원자 · 게성운 · 오로라"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Key idea",
+            "value": "Light is a ripple of the EM field"
+          },
+          {
+            "label": "Stages",
+            "value": "Atoms · Crab Nebula · aurorae"
+          }
+        ],
+        "ja": [
+          {
+            "label": "核心",
+            "value": "光は電磁場のさざ波"
+          },
+          {
+            "label": "舞台",
+            "value": "原子・かに星雲・オーロラ"
+          }
+        ],
+        "es": [
+          {
+            "label": "Idea clave",
+            "value": "La luz es una onda del campo EM"
+          },
+          {
+            "label": "Escenarios",
+            "value": "Átomos · Cangrejo · auroras"
+          }
+        ],
+        "de": [
+          {
+            "label": "Kernidee",
+            "value": "Licht ist eine Welle des EM-Felds"
+          },
+          {
+            "label": "Schauplätze",
+            "value": "Atome · Krebsnebel · Polarlichter"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "核心",
+            "value": "光是電磁場的漣漪"
+          },
+          {
+            "label": "舞台",
+            "value": "原子·蟹狀星雲·極光"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Ideia central",
+            "value": "A luz é uma onda do campo EM"
+          },
+          {
+            "label": "Palcos",
+            "value": "Átomos · Caranguejo · auroras"
           }
         ]
       }

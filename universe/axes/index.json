@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updatedAt": "2026-08-06T00:30:00Z",
+  "version": 11,
+  "updatedAt": "2026-08-06T01:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -1618,6 +1618,109 @@
             "es": "El propio espacio-tiempo onduló y llegó junto a la luz, con solo 1,7 segundos de diferencia: ondas de curvatura.",
             "de": "Die Raumzeit selbst wogte und traf nur 1,7 Sekunden nach dem Licht ein — Wellen der Krümmung.",
             "pt-BR": "O próprio espaço-tempo ondulou e chegou junto com a luz, com só 1,7 segundo de diferença — ondas de curvatura."
+          }
+        }
+      }
+    },
+    {
+      "id": "electromagnetism",
+      "scene": "scene-electromagnetism",
+      "title": "전자기력",
+      "titleI18n": {
+        "en": "Electromagnetism",
+        "ja": "電磁気力",
+        "zh-TW": "電磁力",
+        "es": "Electromagnetismo",
+        "de": "Elektromagnetismus",
+        "pt-BR": "Eletromagnetismo"
+      },
+      "objects": {
+        "sun": {
+          "hook": "햇빛은 8분 전 태양을 떠난 전자기장의 물결입니다 — 빛의 정체를 만나 보세요.",
+          "hookI18n": {
+            "en": "Sunlight is a ripple of the electromagnetic field that left the Sun eight minutes ago — meet what light really is.",
+            "ja": "日光は8分前に太陽を発った電磁場のさざ波です — 光の正体に会いに行きましょう。",
+            "zh-TW": "陽光是8分鐘前離開太陽的電磁場漣漪 — 來認識光的真面目吧。",
+            "es": "La luz del sol es una onda del campo electromagnético que salió del Sol hace ocho minutos: conoce qué es la luz.",
+            "de": "Sonnenlicht ist eine Welle des elektromagnetischen Feldes, die die Sonne vor acht Minuten verließ — lerne, was Licht wirklich ist.",
+            "pt-BR": "A luz do sol é uma onda do campo eletromagnético que deixou o Sol há oito minutos — conheça o que a luz realmente é."
+          }
+        },
+        "earth": {
+          "hook": "오로라는 태양풍·자기장·빛 — 전자기력의 세 얼굴이 한 무대에 서는 쇼입니다.",
+          "hookI18n": {
+            "en": "The aurora is a show where solar wind, magnetism and light — three faces of electromagnetism — share one stage.",
+            "ja": "オーロラは太陽風・磁場・光 — 電磁気力の三つの顔がひとつの舞台に立つショーです。",
+            "zh-TW": "極光是太陽風、磁場與光 — 電磁力三張面孔同台的演出。",
+            "es": "La aurora es un espectáculo donde viento solar, magnetismo y luz —tres caras del electromagnetismo— comparten escenario.",
+            "de": "Die Aurora ist eine Show, in der Sonnenwind, Magnetismus und Licht — drei Gesichter des Elektromagnetismus — auf einer Bühne stehen.",
+            "pt-BR": "A aurora é um show em que vento solar, magnetismo e luz — três faces do eletromagnetismo — dividem o palco."
+          }
+        },
+        "jupiter": {
+          "hook": "태양계 최강의 오로라 — 목성 자기장은 이오의 화산 입자까지 끌어와 극지에 태웁니다.",
+          "hookI18n": {
+            "en": "The solar system's mightiest aurorae — Jupiter's magnetic field even hauls in volcanic particles from Io to burn over its poles.",
+            "ja": "太陽系最強のオーロラ — 木星の磁場はイオの火山粒子まで引き寄せ、極で燃やします。",
+            "zh-TW": "太陽系最強的極光 — 木星磁場連埃歐的火山粒子都拉來，在極區點燃。",
+            "es": "Las auroras más potentes del sistema solar: el campo de Júpiter arrastra hasta partículas volcánicas de Ío para quemarlas sobre sus polos.",
+            "de": "Die mächtigsten Polarlichter des Sonnensystems — Jupiters Magnetfeld schleppt sogar Vulkanpartikel von Io heran und verbrennt sie über den Polen.",
+            "pt-BR": "As auroras mais poderosas do sistema solar — o campo de Júpiter arrasta até partículas vulcânicas de Io para queimá-las sobre os polos."
+          }
+        },
+        "io": {
+          "hook": "이오와 목성 사이엔 수백만 암페어의 전류가 흐릅니다 — 태양계에서 가장 큰 전기 회로.",
+          "hookI18n": {
+            "en": "Millions of amperes flow between Io and Jupiter — the largest electric circuit in the solar system.",
+            "ja": "イオと木星の間には数百万アンペアの電流が流れています — 太陽系最大の電気回路です。",
+            "zh-TW": "埃歐與木星之間流著數百萬安培的電流 — 太陽系最大的電路。",
+            "es": "Entre Ío y Júpiter fluyen millones de amperios: el mayor circuito eléctrico del sistema solar.",
+            "de": "Zwischen Io und Jupiter fließen Millionen Ampere — der größte Stromkreis des Sonnensystems.",
+            "pt-BR": "Milhões de amperes fluem entre Io e Júpiter — o maior circuito elétrico do sistema solar."
+          }
+        },
+        "crab": {
+          "hook": "게성운의 푸른 속살은 자기장에 감긴 전자가 뿜는 싱크로트론 빛입니다.",
+          "hookI18n": {
+            "en": "The Crab Nebula's blue interior is synchrotron light shed by electrons spiraling in magnetic fields.",
+            "ja": "かに星雲の青い内部は、磁場に巻きついた電子が放つシンクロトロン光です。",
+            "zh-TW": "蟹狀星雲的藍色內裡，是纏著磁場螺旋的電子放出的同步輻射光。",
+            "es": "El interior azul del Cangrejo es luz sincrotrón emitida por electrones que giran en espiral en campos magnéticos.",
+            "de": "Das blaue Innere des Krebsnebels ist Synchrotronlicht von Elektronen, die in Magnetfeldern spiralen.",
+            "pt-BR": "O interior azul do Caranguejo é luz síncrotron emitida por elétrons espiralando em campos magnéticos."
+          }
+        },
+        "crab-pulsar": {
+          "hook": "이 별의 자기장이 게성운 전체를 밝히는 전자 가속기를 돌립니다.",
+          "hookI18n": {
+            "en": "This star's magnetic field runs the electron accelerator that lights the entire Crab Nebula.",
+            "ja": "この星の磁場が、かに星雲全体を照らす電子加速器を回しています。",
+            "zh-TW": "這顆星的磁場，驅動著點亮整個蟹狀星雲的電子加速器。",
+            "es": "El campo magnético de esta estrella opera el acelerador de electrones que ilumina toda la nebulosa del Cangrejo.",
+            "de": "Das Magnetfeld dieses Sterns betreibt den Elektronenbeschleuniger, der den ganzen Krebsnebel erleuchtet.",
+            "pt-BR": "O campo magnético desta estrela opera o acelerador de elétrons que ilumina toda a Nebulosa do Caranguejo."
+          }
+        },
+        "m87": {
+          "hook": "5,000광년 제트의 빛 — 자기장에 감긴 전자가 은하 크기의 형광등을 켭니다.",
+          "hookI18n": {
+            "en": "The glow of a 5,000-light-year jet — electrons wound in magnetic fields switch on a galaxy-sized lamp.",
+            "ja": "5,000光年ジェットの光 — 磁場に巻かれた電子が銀河サイズの蛍光灯を灯します。",
+            "zh-TW": "5,000光年噴流的光 — 纏著磁場的電子點亮了星系尺寸的燈管。",
+            "es": "El brillo de un chorro de 5.000 años luz: electrones enrollados en campos magnéticos encienden una lámpara del tamaño de una galaxia.",
+            "de": "Das Leuchten eines 5.000-Lichtjahre-Jets — in Magnetfeldern gewundene Elektronen zünden eine galaxiengroße Lampe.",
+            "pt-BR": "O brilho de um jato de 5.000 anos-luz — elétrons enrolados em campos magnéticos acendem uma lâmpada do tamanho de uma galáxia."
+          }
+        },
+        "quasar-3c273": {
+          "hook": "퀘이사의 등불도 결국 전자기력 — 자기장과 전자가 만드는 우주에서 가장 밝은 빛.",
+          "hookI18n": {
+            "en": "Even a quasar's beacon is electromagnetism — magnetic fields and electrons making the brightest light in the universe.",
+            "ja": "クエーサーの灯りも結局は電磁気力 — 磁場と電子が作る、宇宙で最も明るい光です。",
+            "zh-TW": "類星體的燈塔說到底也是電磁力 — 磁場與電子造出宇宙最亮的光。",
+            "es": "Hasta el faro de un cuásar es electromagnetismo: campos magnéticos y electrones creando la luz más brillante del universo.",
+            "de": "Selbst das Leuchtfeuer eines Quasars ist Elektromagnetismus — Magnetfelder und Elektronen erzeugen das hellste Licht des Universums.",
+            "pt-BR": "Até o farol de um quasar é eletromagnetismo — campos magnéticos e elétrons criando a luz mais brilhante do universo."
           }
         }
       }

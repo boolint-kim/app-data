@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "updatedAt": "2026-08-06T01:00:00Z",
+  "version": 12,
+  "updatedAt": "2026-08-11T01:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -1721,6 +1721,87 @@
             "es": "Hasta el faro de un cuásar es electromagnetismo: campos magnéticos y electrones creando la luz más brillante del universo.",
             "de": "Selbst das Leuchtfeuer eines Quasars ist Elektromagnetismus — Magnetfelder und Elektronen erzeugen das hellste Licht des Universums.",
             "pt-BR": "Até o farol de um quasar é eletromagnetismo — campos magnéticos e elétrons criando a luz mais brilhante do universo."
+          }
+        }
+      }
+    },
+    {
+      "id": "life-conditions",
+      "scene": "scene-life-origin",
+      "title": "생명의 조건",
+      "titleI18n": {
+        "en": "Conditions for Life",
+        "ja": "生命の条件",
+        "zh-TW": "生命的條件",
+        "es": "Condiciones para la vida",
+        "de": "Bedingungen für Leben",
+        "pt-BR": "Condições para a vida"
+      },
+      "objects": {
+        "earth": {
+          "hook": "돌·물·빛에서 스스로 복제하는 세포까지 — 생명이 시작된 그 경계를 따라가 보세요.",
+          "hookI18n": {
+            "en": "From rock, water and light to a self-replicating cell — follow the boundary where life began.",
+            "ja": "岩と水と光から、自ら複製する細胞まで — 生命が始まったその境界をたどってみましょう。",
+            "zh-TW": "從岩石、水與光，到自我複製的細胞 — 沿著生命起始的那道邊界走一趟。",
+            "es": "De la roca, el agua y la luz a una célula que se replica: recorre la frontera donde empezó la vida.",
+            "de": "Von Gestein, Wasser und Licht zur sich selbst kopierenden Zelle — folge der Grenze, an der das Leben begann.",
+            "pt-BR": "Da rocha, da água e da luz a uma célula que se replica — percorra a fronteira onde a vida começou."
+          }
+        },
+        "mars": {
+          "hook": "지구가 판구조론으로 지워 버린 40억 년 전의 기록이, 화성에는 그대로 남아 있습니다.",
+          "hookI18n": {
+            "en": "The record of four billion years ago, which plate tectonics erased on Earth, still lies intact on Mars.",
+            "ja": "地球がプレートテクトニクスで消してしまった40億年前の記録が、火星にはそのまま残っています。",
+            "zh-TW": "地球被板塊運動抹去的40億年前紀錄，在火星上原封不動地留存著。",
+            "es": "El registro de hace cuatro mil millones de años, que la tectónica borró en la Tierra, sigue intacto en Marte.",
+            "de": "Das Archiv von vor vier Milliarden Jahren, das die Plattentektonik auf der Erde tilgte, liegt auf dem Mars unberührt.",
+            "pt-BR": "O registro de quatro bilhões de anos atrás, que a tectônica apagou na Terra, permanece intacto em Marte."
+          }
+        },
+        "europa": {
+          "hook": "얼음 아래 바다가 암석 바닥과 맞닿는 곳 — 지구에서 생명이 시작된 바로 그 경계입니다.",
+          "hookI18n": {
+            "en": "Where the ocean under the ice meets a rocky floor — the very boundary at which life began on Earth.",
+            "ja": "氷の下の海が岩の底と接する場所 — 地球で生命が始まったまさにその境界です。",
+            "zh-TW": "冰層下的海洋與岩石海床相接之處 — 正是地球上生命起始的那道邊界。",
+            "es": "Donde el océano bajo el hielo toca un fondo rocoso: justo la frontera en que la vida empezó en la Tierra.",
+            "de": "Wo der Ozean unter dem Eis auf felsigen Grund trifft — genau jene Grenze, an der auf der Erde das Leben begann.",
+            "pt-BR": "Onde o oceano sob o gelo encontra um fundo rochoso — exatamente a fronteira em que a vida começou na Terra."
+          }
+        },
+        "enceladus": {
+          "hook": "플룸에서 수소·인산염·시안화수소가 검출됐습니다 — 생명의 재료가 지금도 흐르고 있습니다.",
+          "hookI18n": {
+            "en": "Hydrogen, phosphate and hydrogen cyanide have been detected in its plumes — life's ingredients are flowing right now.",
+            "ja": "プルームから水素・リン酸塩・シアン化水素が検出されました — 生命の材料が今も流れています。",
+            "zh-TW": "噴流中偵測到氫、磷酸鹽與氰化氫 — 生命的材料至今仍在流動。",
+            "es": "En sus plumas se han detectado hidrógeno, fosfato y cianuro de hidrógeno: los ingredientes de la vida fluyen ahora mismo.",
+            "de": "In den Fontänen wurden Wasserstoff, Phosphat und Blausäure nachgewiesen — die Zutaten des Lebens fließen jetzt.",
+            "pt-BR": "Nas plumas foram detectados hidrogênio, fosfato e cianeto de hidrogênio — os ingredientes da vida fluem agora."
+          }
+        },
+        "titan": {
+          "hook": "물이 아닌 액체 위에서도 생명이 가능한지 묻는, 태양계에서 유일한 실험실입니다.",
+          "hookI18n": {
+            "en": "The only laboratory in the solar system asking whether life is possible on a liquid that is not water.",
+            "ja": "水ではない液体の上でも生命が可能かを問う、太陽系で唯一の実験室です。",
+            "zh-TW": "太陽系中唯一的實驗室，探問生命能否存在於水以外的液體之上。",
+            "es": "El único laboratorio del sistema solar que pregunta si la vida es posible sobre un líquido que no es agua.",
+            "de": "Das einzige Labor des Sonnensystems, das fragt, ob Leben auf einer Flüssigkeit möglich ist, die kein Wasser ist.",
+            "pt-BR": "O único laboratório do sistema solar que pergunta se a vida é possível sobre um líquido que não é água."
+          }
+        },
+        "moon": {
+          "hook": "달 표면은 흙처럼 보이지만 흙이 아닙니다 — 유기물이 없으면, 그러니까 생명이 없으면 흙도 없습니다.",
+          "hookI18n": {
+            "en": "The lunar surface looks like soil but is not — without organic matter, which means without life, there is no soil.",
+            "ja": "月の表面は土に見えますが土ではありません — 有機物がなければ、つまり生命がなければ土もできません。",
+            "zh-TW": "月球表面看似土壤，其實不是 — 沒有有機物，也就是沒有生命，就沒有土壤。",
+            "es": "La superficie lunar parece suelo pero no lo es: sin materia orgánica, es decir sin vida, no hay suelo.",
+            "de": "Die Mondoberfläche sieht aus wie Boden, ist aber keiner — ohne organische Substanz, also ohne Leben, gibt es keinen Boden.",
+            "pt-BR": "A superfície lunar parece solo, mas não é — sem matéria orgânica, ou seja, sem vida, não há solo."
           }
         }
       }

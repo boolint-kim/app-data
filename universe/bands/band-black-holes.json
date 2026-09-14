@@ -1,0 +1,1454 @@
+{
+  "bandId": "black-holes",
+  "version": 1,
+  "updatedAt": "2026-09-14T00:00:00Z",
+  "curator": "boolint",
+  "items": [
+    {
+      "id": "spacetime",
+      "type": "process",
+      "featured": true,
+      "name": "사건의 지평선 — 시공간",
+      "nameI18n": {
+        "en": "Event Horizon — Spacetime",
+        "ja": "事象の地平線 — 時空",
+        "es": "Horizonte de sucesos — espacio-tiempo",
+        "de": "Ereignishorizont — Raumzeit",
+        "zh-TW": "事件視界 — 時空",
+        "pt-BR": "Horizonte de eventos — espaço-tempo"
+      },
+      "summary": "평평한 격자에서 출발해 7단계 사건의 지평선·블랙홀 그림자·중력파까지. 블랙홀은 7단계부터입니다.",
+      "summaryI18n": {
+        "en": "From a flat grid to the event horizon, the black-hole shadow and gravitational waves. Black holes start at step 7.",
+        "ja": "平らな格子から出発して、事象の地平線・ブラックホールの影・重力波へ。ブラックホールは7段階目からです。",
+        "es": "Desde una retícula plana hasta el horizonte de sucesos, la sombra del agujero negro y las ondas gravitacionales. Los agujeros negros empiezan en el paso 7.",
+        "de": "Vom flachen Gitter bis zum Ereignishorizont, zum Schatten des Schwarzen Lochs und zu Gravitationswellen. Schwarze Löcher beginnen bei Schritt 7.",
+        "zh-TW": "從平坦的格線出發，一路到事件視界、黑洞陰影與重力波。黑洞從第7步開始。",
+        "pt-BR": "Da grade plana ao horizonte de eventos, à sombra do buraco negro e às ondas gravitacionais. Os buracos negros começam no passo 7."
+      },
+      "scene": "scene-spacetime",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "블랙홀 구간",
+          "value": "7단계 지평선 · 8단계 중력파"
+        },
+        {
+          "label": "검증",
+          "value": "EHT 2019·2022 · LIGO 2015"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Black-hole steps",
+            "value": "Step 7 horizon · step 8 gravitational waves"
+          },
+          {
+            "label": "Proofs",
+            "value": "EHT 2019·2022 · LIGO 2015"
+          }
+        ],
+        "ja": [
+          {
+            "label": "ブラックホール",
+            "value": "7段階 地平線・8段階 重力波"
+          },
+          {
+            "label": "検証",
+            "value": "EHT 2019・2022・LIGO 2015"
+          }
+        ],
+        "es": [
+          {
+            "label": "Pasos del agujero negro",
+            "value": "Paso 7 horizonte · paso 8 ondas gravitacionales"
+          },
+          {
+            "label": "Pruebas",
+            "value": "EHT 2019·2022 · LIGO 2015"
+          }
+        ],
+        "de": [
+          {
+            "label": "Schwarzloch-Schritte",
+            "value": "Schritt 7 Horizont · Schritt 8 Gravitationswellen"
+          },
+          {
+            "label": "Belege",
+            "value": "EHT 2019·2022 · LIGO 2015"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "黑洞步驟",
+            "value": "第7步 視界·第8步 重力波"
+          },
+          {
+            "label": "驗證",
+            "value": "EHT 2019·2022·LIGO 2015"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Passos do buraco negro",
+            "value": "Passo 7 horizonte · passo 8 ondas gravitacionais"
+          },
+          {
+            "label": "Provas",
+            "value": "EHT 2019·2022 · LIGO 2015"
+          }
+        ]
+      }
+    },
+    {
+      "id": "agn",
+      "type": "process",
+      "featured": true,
+      "name": "은하를 밝히는 엔진 — 활동은하핵",
+      "nameI18n": {
+        "en": "The Engine That Lights Galaxies — Active Nuclei",
+        "ja": "銀河を輝かせるエンジン — 活動銀河核",
+        "es": "El motor que ilumina galaxias — núcleos activos",
+        "de": "Der Motor, der Galaxien erleuchtet — aktive Kerne",
+        "zh-TW": "點亮星系的引擎 — 活躍星系核",
+        "pt-BR": "O motor que ilumina galáxias — núcleos ativos"
+      },
+      "summary": "초대질량 블랙홀 + 강착원반 + 제트. 보는 각도를 돌리면 퀘이사가 되고 블레이자가 됩니다.",
+      "summaryI18n": {
+        "en": "A supermassive black hole + accretion disk + jets. Turn the viewing angle and it becomes a quasar, then a blazar.",
+        "ja": "超大質量ブラックホール＋降着円盤＋ジェット。見る角度を回すと、クエーサーになり、ブレーザーになります。",
+        "es": "Agujero negro supermasivo + disco de acreción + chorros. Gira el ángulo de visión y se convierte en cuásar, luego en blazar.",
+        "de": "Supermassereiches Schwarzes Loch + Akkretionsscheibe + Jets. Dreh den Blickwinkel, und es wird zum Quasar, dann zum Blazar.",
+        "zh-TW": "超大質量黑洞＋吸積盤＋噴流。轉動觀看角度，它就變成類星體，再變成耀變體。",
+        "pt-BR": "Buraco negro supermassivo + disco de acreção + jatos. Gire o ângulo de visão e ele vira quasar, depois blazar."
+      },
+      "scene": "scene-agn",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "핵",
+          "value": "초대질량 블랙홀 + 강착원반 + 제트"
+        },
+        {
+          "label": "분류",
+          "value": "시선각 (정면→블레이자, 옆면→가려짐)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Core",
+            "value": "Supermassive black hole + disk + jets"
+          },
+          {
+            "label": "Class",
+            "value": "Viewing angle (pole-on → blazar, edge-on → obscured)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "核",
+            "value": "超大質量ブラックホール＋降着円盤＋ジェット"
+          },
+          {
+            "label": "分類",
+            "value": "視線角（正面→ブレーザー、真横→遮蔽）"
+          }
+        ],
+        "es": [
+          {
+            "label": "Núcleo",
+            "value": "Agujero negro supermasivo + disco + chorros"
+          },
+          {
+            "label": "Clase",
+            "value": "Ángulo de visión (de frente → blazar, de canto → oscurecido)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Kern",
+            "value": "Supermassereiches Schwarzes Loch + Scheibe + Jets"
+          },
+          {
+            "label": "Klasse",
+            "value": "Blickwinkel (frontal → Blazar, seitlich → verdeckt)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "核心",
+            "value": "超大質量黑洞＋吸積盤＋噴流"
+          },
+          {
+            "label": "分類",
+            "value": "視線角度（正面→耀變體，側面→受遮蔽）"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Núcleo",
+            "value": "Buraco negro supermassivo + disco + jatos"
+          },
+          {
+            "label": "Classe",
+            "value": "Ângulo de visão (de frente → blazar, de perfil → obscurecido)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "four-forces",
+      "type": "diagram",
+      "featured": true,
+      "name": "질량 다이얼 — 끝까지 돌리면",
+      "nameI18n": {
+        "en": "Mass Dial — Turn It All the Way",
+        "ja": "質量ダイヤル — 最後まで回すと",
+        "es": "Dial de masa — gíralo hasta el final",
+        "de": "Massenregler — ganz aufgedreht",
+        "zh-TW": "質量轉盤 — 轉到盡頭",
+        "pt-BR": "Dial de massa — gire até o fim"
+      },
+      "summary": "감자 소행성부터 돌려 보세요. 모든 힘이 패배하는 마지막 칸이 블랙홀입니다.",
+      "summaryI18n": {
+        "en": "Start from a potato-shaped asteroid and keep turning. The last notch, where every force loses, is a black hole.",
+        "ja": "ジャガイモ形の小惑星から回してみよう。すべての力が負ける最後の目盛りがブラックホールです。",
+        "es": "Empieza por un asteroide con forma de patata y sigue girando. La última muesca, donde todas las fuerzas pierden, es un agujero negro.",
+        "de": "Beginne beim kartoffelförmigen Asteroiden und dreh weiter. Die letzte Stufe, auf der jede Kraft verliert, ist ein Schwarzes Loch.",
+        "zh-TW": "從馬鈴薯形的小行星開始轉。所有力都敗下陣來的最後一格，就是黑洞。",
+        "pt-BR": "Comece pelo asteroide em forma de batata e continue girando. O último ponto, onde todas as forças perdem, é um buraco negro."
+      },
+      "scene": "scene-four-forces",
+      "hostCard": false,
+      "facts": [
+        {
+          "label": "범위",
+          "value": "10¹⁵ kg ~ 태양질량 150배"
+        },
+        {
+          "label": "마지막 칸",
+          "value": "태양 25배 넘게 태어난 별의 최후"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Range",
+            "value": "10¹⁵ kg to 150 solar masses"
+          },
+          {
+            "label": "Last notch",
+            "value": "Fate of stars born over 25 solar masses"
+          }
+        ],
+        "ja": [
+          {
+            "label": "範囲",
+            "value": "10¹⁵ kg〜太陽質量150倍"
+          },
+          {
+            "label": "最後の目盛り",
+            "value": "太陽の25倍を超えて生まれた星の最期"
+          }
+        ],
+        "es": [
+          {
+            "label": "Rango",
+            "value": "De 10¹⁵ kg a 150 masas solares"
+          },
+          {
+            "label": "Última muesca",
+            "value": "Destino de estrellas nacidas con más de 25 masas solares"
+          }
+        ],
+        "de": [
+          {
+            "label": "Bereich",
+            "value": "10¹⁵ kg bis 150 Sonnenmassen"
+          },
+          {
+            "label": "Letzte Stufe",
+            "value": "Ende von Sternen mit über 25 Sonnenmassen"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "範圍",
+            "value": "10¹⁵公斤到150倍太陽質量"
+          },
+          {
+            "label": "最後一格",
+            "value": "誕生時超過25倍太陽質量的恆星歸宿"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Faixa",
+            "value": "De 10¹⁵ kg a 150 massas solares"
+          },
+          {
+            "label": "Último ponto",
+            "value": "Destino de estrelas nascidas com mais de 25 massas solares"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v404-cygni",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "V404 백조자리",
+      "nameI18n": {
+        "en": "V404 Cygni",
+        "ja": "はくちょう座V404星",
+        "es": "V404 Cygni",
+        "de": "V404 Cygni",
+        "zh-TW": "天鵝座V404",
+        "pt-BR": "V404 Cygni"
+      },
+      "summary": "동반성의 가스를 빨아들이다 1989년과 2015년에 크게 분출한 블랙홀. 2015년 분출의 X선이 성간 먼지에 반사돼 거대한 광메아리 고리를 남겼다.",
+      "summaryI18n": {
+        "en": "A black hole that feeds on gas from a companion star and erupted violently in 1989 and 2015 — X-rays from the 2015 outburst bounced off interstellar dust, leaving giant light-echo rings.",
+        "ja": "伴星のガスを吸い込み、1989年と2015年に大爆発を起こしたブラックホール。2015年の爆発のX線が星間塵に反射し、巨大な光エコーのリングを残した。",
+        "es": "Un agujero negro que se alimenta del gas de una estrella compañera y estalló con violencia en 1989 y 2015: los rayos X del estallido de 2015 rebotaron en el polvo interestelar y dejaron gigantescos anillos de eco de luz.",
+        "de": "Ein Schwarzes Loch, das Gas von einem Begleitstern ansaugt und 1989 und 2015 heftig ausbrach – Röntgenstrahlen des Ausbruchs von 2015 wurden an interstellarem Staub reflektiert und hinterließen riesige Lichtecho-Ringe.",
+        "zh-TW": "吸取伴星氣體、曾在1989年與2015年劇烈爆發的黑洞。2015年爆發的X射線被星際塵埃反射，留下巨大的光回波環。",
+        "pt-BR": "Um buraco negro que suga gás de uma estrela companheira e explodiu violentamente em 1989 e 2015 — os raios X da explosão de 2015 refletiram na poeira interestelar e deixaram gigantescos anéis de eco de luz."
+      },
+      "scene": "scene-spacetime",
+      "sceneFocus": "cygnus-x1",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "항성질량 블랙홀 (X선 쌍성)"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 9배"
+        },
+        {
+          "label": "의의",
+          "value": "시차로 거리를 잰 첫 블랙홀 (약 7,800광년)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Stellar-mass black hole (X-ray binary)"
+          },
+          {
+            "label": "Mass",
+            "value": "~9 solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "First black hole with a parallax distance (~7,800 ly)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "恒星質量ブラックホール(X線連星)"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約9倍"
+          },
+          {
+            "label": "意義",
+            "value": "年周視差で距離を測った初のブラックホール(約7,800光年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro de masa estelar (binaria de rayos X)"
+          },
+          {
+            "label": "Masa",
+            "value": "~9 masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primer agujero negro con distancia por paralaje (~7.800 años luz)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Schwarzes Loch stellarer Masse (Röntgendoppelstern)"
+          },
+          {
+            "label": "Masse",
+            "value": "~9 Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Erstes Schwarzes Loch mit Parallaxen-Entfernung (~7.800 Lichtjahre)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "恆星質量黑洞(X射線雙星)"
+          },
+          {
+            "label": "質量",
+            "value": "約9個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "首個以視差測距的黑洞(約7,800光年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro de massa estelar (binária de raios X)"
+          },
+          {
+            "label": "Massa",
+            "value": "~9 massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeiro buraco negro com distância por paralaxe (~7.800 anos-luz)"
+          }
+        ]
+      },
+      "related": [
+        "cygnus-x1",
+        "gaia-bh3"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "V404 Cygni",
+        "es": "V404 Cygni",
+        "de": "V404 Cygni",
+        "pt": "V404 Cygni",
+        "zh": "天鵝座V404"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/v404-cygni.jpg",
+      "imageCredit": "Andrew Beardmore (Univ. of Leicester) and NASA/Swift",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:V404Cyg_XRT_halo_fullsize.jpg"
+    },
+    {
+      "id": "cygnus-x1",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "백조자리 X-1",
+      "nameI18n": {
+        "en": "Cygnus X-1",
+        "ja": "はくちょう座X-1",
+        "es": "Cygnus X-1",
+        "de": "Cygnus X-1",
+        "zh-TW": "天鵝座X-1",
+        "pt-BR": "Cygnus X-1"
+      },
+      "summary": "최초로 널리 인정된 항성질량 블랙홀. 동반성의 물질이 빨려들며 강한 X선을 낸다.",
+      "summaryI18n": {
+        "en": "The first widely accepted stellar-mass black hole — it emits strong X-rays as it devours matter from a companion star.",
+        "ja": "初めて広く認められた恒星質量ブラックホール。伴星の物質を飲み込みながら強いX線を放つ。",
+        "es": "El primer agujero negro de masa estelar ampliamente aceptado: emite intensos rayos X mientras devora materia de una estrella compañera.",
+        "de": "Das erste allgemein anerkannte Schwarze Loch stellarer Masse – es sendet starke Röntgenstrahlung aus, während es Materie von einem Begleitstern verschlingt.",
+        "zh-TW": "首個被廣泛認可的恆星質量黑洞,一邊吞噬伴星的物質,一邊發出強烈的X射線。",
+        "pt-BR": "O primeiro buraco negro de massa estelar amplamente aceito: emite intensos raios X enquanto devora matéria de uma estrela companheira."
+      },
+      "scene": "scene-spacetime",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "항성질량 블랙홀"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 21배"
+        },
+        {
+          "label": "의의",
+          "value": "최초 확인 블랙홀 후보 (1971)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Stellar-mass black hole"
+          },
+          {
+            "label": "Mass",
+            "value": "~21 solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "First confirmed BH candidate (1971)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "恒星質量ブラックホール"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約21倍"
+          },
+          {
+            "label": "意義",
+            "value": "初の確認されたブラックホール候補(1971年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro de masa estelar"
+          },
+          {
+            "label": "Masa",
+            "value": "~21 masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primer candidato a agujero negro confirmado (1971)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Schwarzes Loch stellarer Masse"
+          },
+          {
+            "label": "Masse",
+            "value": "~21 Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Erster bestätigter Kandidat für ein Schwarzes Loch (1971)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "恆星質量黑洞"
+          },
+          {
+            "label": "質量",
+            "value": "約21個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "首個確認的黑洞候選體(1971年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro de massa estelar"
+          },
+          {
+            "label": "Massa",
+            "value": "~21 massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeiro candidato a buraco negro confirmado (1971)"
+          }
+        ]
+      },
+      "related": [
+        "v404-cygni",
+        "gaia-bh3",
+        "gw150914"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Cygnus X-1",
+        "ko": "백조자리 X-1",
+        "ja": "はくちょう座X-1",
+        "es": "Cygnus X-1",
+        "de": "Cygnus X-1",
+        "pt": "Cygnus X-1",
+        "zh": "天鵝座X-1"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/cygnus-x1.jpg?v=2",
+      "imageCredit": "Illustration: NASA/CXC/M. Weiss",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://chandra.harvard.edu/photo/2011/cygx1/"
+    },
+    {
+      "id": "gaia-bh3",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "가이아 BH3",
+      "nameI18n": {
+        "en": "Gaia BH3",
+        "ja": "ガイアBH3",
+        "es": "Gaia BH3",
+        "de": "Gaia BH3",
+        "zh-TW": "蓋亞BH3",
+        "pt-BR": "Gaia BH3"
+      },
+      "summary": "우리 은하에서 가장 무거운 항성 기원 블랙홀. 물질을 삼키지 않아 빛이 없고, 11.6년 주기로 곁을 도는 늙은 별의 흔들림만으로 가이아 위성이 찾아냈다(2024).",
+      "summaryI18n": {
+        "en": "The most massive stellar black hole known in the Milky Way. It swallows no matter and gives off no light — Gaia found it in 2024 purely from the wobble of an old star that orbits it every 11.6 years.",
+        "ja": "天の川銀河で最も重い恒星起源のブラックホール。物質を飲み込まないので光を出さず、11.6年周期で周りを回る年老いた星のふらつきだけからガイアが見つけた(2024年)。",
+        "es": "El agujero negro estelar más masivo conocido en la Vía Láctea. No devora materia ni emite luz: Gaia lo halló en 2024 solo por el bamboleo de una estrella vieja que lo orbita cada 11,6 años.",
+        "de": "Das massereichste bekannte stellare Schwarze Loch der Milchstraße. Es verschlingt keine Materie und leuchtet nicht – Gaia fand es 2024 allein am Taumeln eines alten Sterns, der es alle 11,6 Jahre umkreist.",
+        "zh-TW": "銀河系中已知最重的恆星級黑洞。它不吞噬物質、也不發光，蓋亞衛星僅憑一顆每11.6年繞它一圈的老恆星的晃動，在2024年找到了它。",
+        "pt-BR": "O buraco negro estelar mais massivo conhecido na Via Láctea. Não engole matéria nem emite luz — o Gaia o encontrou em 2024 apenas pelo bamboleio de uma estrela velha que o orbita a cada 11,6 anos."
+      },
+      "scene": "scene-spacetime",
+      "sceneFocus": "cygnus-x1",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "항성질량 블랙홀 (휴면)"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 33배"
+        },
+        {
+          "label": "의의",
+          "value": "우리 은하 최대 항성 기원 블랙홀 (약 1,926광년)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Stellar-mass black hole (dormant)"
+          },
+          {
+            "label": "Mass",
+            "value": "~33 solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "Heaviest stellar black hole in our galaxy (~1,926 ly)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "恒星質量ブラックホール(休眠)"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約33倍"
+          },
+          {
+            "label": "意義",
+            "value": "天の川銀河で最も重い恒星起源のブラックホール(約1,926光年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro de masa estelar (inactivo)"
+          },
+          {
+            "label": "Masa",
+            "value": "~33 masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "El agujero negro estelar más masivo de la galaxia (~1.926 años luz)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Schwarzes Loch stellarer Masse (ruhend)"
+          },
+          {
+            "label": "Masse",
+            "value": "~33 Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Schwerstes stellares Schwarzes Loch der Milchstraße (~1.926 Lichtjahre)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "恆星質量黑洞(休眠)"
+          },
+          {
+            "label": "質量",
+            "value": "約33個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "銀河系最重的恆星級黑洞(約1,926光年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro de massa estelar (inativo)"
+          },
+          {
+            "label": "Massa",
+            "value": "~33 massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "O buraco negro estelar mais massivo da galáxia (~1.926 anos-luz)"
+          }
+        ]
+      },
+      "related": [
+        "cygnus-x1",
+        "gw150914"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Gaia BH3",
+        "de": "Gaia BH3",
+        "zh": "蓋亞BH3"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/gaia-bh3.jpg",
+      "imageCredit": "ESO/M. Kornmesser",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://www.eso.org/public/images/eso2408b/"
+    },
+    {
+      "id": "gw150914",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "GW150914",
+      "nameI18n": {
+        "en": "GW150914",
+        "ja": "GW150914",
+        "es": "GW150914",
+        "de": "GW150914",
+        "zh-TW": "GW150914",
+        "pt-BR": "GW150914"
+      },
+      "summary": "인류가 처음 직접 검출한 중력파. 약 13억 광년 밖에서 두 블랙홀이 합쳐지며 태양 3개 분량의 질량이 중력파로 사라졌다. 이 검출로 2017년 노벨 물리학상이 나왔다.",
+      "summaryI18n": {
+        "en": "The first gravitational waves ever detected directly. About 1.3 billion light-years away, two black holes merged and three Suns’ worth of mass vanished into gravitational waves — the detection won the 2017 Nobel Prize in Physics.",
+        "ja": "人類が初めて直接検出した重力波。約13億光年先で2つのブラックホールが合体し、太陽3個分の質量が重力波となって消えた。この検出で2017年のノーベル物理学賞が贈られた。",
+        "es": "Las primeras ondas gravitacionales detectadas directamente. A unos 1.300 millones de años luz, dos agujeros negros se fusionaron y el equivalente a tres soles de masa se esfumó en ondas gravitacionales; la detección obtuvo el Nobel de Física de 2017.",
+        "de": "Die ersten direkt nachgewiesenen Gravitationswellen. In rund 1,3 Milliarden Lichtjahren Entfernung verschmolzen zwei Schwarze Löcher, und drei Sonnenmassen verschwanden als Gravitationswellen – der Nachweis brachte den Physik-Nobelpreis 2017.",
+        "zh-TW": "人類首次直接探測到的重力波。約13億光年外，兩個黑洞合併，相當於3個太陽的質量化為重力波消失。這項探測獲得2017年諾貝爾物理學獎。",
+        "pt-BR": "As primeiras ondas gravitacionais detectadas diretamente. A cerca de 1,3 bilhão de anos-luz, dois buracos negros se fundiram e o equivalente a três sóis em massa sumiu em ondas gravitacionais — a detecção rendeu o Nobel de Física de 2017."
+      },
+      "scene": "scene-spacetime",
+      "sceneFocus": "gw170817",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "항성질량 블랙홀 병합 (중력파)"
+        },
+        {
+          "label": "질량",
+          "value": "36 + 29 → 62 태양질량"
+        },
+        {
+          "label": "의의",
+          "value": "최초의 중력파 직접 검출 (2015)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Stellar-mass black hole merger (gravitational waves)"
+          },
+          {
+            "label": "Mass",
+            "value": "36 + 29 → 62 solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "First direct detection of gravitational waves (2015)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "恒星質量ブラックホールの合体(重力波)"
+          },
+          {
+            "label": "質量",
+            "value": "36 + 29 → 62太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "重力波の初の直接検出(2015年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Fusión de agujeros negros de masa estelar (ondas gravitacionales)"
+          },
+          {
+            "label": "Masa",
+            "value": "36 + 29 → 62 masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primera detección directa de ondas gravitacionales (2015)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Verschmelzung stellarer Schwarzer Löcher (Gravitationswellen)"
+          },
+          {
+            "label": "Masse",
+            "value": "36 + 29 → 62 Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Erster direkter Nachweis von Gravitationswellen (2015)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "恆星質量黑洞合併(重力波)"
+          },
+          {
+            "label": "質量",
+            "value": "36 + 29 → 62個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "首次直接探測到重力波(2015年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Fusão de buracos negros de massa estelar (ondas gravitacionais)"
+          },
+          {
+            "label": "Massa",
+            "value": "36 + 29 → 62 massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeira detecção direta de ondas gravitacionais (2015)"
+          }
+        ]
+      },
+      "related": [
+        "gaia-bh3",
+        "gw231123",
+        "m87-star"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "First observation of gravitational waves",
+        "ko": "중력파 관측",
+        "ja": "重力波の初検出",
+        "es": "Detección de ondas gravitatorias",
+        "de": "GW150914",
+        "pt": "Primeira observação de ondas gravitacionais",
+        "zh": "GW150914"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/gw150914.jpg",
+      "imageCredit": "NASA/Bernard J. Kelly (Goddard and Univ. of Maryland Baltimore County), Chris Henze (Ames) and Tim Sandstrom (CSC Government Solutions LLC)",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://svs.gsfc.nasa.gov/13197/"
+    },
+    {
+      "id": "gw231123",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "GW231123",
+      "nameI18n": {
+        "en": "GW231123",
+        "ja": "GW231123",
+        "es": "GW231123",
+        "de": "GW231123",
+        "zh-TW": "GW231123",
+        "pt-BR": "GW231123"
+      },
+      "summary": "중력파로 본 가장 무거운 블랙홀 병합(2023 검출·2025 발표). 태양의 약 100배·140배인 블랙홀이 합쳐져 약 225배가 됐다. 둘 다 빠르게 돌고, 보통의 별 진화로는 만들기 어려운 질량대라 블랙홀끼리 여러 번 합쳐 자랐다는 가설이 나온다.",
+      "summaryI18n": {
+        "en": "The heaviest black-hole merger seen in gravitational waves (detected 2023, announced 2025). Black holes of about 100 and 140 solar masses merged into one of about 225. Both spun fast, and their masses are hard to make through ordinary stellar evolution — hinting they grew from earlier mergers.",
+        "ja": "重力波で見た最も重いブラックホール合体(2023年検出・2025年発表)。太陽の約100倍と140倍のブラックホールが合体し、約225倍になった。どちらも高速で自転し、通常の恒星進化ではつくりにくい質量のため、合体を重ねて成長したという仮説がある。",
+        "es": "La fusión de agujeros negros más masiva vista en ondas gravitacionales (detectada en 2023, anunciada en 2025). Dos agujeros negros de unas 100 y 140 masas solares se unieron en uno de unas 225. Ambos giraban rápido y sus masas son difíciles de formar con la evolución estelar ordinaria, lo que sugiere que crecieron a partir de fusiones anteriores.",
+        "de": "Die schwerste in Gravitationswellen beobachtete Verschmelzung Schwarzer Löcher (entdeckt 2023, veröffentlicht 2025). Schwarze Löcher mit etwa 100 und 140 Sonnenmassen verschmolzen zu einem mit etwa 225. Beide rotierten schnell, und ihre Massen lassen sich durch gewöhnliche Sternentwicklung kaum erklären – ein Hinweis, dass sie aus früheren Verschmelzungen hervorgingen.",
+        "zh-TW": "以重力波觀測到最重的黑洞合併(2023年偵測、2025年發表)。約100倍與140倍太陽質量的黑洞合併成約225倍。兩者都高速自轉，且質量難以由一般恆星演化形成，暗示它們是由更早的合併逐步長大。",
+        "pt-BR": "A fusão de buracos negros mais massiva vista em ondas gravitacionais (detectada em 2023, anunciada em 2025). Buracos negros de cerca de 100 e 140 massas solares se fundiram em um de cerca de 225. Ambos giravam rápido, e suas massas são difíceis de formar pela evolução estelar comum — sugerindo que cresceram a partir de fusões anteriores."
+      },
+      "scene": "scene-spacetime",
+      "sceneFocus": "gw170817",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "블랙홀 병합 (중간질량 문턱)"
+        },
+        {
+          "label": "질량",
+          "value": "약 100 + 140 → 약 225 태양질량"
+        },
+        {
+          "label": "의의",
+          "value": "중력파로 본 가장 무거운 병합 (2025 발표)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Black hole merger (intermediate-mass threshold)"
+          },
+          {
+            "label": "Mass",
+            "value": "~100 + ~140 → ~225 solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "Heaviest merger seen in gravitational waves (announced 2025)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "ブラックホールの合体(中間質量の入口)"
+          },
+          {
+            "label": "質量",
+            "value": "約100 + 140 → 約225太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "重力波で見た最も重い合体(2025年発表)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Fusión de agujeros negros (umbral de masa intermedia)"
+          },
+          {
+            "label": "Masa",
+            "value": "~100 + ~140 → ~225 masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "La fusión más masiva vista en ondas gravitacionales (anunciada en 2025)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Verschmelzung Schwarzer Löcher (Schwelle mittlerer Masse)"
+          },
+          {
+            "label": "Masse",
+            "value": "~100 + ~140 → ~225 Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Schwerste in Gravitationswellen beobachtete Verschmelzung (2025 veröffentlicht)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "黑洞合併(中等質量門檻)"
+          },
+          {
+            "label": "質量",
+            "value": "約100 + 140 → 約225個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "重力波觀測到最重的合併(2025年發表)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Fusão de buracos negros (limiar de massa intermediária)"
+          },
+          {
+            "label": "Massa",
+            "value": "~100 + ~140 → ~225 massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "A fusão mais massiva vista em ondas gravitacionais (anunciada em 2025)"
+          }
+        ]
+      },
+      "related": [
+        "gw150914",
+        "sagittarius-a"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "GW231123"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/gw231123.jpg",
+      "imageCredit": "LIGO Scientific Collaboration, Virgo Collaboration and KAGRA Collaboration (arXiv:2507.08219, Fig. 1)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://arxiv.org/abs/2507.08219"
+    },
+    {
+      "id": "sagittarius-a",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "궁수자리 A*",
+      "nameI18n": {
+        "en": "Sagittarius A*",
+        "ja": "いて座A*",
+        "es": "Sagitario A*",
+        "de": "Sagittarius A*",
+        "zh-TW": "人馬座A*",
+        "pt-BR": "Sagittarius A*"
+      },
+      "summary": "우리 은하 중심의 초대질량 블랙홀. 2022년 사건지평선망원경이 그 그림자를 촬영했다.",
+      "summaryI18n": {
+        "en": "The supermassive black hole at the center of the Milky Way — the Event Horizon Telescope imaged its shadow in 2022.",
+        "ja": "天の川銀河の中心にある超大質量ブラックホール。2022年、イベント・ホライズン・テレスコープがその影を撮影した。",
+        "es": "El agujero negro supermasivo en el centro de la Vía Láctea: el Telescopio del Horizonte de Sucesos fotografió su sombra en 2022.",
+        "de": "Das supermassereiche Schwarze Loch im Zentrum der Milchstraße – das Event Horizon Telescope bildete 2022 seinen Schatten ab.",
+        "zh-TW": "位於銀河系中心的超大質量黑洞,2022年事件視界望遠鏡拍攝到它的陰影。",
+        "pt-BR": "O buraco negro supermassivo no centro da Via Láctea: o Telescópio Event Horizon fotografou sua sombra em 2022."
+      },
+      "scene": "scene-spacetime",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "초대질량 블랙홀"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 430만 배"
+        },
+        {
+          "label": "위치",
+          "value": "우리 은하 중심 (약 26,000광년)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Supermassive black hole"
+          },
+          {
+            "label": "Mass",
+            "value": "~4.3 million solar masses"
+          },
+          {
+            "label": "Location",
+            "value": "Milky Way center (~26,000 ly)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "超大質量ブラックホール"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約430万倍"
+          },
+          {
+            "label": "位置",
+            "value": "天の川銀河の中心(約26,000光年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro supermasivo"
+          },
+          {
+            "label": "Masa",
+            "value": "~4,3 millones de masas solares"
+          },
+          {
+            "label": "Ubicación",
+            "value": "Centro de la Vía Láctea (~26.000 años luz)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Supermassereiches Schwarzes Loch"
+          },
+          {
+            "label": "Masse",
+            "value": "~4,3 Millionen Sonnenmassen"
+          },
+          {
+            "label": "Standort",
+            "value": "Zentrum der Milchstraße (~26.000 Lichtjahre)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "超大質量黑洞"
+          },
+          {
+            "label": "質量",
+            "value": "約430萬個太陽質量"
+          },
+          {
+            "label": "位置",
+            "value": "銀河系中心(約26,000光年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro supermassivo"
+          },
+          {
+            "label": "Massa",
+            "value": "~4,3 milhões de massas solares"
+          },
+          {
+            "label": "Localização",
+            "value": "Centro da Via Láctea (~26.000 anos-luz)"
+          }
+        ]
+      },
+      "note": "항성 잔해가 아닙니다. 초대질량 블랙홀이 어떻게 생겨났는지(거대 가스 구름의 직접 붕괴, 초기 별 잔해의 병합 성장)는 아직 풀리지 않은 문제입니다.",
+      "noteI18n": {
+        "en": "Not a stellar remnant. How supermassive black holes formed (direct collapse of giant gas clouds, or growth by merging the remnants of early stars) is still an open question.",
+        "ja": "恒星の残骸ではありません。超大質量ブラックホールがどう生まれたのか(巨大なガス雲の直接崩壊か、初期の星の残骸の合体による成長か)は、まだ解けていない問題です。",
+        "es": "No es un remanente estelar. Cómo se formaron los agujeros negros supermasivos (colapso directo de enormes nubes de gas o crecimiento por fusión de restos de las primeras estrellas) sigue siendo una pregunta abierta.",
+        "de": "Kein Sternüberrest. Wie supermassereiche Schwarze Löcher entstanden sind (direkter Kollaps riesiger Gaswolken oder Wachstum durch Verschmelzen der Überreste früher Sterne), ist noch ungeklärt.",
+        "zh-TW": "它不是恆星殘骸。超大質量黑洞如何形成(巨大氣體雲直接坍縮，或早期恆星殘骸合併成長)至今仍是未解之謎。",
+        "pt-BR": "Não é um remanescente estelar. Como os buracos negros supermassivos se formaram (colapso direto de nuvens gigantes de gás ou crescimento pela fusão de restos das primeiras estrelas) ainda é uma questão em aberto."
+      },
+      "related": [
+        "gw231123",
+        "m87-star",
+        "ton-618"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Sagittarius A*",
+        "ko": "궁수자리 A*",
+        "ja": "いて座A*",
+        "es": "Sagitario A*",
+        "de": "Sagittarius A*",
+        "pt": "Sagittarius A*",
+        "zh": "人馬座A*"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/sagittarius-a.jpg",
+      "imageCredit": "EHT Collaboration",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:EHT_Saggitarius_A_black_hole.tif"
+    },
+    {
+      "id": "m87-star",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "M87*",
+      "nameI18n": {
+        "en": "M87*",
+        "ja": "M87*",
+        "es": "M87*",
+        "de": "M87*",
+        "zh-TW": "M87*",
+        "pt-BR": "M87*"
+      },
+      "summary": "처녀자리 A 은하 중심의 초대질량 블랙홀. 2019년 사건지평선망원경(EHT)이 인류 최초로 블랙홀의 그림자를 촬영했다.",
+      "summaryI18n": {
+        "en": "The supermassive black hole at the heart of galaxy M87 — the first black hole ever imaged, by the Event Horizon Telescope in 2019.",
+        "ja": "銀河M87の中心にある超大質量ブラックホール。2019年、イベント・ホライズン・テレスコープ(EHT)が人類で初めてブラックホールの影を撮影した。",
+        "es": "El agujero negro supermasivo en el corazón de la galaxia M87: el primero jamás fotografiado, por el Telescopio del Horizonte de Sucesos en 2019.",
+        "de": "Das supermassereiche Schwarze Loch im Herzen der Galaxie M87 – das erste jemals abgebildete Schwarze Loch, durch das Event Horizon Telescope 2019.",
+        "zh-TW": "位於M87星系中心的超大質量黑洞,是2019年事件視界望遠鏡(EHT)首次拍攝到的黑洞。",
+        "pt-BR": "O buraco negro supermassivo no coração da galáxia M87: o primeiro já fotografado, pelo Telescópio Event Horizon em 2019."
+      },
+      "scene": "scene-spacetime",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "초대질량 블랙홀"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 65억 배"
+        },
+        {
+          "label": "의의",
+          "value": "최초로 촬영된 블랙홀 (2019)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Supermassive black hole"
+          },
+          {
+            "label": "Mass",
+            "value": "~6.5 billion solar masses"
+          },
+          {
+            "label": "Note",
+            "value": "First black hole imaged (2019)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "超大質量ブラックホール"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約65億倍"
+          },
+          {
+            "label": "意義",
+            "value": "初めて撮影されたブラックホール(2019年)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro supermasivo"
+          },
+          {
+            "label": "Masa",
+            "value": "~6.500 millones de masas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primer agujero negro fotografiado (2019)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Supermassereiches Schwarzes Loch"
+          },
+          {
+            "label": "Masse",
+            "value": "~6,5 Milliarden Sonnenmassen"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Erstes abgebildetes Schwarzes Loch (2019)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "超大質量黑洞"
+          },
+          {
+            "label": "質量",
+            "value": "約65億個太陽質量"
+          },
+          {
+            "label": "意義",
+            "value": "首個被拍攝到的黑洞(2019年)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro supermassivo"
+          },
+          {
+            "label": "Massa",
+            "value": "~6,5 bilhões de massas solares"
+          },
+          {
+            "label": "Nota",
+            "value": "Primeiro buraco negro fotografado (2019)"
+          }
+        ]
+      },
+      "note": "항성 잔해가 아닙니다. 초대질량 블랙홀이 어떻게 생겨났는지(거대 가스 구름의 직접 붕괴, 초기 별 잔해의 병합 성장)는 아직 풀리지 않은 문제입니다.",
+      "noteI18n": {
+        "en": "Not a stellar remnant. How supermassive black holes formed (direct collapse of giant gas clouds, or growth by merging the remnants of early stars) is still an open question.",
+        "ja": "恒星の残骸ではありません。超大質量ブラックホールがどう生まれたのか(巨大なガス雲の直接崩壊か、初期の星の残骸の合体による成長か)は、まだ解けていない問題です。",
+        "es": "No es un remanente estelar. Cómo se formaron los agujeros negros supermasivos (colapso directo de enormes nubes de gas o crecimiento por fusión de restos de las primeras estrellas) sigue siendo una pregunta abierta.",
+        "de": "Kein Sternüberrest. Wie supermassereiche Schwarze Löcher entstanden sind (direkter Kollaps riesiger Gaswolken oder Wachstum durch Verschmelzen der Überreste früher Sterne), ist noch ungeklärt.",
+        "zh-TW": "它不是恆星殘骸。超大質量黑洞如何形成(巨大氣體雲直接坍縮，或早期恆星殘骸合併成長)至今仍是未解之謎。",
+        "pt-BR": "Não é um remanescente estelar. Como os buracos negros supermassivos se formaram (colapso direto de nuvens gigantes de gás ou crescimento pela fusão de restos das primeiras estrelas) ainda é uma questão em aberto."
+      },
+      "related": [
+        "sagittarius-a",
+        "ton-618",
+        "gw150914"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Messier 87",
+        "ko": "처녀자리 A 은하",
+        "ja": "M87 (天体)",
+        "es": "Galaxia elíptica M87",
+        "de": "Messier 87",
+        "pt": "Messier 87",
+        "zh": "室女A星系"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/m87-star.jpg",
+      "imageCredit": "Event Horizon Telescope",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
+    },
+    {
+      "id": "ton-618",
+      "bandId": "black-holes",
+      "type": "object",
+      "name": "TON 618",
+      "nameI18n": {
+        "en": "TON 618",
+        "ja": "TON 618",
+        "es": "TON 618",
+        "de": "TON 618",
+        "zh-TW": "TON 618",
+        "pt-BR": "TON 618"
+      },
+      "summary": "알려진 가장 무거운 블랙홀 중 하나. 사냥개자리의 초광도 퀘이사로, 지금 보는 빛은 약 104억 년 전에 출발했다. 1957년 토난친틀라 관측소 조사에서 처음 목록에 올랐고 1970년 퀘이사로 확인됐다.",
+      "summaryI18n": {
+        "en": "One of the most massive black holes known — an ultraluminous quasar in Canes Venatici whose light set out about 10.4 billion years ago. First catalogued in a 1957 Tonantzintla Observatory survey, it was recognized as a quasar in 1970.",
+        "ja": "知られている中で最も重いブラックホールの一つ。りょうけん座の超高光度クエーサーで、いま見ている光は約104億年前に出発した。1957年のトナンツィントラ天文台の調査で初めて記録され、1970年にクエーサーと確認された。",
+        "es": "Uno de los agujeros negros más masivos que se conocen: un cuásar ultraluminoso en Canes Venatici cuya luz partió hace unos 10.400 millones de años. Catalogado por primera vez en un sondeo del Observatorio de Tonantzintla en 1957, se identificó como cuásar en 1970.",
+        "de": "Eines der massereichsten bekannten Schwarzen Löcher – ein ultraleuchtkräftiger Quasar in den Jagdhunden, dessen Licht vor etwa 10,4 Milliarden Jahren aufbrach. Erstmals 1957 in einer Durchmusterung des Tonantzintla-Observatoriums katalogisiert, 1970 als Quasar erkannt.",
+        "zh-TW": "已知最重的黑洞之一。它是獵犬座的超亮類星體，我們現在看到的光約在104億年前出發。1957年在托南欽特拉天文台的巡天中首次被編目，1970年確認為類星體。",
+        "pt-BR": "Um dos buracos negros mais massivos conhecidos — um quasar ultraluminoso em Canes Venatici cuja luz partiu há cerca de 10,4 bilhões de anos. Catalogado pela primeira vez em um levantamento do Observatório de Tonantzintla em 1957, foi identificado como quasar em 1970."
+      },
+      "scene": "scene-spacetime",
+      "sceneFocus": "m87-star",
+      "facts": [
+        {
+          "label": "분류",
+          "value": "초대질량 블랙홀 (초광도 퀘이사)"
+        },
+        {
+          "label": "질량",
+          "value": "태양의 약 400억~660억 배"
+        },
+        {
+          "label": "거리",
+          "value": "빛이 약 104억 년 걸려 도착 (적색편이 2.22)"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Class",
+            "value": "Supermassive black hole (ultraluminous quasar)"
+          },
+          {
+            "label": "Mass",
+            "value": "~40–66 billion solar masses"
+          },
+          {
+            "label": "Distance",
+            "value": "Light traveled ~10.4 billion years (redshift 2.22)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "分類",
+            "value": "超大質量ブラックホール(超高光度クエーサー)"
+          },
+          {
+            "label": "質量",
+            "value": "太陽の約400億〜660億倍"
+          },
+          {
+            "label": "距離",
+            "value": "光が約104億年かけて到着(赤方偏移2.22)"
+          }
+        ],
+        "es": [
+          {
+            "label": "Clase",
+            "value": "Agujero negro supermasivo (cuásar ultraluminoso)"
+          },
+          {
+            "label": "Masa",
+            "value": "~40.000–66.000 millones de masas solares"
+          },
+          {
+            "label": "Distancia",
+            "value": "Su luz viajó ~10.400 millones de años (corrimiento al rojo 2,22)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Klasse",
+            "value": "Supermassereiches Schwarzes Loch (ultraleuchtkräftiger Quasar)"
+          },
+          {
+            "label": "Masse",
+            "value": "~40–66 Milliarden Sonnenmassen"
+          },
+          {
+            "label": "Entfernung",
+            "value": "Licht ~10,4 Mrd. Jahre unterwegs (Rotverschiebung 2,22)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "分類",
+            "value": "超大質量黑洞(超亮類星體)"
+          },
+          {
+            "label": "質量",
+            "value": "約400億至660億個太陽質量"
+          },
+          {
+            "label": "距離",
+            "value": "光走了約104億年(紅移2.22)"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Classe",
+            "value": "Buraco negro supermassivo (quasar ultraluminoso)"
+          },
+          {
+            "label": "Massa",
+            "value": "~40–66 bilhões de massas solares"
+          },
+          {
+            "label": "Distância",
+            "value": "A luz viajou ~10,4 bilhões de anos (desvio para o vermelho 2,22)"
+          }
+        ]
+      },
+      "related": [
+        "m87-star",
+        "sagittarius-a"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "TON 618",
+        "ko": "TON 618",
+        "ja": "TON618",
+        "es": "TON 618",
+        "de": "TON 618",
+        "pt": "TON 618",
+        "zh": "TON 618"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/ton-618.jpg",
+      "imageCredit": "Legacy Surveys / D. Lang (Perimeter Institute)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://www.legacysurvey.org/viewer?ra=187.1040&dec=31.4771&layer=ls-dr10&zoom=15"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-07-04T00:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-09-14T00:00:00Z",
   "bands": [
     {
       "id": "solar-system",
@@ -90,8 +90,36 @@
       "source": "band-remnants.json"
     },
     {
-      "id": "ism",
+      "id": "black-holes",
       "order": 4,
+      "name": "블랙홀",
+      "nameI18n": {
+        "en": "Black Holes",
+        "ja": "ブラックホール",
+        "es": "Agujeros negros",
+        "de": "Schwarze Löcher",
+        "zh-TW": "黑洞",
+        "pt-BR": "Buracos negros"
+      },
+      "scaleLabel": "수십 km ~ 수천 AU",
+      "scaleLabelI18n": {
+        "en": "tens of km to thousands of AU",
+        "ja": "数十km～数千AU",
+        "es": "decenas de km a miles de UA",
+        "de": "Dutzende km bis Tausende AE",
+        "zh-TW": "數十公里至數千AU",
+        "pt-BR": "dezenas de km a milhares de UA"
+      },
+      "accent": "#E8455A",
+      "lenses": [
+        "size"
+      ],
+      "status": "live",
+      "source": "band-black-holes.json"
+    },
+    {
+      "id": "ism",
+      "order": 5,
       "name": "성간물질",
       "nameI18n": {
         "en": "Interstellar Medium",
@@ -119,7 +147,7 @@
     },
     {
       "id": "clusters",
-      "order": 5,
+      "order": 6,
       "name": "성단",
       "nameI18n": {
         "en": "Star Clusters",
@@ -148,7 +176,7 @@
     },
     {
       "id": "galaxies",
-      "order": 6,
+      "order": 7,
       "name": "은하",
       "nameI18n": {
         "en": "Galaxies",
@@ -177,7 +205,7 @@
     },
     {
       "id": "large-scale",
-      "order": 7,
+      "order": 8,
       "name": "우주 거대구조",
       "nameI18n": {
         "en": "Large-Scale Structure",

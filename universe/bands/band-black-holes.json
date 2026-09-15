@@ -1,9 +1,105 @@
 {
   "bandId": "black-holes",
-  "version": 1,
-  "updatedAt": "2026-09-14T00:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-09-15T00:00:00Z",
   "curator": "boolint",
   "items": [
+    {
+      "id": "black-hole",
+      "type": "diagram",
+      "featured": true,
+      "name": "블랙홀 — 질량의 사다리",
+      "nameI18n": {
+        "en": "Black Holes — The Mass Ladder",
+        "ja": "ブラックホール — 質量のはしご",
+        "es": "Agujeros negros — la escalera de masa",
+        "de": "Schwarze Löcher — die Massenleiter",
+        "zh-TW": "黑洞 — 質量階梯",
+        "pt-BR": "Buracos negros — a escada de massa"
+      },
+      "summary": "태양의 3배에서 1,000억 배까지 — 크기·밀도·빛·시간·최후가 어떻게 달라질까요?",
+      "summaryI18n": {
+        "en": "From 3 to 100 billion Suns — how do size, density, light, time and fate change?",
+        "ja": "太陽の3倍から1,000億倍まで — 大きさ・密度・光・時間・最期はどう変わる?",
+        "es": "De 3 a 100.000 millones de soles: ¿cómo cambian tamaño, densidad, luz, tiempo y final?",
+        "de": "Von 3 bis 100 Milliarden Sonnen — wie ändern sich Größe, Dichte, Licht, Zeit und Ende?",
+        "zh-TW": "從3倍到1,000億倍太陽質量 — 大小、密度、光、時間與結局如何改變？",
+        "pt-BR": "De 3 a 100 bilhões de sóis — como mudam tamanho, densidade, luz, tempo e fim?"
+      },
+      "scene": "scene-black-hole",
+      "facts": [
+        {
+          "label": "다이얼",
+          "value": "태양 3배 ~ 1,000억 배"
+        },
+        {
+          "label": "반전",
+          "value": "클수록 묽다 — M87* 지평선 안은 공기의 1/3"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Dial",
+            "value": "3 to 100 billion Suns"
+          },
+          {
+            "label": "Twist",
+            "value": "Bigger is thinner — inside M87*'s horizon, a third of air's density"
+          }
+        ],
+        "ja": [
+          {
+            "label": "ダイヤル",
+            "value": "太陽の3倍〜1,000億倍"
+          },
+          {
+            "label": "逆転",
+            "value": "大きいほど薄い — M87*の地平線の内側は空気の1/3"
+          }
+        ],
+        "es": [
+          {
+            "label": "Dial",
+            "value": "De 3 a 100.000 millones de soles"
+          },
+          {
+            "label": "Giro",
+            "value": "Más grande, más tenue: dentro del horizonte de M87*, un tercio de la densidad del aire"
+          }
+        ],
+        "de": [
+          {
+            "label": "Regler",
+            "value": "3 bis 100 Milliarden Sonnen"
+          },
+          {
+            "label": "Wendung",
+            "value": "Größer heißt dünner — im Horizont von M87* ein Drittel der Luftdichte"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "轉盤",
+            "value": "3倍到1,000億倍太陽質量"
+          },
+          {
+            "label": "反轉",
+            "value": "越大越稀 — M87*視界內平均只有空氣的1/3"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Dial",
+            "value": "De 3 a 100 bilhões de sóis"
+          },
+          {
+            "label": "Virada",
+            "value": "Maior é mais rarefeito — dentro do horizonte de M87*, um terço da densidade do ar"
+          }
+        ]
+      }
+    },
     {
       "id": "spacetime",
       "type": "process",
@@ -317,8 +413,7 @@
         "zh-TW": "吸取伴星氣體、曾在1989年與2015年劇烈爆發的黑洞。2015年爆發的X射線被星際塵埃反射，留下巨大的光回波環。",
         "pt-BR": "Um buraco negro que suga gás de uma estrela companheira e explodiu violentamente em 1989 e 2015 — os raios X da explosão de 2015 refletiram na poeira interestelar e deixaram gigantescos anéis de eco de luz."
       },
-      "scene": "scene-spacetime",
-      "sceneFocus": "cygnus-x1",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",
@@ -458,7 +553,7 @@
         "zh-TW": "首個被廣泛認可的恆星質量黑洞,一邊吞噬伴星的物質,一邊發出強烈的X射線。",
         "pt-BR": "O primeiro buraco negro de massa estelar amplamente aceito: emite intensos raios X enquanto devora matéria de uma estrela companheira."
       },
-      "scene": "scene-spacetime",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",
@@ -564,6 +659,12 @@
         "gaia-bh3",
         "gw150914"
       ],
+      "relatedCross": [
+        {
+          "band": "remnants",
+          "id": "crab-pulsar"
+        }
+      ],
       "crossAxis": [],
       "wiki": {
         "en": "Cygnus X-1",
@@ -601,8 +702,7 @@
         "zh-TW": "銀河系中已知最重的恆星級黑洞。它不吞噬物質、也不發光，蓋亞衛星僅憑一顆每11.6年繞它一圈的老恆星的晃動，在2024年找到了它。",
         "pt-BR": "O buraco negro estelar mais massivo conhecido na Via Láctea. Não engole matéria nem emite luz — o Gaia o encontrou em 2024 apenas pelo bamboleio de uma estrela velha que o orbita a cada 11,6 anos."
       },
-      "scene": "scene-spacetime",
-      "sceneFocus": "cygnus-x1",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",
@@ -740,8 +840,7 @@
         "zh-TW": "人類首次直接探測到的重力波。約13億光年外，兩個黑洞合併，相當於3個太陽的質量化為重力波消失。這項探測獲得2017年諾貝爾物理學獎。",
         "pt-BR": "As primeiras ondas gravitacionais detectadas diretamente. A cerca de 1,3 bilhão de anos-luz, dois buracos negros se fundiram e o equivalente a três sóis em massa sumiu em ondas gravitacionais — a detecção rendeu o Nobel de Física de 2017."
       },
-      "scene": "scene-spacetime",
-      "sceneFocus": "gw170817",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",
@@ -884,8 +983,7 @@
         "zh-TW": "以重力波觀測到最重的黑洞合併(2023年偵測、2025年發表)。約100倍與140倍太陽質量的黑洞合併成約225倍。兩者都高速自轉，且質量難以由一般恆星演化形成，暗示它們是由更早的合併逐步長大。",
         "pt-BR": "A fusão de buracos negros mais massiva vista em ondas gravitacionais (detectada em 2023, anunciada em 2025). Buracos negros de cerca de 100 e 140 massas solares se fundiram em um de cerca de 225. Ambos giravam rápido, e suas massas são difíceis de formar pela evolução estelar comum — sugerindo que cresceram a partir de fusões anteriores."
       },
-      "scene": "scene-spacetime",
-      "sceneFocus": "gw170817",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",
@@ -1021,7 +1119,7 @@
         "zh-TW": "位於銀河系中心的超大質量黑洞,2022年事件視界望遠鏡拍攝到它的陰影。",
         "pt-BR": "O buraco negro supermassivo no centro da Via Láctea: o Telescópio Event Horizon fotografou sua sombra em 2022."
       },
-      "scene": "scene-spacetime",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",
@@ -1136,6 +1234,12 @@
         "m87-star",
         "ton-618"
       ],
+      "relatedCross": [
+        {
+          "band": "galaxies",
+          "id": "milky-way"
+        }
+      ],
       "crossAxis": [
         "light-delay"
       ],
@@ -1175,7 +1279,7 @@
         "zh-TW": "位於M87星系中心的超大質量黑洞,是2019年事件視界望遠鏡(EHT)首次拍攝到的黑洞。",
         "pt-BR": "O buraco negro supermassivo no coração da galáxia M87: o primeiro já fotografado, pelo Telescópio Event Horizon em 2019."
       },
-      "scene": "scene-spacetime",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",
@@ -1290,6 +1394,12 @@
         "ton-618",
         "gw150914"
       ],
+      "relatedCross": [
+        {
+          "band": "galaxies",
+          "id": "m87"
+        }
+      ],
       "crossAxis": [
         "light-delay"
       ],
@@ -1329,8 +1439,7 @@
         "zh-TW": "已知最重的黑洞之一。它是獵犬座的超亮類星體，我們現在看到的光約在104億年前出發。1957年在托南欽特拉天文台的巡天中首次被編目，1970年確認為類星體。",
         "pt-BR": "Um dos buracos negros mais massivos conhecidos — um quasar ultraluminoso em Canes Venatici cuja luz partiu há cerca de 10,4 bilhões de anos. Catalogado pela primeira vez em um levantamento do Observatório de Tonantzintla em 1957, foi identificado como quasar em 1970."
       },
-      "scene": "scene-spacetime",
-      "sceneFocus": "m87-star",
+      "scene": "scene-black-hole",
       "facts": [
         {
           "label": "분류",

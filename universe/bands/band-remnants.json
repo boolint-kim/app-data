@@ -1,7 +1,7 @@
 {
   "bandId": "remnants",
-  "version": 9,
-  "updatedAt": "2026-09-14T00:00:00Z",
+  "version": 10,
+  "updatedAt": "2026-09-15T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -108,6 +108,103 @@
       "crossAxis": [
         "element-origin"
       ]
+    },
+    {
+      "id": "black-hole",
+      "type": "diagram",
+      "featured": true,
+      "name": "블랙홀 — 질량의 사다리",
+      "nameI18n": {
+        "en": "Black Holes — The Mass Ladder",
+        "ja": "ブラックホール — 質量のはしご",
+        "es": "Agujeros negros — la escalera de masa",
+        "de": "Schwarze Löcher — die Massenleiter",
+        "zh-TW": "黑洞 — 質量階梯",
+        "pt-BR": "Buracos negros — a escada de massa"
+      },
+      "summary": "중성자별도 버티지 못한 잔해의 끝. 백조자리 X-1(태양 21배)에서 출발해 은하 중심의 괴물까지 질량을 올려 보세요.",
+      "summaryI18n": {
+        "en": "Where remnants too heavy even for a neutron star end up. Start at Cygnus X-1 (21 Suns) and dial the mass up to the giants at galaxy centers.",
+        "ja": "中性子星でも支えきれなかった残骸の行き着く先。はくちょう座X-1(太陽の21倍)から始めて、銀河中心の怪物まで質量を上げてみよう。",
+        "es": "El destino de los restos demasiado pesados incluso para una estrella de neutrones. Empieza en Cygnus X-1 (21 soles) y sube la masa hasta los gigantes del centro de las galaxias.",
+        "de": "Wo Überreste enden, die selbst für einen Neutronenstern zu schwer sind. Starte bei Cygnus X-1 (21 Sonnen) und dreh die Masse bis zu den Riesen in Galaxienzentren hoch.",
+        "zh-TW": "連中子星都撐不住的殘骸，最後的歸宿。從天鵝座X-1(21倍太陽質量)出發，把質量一路調到星系中心的巨獸。",
+        "pt-BR": "O destino dos restos pesados demais até para uma estrela de nêutrons. Comece em Cygnus X-1 (21 sóis) e aumente a massa até os gigantes no centro das galáxias."
+      },
+      "scene": "scene-black-hole",
+      "sceneFocus": "cygnus-x1",
+      "facts": [
+        {
+          "label": "출발점",
+          "value": "백조자리 X-1 · 태양 21배"
+        },
+        {
+          "label": "문턱",
+          "value": "중성자별 한계(태양 2배 남짓)를 넘은 잔해"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Starts at",
+            "value": "Cygnus X-1 · 21 Suns"
+          },
+          {
+            "label": "Threshold",
+            "value": "Remnants past the neutron-star limit (just over 2 Suns)"
+          }
+        ],
+        "ja": [
+          {
+            "label": "出発点",
+            "value": "はくちょう座X-1 · 太陽の21倍"
+          },
+          {
+            "label": "しきい値",
+            "value": "中性子星の限界(太陽の2倍余り)を超えた残骸"
+          }
+        ],
+        "es": [
+          {
+            "label": "Punto de partida",
+            "value": "Cygnus X-1 · 21 soles"
+          },
+          {
+            "label": "Umbral",
+            "value": "Restos por encima del límite de las estrellas de neutrones (algo más de 2 soles)"
+          }
+        ],
+        "de": [
+          {
+            "label": "Start",
+            "value": "Cygnus X-1 · 21 Sonnen"
+          },
+          {
+            "label": "Schwelle",
+            "value": "Überreste jenseits der Neutronensterngrenze (gut 2 Sonnen)"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "起點",
+            "value": "天鵝座X-1 · 21倍太陽質量"
+          },
+          {
+            "label": "門檻",
+            "value": "超過中子星極限(略大於2倍太陽質量)的殘骸"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Ponto de partida",
+            "value": "Cygnus X-1 · 21 sóis"
+          },
+          {
+            "label": "Limiar",
+            "value": "Restos acima do limite das estrelas de nêutrons (pouco mais de 2 sóis)"
+          }
+        ]
+      }
     },
     {
       "id": "supernova",
@@ -642,6 +739,12 @@
         "density",
         "vela-pulsar",
         "sn1987a"
+      ],
+      "relatedCross": [
+        {
+          "band": "black-holes",
+          "id": "cygnus-x1"
+        }
       ],
       "crossAxis": [
         "element-origin"

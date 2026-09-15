@@ -1,7 +1,7 @@
 {
   "bandId": "galaxies",
-  "version": 6,
-  "updatedAt": "2026-07-11T00:00:00Z",
+  "version": 7,
+  "updatedAt": "2026-09-15T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -214,6 +214,103 @@
         "multiwavelength",
         "light-delay"
       ]
+    },
+    {
+      "id": "black-hole",
+      "type": "diagram",
+      "featured": true,
+      "name": "블랙홀 — 질량의 사다리",
+      "nameI18n": {
+        "en": "Black Holes — The Mass Ladder",
+        "ja": "ブラックホール — 質量のはしご",
+        "es": "Agujeros negros — la escalera de masa",
+        "de": "Schwarze Löcher — die Massenleiter",
+        "zh-TW": "黑洞 — 質量階梯",
+        "pt-BR": "Buracos negros — a escada de massa"
+      },
+      "summary": "은하 한가운데의 블랙홀을 가까이서. M87*(태양 65억 배)의 강착원반·그림자·제트에서 출발해 질량 다이얼을 돌려 보세요.",
+      "summaryI18n": {
+        "en": "Up close with the black hole at a galaxy's heart. Start at M87* (6.5 billion Suns) — its disk, shadow and jet — and turn the mass dial.",
+        "ja": "銀河の中心にあるブラックホールを間近に。M87*(太陽の65億倍)の降着円盤・影・ジェットから始めて、質量ダイヤルを回してみよう。",
+        "es": "De cerca, el agujero negro del corazón de una galaxia. Empieza en M87* (6.500 millones de soles), con su disco, su sombra y su chorro, y gira el dial de masa.",
+        "de": "Das Schwarze Loch im Herzen einer Galaxie aus der Nähe. Starte bei M87* (6,5 Milliarden Sonnen) mit Scheibe, Schatten und Jet und dreh den Massenregler.",
+        "zh-TW": "近看星系中心的黑洞。從M87*(65億倍太陽質量)的吸積盤、陰影與噴流出發，轉動質量轉盤。",
+        "pt-BR": "De perto, o buraco negro no coração de uma galáxia. Comece em M87* (6,5 bilhões de sóis), com seu disco, sua sombra e seu jato, e gire o dial de massa."
+      },
+      "scene": "scene-black-hole",
+      "sceneFocus": "m87-star",
+      "facts": [
+        {
+          "label": "출발점",
+          "value": "M87* · 태양 65억 배"
+        },
+        {
+          "label": "엔진 효율",
+          "value": "핵융합 0.7% · 떨어지는 물질 최대 42%"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Starts at",
+            "value": "M87* · 6.5 billion Suns"
+          },
+          {
+            "label": "Engine efficiency",
+            "value": "Fusion 0.7% · infalling matter up to 42%"
+          }
+        ],
+        "ja": [
+          {
+            "label": "出発点",
+            "value": "M87* · 太陽の65億倍"
+          },
+          {
+            "label": "エンジン効率",
+            "value": "核融合0.7% · 落ちる物質は最大42%"
+          }
+        ],
+        "es": [
+          {
+            "label": "Punto de partida",
+            "value": "M87* · 6.500 millones de soles"
+          },
+          {
+            "label": "Eficiencia del motor",
+            "value": "Fusión 0,7 % · materia que cae, hasta 42 %"
+          }
+        ],
+        "de": [
+          {
+            "label": "Start",
+            "value": "M87* · 6,5 Milliarden Sonnen"
+          },
+          {
+            "label": "Wirkungsgrad",
+            "value": "Kernfusion 0,7 % · einfallende Materie bis 42 %"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "起點",
+            "value": "M87* · 65億倍太陽質量"
+          },
+          {
+            "label": "引擎效率",
+            "value": "核融合0.7% · 落入物質最高42%"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Ponto de partida",
+            "value": "M87* · 6,5 bilhões de sóis"
+          },
+          {
+            "label": "Eficiência do motor",
+            "value": "Fusão 0,7% · matéria em queda, até 42%"
+          }
+        ]
+      }
     },
     {
       "id": "galaxy-collision",
@@ -803,6 +900,12 @@
         "andromeda",
         "large-magellanic"
       ],
+      "relatedCross": [
+        {
+          "band": "black-holes",
+          "id": "sagittarius-a"
+        }
+      ],
       "crossAxis": [],
       "wiki": {
         "en": "Milky Way",
@@ -1233,6 +1336,12 @@
         "hubble-fork",
         "agn",
         "andromeda"
+      ],
+      "relatedCross": [
+        {
+          "band": "black-holes",
+          "id": "m87-star"
+        }
       ],
       "crossAxis": [
         "multiwavelength",

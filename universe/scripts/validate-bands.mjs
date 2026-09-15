@@ -13,9 +13,10 @@ const LANGS = ['en', 'ja', 'es', 'de', 'zh-TW', 'pt-BR'];
 const TYPES = new Set(['object', 'diagram', 'process']);
 const IMAGE_KEYS = ['image', 'imageCredit', 'imageLicense', 'imageSourceUrl'];
 
-// 앱에 번들된 씬 (Android app/src/main/assets/bands · iOS web/bands, 2026-09-14 기준 29개)
+// 앱에 번들된 씬 (Android app/src/main/assets/bands · iOS web/bands, 2026-09-15 기준 30개)
+// scene-black-hole 은 Android 1.4.3 · iOS 2.5 부터 번들 — 그 이전 버전은 빈 화면(에셋 가드도 없음)
 const KNOWN_SCENES = [
-  'scene-agn', 'scene-binary-transfer', 'scene-cluster-cmd', 'scene-density-wave', 'scene-earth-birth',
+  'scene-agn', 'scene-binary-transfer', 'scene-black-hole', 'scene-cluster-cmd', 'scene-density-wave', 'scene-earth-birth',
   'scene-electromagnetism', 'scene-four-forces', 'scene-galaxy-collision', 'scene-gw-replay', 'scene-hr-diagram',
   'scene-hubble-fork', 'scene-interior', 'scene-ism-cycle', 'scene-ism', 'scene-kilonova', 'scene-large-scale',
   'scene-life-origin', 'scene-lookback', 'scene-neutrino-race', 'scene-nucleus', 'scene-periodic',
@@ -44,6 +45,16 @@ const scenes = sceneSet();
 const bandsJson = JSON.parse(readFileSync(join(BANDS_DIR, 'bands.json'), 'utf8'));
 const orders = new Map();
 const summary = [];
+
+// relatedCross 대상 해석용 — 원격 띠 id → (항목 id → type). 파일을 먼저 전부 읽는다.
+const itemsByBand = new Map();
+for (const band of bandsJson.bands) {
+  if (band.source === 'native') continue;
+  const p = join(BANDS_DIR, band.source);
+  if (existsSync(p)) {
+    itemsByBand.set(band.id, new Map(JSON.parse(readFileSync(p, 'utf8')).items.map((it) => [it.id, it.type])));
+  }
+}
 
 for (const band of bandsJson.bands) {
   const where = `bands.json[${band.id}]`;
@@ -74,6 +85,16 @@ for (const band of bandsJson.bands) {
     checkI18n(w, it.summary, it.summaryI18n, 'summary');
     if (it.scene !== undefined && !scenes.has(it.scene)) err(w, `scene "${it.scene}" 이 번들 씬 목록에 없음`);
     if (it.note !== undefined) checkI18n(w, it.note, it.noteI18n, 'note');
+
+    // relatedCross {band, id} — 탭하면 그 띠의 object 백과로 간다. featured 는 씬 직행이라 렌더되지 않는다.
+    if (it.relatedCross !== undefined && it.type !== 'object') err(w, 'relatedCross 는 object 백과에서만 렌더됨 (featured 는 씬 직행)');
+    for (const ref of it.relatedCross ?? []) {
+      const target = itemsByBand.get(ref?.band);
+      if (!target) err(w, `relatedCross band "${ref?.band}" 가 원격 띠 목록에 없음`);
+      else if (ref.band === file.bandId) err(w, `relatedCross "${ref.id}" 는 같은 띠 — related 로 쓸 것`);
+      else if (!target.has(ref.id)) err(w, `relatedCross "${ref.band}/${ref.id}" 대상 항목 없음`);
+      else if (target.get(ref.id) !== 'object') err(w, `relatedCross "${ref.band}/${ref.id}" 가 object 가 아님`);
+    }
 
     if (it.facts) {
       for (const l of LANGS) {

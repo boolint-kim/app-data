@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "updatedAt": "2026-08-11T01:00:00Z",
+  "version": 13,
+  "updatedAt": "2026-09-15T00:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -1802,6 +1802,120 @@
             "es": "La superficie lunar parece suelo pero no lo es: sin materia orgánica, es decir sin vida, no hay suelo.",
             "de": "Die Mondoberfläche sieht aus wie Boden, ist aber keiner — ohne organische Substanz, also ohne Leben, gibt es keinen Boden.",
             "pt-BR": "A superfície lunar parece solo, mas não é — sem matéria orgânica, ou seja, sem vida, não há solo."
+          }
+        }
+      }
+    },
+    {
+      "id": "black-hole",
+      "scene": "scene-black-hole",
+      "title": "블랙홀",
+      "titleI18n": {
+        "en": "Black Holes",
+        "ja": "ブラックホール",
+        "zh-TW": "黑洞",
+        "es": "Agujeros negros",
+        "de": "Schwarze Löcher",
+        "pt-BR": "Buracos negros"
+      },
+      "objects": {
+        "earth": {
+          "hook": "지구를 블랙홀로 누르면 지름 약 1.8 cm, 구슬 한 알 — 그래도 질량은 그대로라 달은 똑같이 돕니다.",
+          "hookI18n": {
+            "en": "Squeeze Earth into a black hole and it's about 1.8 cm across — a marble. Its mass is unchanged, so the Moon keeps orbiting just the same.",
+            "ja": "地球をブラックホールに押し縮めると直径約1.8 cm、ビー玉ひとつ分。それでも質量は同じなので、月はいつも通り回り続けます。",
+            "zh-TW": "把地球壓成黑洞，直徑只有約1.8公分，一顆彈珠大。但質量不變，月球照樣繞著轉。",
+            "es": "Comprime la Tierra hasta hacerla un agujero negro y mediría unos 1,8 cm: una canica. Su masa no cambia, así que la Luna seguiría girando igual.",
+            "de": "Presst man die Erde zu einem Schwarzen Loch, misst sie nur etwa 1,8 cm — eine Murmel. Ihre Masse bleibt gleich, also kreist der Mond weiter wie bisher.",
+            "pt-BR": "Comprima a Terra num buraco negro e ela teria cerca de 1,8 cm — uma bolinha de gude. A massa é a mesma, então a Lua continua orbitando igualzinho."
+          }
+        },
+        "sun": {
+          "hook": "태양은 블랙홀이 되기엔 너무 가볍습니다. 같은 질량의 블랙홀로 바꿔치기해도 지구 궤도는 그대로 — 블랙홀은 청소기가 아닙니다.",
+          "hookI18n": {
+            "en": "The Sun is far too light to become a black hole. Even if you swapped it for one of the same mass, Earth's orbit wouldn't change — black holes aren't vacuum cleaners.",
+            "ja": "太陽はブラックホールになるには軽すぎます。同じ質量のブラックホールにすり替えても地球の軌道はそのまま — ブラックホールは掃除機ではありません。",
+            "zh-TW": "太陽太輕，成不了黑洞。就算換成同質量的黑洞，地球軌道也不會變 — 黑洞不是吸塵器。",
+            "es": "El Sol es demasiado ligero para convertirse en agujero negro. Aunque lo cambiáramos por uno de la misma masa, la órbita de la Tierra no cambiaría: los agujeros negros no son aspiradoras.",
+            "de": "Die Sonne ist viel zu leicht für ein Schwarzes Loch. Selbst gegen eines gleicher Masse getauscht, bliebe die Erdbahn unverändert — Schwarze Löcher sind keine Staubsauger.",
+            "pt-BR": "O Sol é leve demais para virar um buraco negro. Mesmo trocado por um de mesma massa, a órbita da Terra não mudaria — buracos negros não são aspiradores de pó."
+          }
+        },
+        "andromeda": {
+          "hook": "중심 블랙홀 M31*는 태양 1억 4천만 배 — 지평선 안 평균 밀도가 물과 비슷합니다. 무거울수록 묽어지는 반전을 확인해 보세요.",
+          "hookI18n": {
+            "en": "Its central black hole, M31*, weighs 140 million Suns — and its average density inside the horizon is about that of water. See how heavier means thinner.",
+            "ja": "中心のブラックホールM31*は太陽の1億4,000万倍 — 地平線の内側の平均密度は水とほぼ同じです。重いほど薄くなる逆転を確かめてみましょう。",
+            "zh-TW": "中心黑洞M31*是太陽的1.4億倍 — 視界內的平均密度和水差不多。來看看「越重越稀」的反轉。",
+            "es": "Su agujero negro central, M31*, pesa 140 millones de soles, y su densidad media dentro del horizonte es parecida a la del agua. Comprueba que más pesado significa más tenue.",
+            "de": "Das zentrale Schwarze Loch M31* wiegt 140 Millionen Sonnen — seine mittlere Dichte innerhalb des Horizonts entspricht etwa der von Wasser. Schwerer heißt hier dünner.",
+            "pt-BR": "O buraco negro central, M31*, pesa 140 milhões de sóis — e sua densidade média dentro do horizonte é parecida com a da água. Veja como mais pesado significa mais rarefeito."
+          }
+        },
+        "milky-way": {
+          "hook": "우리은하 중심, 약 2만 6천 광년 거리에 태양 430만 배의 블랙홀이 있습니다 — 그 곁을 16년마다 도는 별 S2가 질량을 재 주었습니다.",
+          "hookI18n": {
+            "en": "About 26,000 light-years away, at our galaxy's center, sits a black hole of 4.3 million Suns — weighed by the star S2, which loops around it every 16 years.",
+            "ja": "天の川銀河の中心、約2万6,000光年先に太陽の430万倍のブラックホールがあります — その周りを16年ごとに回る星S2が質量を量ってくれました。",
+            "zh-TW": "銀河系中心、約2萬6千光年外，有一個430萬倍太陽質量的黑洞 — 每16年繞它一圈的恆星S2替它量出了質量。",
+            "es": "A unos 26.000 años luz, en el centro de nuestra galaxia, hay un agujero negro de 4,3 millones de soles; lo pesó la estrella S2, que lo rodea cada 16 años.",
+            "de": "Rund 26.000 Lichtjahre entfernt, im Zentrum unserer Galaxie, sitzt ein Schwarzes Loch von 4,3 Millionen Sonnen — gewogen vom Stern S2, der es alle 16 Jahre umrundet.",
+            "pt-BR": "A cerca de 26 mil anos-luz, no centro da nossa galáxia, há um buraco negro de 4,3 milhões de sóis — pesado pela estrela S2, que o contorna a cada 16 anos."
+          }
+        },
+        "m87": {
+          "hook": "EHT 고리의 한쪽이 더 밝은 이유 — 광속의 절반으로 도는 원반에서 우리 쪽으로 다가오는 면이 빛을 몰아 보내기 때문입니다.",
+          "hookI18n": {
+            "en": "Why one side of the EHT ring is brighter — gas circling at half the speed of light beams its glow forward on the side coming toward us.",
+            "ja": "EHTのリングの片側が明るい理由 — 光速の半分で回る円盤の、こちらへ近づく側が光を前方へ集めるからです。",
+            "zh-TW": "EHT光環為何一邊比較亮 — 以一半光速旋轉的吸積盤，朝我們而來的那一側把光往前集中射出。",
+            "es": "Por qué un lado del anillo del EHT brilla más: el gas que gira a la mitad de la velocidad de la luz concentra su brillo hacia delante en el lado que se nos acerca.",
+            "de": "Warum eine Seite des EHT-Rings heller ist — Gas, das mit halber Lichtgeschwindigkeit kreist, bündelt sein Licht auf der Seite, die auf uns zukommt.",
+            "pt-BR": "Por que um lado do anel do EHT brilha mais — o gás que gira a metade da velocidade da luz concentra seu brilho para a frente no lado que vem em nossa direção."
+          }
+        },
+        "omega-centauri": {
+          "hook": "2024년, 너무 빨리 움직이는 별 7개가 가리킨 태양 8,200배 이상의 블랙홀 — 중간질량 블랙홀의 가장 유력한 후보입니다.",
+          "hookI18n": {
+            "en": "In 2024, seven stars moving too fast for the cluster alone to hold pointed to a black hole of at least 8,200 Suns — the strongest candidate yet for an intermediate-mass black hole.",
+            "ja": "2024年、速すぎる7つの星が指し示した、太陽の8,200倍以上のブラックホール — 中間質量ブラックホールの最有力候補です。",
+            "zh-TW": "2024年，7顆跑得太快的恆星指向一個至少8,200倍太陽質量的黑洞 — 目前最有力的中等質量黑洞候選。",
+            "es": "En 2024, siete estrellas demasiado rápidas señalaron un agujero negro de al menos 8.200 soles: el candidato más sólido a agujero negro de masa intermedia.",
+            "de": "2024 verrieten sieben zu schnelle Sterne ein Schwarzes Loch von mindestens 8.200 Sonnen — der bislang stärkste Kandidat für ein mittelschweres Schwarzes Loch.",
+            "pt-BR": "Em 2024, sete estrelas rápidas demais apontaram um buraco negro de pelo menos 8.200 sóis — o candidato mais forte a buraco negro de massa intermediária."
+          }
+        },
+        "neutron": {
+          "hook": "중성자별이 버틸 수 있는 질량은 태양 2배 남짓까지 — 그 선을 넘으면 중력을 막을 것이 더는 없습니다.",
+          "hookI18n": {
+            "en": "A neutron star can hold up only a little over two Suns' worth of mass — past that line, nothing is left to stop gravity.",
+            "ja": "中性子星が支えられる質量は太陽の2倍余りまで — その線を越えると、重力を止めるものはもう何もありません。",
+            "zh-TW": "中子星撐得住的質量只到略多於2倍太陽 — 越過這條線，就再也沒有東西擋得住重力。",
+            "es": "Una estrella de neutrones solo aguanta algo más de dos soles de masa; pasada esa línea, ya nada detiene la gravedad.",
+            "de": "Ein Neutronenstern trägt nur gut zwei Sonnenmassen — jenseits dieser Grenze hält nichts mehr die Schwerkraft auf.",
+            "pt-BR": "Uma estrela de nêutrons só aguenta pouco mais de dois sóis de massa — passada essa linha, nada mais detém a gravidade."
+          }
+        },
+        "crab-pulsar": {
+          "hook": "초신성 뒤에 남은 심이 태양 2배 남짓을 넘었다면, 게성운 한가운데엔 펄서 대신 블랙홀이 있었을 겁니다.",
+          "hookI18n": {
+            "en": "Had the core left behind by the supernova been over about two Suns, the heart of the Crab Nebula would hold a black hole instead of a pulsar.",
+            "ja": "超新星のあとに残った芯が太陽の2倍余りを超えていたら、かに星雲の中心にはパルサーではなくブラックホールがあったでしょう。",
+            "zh-TW": "如果超新星留下的核心超過約2倍太陽質量，蟹狀星雲中心的就會是黑洞，而不是脈衝星。",
+            "es": "Si el núcleo que dejó la supernova hubiera superado unos dos soles, en el corazón de la Nebulosa del Cangrejo habría un agujero negro en lugar de un púlsar.",
+            "de": "Hätte der Kern, den die Supernova zurückließ, gut zwei Sonnen überschritten, säße im Herzen des Krebsnebels ein Schwarzes Loch statt eines Pulsars.",
+            "pt-BR": "Se o núcleo deixado pela supernova tivesse passado de uns dois sóis, o coração da Nebulosa do Caranguejo abrigaria um buraco negro em vez de um pulsar."
+          }
+        },
+        "gw170817": {
+          "hook": "두 중성자별이 합쳐 태양 약 2.7배 — 문턱을 넘었으니 아마 블랙홀이 됐겠지만, 아직 확정되지 않았습니다.",
+          "hookI18n": {
+            "en": "Two neutron stars merged into about 2.7 Suns — past the threshold, so probably a black hole, but that has not been confirmed.",
+            "ja": "2つの中性子星が合わさって太陽の約2.7倍 — しきい値を超えたので恐らくブラックホールになりましたが、まだ確定していません。",
+            "zh-TW": "兩顆中子星合併成約2.7倍太陽質量 — 超過門檻，很可能變成了黑洞，但尚未確定。",
+            "es": "Dos estrellas de neutrones se fusionaron en unos 2,7 soles: por encima del umbral, así que probablemente un agujero negro, aunque no está confirmado.",
+            "de": "Zwei Neutronensterne verschmolzen zu etwa 2,7 Sonnen — über der Schwelle, also wohl ein Schwarzes Loch, bestätigt ist das aber nicht.",
+            "pt-BR": "Duas estrelas de nêutrons se fundiram em cerca de 2,7 sóis — acima do limiar, então provavelmente um buraco negro, mas isso não foi confirmado."
           }
         }
       }

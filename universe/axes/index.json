@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "updatedAt": "2026-09-15T00:00:00Z",
   "header": "관통축",
   "headerI18n": {
@@ -1819,17 +1819,6 @@
         "pt-BR": "Buracos negros"
       },
       "objects": {
-        "earth": {
-          "hook": "지구를 블랙홀로 누르면 지름 약 1.8 cm, 구슬 한 알 — 그래도 질량은 그대로라 달은 똑같이 돕니다.",
-          "hookI18n": {
-            "en": "Squeeze Earth into a black hole and it's about 1.8 cm across — a marble. Its mass is unchanged, so the Moon keeps orbiting just the same.",
-            "ja": "地球をブラックホールに押し縮めると直径約1.8 cm、ビー玉ひとつ分。それでも質量は同じなので、月はいつも通り回り続けます。",
-            "zh-TW": "把地球壓成黑洞，直徑只有約1.8公分，一顆彈珠大。但質量不變，月球照樣繞著轉。",
-            "es": "Comprime la Tierra hasta hacerla un agujero negro y mediría unos 1,8 cm: una canica. Su masa no cambia, así que la Luna seguiría girando igual.",
-            "de": "Presst man die Erde zu einem Schwarzen Loch, misst sie nur etwa 1,8 cm — eine Murmel. Ihre Masse bleibt gleich, also kreist der Mond weiter wie bisher.",
-            "pt-BR": "Comprima a Terra num buraco negro e ela teria cerca de 1,8 cm — uma bolinha de gude. A massa é a mesma, então a Lua continua orbitando igualzinho."
-          }
-        },
         "sun": {
           "hook": "태양은 블랙홀이 되기엔 너무 가볍습니다. 같은 질량의 블랙홀로 바꿔치기해도 지구 궤도는 그대로 — 블랙홀은 청소기가 아닙니다.",
           "hookI18n": {

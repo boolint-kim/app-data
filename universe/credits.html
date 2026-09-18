@@ -320,6 +320,8 @@
     <p class="source-name">NASA 3D Resources — Body Texture Maps</p>
     <p class="source-meta">Public Domain · <a href="https://science.nasa.gov/3d-resources/" target="_blank" rel="noopener">science.nasa.gov/3d-resources/</a></p>
     <p class="source-attr">3D 뷰어의 컬러 텍스처 — 지구 + 위성 (이오·유로파·가니메데·칼리스토·미마스·엔셀라두스·테티스·디오네·레아·타이탄·이아페투스·미란다·아리엘·움브리엘·티타니아·오베론·트리톤). NASA 가 3D 모델용으로 unwrap 한 equirectangular 맵을 SphereGeometry 에 직접 매핑. 오베론은 USGS/Tammy Becker &amp; JPL Voyager 모자이크. "NASA Science Visualization"</p>
+    <p class="source-attr">타이탄은 두꺼운 안개 때문에 가시광으로 표면을 볼 수 없어, 원본 맵이 카시니의 근적외선·레이더 관측으로 만든 <strong>흑백</strong> 모자이크입니다. 앱에서는 이 NASA 맵의 <strong>명암(휘도)을 그대로 두고 색만 자체 보정</strong>해 실제 타이탄의 황갈색 표면에 가깝게 표시합니다 — 외부 컬러맵을 들여오지 않은 자체 파생물입니다.</p>
+    <p class="source-attr">유로파 컬러 텍스처도 원본이 갈릴레오 탐사선의 <strong>흑백</strong> 모자이크라 같은 방식으로 처리했습니다 — 명암은 원본 그대로 두고, 밝은 얼음 평원은 흰색으로, 균열(리니에)과 카오스 지대는 염분·황 화합물에 물든 적갈색으로 자체 보정했습니다.</p>
   </div>
 
   <div class="source">
@@ -393,7 +395,7 @@
 
   <h2>자산 출처 정책</h2>
   <p class="note">
-    본 앱의 3D 텍스처 자산은 두 출처군으로 단일화되어 있습니다 — <strong>NASA / USGS Public Domain</strong> (미국 정부 저작물, 출처 표기 의무 없으나 표기) 과 <strong>Solar System Scope CC BY 4.0</strong> (태양 + 행성 7종 본체 + 토성 고리 한정). Wikimedia Commons 의 CC BY 2.0 등 attribution 부담이 큰 라이선스는 자산 정책 일관성을 위해 채택하지 않습니다.
+    본 앱의 3D 텍스처 자산은 두 출처군으로 단일화되어 있습니다 — <strong>NASA / USGS Public Domain</strong> (미국 정부 저작물, 출처 표기 의무 없으나 표기) 과 <strong>Solar System Scope CC BY 4.0</strong> (태양 + 행성 7종 본체 + 토성 고리 한정). Wikimedia Commons 의 CC BY 2.0 등 attribution 부담이 큰 라이선스는 자산 정책 일관성을 위해 채택하지 않습니다. 색 보정·리샘플링 같은 파생 처리는 앱에서 자체 수행하며, 그 때문에 출처군이 늘어나지 않습니다.
   </p>
 
   <div class="footer">

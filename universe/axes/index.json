@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "updatedAt": "2026-09-15T00:00:00Z",
+  "version": 15,
+  "updatedAt": "2026-09-21T00:00:00Z",
   "header": "관통축",
   "headerI18n": {
     "en": "Cross-Axes",
@@ -1863,6 +1863,17 @@
             "pt-BR": "Por que um lado do anel do EHT brilha mais — o gás que gira a metade da velocidade da luz concentra seu brilho para a frente no lado que vem em nossa direção."
           }
         },
+        "quasar-3c273": {
+          "hook": "은하 전체보다 밝은 빛의 연료는 별이 아닙니다 — 태양 2억 6천만 배 블랙홀로 떨어지는 물질이 핵융합보다 훨씬 효율 좋게 빛을 냅니다.",
+          "hookI18n": {
+            "en": "Brighter than its whole galaxy, and stars aren't the fuel — matter falling onto a black hole 260 million times the Sun shines far more efficiently than fusion.",
+            "ja": "銀河全体より明るいのに、燃料は星ではありません — 太陽2億6千万倍のブラックホールへ落ちる物質が、核融合よりはるかに高い効率で輝きます。",
+            "zh-TW": "比整個星系還亮，燃料卻不是恆星 — 落向太陽2.6億倍黑洞的物質，以遠高於核融合的效率發光。",
+            "es": "Más brillante que su galaxia entera, y el combustible no son las estrellas: la materia que cae en un agujero negro de 260 millones de soles brilla mucho más eficientemente que la fusión.",
+            "de": "Heller als die ganze Galaxie — der Brennstoff sind nicht Sterne: Materie, die auf ein Schwarzes Loch von 260 Millionen Sonnenmassen stürzt, leuchtet weit effizienter als Fusion.",
+            "pt-BR": "Mais brilhante que a galáxia toda, e o combustível não são estrelas: a matéria que cai num buraco negro de 260 milhões de sóis brilha bem mais eficientemente que a fusão."
+          }
+        },
         "omega-centauri": {
           "hook": "2024년, 너무 빨리 움직이는 별 7개가 가리킨 태양 8,200배 이상의 블랙홀 — 중간질량 블랙홀의 가장 유력한 후보입니다.",
           "hookI18n": {
@@ -1894,6 +1905,17 @@
             "es": "Si el núcleo que dejó la supernova hubiera superado unos dos soles, en el corazón de la Nebulosa del Cangrejo habría un agujero negro en lugar de un púlsar.",
             "de": "Hätte der Kern, den die Supernova zurückließ, gut zwei Sonnen überschritten, säße im Herzen des Krebsnebels ein Schwarzes Loch statt eines Pulsars.",
             "pt-BR": "Se o núcleo deixado pela supernova tivesse passado de uns dois sóis, o coração da Nebulosa do Caranguejo abrigaria um buraco negro em vez de um pulsar."
+          }
+        },
+        "sn1987a": {
+          "hook": "폭발 뒤 무엇이 남았는지가 30년 넘는 수수께끼였습니다 — 2024년 제임스 웹이 잔해에서 찾은 건 블랙홀이 아니라 중성자별이었습니다.",
+          "hookI18n": {
+            "en": "What the blast left behind was a mystery for over 30 years — in 2024 the James Webb telescope found it in the debris: not a black hole, but a neutron star.",
+            "ja": "爆発のあとに何が残ったのかは30年以上の謎でした — 2024年、ジェイムズ・ウェッブが残骸に見つけたのは中性子星、ブラックホールではありません。",
+            "zh-TW": "爆炸後留下了什麼，三十多年來一直是謎 — 2024年詹姆斯・韋伯在殘骸中找到的是中子星，不是黑洞。",
+            "es": "Qué quedó tras la explosión fue un misterio más de 30 años: en 2024 el telescopio James Webb lo halló entre los restos, y no era un agujero negro, sino una estrella de neutrones.",
+            "de": "Was die Explosion zurückließ, war über 30 Jahre ein Rätsel — 2024 fand es das James-Webb-Teleskop im Überrest: kein Schwarzes Loch, sondern einen Neutronenstern.",
+            "pt-BR": "O que a explosão deixou foi um mistério por mais de 30 anos — em 2024 o telescópio James Webb achou nos destroços: não um buraco negro, mas uma estrela de nêutrons."
           }
         },
         "gw170817": {

@@ -1,7 +1,7 @@
 {
   "bandId": "stars",
-  "version": 9,
-  "updatedAt": "2026-08-06T00:00:00Z",
+  "version": 10,
+  "updatedAt": "2026-09-22T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -4512,6 +4512,159 @@
       "imageCredit": "ALMA (ESO/NAOJ/NRAO)",
       "imageLicense": "CC BY 4.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:HL_Tau_protoplanetary_disk.jpg"
+    },
+    {
+      "id": "procyon",
+      "bandId": "stars",
+      "type": "object",
+      "name": "프로키온",
+      "nameI18n": {
+        "en": "Procyon",
+        "ja": "プロキオン",
+        "es": "Procyon",
+        "de": "Prokyon",
+        "zh-TW": "南河三",
+        "pt-BR": "Prócion"
+      },
+      "summary": "밤하늘에서 여덟 번째로 밝은 별. 겨울의 대삼각형 한 축이며, 백색왜성 동반성을 거느린다.",
+      "summaryI18n": {
+        "en": "The eighth-brightest star in the night sky — one corner of the Winter Triangle, orbited by a white-dwarf companion.",
+        "ja": "夜空で8番目に明るい星。冬の大三角の一角をなし、白色矮星の伴星を従えている。",
+        "es": "La octava estrella más brillante del cielo nocturno: un vértice del Triángulo de Invierno, acompañada por una enana blanca.",
+        "de": "Der achthellste Stern am Nachthimmel – eine Ecke des Winterdreiecks, begleitet von einem Weißen Zwerg.",
+        "zh-TW": "夜空中第八亮的恆星——冬季大三角的一角，並有一顆白矮星伴星環繞。",
+        "pt-BR": "A oitava estrela mais brilhante do céu noturno — um vértice do Triângulo de Inverno, acompanhada por uma anã branca."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "procyon",
+      "lensValues": {
+        "size": 2.05,
+        "distance": 11.46
+      },
+      "hrPosition": {
+        "temp": 6530,
+        "luminosity": 6.93,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "F5 IV-V"
+        },
+        {
+          "label": "밝기 순위",
+          "value": "밤하늘 8위"
+        },
+        {
+          "label": "거리",
+          "value": "11.5광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "F5 IV-V"
+          },
+          {
+            "label": "Brightness rank",
+            "value": "8th in the night sky"
+          },
+          {
+            "label": "Distance",
+            "value": "11.5 ly"
+          }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "F5 IV-V"
+          },
+          {
+            "label": "明るさ順位",
+            "value": "夜空で8番目"
+          },
+          {
+            "label": "距離",
+            "value": "11.5光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "F5 IV-V"
+          },
+          {
+            "label": "Rango de brillo",
+            "value": "8.ª del cielo nocturno"
+          },
+          {
+            "label": "Distancia",
+            "value": "11,5 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "F5 IV-V"
+          },
+          {
+            "label": "Helligkeitsrang",
+            "value": "8. am Nachthimmel"
+          },
+          {
+            "label": "Entfernung",
+            "value": "11,5 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "F5 IV-V"
+          },
+          {
+            "label": "亮度排名",
+            "value": "夜空第 8 亮"
+          },
+          {
+            "label": "距離",
+            "value": "11.5 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "F5 IV-V"
+          },
+          {
+            "label": "Posição em brilho",
+            "value": "8.ª do céu noturno"
+          },
+          {
+            "label": "Distância",
+            "value": "11,5 anos-luz"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "procyonb",
+        "sirius"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Procyon",
+        "de": "Prokyon",
+        "es": "Procyon (estrella)",
+        "ja": "プロキオン",
+        "ko": "프로키온",
+        "pt": "Prócion",
+        "zh": "南河三"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/procyon.jpg",
+      "imageCredit": "Kevin M. Gill",
+      "imageLicense": "CC BY 2.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Procyon_-_(%CE%B1_Canis_Minoris)_-_March_20_2006_(46017503015).jpg"
     }
   ]
 }

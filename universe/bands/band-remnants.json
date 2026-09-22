@@ -1,7 +1,7 @@
 {
   "bandId": "remnants",
-  "version": 10,
-  "updatedAt": "2026-09-15T00:00:00Z",
+  "version": 11,
+  "updatedAt": "2026-09-22T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -1428,6 +1428,152 @@
       "imageCredit": "ESA/Hubble & NASA",
       "imageLicense": "CC BY 4.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SN_1987A_HST.jpg"
+    },
+    {
+      "id": "cassiopeia-a",
+      "bandId": "remnants",
+      "type": "object",
+      "name": "카시오페이아자리 A",
+      "nameI18n": {
+        "en": "Cassiopeia A",
+        "ja": "カシオペヤ座A",
+        "es": "Casiopea A",
+        "de": "Cassiopeia A",
+        "zh-TW": "仙后座A",
+        "pt-BR": "Cassiopeia A"
+      },
+      "summary": "우리 은하에서 가장 젊은 초신성 잔해. 약 350년 전 빛이 지구에 닿았고, 태양계 밖에서 가장 밝은 전파원이다.",
+      "summaryI18n": {
+        "en": "The youngest known supernova remnant in our galaxy — its light reached Earth about 350 years ago, and it is the brightest radio source beyond the Solar System.",
+        "ja": "天の川銀河で最も若い超新星残骸。約350年前にその光が地球に届き、太陽系外で最も明るい電波源でもある。",
+        "es": "El remanente de supernova más joven conocido en nuestra galaxia: su luz llegó a la Tierra hace unos 350 años y es la radiofuente más brillante fuera del Sistema Solar.",
+        "de": "Der jüngste bekannte Supernova-Überrest unserer Galaxie – sein Licht erreichte die Erde vor etwa 350 Jahren, und er ist die hellste Radioquelle außerhalb des Sonnensystems.",
+        "zh-TW": "銀河系中已知最年輕的超新星殘骸。其光芒約在 350 年前抵達地球，也是太陽系外最明亮的電波源。",
+        "pt-BR": "O remanescente de supernova mais jovem conhecido na nossa galáxia — sua luz chegou à Terra há cerca de 350 anos, e é a radiofonte mais brilhante fora do Sistema Solar."
+      },
+      "scene": "scene-supernova",
+      "sceneFocus": "ii",
+      "facts": [
+        {
+          "label": "거리",
+          "value": "약 11,000광년 — 카시오페이아자리"
+        },
+        {
+          "label": "나이",
+          "value": "약 350년 — 은하에서 가장 젊은 잔해"
+        },
+        {
+          "label": "중심",
+          "value": "중성자별"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Distance",
+            "value": "~11,000 ly — in Cassiopeia"
+          },
+          {
+            "label": "Age",
+            "value": "~350 years — youngest in the galaxy"
+          },
+          {
+            "label": "Core",
+            "value": "Neutron star"
+          }
+        ],
+        "ja": [
+          {
+            "label": "距離",
+            "value": "約11,000光年 — カシオペヤ座"
+          },
+          {
+            "label": "年齢",
+            "value": "約350年 — 銀河系で最も若い残骸"
+          },
+          {
+            "label": "中心",
+            "value": "中性子星"
+          }
+        ],
+        "es": [
+          {
+            "label": "Distancia",
+            "value": "~11.000 al — en Casiopea"
+          },
+          {
+            "label": "Edad",
+            "value": "~350 años — el más joven de la galaxia"
+          },
+          {
+            "label": "Núcleo",
+            "value": "Estrella de neutrones"
+          }
+        ],
+        "de": [
+          {
+            "label": "Entfernung",
+            "value": "~11.000 Lj — im Sternbild Cassiopeia"
+          },
+          {
+            "label": "Alter",
+            "value": "~350 Jahre — jüngster der Galaxie"
+          },
+          {
+            "label": "Kern",
+            "value": "Neutronenstern"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "距離",
+            "value": "約 11,000 光年 — 仙后座"
+          },
+          {
+            "label": "年齡",
+            "value": "約 350 年 — 銀河系最年輕的殘骸"
+          },
+          {
+            "label": "中心",
+            "value": "中子星"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Distância",
+            "value": "~11.000 anos-luz — em Cassiopeia"
+          },
+          {
+            "label": "Idade",
+            "value": "~350 anos — o mais jovem da galáxia"
+          },
+          {
+            "label": "Núcleo",
+            "value": "Estrela de nêutrons"
+          }
+        ]
+      },
+      "related": [
+        "supernova",
+        "sn1987a",
+        "crab-pulsar"
+      ],
+      "crossAxis": [
+        "element-origin"
+      ],
+      "wiki": {
+        "en": "Cassiopeia A",
+        "ko": "카시오페이아자리 A",
+        "ja": "カシオペヤ座A",
+        "es": "Casiopea A",
+        "de": "Cassiopeia A",
+        "pt": "Cassiopeia A",
+        "zh": "仙后座A"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/cassiopeia-a.jpg",
+      "imageCredit": "NASA, ESA, CSA, STScI, D. Milisavljevic (Purdue University), T. Temim (Princeton University), I. De Looze (University of Gent)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://esawebb.org/images/weic2330a/"
     }
   ]
 }

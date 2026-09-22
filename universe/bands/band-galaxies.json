@@ -1,7 +1,7 @@
 {
   "bandId": "galaxies",
-  "version": 7,
-  "updatedAt": "2026-09-15T00:00:00Z",
+  "version": 8,
+  "updatedAt": "2026-09-22T00:00:00Z",
   "curator": "boolint",
   "items": [
     {
@@ -2470,6 +2470,152 @@
       "imageCredit": "NASA, ESA, CSA, STScI",
       "imageLicense": "Public domain",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cartwheel_Galaxy_(NIRCam_and_MIRI_Composite_Image)_(weic2211a).jpeg"
+    },
+    {
+      "id": "triangulum",
+      "bandId": "galaxies",
+      "type": "object",
+      "name": "삼각형자리 은하 (M33)",
+      "nameI18n": {
+        "en": "Triangulum Galaxy (M33)",
+        "ja": "さんかく座銀河（M33）",
+        "es": "Galaxia del Triángulo (M33)",
+        "de": "Dreiecksgalaxie (M33)",
+        "zh-TW": "三角座星系（M33）",
+        "pt-BR": "Galáxia do Triângulo (M33)"
+      },
+      "summary": "국부 은하군에서 세 번째로 큰 나선은하. 맑고 어두운 밤이면 맨눈으로 보이는 가장 먼 천체로 꼽힌다.",
+      "summaryI18n": {
+        "en": "The third-largest spiral in the Local Group — often cited as the most distant object visible to the naked eye on a clear, dark night.",
+        "ja": "局部銀河群で3番目に大きな渦巻銀河。空の暗い夜には、肉眼で見える最も遠い天体としてしばしば挙げられる。",
+        "es": "La tercera espiral más grande del Grupo Local; suele citarse como el objeto más lejano visible a simple vista en una noche despejada y oscura.",
+        "de": "Die drittgrößte Spiralgalaxie der Lokalen Gruppe – oft als das fernste mit bloßem Auge sichtbare Objekt genannt.",
+        "zh-TW": "本星系群中第三大的螺旋星系。在晴朗的暗夜裡，常被視為肉眼可見的最遙遠天體。",
+        "pt-BR": "A terceira maior espiral do Grupo Local — frequentemente citada como o objeto mais distante visível a olho nu numa noite limpa e escura."
+      },
+      "scene": "scene-hubble-fork",
+      "sceneFocus": "Sc",
+      "facts": [
+        {
+          "label": "형태",
+          "value": "나선은하 (Sc)"
+        },
+        {
+          "label": "거리",
+          "value": "약 273만 광년"
+        },
+        {
+          "label": "특징",
+          "value": "국부 은하군 3위"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Type",
+            "value": "Spiral (Sc)"
+          },
+          {
+            "label": "Distance",
+            "value": "~2.73 million ly"
+          },
+          {
+            "label": "Note",
+            "value": "Third-largest in the Local Group"
+          }
+        ],
+        "ja": [
+          {
+            "label": "形態",
+            "value": "渦巻銀河（Sc）"
+          },
+          {
+            "label": "距離",
+            "value": "約273万光年"
+          },
+          {
+            "label": "特徴",
+            "value": "局部銀河群で3番目"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sc)"
+          },
+          {
+            "label": "Distancia",
+            "value": "~2,73 millones de al"
+          },
+          {
+            "label": "Nota",
+            "value": "Tercera del Grupo Local"
+          }
+        ],
+        "de": [
+          {
+            "label": "Typ",
+            "value": "Spiralgalaxie (Sc)"
+          },
+          {
+            "label": "Entfernung",
+            "value": "~2,73 Mio. Lj"
+          },
+          {
+            "label": "Hinweis",
+            "value": "Drittgrößte der Lokalen Gruppe"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "形態",
+            "value": "螺旋星系（Sc）"
+          },
+          {
+            "label": "距離",
+            "value": "約 273 萬光年"
+          },
+          {
+            "label": "特徵",
+            "value": "本星系群第三大"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo",
+            "value": "Espiral (Sc)"
+          },
+          {
+            "label": "Distância",
+            "value": "~2,73 milhões de anos-luz"
+          },
+          {
+            "label": "Nota",
+            "value": "Terceira maior do Grupo Local"
+          }
+        ]
+      },
+      "related": [
+        "hubble-fork",
+        "andromeda",
+        "pinwheel"
+      ],
+      "crossAxis": [
+        "light-delay"
+      ],
+      "wiki": {
+        "en": "Triangulum Galaxy",
+        "ko": "삼각형자리 은하",
+        "ja": "さんかく座銀河",
+        "es": "Galaxia del Triángulo",
+        "de": "Dreiecksgalaxie",
+        "pt": "Galáxia do Triângulo",
+        "zh": "三角座星系"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/triangulum.jpg",
+      "imageCredit": "NASA, ESA, and M. Durbin, J. Dalcanton, and B. F. Williams (University of Washington)",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://esahubble.org/images/heic1901a/"
     }
   ]
 }

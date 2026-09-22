@@ -1,6 +1,6 @@
 {
   "bandId": "stars",
-  "version": 10,
+  "version": 11,
   "updatedAt": "2026-09-22T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -4665,6 +4665,159 @@
       "imageCredit": "Kevin M. Gill",
       "imageLicense": "CC BY 2.0",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Procyon_-_(%CE%B1_Canis_Minoris)_-_March_20_2006_(46017503015).jpg"
+    },
+    {
+      "id": "castor",
+      "bandId": "stars",
+      "type": "object",
+      "name": "카스토르",
+      "nameI18n": {
+        "en": "Castor",
+        "ja": "カストル",
+        "es": "Cástor",
+        "de": "Castor",
+        "zh-TW": "北河二",
+        "pt-BR": "Castor"
+      },
+      "summary": "쌍둥이자리의 밝은 별. 눈에는 하나지만 실제로는 여섯 별이 세 쌍으로 묶여 도는 계다.",
+      "summaryI18n": {
+        "en": "A bright star in Gemini — a single point to the eye, but in reality six stars bound into three orbiting pairs.",
+        "ja": "ふたご座の明るい星。肉眼では一つに見えるが、実際は6つの星が3組の連星として回り合っている。",
+        "es": "Una estrella brillante de Géminis: a simple vista un solo punto, pero en realidad seis estrellas unidas en tres pares que se orbitan.",
+        "de": "Ein heller Stern der Zwillinge – für das Auge ein einzelner Punkt, tatsächlich aber sechs Sterne in drei einander umkreisenden Paaren.",
+        "zh-TW": "雙子座的亮星。肉眼看來是一顆，實際上卻是六顆恆星組成的三對互繞聯星。",
+        "pt-BR": "Uma estrela brilhante de Gêmeos — a olho nu um único ponto, mas na verdade seis estrelas unidas em três pares que se orbitam."
+      },
+      "scene": "scene-hr-diagram",
+      "sceneFocus": "castor",
+      "lensValues": {
+        "size": 2.4,
+        "distance": 51
+      },
+      "hrPosition": {
+        "temp": 10286,
+        "luminosity": 24,
+        "withinStandard": true
+      },
+      "facts": [
+        {
+          "label": "분광형",
+          "value": "A1V (Castor A)"
+        },
+        {
+          "label": "구성",
+          "value": "6중성계 — 3쌍의 쌍성"
+        },
+        {
+          "label": "거리",
+          "value": "51광년"
+        }
+      ],
+      "factsI18n": {
+        "en": [
+          {
+            "label": "Spectral type",
+            "value": "A1V (Castor A)"
+          },
+          {
+            "label": "System",
+            "value": "Sextuple — three binary pairs"
+          },
+          {
+            "label": "Distance",
+            "value": "51 ly"
+          }
+        ],
+        "ja": [
+          {
+            "label": "スペクトル型",
+            "value": "A1V（Castor A）"
+          },
+          {
+            "label": "構成",
+            "value": "六重連星 — 3組の連星"
+          },
+          {
+            "label": "距離",
+            "value": "51光年"
+          }
+        ],
+        "es": [
+          {
+            "label": "Tipo espectral",
+            "value": "A1V (Castor A)"
+          },
+          {
+            "label": "Sistema",
+            "value": "Séxtuple — tres pares binarios"
+          },
+          {
+            "label": "Distancia",
+            "value": "51 al"
+          }
+        ],
+        "de": [
+          {
+            "label": "Spektraltyp",
+            "value": "A1V (Castor A)"
+          },
+          {
+            "label": "System",
+            "value": "Sechsfachsystem — drei Doppelsternpaare"
+          },
+          {
+            "label": "Entfernung",
+            "value": "51 Lj"
+          }
+        ],
+        "zh-TW": [
+          {
+            "label": "光譜型",
+            "value": "A1V（Castor A）"
+          },
+          {
+            "label": "組成",
+            "value": "六合星 — 三對聯星"
+          },
+          {
+            "label": "距離",
+            "value": "51 光年"
+          }
+        ],
+        "pt-BR": [
+          {
+            "label": "Tipo espectral",
+            "value": "A1V (Castor A)"
+          },
+          {
+            "label": "Sistema",
+            "value": "Sêxtuplo — três pares binários"
+          },
+          {
+            "label": "Distância",
+            "value": "51 anos-luz"
+          }
+        ]
+      },
+      "related": [
+        "hr-diagram",
+        "pollux",
+        "sirius"
+      ],
+      "crossAxis": [],
+      "wiki": {
+        "en": "Castor (star)",
+        "ko": "카스토르 (항성)",
+        "ja": "カストル (恒星)",
+        "es": "Cástor (estrella)",
+        "de": "Castor (Stern)",
+        "pt": "Castor (estrela)",
+        "zh": "北河二"
+      },
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/castor.jpg",
+      "imageCredit": "NASA/JPL-Caltech; edited by Nicholas Beeson",
+      "imageLicense": "Public domain",
+      "imageSourceUrl": "https://www.jpl.nasa.gov/infographics/castor-the-6-star-system-a3-poster/"
     }
   ]
 }

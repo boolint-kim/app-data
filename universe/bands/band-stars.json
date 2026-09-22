@@ -1,6 +1,6 @@
 {
   "bandId": "stars",
-  "version": 11,
+  "version": 12,
   "updatedAt": "2026-09-22T00:00:00Z",
   "curator": "boolint",
   "items": [
@@ -4814,7 +4814,7 @@
         "pt": "Castor (estrela)",
         "zh": "北河二"
       },
-      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/castor.jpg",
+      "image": "https://pub-f5aa212b0d844fdcb5d8a4745f11beb3.r2.dev/bands/img/castor.jpg?v=2",
       "imageCredit": "NASA/JPL-Caltech; edited by Nicholas Beeson",
       "imageLicense": "Public domain",
       "imageSourceUrl": "https://www.jpl.nasa.gov/infographics/castor-the-6-star-system-a3-poster/"

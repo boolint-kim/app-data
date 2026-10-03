@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "_comment": "전월세 임대계산기(JunseWolse) 법정 비율. Android·iOS 공용. 앱은 시작 시 받아 캐시하고 다음 실행부터 적용한다(앱 번들값이 정본 — 수신 실패면 번들값). ★ 금통위에서 기준금리가 바뀌면 baseRate 와 asOf(결정일, yyyy.M.d)를 함께 고친다 — 둘 중 하나라도 이상하면 앱은 둘 다 버린다. 범위 밖 값은 경계값으로 자르지 않고 버린다(법정 숫자가 경계값으로 잘리면 그것도 틀린 숫자다). 범위: baseRate 0~10 · houseSpread 0~5(주택임대차보호법 시행령 제9조) · storeMultiple 1~10 · storeCeil 5~20(상가건물 임대차보호법 시행령 제5조) · increaseCap 1~10(주택임대차보호법 시행령 제8조). schemaVersion 이 1 이 아니면 앱은 파일 전체를 버린다. dev 환경이 없다 — push 전에 JSON 문법과 숫자를 한 번 더 확인할 것.",
+  "baseRate": 3.0,
+  "asOf": "2026.8.27",
+  "houseSpread": 2.0,
+  "storeMultiple": 4.5,
+  "storeCeil": 12.0,
+  "increaseCap": 5.0
+}

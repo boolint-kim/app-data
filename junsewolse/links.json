@@ -25,6 +25,10 @@
     "storeRateGuide": {
       "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=3",
       "source": "찾기쉬운 생활법령정보"
+    },
+    "simpleContractGuide": {
+      "url": "https://boolint.tistory.com/470",
+      "source": "운영자 블로그 — 집주인·임차인 직접 계약서 쓰는 법"
     }
   },
   "report": {

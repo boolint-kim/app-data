@@ -25,10 +25,6 @@
     "storeRateGuide": {
       "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=3",
       "source": "찾기쉬운 생활법령정보"
-    },
-    "rentHome": {
-      "url": "https://www.renthome.go.kr/",
-      "source": "렌트홈(등록임대주택 확인)"
     }
   },
   "report": {

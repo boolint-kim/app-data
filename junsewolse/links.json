@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "_comment": "전월세 임대계산기(JunseWolse) 외부 링크·임대차 신고 기준. Android·iOS 공용. 앱은 시작 시 받아 캐시하고 다음 실행부터 적용한다(앱 번들값이 정본 — 수신 실패면 번들값). url 은 https 이고 호스트가 .go.kr 로 끝나야 쓴다(아니면 그 항목만 버리고 번들값). 정부 사이트는 개편 때마다 주소가 바뀐다 — 깨지면 여기만 고친다(2026-10-06 국토부 rent_c_03/rent_f_02 가 삭제돼 법제처 조문 링크로 교체). report 는 주택임대차 신고 대상 기준(만원, '초과'): 부동산거래신고법 시행령 제4조의3 — depositOver 1000~100000 · rentOver 10~1000 범위 밖이면 버린다. schemaVersion 이 1 이 아니면 파일 전체를 버린다. dev 환경이 없다 — push 전에 JSON 문법과 주소를 브라우저로 한 번 더 열어 볼 것.",
+  "links": {
+    "standardContract": {
+      "url": "https://www.moj.go.kr/moj/314/subview.do",
+      "source": "법무부"
+    },
+    "registry": {
+      "url": "https://www.iros.go.kr/",
+      "source": "대법원 인터넷등기소"
+    },
+    "rentReport": {
+      "url": "https://rtms.molit.go.kr/",
+      "source": "국토교통부 부동산거래관리시스템"
+    },
+    "houseRateLaw": {
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A3%BC%ED%83%9D%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B3%B4%ED%98%B8%EB%B2%95/%EC%A0%9C7%EC%A1%B0%EC%9D%982",
+      "source": "국가법령정보센터"
+    },
+    "increaseLaw": {
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A3%BC%ED%83%9D%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B3%B4%ED%98%B8%EB%B2%95/%EC%A0%9C7%EC%A1%B0",
+      "source": "국가법령정보센터"
+    },
+    "storeRateGuide": {
+      "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=3&cciNo=1&cnpClsNo=3",
+      "source": "찾기쉬운 생활법령정보"
+    }
+  },
+  "report": {
+    "depositOver": 6000,
+    "rentOver": 30
+  }
+}

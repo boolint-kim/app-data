@@ -15,3 +15,7 @@ mysalary/rates.json — 4대보험 요율 + 근로소득 간이세액표 (MySala
 junsewolse/rates.json — 전월세 전환율 법정 비율 (전월세 임대계산기 Android·iOS)
 금통위에서 기준금리가 바뀌면 `baseRate` + `asOf`(결정일) 를 함께 수정 → push → 앱 다음 실행부터 반영
 범위 밖 값·schemaVersion 불일치는 앱이 버리고 번들값을 쓴다 (dev 환경 없음 — push 전 확인)
+
+junsewolse/links.json — 외부 링크(표준계약서·인터넷등기소·임대차 신고·법령 조문) + 주택임대차 신고 기준 (2026-10-06~, 앱 1.2.3 / iOS 1.4 부터 읽음)
+정부 사이트 주소가 바뀌면 해당 url 만 수정 → push. https + *.go.kr 만 허용(아니면 앱이 그 항목을 버린다)
+신고 기준(depositOver 6000 · rentOver 30, 만원 '초과')은 부동산거래신고법 시행령 제4조의3 이 바뀔 때만

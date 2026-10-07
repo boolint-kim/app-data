@@ -1,0 +1,547 @@
+{
+ "ver": 1,
+ "_note": "UniverseDaily 크기 화면 오늘의 투어(docs/tour_menu_plan.md §4). 앱 번들 assets/tours/daily.json 이 같은 사본(오프라인 폴백) — 바꾸면 번들도 같이. mmdd = 기기 현지 날짜.",
+ "rotation": {
+  "minGapDays": 7,
+  "exclude": [
+   "sun"
+  ],
+  "seed": 2026,
+  "epoch": "2026-01-01"
+ },
+ "anchors": [
+  {
+   "mmdd": "0101",
+   "body": "arrokoth",
+   "why": {
+    "ko": "2019년 오늘 뉴호라이즌스가 아로코스를 스쳐 지났습니다 — 탐사선이 찾아간 가장 먼 천체.",
+    "en": "On this day in 2019, New Horizons flew past Arrokoth — the most distant world a spacecraft has ever visited.",
+    "ja": "2019年の今日、ニュー・ホライズンズがアロコスをフライバイ。探査機が訪れた最も遠い天体です。",
+    "es": "Tal día como hoy, en 2019, New Horizons sobrevoló Arrokoth: el mundo más lejano visitado por una sonda.",
+    "pt": "Neste dia, em 2019, a New Horizons passou por Arrokoth — o mundo mais distante já visitado por uma sonda.",
+    "de": "An diesem Tag im Jahr 2019 flog New Horizons an Arrokoth vorbei – der fernste Himmelskörper, den je eine Sonde besucht hat.",
+    "zh": "2019年的今天，新視野號飛掠阿羅科斯——探測器造訪過最遙遠的天體。"
+   }
+  },
+  {
+   "mmdd": "0105",
+   "body": "eris",
+   "stop": "compare",
+   "why": {
+    "ko": "2005년 오늘 에리스가 처음 확인됐습니다 — 명왕성을 왜행성으로 만든 그 천체.",
+    "en": "On this day in 2005, Eris was first identified — the world that led to Pluto becoming a dwarf planet.",
+    "ja": "2005年の今日、エリスが初めて確認されました。冥王星が準惑星になるきっかけとなった天体です。",
+    "es": "Tal día como hoy, en 2005, se identificó Eris por primera vez: el mundo que convirtió a Plutón en planeta enano.",
+    "pt": "Neste dia, em 2005, Éris foi identificada pela primeira vez — o mundo que fez Plutão virar planeta anão.",
+    "de": "An diesem Tag im Jahr 2005 wurde Eris erstmals erkannt – der Himmelskörper, durch den Pluto zum Zwergplaneten wurde.",
+    "zh": "2005年的今天，鬩神星首次被辨認出來——正是它讓冥王星成了矮行星。"
+   }
+  },
+  {
+   "mmdd": "0107",
+   "body": "callisto",
+   "why": {
+    "ko": "1610년 오늘 갈릴레이가 망원경으로 목성 곁의 위성들을 처음 봤습니다.",
+    "en": "On this day in 1610, Galileo first saw the moons beside Jupiter through his telescope.",
+    "ja": "1610年の今日、ガリレオが望遠鏡で木星のそばの衛星を初めて見ました。",
+    "es": "Tal día como hoy, en 1610, Galileo vio por primera vez con su telescopio las lunas junto a Júpiter.",
+    "pt": "Neste dia, em 1610, Galileu viu pela primeira vez, com seu telescópio, as luas ao lado de Júpiter.",
+    "de": "An diesem Tag im Jahr 1610 sah Galilei mit seinem Fernrohr zum ersten Mal die Monde neben Jupiter.",
+    "zh": "1610年的今天，伽利略首次用望遠鏡看見木星旁的衛星。"
+   }
+  },
+  {
+   "mmdd": "0114",
+   "body": "titan",
+   "pins": [
+    "Xanadu",
+    "Kraken Mare",
+    "Ontario Lacus"
+   ],
+   "why": {
+    "ko": "2005년 오늘 하위헌스 탐사선이 타이탄에 내렸습니다 — 외행성계 천체에 처음 착륙한 날.",
+    "en": "On this day in 2005, the Huygens probe landed on Titan — the first landing in the outer Solar System.",
+    "ja": "2005年の今日、ホイヘンスがタイタンに着陸。外部太陽系で初めての着陸でした。",
+    "es": "Tal día como hoy, en 2005, la sonda Huygens se posó en Titán: el primer aterrizaje en el sistema solar exterior.",
+    "pt": "Neste dia, em 2005, a sonda Huygens pousou em Titã — o primeiro pouso no Sistema Solar exterior.",
+    "de": "An diesem Tag im Jahr 2005 landete die Sonde Huygens auf Titan – die erste Landung im äußeren Sonnensystem.",
+    "zh": "2005年的今天，惠更斯號降落在泰坦——人類首次在外太陽系著陸。"
+   }
+  },
+  {
+   "mmdd": "0124",
+   "body": "miranda",
+   "why": {
+    "ko": "1986년 오늘 보이저 2호가 천왕성을 지나며 미란다를 가까이서 찍었습니다.",
+    "en": "On this day in 1986, Voyager 2 swept past Uranus and photographed Miranda up close.",
+    "ja": "1986年の今日、ボイジャー2号が天王星を通過し、ミランダを間近で撮影しました。",
+    "es": "Tal día como hoy, en 1986, la Voyager 2 pasó junto a Urano y fotografió Miranda de cerca.",
+    "pt": "Neste dia, em 1986, a Voyager 2 passou por Urano e fotografou Miranda de perto.",
+    "de": "An diesem Tag im Jahr 1986 flog Voyager 2 an Uranus vorbei und fotografierte Miranda aus der Nähe.",
+    "zh": "1986年的今天，航海家2號飛越天王星，近距離拍下米蘭達。"
+   }
+  },
+  {
+   "mmdd": "0212",
+   "body": "eros",
+   "pins": [
+    "NEAR Shoemaker",
+    "Himeros",
+    "Psyche"
+   ],
+   "why": {
+    "ko": "2001년 오늘 NEAR 슈메이커가 에로스에 내려앉았습니다 — 소행성에 착륙한 첫 탐사선.",
+    "en": "On this day in 2001, NEAR Shoemaker touched down on Eros — the first spacecraft to land on an asteroid.",
+    "ja": "2001年の今日、ニア・シューメーカーがエロスに着地。小惑星に降りた最初の探査機です。",
+    "es": "Tal día como hoy, en 2001, la NEAR Shoemaker se posó en Eros: la primera nave en aterrizar en un asteroide.",
+    "pt": "Neste dia, em 2001, a NEAR Shoemaker pousou em Eros — a primeira sonda a pousar num asteroide.",
+    "de": "An diesem Tag im Jahr 2001 setzte NEAR Shoemaker auf Eros auf – die erste Sonde, die auf einem Asteroiden landete.",
+    "zh": "2001年的今天，NEAR舒梅克號降落在愛神星——第一艘登陸小行星的探測器。"
+   }
+  },
+  {
+   "mmdd": "0214",
+   "body": "earth",
+   "why": {
+    "ko": "1990년 오늘 보이저 1호가 60억 km 밖에서 지구를 찍었습니다 — '창백한 푸른 점'.",
+    "en": "On this day in 1990, Voyager 1 photographed Earth from 6 billion km away — the 'Pale Blue Dot'.",
+    "ja": "1990年の今日、ボイジャー1号が60億km彼方から地球を撮影しました。「ペイル・ブルー・ドット」です。",
+    "es": "Tal día como hoy, en 1990, la Voyager 1 fotografió la Tierra desde 6000 millones de km: el «punto azul pálido».",
+    "pt": "Neste dia, em 1990, a Voyager 1 fotografou a Terra a 6 bilhões de km — o 'pálido ponto azul'.",
+    "de": "An diesem Tag im Jahr 1990 fotografierte Voyager 1 die Erde aus 6 Milliarden km Entfernung – der „blassblaue Punkt“.",
+    "zh": "1990年的今天，航海家1號從60億公里外拍下地球——「暗淡藍點」。"
+   }
+  },
+  {
+   "mmdd": "0218",
+   "body": "mars",
+   "pins": [
+    "Jezero Crater",
+    "Gale Crater",
+    "Olympus Mons"
+   ],
+   "why": {
+    "ko": "2021년 오늘 퍼서비어런스가 화성 예제로 크레이터에 착륙했습니다.",
+    "en": "On this day in 2021, Perseverance landed in Mars's Jezero Crater.",
+    "ja": "2021年の今日、パーサヴィアランスが火星のジェゼロ・クレーターに着陸しました。",
+    "es": "Tal día como hoy, en 2021, Perseverance aterrizó en el cráter Jezero de Marte.",
+    "pt": "Neste dia, em 2021, o Perseverance pousou na cratera Jezero, em Marte.",
+    "de": "An diesem Tag im Jahr 2021 landete Perseverance im Marskrater Jezero.",
+    "zh": "2021年的今天，毅力號降落在火星耶澤羅隕石坑。"
+   }
+  },
+  {
+   "mmdd": "0222",
+   "body": "ryugu",
+   "pins": [
+    "Ryujin Dorsum",
+    "Urashima",
+    "Otohime Saxum"
+   ],
+   "why": {
+    "ko": "2019년 오늘 하야부사2가 류구에 처음 터치다운해 시료를 채취했습니다.",
+    "en": "On this day in 2019, Hayabusa2 made its first touchdown on Ryugu to collect a sample.",
+    "ja": "2019年の今日、はやぶさ2がリュウグウに初めてタッチダウンし、試料を採取しました。",
+    "es": "Tal día como hoy, en 2019, Hayabusa2 tocó Ryugu por primera vez para recoger una muestra.",
+    "pt": "Neste dia, em 2019, a Hayabusa2 tocou Ryugu pela primeira vez para coletar uma amostra.",
+    "de": "An diesem Tag im Jahr 2019 setzte Hayabusa2 zum ersten Mal auf Ryugu auf, um eine Probe zu nehmen.",
+    "zh": "2019年的今天，隼鳥2號首次觸地龍宮，採集樣本。"
+   }
+  },
+  {
+   "mmdd": "0305",
+   "body": "io",
+   "pins": [
+    "Loki Patera",
+    "Pele",
+    "Prometheus"
+   ],
+   "why": {
+    "ko": "1979년 오늘 보이저 1호가 목성을 지났고, 사흘 뒤 이오에서 활화산이 발견됐습니다.",
+    "en": "On this day in 1979, Voyager 1 passed Jupiter — three days later, active volcanoes were found on Io.",
+    "ja": "1979年の今日、ボイジャー1号が木星を通過。3日後、イオで活火山が見つかりました。",
+    "es": "Tal día como hoy, en 1979, la Voyager 1 pasó junto a Júpiter; tres días después se descubrieron volcanes activos en Ío.",
+    "pt": "Neste dia, em 1979, a Voyager 1 passou por Júpiter — três dias depois, vulcões ativos foram descobertos em Io.",
+    "de": "An diesem Tag im Jahr 1979 flog Voyager 1 an Jupiter vorbei – drei Tage später entdeckte man aktive Vulkane auf Io.",
+    "zh": "1979年的今天，航海家1號飛越木星；三天後，在埃歐上發現了活火山。"
+   }
+  },
+  {
+   "mmdd": "0306",
+   "body": "ceres",
+   "pins": [
+    "Occator",
+    "Ahuna Mons",
+    "Kerwan"
+   ],
+   "why": {
+    "ko": "2015년 오늘 돈 탐사선이 세레스 궤도에 들어갔습니다 — 왜행성을 도는 첫 탐사선.",
+    "en": "On this day in 2015, Dawn entered orbit around Ceres — the first spacecraft to orbit a dwarf planet.",
+    "ja": "2015年の今日、ドーンがケレスの周回軌道に入りました。準惑星を周回した最初の探査機です。",
+    "es": "Tal día como hoy, en 2015, Dawn entró en órbita de Ceres: la primera nave en orbitar un planeta enano.",
+    "pt": "Neste dia, em 2015, a Dawn entrou em órbita de Ceres — a primeira sonda a orbitar um planeta anão.",
+    "de": "An diesem Tag im Jahr 2015 schwenkte Dawn in eine Umlaufbahn um Ceres ein – die erste Sonde im Orbit eines Zwergplaneten.",
+    "zh": "2015年的今天，黎明號進入穀神星軌道——第一艘環繞矮行星的探測器。"
+   }
+  },
+  {
+   "mmdd": "0314",
+   "body": "halley",
+   "stop": "compare",
+   "why": {
+    "ko": "1986년 오늘 지오토가 핼리 혜성 핵을 600 km 거리에서 지났습니다.",
+    "en": "On this day in 1986, Giotto flew within 600 km of Halley's nucleus.",
+    "ja": "1986年の今日、ジオットがハレー彗星の核から600kmの距離を通過しました。",
+    "es": "Tal día como hoy, en 1986, Giotto pasó a 600 km del núcleo del cometa Halley.",
+    "pt": "Neste dia, em 1986, a Giotto passou a 600 km do núcleo do cometa Halley.",
+    "de": "An diesem Tag im Jahr 1986 flog Giotto in 600 km Abstand am Kern des Halleyschen Kometen vorbei.",
+    "zh": "1986年的今天，喬托號在距哈雷彗核600公里處飛過。"
+   }
+  },
+  {
+   "mmdd": "0318",
+   "body": "mercury",
+   "pins": [
+    "Caloris Basin",
+    "Rachmaninoff",
+    "Hokusai"
+   ],
+   "why": {
+    "ko": "2011년 오늘 메신저가 수성 궤도에 들어갔습니다 — 수성을 도는 첫 탐사선.",
+    "en": "On this day in 2011, MESSENGER entered orbit around Mercury — the first spacecraft to do so.",
+    "ja": "2011年の今日、メッセンジャーが水星の周回軌道に入りました。水星を周回した最初の探査機です。",
+    "es": "Tal día como hoy, en 2011, MESSENGER entró en órbita de Mercurio, la primera nave en lograrlo.",
+    "pt": "Neste dia, em 2011, a MESSENGER entrou em órbita de Mercúrio — a primeira sonda a fazer isso.",
+    "de": "An diesem Tag im Jahr 2011 schwenkte MESSENGER als erste Sonde in eine Umlaufbahn um Merkur ein.",
+    "zh": "2011年的今天，信使號進入水星軌道——第一艘環繞水星的探測器。"
+   }
+  },
+  {
+   "mmdd": "0613",
+   "body": "itokawa",
+   "pins": [
+    "MUSES-C Regio",
+    "Sagamihara Regio"
+   ],
+   "why": {
+    "ko": "2010년 오늘 하야부사가 이토카와의 먼지를 싣고 지구로 돌아왔습니다.",
+    "en": "On this day in 2010, Hayabusa returned to Earth carrying dust from Itokawa.",
+    "ja": "2010年の今日、はやぶさがイトカワの微粒子を載せて地球に帰還しました。",
+    "es": "Tal día como hoy, en 2010, Hayabusa regresó a la Tierra con polvo de Itokawa.",
+    "pt": "Neste dia, em 2010, a Hayabusa voltou à Terra trazendo poeira de Itokawa.",
+    "de": "An diesem Tag im Jahr 2010 kehrte Hayabusa mit Staub von Itokawa zur Erde zurück.",
+    "zh": "2010年的今天，隼鳥號帶著糸川的塵埃返回地球。"
+   }
+  },
+  {
+   "mmdd": "0622",
+   "body": "charon",
+   "why": {
+    "ko": "1978년 오늘 명왕성의 위성 카론이 발견됐습니다.",
+    "en": "On this day in 1978, Pluto's moon Charon was discovered.",
+    "ja": "1978年の今日、冥王星の衛星カロンが発見されました。",
+    "es": "Tal día como hoy, en 1978, se descubrió Caronte, la luna de Plutón.",
+    "pt": "Neste dia, em 1978, foi descoberta Caronte, a lua de Plutão.",
+    "de": "An diesem Tag im Jahr 1978 wurde Plutos Mond Charon entdeckt.",
+    "zh": "1978年的今天，冥王星的衛星凱倫被發現。"
+   }
+  },
+  {
+   "mmdd": "0701",
+   "body": "3i-atlas",
+   "stop": "compare",
+   "why": {
+    "ko": "2025년 오늘 세 번째 성간 천체 3I/ATLAS가 발견됐습니다.",
+    "en": "On this day in 2025, 3I/ATLAS — the third known interstellar object — was discovered.",
+    "ja": "2025年の今日、3番目の恒星間天体 3I/ATLAS が発見されました。",
+    "es": "Tal día como hoy, en 2025, se descubrió 3I/ATLAS, el tercer objeto interestelar conocido.",
+    "pt": "Neste dia, em 2025, foi descoberto o 3I/ATLAS, o terceiro objeto interestelar conhecido.",
+    "de": "An diesem Tag im Jahr 2025 wurde 3I/ATLAS entdeckt – das dritte bekannte interstellare Objekt.",
+    "zh": "2025年的今天，第三個已知星際天體 3I/ATLAS 被發現。"
+   }
+  },
+  {
+   "mmdd": "0704",
+   "body": "tempel1",
+   "why": {
+    "ko": "2005년 오늘 딥 임팩트가 템펠 1 혜성에 충돌체를 부딪쳤습니다.",
+    "en": "On this day in 2005, Deep Impact slammed an impactor into comet Tempel 1.",
+    "ja": "2005年の今日、ディープ・インパクトがテンペル第1彗星に衝突体をぶつけました。",
+    "es": "Tal día como hoy, en 2005, Deep Impact lanzó un proyectil contra el cometa Tempel 1.",
+    "pt": "Neste dia, em 2005, a Deep Impact lançou um projétil contra o cometa Tempel 1.",
+    "de": "An diesem Tag im Jahr 2005 schoss Deep Impact einen Projektilkörper auf den Kometen Tempel 1.",
+    "zh": "2005年的今天，深度撞擊號讓撞擊器撞上坦普爾1號彗星。"
+   }
+  },
+  {
+   "mmdd": "0714",
+   "body": "pluto",
+   "pins": [
+    "Tombaugh Regio",
+    "Sputnik Planitia",
+    "Tenzing Montes"
+   ],
+   "why": {
+    "ko": "2015년 오늘 뉴호라이즌스가 명왕성을 처음으로 가까이서 지났습니다.",
+    "en": "On this day in 2015, New Horizons made the first close flyby of Pluto.",
+    "ja": "2015年の今日、ニュー・ホライズンズが冥王星に初めて接近しました。",
+    "es": "Tal día como hoy, en 2015, New Horizons realizó el primer sobrevuelo cercano de Plutón.",
+    "pt": "Neste dia, em 2015, a New Horizons fez o primeiro sobrevoo próximo de Plutão.",
+    "de": "An diesem Tag im Jahr 2015 flog New Horizons erstmals dicht an Pluto vorbei.",
+    "zh": "2015年的今天，新視野號首次近距離飛掠冥王星。"
+   }
+  },
+  {
+   "mmdd": "0716",
+   "body": "vesta",
+   "stop": "compare",
+   "why": {
+    "ko": "2011년 오늘 돈 탐사선이 베스타 궤도에 들어갔습니다.",
+    "en": "On this day in 2011, Dawn entered orbit around Vesta.",
+    "ja": "2011年の今日、ドーンがベスタの周回軌道に入りました。",
+    "es": "Tal día como hoy, en 2011, Dawn entró en órbita de Vesta.",
+    "pt": "Neste dia, em 2011, a Dawn entrou em órbita de Vesta.",
+    "de": "An diesem Tag im Jahr 2011 schwenkte Dawn in eine Umlaufbahn um Vesta ein.",
+    "zh": "2011年的今天，黎明號進入灶神星軌道。"
+   }
+  },
+  {
+   "mmdd": "0720",
+   "body": "mars",
+   "pins": [
+    "Chryse Planitia",
+    "Olympus Mons",
+    "Valles Marineris"
+   ],
+   "why": {
+    "ko": "1976년 오늘 바이킹 1호가 화성 크리세 평원에 내렸습니다.",
+    "en": "On this day in 1976, Viking 1 landed on Mars's Chryse Planitia.",
+    "ja": "1976年の今日、バイキング1号が火星のクリュセ平原に着陸しました。",
+    "es": "Tal día como hoy, en 1976, la Viking 1 aterrizó en Chryse Planitia, en Marte.",
+    "pt": "Neste dia, em 1976, a Viking 1 pousou em Chryse Planitia, em Marte.",
+    "de": "An diesem Tag im Jahr 1976 landete Viking 1 auf der Marsebene Chryse Planitia.",
+    "zh": "1976年的今天，維京1號降落在火星克律塞平原。"
+   }
+  },
+  {
+   "mmdd": "0806",
+   "body": "mars",
+   "pins": [
+    "Gale Crater",
+    "Valles Marineris",
+    "Olympus Mons"
+   ],
+   "why": {
+    "ko": "2012년 오늘 큐리오시티가 화성 게일 크레이터에 착륙했습니다.",
+    "en": "On this day in 2012, Curiosity landed in Mars's Gale Crater.",
+    "ja": "2012年の今日、キュリオシティが火星のゲール・クレーターに着陸しました。",
+    "es": "Tal día como hoy, en 2012, Curiosity aterrizó en el cráter Gale de Marte.",
+    "pt": "Neste dia, em 2012, o Curiosity pousou na cratera Gale, em Marte.",
+    "de": "An diesem Tag im Jahr 2012 landete Curiosity im Marskrater Gale.",
+    "zh": "2012年的今天，好奇號降落在火星蓋爾隕石坑。"
+   }
+  },
+  {
+   "mmdd": "0825",
+   "body": "triton",
+   "why": {
+    "ko": "1989년 오늘 보이저 2호가 해왕성과 트리톤을 지났습니다 — 트리톤에서 얼음 간헐천을 발견했습니다.",
+    "en": "On this day in 1989, Voyager 2 passed Neptune and Triton — and spotted icy geysers on Triton.",
+    "ja": "1989年の今日、ボイジャー2号が海王星とトリトンを通過し、トリトンで氷の間欠泉を見つけました。",
+    "es": "Tal día como hoy, en 1989, la Voyager 2 pasó junto a Neptuno y Tritón, y descubrió géiseres helados en Tritón.",
+    "pt": "Neste dia, em 1989, a Voyager 2 passou por Netuno e Tritão — e avistou gêiseres gelados em Tritão.",
+    "de": "An diesem Tag im Jahr 1989 flog Voyager 2 an Neptun und Triton vorbei – und entdeckte eisige Geysire auf Triton.",
+    "zh": "1989年的今天，航海家2號飛越海王星與崔頓，並在崔頓上發現冰間歇泉。"
+   }
+  },
+  {
+   "mmdd": "0828",
+   "body": "ida",
+   "why": {
+    "ko": "1993년 오늘 갈릴레오가 이다를 지났습니다 — 그때 찍은 사진에서 소행성의 위성 닥틸이 처음 발견됐습니다.",
+    "en": "On this day in 1993, Galileo flew past Ida — its images revealed Dactyl, the first known moon of an asteroid.",
+    "ja": "1993年の今日、ガリレオがイダを通過。その画像から小惑星の衛星ダクティルが初めて見つかりました。",
+    "es": "Tal día como hoy, en 1993, Galileo sobrevoló Ida; sus imágenes revelaron Dáctilo, la primera luna conocida de un asteroide.",
+    "pt": "Neste dia, em 1993, a Galileo passou por Ida — suas imagens revelaram Dáctilo, a primeira lua conhecida de um asteroide.",
+    "de": "An diesem Tag im Jahr 1993 flog Galileo an Ida vorbei – ihre Bilder zeigten Dactyl, den ersten bekannten Asteroidenmond.",
+    "zh": "1993年的今天，伽利略號飛掠艾女星，當時的影像揭露了第一顆已知的小行星衛星艾衛。"
+   }
+  },
+  {
+   "mmdd": "0830",
+   "body": "2i-borisov",
+   "stop": "compare",
+   "why": {
+    "ko": "2019년 오늘 두 번째 성간 천체 2I/보리소프가 발견됐습니다.",
+    "en": "On this day in 2019, 2I/Borisov — the second known interstellar object — was discovered.",
+    "ja": "2019年の今日、2番目の恒星間天体 2I/ボリソフが発見されました。",
+    "es": "Tal día como hoy, en 2019, se descubrió 2I/Borisov, el segundo objeto interestelar conocido.",
+    "pt": "Neste dia, em 2019, foi descoberto o 2I/Borisov, o segundo objeto interestelar conhecido.",
+    "de": "An diesem Tag im Jahr 2019 wurde 2I/Borisov entdeckt – das zweite bekannte interstellare Objekt.",
+    "zh": "2019年的今天，第二個已知星際天體 2I/鮑里索夫被發現。"
+   }
+  },
+  {
+   "mmdd": "0915",
+   "body": "enceladus",
+   "pins": [
+    "Tiger Stripes",
+    "Damascus Sulcus",
+    "Sarandib Planitia"
+   ],
+   "why": {
+    "ko": "2017년 오늘 카시니가 토성으로 뛰어들며 13년 임무를 마쳤습니다 — 엔셀라두스의 물기둥을 찾아낸 탐사선.",
+    "en": "On this day in 2017, Cassini plunged into Saturn, ending a 13-year mission — the probe that found Enceladus's water plumes.",
+    "ja": "2017年の今日、カッシーニが土星に突入し13年の任務を終えました。エンケラドゥスの水の噴出を見つけた探査機です。",
+    "es": "Tal día como hoy, en 2017, Cassini se lanzó contra Saturno y terminó su misión de 13 años: la sonda que halló los chorros de agua de Encélado.",
+    "pt": "Neste dia, em 2017, a Cassini mergulhou em Saturno, encerrando 13 anos de missão — a sonda que achou os jatos de água de Encélado.",
+    "de": "An diesem Tag im Jahr 2017 stürzte Cassini in Saturn und beendete ihre 13-jährige Mission – die Sonde, die die Wasserfontänen von Enceladus fand.",
+    "zh": "2017年的今天，卡西尼號衝入土星，結束13年任務——正是它發現了土衛二的水柱。"
+   }
+  },
+  {
+   "mmdd": "0923",
+   "body": "neptune",
+   "why": {
+    "ko": "1846년 오늘 해왕성이 발견됐습니다 — 계산으로 먼저 찾아낸 행성.",
+    "en": "On this day in 1846, Neptune was discovered — the planet found first by mathematics.",
+    "ja": "1846年の今日、海王星が発見されました。計算で先に見つかった惑星です。",
+    "es": "Tal día como hoy, en 1846, se descubrió Neptuno: el planeta que se halló primero con cálculos.",
+    "pt": "Neste dia, em 1846, Netuno foi descoberto — o planeta encontrado primeiro pela matemática.",
+    "de": "An diesem Tag im Jahr 1846 wurde Neptun entdeckt – der Planet, den man zuerst durch Berechnung fand.",
+    "zh": "1846年的今天，海王星被發現——第一顆先由計算預測出的行星。"
+   }
+  },
+  {
+   "mmdd": "0926",
+   "body": "dimorphos",
+   "why": {
+    "ko": "2022년 오늘 DART가 디모르포스에 충돌해 궤도를 바꿨습니다 — 인류 최초의 행성 방어 실험.",
+    "en": "On this day in 2022, DART struck Dimorphos and changed its orbit — humanity's first planetary defense test.",
+    "ja": "2022年の今日、DARTがディモルフォスに衝突し軌道を変えました。人類初の惑星防衛実験です。",
+    "es": "Tal día como hoy, en 2022, DART chocó contra Dimorfo y cambió su órbita: la primera prueba de defensa planetaria.",
+    "pt": "Neste dia, em 2022, a DART colidiu com Dimorphos e mudou sua órbita — o primeiro teste de defesa planetária.",
+    "de": "An diesem Tag im Jahr 2022 traf DART Dimorphos und änderte seine Bahn – der erste Test zur Planetenabwehr.",
+    "zh": "2022年的今天，DART撞擊迪莫弗斯並改變其軌道——人類首次行星防禦實驗。"
+   }
+  },
+  {
+   "mmdd": "1019",
+   "body": "1i-oumuamua",
+   "stop": "compare",
+   "why": {
+    "ko": "2017년 오늘 첫 성간 천체 오우무아무아가 발견됐습니다.",
+    "en": "On this day in 2017, ʻOumuamua — the first known interstellar object — was discovered.",
+    "ja": "2017年の今日、初の恒星間天体オウムアムアが発見されました。",
+    "es": "Tal día como hoy, en 2017, se descubrió ʻOumuamua, el primer objeto interestelar conocido.",
+    "pt": "Neste dia, em 2017, foi descoberto o ʻOumuamua, o primeiro objeto interestelar conhecido.",
+    "de": "An diesem Tag im Jahr 2017 wurde ʻOumuamua entdeckt – das erste bekannte interstellare Objekt.",
+    "zh": "2017年的今天，第一個已知星際天體「斥候星」被發現。"
+   }
+  },
+  {
+   "mmdd": "1020",
+   "body": "bennu",
+   "pins": [
+    "Hokioi",
+    "Benben Saxum",
+    "Roc Saxum"
+   ],
+   "why": {
+    "ko": "2020년 오늘 OSIRIS-REx가 베누 표면을 짧게 찍고 시료를 담았습니다.",
+    "en": "On this day in 2020, OSIRIS-REx tapped Bennu's surface and grabbed a sample.",
+    "ja": "2020年の今日、オシリス・レックスがベンヌの表面に触れて試料を採取しました。",
+    "es": "Tal día como hoy, en 2020, OSIRIS-REx tocó la superficie de Bennu y tomó una muestra.",
+    "pt": "Neste dia, em 2020, a OSIRIS-REx tocou a superfície de Bennu e coletou uma amostra.",
+    "de": "An diesem Tag im Jahr 2020 berührte OSIRIS-REx kurz Bennus Oberfläche und nahm eine Probe.",
+    "zh": "2020年的今天，歐西里斯號短暫觸碰貝努表面並採集樣本。"
+   }
+  },
+  {
+   "mmdd": "1029",
+   "body": "gaspra",
+   "pins": [
+    "Saratoga",
+    "Spa",
+    "Charax"
+   ],
+   "why": {
+    "ko": "1991년 오늘 갈릴레오가 가스프라를 지났습니다 — 탐사선이 처음 가까이서 본 소행성.",
+    "en": "On this day in 1991, Galileo flew past Gaspra — the first asteroid ever seen up close.",
+    "ja": "1991年の今日、ガリレオがガスプラを通過しました。探査機が初めて間近で見た小惑星です。",
+    "es": "Tal día como hoy, en 1991, Galileo sobrevoló Gaspra: el primer asteroide visto de cerca.",
+    "pt": "Neste dia, em 1991, a Galileo passou por Gaspra — o primeiro asteroide visto de perto.",
+    "de": "An diesem Tag im Jahr 1991 flog Galileo an Gaspra vorbei – der erste Asteroid, der je aus der Nähe gesehen wurde.",
+    "zh": "1991年的今天，伽利略號飛掠加斯普拉——第一顆被近距離觀察的小行星。"
+   }
+  },
+  {
+   "mmdd": "1112",
+   "body": "67p",
+   "stop": "compare",
+   "why": {
+    "ko": "2014년 오늘 필레가 67P 혜성에 내렸습니다 — 혜성에 처음 착륙한 날.",
+    "en": "On this day in 2014, Philae landed on comet 67P — the first landing on a comet.",
+    "ja": "2014年の今日、フィラエが67P彗星に着陸。彗星への初めての着陸でした。",
+    "es": "Tal día como hoy, en 2014, Philae se posó en el cometa 67P: el primer aterrizaje en un cometa.",
+    "pt": "Neste dia, em 2014, a Philae pousou no cometa 67P — o primeiro pouso num cometa.",
+    "de": "An diesem Tag im Jahr 2014 landete Philae auf dem Kometen 67P – die erste Landung auf einem Kometen.",
+    "zh": "2014年的今天，菲萊號降落在67P彗星——人類首次登陸彗星。"
+   }
+  },
+  {
+   "mmdd": "1114",
+   "body": "mars",
+   "pins": [
+    "Valles Marineris",
+    "Olympus Mons",
+    "Arsia Mons"
+   ],
+   "why": {
+    "ko": "1971년 오늘 마리너 9호가 화성 궤도에 들어갔습니다 — 다른 행성을 돈 첫 탐사선. 마리네리스 협곡이 그 이름을 땄습니다.",
+    "en": "On this day in 1971, Mariner 9 entered orbit around Mars — the first spacecraft to orbit another planet. Valles Marineris bears its name.",
+    "ja": "1971年の今日、マリナー9号が火星の周回軌道に入りました。他の惑星を周回した最初の探査機で、マリネリス峡谷はその名に由来します。",
+    "es": "Tal día como hoy, en 1971, la Mariner 9 entró en órbita de Marte: la primera nave en orbitar otro planeta. Valles Marineris lleva su nombre.",
+    "pt": "Neste dia, em 1971, a Mariner 9 entrou em órbita de Marte — a primeira sonda a orbitar outro planeta. Valles Marineris leva seu nome.",
+    "de": "An diesem Tag im Jahr 1971 schwenkte Mariner 9 in eine Umlaufbahn um Mars ein – die erste Sonde im Orbit eines anderen Planeten. Valles Marineris trägt ihren Namen.",
+    "zh": "1971年的今天，水手9號進入火星軌道——第一艘環繞其他行星的探測器，水手號峽谷即以它命名。"
+   }
+  },
+  {
+   "mmdd": "1207",
+   "body": "europa",
+   "pins": [
+    "Conamara Chaos",
+    "Pwyll",
+    "Thera Macula"
+   ],
+   "why": {
+    "ko": "1995년 오늘 갈릴레오가 목성에 도착했습니다 — 유로파 얼음 아래 바다의 단서를 찾은 탐사선.",
+    "en": "On this day in 1995, Galileo arrived at Jupiter — the probe that found clues to an ocean under Europa's ice.",
+    "ja": "1995年の今日、ガリレオが木星に到着しました。エウロパの氷の下の海の手がかりを見つけた探査機です。",
+    "es": "Tal día como hoy, en 1995, Galileo llegó a Júpiter: la sonda que halló pistas de un océano bajo el hielo de Europa.",
+    "pt": "Neste dia, em 1995, a Galileo chegou a Júpiter — a sonda que achou pistas de um oceano sob o gelo de Europa.",
+    "de": "An diesem Tag im Jahr 1995 erreichte Galileo Jupiter – die Sonde, die Hinweise auf einen Ozean unter dem Eis von Europa fand.",
+    "zh": "1995年的今天，伽利略號抵達木星——正是它找到木衛二冰下海洋的線索。"
+   }
+  },
+  {
+   "mmdd": "1215",
+   "body": "venus",
+   "pins": [
+    "Maat Mons",
+    "Maxwell Montes",
+    "Aphrodite Terra"
+   ],
+   "why": {
+    "ko": "1970년 오늘 베네라 7호가 금성에 내렸습니다 — 다른 행성 표면에서 처음 신호를 보낸 탐사선.",
+    "en": "On this day in 1970, Venera 7 landed on Venus — the first probe to send data from another planet's surface.",
+    "ja": "1970年の今日、ベネラ7号が金星に着陸。他の惑星の地表から初めて信号を送った探査機です。",
+    "es": "Tal día como hoy, en 1970, la Venera 7 se posó en Venus: la primera sonda que envió datos desde la superficie de otro planeta.",
+    "pt": "Neste dia, em 1970, a Venera 7 pousou em Vênus — a primeira sonda a enviar dados da superfície de outro planeta.",
+    "de": "An diesem Tag im Jahr 1970 landete Venera 7 auf der Venus – die erste Sonde, die Daten von der Oberfläche eines anderen Planeten sendete.",
+    "zh": "1970年的今天，金星7號降落在金星——第一艘從其他行星表面傳回數據的探測器。"
+   }
+  }
+ ]
+}

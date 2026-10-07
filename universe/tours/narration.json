@@ -1,0 +1,589 @@
+{
+ "ver": 1,
+ "_note": "크기 화면 투어 해설 정본(docs/tour_menu_plan.md §10.3). bodies.<id>.say.<lang> = 소개 해설(모든 천체 필수, 7언어 ko/en/ja/zh/es/pt/de). 길이 상한 = TTS 30초: ko·ja 110자 · zh 80자 · en/es/pt/de 220자. 괄호 없이, 숫자+단위는 ttsText 정규화가 읽는다. bodies.<id>.pins.<핀 이름>.say.<lang> 가 있으면 features.json 의 area_xx 대신 그것을 읽는다(선택). 예약 필드: clip(녹음 클립 경로 접두), dur(언어별 초). 번들 사본(assets/tours · iOS web/tours)은 이 파일과 바이트 동일이어야 한다 — scripts/narration-test.mjs",
+ "bodies": {
+  "sun": {
+   "say": {
+    "ko": "태양계 질량의 99.8%를 차지하는 우리의 별입니다. 지름은 지구의 109배이고, 중심의 핵융합으로 46억 년째 빛나고 있습니다.",
+    "en": "Our star, holding 99.8% of the Solar System's mass. It is 109 times wider than Earth and has shone for 4.6 billion years on nuclear fusion in its core.",
+    "ja": "太陽系の質量の99.8%を占める私たちの恒星です。直径は地球の109倍で、中心部の核融合によって46億年間輝き続けています。",
+    "zh": "我們的恆星，占太陽系質量的99.8%。直徑是地球的109倍，靠核心的核融合已發光46億年。",
+    "es": "Nuestra estrella, con el 99,8 % de la masa del Sistema Solar. Es 109 veces más ancha que la Tierra y brilla desde hace 4.600 millones de años gracias a la fusión nuclear de su núcleo.",
+    "pt": "Nossa estrela, com 99,8% da massa do Sistema Solar. É 109 vezes mais larga que a Terra e brilha há 4,6 bilhões de anos graças à fusão nuclear em seu núcleo.",
+    "de": "Unser Stern mit 99,8 % der Masse des Sonnensystems. Er ist 109-mal breiter als die Erde und leuchtet seit 4,6 Milliarden Jahren durch Kernfusion in seinem Inneren."
+   }
+  },
+  "mercury": {
+   "say": {
+    "ko": "태양에 가장 가깝고 가장 작은 행성입니다. 88일에 태양을 한 바퀴 돌고, 낮에는 430도까지 달아올랐다가 밤에는 영하 180도까지 식습니다.",
+    "en": "The smallest planet and the closest to the Sun. It circles the Sun in just 88 days, baking to 430 °C by day and plunging to minus 180 °C at night.",
+    "ja": "太陽に最も近く、最も小さな惑星です。88日で太陽を一周し、昼は430度まで熱せられ、夜は氷点下180度まで冷え込みます。",
+    "zh": "離太陽最近、也最小的行星。88天繞太陽一圈，白天高達430度，夜晚降到零下180度。",
+    "es": "El planeta más pequeño y el más cercano al Sol. Da la vuelta al Sol en solo 88 días; de día alcanza 430 °C y de noche cae a 180 grados bajo cero.",
+    "pt": "O menor planeta e o mais próximo do Sol. Dá a volta ao Sol em apenas 88 dias, chegando a 430 °C de dia e caindo a 180 graus negativos à noite.",
+    "de": "Der kleinste Planet und der sonnennächste. Er umrundet die Sonne in nur 88 Tagen, heizt sich tagsüber auf 430 °C auf und kühlt nachts auf minus 180 °C ab."
+   }
+  },
+  "venus": {
+   "say": {
+    "ko": "크기는 지구와 비슷하지만 두꺼운 이산화탄소 대기가 열을 가두어, 표면이 460도가 넘는 태양계에서 가장 뜨거운 행성입니다. 다른 행성과 반대 방향으로 천천히 자전합니다.",
+    "en": "Nearly Earth's twin in size, but a thick carbon-dioxide atmosphere traps heat and bakes the surface above 460 °C, making it the hottest planet in the Solar System. It spins slowly, backwards.",
+    "ja": "大きさは地球とほぼ同じですが、厚い二酸化炭素の大気が熱を閉じ込め、表面は460度を超える太陽系で最も熱い惑星です。他の惑星とは逆向きにゆっくり自転します。",
+    "zh": "大小與地球相近，但厚重的二氧化碳大氣鎖住熱量，表面超過460度，是太陽系最熱的行星。它緩慢地反向自轉。",
+    "es": "Casi gemelo de la Tierra en tamaño, pero su densa atmósfera de dióxido de carbono atrapa el calor y calienta la superficie a más de 460 °C: el planeta más caliente del Sistema Solar. Gira lentamente al revés.",
+    "pt": "Quase gêmeo da Terra em tamanho, mas sua densa atmosfera de dióxido de carbono retém o calor e aquece a superfície a mais de 460 °C, o planeta mais quente do Sistema Solar. Gira devagar, ao contrário.",
+    "de": "Fast ein Zwilling der Erde in der Größe, doch eine dichte Kohlendioxid-Atmosphäre staut die Hitze: Über 460 °C machen sie zum heißesten Planeten des Sonnensystems. Sie dreht sich langsam rückwärts."
+   }
+  },
+  "earth": {
+   "say": {
+    "ko": "우리가 사는 행성입니다. 표면의 70%가 액체 물의 바다로 덮여 있고, 생명이 있다고 알려진 유일한 세계입니다. 지름은 약 1만 2,700 km입니다.",
+    "en": "Our home. Liquid-water oceans cover 70% of its surface, and it is the only world known to harbor life. About 12,700 km across.",
+    "ja": "私たちの住む惑星です。表面の70%が液体の水の海に覆われ、生命が存在すると知られる唯一の世界です。直径は約1万2,700kmです。",
+    "zh": "我們的家園。表面70%被液態水的海洋覆蓋，是已知唯一有生命的世界。直徑約12,700公里。",
+    "es": "Nuestro hogar. Océanos de agua líquida cubren el 70 % de su superficie y es el único mundo donde se sabe que existe vida. Mide unos 12.700 km de diámetro.",
+    "pt": "Nosso lar. Oceanos de água líquida cobrem 70% de sua superfície, e é o único mundo onde se sabe que há vida. Tem cerca de 12.700 km de diâmetro.",
+    "de": "Unsere Heimat. Ozeane aus flüssigem Wasser bedecken 70 % der Oberfläche, und sie ist die einzige Welt, auf der Leben bekannt ist. Rund 12.700 km Durchmesser."
+   }
+  },
+  "moon": {
+   "say": {
+    "ko": "지구의 하나뿐인 자연위성으로, 약 38만 km 떨어져 있습니다. 1969년부터 1972년까지 열두 명이 발을 디딘, 인류가 직접 가 본 유일한 다른 세계입니다.",
+    "en": "Earth's only natural satellite, about 384,000 km away. Between 1969 and 1972 twelve people walked on it, the only other world humans have ever visited.",
+    "ja": "地球にただ一つの自然衛星で、約38万km離れています。1969年から1972年に12人が降り立った、人類が訪れた唯一の別世界です。",
+    "zh": "地球唯一的天然衛星，距離約38萬公里。1969到1972年有十二人登上月面，是人類唯一親自到過的另一個世界。",
+    "es": "El único satélite natural de la Tierra, a unos 384.000 km. Entre 1969 y 1972 doce personas caminaron sobre él: el único otro mundo que la humanidad ha visitado.",
+    "pt": "O único satélite natural da Terra, a cerca de 384.000 km. Entre 1969 e 1972 doze pessoas caminharam nela, o único outro mundo que a humanidade já visitou.",
+    "de": "Der einzige natürliche Satellit der Erde, rund 384.000 km entfernt. Zwischen 1969 und 1972 gingen zwölf Menschen auf ihm, der einzigen anderen Welt, die Menschen je besucht haben."
+   }
+  },
+  "bennu": {
+   "say": {
+    "ko": "팽이 모양 지구 근접 소행성으로 지름 약 490 m, 숯처럼 검은 돌무더기입니다. NASA 오시리스-렉스가 2020년 표본을 떠 2023년 가져왔고, 아미노산과 DNA 염기가 나왔습니다.",
+    "en": "A spinning-top-shaped near-Earth asteroid about 490 m wide, a rubble pile as dark as charcoal. NASA's OSIRIS-REx grabbed a sample in 2020 and brought it home in 2023; it held amino acids and the building blocks of DNA.",
+    "ja": "コマ形の地球近傍小惑星で直径約490m、炭のように黒い瓦礫の塊です。NASAのオシリス・レックスが2020年に試料を採取して2023年に持ち帰り、アミノ酸やDNAの塩基が見つかりました。",
+    "zh": "陀螺形的近地小行星，直徑約490公尺，是像木炭一樣黑的碎石堆。NASA歐西里斯號2020年採樣、2023年帶回地球，樣本中發現了胺基酸和DNA的鹼基。",
+    "es": "Un asteroide cercano a la Tierra con forma de peonza, de unos 490 m, negro como el carbón. OSIRIS-REx de la NASA tomó una muestra en 2020 y la trajo en 2023: contenía aminoácidos y piezas básicas del ADN.",
+    "pt": "Um asteroide próximo da Terra em forma de pião, com uns 490 m, negro como carvão. A OSIRIS-REx da NASA coletou uma amostra em 2020 e a trouxe em 2023; ela continha aminoácidos e peças básicas do DNA.",
+    "de": "Ein kreiselförmiger erdnaher Asteroid von etwa 490 m, ein Schutthaufen so dunkel wie Holzkohle. NASAs OSIRIS-REx nahm 2020 eine Probe und brachte sie 2023 zur Erde, darin Aminosäuren und die Bausteine der DNA."
+   }
+  },
+  "ryugu": {
+   "say": {
+    "ko": "팽이 모양 지구 근접 소행성으로 지름 약 900 m, 숯처럼 검습니다. 일본 하야부사2가 2019년 두 번 착륙해 2020년 표본 5.4 g을 가져왔고, 아미노산과 RNA 재료 우라실이 있었습니다.",
+    "en": "A spinning-top-shaped near-Earth asteroid about 900 m wide, dark as charcoal. Japan's Hayabusa2 landed twice in 2019 and returned 5.4 g of samples in 2020, containing amino acids and uracil, a building block of RNA.",
+    "ja": "コマ形の地球近傍小惑星で直径約900m、炭のように黒いです。日本のはやぶさ2が2019年に2回着陸し、2020年に5.4gの試料を持ち帰りました。アミノ酸やRNAの材料ウラシルが含まれていました。",
+    "zh": "陀螺形的近地小行星，直徑約900公尺，黑如木炭。日本隼鳥2號2019年兩度著陸，2020年帶回5.4克樣本，其中含有胺基酸和RNA的成分尿嘧啶。",
+    "es": "Un asteroide cercano a la Tierra con forma de peonza, de unos 900 m y negro como el carbón. La japonesa Hayabusa2 aterrizó dos veces en 2019 y trajo 5,4 g de muestras en 2020, con aminoácidos y uracilo, pieza del ARN.",
+    "pt": "Um asteroide próximo da Terra em forma de pião, com uns 900 m e negro como carvão. A japonesa Hayabusa2 pousou duas vezes em 2019 e trouxe 5,4 g de amostras em 2020, com aminoácidos e uracila, um componente do RNA.",
+    "de": "Ein kreiselförmiger erdnaher Asteroid von etwa 900 m, dunkel wie Holzkohle. Japans Hayabusa2 landete 2019 zweimal und brachte 2020 5,4 g Proben zurück, mit Aminosäuren und Uracil, einem Baustein der RNA."
+   }
+  },
+  "itokawa": {
+   "say": {
+    "ko": "길이 535 m의 땅콩 모양 지구 근접 소행성으로, 단단한 바위가 아니라 돌덩이가 느슨하게 뭉친 돌무더기입니다. 일본 하야부사가 2005년 착륙해 2010년 처음으로 소행성 표본을 가져왔습니다.",
+    "en": "A peanut-shaped near-Earth asteroid just 535 m long, a loose rubble pile rather than solid rock. Japan's Hayabusa touched down in 2005 and in 2010 returned the first samples ever taken from an asteroid.",
+    "ja": "長さ535mのピーナッツ形の地球近傍小惑星で、硬い岩ではなく岩塊がゆるく集まった瓦礫の塊です。日本のはやぶさが2005年に着陸し、2010年に史上初めて小惑星の試料を持ち帰りました。",
+    "zh": "長535公尺的花生形近地小行星，不是堅硬岩石，而是鬆散聚集的碎石堆。日本隼鳥號2005年著陸，2010年帶回史上首批小行星樣本。",
+    "es": "Un asteroide cercano a la Tierra con forma de cacahuete de solo 535 m: una pila de escombros sueltos, no roca sólida. La japonesa Hayabusa se posó en 2005 y en 2010 trajo las primeras muestras de un asteroide.",
+    "pt": "Um asteroide próximo da Terra em forma de amendoim com apenas 535 m, uma pilha de entulho solto, não rocha sólida. A japonesa Hayabusa pousou em 2005 e em 2010 trouxe as primeiras amostras já colhidas de um asteroide.",
+    "de": "Ein erdnussförmiger erdnaher Asteroid von nur 535 m Länge, ein lockerer Schutthaufen, kein fester Fels. Japans Hayabusa setzte 2005 auf und brachte 2010 die ersten Proben zurück, die je von einem Asteroiden stammten."
+   }
+  },
+  "eros": {
+   "say": {
+    "ko": "길이 34 km의 땅콩 모양 지구 근접 소행성입니다. 1898년 처음 발견된 지구 근접 소행성이며, NASA 니어 슈메이커가 2000년 궤도에 들어가 2001년 처음으로 소행성에 착륙했습니다.",
+    "en": "A peanut-shaped near-Earth asteroid about 34 km long, the first one ever found, in 1898. NASA's NEAR Shoemaker orbited it in 2000 and in 2001 became the first spacecraft to land on an asteroid.",
+    "ja": "長さ34kmのピーナッツ形の地球近傍小惑星です。1898年に初めて発見された地球近傍小惑星で、NASAのニア・シューメーカーが2000年に周回軌道に入り、2001年に史上初めて小惑星に着陸しました。",
+    "zh": "長約34公里的花生形近地小行星，是1898年發現的第一顆近地小行星。NASA尼爾·舒梅克號2000年進入軌道，2001年首次在小行星上著陸。",
+    "es": "Un asteroide cercano a la Tierra con forma de cacahuete de unos 34 km: el primero descubierto, en 1898. La NEAR Shoemaker de la NASA lo orbitó en 2000 y en 2001 fue la primera nave en posarse sobre un asteroide.",
+    "pt": "Um asteroide próximo da Terra em forma de amendoim com uns 34 km, o primeiro já descoberto, em 1898. A NEAR Shoemaker da NASA o orbitou em 2000 e em 2001 foi a primeira sonda a pousar em um asteroide.",
+    "de": "Ein erdnussförmiger erdnaher Asteroid von etwa 34 km Länge, der erste, der je entdeckt wurde, 1898. NASAs NEAR Shoemaker umkreiste ihn 2000 und landete 2001 als erste Sonde auf einem Asteroiden."
+   }
+  },
+  "mars": {
+   "say": {
+    "ko": "붉은 행성입니다. 지름은 지구의 절반쯤이고, 태양계 최대 화산 올림푸스 산과 길이 4,000 km의 매리너 협곡이 있습니다. 먼 옛날 물이 흘렀던 흔적이 곳곳에 남아 있습니다.",
+    "en": "The Red Planet, about half Earth's width. It holds Olympus Mons, the largest volcano in the Solar System, and the 4,000 km Valles Marineris canyon, plus traces of water that once flowed across it.",
+    "ja": "赤い惑星です。直径は地球の半分ほどで、太陽系最大の火山オリンポス山と、長さ4,000kmのマリネリス峡谷があります。かつて水が流れた跡が各地に残っています。",
+    "zh": "紅色行星，直徑約為地球的一半。這裡有太陽系最大的火山奧林帕斯山和長達4,000公里的水手號峽谷，還留有遠古流水的痕跡。",
+    "es": "El planeta rojo, de la mitad del ancho de la Tierra. Alberga Olympus Mons, el mayor volcán del Sistema Solar, y el cañón Valles Marineris de 4.000 km, además de huellas del agua que un día corrió por él.",
+    "pt": "O planeta vermelho, com metade da largura da Terra. Abriga o Olympus Mons, maior vulcão do Sistema Solar, e o cânion Valles Marineris de 4.000 km, além de marcas da água que um dia correu por ele.",
+    "de": "Der Rote Planet, etwa halb so breit wie die Erde. Hier liegen Olympus Mons, der größte Vulkan des Sonnensystems, und die 4.000 km lange Schlucht Valles Marineris, dazu Spuren von Wasser, das einst hier floss."
+   }
+  },
+  "phobos": {
+   "say": {
+    "ko": "화성의 안쪽 위성입니다. 감자처럼 생긴 작은 천체로, 조금씩 화성을 향해 떨어지고 있어 수천만 년 뒤에는 부서지거나 화성에 충돌할 운명입니다.",
+    "en": "Mars's inner moon, a small potato-shaped body. It is slowly spiraling inward, and in tens of millions of years it will break apart or crash into Mars.",
+    "ja": "火星の内側の衛星です。ジャガイモのような小さな天体で、少しずつ火星に近づいており、数千万年後には砕けるか火星に衝突する運命です。",
+    "zh": "火星的內側衛星，形如馬鈴薯的小天體。它正緩慢向火星墜落，數千萬年後將碎裂或撞上火星。",
+    "es": "La luna interior de Marte, un pequeño cuerpo con forma de patata. Cae lentamente en espiral y en decenas de millones de años se romperá o chocará contra Marte.",
+    "pt": "A lua interna de Marte, um pequeno corpo em forma de batata. Ela cai lentamente em espiral e, em dezenas de milhões de anos, vai se partir ou colidir com Marte.",
+    "de": "Der innere Marsmond, ein kleiner kartoffelförmiger Körper. Er nähert sich dem Mars langsam spiralförmig und wird in einigen zehn Millionen Jahren zerbrechen oder auf ihm einschlagen."
+   }
+  },
+  "deimos": {
+   "say": {
+    "ko": "화성의 바깥쪽 위성입니다. 포보스보다 작고 느리게 돌며, 표면은 고운 먼지가 두껍게 덮고 있어 울퉁불퉁한 지형이 부드럽게 묻혀 있습니다.",
+    "en": "Mars's outer moon, smaller and slower than Phobos. A thick blanket of fine dust buries its surface, softening its craters.",
+    "ja": "火星の外側の衛星です。フォボスより小さくゆっくり回り、表面は細かい塵に厚く覆われてクレーターがなだらかに埋もれています。",
+    "zh": "火星的外側衛星，比火衛一更小、繞行更慢。表面覆蓋厚厚的細塵，把坑洞都埋得平緩。",
+    "es": "La luna exterior de Marte, más pequeña y lenta que Fobos. Un grueso manto de polvo fino cubre su superficie y suaviza sus cráteres.",
+    "pt": "A lua externa de Marte, menor e mais lenta que Fobos. Um manto espesso de poeira fina cobre sua superfície e suaviza as crateras.",
+    "de": "Der äußere Marsmond, kleiner und langsamer als Phobos. Eine dicke Schicht feinen Staubs bedeckt seine Oberfläche und glättet die Krater."
+   }
+  },
+  "didymos": {
+   "say": {
+    "ko": "지름 약 800 m의 소행성으로, 2.26시간마다 한 바퀴 돌며 작은 위성 디모르포스를 거느립니다. 2022년 NASA 다트가 그 위성에 충돌해 궤도를 바꾼 첫 행성 방어 실험의 무대였습니다.",
+    "en": "A near-Earth asteroid about 800 m wide that spins every 2.26 hours and carries a small moon, Dimorphos. In 2022 it hosted the first planetary-defense test, when NASA's DART struck its moon to change its orbit.",
+    "ja": "直径約800mの地球近傍小惑星で、2.26時間で一回転し、小さな衛星ディモルフォスを従えています。2022年にNASAのDARTがその衛星に衝突して軌道を変えた、初の惑星防衛実験の舞台でした。",
+    "zh": "直徑約800公尺的近地小行星，每2.26小時自轉一圈，帶著小衛星迪莫弗斯。2022年NASA的DART撞擊其衛星改變軌道，是首次行星防禦實驗的舞台。",
+    "es": "Un asteroide cercano a la Tierra de unos 800 m que gira cada 2,26 horas y lleva una pequeña luna, Dimorphos. En 2022 acogió la primera prueba de defensa planetaria: la DART de la NASA golpeó su luna y cambió su órbita.",
+    "pt": "Um asteroide próximo da Terra com uns 800 m que gira a cada 2,26 horas e tem uma pequena lua, Dimorphos. Em 2022 foi palco do primeiro teste de defesa planetária: a DART da NASA atingiu sua lua para mudar a órbita.",
+    "de": "Ein erdnaher Asteroid von etwa 800 m, der sich alle 2,26 Stunden dreht und einen kleinen Mond hat, Dimorphos. 2022 fand hier der erste Test zur Planetenverteidigung statt: NASAs DART traf den Mond und lenkte ihn ab."
+   }
+  },
+  "dimorphos": {
+   "say": {
+    "ko": "디디모스를 도는 지름 150 m의 위성입니다. 2022년 9월 26일 NASA 다트가 초속 6.1 km로 충돌해 공전 주기를 33분 줄였습니다. 인류가 천체의 움직임을 바꾼 첫 사례입니다.",
+    "en": "A moon about 150 m wide circling Didymos at about 1.2 km. On 26 September 2022 NASA's DART hit it at 6.1 km per second and shortened its orbit by 33 minutes, the first time humans changed the motion of a celestial body.",
+    "ja": "ディディモスを約1.2kmの距離で回る直径150mの衛星です。2022年9月26日、NASAのDART探査機が秒速6.1kmで衝突し、公転周期を33分縮めました。人類が天体の動きを変えた初めての例です。",
+    "zh": "繞行迪迪莫斯、距離約1.2公里的150公尺衛星。2022年9月26日NASA的DART以每秒6.1公里撞上它，使公轉週期縮短33分鐘，是人類首次改變天體運動。",
+    "es": "Una luna de unos 150 m que gira en torno a Didymos. El 26 de septiembre de 2022 la DART de la NASA la golpeó a 6,1 km por segundo y acortó su órbita 33 minutos: la primera vez que la humanidad movió un cuerpo celeste.",
+    "pt": "Uma lua de uns 150 m que gira em torno de Didymos. Em 26 de setembro de 2022 a DART da NASA a atingiu a 6,1 km por segundo e encurtou sua órbita em 33 minutos, a primeira vez que a humanidade moveu um corpo celeste.",
+    "de": "Ein rund 150 m großer Mond, der Didymos umkreist. Am 26. September 2022 traf ihn NASAs DART mit 6,1 km pro Sekunde und verkürzte seine Bahn um 33 Minuten; erstmals änderten Menschen die Bewegung eines Himmelskörpers."
+   }
+  },
+  "gaspra": {
+   "say": {
+    "ko": "길이 약 18 km의 감자 모양 돌 소행성으로, 인류가 가까이서 본 첫 소행성입니다. 1991년 NASA 갈릴레오가 목성으로 가는 길에 스쳐 지났고, 크레이터 이름은 세계의 온천지에서 따왔습니다.",
+    "en": "A potato-shaped stony asteroid about 18 km long, the first asteroid ever seen up close. NASA's Galileo flew past it on 29 October 1991 on the way to Jupiter. Its craters are named after spa resorts around the world.",
+    "ja": "長さ約18kmのジャガイモ形の石質小惑星で、人類が初めて間近で見た小惑星です。1991年10月29日にNASAのガリレオが木星へ向かう途中に通過し、クレーターの名前は世界の温泉保養地から取られています。",
+    "zh": "長約18公里的馬鈴薯形石質小行星，是人類第一顆近距離觀測的小行星。1991年10月29日NASA伽利略號在前往木星途中掠過。其隕石坑以世界各地的溫泉勝地命名。",
+    "es": "Un asteroide rocoso con forma de patata de unos 18 km, el primero visto de cerca. La Galileo de la NASA pasó junto a él el 29 de octubre de 1991, camino de Júpiter. Sus cráteres llevan nombres de balnearios del mundo.",
+    "pt": "Um asteroide rochoso em forma de batata com uns 18 km, o primeiro visto de perto. A Galileo da NASA passou por ele em 29 de outubro de 1991, a caminho de Júpiter. Suas crateras levam nomes de estâncias termais do mundo.",
+    "de": "Ein kartoffelförmiger Gesteinsasteroid von etwa 18 km, der erste, der je aus der Nähe gesehen wurde. NASAs Galileo flog am 29. Oktober 1991 auf dem Weg zum Jupiter vorbei. Seine Krater heißen nach Kurorten der Welt."
+   }
+  },
+  "vesta": {
+   "say": {
+    "ko": "소행성대에서 두 번째로 무거운 천체이자 지름 약 525 km의 원시 행성입니다. 남극의 충돌 분지 레아실비아 가운데 높이 22 km의 봉우리가 솟아 있고, 지구에 떨어지는 많은 운석의 고향입니다.",
+    "en": "The second-most-massive asteroid and a protoplanet about 525 km wide. The giant south-pole basin Rheasilvia has a central peak 22 km high, and many meteorites that fall to Earth come from here.",
+    "ja": "小惑星帯で2番目に重い天体で、直径約525kmの原始惑星です。南極の巨大な衝突盆地レアシルビアの中央には高さ22kmの峰がそびえ、地球に落ちる多くの隕石のふるさとです。",
+    "zh": "小行星帶第二重的天體，直徑約525公里的原行星。南極巨大的雷亞希爾維亞盆地中央聳立著22公里高的山峰，許多落到地球的隕石都來自這裡。",
+    "es": "El segundo asteroide más masivo y un protoplaneta de unos 525 km. La gigantesca cuenca Rheasilvia, en su polo sur, tiene un pico central de 22 km, y de aquí proceden muchos de los meteoritos que caen a la Tierra.",
+    "pt": "O segundo asteroide mais massivo e um protoplaneta de uns 525 km. A gigantesca bacia Rheasilvia, no polo sul, tem um pico central de 22 km, e muitos meteoritos que caem na Terra vêm daqui.",
+    "de": "Der zweitschwerste Asteroid und ein Protoplanet von etwa 525 km. Das riesige Südpolbecken Rheasilvia hat einen 22 km hohen Zentralberg, und viele Meteoriten, die auf die Erde fallen, stammen von hier."
+   }
+  },
+  "ceres": {
+   "say": {
+    "ko": "소행성대에서 가장 큰 천체이자 내태양계의 유일한 왜행성입니다. 오카토르 크레이터의 밝은 소금 자국은 땅속 소금물의 흔적이고, NASA 돈 탐사선이 2015년부터 2018년까지 가까이서 탐사했습니다.",
+    "en": "The largest object in the asteroid belt and the only dwarf planet of the inner Solar System. Bright salt deposits in Occator crater hint at brine below. NASA's Dawn studied it up close from 2015 to 2018.",
+    "ja": "小惑星帯で最大の天体で、内太陽系で唯一の準惑星です。オッカトル・クレーターの明るい塩の痕跡は地下の塩水の証拠で、NASAのドーン探査機が2015年から2018年まで間近で探査しました。",
+    "zh": "小行星帶最大的天體，也是內太陽系唯一的矮行星。歐卡托隕石坑的明亮鹽斑暗示地下有鹽水，NASA黎明號在2015到2018年間近距離探測。",
+    "es": "El objeto más grande del cinturón de asteroides y el único planeta enano del Sistema Solar interior. Los depósitos de sal del cráter Occator delatan salmuera bajo el suelo. Dawn lo estudió de cerca de 2015 a 2018.",
+    "pt": "O maior objeto do cinturão de asteroides e o único planeta anão do Sistema Solar interno. Depósitos de sal na cratera Occator indicam salmoura sob o solo. A sonda Dawn da NASA o estudou de perto de 2015 a 2018.",
+    "de": "Das größte Objekt des Asteroidengürtels und der einzige Zwergplanet des inneren Sonnensystems. Helle Salzablagerungen im Krater Occator deuten auf Sole im Untergrund. NASAs Dawn erforschte ihn 2015 bis 2018 aus der Nähe."
+   }
+  },
+  "ida": {
+   "say": {
+    "ko": "길이 약 60 km의 크루아상 모양 소행성입니다. 1993년 NASA 갈릴레오가 스쳐 지나며 지름 1.4 km의 작은 위성 닥틸을 발견했는데, 소행성에서 위성이 확인된 첫 사례였습니다.",
+    "en": "A croissant-shaped main-belt asteroid about 60 km long. When NASA's Galileo flew past in 1993 it spotted a tiny moon, Dactyl, just 1.4 km across, the first moon ever confirmed around an asteroid.",
+    "ja": "長さ約60kmのクロワッサン形の小惑星です。1993年にNASAのガリレオが通過した際、直径1.4kmの小さな衛星ダクティルを発見しました。小惑星の衛星が確認された初めての例です。",
+    "zh": "長約60公里的牛角麵包形小行星。1993年NASA伽利略號飛掠時發現了直徑1.4公里的小衛星達克堤利，這是首次確認小行星擁有衛星。",
+    "es": "Un asteroide del cinturón principal con forma de cruasán de unos 60 km. Cuando la Galileo de la NASA pasó en 1993 descubrió una luna diminuta, Dáctilo, de 1,4 km: la primera luna confirmada de un asteroide.",
+    "pt": "Um asteroide do cinturão principal em forma de croissant com uns 60 km. Quando a Galileo da NASA passou em 1993, descobriu uma lua minúscula, Dactyl, de 1,4 km, a primeira lua confirmada de um asteroide.",
+    "de": "Ein croissantförmiger Hauptgürtel-Asteroid von etwa 60 km. Als NASAs Galileo 1993 vorbeiflog, entdeckte sie einen winzigen Mond, Dactyl, nur 1,4 km groß, den ersten bestätigten Mond eines Asteroiden."
+   }
+  },
+  "tempel1": {
+   "say": {
+    "ko": "길이 약 7.6 km의 혜성 핵입니다. 2005년 7월 4일 NASA 딥 임팩트가 370 kg 충돌체로 인류 최초로 혜성을 일부러 때렸고, 2011년 스타더스트가 다시 찾았습니다.",
+    "en": "A comet nucleus about 7.6 km long, found by Wilhelm Tempel in 1867. On 4 July 2005 NASA's Deep Impact fired a 370 kg impactor into it, the first deliberate strike on a comet, and in 2011 Stardust visited it again.",
+    "ja": "長さ約7.6kmの彗星の核です。2005年7月4日、NASAのディープ・インパクトが370kgの衝突体を撃ち込み、人類は初めて意図的に彗星を叩きました。2011年にはスターダストが再訪しました。",
+    "zh": "長約7.6公里的彗核，1867年由坦普爾發現。2005年7月4日NASA深度撞擊號以370公斤撞擊器擊中它，是人類首次刻意撞擊彗星；2011年星塵號再次造訪。",
+    "es": "Un núcleo cometario de unos 7,6 km, descubierto por Tempel en 1867. El 4 de julio de 2005 la Deep Impact de la NASA le lanzó un proyectil de 370 kg, el primer golpe deliberado a un cometa; la Stardust volvió en 2011.",
+    "pt": "Um núcleo cometário de uns 7,6 km, descoberto por Tempel em 1867. Em 4 de julho de 2005 a Deep Impact da NASA lançou nele um projétil de 370 kg, o primeiro golpe deliberado em um cometa; a Stardust voltou em 2011.",
+    "de": "Ein Kometenkern von etwa 7,6 km, 1867 von Wilhelm Tempel entdeckt. Am 4. Juli 2005 schoss NASAs Deep Impact einen 370 kg schweren Impaktor hinein, der erste gezielte Schlag auf einen Kometen; 2011 kam Stardust zurück."
+   }
+  },
+  "67p": {
+   "say": {
+    "ko": "길이 약 4 km, 오리처럼 두 덩이로 된 혜성 핵입니다. ESA 로제타가 2014년 처음으로 혜성 궤도에 들어갔고, 착륙선 필레가 같은 해 11월 사상 처음 혜성에 내렸습니다.",
+    "en": "A duck-shaped comet nucleus about 4 km long. ESA's Rosetta became the first spacecraft to orbit a comet in 2014, and its lander Philae made the first-ever comet landing that November. It circles the Sun every 6.4 years.",
+    "ja": "長さ約4km、アヒルのような二つの塊からなる彗星の核です。ESAのロゼッタが2014年に初めて彗星の周回軌道に入り、着陸機フィラエが同年11月に史上初めて彗星に着陸しました。6.4年ごとに太陽を回ります。",
+    "zh": "長約4公里、像鴨子一樣由兩瓣組成的彗核。ESA羅塞塔號2014年首次進入彗星軌道，著陸器菲萊同年11月完成史上首次彗星著陸。每6.4年繞太陽一圈。",
+    "es": "Un núcleo cometario de unos 4 km con forma de pato. La Rosetta de la ESA fue la primera nave en orbitar un cometa, en 2014, y su módulo Philae logró ese noviembre el primer aterrizaje en un cometa.",
+    "pt": "Um núcleo cometário de uns 4 km em forma de pato. A Rosetta da ESA foi a primeira sonda a orbitar um cometa, em 2014, e seu módulo Philae fez naquele novembro o primeiro pouso em um cometa. Orbita o Sol a cada 6,4 anos.",
+    "de": "Ein entenförmiger Kometenkern von etwa 4 km Länge. ESAs Rosetta umkreiste 2014 als erste Sonde einen Kometen, und ihr Lander Philae landete im November desselben Jahres als Erster auf einem Kometen."
+   }
+  },
+  "hartley2": {
+   "say": {
+    "ko": "길이 2.3 km의 작고 활발한 혜성 핵으로, 볼링핀 모양입니다. 2010년 11월 4일 NASA 딥 임팩트가 694 km까지 다가가 얼음 덩이가 흩날리는 눈보라 같은 제트를 보았습니다.",
+    "en": "A small, hyperactive comet nucleus only 2.3 km long, shaped like a bowling pin. On 4 November 2010 NASA's Deep Impact flew past just 694 km away and saw jets of carbon dioxide hurling out chunks of ice like a snowstorm.",
+    "ja": "長さ2.3kmの小さく活発な彗星の核で、ボウリングのピンのように二つの塊がくびれでつながっています。2010年11月4日にNASAのディープ・インパクトが694kmまで接近し、氷の塊が舞う吹雪のようなジェットを見ました。",
+    "zh": "長僅2.3公里、極為活躍的小彗核，像保齡球瓶一樣由兩瓣相連。2010年11月4日NASA深度撞擊號以694公里掠過，看到噴流噴出冰塊，如同暴風雪。",
+    "es": "Un núcleo cometario pequeño e hiperactivo de solo 2,3 km, con forma de bolo. El 4 de noviembre de 2010 la Deep Impact de la NASA pasó a solo 694 km y vio chorros de dióxido de carbono lanzando hielo como una nevada.",
+    "pt": "Um núcleo cometário pequeno e hiperativo de apenas 2,3 km, em forma de pino de boliche. Em 4 de novembro de 2010 a Deep Impact da NASA passou a só 694 km e viu jatos de dióxido de carbono lançando gelo como uma nevasca.",
+    "de": "Ein kleiner, hyperaktiver Kometenkern von nur 2,3 km, geformt wie ein Bowling-Pin. Am 4. November 2010 flog NASAs Deep Impact in nur 694 km Abstand vorbei und sah Jets, die Eis wie einen Schneesturm herausschleuderten."
+   }
+  },
+  "jupiter": {
+   "say": {
+    "ko": "태양계에서 가장 큰 행성입니다. 지름은 지구의 11배이고, 질량은 나머지 행성을 전부 합친 것보다 2.5배 큽니다. 대적점은 지구보다 큰 폭풍으로, 300년 넘게 몰아치고 있습니다.",
+    "en": "The largest planet, 11 times Earth's width and two and a half times the mass of all the other planets combined. The Great Red Spot is a storm bigger than Earth that has raged for more than 300 years.",
+    "ja": "太陽系最大の惑星です。直径は地球の11倍、質量は他の惑星すべてを合わせた2.5倍あります。大赤斑は地球より大きな嵐で、300年以上吹き荒れています。",
+    "zh": "太陽系最大的行星，直徑是地球的11倍，質量是其他行星總和的2.5倍。大紅斑是比地球還大的風暴，已肆虐三百多年。",
+    "es": "El planeta más grande: 11 veces más ancho que la Tierra y con dos veces y media la masa de todos los demás planetas juntos. La Gran Mancha Roja es una tormenta mayor que la Tierra que lleva más de 300 años rugiendo.",
+    "pt": "O maior planeta: 11 vezes mais largo que a Terra e com duas vezes e meia a massa de todos os outros planetas juntos. A Grande Mancha Vermelha é uma tempestade maior que a Terra que ruge há mais de 300 anos.",
+    "de": "Der größte Planet, 11-mal breiter als die Erde und zweieinhalbmal so schwer wie alle anderen Planeten zusammen. Der Große Rote Fleck ist ein Sturm größer als die Erde, der seit über 300 Jahren tobt."
+   }
+  },
+  "io": {
+   "say": {
+    "ko": "태양계에서 화산 활동이 가장 활발한 천체입니다. 목성의 조석력이 내부를 끊임없이 달구어, 표면은 유황과 유황 화합물로 노랗게 물들어 있습니다.",
+    "en": "The most volcanically active world in the Solar System. Jupiter's tides knead its interior without pause, and its surface is painted yellow with sulfur.",
+    "ja": "太陽系で最も火山活動が活発な天体です。木星の潮汐力が内部を絶えず熱し、表面は硫黄と硫黄化合物で黄色く染まっています。",
+    "zh": "太陽系火山活動最旺盛的天體。木星的潮汐力不斷加熱它的內部，表面被硫和硫化物染成黃色。",
+    "es": "El mundo con más actividad volcánica del Sistema Solar. Las mareas de Júpiter amasan su interior sin descanso y el azufre tiñe su superficie de amarillo.",
+    "pt": "O mundo com mais atividade vulcânica do Sistema Solar. As marés de Júpiter aquecem seu interior sem parar, e o enxofre tinge sua superfície de amarelo.",
+    "de": "Die vulkanisch aktivste Welt des Sonnensystems. Jupiters Gezeiten kneten sein Inneres ohne Pause, und Schwefel färbt seine Oberfläche gelb."
+   }
+  },
+  "europa": {
+   "say": {
+    "ko": "두꺼운 얼음 껍질 아래 액체 바다가 있다고 여겨지는 위성입니다. 지구 밖에서 생명을 찾을 가장 유력한 후보 가운데 하나입니다.",
+    "en": "A moon believed to hide a liquid ocean beneath its thick icy shell, one of the most promising places to look for life beyond Earth.",
+    "ja": "厚い氷の殻の下に液体の海があると考えられている衛星です。地球の外で生命を探すうえで最も有望な候補の一つです。",
+    "zh": "據信在厚厚的冰殼下藏有液態海洋的衛星，是地球之外尋找生命最有希望的候選地之一。",
+    "es": "Una luna que, se cree, esconde un océano líquido bajo su gruesa corteza de hielo: uno de los lugares más prometedores para buscar vida fuera de la Tierra.",
+    "pt": "Uma lua que, acredita-se, esconde um oceano líquido sob sua espessa crosta de gelo, um dos lugares mais promissores para procurar vida fora da Terra.",
+    "de": "Ein Mond, unter dessen dicker Eiskruste vermutlich ein flüssiger Ozean liegt, einer der vielversprechendsten Orte, um Leben jenseits der Erde zu suchen."
+   }
+  },
+  "ganymede": {
+   "say": {
+    "ko": "태양계에서 가장 큰 위성으로, 수성보다도 큽니다. 자기장을 스스로 만드는 유일한 위성이며, 표면에는 얼음 평원과 오래된 크레이터 지형이 섞여 있습니다.",
+    "en": "The largest moon in the Solar System, bigger than Mercury, and the only moon with a magnetic field of its own. Icy plains and ancient cratered terrain share its surface.",
+    "ja": "太陽系最大の衛星で、水星より大きいです。自ら磁場を持つ唯一の衛星で、表面には氷の平原と古いクレーター地形が混在しています。",
+    "zh": "太陽系最大的衛星，比水星還大，也是唯一擁有自身磁場的衛星。表面混合著冰原與古老的隕石坑地形。",
+    "es": "La luna más grande del Sistema Solar, mayor que Mercurio, y la única con campo magnético propio. Llanuras de hielo y antiguos terrenos de cráteres comparten su superficie.",
+    "pt": "A maior lua do Sistema Solar, maior que Mercúrio, e a única com campo magnético próprio. Planícies de gelo e terrenos antigos cheios de crateras dividem sua superfície.",
+    "de": "Der größte Mond des Sonnensystems, größer als Merkur, und der einzige mit eigenem Magnetfeld. Eisebenen und uraltes Kraterland teilen sich seine Oberfläche."
+   }
+  },
+  "callisto": {
+   "say": {
+    "ko": "태양계에서 크레이터가 가장 빽빽한 표면을 가진 위성입니다. 지질 활동이 거의 멈춘 덕에 수십억 년 전 모습이 그대로 남아 있습니다.",
+    "en": "The most heavily cratered surface in the Solar System. Geologically almost dead, it preserves the look of the early Solar System billions of years on.",
+    "ja": "太陽系で最もクレーターが密集した表面を持つ衛星です。地質活動がほぼ止まっているため、数十億年前の姿がそのまま残っています。",
+    "zh": "擁有太陽系最密集隕石坑表面的衛星。地質活動幾乎停止，因此保留了數十億年前的原貌。",
+    "es": "La superficie con más cráteres del Sistema Solar. Casi muerta geológicamente, conserva intacto el aspecto de hace miles de millones de años.",
+    "pt": "A superfície com mais crateras do Sistema Solar. Quase morta geologicamente, preserva intacta a aparência de bilhões de anos atrás.",
+    "de": "Die am dichtesten mit Kratern übersäte Oberfläche des Sonnensystems. Geologisch fast tot, bewahrt er das Bild von vor Milliarden Jahren."
+   }
+  },
+  "saturn": {
+   "say": {
+    "ko": "고리의 행성입니다. 고리는 수많은 얼음 조각으로, 폭은 28만 km에 이르지만 두께는 대부분 수십 미터에 불과합니다. 평균 밀도가 물보다 낮은 유일한 행성입니다.",
+    "en": "The ringed planet. Its rings are countless chunks of ice, 280,000 km wide yet mostly only tens of meters thick. It is the only planet less dense than water.",
+    "ja": "環の惑星です。環は無数の氷のかけらでできており、幅は28万kmに達しますが、厚さはほとんどが数十メートルしかありません。平均密度が水より低い唯一の惑星です。",
+    "zh": "有環的行星。環由無數冰塊組成，寬達28萬公里，厚度卻大多只有幾十公尺。它是唯一平均密度比水還低的行星。",
+    "es": "El planeta de los anillos. Sus anillos son incontables trozos de hielo: 280.000 km de ancho, pero en su mayoría solo decenas de metros de grosor. Es el único planeta menos denso que el agua.",
+    "pt": "O planeta dos anéis. Seus anéis são incontáveis pedaços de gelo: 280.000 km de largura, mas na maior parte com apenas dezenas de metros de espessura. É o único planeta menos denso que a água.",
+    "de": "Der Ringplanet. Seine Ringe bestehen aus unzähligen Eisbrocken, 280.000 km breit, aber meist nur wenige Dutzend Meter dick. Er ist der einzige Planet, der leichter als Wasser ist."
+   }
+  },
+  "mimas": {
+   "say": {
+    "ko": "토성의 안쪽 위성입니다. 지름의 3분의 1에 이르는 거대한 허셜 크레이터 때문에 '죽음의 별'이라는 별명을 얻었습니다. 자기 중력으로 둥글어진 천체 가운데 가장 작습니다.",
+    "en": "Saturn's inner moon. The huge Herschel crater, nearly a third of its width, earned it the nickname 'Death Star'. It is the smallest body known to be rounded by its own gravity.",
+    "ja": "土星の内側の衛星です。直径の3分の1に及ぶ巨大なハーシェル・クレーターのため「デス・スター」のあだ名が付きました。自らの重力で丸くなった天体では最小です。",
+    "zh": "土星的內側衛星。巨大的赫歇爾隕石坑寬達直徑的三分之一，讓它得到「死星」的綽號。它是已知靠自身重力變圓的最小天體。",
+    "es": "La luna interior de Saturno. El enorme cráter Herschel, casi un tercio de su ancho, le valió el apodo de 'Estrella de la Muerte'. Es el cuerpo más pequeño que se conoce redondeado por su propia gravedad.",
+    "pt": "A lua interna de Saturno. A enorme cratera Herschel, quase um terço de sua largura, lhe rendeu o apelido de 'Estrela da Morte'. É o menor corpo conhecido arredondado pela própria gravidade.",
+    "de": "Saturns innerer Mond. Der riesige Herschel-Krater, fast ein Drittel seiner Breite, brachte ihm den Spitznamen „Todesstern“ ein. Er ist der kleinste bekannte Körper, den die eigene Schwerkraft rund geformt hat."
+   }
+  },
+  "enceladus": {
+   "say": {
+    "ko": "남극의 갈라진 틈에서 물기둥이 솟아올라 토성의 E 고리를 채우는 위성입니다. 얼음 밑에 액체 바다가 있어 외계 생명 탐사의 최우선 후보로 꼽힙니다.",
+    "en": "Plumes of water burst from cracks at its south pole and feed Saturn's E ring. A liquid ocean under the ice makes it a top target in the search for life.",
+    "ja": "南極の割れ目から水の噴柱が噴き出し、土星のE環を満たしている衛星です。氷の下に液体の海があり、地球外生命探査の最有力候補とされています。",
+    "zh": "南極裂縫噴出的水柱餵養著土星的E環。冰層下有液態海洋，使它成為尋找外星生命的首要目標。",
+    "es": "Chorros de agua brotan de las grietas de su polo sur y alimentan el anillo E de Saturno. Un océano líquido bajo el hielo lo convierte en un objetivo prioritario en la búsqueda de vida.",
+    "pt": "Jatos de água saem de fendas no polo sul e alimentam o anel E de Saturno. Um oceano líquido sob o gelo faz dela um alvo prioritário na busca por vida.",
+    "de": "Aus Rissen am Südpol schießen Wasserfontänen, die Saturns E-Ring speisen. Ein flüssiger Ozean unter dem Eis macht ihn zu einem Hauptziel der Suche nach Leben."
+   }
+  },
+  "tethys": {
+   "say": {
+    "ko": "95%가 물 얼음으로 된 토성의 위성입니다. 지름의 3분의 1에 이르는 오디세우스 크레이터와, 적도를 가로지르는 거대한 협곡 이타카 카스마가 있습니다.",
+    "en": "A Saturn moon that is 95% water ice. It bears the giant Odysseus crater, a third of its width, and the Ithaca Chasma rift running across its equator.",
+    "ja": "95%が水の氷でできた土星の衛星です。直径の3分の1に及ぶオデュッセウス・クレーターと、赤道を横切る巨大な峡谷イサカ・カズマがあります。",
+    "zh": "95%由水冰組成的土星衛星。有寬達直徑三分之一的奧德修斯隕石坑，以及橫越赤道的巨大裂谷伊薩卡峽谷。",
+    "es": "Una luna de Saturno compuesta en un 95 % de hielo de agua. Tiene el gigantesco cráter Odiseo, de un tercio de su ancho, y la fosa Ithaca Chasma que cruza su ecuador.",
+    "pt": "Uma lua de Saturno feita 95% de gelo de água. Tem a gigantesca cratera Odysseus, de um terço de sua largura, e a fenda Ithaca Chasma que atravessa seu equador.",
+    "de": "Ein Saturnmond, der zu 95 % aus Wassereis besteht. Er trägt den riesigen Krater Odysseus, ein Drittel seiner Breite, und die Schlucht Ithaca Chasma quer über den Äquator."
+   }
+  },
+  "dione": {
+   "say": {
+    "ko": "토성의 위성으로, 뒤따르는 반구에 밝은 줄무늬 지형이 있습니다. 화산이 아니라 얼음 절벽이 만든 무늬입니다. 희박한 산소 대기가 발견되었고, 토성 자기권 안을 돕니다.",
+    "en": "A Saturn moon with bright wispy streaks on its trailing side: not volcanism, but ice cliffs. A thin oxygen exosphere has been detected, and it orbits inside Saturn's magnetosphere.",
+    "ja": "土星の衛星で、後方半球に明るい筋模様があります。火山ではなく氷の崖が作った模様です。薄い酸素の外気圏が見つかり、土星の磁気圏の中を回っています。",
+    "zh": "土星的衛星，後隨半球有明亮的條紋地形，那不是火山，而是冰崖形成的紋路。已偵測到稀薄的氧氣外逸層，它在土星磁層內運行。",
+    "es": "Una luna de Saturno con vetas brillantes en su cara posterior: no es vulcanismo, sino acantilados de hielo. Se le ha detectado una tenue exosfera de oxígeno y orbita dentro de la magnetosfera de Saturno.",
+    "pt": "Uma lua de Saturno com riscas brilhantes no hemisfério posterior: não é vulcanismo, são penhascos de gelo. Foi detectada uma tênue exosfera de oxigênio, e ela orbita dentro da magnetosfera de Saturno.",
+    "de": "Ein Saturnmond mit hellen Schlieren auf der Rückseite, kein Vulkanismus, sondern Eisklippen. Eine dünne Sauerstoff-Exosphäre wurde nachgewiesen; er kreist innerhalb von Saturns Magnetosphäre."
+   }
+  },
+  "rhea": {
+   "say": {
+    "ko": "토성에서 두 번째로 큰 위성입니다. 크레이터가 빽빽한 단순한 얼음 표면을 가졌고, 카시니 탐사선은 이 위성 둘레에 희미한 고리가 있을 가능성을 제시했지만 아직 확인되지 않았습니다.",
+    "en": "Saturn's second-largest moon, a plain icy world crowded with craters. Cassini hinted that it might have faint rings of its own, still unconfirmed.",
+    "ja": "土星で2番目に大きな衛星です。クレーターが密集した単純な氷の表面を持ち、カッシーニ探査機はかすかな環がある可能性を示しましたが、まだ確認されていません。",
+    "zh": "土星第二大的衛星，表面是布滿隕石坑的單純冰面。卡西尼號曾暗示它可能擁有微弱的環，但尚未證實。",
+    "es": "La segunda luna más grande de Saturno, un sencillo mundo helado lleno de cráteres. Cassini sugirió que podría tener anillos tenues propios, algo aún sin confirmar.",
+    "pt": "A segunda maior lua de Saturno, um mundo gelado simples e cheio de crateras. A Cassini sugeriu que ela pode ter anéis tênues próprios, ainda não confirmados.",
+    "de": "Saturns zweitgrößter Mond, eine schlichte Eiswelt voller Krater. Cassini deutete an, dass er eigene schwache Ringe haben könnte, bis heute unbestätigt."
+   }
+  },
+  "titan": {
+   "say": {
+    "ko": "두꺼운 질소 대기를 가진 유일한 위성입니다. 표면에는 메탄과 에탄으로 된 호수와 강이 있고, 2005년 하위헌스 탐사선이 착륙해 첫 사진을 보내왔습니다.",
+    "en": "The only moon with a thick nitrogen atmosphere. Lakes and rivers of methane and ethane cover its surface, and the Huygens probe landed there in 2005 to send back the first pictures.",
+    "ja": "厚い窒素の大気を持つ唯一の衛星です。表面にはメタンとエタンの湖や川があり、2005年にホイヘンス探査機が着陸して最初の写真を送ってきました。",
+    "zh": "唯一擁有濃厚氮氣大氣的衛星。表面有甲烷和乙烷構成的湖泊與河流，2005年惠更斯號探測器在此著陸並傳回首批照片。",
+    "es": "La única luna con una densa atmósfera de nitrógeno. Lagos y ríos de metano y etano cubren su superficie, y la sonda Huygens aterrizó allí en 2005 para enviar las primeras fotos.",
+    "pt": "A única lua com uma densa atmosfera de nitrogênio. Lagos e rios de metano e etano cobrem sua superfície, e a sonda Huygens pousou lá em 2005 para enviar as primeiras fotos.",
+    "de": "Der einzige Mond mit einer dichten Stickstoffatmosphäre. Seen und Flüsse aus Methan und Ethan bedecken seine Oberfläche; die Sonde Huygens landete 2005 und schickte die ersten Bilder."
+   }
+  },
+  "iapetus": {
+   "say": {
+    "ko": "한쪽은 검고 다른 쪽은 밝은 두 얼굴의 위성입니다. 적도를 따라 높이 20 km의 산맥이 둘러 호두처럼 보입니다. 1671년 카시니가 발견했습니다.",
+    "en": "A two-toned moon, one side dark, the other bright. A ridge 20 km high runs around its equator, giving it a walnut shape. Discovered by Cassini in 1671.",
+    "ja": "片側が黒く、もう片側が明るい二つの顔を持つ衛星です。赤道に沿って高さ20kmの山脈が取り巻き、クルミのように見えます。1671年にカッシーニが発見しました。",
+    "zh": "一面漆黑、一面明亮的雙色衛星。赤道上環繞著高達20公里的山脊，使它看起來像顆核桃。1671年由卡西尼發現。",
+    "es": "Una luna de dos tonos: un lado oscuro y el otro brillante. Una cordillera de 20 km de alto recorre su ecuador y le da forma de nuez. Cassini la descubrió en 1671.",
+    "pt": "Uma lua de dois tons: um lado escuro e o outro brilhante. Uma cordilheira de 20 km de altura percorre seu equador e lhe dá forma de noz. Cassini a descobriu em 1671.",
+    "de": "Ein zweifarbiger Mond, eine Seite dunkel, die andere hell. Ein 20 km hoher Gebirgskamm läuft um seinen Äquator und gibt ihm die Form einer Walnuss. Cassini entdeckte ihn 1671."
+   }
+  },
+  "halley": {
+   "say": {
+    "ko": "가장 유명한 혜성으로 약 76년마다 돌아옵니다. 1705년 에드먼드 핼리가 여러 기록이 같은 혜성임을 밝혀 귀환을 예언했고, 1986년 ESA 조토가 처음으로 핵을 가까이서 찍었습니다.",
+    "en": "The most famous comet, returning about every 76 years. Edmond Halley showed in 1705 that several old sightings were one comet and predicted its return; in 1986 ESA's Giotto took the first close-up of its nucleus.",
+    "ja": "最も有名な彗星で、約76年ごとに戻ってきます。1705年にエドモンド・ハレーが複数の記録を同じ彗星と見抜いて回帰を予言し、1986年にESAのジオットが初めて核を間近で撮影しました。次の近日点は2061年7月です。",
+    "zh": "最有名的彗星，約每76年回歸一次。1705年哈雷證明多次紀錄是同一顆彗星並預言其回歸，1986年ESA喬托號首次近距離拍攝彗核。下次近日點在2061年7月。",
+    "es": "El cometa más famoso, que vuelve cada 76 años. En 1705 Edmond Halley demostró que varias apariciones eran el mismo cometa y predijo su regreso; en 1986 la Giotto de la ESA fotografió de cerca su núcleo por primera vez.",
+    "pt": "O cometa mais famoso, que volta a cada 76 anos. Em 1705 Edmond Halley mostrou que várias aparições eram o mesmo cometa e previu seu retorno; em 1986 a Giotto da ESA fez o primeiro close do núcleo.",
+    "de": "Der berühmteste Komet, der etwa alle 76 Jahre wiederkehrt. 1705 erkannte Edmond Halley mehrere alte Sichtungen als denselben Kometen und sagte die Rückkehr voraus; 1986 machte ESAs Giotto die erste Nahaufnahme des Kerns."
+   }
+  },
+  "uranus": {
+   "say": {
+    "ko": "옆으로 누운 채 자전하는 얼음 거인입니다. 자전축이 98도나 기울어 극이 태양을 향한 채 돌고, 대기의 메탄이 붉은빛을 흡수해 청록색으로 보입니다. 1781년 윌리엄 허셜이 발견했습니다.",
+    "en": "An ice giant that spins on its side: its axis is tilted 98 degrees, so its poles point at the Sun. Methane in its air absorbs red light, giving it a blue-green color. William Herschel discovered it in 1781.",
+    "ja": "横倒しのまま自転する氷の巨星です。自転軸が98度も傾いて極が太陽を向き、大気のメタンが赤い光を吸収して青緑色に見えます。1781年にウィリアム・ハーシェルが発見しました。",
+    "zh": "側躺著自轉的冰巨星，自轉軸傾斜98度，極點朝向太陽。大氣中的甲烷吸收紅光，使它呈現藍綠色。1781年由威廉·赫歇爾發現。",
+    "es": "Un gigante de hielo que gira de lado: su eje está inclinado 98 grados y sus polos apuntan al Sol. El metano de su atmósfera absorbe la luz roja y le da un tono azul verdoso. William Herschel lo descubrió en 1781.",
+    "pt": "Um gigante de gelo que gira deitado: seu eixo está inclinado 98 graus e os polos apontam para o Sol. O metano da atmosfera absorve a luz vermelha e lhe dá um tom azul-esverdeado. William Herschel o descobriu em 1781.",
+    "de": "Ein Eisriese, der auf der Seite liegend rotiert: Seine Achse ist um 98 Grad geneigt, die Pole zeigen zur Sonne. Methan in der Atmosphäre schluckt rotes Licht und färbt ihn blaugrün. William Herschel entdeckte ihn 1781."
+   }
+  },
+  "miranda": {
+   "say": {
+    "ko": "천왕성의 주요 위성 가운데 가장 작고 안쪽에 있습니다. 높이 20 km의 베로나 절벽은 태양계에서 가장 높은 절벽입니다. 거대한 충돌로 부서졌다가 다시 뭉친 것으로 보입니다.",
+    "en": "The smallest and innermost of Uranus's major moons. Verona Rupes, a cliff 20 km tall, is the highest in the Solar System. It may have been shattered by a giant impact and reassembled.",
+    "ja": "天王星の主要な衛星で最も小さく、最も内側にあります。高さ20kmのヴェローナ断崖は太陽系で最も高い崖です。巨大な衝突で砕け、再び集まったと考えられています。",
+    "zh": "天王星主要衛星中最小、最內側的一顆。高達20公里的維羅納斷崖是太陽系最高的懸崖。它可能曾被巨大撞擊打碎後重新聚合。",
+    "es": "La más pequeña e interior de las lunas principales de Urano. Verona Rupes, un acantilado de 20 km, es el más alto del Sistema Solar. Quizá fue destrozada por un gran impacto y volvió a unirse.",
+    "pt": "A menor e mais interna das luas principais de Urano. Verona Rupes, um penhasco de 20 km, é o mais alto do Sistema Solar. Talvez tenha sido despedaçada por um grande impacto e se reagrupado.",
+    "de": "Der kleinste und innerste der großen Uranusmonde. Verona Rupes, eine 20 km hohe Klippe, ist die höchste im Sonnensystem. Vermutlich wurde er von einem gewaltigen Einschlag zerschlagen und setzte sich neu zusammen."
+   }
+  },
+  "ariel": {
+   "say": {
+    "ko": "천왕성의 위성 가운데 가장 밝습니다. 넓은 협곡과 매끄러운 평원은 표면이 비교적 젊다는 것을 말해 줍니다.",
+    "en": "The brightest of Uranus's moons. Broad canyons and smooth plains suggest its surface is relatively young.",
+    "ja": "天王星の衛星の中で最も明るい衛星です。広い峡谷と滑らかな平原は、表面が比較的若いことを物語っています。",
+    "zh": "天王星衛星中最明亮的一顆。寬闊的峽谷與平滑的平原顯示它的表面相對年輕。",
+    "es": "La más brillante de las lunas de Urano. Sus amplios cañones y llanuras lisas sugieren una superficie relativamente joven.",
+    "pt": "A mais brilhante das luas de Urano. Cânions largos e planícies lisas sugerem uma superfície relativamente jovem.",
+    "de": "Der hellste der Uranusmonde. Breite Schluchten und glatte Ebenen deuten auf eine vergleichsweise junge Oberfläche hin."
+   }
+  },
+  "umbriel": {
+   "say": {
+    "ko": "천왕성의 위성 가운데 가장 어둡습니다. 오래되고 크레이터가 빽빽한 표면에서, 운다 크레이터 바닥의 밝은 고리가 유독 눈에 띕니다.",
+    "en": "The darkest of Uranus's moons. On its ancient, heavily cratered surface, a bright ring on the floor of Wunda crater stands out.",
+    "ja": "天王星の衛星の中で最も暗い衛星です。古くクレーターが密集した表面で、ウンダ・クレーターの底にある明るい環がひときわ目を引きます。",
+    "zh": "天王星衛星中最暗的一顆。在古老而密布隕石坑的表面上，溫達隕石坑底部的亮環格外醒目。",
+    "es": "La más oscura de las lunas de Urano. En su superficie antigua y llena de cráteres destaca un anillo brillante en el fondo del cráter Wunda.",
+    "pt": "A mais escura das luas de Urano. Em sua superfície antiga e cheia de crateras, destaca-se um anel brilhante no fundo da cratera Wunda.",
+    "de": "Der dunkelste der Uranusmonde. Auf seiner uralten, kraterübersäten Oberfläche sticht ein heller Ring am Boden des Kraters Wunda hervor."
+   }
+  },
+  "titania": {
+   "say": {
+    "ko": "천왕성에서 가장 큰 위성입니다. 메시나 협곡은 깊이가 50 km에 이릅니다. 1787년 윌리엄 허셜이 오베론과 같은 해에 발견했습니다.",
+    "en": "Uranus's largest moon. The Messina Chasmata canyon plunges 50 km deep. William Herschel discovered it in 1787, the same year as Oberon.",
+    "ja": "天王星最大の衛星です。メッシーナ峡谷は深さ50kmに達します。1787年にウィリアム・ハーシェルがオベロンと同じ年に発見しました。",
+    "zh": "天王星最大的衛星。梅西納峽谷深達50公里。1787年由威廉·赫歇爾與奧伯龍同年發現。",
+    "es": "La luna más grande de Urano. El cañón Messina Chasmata alcanza 50 km de profundidad. William Herschel la descubrió en 1787, el mismo año que Oberón.",
+    "pt": "A maior lua de Urano. O cânion Messina Chasmata chega a 50 km de profundidade. William Herschel a descobriu em 1787, no mesmo ano que Oberon.",
+    "de": "Der größte Uranusmond. Die Schlucht Messina Chasmata ist 50 km tief. William Herschel entdeckte ihn 1787, im selben Jahr wie Oberon."
+   }
+  },
+  "oberon": {
+   "say": {
+    "ko": "천왕성의 위성 가운데 가장 바깥에 있고 두 번째로 큽니다. 오래된 크레이터 표면 곳곳에 어두운 물질이 깔려 있고, 가장자리에는 높이 11 km의 산이 솟아 있습니다. 1787년 허셜이 발견했습니다.",
+    "en": "The outermost and second-largest moon of Uranus. Dark material coats some crater floors on its ancient surface, and a mountain about 11 km high rises near its edge. Discovered by Herschel in 1787.",
+    "ja": "天王星の衛星で最も外側にあり、2番目に大きい衛星です。古いクレーター表面の所々に暗い物質が広がり、縁には高さ約11kmの山がそびえています。1787年にハーシェルが発見しました。",
+    "zh": "天王星最外側、第二大的衛星。古老的隕石坑表面散布著暗色物質，邊緣聳立著約11公里高的山。1787年由赫歇爾發現。",
+    "es": "La luna más exterior y segunda más grande de Urano. Material oscuro cubre algunos cráteres de su antigua superficie, y una montaña de unos 11 km se alza cerca de su borde. Herschel la descubrió en 1787.",
+    "pt": "A lua mais externa e a segunda maior de Urano. Material escuro cobre o fundo de algumas crateras de sua superfície antiga, e uma montanha de uns 11 km se ergue perto da borda. Herschel a descobriu em 1787.",
+    "de": "Der äußerste und zweitgrößte Uranusmond. Dunkles Material bedeckt einige Kraterböden seiner alten Oberfläche, und nahe dem Rand ragt ein etwa 11 km hoher Berg auf. Herschel entdeckte ihn 1787."
+   }
+  },
+  "neptune": {
+   "say": {
+    "ko": "태양에서 가장 먼 행성입니다. 시속 2,000 km가 넘는 태양계 최강의 바람이 불고, 1846년 망원경보다 먼저 계산으로 위치를 알아낸 뒤 발견되었습니다. 1989년 보이저 2호만 다녀갔습니다.",
+    "en": "The farthest planet from the Sun. Winds here top 2,000 kilometers per hour, the fastest in the Solar System. It was found in 1846 by calculation before anyone saw it, and only Voyager 2 has visited, in 1989.",
+    "ja": "太陽から最も遠い惑星です。時速2,000kmを超える太陽系最強の風が吹き、1846年には望遠鏡より先に計算で位置が突き止められて発見されました。訪れた探査機は1989年のボイジャー2号だけです。",
+    "zh": "離太陽最遠的行星。這裡的風速超過每小時2,000公里，是太陽系最強。1846年先靠計算推算出位置才被發現，只有航海家2號在1989年造訪過。",
+    "es": "El planeta más lejano del Sol. Sus vientos superan los 2.000 km por hora, los más rápidos del Sistema Solar. Se descubrió en 1846 por cálculo antes de verlo, y solo la Voyager 2 lo ha visitado, en 1989.",
+    "pt": "O planeta mais distante do Sol. Seus ventos passam de 2.000 km por hora, os mais rápidos do Sistema Solar. Foi descoberto em 1846 por cálculo, antes de ser visto, e só a Voyager 2 o visitou, em 1989.",
+    "de": "Der sonnenfernste Planet. Hier wehen Winde mit über 2.000 km pro Stunde, die schnellsten im Sonnensystem. 1846 wurde er durch Berechnung gefunden, bevor ihn jemand sah; nur Voyager 2 besuchte ihn 1989."
+   }
+  },
+  "triton": {
+   "say": {
+    "ko": "해왕성의 가장 큰 위성입니다. 태양계 큰 위성 가운데 유일하게 행성 자전과 반대로 공전해, 붙잡힌 카이퍼 벨트 천체로 여겨집니다. 질소 간헐천이 솟고, 보이저 2호가 1989년 한 번 다녀갔습니다.",
+    "en": "Neptune's largest moon, and the only large moon that orbits backwards, likely a captured Kuiper Belt object. Nitrogen geysers erupt from its surface. Voyager 2 saw it once, in 1989.",
+    "ja": "海王星最大の衛星です。太陽系の大きな衛星で唯一、惑星の自転と逆向きに公転しており、捕獲されたカイパーベルト天体と考えられています。窒素の間欠泉が噴き、1989年にボイジャー2号が一度だけ訪れました。",
+    "zh": "海王星最大的衛星，也是太陽系唯一逆行公轉的大型衛星，據信是被捕獲的古柏帶天體。表面有氮氣噴泉，航海家2號在1989年造訪過一次。",
+    "es": "La luna más grande de Neptuno y la única luna grande que orbita al revés: probablemente un objeto capturado del cinturón de Kuiper. Géiseres de nitrógeno brotan de su superficie. La Voyager 2 la vio una vez, en 1989.",
+    "pt": "A maior lua de Netuno e a única lua grande que orbita ao contrário, provavelmente um objeto capturado do Cinturão de Kuiper. Gêiseres de nitrogênio brotam de sua superfície. A Voyager 2 a viu uma única vez, em 1989.",
+    "de": "Neptuns größter Mond und der einzige große Mond mit rückläufiger Bahn, wohl ein eingefangenes Kuipergürtel-Objekt. Stickstoffgeysire brechen aus seiner Oberfläche. Voyager 2 sah ihn 1989 ein einziges Mal."
+   }
+  },
+  "pluto": {
+   "say": {
+    "ko": "한때 아홉 번째 행성이었다가 2006년 왜행성이 된 세계입니다. 2015년 뉴호라이즌스가 다가가 질소 얼음으로 된 하트 모양의 톰보 평원을 보여 주었습니다. 카론과 늘 같은 면을 마주 봅니다.",
+    "en": "Once the ninth planet, reclassified as a dwarf planet in 2006. New Horizons flew past in 2015 and revealed the heart-shaped Tombaugh Regio, a plain of nitrogen ice. It and its moon Charon always face each other.",
+    "ja": "かつて9番目の惑星で、2006年に準惑星となった世界です。2015年にニュー・ホライズンズが初めて接近し、窒素の氷でできたハート形のトンボー領域を見せてくれました。衛星カロンとは同じ面を向け合って回っています。",
+    "zh": "曾是第九顆行星，2006年改列為矮行星。2015年新視野號首次飛掠，揭示了由氮冰構成的心形湯博區。它與衛星卡戎永遠以同一面相對。",
+    "es": "Fue el noveno planeta hasta 2006, cuando pasó a ser planeta enano. New Horizons lo sobrevoló en 2015 y reveló la región Tombaugh, una llanura de hielo de nitrógeno con forma de corazón. Él y Caronte siempre se miran.",
+    "pt": "Foi o nono planeta até 2006, quando virou planeta anão. A New Horizons passou por ele em 2015 e revelou a Tombaugh Regio, uma planície de gelo de nitrogênio em forma de coração. Ele e sua lua Caronte sempre se encaram.",
+    "de": "Einst der neunte Planet, seit 2006 ein Zwergplanet. New Horizons flog 2015 vorbei und enthüllte die herzförmige Tombaugh Regio, eine Ebene aus Stickstoffeis. Er und sein Mond Charon zeigen einander stets dieselbe Seite."
+   }
+  },
+  "charon": {
+   "say": {
+    "ko": "명왕성과 쌍을 이루는 위성으로, 질량비가 1 대 8이라 둘은 서로의 둘레를 돕니다. 늘 같은 면을 마주 보며, 뉴호라이즌스는 거대한 협곡 세레니티 카스마를 보여 주었습니다.",
+    "en": "Pluto's partner in a binary pair: at one-eighth of Pluto's mass, the two orbit each other, always facing the same way. New Horizons revealed the vast canyon Serenity Chasma.",
+    "ja": "冥王星と対をなす衛星で、質量比が1対8のため互いの周りを回っています。常に同じ面を向け合い、ニュー・ホライズンズは巨大な峡谷セレニティ・カズマを明らかにしました。",
+    "zh": "與冥王星組成雙星系統的衛星，質量比為一比八，兩者互相繞行、永遠以同一面相對。新視野號揭示了巨大的寧靜峽谷。",
+    "es": "Compañera de Plutón en un sistema binario: con un octavo de su masa, los dos giran uno alrededor del otro mostrándose siempre la misma cara. New Horizons reveló el enorme cañón Serenity Chasma.",
+    "pt": "Parceira de Plutão em um sistema binário: com um oitavo de sua massa, os dois giram um ao redor do outro, sempre com a mesma face voltada. A New Horizons revelou o enorme cânion Serenity Chasma.",
+    "de": "Plutos Partner in einem Doppelsystem: Mit einem Achtel seiner Masse umkreisen sich beide und zeigen einander stets dieselbe Seite. New Horizons enthüllte die gewaltige Schlucht Serenity Chasma."
+   }
+  },
+  "haumea": {
+   "say": {
+    "ko": "럭비공처럼 길쭉한 왜행성으로, 길이 2,100 km에 두께는 1,100 km에 불과합니다. 3.9시간마다 한 바퀴 도는 태양계에서 가장 빨리 자전하는 큰 천체이고, 2017년 고리가 발견되었습니다.",
+    "en": "A dwarf planet shaped like a rugby ball, 2,100 km long but only 1,100 km thick. It spins every 3.9 hours, the fastest of any large body in the Solar System, and in 2017 a ring was found around it.",
+    "ja": "ラグビーボールのように細長い準惑星で、長さ2,100kmに対し厚さはわずか1,100kmです。3.9時間で一回転する太陽系で最も速く自転する大きな天体で、2017年には環が見つかりました。",
+    "zh": "形狀像橄欖球的矮行星，長2,100公里、厚度卻只有1,100公里。每3.9小時自轉一圈，是太陽系自轉最快的大型天體，2017年還發現了環。",
+    "es": "Un planeta enano con forma de balón de rugby: 2.100 km de largo pero solo 1.100 de grosor. Gira cada 3,9 horas, el más rápido entre los cuerpos grandes del Sistema Solar, y en 2017 se le descubrió un anillo.",
+    "pt": "Um planeta anão em forma de bola de rúgbi: 2.100 km de comprimento, mas só 1.100 de espessura. Gira a cada 3,9 horas, o mais rápido entre os corpos grandes do Sistema Solar, e em 2017 descobriram um anel ao seu redor.",
+    "de": "Ein Zwergplanet wie ein Rugbyball: 2.100 km lang, aber nur 1.100 km dick. Er dreht sich alle 3,9 Stunden, schneller als jeder andere große Körper im Sonnensystem, und 2017 wurde ein Ring um ihn entdeckt."
+   }
+  },
+  "quaoar": {
+   "say": {
+    "ko": "명왕성의 절반쯤 되는 카이퍼 벨트의 왜행성으로, 남부 캘리포니아 통바족의 창조신 이름을 땄습니다. 2023년 고리가 발견되었는데, 고리가 있을 수 없다던 먼 거리라 고리 이론을 흔들었습니다.",
+    "en": "A Kuiper Belt dwarf planet about half the size of Pluto, named after the creation god of the Tongva people of southern California. A ring found in 2023 lies far beyond where rings were thought possible.",
+    "ja": "冥王星の半分ほどのカイパーベルトの準惑星で、南カリフォルニアのトングヴァ族の創造神にちなんで名付けられました。2023年に見つかった環は、環が存在できないとされていた遠さにあり、環の形成理論を揺るがしました。",
+    "zh": "大小約為冥王星一半的古柏帶矮行星，以南加州通瓦族的創世神命名。2023年發現的環位於原本認為不可能有環的遙遠距離，動搖了環形成的理論。",
+    "es": "Un planeta enano del cinturón de Kuiper de la mitad del tamaño de Plutón, llamado como el dios creador del pueblo tongva de California. Un anillo hallado en 2023 está mucho más lejos de lo que se creía posible.",
+    "pt": "Um planeta anão do Cinturão de Kuiper com metade do tamanho de Plutão, batizado com o nome do deus criador do povo tongva da Califórnia. Um anel descoberto em 2023 fica muito além de onde se julgava possível.",
+    "de": "Ein Zwergplanet im Kuipergürtel, halb so groß wie Pluto, benannt nach dem Schöpfergott der Tongva aus Südkalifornien. Ein 2023 entdeckter Ring liegt weit jenseits der Distanz, in der Ringe für möglich galten."
+   }
+  },
+  "arrokoth": {
+   "say": {
+    "ko": "탐사선이 찾아간 가장 먼 천체로, 2019년 1월 1일 뉴호라이즌스가 스쳐 지났습니다. 눈사람처럼 두 덩이가 좁은 목으로 이어졌고, 태양계가 태어날 때 살며시 붙은 뒤 거의 그대로입니다.",
+    "en": "The most distant world ever visited by a spacecraft: New Horizons flew past on 1 January 2019. Two lobes joined at a narrow neck, like a snowman, that touched gently as the Solar System formed and barely changed since.",
+    "ja": "探査機が訪れた最も遠い天体で、2019年1月1日にニュー・ホライズンズが通過しました。雪だるまのように二つの塊が細い首でつながり、太陽系誕生のころ歩く速さでそっと結合して以来、ほぼそのままです。",
+    "zh": "探測器造訪過最遙遠的天體。2019年1月1日新視野號飛掠，看到它像雪人一樣由兩個瓣以細頸相連。太陽系誕生時兩瓣以步行速度輕輕貼合，45億年來幾乎沒變。",
+    "es": "El mundo más lejano visitado por una nave: New Horizons lo sobrevoló el 1 de enero de 2019. Dos lóbulos unidos por un cuello estrecho, como un muñeco de nieve, que se tocaron suavemente al nacer el Sistema Solar.",
+    "pt": "O mundo mais distante visitado por uma sonda: a New Horizons passou em 1º de janeiro de 2019. Dois lobos unidos por um pescoço estreito, como um boneco de neve, que se tocaram de leve quando o Sistema Solar nascia.",
+    "de": "Die fernste Welt, die je eine Sonde besuchte: New Horizons flog am 1. Januar 2019 vorbei. Zwei Lappen an einem schmalen Hals wie ein Schneemann; sie berührten sich sanft, als das Sonnensystem entstand."
+   }
+  },
+  "makemake": {
+   "say": {
+    "ko": "카이퍼 벨트의 밝고 불그스름한 왜행성으로, 이스터섬 라파누이족의 창조신 이름을 땄습니다. 메탄 얼음 표면은 외태양계에서 가장 반짝이는 축에 들고, 작고 어두운 위성 하나가 있습니다.",
+    "en": "A bright, reddish dwarf planet in the Kuiper Belt, named after a creation god of Easter Island's Rapa Nui people. Its methane-ice surface is among the most reflective in the outer Solar System, and it has one small moon.",
+    "ja": "カイパーベルトにある明るく赤みがかった準惑星で、イースター島のラパ・ヌイ族の創造神にちなんで名付けられました。メタンの氷の表面は外太陽系で最も光を反射する部類で、小さく暗い衛星が一つあります。",
+    "zh": "古柏帶中明亮偏紅的矮行星，以復活節島拉帕努伊人的創世神命名。甲烷冰的表面是外太陽系最明亮的之一，並有一顆小而暗的衛星。",
+    "es": "Un planeta enano brillante y rojizo del cinturón de Kuiper, llamado como un dios creador del pueblo rapanui de la isla de Pascua. Su superficie de hielo de metano es de las más reflectantes del Sistema Solar exterior.",
+    "pt": "Um planeta anão brilhante e avermelhado do Cinturão de Kuiper, batizado com o nome de um deus criador do povo rapanui da Ilha de Páscoa. Sua superfície de gelo de metano é das mais reflexivas do Sistema Solar externo.",
+    "de": "Ein heller, rötlicher Zwergplanet im Kuipergürtel, benannt nach einem Schöpfergott der Rapa Nui von der Osterinsel. Seine Oberfläche aus Methaneis gehört zu den hellsten im äußeren Sonnensystem."
+   }
+  },
+  "eris": {
+   "say": {
+    "ko": "해왕성 너머의 먼 왜행성입니다. 지름은 명왕성보다 조금 작지만 더 무겁고, 2005년 발견이 명왕성을 왜행성으로 재분류하는 논쟁을 불러왔습니다. 탐사선이 간 적이 없습니다.",
+    "en": "A distant dwarf planet beyond Neptune, slightly smaller than Pluto yet more massive. Its discovery in 2005 set off the debate that demoted Pluto. No spacecraft has ever visited.",
+    "ja": "海王星の向こうにある遠い準惑星です。直径は冥王星よりわずかに小さいものの質量は大きく、2005年の発見が冥王星を準惑星に再分類する論争を呼びました。探査機はまだ訪れていません。",
+    "zh": "海王星外側遙遠的矮行星，直徑略小於冥王星但質量更大。2005年的發現引發了把冥王星降為矮行星的爭論。從未有探測器造訪。",
+    "es": "Un lejano planeta enano más allá de Neptuno, algo más pequeño que Plutón pero más masivo. Su descubrimiento en 2005 desató el debate que degradó a Plutón. Ninguna nave lo ha visitado.",
+    "pt": "Um distante planeta anão além de Netuno, um pouco menor que Plutão, mas mais massivo. Sua descoberta em 2005 iniciou o debate que rebaixou Plutão. Nenhuma sonda o visitou.",
+    "de": "Ein ferner Zwergplanet jenseits von Neptun, etwas kleiner als Pluto, aber schwerer. Seine Entdeckung 2005 löste die Debatte aus, die Pluto herabstufte. Keine Sonde hat ihn je besucht."
+   }
+  },
+  "1i-oumuamua": {
+   "say": {
+    "ko": "처음으로 확인된 성간 천체입니다. 2017년 10월 판스타스 망원경이 발견했을 때 이미 태양을 돌아 떠나는 중이었습니다. 이름은 하와이어로 '먼 곳에서 온 첫 전령'이라는 뜻입니다.",
+    "en": "The first interstellar object ever confirmed. When the Pan-STARRS telescope spotted it in October 2017, it had already swung past the Sun and was leaving. Its name is Hawaiian for 'a messenger from afar arriving first'.",
+    "ja": "初めて確認された恒星間天体です。2017年10月にパンスターズ望遠鏡が見つけたとき、すでに太陽を回って去りつつありました。名前はハワイ語で「遠くから最初に届いた使者」の意味で、本当の形は誰も見ていません。",
+    "zh": "第一顆被確認的星際天體。2017年10月泛星計畫望遠鏡發現它時，它已繞過太陽正要離去。名字在夏威夷語中意為「來自遠方的首位信使」，真正的形狀至今無人見過。",
+    "es": "El primer objeto interestelar confirmado. Cuando el telescopio Pan-STARRS lo detectó en octubre de 2017, ya había pasado junto al Sol y se alejaba. Su nombre hawaiano significa 'mensajero que llega primero de lejos'.",
+    "pt": "O primeiro objeto interestelar confirmado. Quando o Pan-STARRS o detectou em outubro de 2017, ele já havia passado pelo Sol e se afastava. Seu nome havaiano significa 'mensageiro que chega primeiro de longe'.",
+    "de": "Das erste bestätigte interstellare Objekt. Als Pan-STARRS es im Oktober 2017 entdeckte, hatte es die Sonne schon passiert und entfernte sich. Sein hawaiianischer Name bedeutet „Bote aus der Ferne, der zuerst eintrifft“."
+   }
+  },
+  "2i-borisov": {
+   "say": {
+    "ko": "처음으로 확인된 성간 혜성입니다. 2019년 8월 30일 보리소프가 직접 만든 망원경으로 발견했습니다. 코마와 꼬리를 가진 전형적인 혜성이라, 다른 별의 혜성도 우리와 닮았음을 보여 줍니다.",
+    "en": "The first interstellar comet. Amateur astronomer Gennadiy Borisov found it on 30 August 2019 with a home-built telescope. A classic comet with a coma and tail, it showed that comets from other stars look much like ours.",
+    "ja": "初めて確認された恒星間彗星です。2019年8月30日にアマチュア天文家ボリソフが自作の望遠鏡で発見しました。コマと尾を持つ典型的な彗星で、他の星で生まれた彗星も私たちの彗星とよく似ていることを示しました。",
+    "zh": "第一顆被確認的星際彗星。2019年8月30日由業餘天文學家鮑里索夫以自製望遠鏡發現。它有彗髮和彗尾，顯示在其他恆星旁誕生的彗星也與我們的相似。",
+    "es": "El primer cometa interestelar. El aficionado Gennadiy Borisov lo descubrió el 30 de agosto de 2019 con un telescopio que construyó él mismo. Un cometa clásico, con coma y cola, muy parecido a los nuestros.",
+    "pt": "O primeiro cometa interestelar. O amador Gennadiy Borisov o descobriu em 30 de agosto de 2019 com um telescópio que ele mesmo construiu. Um cometa clássico, com coma e cauda, muito parecido com os nossos.",
+    "de": "Der erste interstellare Komet. Der Amateurastronom Gennadij Borissow entdeckte ihn am 30. August 2019 mit einem selbst gebauten Teleskop. Ein klassischer Komet mit Koma und Schweif, unseren sehr ähnlich."
+   }
+  },
+  "3i-atlas": {
+   "say": {
+    "ko": "태양계 밖에서 온 세 번째 성간 천체입니다. 2025년 7월 1일 칠레의 ATLAS 망원경이 발견했고, 초속 58 km로 지금까지 가장 빠른 성간 방문자입니다. 태양을 한 번 스치고 떠납니다.",
+    "en": "Only the third interstellar object ever confirmed. The ATLAS telescope in Chile found it on 1 July 2025, and at about 58 km per second it is the fastest interstellar visitor yet. It passes the Sun once and never returns.",
+    "ja": "太陽系の外から来た3番目の恒星間天体です。2025年7月1日にチリのATLAS望遠鏡が発見し、秒速58kmでこれまでで最も速い恒星間の訪問者です。太陽を一度かすめたら二度と戻りません。",
+    "zh": "來自太陽系外的第三顆星際天體。2025年7月1日由智利的ATLAS望遠鏡發現，以每秒58公里成為迄今最快的星際訪客。掠過太陽一次後便一去不回。",
+    "es": "Solo el tercer objeto interestelar confirmado. El telescopio ATLAS de Chile lo halló el 1 de julio de 2025 y, a unos 58 km por segundo, es el visitante interestelar más rápido hasta ahora. Pasa junto al Sol y no vuelve.",
+    "pt": "Apenas o terceiro objeto interestelar confirmado. O telescópio ATLAS o achou em 1º de julho de 2025 e, a cerca de 58 km por segundo, é o visitante interestelar mais rápido até agora. Passa pelo Sol e não volta.",
+    "de": "Erst das dritte bestätigte interstellare Objekt. Das ATLAS-Teleskop in Chile fand es am 1. Juli 2025, und mit rund 58 km pro Sekunde ist es der bisher schnellste interstellare Besucher. Es passiert die Sonne nur einmal."
+   }
+  }
+ }
+}

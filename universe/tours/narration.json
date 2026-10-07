@@ -1,6 +1,6 @@
 {
  "ver": 1,
- "_note": "크기 화면 투어 해설 정본(docs/tour_menu_plan.md §10.3). bodies.<id>.say.<lang> = 소개 해설(모든 천체 필수, 7언어 ko/en/ja/zh/es/pt/de). 길이 상한 = TTS 30초: ko·ja 110자 · zh 80자 · en/es/pt/de 220자. 괄호 없이, 숫자+단위는 ttsText 정규화가 읽는다. bodies.<id>.pins.<핀 이름>.say.<lang> 가 있으면 features.json 의 area_xx 대신 그것을 읽는다(선택). 예약 필드: clip(녹음 클립 경로 접두), dur(언어별 초). 번들 사본(assets/tours · iOS web/tours)은 이 파일과 바이트 동일이어야 한다 — scripts/narration-test.mjs",
+ "_note": "크기 화면 투어 해설 정본(docs/tour_menu_plan.md §10.3). bodies.<id>.say.<lang> = 소개 해설(모든 천체 필수, 7언어 ko/en/ja/zh/es/pt/de). 길이 상한 = TTS 30초: ko·ja 110자 · zh 80자 · en/es/pt/de 220자. 괄호 없이, 숫자+단위는 ttsText 정규화가 읽는다. bodies.<id>.pins.<핀 이름>.say.<lang> 가 있으면 features.json 의 area_xx 대신 그것을 읽는다(선택). 클립(2차 5단계): bodies.<id>.clip / pins.<이름>.clip = 경로 접두(예 mars/intro), 파일명 = <clip>.<lang>.<clipFormat>, 최상위 clipBase(기본 https://app-data.pages.dev/universe/tours/clips/)·clipFormat(기본 m4a), dur.<lang> = 초(있으면 길이 어림 대신). 클립을 못 받으면 기기 TTS 폴백. 번들 사본(assets/tours · iOS web/tours)은 이 파일과 바이트 동일이어야 한다 — scripts/narration-test.mjs",
  "bodies": {
   "sun": {
    "say": {

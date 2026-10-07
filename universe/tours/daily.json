@@ -1,13 +1,15 @@
 {
  "ver": 1,
- "_note": "UniverseDaily 크기 화면 오늘의 투어(docs/tour_menu_plan.md §4). 앱 번들 assets/tours/daily.json 이 같은 사본(오프라인 폴백) — 바꾸면 번들도 같이. mmdd = 기기 현지 날짜.",
+ "_note": "UniverseDaily 크기 화면 오늘의 투어(docs/tour_menu_plan.md §4). 앱 번들 assets/tours/daily.json 이 같은 사본(오프라인 폴백) — 바꾸면 번들도 같이. mmdd = 기기 현지 날짜. rotation.includeOrbit = 핀 없어도 한 바퀴 가능(텍스처·형상 메시) 천체를 순환에(소개 해설 전제, 2차 §10.4) · rotation.familyGap = 직전 minGapDays 안의 같은 계(모행성·쌍소행성) 회피.",
  "rotation": {
   "minGapDays": 7,
   "exclude": [
    "sun"
   ],
   "seed": 2026,
-  "epoch": "2026-01-01"
+  "epoch": "2026-01-01",
+  "includeOrbit": true,
+  "familyGap": true
  },
  "anchors": [
   {
@@ -21,6 +23,24 @@
     "pt": "Neste dia, em 2019, a New Horizons passou por Arrokoth — o mundo mais distante já visitado por uma sonda.",
     "de": "An diesem Tag im Jahr 2019 flog New Horizons an Arrokoth vorbei – der fernste Himmelskörper, den je eine Sonde besucht hat.",
     "zh": "2019年的今天，新視野號飛掠阿羅科斯——探測器造訪過最遙遠的天體。"
+   }
+  },
+  {
+   "mmdd": "0103",
+   "body": "moon",
+   "pins": [
+    "Chang'e 4",
+    "Mare Tranquillitatis",
+    "Tycho"
+   ],
+   "why": {
+    "ko": "2019년 오늘 창어 4호가 인류 최초로 달 뒷면에 착륙했습니다.",
+    "en": "On this day in 2019, Chang'e 4 made the first landing on the far side of the Moon.",
+    "ja": "2019年の今日、嫦娥4号が人類初の月の裏側への着陸に成功しました。",
+    "zh": "2019年的今天，嫦娥四號完成人類首次月球背面著陸。",
+    "es": "Tal día como hoy, en 2019, Chang'e 4 logró el primer alunizaje en la cara oculta de la Luna.",
+    "pt": "Neste dia, em 2019, a Chang'e 4 fez o primeiro pouso no lado oculto da Lua.",
+    "de": "An diesem Tag im Jahr 2019 landete Chang'e 4 als Erste auf der Rückseite des Mondes."
    }
   },
   {
@@ -66,6 +86,24 @@
     "pt": "Neste dia, em 2005, a sonda Huygens pousou em Titã — o primeiro pouso no Sistema Solar exterior.",
     "de": "An diesem Tag im Jahr 2005 landete die Sonde Huygens auf Titan – die erste Landung im äußeren Sonnensystem.",
     "zh": "2005年的今天，惠更斯號降落在泰坦——人類首次在外太陽系著陸。"
+   }
+  },
+  {
+   "mmdd": "0119",
+   "body": "moon",
+   "pins": [
+    "SLIM",
+    "Apollo 11",
+    "Aristarchus"
+   ],
+   "why": {
+    "ko": "2024년 오늘 일본의 SLIM 이 목표 지점 100 m 안에 정밀 착륙했습니다.",
+    "en": "On this day in 2024, Japan's SLIM touched down within 100 m of its target on the Moon.",
+    "ja": "2024年の今日、日本のSLIMが目標地点から100m以内にピンポイント着陸しました。",
+    "zh": "2024年的今天，日本的SLIM在目標點100公尺內精準著陸月球。",
+    "es": "Tal día como hoy, en 2024, la japonesa SLIM alunizó a menos de 100 m de su objetivo.",
+    "pt": "Neste dia, em 2024, a japonesa SLIM pousou a menos de 100 m do alvo na Lua.",
+    "de": "An diesem Tag im Jahr 2024 landete Japans SLIM weniger als 100 m vom Ziel entfernt auf dem Mond."
    }
   },
   {
@@ -182,6 +220,19 @@
     "pt": "Neste dia, em 2015, a Dawn entrou em órbita de Ceres — a primeira sonda a orbitar um planeta anão.",
     "de": "An diesem Tag im Jahr 2015 schwenkte Dawn in eine Umlaufbahn um Ceres ein – die erste Sonde im Orbit eines Zwergplaneten.",
     "zh": "2015年的今天，黎明號進入穀神星軌道——第一艘環繞矮行星的探測器。"
+   }
+  },
+  {
+   "mmdd": "0313",
+   "body": "uranus",
+   "why": {
+    "ko": "1781년 오늘 윌리엄 허셜이 천왕성을 발견했습니다 — 망원경으로 찾은 첫 행성.",
+    "en": "On this day in 1781, William Herschel discovered Uranus — the first planet found with a telescope.",
+    "ja": "1781年の今日、ウィリアム・ハーシェルが天王星を発見しました。望遠鏡で見つかった最初の惑星です。",
+    "zh": "1781年的今天，威廉·赫歇爾發現了天王星——第一顆用望遠鏡找到的行星。",
+    "es": "Tal día como hoy, en 1781, William Herschel descubrió Urano: el primer planeta hallado con telescopio.",
+    "pt": "Neste dia, em 1781, William Herschel descobriu Urano — o primeiro planeta achado com telescópio.",
+    "de": "An diesem Tag im Jahr 1781 entdeckte William Herschel den Uranus – den ersten mit einem Teleskop gefundenen Planeten."
    }
   },
   {
@@ -342,6 +393,38 @@
    }
   },
   {
+   "mmdd": "0812",
+   "body": "deimos",
+   "stop": "compare",
+   "why": {
+    "ko": "1877년 오늘 아사프 홀이 데이모스를 발견했습니다 — 엿새 뒤 포보스도.",
+    "en": "On this day in 1877, Asaph Hall discovered Deimos — and Phobos six days later.",
+    "ja": "1877年の今日、アサフ・ホールがダイモスを発見しました。6日後にはフォボスも。",
+    "zh": "1877年的今天，阿薩夫·霍爾發現了火衛二——六天後又發現火衛一。",
+    "es": "Tal día como hoy, en 1877, Asaph Hall descubrió Deimos; seis días después, Fobos.",
+    "pt": "Neste dia, em 1877, Asaph Hall descobriu Deimos — e Fobos seis dias depois.",
+    "de": "An diesem Tag im Jahr 1877 entdeckte Asaph Hall Deimos – und sechs Tage später Phobos."
+   }
+  },
+  {
+   "mmdd": "0823",
+   "body": "moon",
+   "pins": [
+    "Chandrayaan-3",
+    "Apollo 11",
+    "Copernicus"
+   ],
+   "why": {
+    "ko": "2023년 오늘 찬드라얀 3호가 인류 최초로 달 남극권에 착륙했습니다.",
+    "en": "On this day in 2023, Chandrayaan-3 made the first landing near the Moon's south pole.",
+    "ja": "2023年の今日、チャンドラヤーン3号が人類初の月南極域への着陸に成功しました。",
+    "zh": "2023年的今天，月船三號完成人類首次月球南極區著陸。",
+    "es": "Tal día como hoy, en 2023, Chandrayaan-3 logró el primer alunizaje cerca del polo sur lunar.",
+    "pt": "Neste dia, em 2023, a Chandrayaan-3 fez o primeiro pouso perto do polo sul da Lua.",
+    "de": "An diesem Tag im Jahr 2023 gelang Chandrayaan-3 die erste Landung nahe dem Südpol des Mondes."
+   }
+  },
+  {
    "mmdd": "0825",
    "body": "triton",
    "why": {
@@ -473,6 +556,19 @@
     "pt": "Neste dia, em 1991, a Galileo passou por Gaspra — o primeiro asteroide visto de perto.",
     "de": "An diesem Tag im Jahr 1991 flog Galileo an Gaspra vorbei – der erste Asteroid, der je aus der Nähe gesehen wurde.",
     "zh": "1991年的今天，伽利略號飛掠加斯普拉——第一顆被近距離觀察的小行星。"
+   }
+  },
+  {
+   "mmdd": "1104",
+   "body": "hartley2",
+   "why": {
+    "ko": "2010년 오늘 딥 임팩트가 하틀리 2 혜성을 694 km 거리로 스쳐 지났습니다.",
+    "en": "On this day in 2010, Deep Impact flew past comet Hartley 2 just 694 km away.",
+    "ja": "2010年の今日、ディープ・インパクトがハートレー第2彗星を694kmの距離で通過しました。",
+    "zh": "2010年的今天，深度撞擊號以694公里的距離掠過哈特雷二號彗星。",
+    "es": "Tal día como hoy, en 2010, la Deep Impact pasó a solo 694 km del cometa Hartley 2.",
+    "pt": "Neste dia, em 2010, a Deep Impact passou a apenas 694 km do cometa Hartley 2.",
+    "de": "An diesem Tag im Jahr 2010 flog Deep Impact in nur 694 km Abstand am Kometen Hartley 2 vorbei."
    }
   },
   {

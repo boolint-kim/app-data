@@ -14,7 +14,8 @@
    },
    "clip": "sun/intro",
    "dur": {
-    "ko": 10.9
+    "ko": 10.9,
+    "en": 11.7
    }
   },
   "mercury": {
@@ -40,7 +41,8 @@
      },
      "clip": "mercury/pins/caloris-basin",
      "dur": {
-      "ko": 11.3
+      "ko": 11.3,
+      "en": 11.6
      }
     },
     "Rachmaninoff": {
@@ -55,7 +57,8 @@
      },
      "clip": "mercury/pins/rachmaninoff",
      "dur": {
-      "ko": 9.8
+      "ko": 9.8,
+      "en": 8.1
      }
     },
     "Hokusai": {
@@ -70,7 +73,8 @@
      },
      "clip": "mercury/pins/hokusai",
      "dur": {
-      "ko": 8.9
+      "ko": 8.9,
+      "en": 8.2
      }
     },
     "Beethoven Basin": {
@@ -85,7 +89,8 @@
      },
      "clip": "mercury/pins/beethoven-basin",
      "dur": {
-      "ko": 9.4
+      "ko": 9.4,
+      "en": 9.6
      }
     },
     "Tolstoj Basin": {
@@ -100,7 +105,8 @@
      },
      "clip": "mercury/pins/tolstoj-basin",
      "dur": {
-      "ko": 9.7
+      "ko": 9.7,
+      "en": 7.3
      }
     },
     "Rembrandt Basin": {
@@ -115,7 +121,8 @@
      },
      "clip": "mercury/pins/rembrandt-basin",
      "dur": {
-      "ko": 10.6
+      "ko": 10.6,
+      "en": 9.8
      }
     },
     "Discovery Rupes": {
@@ -130,7 +137,8 @@
      },
      "clip": "mercury/pins/discovery-rupes",
      "dur": {
-      "ko": 10.3
+      "ko": 10.3,
+      "en": 9.4
      }
     },
     "Kuiper": {
@@ -145,13 +153,15 @@
      },
      "clip": "mercury/pins/kuiper",
      "dur": {
-      "ko": 10.1
+      "ko": 10.1,
+      "en": 7.7
      }
     }
    },
    "clip": "mercury/intro",
    "dur": {
-    "ko": 11.2
+    "ko": 11.2,
+    "en": 11.8
    }
   },
   "venus": {
@@ -177,7 +187,8 @@
      },
      "clip": "venus/pins/maxwell-montes",
      "dur": {
-      "ko": 11.3
+      "ko": 11.3,
+      "en": 9.2
      }
     },
     "Ishtar Terra": {
@@ -192,7 +203,8 @@
      },
      "clip": "venus/pins/ishtar-terra",
      "dur": {
-      "ko": 8.5
+      "ko": 8.5,
+      "en": 8.5
      }
     },
     "Aphrodite Terra": {
@@ -207,7 +219,8 @@
      },
      "clip": "venus/pins/aphrodite-terra",
      "dur": {
-      "ko": 7.9
+      "ko": 7.9,
+      "en": 8.0
      }
     },
     "Maat Mons": {
@@ -222,7 +235,8 @@
      },
      "clip": "venus/pins/maat-mons",
      "dur": {
-      "ko": 14.1
+      "ko": 14.1,
+      "en": 11.9
      }
     },
     "Sapas Mons": {
@@ -237,7 +251,8 @@
      },
      "clip": "venus/pins/sapas-mons",
      "dur": {
-      "ko": 10.5
+      "ko": 10.5,
+      "en": 11.2
      }
     },
     "Sif Mons": {
@@ -252,7 +267,8 @@
      },
      "clip": "venus/pins/sif-mons",
      "dur": {
-      "ko": 12.6
+      "ko": 12.6,
+      "en": 12.7
      }
     },
     "Alpha Regio": {
@@ -267,7 +283,8 @@
      },
      "clip": "venus/pins/alpha-regio",
      "dur": {
-      "ko": 10.8
+      "ko": 10.8,
+      "en": 9.8
      }
     },
     "Beta Regio": {
@@ -282,13 +299,15 @@
      },
      "clip": "venus/pins/beta-regio",
      "dur": {
-      "ko": 9.7
+      "ko": 9.7,
+      "en": 8.4
      }
     }
    },
    "clip": "venus/intro",
    "dur": {
-    "ko": 11.1
+    "ko": 11.1,
+    "en": 12.4
    }
   },
   "earth": {
@@ -314,7 +333,8 @@
      },
      "clip": "earth/pins/challenger-deep",
      "dur": {
-      "ko": 8.5
+      "ko": 8.5,
+      "en": 11.6
      }
     },
     "Puerto Rico Trench": {
@@ -329,7 +349,8 @@
      },
      "clip": "earth/pins/puerto-rico-trench",
      "dur": {
-      "ko": 10.5
+      "ko": 10.5,
+      "en": 10.9
      }
     },
     "Sunda (Java) Trench": {
@@ -344,7 +365,8 @@
      },
      "clip": "earth/pins/sunda-java-trench",
      "dur": {
-      "ko": 13.9
+      "ko": 13.9,
+      "en": 11.5
      }
     },
     "Mid-Atlantic Ridge": {
@@ -359,7 +381,8 @@
      },
      "clip": "earth/pins/mid-atlantic-ridge",
      "dur": {
-      "ko": 12.0
+      "ko": 12.0,
+      "en": 11.3
      }
     },
     "East Pacific Rise": {
@@ -374,7 +397,8 @@
      },
      "clip": "earth/pins/east-pacific-rise",
      "dur": {
-      "ko": 11.4
+      "ko": 11.4,
+      "en": 12.7
      }
     },
     "Mauna Kea (Hawaii)": {
@@ -389,7 +413,8 @@
      },
      "clip": "earth/pins/mauna-kea-hawaii",
      "dur": {
-      "ko": 12.7
+      "ko": 12.7,
+      "en": 14.6
      }
     },
     "Mount Everest": {
@@ -404,7 +429,8 @@
      },
      "clip": "earth/pins/mount-everest",
      "dur": {
-      "ko": 10.1
+      "ko": 10.1,
+      "en": 10.2
      }
     },
     "Aconcagua (Andes)": {
@@ -419,7 +445,8 @@
      },
      "clip": "earth/pins/aconcagua-andes",
      "dur": {
-      "ko": 9.1
+      "ko": 9.1,
+      "en": 10.0
      }
     },
     "Grand Canyon": {
@@ -434,7 +461,8 @@
      },
      "clip": "earth/pins/grand-canyon",
      "dur": {
-      "ko": 11.5
+      "ko": 11.5,
+      "en": 12.0
      }
     },
     "Afar / East African Rift": {
@@ -449,7 +477,8 @@
      },
      "clip": "earth/pins/afar-east-african-rift",
      "dur": {
-      "ko": 12.0
+      "ko": 12.0,
+      "en": 9.8
      }
     },
     "Dead Sea": {
@@ -464,7 +493,8 @@
      },
      "clip": "earth/pins/dead-sea",
      "dur": {
-      "ko": 8.7
+      "ko": 8.7,
+      "en": 10.6
      }
     },
     "Chicxulub Crater": {
@@ -479,7 +509,8 @@
      },
      "clip": "earth/pins/chicxulub-crater",
      "dur": {
-      "ko": 13.0
+      "ko": 13.0,
+      "en": 12.2
      }
     },
     "Vredefort Crater": {
@@ -494,7 +525,8 @@
      },
      "clip": "earth/pins/vredefort-crater",
      "dur": {
-      "ko": 12.5
+      "ko": 12.5,
+      "en": 12.3
      }
     },
     "Manicouagan Crater": {
@@ -509,7 +541,8 @@
      },
      "clip": "earth/pins/manicouagan-crater",
      "dur": {
-      "ko": 10.4
+      "ko": 10.4,
+      "en": 11.8
      }
     },
     "Meteor Crater (Barringer)": {
@@ -524,7 +557,8 @@
      },
      "clip": "earth/pins/meteor-crater-barringer",
      "dur": {
-      "ko": 10.8
+      "ko": 10.8,
+      "en": 11.0
      }
     },
     "Clearwater Lakes": {
@@ -539,7 +573,8 @@
      },
      "clip": "earth/pins/clearwater-lakes",
      "dur": {
-      "ko": 10.7
+      "ko": 10.7,
+      "en": 10.8
      }
     },
     "Popigai Crater": {
@@ -554,7 +589,8 @@
      },
      "clip": "earth/pins/popigai-crater",
      "dur": {
-      "ko": 14.4
+      "ko": 14.4,
+      "en": 12.2
      }
     },
     "Sudbury Basin": {
@@ -569,7 +605,8 @@
      },
      "clip": "earth/pins/sudbury-basin",
      "dur": {
-      "ko": 11.3
+      "ko": 11.3,
+      "en": 12.3
      }
     },
     "Pingualuit Crater": {
@@ -584,13 +621,15 @@
      },
      "clip": "earth/pins/pingualuit-crater",
      "dur": {
-      "ko": 11.1
+      "ko": 11.1,
+      "en": 9.5
      }
     }
    },
    "clip": "earth/intro",
    "dur": {
-    "ko": 9.5
+    "ko": 9.5,
+    "en": 8.9
    }
   },
   "moon": {
@@ -616,7 +655,8 @@
      },
      "clip": "moon/pins/apollo-11",
      "dur": {
-      "ko": 13.0
+      "ko": 13.0,
+      "en": 10.9
      }
     },
     "Apollo 12": {
@@ -631,7 +671,8 @@
      },
      "clip": "moon/pins/apollo-12",
      "dur": {
-      "ko": 9.6
+      "ko": 9.6,
+      "en": 10.5
      }
     },
     "Apollo 14": {
@@ -646,7 +687,8 @@
      },
      "clip": "moon/pins/apollo-14",
      "dur": {
-      "ko": 10.6
+      "ko": 10.6,
+      "en": 10.9
      }
     },
     "Apollo 15": {
@@ -661,7 +703,8 @@
      },
      "clip": "moon/pins/apollo-15",
      "dur": {
-      "ko": 10.8
+      "ko": 10.8,
+      "en": 10.9
      }
     },
     "Apollo 16": {
@@ -676,7 +719,8 @@
      },
      "clip": "moon/pins/apollo-16",
      "dur": {
-      "ko": 15.4
+      "ko": 15.4,
+      "en": 12.1
      }
     },
     "Apollo 17": {
@@ -691,7 +735,8 @@
      },
      "clip": "moon/pins/apollo-17",
      "dur": {
-      "ko": 12.4
+      "ko": 12.4,
+      "en": 13.9
      }
     },
     "Tycho": {
@@ -706,7 +751,8 @@
      },
      "clip": "moon/pins/tycho",
      "dur": {
-      "ko": 11.2
+      "ko": 11.2,
+      "en": 10.2
      }
     },
     "Copernicus": {
@@ -721,7 +767,8 @@
      },
      "clip": "moon/pins/copernicus",
      "dur": {
-      "ko": 10.4
+      "ko": 10.4,
+      "en": 10.8
      }
     },
     "Plato": {
@@ -736,7 +783,8 @@
      },
      "clip": "moon/pins/plato",
      "dur": {
-      "ko": 10.3
+      "ko": 10.3,
+      "en": 9.8
      }
     },
     "Aristarchus": {
@@ -751,7 +799,8 @@
      },
      "clip": "moon/pins/aristarchus",
      "dur": {
-      "ko": 11.0
+      "ko": 11.0,
+      "en": 10.2
      }
     },
     "Clavius": {
@@ -766,7 +815,8 @@
      },
      "clip": "moon/pins/clavius",
      "dur": {
-      "ko": 10.2
+      "ko": 10.2,
+      "en": 10.9
      }
     },
     "Mare Imbrium": {
@@ -781,7 +831,8 @@
      },
      "clip": "moon/pins/mare-imbrium",
      "dur": {
-      "ko": 13.2
+      "ko": 13.2,
+      "en": 12.2
      }
     },
     "Mare Serenitatis": {
@@ -796,7 +847,8 @@
      },
      "clip": "moon/pins/mare-serenitatis",
      "dur": {
-      "ko": 9.4
+      "ko": 9.4,
+      "en": 9.4
      }
     },
     "Mare Tranquillitatis": {
@@ -811,7 +863,8 @@
      },
      "clip": "moon/pins/mare-tranquillitatis",
      "dur": {
-      "ko": 10.2
+      "ko": 10.2,
+      "en": 11.0
      }
     },
     "Mare Crisium": {
@@ -826,7 +879,8 @@
      },
      "clip": "moon/pins/mare-crisium",
      "dur": {
-      "ko": 12.7
+      "ko": 12.7,
+      "en": 12.5
      }
     },
     "Oceanus Procellarum": {
@@ -841,7 +895,8 @@
      },
      "clip": "moon/pins/oceanus-procellarum",
      "dur": {
-      "ko": 11.6
+      "ko": 11.6,
+      "en": 11.7
      }
     },
     "Chang'e 4": {
@@ -856,7 +911,8 @@
      },
      "clip": "moon/pins/chang-e-4",
      "dur": {
-      "ko": 12.4
+      "ko": 12.4,
+      "en": 12.8
      }
     },
     "Chang'e 5": {
@@ -871,7 +927,8 @@
      },
      "clip": "moon/pins/chang-e-5",
      "dur": {
-      "ko": 9.9
+      "ko": 9.9,
+      "en": 14.3
      }
     },
     "Chandrayaan-3": {
@@ -886,7 +943,8 @@
      },
      "clip": "moon/pins/chandrayaan-3",
      "dur": {
-      "ko": 11.7
+      "ko": 11.7,
+      "en": 11.4
      }
     },
     "SLIM": {
@@ -901,7 +959,8 @@
      },
      "clip": "moon/pins/slim",
      "dur": {
-      "ko": 12.0
+      "ko": 12.0,
+      "en": 11.8
      }
     },
     "Falcon 9 Impact": {
@@ -916,13 +975,15 @@
      },
      "clip": "moon/pins/falcon-9-impact",
      "dur": {
-      "ko": 13.1
+      "ko": 13.1,
+      "en": 12.5
      }
     }
    },
    "clip": "moon/intro",
    "dur": {
-    "ko": 12.7
+    "ko": 12.7,
+    "en": 10.4
    }
   },
   "bennu": {
@@ -948,7 +1009,8 @@
      },
      "clip": "bennu/pins/hokioi",
      "dur": {
-      "ko": 11.0
+      "ko": 11.0,
+      "en": 9.8
      }
     },
     "Benben Saxum": {
@@ -963,7 +1025,8 @@
      },
      "clip": "bennu/pins/benben-saxum",
      "dur": {
-      "ko": 9.7
+      "ko": 9.7,
+      "en": 9.8
      }
     },
     "Roc Saxum": {
@@ -978,7 +1041,8 @@
      },
      "clip": "bennu/pins/roc-saxum",
      "dur": {
-      "ko": 10.2
+      "ko": 10.2,
+      "en": 10.8
      }
     },
     "Minokawa": {
@@ -993,7 +1057,8 @@
      },
      "clip": "bennu/pins/minokawa",
      "dur": {
-      "ko": 10.7
+      "ko": 10.7,
+      "en": 8.6
      }
     },
     "Tlanuwa Regio": {
@@ -1008,13 +1073,15 @@
      },
      "clip": "bennu/pins/tlanuwa-regio",
      "dur": {
-      "ko": 8.9
+      "ko": 8.9,
+      "en": 9.0
      }
     }
    },
    "clip": "bennu/intro",
    "dur": {
-    "ko": 12.4
+    "ko": 12.4,
+    "en": 13.3
    }
   },
   "ryugu": {
@@ -1040,7 +1107,8 @@
      },
      "clip": "ryugu/pins/ryujin-dorsum",
      "dur": {
-      "ko": 11.3
+      "ko": 11.3,
+      "en": 11.7
      }
     },
     "Urashima": {
@@ -1055,7 +1123,8 @@
      },
      "clip": "ryugu/pins/urashima",
      "dur": {
-      "ko": 10.0
+      "ko": 10.0,
+      "en": 8.5
      }
     },
     "Otohime Saxum": {
@@ -1070,7 +1139,8 @@
      },
      "clip": "ryugu/pins/otohime-saxum",
      "dur": {
-      "ko": 10.0
+      "ko": 10.0,
+      "en": 13.6
      }
     },
     "Momotaro": {
@@ -1085,7 +1155,8 @@
      },
      "clip": "ryugu/pins/momotaro",
      "dur": {
-      "ko": 9.2
+      "ko": 9.2,
+      "en": 9.3
      }
     },
     "Cendrillon": {
@@ -1100,7 +1171,8 @@
      },
      "clip": "ryugu/pins/cendrillon",
      "dur": {
-      "ko": 10.6
+      "ko": 10.6,
+      "en": 10.8
      }
     },
     "Tokoyo Fossa": {
@@ -1115,13 +1187,15 @@
      },
      "clip": "ryugu/pins/tokoyo-fossa",
      "dur": {
-      "ko": 9.9
+      "ko": 9.9,
+      "en": 9.6
      }
     }
    },
    "clip": "ryugu/intro",
    "dur": {
-    "ko": 16.6
+    "ko": 16.6,
+    "en": 14.8
    }
   },
   "itokawa": {
@@ -1147,7 +1221,8 @@
      },
      "clip": "itokawa/pins/muses-c-regio",
      "dur": {
-      "ko": 11.7
+      "ko": 11.7,
+      "en": 11.3
      }
     },
     "Sagamihara Regio": {
@@ -1162,7 +1237,8 @@
      },
      "clip": "itokawa/pins/sagamihara-regio",
      "dur": {
-      "ko": 8.2
+      "ko": 8.2,
+      "en": 9.3
      }
     },
     "Uchinoura Regio": {
@@ -1177,7 +1253,8 @@
      },
      "clip": "itokawa/pins/uchinoura-regio",
      "dur": {
-      "ko": 6.8
+      "ko": 6.8,
+      "en": 8.4
      }
     },
     "Yoshinobu Regio": {
@@ -1192,7 +1269,8 @@
      },
      "clip": "itokawa/pins/yoshinobu-regio",
      "dur": {
-      "ko": 9.0
+      "ko": 9.0,
+      "en": 9.7
      }
     },
     "LINEAR Regio": {
@@ -1207,13 +1285,15 @@
      },
      "clip": "itokawa/pins/linear-regio",
      "dur": {
-      "ko": 12.7
+      "ko": 12.7,
+      "en": 12.2
      }
     }
    },
    "clip": "itokawa/intro",
    "dur": {
-    "ko": 13.8
+    "ko": 13.8,
+    "en": 14.3
    }
   },
   "eros": {
@@ -1239,7 +1319,8 @@
      },
      "clip": "eros/pins/himeros",
      "dur": {
-      "ko": 13.3
+      "ko": 13.3,
+      "en": 11.6
      }
     },
     "Psyche": {
@@ -1254,7 +1335,8 @@
      },
      "clip": "eros/pins/psyche",
      "dur": {
-      "ko": 11.2
+      "ko": 11.2,
+      "en": 8.9
      }
     },
     "Hinks Dorsum": {
@@ -1269,7 +1351,8 @@
      },
      "clip": "eros/pins/hinks-dorsum",
      "dur": {
-      "ko": 12.0
+      "ko": 12.0,
+      "en": 10.0
      }
     },
     "Witt Regio": {
@@ -1284,7 +1367,8 @@
      },
      "clip": "eros/pins/witt-regio",
      "dur": {
-      "ko": 10.9
+      "ko": 10.9,
+      "en": 12.0
      }
     },
     "NEAR Shoemaker": {
@@ -1299,13 +1383,15 @@
      },
      "clip": "eros/pins/near-shoemaker",
      "dur": {
-      "ko": 11.9
+      "ko": 11.9,
+      "en": 13.2
      }
     }
    },
    "clip": "eros/intro",
    "dur": {
-    "ko": 13.2
+    "ko": 13.2,
+    "en": 13.5
    }
   },
   "mars": {
@@ -1331,7 +1417,8 @@
      },
      "clip": "mars/pins/olympus-mons",
      "dur": {
-      "ko": 13.0
+      "ko": 13.0,
+      "en": 11.9
      }
     },
     "Valles Marineris": {
@@ -1346,7 +1433,8 @@
      },
      "clip": "mars/pins/valles-marineris",
      "dur": {
-      "ko": 13.4
+      "ko": 13.4,
+      "en": 12.1
      }
     },
     "Hellas Planitia": {
@@ -1361,7 +1449,8 @@
      },
      "clip": "mars/pins/hellas-planitia",
      "dur": {
-      "ko": 13.5
+      "ko": 13.5,
+      "en": 11.6
      }
     },
     "Argyre Planitia": {
@@ -1376,7 +1465,8 @@
      },
      "clip": "mars/pins/argyre-planitia",
      "dur": {
-      "ko": 12.5
+      "ko": 12.5,
+      "en": 11.7
      }
     },
     "Planum Boreum": {
@@ -1391,7 +1481,8 @@
      },
      "clip": "mars/pins/planum-boreum",
      "dur": {
-      "ko": 13.7
+      "ko": 13.7,
+      "en": 13.2
      }
     },
     "Planum Australe": {
@@ -1406,7 +1497,8 @@
      },
      "clip": "mars/pins/planum-australe",
      "dur": {
-      "ko": 12.2
+      "ko": 12.2,
+      "en": 11.1
      }
     },
     "Arsia Mons": {
@@ -1421,7 +1513,8 @@
      },
      "clip": "mars/pins/arsia-mons",
      "dur": {
-      "ko": 12.4
+      "ko": 12.4,
+      "en": 12.2
      }
     },
     "Pavonis Mons": {
@@ -1436,7 +1529,8 @@
      },
      "clip": "mars/pins/pavonis-mons",
      "dur": {
-      "ko": 12.7
+      "ko": 12.7,
+      "en": 11.1
      }
     },
     "Ascraeus Mons": {
@@ -1451,7 +1545,8 @@
      },
      "clip": "mars/pins/ascraeus-mons",
      "dur": {
-      "ko": 12.9
+      "ko": 12.9,
+      "en": 9.1
      }
     },
     "Syrtis Major Planum": {
@@ -1466,7 +1561,8 @@
      },
      "clip": "mars/pins/syrtis-major-planum",
      "dur": {
-      "ko": 14.9
+      "ko": 14.9,
+      "en": 11.2
      }
     },
     "Isidis Planitia": {
@@ -1481,7 +1577,8 @@
      },
      "clip": "mars/pins/isidis-planitia",
      "dur": {
-      "ko": 14.3
+      "ko": 14.3,
+      "en": 10.3
      }
     },
     "Jezero Crater": {
@@ -1496,7 +1593,8 @@
      },
      "clip": "mars/pins/jezero-crater",
      "dur": {
-      "ko": 14.0
+      "ko": 14.0,
+      "en": 12.3
      }
     },
     "Gale Crater": {
@@ -1511,7 +1609,8 @@
      },
      "clip": "mars/pins/gale-crater",
      "dur": {
-      "ko": 12.5
+      "ko": 12.5,
+      "en": 11.8
      }
     },
     "Elysium Planitia": {
@@ -1526,7 +1625,8 @@
      },
      "clip": "mars/pins/elysium-planitia",
      "dur": {
-      "ko": 11.7
+      "ko": 11.7,
+      "en": 11.5
      }
     },
     "Utopia Planitia": {
@@ -1541,7 +1641,8 @@
      },
      "clip": "mars/pins/utopia-planitia",
      "dur": {
-      "ko": 14.4
+      "ko": 14.4,
+      "en": 14.3
      }
     },
     "Meridiani Planum": {
@@ -1556,7 +1657,8 @@
      },
      "clip": "mars/pins/meridiani-planum",
      "dur": {
-      "ko": 15.3
+      "ko": 15.3,
+      "en": 12.9
      }
     },
     "Chryse Planitia": {
@@ -1571,13 +1673,15 @@
      },
      "clip": "mars/pins/chryse-planitia",
      "dur": {
-      "ko": 14.7
+      "ko": 14.7,
+      "en": 11.3
      }
     }
    },
    "clip": "mars/intro",
    "dur": {
-    "ko": 13.8
+    "ko": 13.8,
+    "en": 12.6
    }
   },
   "phobos": {
@@ -1603,7 +1707,8 @@
      },
      "clip": "phobos/pins/stickney",
      "dur": {
-      "ko": 13.8
+      "ko": 13.8,
+      "en": 14.7
      }
     },
     "Kepler Dorsum": {
@@ -1618,7 +1723,8 @@
      },
      "clip": "phobos/pins/kepler-dorsum",
      "dur": {
-      "ko": 13.3
+      "ko": 13.3,
+      "en": 12.4
      }
     },
     "Hall": {
@@ -1633,7 +1739,8 @@
      },
      "clip": "phobos/pins/hall",
      "dur": {
-      "ko": 12.2
+      "ko": 12.2,
+      "en": 12.6
      }
     },
     "Laputa Regio": {
@@ -1648,7 +1755,8 @@
      },
      "clip": "phobos/pins/laputa-regio",
      "dur": {
-      "ko": 13.1
+      "ko": 13.1,
+      "en": 11.7
      }
     },
     "Gulliver": {
@@ -1663,13 +1771,15 @@
      },
      "clip": "phobos/pins/gulliver",
      "dur": {
-      "ko": 13.7
+      "ko": 13.7,
+      "en": 11.0
      }
     }
    },
    "clip": "phobos/intro",
    "dur": {
-    "ko": 11.0
+    "ko": 11.0,
+    "en": 10.2
    }
   },
   "deimos": {
@@ -1684,7 +1794,8 @@
    },
    "clip": "deimos/intro",
    "dur": {
-    "ko": 10.4
+    "ko": 10.4,
+    "en": 6.3
    }
   },
   "didymos": {
@@ -1710,7 +1821,8 @@
      },
      "clip": "didymos/pins/carillon-saxum",
      "dur": {
-      "ko": 14.3
+      "ko": 14.3,
+      "en": 13.0
      }
     },
     "Gong Saxum": {
@@ -1725,13 +1837,15 @@
      },
      "clip": "didymos/pins/gong-saxum",
      "dur": {
-      "ko": 11.8
+      "ko": 11.8,
+      "en": 9.0
      }
     }
    },
    "clip": "didymos/intro",
    "dur": {
-    "ko": 14.3
+    "ko": 14.3,
+    "en": 13.6
    }
   },
   "dimorphos": {
@@ -1757,7 +1871,8 @@
      },
      "clip": "dimorphos/pins/dart",
      "dur": {
-      "ko": 14.3
+      "ko": 14.3,
+      "en": 13.2
      }
     },
     "Dhol Saxum": {
@@ -1772,7 +1887,8 @@
      },
      "clip": "dimorphos/pins/dhol-saxum",
      "dur": {
-      "ko": 14.6
+      "ko": 14.6,
+      "en": 12.4
      }
     },
     "Naqqara": {
@@ -1787,13 +1903,15 @@
      },
      "clip": "dimorphos/pins/naqqara",
      "dur": {
-      "ko": 11.8
+      "ko": 11.8,
+      "en": 7.5
      }
     }
    },
    "clip": "dimorphos/intro",
    "dur": {
-    "ko": 14.6
+    "ko": 14.6,
+    "en": 16.3
    }
   },
   "gaspra": {
@@ -1819,7 +1937,8 @@
      },
      "clip": "gaspra/pins/saratoga",
      "dur": {
-      "ko": 13.5
+      "ko": 13.5,
+      "en": 12.3
      }
     },
     "Spa": {
@@ -1834,7 +1953,8 @@
      },
      "clip": "gaspra/pins/spa",
      "dur": {
-      "ko": 10.0
+      "ko": 10.0,
+      "en": 7.8
      }
     },
     "Charax": {
@@ -1849,7 +1969,8 @@
      },
      "clip": "gaspra/pins/charax",
      "dur": {
-      "ko": 11.8
+      "ko": 11.8,
+      "en": 10.2
      }
     },
     "Neujmin Regio": {
@@ -1864,7 +1985,8 @@
      },
      "clip": "gaspra/pins/neujmin-regio",
      "dur": {
-      "ko": 8.6
+      "ko": 8.6,
+      "en": 8.3
      }
     },
     "Yeates Regio": {
@@ -1879,13 +2001,15 @@
      },
      "clip": "gaspra/pins/yeates-regio",
      "dur": {
-      "ko": 13.9
+      "ko": 13.9,
+      "en": 10.3
      }
     }
    },
    "clip": "gaspra/intro",
    "dur": {
-    "ko": 13.4
+    "ko": 13.4,
+    "en": 12.5
    }
   },
   "vesta": {
@@ -1900,7 +2024,8 @@
    },
    "clip": "vesta/intro",
    "dur": {
-    "ko": 14.9
+    "ko": 14.9,
+    "en": 12.1
    }
   },
   "ceres": {
@@ -1926,7 +2051,8 @@
      },
      "clip": "ceres/pins/occator",
      "dur": {
-      "ko": 14.2
+      "ko": 14.2,
+      "en": 11.5
      }
     },
     "Ahuna Mons": {
@@ -1941,7 +2067,8 @@
      },
      "clip": "ceres/pins/ahuna-mons",
      "dur": {
-      "ko": 12.5
+      "ko": 12.5,
+      "en": 10.9
      }
     },
     "Kerwan": {
@@ -1956,7 +2083,8 @@
      },
      "clip": "ceres/pins/kerwan",
      "dur": {
-      "ko": 13.7
+      "ko": 13.7,
+      "en": 9.2
      }
     },
     "Haulani": {
@@ -1971,7 +2099,8 @@
      },
      "clip": "ceres/pins/haulani",
      "dur": {
-      "ko": 12.6
+      "ko": 12.6,
+      "en": 8.7
      }
     },
     "Dantu": {
@@ -1986,7 +2115,8 @@
      },
      "clip": "ceres/pins/dantu",
      "dur": {
-      "ko": 12.8
+      "ko": 12.8,
+      "en": 8.9
      }
     },
     "Urvara": {
@@ -2001,7 +2131,8 @@
      },
      "clip": "ceres/pins/urvara",
      "dur": {
-      "ko": 10.6
+      "ko": 10.6,
+      "en": 9.3
      }
     },
     "Yalode": {
@@ -2016,7 +2147,8 @@
      },
      "clip": "ceres/pins/yalode",
      "dur": {
-      "ko": 9.8
+      "ko": 9.8,
+      "en": 8.7
      }
     },
     "Ernutet": {
@@ -2031,7 +2163,8 @@
      },
      "clip": "ceres/pins/ernutet",
      "dur": {
-      "ko": 12.9
+      "ko": 12.9,
+      "en": 13.8
      }
     },
     "Oxo": {
@@ -2046,7 +2179,8 @@
      },
      "clip": "ceres/pins/oxo",
      "dur": {
-      "ko": 11.7
+      "ko": 11.7,
+      "en": 11.7
      }
     },
     "Kupalo": {
@@ -2061,7 +2195,8 @@
      },
      "clip": "ceres/pins/kupalo",
      "dur": {
-      "ko": 10.8
+      "ko": 10.8,
+      "en": 8.2
      }
     },
     "Ezinu": {
@@ -2076,13 +2211,15 @@
      },
      "clip": "ceres/pins/ezinu",
      "dur": {
-      "ko": 9.7
+      "ko": 9.7,
+      "en": 8.9
      }
     }
    },
    "clip": "ceres/intro",
    "dur": {
-    "ko": 14.8
+    "ko": 14.8,
+    "en": 11.3
    }
   },
   "ida": {
@@ -2108,7 +2245,8 @@
      },
      "clip": "ida/pins/lascaux",
      "dur": {
-      "ko": 14.3
+      "ko": 14.3,
+      "en": 9.5
      }
     },
     "Mammoth": {
@@ -2123,7 +2261,8 @@
      },
      "clip": "ida/pins/mammoth",
      "dur": {
-      "ko": 8.3
+      "ko": 8.3,
+      "en": 5.6
      }
     },
     "Azzurra": {
@@ -2138,7 +2277,8 @@
      },
      "clip": "ida/pins/azzurra",
      "dur": {
-      "ko": 9.3
+      "ko": 9.3,
+      "en": 9.4
      }
     },
     "Afon": {
@@ -2153,7 +2293,8 @@
      },
      "clip": "ida/pins/afon",
      "dur": {
-      "ko": 10.2
+      "ko": 10.2,
+      "en": 9.5
      }
     },
     "Palisa Regio": {
@@ -2168,7 +2309,8 @@
      },
      "clip": "ida/pins/palisa-regio",
      "dur": {
-      "ko": 11.6
+      "ko": 11.6,
+      "en": 9.5
      }
     },
     "Townsend Dorsum": {
@@ -2183,13 +2325,15 @@
      },
      "clip": "ida/pins/townsend-dorsum",
      "dur": {
-      "ko": 10.6
+      "ko": 10.6,
+      "en": 9.1
      }
     }
    },
    "clip": "ida/intro",
    "dur": {
-    "ko": 15.2
+    "ko": 15.2,
+    "en": 12.8
    }
   },
   "tempel1": {
@@ -2215,13 +2359,15 @@
      },
      "clip": "tempel1/pins/deep-impact",
      "dur": {
-      "ko": 14.8
+      "ko": 14.8,
+      "en": 15.1
      }
     }
    },
    "clip": "tempel1/intro",
    "dur": {
-    "ko": 15.1
+    "ko": 15.1,
+    "en": 16.1
    }
   },
   "67p": {
@@ -2236,7 +2382,8 @@
    },
    "clip": "67p/intro",
    "dur": {
-    "ko": 14.1
+    "ko": 14.1,
+    "en": 12.9
    }
   },
   "hartley2": {
@@ -2251,7 +2398,8 @@
    },
    "clip": "hartley2/intro",
    "dur": {
-    "ko": 14.1
+    "ko": 14.1,
+    "en": 16.7
    }
   },
   "jupiter": {
@@ -2277,13 +2425,15 @@
      },
      "clip": "jupiter/pins/great-red-spot",
      "dur": {
-      "ko": 14.3
+      "ko": 14.3,
+      "en": 12.6
      }
     }
    },
    "clip": "jupiter/intro",
    "dur": {
-    "ko": 13.2
+    "ko": 13.2,
+    "en": 11.3
    }
   },
   "io": {
@@ -2309,7 +2459,8 @@
      },
      "clip": "io/pins/loki-patera",
      "dur": {
-      "ko": 14.1
+      "ko": 14.1,
+      "en": 11.7
      }
     },
     "Pele": {
@@ -2324,7 +2475,8 @@
      },
      "clip": "io/pins/pele",
      "dur": {
-      "ko": 13.0
+      "ko": 13.0,
+      "en": 13.0
      }
     },
     "Prometheus": {
@@ -2339,7 +2491,8 @@
      },
      "clip": "io/pins/prometheus",
      "dur": {
-      "ko": 10.5
+      "ko": 10.5,
+      "en": 10.6
      }
     },
     "Pillan Patera": {
@@ -2354,7 +2507,8 @@
      },
      "clip": "io/pins/pillan-patera",
      "dur": {
-      "ko": 12.0
+      "ko": 12.0,
+      "en": 13.4
      }
     },
     "Tvashtar Paterae": {
@@ -2369,7 +2523,8 @@
      },
      "clip": "io/pins/tvashtar-paterae",
      "dur": {
-      "ko": 13.0
+      "ko": 13.0,
+      "en": 13.0
      }
     },
     "Boösaule Montes": {
@@ -2384,7 +2539,8 @@
      },
      "clip": "io/pins/bo-saule-montes",
      "dur": {
-      "ko": 10.9
+      "ko": 10.9,
+      "en": 9.6
      }
     },
     "Tohil Mons": {
@@ -2399,7 +2555,8 @@
      },
      "clip": "io/pins/tohil-mons",
      "dur": {
-      "ko": 11.2
+      "ko": 11.2,
+      "en": 11.3
      }
     },
     "Amirani": {
@@ -2414,13 +2571,15 @@
      },
      "clip": "io/pins/amirani",
      "dur": {
-      "ko": 12.7
+      "ko": 12.7,
+      "en": 10.6
      }
     }
    },
    "clip": "io/intro",
    "dur": {
-    "ko": 9.9
+    "ko": 9.9,
+    "en": 7.9
    }
   },
   "europa": {
@@ -2446,7 +2605,8 @@
      },
      "clip": "europa/pins/conamara-chaos",
      "dur": {
-      "ko": 12.1
+      "ko": 12.1,
+      "en": 9.7
      }
     },
     "Tara Regio": {
@@ -2461,7 +2621,8 @@
      },
      "clip": "europa/pins/tara-regio",
      "dur": {
-      "ko": 12.4
+      "ko": 12.4,
+      "en": 11.6
      }
     },
     "Pwyll": {
@@ -2476,7 +2637,8 @@
      },
      "clip": "europa/pins/pwyll",
      "dur": {
-      "ko": 10.7
+      "ko": 10.7,
+      "en": 10.2
      }
     },
     "Tyre": {
@@ -2491,7 +2653,8 @@
      },
      "clip": "europa/pins/tyre",
      "dur": {
-      "ko": 11.3
+      "ko": 11.3,
+      "en": 10.3
      }
     },
     "Thera Macula": {
@@ -2506,7 +2669,8 @@
      },
      "clip": "europa/pins/thera-macula",
      "dur": {
-      "ko": 11.2
+      "ko": 11.2,
+      "en": 10.2
      }
     },
     "Thrace Macula": {
@@ -2521,7 +2685,8 @@
      },
      "clip": "europa/pins/thrace-macula",
      "dur": {
-      "ko": 13.0
+      "ko": 13.0,
+      "en": 10.7
      }
     },
     "Castalia Macula": {
@@ -2536,13 +2701,15 @@
      },
      "clip": "europa/pins/castalia-macula",
      "dur": {
-      "ko": 11.1
+      "ko": 11.1,
+      "en": 7.8
      }
     }
    },
    "clip": "europa/intro",
    "dur": {
-    "ko": 7.5
+    "ko": 7.5,
+    "en": 8.0
    }
   },
   "ganymede": {
@@ -2568,7 +2735,8 @@
      },
      "clip": "ganymede/pins/galileo-regio",
      "dur": {
-      "ko": 12.7
+      "ko": 12.7,
+      "en": 13.2
      }
     },
     "Uruk Sulcus": {
@@ -2583,7 +2751,8 @@
      },
      "clip": "ganymede/pins/uruk-sulcus",
      "dur": {
-      "ko": 10.8
+      "ko": 10.8,
+      "en": 11.0
      }
     },
     "Tros": {
@@ -2598,7 +2767,8 @@
      },
      "clip": "ganymede/pins/tros",
      "dur": {
-      "ko": 10.8
+      "ko": 10.8,
+      "en": 8.8
      }
     },
     "Osiris": {
@@ -2613,7 +2783,8 @@
      },
      "clip": "ganymede/pins/osiris",
      "dur": {
-      "ko": 11.3
+      "ko": 11.3,
+      "en": 9.8
      }
     },
     "Anat Catena": {
@@ -2628,7 +2799,8 @@
      },
      "clip": "ganymede/pins/anat-catena",
      "dur": {
-      "ko": 15.6
+      "ko": 15.6,
+      "en": 10.9
      }
     },
     "Memphis Facula": {
@@ -2643,13 +2815,15 @@
      },
      "clip": "ganymede/pins/memphis-facula",
      "dur": {
-      "ko": 11.0
+      "ko": 11.0,
+      "en": 9.8
      }
     }
    },
    "clip": "ganymede/intro",
    "dur": {
-    "ko": 10.0
+    "ko": 10.0,
+    "en": 8.2
    }
   },
   "callisto": {
@@ -2675,7 +2849,8 @@
      },
      "clip": "callisto/pins/valhalla",
      "dur": {
-      "ko": 12.1
+      "ko": 12.1,
+      "en": 11.5
      }
     },
     "Asgard": {
@@ -2690,7 +2865,8 @@
      },
      "clip": "callisto/pins/asgard",
      "dur": {
-      "ko": 12.2
+      "ko": 12.2,
+      "en": 12.5
      }
     },
     "Bran": {
@@ -2705,13 +2881,15 @@
      },
      "clip": "callisto/pins/bran",
      "dur": {
-      "ko": 8.7
+      "ko": 8.7,
+      "en": 9.5
      }
     }
    },
    "clip": "callisto/intro",
    "dur": {
-    "ko": 9.2
+    "ko": 9.2,
+    "en": 7.1
    }
   },
   "saturn": {
@@ -2737,7 +2915,8 @@
      },
      "clip": "saturn/pins/hexagon",
      "dur": {
-      "ko": 10.1
+      "ko": 10.1,
+      "en": 13.0
      }
     },
     "Equator": {
@@ -2752,13 +2931,15 @@
      },
      "clip": "saturn/pins/equator",
      "dur": {
-      "ko": 14.3
+      "ko": 14.3,
+      "en": 12.9
      }
     }
    },
    "clip": "saturn/intro",
    "dur": {
-    "ko": 12.1
+    "ko": 12.1,
+    "en": 11.2
    }
   },
   "mimas": {
@@ -2784,13 +2965,15 @@
      },
      "clip": "mimas/pins/herschel",
      "dur": {
-      "ko": 12.2
+      "ko": 12.2,
+      "en": 11.9
      }
     }
    },
    "clip": "mimas/intro",
    "dur": {
-    "ko": 11.7
+    "ko": 11.7,
+    "en": 9.1
    }
   },
   "enceladus": {
@@ -2816,7 +2999,8 @@
      },
      "clip": "enceladus/pins/tiger-stripes",
      "dur": {
-      "ko": 12.4
+      "ko": 12.4,
+      "en": 10.8
      }
     },
     "Damascus Sulcus": {
@@ -2831,7 +3015,8 @@
      },
      "clip": "enceladus/pins/damascus-sulcus",
      "dur": {
-      "ko": 13.0
+      "ko": 13.0,
+      "en": 10.8
      }
     },
     "Sarandib Planitia": {
@@ -2846,13 +3031,15 @@
      },
      "clip": "enceladus/pins/sarandib-planitia",
      "dur": {
-      "ko": 11.9
+      "ko": 11.9,
+      "en": 10.5
      }
     }
    },
    "clip": "enceladus/intro",
    "dur": {
-    "ko": 10.1
+    "ko": 10.1,
+    "en": 8.8
    }
   },
   "tethys": {
@@ -2878,7 +3065,8 @@
      },
      "clip": "tethys/pins/odysseus",
      "dur": {
-      "ko": 12.3
+      "ko": 12.3,
+      "en": 10.4
      }
     },
     "Ithaca Chasma": {
@@ -2893,13 +3081,15 @@
      },
      "clip": "tethys/pins/ithaca-chasma",
      "dur": {
-      "ko": 12.7
+      "ko": 12.7,
+      "en": 14.6
      }
     }
    },
    "clip": "tethys/intro",
    "dur": {
-    "ko": 9.8
+    "ko": 9.8,
+    "en": 9.1
    }
   },
   "dione": {
@@ -2925,7 +3115,8 @@
      },
      "clip": "dione/pins/wispy-terrain",
      "dur": {
-      "ko": 11.5
+      "ko": 11.5,
+      "en": 13.0
      }
     },
     "Aeneas Crater": {
@@ -2940,7 +3131,8 @@
      },
      "clip": "dione/pins/aeneas-crater",
      "dur": {
-      "ko": 7.9
+      "ko": 7.9,
+      "en": 7.8
      }
     },
     "Padua Chasmata": {
@@ -2955,13 +3147,15 @@
      },
      "clip": "dione/pins/padua-chasmata",
      "dur": {
-      "ko": 7.6
+      "ko": 7.6,
+      "en": 9.9
      }
     }
    },
    "clip": "dione/intro",
    "dur": {
-    "ko": 10.7
+    "ko": 10.7,
+    "en": 12.0
    }
   },
   "rhea": {
@@ -2987,7 +3181,8 @@
      },
      "clip": "rhea/pins/tirawa",
      "dur": {
-      "ko": 7.6
+      "ko": 7.6,
+      "en": 9.4
      }
     },
     "Inktomi": {
@@ -3002,7 +3197,8 @@
      },
      "clip": "rhea/pins/inktomi",
      "dur": {
-      "ko": 15.3
+      "ko": 15.3,
+      "en": 10.8
      }
     },
     "Mamaldi": {
@@ -3017,13 +3213,15 @@
      },
      "clip": "rhea/pins/mamaldi",
      "dur": {
-      "ko": 11.4
+      "ko": 11.4,
+      "en": 10.0
      }
     }
    },
    "clip": "rhea/intro",
    "dur": {
-    "ko": 10.1
+    "ko": 10.1,
+    "en": 9.3
    }
   },
   "titan": {
@@ -3049,7 +3247,8 @@
      },
      "clip": "titan/pins/xanadu",
      "dur": {
-      "ko": 12.3
+      "ko": 12.3,
+      "en": 10.8
      }
     },
     "Kraken Mare": {
@@ -3064,7 +3263,8 @@
      },
      "clip": "titan/pins/kraken-mare",
      "dur": {
-      "ko": 12.0
+      "ko": 12.0,
+      "en": 12.1
      }
     },
     "Ligeia Mare": {
@@ -3079,7 +3279,8 @@
      },
      "clip": "titan/pins/ligeia-mare",
      "dur": {
-      "ko": 10.3
+      "ko": 10.3,
+      "en": 11.6
      }
     },
     "Ontario Lacus": {
@@ -3094,7 +3295,8 @@
      },
      "clip": "titan/pins/ontario-lacus",
      "dur": {
-      "ko": 13.5
+      "ko": 13.5,
+      "en": 11.2
      }
     },
     "Sotra Patera": {
@@ -3109,13 +3311,15 @@
      },
      "clip": "titan/pins/sotra-patera",
      "dur": {
-      "ko": 15.4
+      "ko": 15.4,
+      "en": 11.8
      }
     }
    },
    "clip": "titan/intro",
    "dur": {
-    "ko": 14.4
+    "ko": 14.4,
+    "en": 10.1
    }
   },
   "iapetus": {
@@ -3141,7 +3345,8 @@
      },
      "clip": "iapetus/pins/cassini-regio",
      "dur": {
-      "ko": 13.2
+      "ko": 13.2,
+      "en": 12.9
      }
     },
     "Equatorial Ridge": {
@@ -3156,7 +3361,8 @@
      },
      "clip": "iapetus/pins/equatorial-ridge",
      "dur": {
-      "ko": 12.5
+      "ko": 12.5,
+      "en": 12.0
      }
     },
     "Engelier": {
@@ -3171,7 +3377,8 @@
      },
      "clip": "iapetus/pins/engelier",
      "dur": {
-      "ko": 11.0
+      "ko": 11.0,
+      "en": 10.5
      }
     },
     "Roncevaux Terra": {
@@ -3186,13 +3393,15 @@
      },
      "clip": "iapetus/pins/roncevaux-terra",
      "dur": {
-      "ko": 9.4
+      "ko": 9.4,
+      "en": 10.2
      }
     }
    },
    "clip": "iapetus/intro",
    "dur": {
-    "ko": 8.6
+    "ko": 8.6,
+    "en": 11.1
    }
   },
   "halley": {
@@ -3207,7 +3416,8 @@
    },
    "clip": "halley/intro",
    "dur": {
-    "ko": 15.9
+    "ko": 15.9,
+    "en": 12.6
    }
   },
   "uranus": {
@@ -3222,7 +3432,8 @@
    },
    "clip": "uranus/intro",
    "dur": {
-    "ko": 15.1
+    "ko": 15.1,
+    "en": 15.6
    }
   },
   "miranda": {
@@ -3248,7 +3459,8 @@
      },
      "clip": "miranda/pins/verona-rupes",
      "dur": {
-      "ko": 13.9
+      "ko": 13.9,
+      "en": 14.2
      }
     },
     "Inverness Corona": {
@@ -3263,7 +3475,8 @@
      },
      "clip": "miranda/pins/inverness-corona",
      "dur": {
-      "ko": 12.5
+      "ko": 12.5,
+      "en": 11.2
      }
     },
     "Elsinore Corona": {
@@ -3278,7 +3491,8 @@
      },
      "clip": "miranda/pins/elsinore-corona",
      "dur": {
-      "ko": 13.8
+      "ko": 13.8,
+      "en": 12.7
      }
     },
     "Arden Corona": {
@@ -3293,13 +3507,15 @@
      },
      "clip": "miranda/pins/arden-corona",
      "dur": {
-      "ko": 12.3
+      "ko": 12.3,
+      "en": 11.3
      }
     }
    },
    "clip": "miranda/intro",
    "dur": {
-    "ko": 13.8
+    "ko": 13.8,
+    "en": 12.9
    }
   },
   "ariel": {
@@ -3325,7 +3541,8 @@
      },
      "clip": "ariel/pins/kachina-chasmata",
      "dur": {
-      "ko": 14.3
+      "ko": 14.3,
+      "en": 14.1
      }
     },
     "Kewpie Chasma": {
@@ -3340,7 +3557,8 @@
      },
      "clip": "ariel/pins/kewpie-chasma",
      "dur": {
-      "ko": 12.9
+      "ko": 12.9,
+      "en": 12.5
      }
     },
     "Laica": {
@@ -3355,13 +3573,15 @@
      },
      "clip": "ariel/pins/laica",
      "dur": {
-      "ko": 11.8
+      "ko": 11.8,
+      "en": 9.0
      }
     }
    },
    "clip": "ariel/intro",
    "dur": {
-    "ko": 7.4
+    "ko": 7.4,
+    "en": 6.3
    }
   },
   "umbriel": {
@@ -3387,7 +3607,8 @@
      },
      "clip": "umbriel/pins/wunda",
      "dur": {
-      "ko": 14.2
+      "ko": 14.2,
+      "en": 11.9
      }
     },
     "Vuver": {
@@ -3402,7 +3623,8 @@
      },
      "clip": "umbriel/pins/vuver",
      "dur": {
-      "ko": 13.2
+      "ko": 13.2,
+      "en": 10.8
      }
     },
     "Wokolo": {
@@ -3417,13 +3639,15 @@
      },
      "clip": "umbriel/pins/wokolo",
      "dur": {
-      "ko": 13.9
+      "ko": 13.9,
+      "en": 11.1
      }
     }
    },
    "clip": "umbriel/intro",
    "dur": {
-    "ko": 9.1
+    "ko": 9.1,
+    "en": 6.3
    }
   },
   "titania": {
@@ -3449,7 +3673,8 @@
      },
      "clip": "titania/pins/messina-chasmata",
      "dur": {
-      "ko": 15.5
+      "ko": 15.5,
+      "en": 13.2
      }
     },
     "Gertrude": {
@@ -3464,7 +3689,8 @@
      },
      "clip": "titania/pins/gertrude",
      "dur": {
-      "ko": 13.3
+      "ko": 13.3,
+      "en": 8.8
      }
     },
     "Ursula": {
@@ -3479,13 +3705,15 @@
      },
      "clip": "titania/pins/ursula",
      "dur": {
-      "ko": 13.4
+      "ko": 13.4,
+      "en": 10.0
      }
     }
    },
    "clip": "titania/intro",
    "dur": {
-    "ko": 12.1
+    "ko": 12.1,
+    "en": 9.9
    }
   },
   "oberon": {
@@ -3511,7 +3739,8 @@
      },
      "clip": "oberon/pins/hamlet",
      "dur": {
-      "ko": 11.9
+      "ko": 11.9,
+      "en": 9.5
      }
     },
     "Othello": {
@@ -3526,7 +3755,8 @@
      },
      "clip": "oberon/pins/othello",
      "dur": {
-      "ko": 12.5
+      "ko": 12.5,
+      "en": 9.0
      }
     },
     "Macbeth": {
@@ -3541,13 +3771,15 @@
      },
      "clip": "oberon/pins/macbeth",
      "dur": {
-      "ko": 14.7
+      "ko": 14.7,
+      "en": 10.3
      }
     }
    },
    "clip": "oberon/intro",
    "dur": {
-    "ko": 14.3
+    "ko": 14.3,
+    "en": 11.3
    }
   },
   "neptune": {
@@ -3562,7 +3794,8 @@
    },
    "clip": "neptune/intro",
    "dur": {
-    "ko": 13.9
+    "ko": 13.9,
+    "en": 13.1
    }
   },
   "triton": {
@@ -3588,7 +3821,8 @@
      },
      "clip": "triton/pins/south-polar-cap",
      "dur": {
-      "ko": 13.4
+      "ko": 13.4,
+      "en": 11.6
      }
     },
     "Cantaloupe Terrain": {
@@ -3603,7 +3837,8 @@
      },
      "clip": "triton/pins/cantaloupe-terrain",
      "dur": {
-      "ko": 11.8
+      "ko": 11.8,
+      "en": 10.4
      }
     },
     "Leviathan Patera": {
@@ -3618,13 +3853,15 @@
      },
      "clip": "triton/pins/leviathan-patera",
      "dur": {
-      "ko": 10.8
+      "ko": 10.8,
+      "en": 11.3
      }
     }
    },
    "clip": "triton/intro",
    "dur": {
-    "ko": 13.1
+    "ko": 13.1,
+    "en": 11.2
    }
   },
   "pluto": {
@@ -3650,7 +3887,8 @@
      },
      "clip": "pluto/pins/sputnik-planitia",
      "dur": {
-      "ko": 12.3
+      "ko": 12.3,
+      "en": 12.9
      }
     },
     "Tombaugh Regio": {
@@ -3665,7 +3903,8 @@
      },
      "clip": "pluto/pins/tombaugh-regio",
      "dur": {
-      "ko": 13.7
+      "ko": 13.7,
+      "en": 9.4
      }
     },
     "Tartarus Dorsa": {
@@ -3680,7 +3919,8 @@
      },
      "clip": "pluto/pins/tartarus-dorsa",
      "dur": {
-      "ko": 12.3
+      "ko": 12.3,
+      "en": 12.0
      }
     },
     "Tenzing Montes": {
@@ -3695,7 +3935,8 @@
      },
      "clip": "pluto/pins/tenzing-montes",
      "dur": {
-      "ko": 13.2
+      "ko": 13.2,
+      "en": 13.0
      }
     },
     "Belton Regio": {
@@ -3710,13 +3951,15 @@
      },
      "clip": "pluto/pins/belton-regio",
      "dur": {
-      "ko": 12.6
+      "ko": 12.6,
+      "en": 10.5
      }
     }
    },
    "clip": "pluto/intro",
    "dur": {
-    "ko": 11.9
+    "ko": 11.9,
+    "en": 11.9
    }
   },
   "charon": {
@@ -3742,7 +3985,8 @@
      },
      "clip": "charon/pins/mordor-macula",
      "dur": {
-      "ko": 10.5
+      "ko": 10.5,
+      "en": 11.4
      }
     },
     "Serenity Chasma": {
@@ -3757,7 +4001,8 @@
      },
      "clip": "charon/pins/serenity-chasma",
      "dur": {
-      "ko": 12.1
+      "ko": 12.1,
+      "en": 11.5
      }
     },
     "Vulcan Planitia": {
@@ -3772,13 +4017,15 @@
      },
      "clip": "charon/pins/vulcan-planitia",
      "dur": {
-      "ko": 13.4
+      "ko": 13.4,
+      "en": 12.3
      }
     }
    },
    "clip": "charon/intro",
    "dur": {
-    "ko": 10.9
+    "ko": 10.9,
+    "en": 9.9
    }
   },
   "haumea": {
@@ -3793,7 +4040,8 @@
    },
    "clip": "haumea/intro",
    "dur": {
-    "ko": 14.7
+    "ko": 14.7,
+    "en": 15.4
    }
   },
   "quaoar": {
@@ -3808,7 +4056,8 @@
    },
    "clip": "quaoar/intro",
    "dur": {
-    "ko": 13.1
+    "ko": 13.1,
+    "en": 11.5
    }
   },
   "arrokoth": {
@@ -3834,7 +4083,8 @@
      },
      "clip": "arrokoth/pins/wenu-lobus",
      "dur": {
-      "ko": 13.3
+      "ko": 13.3,
+      "en": 11.7
      }
     },
     "Weeyo Lobus": {
@@ -3849,7 +4099,8 @@
      },
      "clip": "arrokoth/pins/weeyo-lobus",
      "dur": {
-      "ko": 12.4
+      "ko": 12.4,
+      "en": 11.0
      }
     },
     "Akasa Collum": {
@@ -3864,7 +4115,8 @@
      },
      "clip": "arrokoth/pins/akasa-collum",
      "dur": {
-      "ko": 10.5
+      "ko": 10.5,
+      "en": 13.4
      }
     },
     "Sky": {
@@ -3879,13 +4131,15 @@
      },
      "clip": "arrokoth/pins/sky",
      "dur": {
-      "ko": 10.2
+      "ko": 10.2,
+      "en": 12.5
      }
     }
    },
    "clip": "arrokoth/intro",
    "dur": {
-    "ko": 12.9
+    "ko": 12.9,
+    "en": 12.5
    }
   },
   "makemake": {
@@ -3900,7 +4154,8 @@
    },
    "clip": "makemake/intro",
    "dur": {
-    "ko": 14.3
+    "ko": 14.3,
+    "en": 11.9
    }
   },
   "eris": {
@@ -3915,7 +4170,8 @@
    },
    "clip": "eris/intro",
    "dur": {
-    "ko": 12.1
+    "ko": 12.1,
+    "en": 10.7
    }
   },
   "1i-oumuamua": {
@@ -3930,7 +4186,8 @@
    },
    "clip": "1i-oumuamua/intro",
    "dur": {
-    "ko": 13.6
+    "ko": 13.6,
+    "en": 12.5
    }
   },
   "2i-borisov": {
@@ -3945,7 +4202,8 @@
    },
    "clip": "2i-borisov/intro",
    "dur": {
-    "ko": 11.9
+    "ko": 11.9,
+    "en": 11.8
    }
   },
   "3i-atlas": {
@@ -3960,7 +4218,8 @@
    },
    "clip": "3i-atlas/intro",
    "dur": {
-    "ko": 12.5
+    "ko": 12.5,
+    "en": 13.2
    }
   }
  }

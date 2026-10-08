@@ -11,6 +11,10 @@
     "es": "Nuestra estrella, con el 99,8 % de la masa del Sistema Solar. Es 109 veces más ancha que la Tierra y brilla desde hace 4.600 millones de años gracias a la fusión nuclear de su núcleo.",
     "pt": "Nossa estrela, com 99,8% da massa do Sistema Solar. É 109 vezes mais larga que a Terra e brilha há 4,6 bilhões de anos graças à fusão nuclear em seu núcleo.",
     "de": "Unser Stern mit 99,8 % der Masse des Sonnensystems. Er ist 109-mal breiter als die Erde und leuchtet seit 4,6 Milliarden Jahren durch Kernfusion in seinem Inneren."
+   },
+   "clip": "sun/intro",
+   "dur": {
+    "ko": 10.9
    }
   },
   "mercury": {
@@ -27,43 +31,79 @@
     "Caloris Basin": {
      "say": {
       "ko": "칼로리스 분지입니다. 지름 1,550 km로 태양계에서 가장 큰 충돌 분지 가운데 하나이며, 충돌의 충격파가 행성을 관통해 반대편 표면까지 뒤흔들어 놓았습니다."
+     },
+     "clip": "mercury/pins/caloris-basin",
+     "dur": {
+      "ko": 11.3
      }
     },
     "Rachmaninoff": {
      "say": {
       "ko": "라흐마니노프 크레이터입니다. 지름 290 km의 이중 고리 크레이터로, 바닥이 매끈한 용암 평원이라 수성에서는 비교적 젊은 지형에 속합니다."
+     },
+     "clip": "mercury/pins/rachmaninoff",
+     "dur": {
+      "ko": 9.8
      }
     },
     "Hokusai": {
      "say": {
       "ko": "호쿠사이 크레이터입니다. 지름은 95 km지만 밝은 광조가 반구 전체로 뻗어 나가, 수성에서 가장 눈에 띄는 광조계를 이룹니다."
+     },
+     "clip": "mercury/pins/hokusai",
+     "dur": {
+      "ko": 8.9
      }
     },
     "Beethoven Basin": {
      "say": {
       "ko": "베토벤 분지입니다. 지름 630 km로 수성에서 가장 큰 축에 들지만, 가장자리가 낮고 완만해 지도에서도 윤곽을 찾기 어렵습니다."
+     },
+     "clip": "mercury/pins/beethoven-basin",
+     "dur": {
+      "ko": 9.4
      }
     },
     "Tolstoj Basin": {
      "say": {
       "ko": "톨스토이 분지입니다. 지름 390 km의 오래된 분지로, 둘레를 덮은 어두운 분출물 때문에 수성에서 반사율이 가장 낮은 지형 가운데 하나입니다."
+     },
+     "clip": "mercury/pins/tolstoj-basin",
+     "dur": {
+      "ko": 9.7
      }
     },
     "Rembrandt Basin": {
      "say": {
       "ko": "렘브란트 분지입니다. 지름 716 km로 수성에서 두 번째로 크고 가장 젊은 분지 가운데 하나라, 바닥의 주름과 균열이 또렷이 남아 있습니다."
+     },
+     "clip": "mercury/pins/rembrandt-basin",
+     "dur": {
+      "ko": 10.6
      }
     },
     "Discovery Rupes": {
      "say": {
       "ko": "디스커버리 절벽입니다. 길이 약 650 km, 높이 2 km의 거대한 단층 절벽으로, 수성이 식으면서 행성 전체가 쪼그라든 흔적입니다."
+     },
+     "clip": "mercury/pins/discovery-rupes",
+     "dur": {
+      "ko": 10.3
      }
     },
     "Kuiper": {
      "say": {
       "ko": "카이퍼 크레이터입니다. 지름 62 km의 젊은 광조 크레이터로 수성에서 가장 밝은 지점 가운데 하나이며, 카이퍼 벨트와 같은 천문학자의 이름입니다."
+     },
+     "clip": "mercury/pins/kuiper",
+     "dur": {
+      "ko": 10.1
      }
     }
+   },
+   "clip": "mercury/intro",
+   "dur": {
+    "ko": 11.2
    }
   },
   "venus": {
@@ -80,43 +120,79 @@
     "Maxwell Montes": {
      "say": {
       "ko": "맥스웰 산입니다. 높이 11 km로 금성에서 가장 높은 산이며 에베레스트보다 2 km 넘게 높습니다. 금성 지명 가운데 드물게 남성 과학자의 이름입니다."
+     },
+     "clip": "venus/pins/maxwell-montes",
+     "dur": {
+      "ko": 11.3
      }
     },
     "Ishtar Terra": {
      "say": {
       "ko": "이슈타르 대륙입니다. 북반구의 고지대 대륙으로 크기는 오스트레일리아만 하고, 동쪽 끝에 금성 최고봉 맥스웰 산이 솟아 있습니다."
+     },
+     "clip": "venus/pins/ishtar-terra",
+     "dur": {
+      "ko": 8.5
      }
     },
     "Aphrodite Terra": {
      "say": {
       "ko": "아프로디테 대륙입니다. 적도를 따라 약 1만 km 뻗은 금성 최대의 고지대로, 넓이가 지구의 대륙 하나와 맞먹습니다."
+     },
+     "clip": "venus/pins/aphrodite-terra",
+     "dur": {
+      "ko": 7.9
      }
     },
     "Maat Mons": {
      "say": {
       "ko": "마트 산입니다. 금성에서 가장 높은 화산으로 주변 평원 위로 약 5 km 솟아 있으며, 마젤란 레이더 영상에서 분화구가 몇 달 사이 모양을 바꾼 것이 확인되어 지금도 살아 있는 화산으로 보입니다."
+     },
+     "clip": "venus/pins/maat-mons",
+     "dur": {
+      "ko": 14.1
      }
     },
     "Sapas Mons": {
      "say": {
       "ko": "사파스 산입니다. 아틀라 레지오의 폭 약 400 km 순상화산으로, 정상에 평평한 봉우리 두 개가 나란히 있고 겹겹이 흘러내린 용암류가 넓은 자락을 이룹니다."
+     },
+     "clip": "venus/pins/sapas-mons",
+     "dur": {
+      "ko": 10.5
      }
     },
     "Sif Mons": {
      "say": {
       "ko": "시프 산입니다. 에이스틀라 레지오의 순상화산으로 높이 약 2 km, 폭은 300 km에 이르며, 2024년 마젤란 자료 재분석에서 새 용암류가 발견되어 활동 화산 후보가 되었습니다."
+     },
+     "clip": "venus/pins/sif-mons",
+     "dur": {
+      "ko": 12.6
      }
     },
     "Alpha Regio": {
      "say": {
       "ko": "알파 레지오입니다. 능선과 골짜기가 격자처럼 얽힌 폭 1,500 km의 테세라 고지대로, 1960년대 지구에서 레이더로 처음 포착되어 이름이 붙은 금성 지형입니다."
+     },
+     "clip": "venus/pins/alpha-regio",
+     "dur": {
+      "ko": 10.8
      }
     },
     "Beta Regio": {
      "say": {
       "ko": "베타 레지오입니다. 화산으로 솟아오른 고지대로 꼭대기에 테이아 산과 레아 산이 서 있고, 한가운데를 열곡이 갈라 놓아 동아프리카 열곡대와 자주 비교됩니다."
+     },
+     "clip": "venus/pins/beta-regio",
+     "dur": {
+      "ko": 9.7
      }
     }
+   },
+   "clip": "venus/intro",
+   "dur": {
+    "ko": 11.1
    }
   },
   "earth": {
@@ -133,98 +209,178 @@
     "Challenger Deep": {
      "say": {
       "ko": "챌린저 해연입니다. 마리아나 해구 바닥, 수심 10,935 m로 지구에서 가장 깊은 곳입니다. 에베레스트를 거꾸로 세워 넣어도 2 km가 남습니다."
+     },
+     "clip": "earth/pins/challenger-deep",
+     "dur": {
+      "ko": 8.5
      }
     },
     "Puerto Rico Trench": {
      "say": {
       "ko": "푸에르토리코 해구입니다. 수심 8,376 m로 대서양에서 가장 깊은 곳이며, 카리브판과 북아메리카판이 비스듬히 스치는 경계에 있습니다."
+     },
+     "clip": "earth/pins/puerto-rico-trench",
+     "dur": {
+      "ko": 10.5
      }
     },
     "Sunda (Java) Trench": {
      "say": {
       "ko": "순다 해구, 자바 해구라고도 합니다. 인도네시아 남쪽에서 수심 7,290 m까지 내려가는 섭입대로, 2004년 수마트라 대지진과 쓰나미가 바로 이 경계에서 일어났습니다."
+     },
+     "clip": "earth/pins/sunda-java-trench",
+     "dur": {
+      "ko": 13.9
      }
     },
     "Mid-Atlantic Ridge": {
      "say": {
       "ko": "대서양 중앙 해령입니다. 대서양 바닥을 남북으로 가르는 발산형 판 경계로, 해마다 2에서 3센티미터씩 벌어지며 새 해저를 만듭니다. 아이슬란드는 이 해령이 바다 위로 드러난 곳입니다."
+     },
+     "clip": "earth/pins/mid-atlantic-ridge",
+     "dur": {
+      "ko": 12.0
      }
     },
     "East Pacific Rise": {
      "say": {
       "ko": "동태평양 해팽입니다. 확장 속도가 가장 빠른 중앙 해령으로 한 해에 15센티미터 가까이 벌어집니다. 1979년 이곳에서 검은 연기를 뿜는 열수 분출공이 처음 발견되었습니다."
+     },
+     "clip": "earth/pins/east-pacific-rise",
+     "dur": {
+      "ko": 11.4
      }
     },
     "Mauna Kea (Hawaii)": {
      "say": {
       "ko": "마우나케아입니다. 해발 4,207 m지만 바다 밑 산기슭부터 재면 10,210 m로 에베레스트보다 높은, 지구에서 가장 큰 산입니다. 정상에는 세계적인 천문대들이 모여 있습니다."
+     },
+     "clip": "earth/pins/mauna-kea-hawaii",
+     "dur": {
+      "ko": 12.7
      }
     },
     "Mount Everest": {
      "say": {
       "ko": "에베레스트입니다. 해발 8,849 m로 지구에서 가장 높은 지점이며, 인도판이 유라시아판을 밀어 올려 지금도 해마다 몇 밀리미터씩 높아지고 있습니다."
+     },
+     "clip": "earth/pins/mount-everest",
+     "dur": {
+      "ko": 10.1
      }
     },
     "Aconcagua (Andes)": {
      "say": {
       "ko": "아콩카과입니다. 안데스산맥의 최고봉으로 해발 6,961 m, 아시아 밖에서 가장 높은 산입니다. 나스카판이 남아메리카 밑으로 파고들며 밀어 올렸습니다."
+     },
+     "clip": "earth/pins/aconcagua-andes",
+     "dur": {
+      "ko": 9.1
      }
     },
     "Grand Canyon": {
      "say": {
       "ko": "그랜드캐니언입니다. 콜로라도강이 수백만 년 동안 고원을 파 내려간 깊이 1.6 km의 협곡으로, 절벽에는 약 20억 년에 걸친 지층이 차곡차곡 드러나 있습니다."
+     },
+     "clip": "earth/pins/grand-canyon",
+     "dur": {
+      "ko": 11.5
      }
     },
     "Afar / East African Rift": {
      "say": {
       "ko": "아파르 삼각지와 동아프리카 열곡대입니다. 아프리카 대륙이 해마다 몇 밀리미터씩 둘로 갈라지고 있는 곳으로, 수백만 년 뒤에는 이 자리에 새 바다가 생길 것입니다."
+     },
+     "clip": "earth/pins/afar-east-african-rift",
+     "dur": {
+      "ko": 12.0
      }
     },
     "Dead Sea": {
      "say": {
       "ko": "사해입니다. 수면이 해수면보다 430 m 낮아 지구에서 가장 낮은 육지이며, 바닷물보다 거의 열 배 짠 소금 호수라 몸이 저절로 뜹니다."
+     },
+     "clip": "earth/pins/dead-sea",
+     "dur": {
+      "ko": 8.7
      }
     },
     "Chicxulub Crater": {
      "say": {
       "ko": "칙술루브 크레이터입니다. 6,600만 년 전 지름 10 km의 소행성이 떨어져 만든 지름 180 km의 크레이터로, 지금은 유카탄반도 땅속에 묻혀 있습니다. 공룡의 시대가 여기서 끝났습니다."
+     },
+     "clip": "earth/pins/chicxulub-crater",
+     "dur": {
+      "ko": 13.0
      }
     },
     "Vredefort Crater": {
      "say": {
       "ko": "브레드포르트 크레이터입니다. 약 20억 년 전 생긴 지름 약 160 km의 구조로, 지구에서 확인된 가장 큰 충돌 흔적이며 가장 오래된 축에 듭니다. 지금은 가운데 솟은 돔만 남아 있습니다."
+     },
+     "clip": "earth/pins/vredefort-crater",
+     "dur": {
+      "ko": 12.5
      }
     },
     "Manicouagan Crater": {
      "say": {
       "ko": "매니쿠아간 크레이터입니다. 약 2억 1,400만 년 전 충돌로 생긴 지름 약 100 km의 구조로, 고리 모양 호수가 우주에서도 또렷이 보여 퀘벡의 눈이라 불립니다."
+     },
+     "clip": "earth/pins/manicouagan-crater",
+     "dur": {
+      "ko": 10.4
      }
     },
     "Meteor Crater (Barringer)": {
      "say": {
       "ko": "미티어 크레이터, 배린저 크레이터입니다. 약 5만 년 전 철 운석이 떨어져 만든 지름 1.2 km의 크레이터로, 땅 위에서 볼 수 있는 가장 잘 보존된 충돌 흔적입니다."
+     },
+     "clip": "earth/pins/meteor-crater-barringer",
+     "dur": {
+      "ko": 10.8
      }
     },
     "Clearwater Lakes": {
      "say": {
       "ko": "클리어워터 호수입니다. 퀘벡에 나란히 놓인 둥근 호수 두 개로, 쌍둥이 소행성의 흔적으로 여겨졌지만 최근 연대 측정은 두 충돌이 1억 년 넘게 떨어져 있다고 봅니다."
+     },
+     "clip": "earth/pins/clearwater-lakes",
+     "dur": {
+      "ko": 10.7
      }
     },
     "Popigai Crater": {
      "say": {
       "ko": "포피가이 크레이터입니다. 약 3,600만 년 전 시베리아에 생긴 지름 약 90 km의 크레이터로, 충돌의 압력이 땅속 흑연을 다이아몬드로 바꿔 세계 최대의 충돌 다이아몬드 산지가 되었습니다."
+     },
+     "clip": "earth/pins/popigai-crater",
+     "dur": {
+      "ko": 14.4
      }
     },
     "Sudbury Basin": {
      "say": {
       "ko": "서드베리 분지입니다. 18억 5,000만 년 전 충돌로 생긴 지름 약 130 km의 구조로, 충돌이 끌어올린 니켈과 구리 덕분에 세계적인 광산 도시가 자리 잡았습니다."
+     },
+     "clip": "earth/pins/sudbury-basin",
+     "dur": {
+      "ko": 11.3
      }
     },
     "Pingualuit Crater": {
      "say": {
       "ko": "핑구알루이트 크레이터입니다. 약 140만 년 전 생긴 지름 3.4 km의 거의 완벽한 원형 호수로, 흘러드는 강이 없어 세계에서 가장 맑은 물 가운데 하나를 담고 있습니다."
+     },
+     "clip": "earth/pins/pingualuit-crater",
+     "dur": {
+      "ko": 11.1
      }
     }
+   },
+   "clip": "earth/intro",
+   "dur": {
+    "ko": 9.5
    }
   },
   "moon": {
@@ -241,108 +397,196 @@
     "Apollo 11": {
      "say": {
       "ko": "아폴로 11호 착륙지입니다. 1969년 7월 20일 닐 암스트롱과 버즈 올드린이 인류 최초로 달에 발을 디뎠고, 21시간 머물며 약 22 kg의 월석을 가져왔습니다."
+     },
+     "clip": "moon/pins/apollo-11",
+     "dur": {
+      "ko": 13.0
      }
     },
     "Apollo 12": {
      "say": {
       "ko": "아폴로 12호 착륙지입니다. 1969년 11월, 2년 전 내려앉은 무인 탐사선 서베이어 3호에서 180 m 떨어진 곳에 정밀 착륙해 그 부품을 떼어 지구로 가져왔습니다."
+     },
+     "clip": "moon/pins/apollo-12",
+     "dur": {
+      "ko": 9.6
      }
     },
     "Apollo 14": {
      "say": {
       "ko": "아폴로 14호 착륙지입니다. 아폴로 13호 사고 뒤 처음 재개된 1971년 임무로, 함장 앨런 셰퍼드는 달에서 골프공 두 개를 쳐 날린 것으로도 유명합니다."
+     },
+     "clip": "moon/pins/apollo-14",
+     "dur": {
+      "ko": 10.6
      }
     },
     "Apollo 15": {
      "say": {
       "ko": "아폴로 15호 착륙지입니다. 1971년 처음으로 월면차를 타고 달을 달렸고, 데이비드 스콧이 망치와 깃털을 동시에 떨어뜨려 둘이 함께 땅에 닿는 것을 보여 주었습니다."
+     },
+     "clip": "moon/pins/apollo-15",
+     "dur": {
+      "ko": 10.8
      }
     },
     "Apollo 16": {
      "say": {
       "ko": "아폴로 16호 착륙지입니다. 1972년 데카르트 고원이 화산 지형인지 확인하러 갔지만, 가져온 돌은 전부 충돌로 부서진 암석이었습니다. 달 고지대의 정체가 이렇게 밝혀졌습니다."
+     },
+     "clip": "moon/pins/apollo-16",
+     "dur": {
+      "ko": 15.4
      }
     },
     "Apollo 17": {
      "say": {
       "ko": "아폴로 17호 착륙지입니다. 1972년 12월 인류의 마지막 유인 달 임무로, 지질학자 해리슨 슈미트가 처음이자 유일한 과학자 우주인으로 걸었고 약 110 kg의 시료를 가져왔습니다."
+     },
+     "clip": "moon/pins/apollo-17",
+     "dur": {
+      "ko": 12.4
      }
     },
     "Tycho": {
      "say": {
       "ko": "티코 크레이터입니다. 지름 85 km에 나이는 약 1억 년으로 비교적 젊어, 보름달이면 어두운 바다를 가로질러 사방으로 뻗은 밝은 광조가 맨눈으로도 보입니다."
+     },
+     "clip": "moon/pins/tycho",
+     "dur": {
+      "ko": 11.2
      }
     },
     "Copernicus": {
      "say": {
       "ko": "코페르니쿠스 크레이터입니다. 지름 93 km, 약 8억 년 전 충돌로 생겼으며 계단처럼 무너진 벽과 중앙 봉우리가 뚜렷해 달의 군주라는 별명을 얻었습니다."
+     },
+     "clip": "moon/pins/copernicus",
+     "dur": {
+      "ko": 10.4
      }
     },
     "Plato": {
      "say": {
       "ko": "플라토 크레이터입니다. 지름 100 km의 바닥이 어두운 용암으로 평평하게 메워져 있어, 그 위의 작은 크레이터가 몇 개 보이는지가 망원경 시상을 재는 기준으로 쓰입니다."
+     },
+     "clip": "moon/pins/plato",
+     "dur": {
+      "ko": 10.3
      }
     },
     "Aristarchus": {
      "say": {
       "ko": "아리스타르코스 크레이터입니다. 지름 40 km로 달에서 가장 밝은 지형이라 작은 망원경으로도 단번에 눈에 띄며, 주변에서 희미한 빛이 보였다는 보고가 오래전부터 이어져 왔습니다."
+     },
+     "clip": "moon/pins/aristarchus",
+     "dur": {
+      "ko": 11.0
      }
     },
     "Clavius": {
      "say": {
       "ko": "클라비우스 크레이터입니다. 지름 231 km의 거대한 남반구 크레이터로 바닥에 작은 크레이터가 호를 그리며 늘어서 있고, 영화 2001 스페이스 오디세이의 달 기지가 이곳에 있었습니다."
+     },
+     "clip": "moon/pins/clavius",
+     "dur": {
+      "ko": 10.2
      }
     },
     "Mare Imbrium": {
      "say": {
       "ko": "비의 바다입니다. 약 38억 년 전 거대한 충돌로 파인 분지에 용암이 차올라 만들어진 지름 1,100 km의 어두운 평원으로, 달에서 가장 큰 충돌 분지 가운데 하나입니다."
+     },
+     "clip": "moon/pins/mare-imbrium",
+     "dur": {
+      "ko": 13.2
      }
     },
     "Mare Serenitatis": {
      "say": {
       "ko": "평온의 바다입니다. 거의 둥근 모양의 어두운 바다로, 동쪽 가장자리의 타우루스 리트로 계곡에 1972년 아폴로 17호가 착륙했습니다."
+     },
+     "clip": "moon/pins/mare-serenitatis",
+     "dur": {
+      "ko": 9.4
      }
     },
     "Mare Tranquillitatis": {
      "say": {
       "ko": "고요의 바다입니다. 1969년 아폴로 11호가 내려앉아 인류가 처음 발을 디딘 바다로, 티타늄이 많은 용암 때문에 다른 바다보다 조금 푸르스름하게 보입니다."
+     },
+     "clip": "moon/pins/mare-tranquillitatis",
+     "dur": {
+      "ko": 10.2
      }
     },
     "Mare Crisium": {
      "say": {
       "ko": "위기의 바다입니다. 달 동쪽 가장자리에 외따로 떨어진 타원형 바다로, 달이 흔들리는 칭동에 따라 가장자리에 가까워졌다 멀어졌다 합니다. 1976년 루나 24호가 이곳의 흙을 가져왔습니다."
+     },
+     "clip": "moon/pins/mare-crisium",
+     "dur": {
+      "ko": 12.7
      }
     },
     "Oceanus Procellarum": {
      "say": {
       "ko": "폭풍의 대양입니다. 달에서 가장 넓은 어두운 평원으로 지름 약 2,500 km에 이르며, 아폴로 12호와 14호, 그리고 2020년 창어 5호가 이 지역에 착륙했습니다."
+     },
+     "clip": "moon/pins/oceanus-procellarum",
+     "dur": {
+      "ko": 11.6
      }
     },
     "Chang'e 4": {
      "say": {
       "ko": "창어 4호 착륙지입니다. 2019년 1월 인류 최초로 달 뒷면에 내려앉았습니다. 지구에서 보이지 않는 곳이라 미리 띄운 중계 위성 췌차오를 거쳐 교신했고, 위투 2호 로버가 함께 달렸습니다."
+     },
+     "clip": "moon/pins/chang-e-4",
+     "dur": {
+      "ko": 12.4
      }
     },
     "Chang'e 5": {
      "say": {
       "ko": "창어 5호 착륙지입니다. 2020년 12월 44년 만에 달 시료 약 1.7 kg을 가져왔고, 그 현무암은 20억 년 전 것으로 달의 화산 활동이 예상보다 오래 이어졌음을 알려 주었습니다."
+     },
+     "clip": "moon/pins/chang-e-5",
+     "dur": {
+      "ko": 9.9
      }
     },
     "Chandrayaan-3": {
      "say": {
       "ko": "찬드라얀 3호 착륙지입니다. 2023년 8월 인도가 인류 최초로 달 남극 부근에 착륙선 비크람을 내려놓았고, 로버 프라그얀이 땅속 온도와 유황을 측정했습니다."
+     },
+     "clip": "moon/pins/chandrayaan-3",
+     "dur": {
+      "ko": 11.7
      }
     },
     "SLIM": {
      "say": {
       "ko": "슬림 착륙지입니다. 2024년 1월 일본 JAXA의 탐사선이 목표 지점 100 m 안에 정밀 착륙하는 데 성공했지만, 코를 박고 거꾸로 선 채 내려앉아 태양전지가 한동안 작동하지 않았습니다."
+     },
+     "clip": "moon/pins/slim",
+     "dur": {
+      "ko": 12.0
      }
     },
     "Falcon 9 Impact": {
      "say": {
       "ko": "팰컨 9 충돌 지점입니다. 2025년 1월 달 착륙선 두 기를 띄운 스페이스X 로켓 상단이 2026년 8월 5일 이곳에 떨어졌습니다. 의도한 충돌은 아니었고, 망원경이 충돌 먼지를 포착했습니다."
+     },
+     "clip": "moon/pins/falcon-9-impact",
+     "dur": {
+      "ko": 13.1
      }
     }
+   },
+   "clip": "moon/intro",
+   "dur": {
+    "ko": 12.7
    }
   },
   "bennu": {
@@ -359,28 +603,52 @@
     "Hokioi": {
      "say": {
       "ko": "호키오이 크레이터입니다. 지름 약 20 m의 작은 크레이터로, 2020년 오시리스-렉스가 나이팅게일이라 부르던 이 자리에서 표본을 떠냈습니다. 마오리 전설의 거대한 새 이름입니다."
+     },
+     "clip": "bennu/pins/hokioi",
+     "dur": {
+      "ko": 11.0
      }
     },
     "Benben Saxum": {
      "say": {
       "ko": "벤벤 바위입니다. 폭 약 52 m로 베누에서 가장 높이 솟은 바위 가운데 하나이며, 이집트 신화에서 베누 새가 내려앉은 태초의 언덕 벤벤에서 이름을 땄습니다."
+     },
+     "clip": "bennu/pins/benben-saxum",
+     "dur": {
+      "ko": 9.7
      }
     },
     "Roc Saxum": {
      "say": {
       "ko": "로크 바위입니다. 폭 약 96 m로 베누에서 가장 큰 바위이며, 아라비아 전설의 거대한 새 로크의 이름입니다. 베누의 지명은 모두 신화 속 새에서 따왔습니다."
+     },
+     "clip": "bennu/pins/roc-saxum",
+     "dur": {
+      "ko": 10.2
      }
     },
     "Minokawa": {
      "say": {
       "ko": "미노카와 크레이터입니다. 지름 약 180 m로 베누에서 가장 큰 크레이터이며, 달을 삼킨다는 필리핀 신화의 거대한 새 미노카와의 이름을 붙였습니다."
+     },
+     "clip": "bennu/pins/minokawa",
+     "dur": {
+      "ko": 10.7
      }
     },
     "Tlanuwa Regio": {
      "say": {
       "ko": "틀라누와 지역입니다. 폭 약 300 m에 큰 바위가 유난히 몰려 있는 곳으로, 체로키 전설에 나오는 거대한 새 틀라누와의 이름입니다."
+     },
+     "clip": "bennu/pins/tlanuwa-regio",
+     "dur": {
+      "ko": 8.9
      }
     }
+   },
+   "clip": "bennu/intro",
+   "dur": {
+    "ko": 12.4
    }
   },
   "ryugu": {
@@ -397,33 +665,61 @@
     "Ryujin Dorsum": {
      "say": {
       "ko": "류진 능선입니다. 류구의 적도를 한 바퀴 두른 능선으로, 빠르게 돌던 시절 물질이 적도로 쏠려 팽이 모양의 테두리가 되었습니다. 용궁의 주인 용왕의 이름입니다."
+     },
+     "clip": "ryugu/pins/ryujin-dorsum",
+     "dur": {
+      "ko": 11.3
      }
     },
     "Urashima": {
      "say": {
       "ko": "우라시마 크레이터입니다. 지름 약 290 m로 류구에서 가장 큰 크레이터 가운데 하나이며, 거북을 타고 용궁에 다녀온 어부 우라시마 타로의 이름입니다."
+     },
+     "clip": "ryugu/pins/urashima",
+     "dur": {
+      "ko": 10.0
      }
     },
     "Otohime Saxum": {
      "say": {
       "ko": "오토히메 바위입니다. 남극 가까이에 놓인 폭 약 160 m의 바위로 류구에서 가장 큽니다. 류구 자체가 용궁이라, 바위에는 용궁의 공주 오토히메의 이름이 붙었습니다."
+     },
+     "clip": "ryugu/pins/otohime-saxum",
+     "dur": {
+      "ko": 10.0
      }
     },
     "Momotaro": {
      "say": {
       "ko": "모모타로 크레이터입니다. 지름 약 190 m로, 복숭아에서 태어나 도깨비를 물리친 일본 옛이야기의 소년 모모타로에서 이름을 땄습니다."
+     },
+     "clip": "ryugu/pins/momotaro",
+     "dur": {
+      "ko": 9.2
      }
     },
     "Cendrillon": {
      "say": {
       "ko": "상드리용 크레이터입니다. 지름 약 220 m로, 신데렐라의 프랑스어 이름입니다. 류구의 지명은 세계의 동화와 어린이 이야기에서 따왔습니다."
+     },
+     "clip": "ryugu/pins/cendrillon",
+     "dur": {
+      "ko": 10.6
      }
     },
     "Tokoyo Fossa": {
      "say": {
       "ko": "도코요 골짜기입니다. 남쪽에 길이 약 560 m로 길게 파인 골짜기로, 일본 신화에서 바다 건너에 있다는 영원의 나라 도코요의 이름입니다."
+     },
+     "clip": "ryugu/pins/tokoyo-fossa",
+     "dur": {
+      "ko": 9.9
      }
     }
+   },
+   "clip": "ryugu/intro",
+   "dur": {
+    "ko": 16.6
    }
   },
   "itokawa": {
@@ -440,28 +736,52 @@
     "MUSES-C Regio": {
      "say": {
       "ko": "뮤지스-C 지역입니다. 잘록한 목 부분에 작은 자갈이 깔려 매끈해 보이는 바다로, 2005년 하야부사가 이곳에 내려앉아 표본을 떴습니다. 임무의 개발 코드명에서 딴 이름입니다."
+     },
+     "clip": "itokawa/pins/muses-c-regio",
+     "dur": {
+      "ko": 11.7
      }
     },
     "Sagamihara Regio": {
      "say": {
       "ko": "사가미하라 지역입니다. 북극 가까이의 매끈한 지역으로, 하야부사를 만든 일본 우주과학연구소가 있는 도시 사가미하라의 이름입니다."
+     },
+     "clip": "itokawa/pins/sagamihara-regio",
+     "dur": {
+      "ko": 8.2
      }
     },
     "Uchinoura Regio": {
      "say": {
       "ko": "우치노우라 지역입니다. 2003년 5월 하야부사를 쏘아 올린 가고시마의 우치노우라 우주센터에서 이름을 땄습니다."
+     },
+     "clip": "itokawa/pins/uchinoura-regio",
+     "dur": {
+      "ko": 6.8
      }
     },
     "Yoshinobu Regio": {
      "say": {
       "ko": "요시노부 지역입니다. 다네가시마 우주센터의 요시노부 발사장에서 이름을 땄습니다. 이토카와의 지명은 모두 일본 우주 개발의 현장에서 왔습니다."
+     },
+     "clip": "itokawa/pins/yoshinobu-regio",
+     "dur": {
+      "ko": 9.0
      }
     },
     "LINEAR Regio": {
      "say": {
       "ko": "리니어 지역입니다. 1998년 이 소행성을 처음 발견한 미국의 자동 탐색 프로그램 리니어의 이름입니다. 소행성 자체는 일본 로켓의 아버지 이토카와 히데오를 기립니다."
+     },
+     "clip": "itokawa/pins/linear-regio",
+     "dur": {
+      "ko": 12.7
      }
     }
+   },
+   "clip": "itokawa/intro",
+   "dur": {
+    "ko": 13.8
    }
   },
   "eros": {
@@ -478,28 +798,52 @@
     "Himeros": {
      "say": {
       "ko": "히메로스입니다. 폭 약 10 km의 안장 모양 함몰로 에로스에서 가장 큰 지형이며, 이 패인 자리 덕분에 에로스는 땅콩처럼 허리가 잘록합니다. 그리움을 뜻하는 에로스의 시종 이름입니다."
+     },
+     "clip": "eros/pins/himeros",
+     "dur": {
+      "ko": 13.3
      }
     },
     "Psyche": {
      "say": {
       "ko": "프시케 크레이터입니다. 지름 약 5 km로 에로스에서 가장 큰 진짜 충돌 크레이터이며, 히메로스의 반대편에 있습니다. 에로스가 사랑한 인간 여인 프시케의 이름입니다."
+     },
+     "clip": "eros/pins/psyche",
+     "dur": {
+      "ko": 11.2
      }
     },
     "Hinks Dorsum": {
      "say": {
       "ko": "힝크스 능선입니다. 북쪽 면을 가로질러 구불구불 이어지는 긴 능선으로, 1900년대 초 에로스의 위치를 재어 지구와 태양 사이 거리를 정밀하게 구한 천문학자 아서 힝크스의 이름입니다."
+     },
+     "clip": "eros/pins/hinks-dorsum",
+     "dur": {
+      "ko": 12.0
      }
     },
     "Witt Regio": {
      "say": {
       "ko": "비트 지역입니다. 소행성 한쪽 끝의 지역으로, 1898년 베를린에서 에로스를 발견한 구스타프 비트의 이름입니다. 에로스는 처음 알려진 지구 근접 소행성이었습니다."
+     },
+     "clip": "eros/pins/witt-regio",
+     "dur": {
+      "ko": 10.9
      }
     },
     "NEAR Shoemaker": {
      "say": {
       "ko": "니어 슈메이커 착륙 지점입니다. 2001년 2월 12일 탐사선이 이곳에 내려앉아 소행성에 착륙한 최초의 우주선이 되었습니다. 궤도용으로만 설계됐는데도 살아남아 2주 동안 자료를 보냈습니다."
+     },
+     "clip": "eros/pins/near-shoemaker",
+     "dur": {
+      "ko": 11.9
      }
     }
+   },
+   "clip": "eros/intro",
+   "dur": {
+    "ko": 13.2
    }
   },
   "mars": {
@@ -516,88 +860,160 @@
     "Olympus Mons": {
      "say": {
       "ko": "올림푸스 산입니다. 높이 21.9 km로 태양계에서 가장 높은 화산이며, 밑변은 프랑스만 합니다. 경사가 완만해 정상에 서도 산 위에 있다는 느낌이 들지 않을 정도입니다."
+     },
+     "clip": "mars/pins/olympus-mons",
+     "dur": {
+      "ko": 13.0
      }
     },
     "Valles Marineris": {
      "say": {
       "ko": "매리너 협곡입니다. 길이 4,000 km, 깊이 7 km로 태양계에서 가장 큰 협곡입니다. 미국 대륙을 가로지를 길이이며, 그랜드캐니언보다 열 배 길고 네 배 깊습니다."
+     },
+     "clip": "mars/pins/valles-marineris",
+     "dur": {
+      "ko": 13.4
      }
     },
     "Hellas Planitia": {
      "say": {
       "ko": "헬라스 평원입니다. 지름 2,300 km, 깊이 7 km가 넘는 거대한 충돌 분지로 화성에서 가장 낮은 곳입니다. 바닥의 기압은 높아서 액체 물이 잠시 존재할 수 있는 조건이 됩니다."
+     },
+     "clip": "mars/pins/hellas-planitia",
+     "dur": {
+      "ko": 13.5
      }
     },
     "Argyre Planitia": {
      "say": {
       "ko": "아르기레 평원입니다. 남반구의 지름 약 1,800 km 충돌 분지로 약 40억 년 전 충돌로 생겼습니다. 겨울이면 서리가 하얗게 덮여 지구의 망원경에도 밝게 보이곤 했습니다."
+     },
+     "clip": "mars/pins/argyre-planitia",
+     "dur": {
+      "ko": 12.5
      }
     },
     "Planum Boreum": {
      "say": {
       "ko": "북극 고원입니다. 화성 북극을 덮은 물 얼음의 빙관으로 지름 약 1,000 km, 두께 3 km에 이르며, 바람이 깎은 골짜기가 소용돌이처럼 돌아갑니다. 겨울에는 그 위에 드라이아이스가 덮입니다."
+     },
+     "clip": "mars/pins/planum-boreum",
+     "dur": {
+      "ko": 13.7
      }
     },
     "Planum Australe": {
      "say": {
       "ko": "남극 고원입니다. 화성 남극의 빙관으로 물 얼음 위에 드라이아이스가 덮여 있으며, 2018년 레이더 관측에서 그 밑에 액체 소금물 호수가 있을 가능성이 제기되어 논쟁이 이어지고 있습니다."
+     },
+     "clip": "mars/pins/planum-australe",
+     "dur": {
+      "ko": 12.2
      }
     },
     "Arsia Mons": {
      "say": {
       "ko": "아르시아 산입니다. 타르시스 세 화산 가운데 가장 남쪽에 있는 높이 약 12 km의 순상화산으로, 정상 분화구만 지름 110 km에 이릅니다. 비탈에는 옛 빙하의 흔적이 남아 있습니다."
+     },
+     "clip": "mars/pins/arsia-mons",
+     "dur": {
+      "ko": 12.4
      }
     },
     "Pavonis Mons": {
      "say": {
       "ko": "파보니스 산입니다. 타르시스 세 화산의 가운데 봉우리로 거의 정확히 적도 위에 서 있으며 높이 약 14 km입니다. 세 화산은 북동쪽으로 나란히 늘어서 1,500 km에 걸친 줄을 이룹니다."
+     },
+     "clip": "mars/pins/pavonis-mons",
+     "dur": {
+      "ko": 12.7
      }
     },
     "Ascraeus Mons": {
      "say": {
       "ko": "아스크라에우스 산입니다. 타르시스 세 화산 가운데 가장 북쪽에 있고 가장 높아 기준면에서 18 km 솟아 있습니다. 화성에서 올림푸스 산 다음으로 높은 산입니다."
+     },
+     "clip": "mars/pins/ascraeus-mons",
+     "dur": {
+      "ko": 12.9
      }
     },
     "Syrtis Major Planum": {
      "say": {
       "ko": "시르티스 메이저 고원입니다. 어두운 현무암으로 덮인 넓은 순상화산 지대로, 1659년 하위헌스가 망원경으로 그려 낸 화성 최초의 표면 지형입니다. 그 그림으로 화성의 하루 길이도 알아냈습니다."
+     },
+     "clip": "mars/pins/syrtis-major-planum",
+     "dur": {
+      "ko": 14.9
      }
     },
     "Isidis Planitia": {
      "say": {
       "ko": "이시디스 평원입니다. 지름 약 1,900 km의 오래된 충돌 분지로, 서쪽 가장자리에 예제로 크레이터가 있습니다. 2003년 영국 착륙선 비글 2호가 이곳에 내려앉았지만 교신에 실패했습니다."
+     },
+     "clip": "mars/pins/isidis-planitia",
+     "dur": {
+      "ko": 14.3
      }
     },
     "Jezero Crater": {
      "say": {
       "ko": "예제로 크레이터입니다. 약 35억 년 전 호수였던 지름 45 km의 크레이터로, 가장자리에 강이 쌓은 삼각주가 남아 있습니다. 2021년 퍼서비어런스가 내려앉아 돌을 채집하고 있습니다."
+     },
+     "clip": "mars/pins/jezero-crater",
+     "dur": {
+      "ko": 14.0
      }
     },
     "Gale Crater": {
      "say": {
       "ko": "게일 크레이터입니다. 지름 154 km의 크레이터 한가운데 5 km 높이의 샤프 산이 솟아 있고, 2012년 착륙한 큐리오시티가 지층을 거슬러 오르며 옛 호수의 흔적을 읽고 있습니다."
+     },
+     "clip": "mars/pins/gale-crater",
+     "dur": {
+      "ko": 12.5
      }
     },
     "Elysium Planitia": {
      "say": {
       "ko": "엘리시움 평원입니다. 2018년 인사이트가 내려앉아 처음으로 화성의 지진을 들었고, 핵의 크기까지 재어 냈습니다. 이 평원에는 수백만 년 전 흐른 젊은 용암도 깔려 있습니다."
+     },
+     "clip": "mars/pins/elysium-planitia",
+     "dur": {
+      "ko": 11.7
      }
     },
     "Utopia Planitia": {
      "say": {
       "ko": "유토피아 평원입니다. 지름 3,300 km로 태양계 최대의 충돌 분지로 꼽히며, 1976년 바이킹 2호에 이어 2021년 중국의 톈원 1호가 착륙해 로버 주룽이 땅속 지층을 레이더로 들여다봤습니다."
+     },
+     "clip": "mars/pins/utopia-planitia",
+     "dur": {
+      "ko": 14.4
      }
     },
     "Meridiani Planum": {
      "say": {
       "ko": "메리디아니 평원입니다. 2004년 오퍼튜니티가 착륙해 90일 예정이던 임무를 14년 넘게 이어 간 곳으로, 물속에서 자란 작은 적철석 구슬 블루베리를 발견해 옛 물의 증거를 보여 주었습니다."
+     },
+     "clip": "mars/pins/meridiani-planum",
+     "dur": {
+      "ko": 15.3
      }
     },
     "Chryse Planitia": {
      "say": {
       "ko": "크리세 평원입니다. 1976년 7월 20일 바이킹 1호가 내려앉아 화성 표면에서 처음으로 사진을 찍고 6년 넘게 일한 곳입니다. 먼 옛날 거대한 홍수가 흘러든 자리입니다."
+     },
+     "clip": "mars/pins/chryse-planitia",
+     "dur": {
+      "ko": 14.7
      }
     }
+   },
+   "clip": "mars/intro",
+   "dur": {
+    "ko": 13.8
    }
   },
   "phobos": {
@@ -614,28 +1030,52 @@
     "Stickney": {
      "say": {
       "ko": "스티크니 크레이터입니다. 지름 약 9 km로 포보스 폭의 3분의 1이 넘어, 이 충돌 때 포보스는 거의 산산조각 날 뻔했습니다. 발견자 아사프 홀의 아내 앤젤린 스티크니의 이름입니다."
+     },
+     "clip": "phobos/pins/stickney",
+     "dur": {
+      "ko": 13.8
      }
     },
     "Kepler Dorsum": {
      "say": {
       "ko": "케플러 능선입니다. 남반구에 길이 약 15 km로 뻗은 능선으로, 1610년 화성에 위성이 둘 있으리라 추측한 요하네스 케플러의 이름입니다. 그 추측은 267년 뒤 들어맞았습니다."
+     },
+     "clip": "phobos/pins/kepler-dorsum",
+     "dur": {
+      "ko": 13.3
      }
     },
     "Hall": {
      "say": {
       "ko": "홀 크레이터입니다. 남극 가까이의 지름 약 5 km 크레이터로, 1877년 8월 워싱턴 해군 천문대에서 포보스와 데이모스를 잇달아 발견한 아사프 홀의 이름입니다."
+     },
+     "clip": "phobos/pins/hall",
+     "dur": {
+      "ko": 12.2
      }
     },
     "Laputa Regio": {
      "say": {
       "ko": "라퓨타 지역입니다. 폭 약 14 km의 지역으로, 걸리버 여행기에 나오는 하늘을 나는 섬의 이름입니다. 이 소설은 발견보다 150년 앞선 1726년에 화성의 두 위성을 묘사했습니다."
+     },
+     "clip": "phobos/pins/laputa-regio",
+     "dur": {
+      "ko": 13.1
      }
     },
     "Gulliver": {
      "say": {
       "ko": "걸리버 크레이터입니다. 북쪽의 지름 약 5.5 km 크레이터로, 스위프트의 소설 속 주인공 레뮤얼 걸리버의 이름입니다. 포보스의 지명은 소설의 인물과 장소에서도 따옵니다."
+     },
+     "clip": "phobos/pins/gulliver",
+     "dur": {
+      "ko": 13.7
      }
     }
+   },
+   "clip": "phobos/intro",
+   "dur": {
+    "ko": 11.0
    }
   },
   "deimos": {
@@ -647,6 +1087,10 @@
     "es": "La luna exterior de Marte, más pequeña y lenta que Fobos. Un grueso manto de polvo fino cubre su superficie y suaviza sus cráteres.",
     "pt": "A lua externa de Marte, menor e mais lenta que Fobos. Um manto espesso de poeira fina cobre sua superfície e suaviza as crateras.",
     "de": "Der äußere Marsmond, kleiner und langsamer als Phobos. Eine dicke Schicht feinen Staubs bedeckt seine Oberfläche und glättet die Krater."
+   },
+   "clip": "deimos/intro",
+   "dur": {
+    "ko": 10.4
    }
   },
   "didymos": {
@@ -663,13 +1107,25 @@
     "Carillon Saxum": {
      "say": {
       "ko": "카리용 바위입니다. 폭 약 85 m로 디디모스에서 이름이 붙은 가장 큰 바위이며, 다트가 충돌 직전 가장 가까이서 본 쪽에 있습니다. 종 23개 이상을 연주하는 악기 카리용의 이름입니다."
+     },
+     "clip": "didymos/pins/carillon-saxum",
+     "dur": {
+      "ko": 14.3
      }
     },
     "Gong Saxum": {
      "say": {
       "ko": "공 바위입니다. 적도 가까이의 폭 약 22 m 바위로, 징을 뜻하는 영어 이름입니다. 디디모스의 지명은 위성 디모르포스와 마찬가지로 타악기에서 따왔습니다."
+     },
+     "clip": "didymos/pins/gong-saxum",
+     "dur": {
+      "ko": 11.8
      }
     }
+   },
+   "clip": "didymos/intro",
+   "dur": {
+    "ko": 14.3
    }
   },
   "dimorphos": {
@@ -686,18 +1142,34 @@
     "DART": {
      "say": {
       "ko": "다트 충돌 지점입니다. 2022년 9월 26일 NASA의 다트가 초속 6.1 km로 이곳을 들이받았고, 본체는 폭 6 m쯤 되는 바위 두 개 사이로 파고들었습니다. 공전 주기가 33분 짧아졌습니다."
+     },
+     "clip": "dimorphos/pins/dart",
+     "dur": {
+      "ko": 14.3
      }
     },
     "Dhol Saxum": {
      "say": {
       "ko": "돌 바위입니다. 폭 약 15 m로 디모르포스에서 가장 큰 바위이며, 위성 폭의 10분의 1입니다. 지명은 다트가 위성을 두드린 것을 기려 모두 북에서 따왔고, 돌은 인도의 양면 북입니다."
+     },
+     "clip": "dimorphos/pins/dhol-saxum",
+     "dur": {
+      "ko": 14.6
      }
     },
     "Naqqara": {
      "say": {
       "ko": "나카라 크레이터입니다. 지름 약 9 m로 이 돌무더기 위성에서 이름이 붙은 가장 큰 크레이터이며, 중동과 인도에서 한 쌍으로 연주하는 솥 모양 북 나카라의 이름입니다."
+     },
+     "clip": "dimorphos/pins/naqqara",
+     "dur": {
+      "ko": 11.8
      }
     }
+   },
+   "clip": "dimorphos/intro",
+   "dur": {
+    "ko": 14.6
    }
   },
   "gaspra": {
@@ -714,28 +1186,52 @@
     "Saratoga": {
      "say": {
       "ko": "새러토가 크레이터입니다. 지름 약 2.8 km로 가스프라에서 이름이 붙은 가장 큰 크레이터입니다. 가스프라가 크림반도의 휴양지라 크레이터에는 온천 이름이 붙는데, 이곳은 뉴욕주의 온천 도시입니다."
+     },
+     "clip": "gaspra/pins/saratoga",
+     "dur": {
+      "ko": 13.5
      }
     },
     "Spa": {
      "say": {
       "ko": "스파 크레이터입니다. 지름 1.6 km로, 벨기에의 온천 도시 스파의 이름입니다. 이 도시의 이름이 온천을 뜻하는 영어 단어 스파가 되었습니다."
+     },
+     "clip": "gaspra/pins/spa",
+     "dur": {
+      "ko": 10.0
      }
     },
     "Charax": {
      "say": {
       "ko": "카락스 크레이터입니다. 지름 약 0.9 km의 작은 크레이터지만 가스프라의 경도 0도를 정하는 기준점입니다. 크림반도 가스프라 마을 근처에 있던 로마 요새 카락스의 이름입니다."
+     },
+     "clip": "gaspra/pins/charax",
+     "dur": {
+      "ko": 11.8
      }
     },
     "Neujmin Regio": {
      "say": {
       "ko": "네우이민 지역입니다. 1916년 크림반도의 시메이즈 천문대에서 가스프라를 발견한 러시아 천문학자 그리고리 네우이민의 이름입니다."
+     },
+     "clip": "gaspra/pins/neujmin-regio",
+     "dur": {
+      "ko": 8.6
      }
     },
     "Yeates Regio": {
      "say": {
       "ko": "예이츠 지역입니다. 1991년 10월 갈릴레오 탐사선을 가스프라 곁으로 이끈 갈릴레오 프로젝트 책임자 클레인 예이츠의 이름입니다. 인류가 소행성을 가까이서 본 첫 순간이었습니다."
+     },
+     "clip": "gaspra/pins/yeates-regio",
+     "dur": {
+      "ko": 13.9
      }
     }
+   },
+   "clip": "gaspra/intro",
+   "dur": {
+    "ko": 13.4
    }
   },
   "vesta": {
@@ -747,6 +1243,10 @@
     "es": "El segundo asteroide más masivo y un protoplaneta de unos 525 km. La gigantesca cuenca Rheasilvia, en su polo sur, tiene un pico central de 22 km, y de aquí proceden muchos de los meteoritos que caen a la Tierra.",
     "pt": "O segundo asteroide mais massivo e um protoplaneta de uns 525 km. A gigantesca bacia Rheasilvia, no polo sul, tem um pico central de 22 km, e muitos meteoritos que caem na Terra vêm daqui.",
     "de": "Der zweitschwerste Asteroid und ein Protoplanet von etwa 525 km. Das riesige Südpolbecken Rheasilvia hat einen 22 km hohen Zentralberg, und viele Meteoriten, die auf die Erde fallen, stammen von hier."
+   },
+   "clip": "vesta/intro",
+   "dur": {
+    "ko": 14.9
    }
   },
   "ceres": {
@@ -763,58 +1263,106 @@
     "Occator": {
      "say": {
       "ko": "오카토르 크레이터입니다. 지름 92 km의 크레이터 한가운데 세레스에서 가장 밝은 점 케레알리아 파쿨라가 있습니다. 땅속에서 솟아오른 소금물이 얼어 남긴 탄산나트륨, 곧 소금의 흔적입니다."
+     },
+     "clip": "ceres/pins/occator",
+     "dur": {
+      "ko": 14.2
      }
     },
     "Ahuna Mons": {
      "say": {
       "ko": "아후나 산입니다. 높이 약 4 km로 세레스에서 가장 두드러진 산이며, 홀로 우뚝 선 빙화산입니다. 용암 대신 얼음과 소금이 섞인 진흙이 솟아올라 쌓인 것으로 보입니다."
+     },
+     "clip": "ceres/pins/ahuna-mons",
+     "dur": {
+      "ko": 12.5
      }
     },
     "Kerwan": {
      "say": {
       "ko": "케르완 크레이터입니다. 지름 약 284 km로 세레스에서 가장 큰 충돌 구조이며, 오래되어 심하게 침식된 분지입니다. 옥수수 싹의 정령인 호피족 신의 이름입니다."
+     },
+     "clip": "ceres/pins/kerwan",
+     "dur": {
+      "ko": 13.7
      }
     },
     "Haulani": {
      "say": {
       "ko": "하울라니 크레이터입니다. 지름 약 34 km로 세레스에서 가장 젊고 밝은 크레이터 가운데 하나이며, 가장자리가 둥글지 않고 다각형인 데다 선명한 광조가 뻗어 있습니다."
+     },
+     "clip": "ceres/pins/haulani",
+     "dur": {
+      "ko": 12.6
      }
     },
     "Dantu": {
      "say": {
       "ko": "단투 크레이터입니다. 지름 126 km의 크레이터 바닥이 균열로 어지럽게 갈라져 있습니다. 충돌로 녹은 물질이 식으며 갈라졌거나, 나중에 땅이 솟아오르며 생긴 틈으로 보입니다."
+     },
+     "clip": "ceres/pins/dantu",
+     "dur": {
+      "ko": 12.8
      }
     },
     "Urvara": {
      "say": {
       "ko": "우르바라 크레이터입니다. 지름 170 km로 세레스에서 가장 크고 잘 보존된 크레이터 가운데 하나이며, 가운데에 길게 솟은 중앙 능선이 인상적입니다."
+     },
+     "clip": "ceres/pins/urvara",
+     "dur": {
+      "ko": 10.6
      }
     },
     "Yalode": {
      "say": {
       "ko": "얄로데 크레이터입니다. 지름 약 260 km로 세레스에서 가장 큰 충돌 분지 가운데 하나이며, 남반구에서 이웃한 우르바라와 짝을 이룹니다."
+     },
+     "clip": "ceres/pins/yalode",
+     "dur": {
+      "ko": 9.8
      }
     },
     "Ernutet": {
      "say": {
       "ko": "에르누테트 크레이터입니다. 돈 탐사선이 세레스에서 유기 분자, 곧 탄소 화합물을 검출한 곳입니다. 물과 소금과 유기물이 한 천체에 모여 있어 생명의 재료를 찾는 중요한 단서가 되었습니다."
+     },
+     "clip": "ceres/pins/ernutet",
+     "dur": {
+      "ko": 12.9
      }
     },
     "Oxo": {
      "say": {
       "ko": "옥소 크레이터입니다. 지름 약 10 km로 세레스에서 두 번째로 밝은 지점이며, 표면에 드러난 물 얼음이 확인된 유일한 곳입니다. 가장자리 한쪽이 비탈을 따라 미끄러져 내려와 있습니다."
+     },
+     "clip": "ceres/pins/oxo",
+     "dur": {
+      "ko": 11.7
      }
     },
     "Kupalo": {
      "say": {
       "ko": "쿠팔로 크레이터입니다. 세레스에서 가장 젊은 크레이터 가운데 하나로, 가장자리와 벽에 밝은 소금 퇴적물이 남아 있습니다. 충돌이 땅속의 신선한 물질을 파헤쳐 드러낸 것입니다."
+     },
+     "clip": "ceres/pins/kupalo",
+     "dur": {
+      "ko": 10.8
      }
     },
     "Ezinu": {
      "say": {
       "ko": "에지누 크레이터입니다. 북반구의 지름 약 116 km 크레이터로, 바닥이 갈라지고 벽이 계단처럼 무너져 내려 있습니다. 수메르의 곡물 여신 이름입니다."
+     },
+     "clip": "ceres/pins/ezinu",
+     "dur": {
+      "ko": 9.7
      }
     }
+   },
+   "clip": "ceres/intro",
+   "dur": {
+    "ko": 14.8
    }
   },
   "ida": {
@@ -831,33 +1379,61 @@
     "Lascaux": {
      "say": {
       "ko": "라스코 크레이터입니다. 지름 약 12 km로 이다에서 이름이 붙은 가장 큰 크레이터입니다. 이다의 크레이터에는 지구의 동굴 이름이 붙는데, 이곳은 선사시대 벽화로 유명한 프랑스의 라스코 동굴입니다."
+     },
+     "clip": "ida/pins/lascaux",
+     "dur": {
+      "ko": 14.3
      }
     },
     "Mammoth": {
      "say": {
       "ko": "매머드 크레이터입니다. 지름 10 km로, 지구에서 가장 긴 동굴계인 미국 켄터키주의 매머드 동굴에서 이름을 땄습니다."
+     },
+     "clip": "ida/pins/mammoth",
+     "dur": {
+      "ko": 8.3
      }
     },
     "Azzurra": {
      "say": {
       "ko": "아주라 크레이터입니다. 지름 10 km로, 햇빛이 물속을 거쳐 들어와 푸르게 빛나는 이탈리아 카프리섬의 바다 동굴, 푸른 동굴의 이름입니다."
+     },
+     "clip": "ida/pins/azzurra",
+     "dur": {
+      "ko": 9.3
      }
     },
     "Afon": {
      "say": {
       "ko": "아폰 크레이터입니다. 지름 약 0.8 km의 아주 작은 크레이터지만 이다의 경도 0도를 정하는 기준점이라, 이 소행성의 모든 지도가 여기서 시작합니다."
+     },
+     "clip": "ida/pins/afon",
+     "dur": {
+      "ko": 10.2
      }
     },
     "Palisa Regio": {
      "say": {
       "ko": "팔리사 지역입니다. 1884년 빈 천문대에서 이다를 발견한 오스트리아 천문학자 요한 팔리사의 이름입니다. 그는 소행성 122개를 눈으로 찾아낸 기록을 남겼습니다."
+     },
+     "clip": "ida/pins/palisa-regio",
+     "dur": {
+      "ko": 11.6
      }
     },
     "Townsend Dorsum": {
      "say": {
       "ko": "타운센드 능선입니다. 길이 40 km로 이다에서 이름이 붙은 가장 긴 지형이며, 1989년 세상을 떠난 갈릴레오 영상팀의 팀 타운센드를 기리는 이름입니다."
+     },
+     "clip": "ida/pins/townsend-dorsum",
+     "dur": {
+      "ko": 10.6
      }
     }
+   },
+   "clip": "ida/intro",
+   "dur": {
+    "ko": 15.2
    }
   },
   "tempel1": {
@@ -874,8 +1450,16 @@
     "Deep Impact": {
      "say": {
       "ko": "딥 임팩트 충돌 지점입니다. 2005년 7월 4일 370 kg 충돌체가 초속 10 km로 혜성 핵에 부딪쳐 속을 드러냈고, 2011년 스타더스트가 폭 150 m의 크레이터를 확인했습니다."
+     },
+     "clip": "tempel1/pins/deep-impact",
+     "dur": {
+      "ko": 14.8
      }
     }
+   },
+   "clip": "tempel1/intro",
+   "dur": {
+    "ko": 15.1
    }
   },
   "67p": {
@@ -887,6 +1471,10 @@
     "es": "Un núcleo cometario de unos 4 km con forma de pato. La Rosetta de la ESA fue la primera nave en orbitar un cometa, en 2014, y su módulo Philae logró ese noviembre el primer aterrizaje en un cometa.",
     "pt": "Um núcleo cometário de uns 4 km em forma de pato. A Rosetta da ESA foi a primeira sonda a orbitar um cometa, em 2014, e seu módulo Philae fez naquele novembro o primeiro pouso em um cometa. Orbita o Sol a cada 6,4 anos.",
     "de": "Ein entenförmiger Kometenkern von etwa 4 km Länge. ESAs Rosetta umkreiste 2014 als erste Sonde einen Kometen, und ihr Lander Philae landete im November desselben Jahres als Erster auf einem Kometen."
+   },
+   "clip": "67p/intro",
+   "dur": {
+    "ko": 14.1
    }
   },
   "hartley2": {
@@ -898,6 +1486,10 @@
     "es": "Un núcleo cometario pequeño e hiperactivo de solo 2,3 km, con forma de bolo. El 4 de noviembre de 2010 la Deep Impact de la NASA pasó a solo 694 km y vio chorros de dióxido de carbono lanzando hielo como una nevada.",
     "pt": "Um núcleo cometário pequeno e hiperativo de apenas 2,3 km, em forma de pino de boliche. Em 4 de novembro de 2010 a Deep Impact da NASA passou a só 694 km e viu jatos de dióxido de carbono lançando gelo como uma nevasca.",
     "de": "Ein kleiner, hyperaktiver Kometenkern von nur 2,3 km, geformt wie ein Bowling-Pin. Am 4. November 2010 flog NASAs Deep Impact in nur 694 km Abstand vorbei und sah Jets, die Eis wie einen Schneesturm herausschleuderten."
+   },
+   "clip": "hartley2/intro",
+   "dur": {
+    "ko": 14.1
    }
   },
   "jupiter": {
@@ -914,8 +1506,16 @@
     "Great Red Spot": {
      "say": {
       "ko": "대적점입니다. 지구가 통째로 들어가는 거대한 고기압 폭풍으로, 시속 400 km가 넘는 바람이 반시계 방향으로 돕니다. 적어도 1831년부터 기록되었고 최근 수십 년 사이 점점 작아지고 있습니다."
+     },
+     "clip": "jupiter/pins/great-red-spot",
+     "dur": {
+      "ko": 14.3
      }
     }
+   },
+   "clip": "jupiter/intro",
+   "dur": {
+    "ko": 13.2
    }
   },
   "io": {
@@ -932,43 +1532,79 @@
     "Loki Patera": {
      "say": {
       "ko": "로키 파테라입니다. 지름 200 km의 거대한 용암 호수로 태양계에서 가장 강력한 화산입니다. 이오 전체 열 방출의 10퍼센트 가까이를 혼자 내뿜고, 호수 표면이 주기적으로 뒤집히듯 새로 굳습니다."
+     },
+     "clip": "io/pins/loki-patera",
+     "dur": {
+      "ko": 14.1
      }
     },
     "Pele": {
      "say": {
       "ko": "펠레입니다. 하와이 화산 여신의 이름을 가진 화산으로, 분출 기둥이 고도 300 km까지 치솟고 그 낙진이 지름 1,200 km가 넘는 붉은 유황 고리를 그립니다. 태양계 최대의 화산 지형입니다."
+     },
+     "clip": "io/pins/pele",
+     "dur": {
+      "ko": 13.0
      }
     },
     "Prometheus": {
      "say": {
       "ko": "프로메테우스입니다. 1979년 보이저가 처음 본 뒤로 한 번도 쉬지 않고 100 km 높이의 기둥을 뿜어 온 화산으로, 그래서 태양계의 올드 페이스풀이라 불립니다."
+     },
+     "clip": "io/pins/prometheus",
+     "dur": {
+      "ko": 10.5
      }
     },
     "Pillan Patera": {
      "say": {
       "ko": "필란 파테라입니다. 1997년 대분출로 400 km에 걸친 어두운 재를 펠레의 붉은 고리 위에 쏟아부어, 갈릴레오 탐사선이 몇 달 사이 표면이 뒤바뀌는 모습을 지켜봤습니다."
+     },
+     "clip": "io/pins/pillan-patera",
+     "dur": {
+      "ko": 12.0
      }
     },
     "Tvashtar Paterae": {
      "say": {
       "ko": "트바슈타르 파테라입니다. 북극 가까이의 화산 무리로, 2007년 명왕성으로 가던 뉴호라이즌스가 290 km 높이로 솟은 분출 기둥을 촬영했습니다. 이오 화산 영상 가운데 가장 유명한 장면입니다."
+     },
+     "clip": "io/pins/tvashtar-paterae",
+     "dur": {
+      "ko": 13.0
      }
     },
     "Boösaule Montes": {
      "say": {
       "ko": "보오사울레 산입니다. 높이 약 17.5 km로 이오에서 가장 높은 산이며 에베레스트의 두 배입니다. 화산이 아니라 지각 덩어리가 기울어지며 밀려 올라온 산입니다."
+     },
+     "clip": "io/pins/bo-saule-montes",
+     "dur": {
+      "ko": 10.9
      }
     },
     "Tohil Mons": {
      "say": {
       "ko": "토힐 산입니다. 높이 약 5 km의 산으로 화산성 함몰지 토힐 파테라에 바로 붙어 있습니다. 이오의 산들은 화산 분출로 쌓이기보다 지각이 쪼개져 솟아오르며 만들어집니다."
+     },
+     "clip": "io/pins/tohil-mons",
+     "dur": {
+      "ko": 11.2
      }
     },
     "Amirani": {
      "say": {
       "ko": "아미라니입니다. 길이 약 300 km로 태양계에서 알려진 가장 긴 활동 용암류입니다. 지금도 흐르며 넓어지고 있어, 갈릴레오 탐사선은 몇 달 사이 새 용암이 번지는 모습을 포착했습니다."
+     },
+     "clip": "io/pins/amirani",
+     "dur": {
+      "ko": 12.7
      }
     }
+   },
+   "clip": "io/intro",
+   "dur": {
+    "ko": 9.9
    }
   },
   "europa": {
@@ -985,38 +1621,70 @@
     "Conamara Chaos": {
      "say": {
       "ko": "코나마라 카오스입니다. 얼음 껍질이 깨져 떠다니다 다시 얼어붙은 혼돈 지형으로, 조각들의 위치를 맞추면 퍼즐처럼 들어맞습니다. 그 아래가 한때 물이거나 무른 얼음이었다는 증거입니다."
+     },
+     "clip": "europa/pins/conamara-chaos",
+     "dur": {
+      "ko": 12.1
      }
     },
     "Tara Regio": {
      "say": {
       "ko": "타라 지역입니다. 노란빛이 도는 혼돈 지형으로, 허블 망원경이 2019년 이곳에서 염화나트륨, 곧 식탁 소금을 확인했습니다. 유로파의 바다가 지구 바다와 비슷한 소금물일 수 있다는 뜻입니다."
+     },
+     "clip": "europa/pins/tara-regio",
+     "dur": {
+      "ko": 12.4
      }
     },
     "Pwyll": {
      "say": {
       "ko": "푸일 크레이터입니다. 지름 약 26 km의 젊은 크레이터로, 밝은 광조가 사방으로 1,000 km 넘게 뻗어 있습니다. 충돌이 깨끗한 얼음을 파내어 흩뿌린 흔적입니다."
+     },
+     "clip": "europa/pins/pwyll",
+     "dur": {
+      "ko": 10.7
      }
     },
     "Tyre": {
      "say": {
       "ko": "티레입니다. 지름 약 140 km의 다중 고리 충돌 구조로, 동심원 고리가 여러 겹 둘러싸고 있습니다. 충돌이 얇은 얼음 껍질을 뚫고 그 아래 무른 층까지 닿았다는 증거입니다."
+     },
+     "clip": "europa/pins/tyre",
+     "dur": {
+      "ko": 11.3
      }
     },
     "Thera Macula": {
      "say": {
       "ko": "테라 마쿨라입니다. 폭 약 70 km의 어둡고 붉은 혼돈 지역으로, 얼음 껍질 속 지하 호수가 솟아오르며 표면을 무너뜨리고 있는 것으로 보입니다. 지금도 변하고 있을 가능성이 있습니다."
+     },
+     "clip": "europa/pins/thera-macula",
+     "dur": {
+      "ko": 11.2
      }
     },
     "Thrace Macula": {
      "say": {
       "ko": "트라케 마쿨라입니다. 테라 마쿨라 바로 옆의 더 큰 어두운 혼돈 지역으로, 리브나 리네아라는 긴 줄무늬가 둘을 잇습니다. 붉은빛은 바다에서 올라온 소금과 유황 화합물로 보입니다."
+     },
+     "clip": "europa/pins/thrace-macula",
+     "dur": {
+      "ko": 13.0
      }
     },
     "Castalia Macula": {
      "say": {
       "ko": "카스탈리아 마쿨라입니다. 앞서 가는 반구에 있는 어두운 혼돈 반점으로, 양옆에 둥근 돔이 한 쌍 솟아 있습니다. 아래에서 따뜻한 얼음이 밀고 올라온 자리로 보입니다."
+     },
+     "clip": "europa/pins/castalia-macula",
+     "dur": {
+      "ko": 11.1
      }
     }
+   },
+   "clip": "europa/intro",
+   "dur": {
+    "ko": 7.5
    }
   },
   "ganymede": {
@@ -1033,33 +1701,61 @@
     "Galileo Regio": {
      "say": {
       "ko": "갈릴레오 지역입니다. 지름 3,200 km로 가니메데에서 가장 넓은 어두운 지형이며, 크레이터가 빽빽한 40억 년 전 표면입니다. 1610년 이 위성을 발견한 갈릴레오의 이름입니다."
+     },
+     "clip": "ganymede/pins/galileo-regio",
+     "dur": {
+      "ko": 12.7
      }
     },
     "Uruk Sulcus": {
      "say": {
       "ko": "우루크 술쿠스입니다. 어두운 지역을 가르며 지나가는 밝은 홈 지형으로, 지각이 늘어나며 생긴 평행한 능선과 골입니다. 어두운 지역보다 젊고 얼음이 깨끗합니다."
+     },
+     "clip": "ganymede/pins/uruk-sulcus",
+     "dur": {
+      "ko": 10.8
      }
     },
     "Tros": {
      "say": {
       "ko": "트로스 크레이터입니다. 지름 약 94 km의 밝은 충돌 크레이터로, 사방으로 뻗은 광조가 뚜렷합니다. 충돌이 어두운 먼지 아래 깨끗한 얼음을 파내어 흩뿌렸습니다."
+     },
+     "clip": "ganymede/pins/tros",
+     "dur": {
+      "ko": 10.8
      }
     },
     "Osiris": {
      "say": {
       "ko": "오시리스 크레이터입니다. 지름 107 km의 이중 고리 크레이터로 가운데 돔이 솟아 있고, 밝은 얼음 광조가 수백 km까지 뻗어 가니메데에서 가장 눈에 띄는 크레이터 가운데 하나입니다."
+     },
+     "clip": "ganymede/pins/osiris",
+     "dur": {
+      "ko": 11.3
      }
     },
     "Anat Catena": {
      "say": {
       "ko": "아나트 카테나입니다. 크레이터가 줄지어 늘어선 사슬로, 목성 중력에 산산이 부서진 혜성 조각들이 차례로 떨어진 자국입니다. 1994년 목성에 떨어진 슈메이커-레비 9 혜성과 같은 운명이었습니다."
+     },
+     "clip": "ganymede/pins/anat-catena",
+     "dur": {
+      "ko": 15.6
      }
     },
     "Memphis Facula": {
      "say": {
       "ko": "멤피스 파쿨라입니다. 지름 360 km의 밝고 둥근 자국으로, 오래전 충돌 분지가 부드러운 얼음에 눌려 평평해진 팔림프세스트입니다. 갈릴레오 지역 남쪽에 남은 옛 충돌의 유령입니다."
+     },
+     "clip": "ganymede/pins/memphis-facula",
+     "dur": {
+      "ko": 11.0
      }
     }
+   },
+   "clip": "ganymede/intro",
+   "dur": {
+    "ko": 10.0
    }
   },
   "callisto": {
@@ -1076,18 +1772,34 @@
     "Valhalla": {
      "say": {
       "ko": "발할라입니다. 밝은 중심부를 둘러싸고 동심원 고리가 중심에서 1,900 km 밖까지 퍼져 나가는, 태양계에서 가장 큰 다중 고리 충돌 구조입니다. 북유럽 신화의 전사자의 전당 이름입니다."
+     },
+     "clip": "callisto/pins/valhalla",
+     "dur": {
+      "ko": 12.1
      }
     },
     "Asgard": {
      "say": {
       "ko": "아스가르드입니다. 지름 약 1,600 km의 다중 고리 분지로 칼리스토에서 두 번째로 크며, 가운데는 밝은 얼음, 둘레는 동심원 능선이 겹겹이 둘렀습니다. 북유럽 신들의 나라 이름입니다."
+     },
+     "clip": "callisto/pins/asgard",
+     "dur": {
+      "ko": 12.2
      }
     },
     "Bran": {
      "say": {
       "ko": "브란 크레이터입니다. 방금 생긴 듯 가장자리가 선명한 젊은 충돌 크레이터로, 지질 활동이 멈춘 칼리스토에서는 이런 새 크레이터만이 표면을 바꿉니다."
+     },
+     "clip": "callisto/pins/bran",
+     "dur": {
+      "ko": 8.7
      }
     }
+   },
+   "clip": "callisto/intro",
+   "dur": {
+    "ko": 9.2
    }
   },
   "saturn": {
@@ -1104,13 +1816,25 @@
     "Hexagon": {
      "say": {
       "ko": "육각형 폭풍입니다. 토성 북극을 둘러싼 폭 약 30,000 km의 육각형 제트기류로, 지구 두 개가 들어갈 크기입니다. 1981년 보이저가 처음 봤고 40년 넘게 모양을 유지하고 있습니다."
+     },
+     "clip": "saturn/pins/hexagon",
+     "dur": {
+      "ko": 10.1
      }
     },
     "Equator": {
      "say": {
       "ko": "적도대입니다. 토성의 적도를 두른 가장 어두운 구름 띠로, 그 위에서는 시속 1,800 km에 이르는 제트기류가 동쪽으로 붑니다. 30년에 한 번쯤 거대한 흰 폭풍이 터져 띠를 뒤덮습니다."
+     },
+     "clip": "saturn/pins/equator",
+     "dur": {
+      "ko": 14.3
      }
     }
+   },
+   "clip": "saturn/intro",
+   "dur": {
+    "ko": 12.1
    }
   },
   "mimas": {
@@ -1127,8 +1851,16 @@
     "Herschel": {
      "say": {
       "ko": "허셜 크레이터입니다. 지름 130 km로 미마스 지름의 3분의 1에 이르러, 영화 스타워즈의 데스 스타를 꼭 닮았습니다. 이 충돌이 조금만 더 셌다면 미마스는 부서졌을 것입니다."
+     },
+     "clip": "mimas/pins/herschel",
+     "dur": {
+      "ko": 12.2
      }
     }
+   },
+   "clip": "mimas/intro",
+   "dur": {
+    "ko": 11.7
    }
   },
   "enceladus": {
@@ -1145,18 +1877,34 @@
     "Tiger Stripes": {
      "say": {
       "ko": "타이거 줄무늬입니다. 남극에 나란히 그어진 네 개의 깊은 틈으로, 이 틈에서 얼음 알갱이와 수증기가 100개가 넘는 물기둥으로 솟아오릅니다. 그 밑의 바다가 우주로 새어 나오는 것입니다."
+     },
+     "clip": "enceladus/pins/tiger-stripes",
+     "dur": {
+      "ko": 12.4
      }
     },
     "Damascus Sulcus": {
      "say": {
       "ko": "다마스쿠스 술쿠스입니다. 타이거 줄무늬 가운데 가장 활발한 분출구가 늘어선 틈입니다. 여기서 뿜어낸 물질이 토성의 E 고리를 채우고, 카시니는 물기둥을 통과하며 소금과 유기물을 확인했습니다."
+     },
+     "clip": "enceladus/pins/damascus-sulcus",
+     "dur": {
+      "ko": 13.0
      }
     },
     "Sarandib Planitia": {
      "say": {
       "ko": "사란디브 평원입니다. 앞서 가는 반구의 매끄러운 평원으로, 크레이터가 거의 없어 비교적 최근에 새 얼음으로 덮인 땅입니다. 엔셀라두스가 지금도 살아 움직인다는 또 다른 증거입니다."
+     },
+     "clip": "enceladus/pins/sarandib-planitia",
+     "dur": {
+      "ko": 11.9
      }
     }
+   },
+   "clip": "enceladus/intro",
+   "dur": {
+    "ko": 10.1
    }
   },
   "tethys": {
@@ -1173,13 +1921,25 @@
     "Odysseus": {
      "say": {
       "ko": "오디세우스 크레이터입니다. 지름 445 km로 테티스 지름의 40퍼센트에 이르며, 바닥이 위성의 둥근 곡면을 따라 솟아 있습니다. 충돌 당시 얼음이 아직 물렀다는 증거입니다."
+     },
+     "clip": "tethys/pins/odysseus",
+     "dur": {
+      "ko": 12.3
      }
     },
     "Ithaca Chasma": {
      "say": {
       "ko": "이타카 협곡입니다. 길이 2,000 km, 깊이 3 km로 테티스를 4분의 3 바퀴 두르는 열곡입니다. 속의 물이 얼어 부피가 늘며 껍질이 터진 자국이거나, 오디세우스 충돌의 여파로 보입니다."
+     },
+     "clip": "tethys/pins/ithaca-chasma",
+     "dur": {
+      "ko": 12.7
      }
     }
+   },
+   "clip": "tethys/intro",
+   "dur": {
+    "ko": 9.8
    }
   },
   "dione": {
@@ -1196,18 +1956,34 @@
     "Wispy Terrain": {
      "say": {
       "ko": "줄무늬 지형입니다. 뒤따르는 반구에 밝은 실 같은 줄무늬가 어지럽게 뻗어 있는데, 보이저 시절에는 얼음 화산의 분출물로 여겼지만 카시니가 수백 m 높이의 밝은 얼음 절벽임을 밝혀냈습니다."
+     },
+     "clip": "dione/pins/wispy-terrain",
+     "dur": {
+      "ko": 11.5
      }
     },
     "Aeneas Crater": {
      "say": {
       "ko": "아이네아스 크레이터입니다. 지름 155 km의 큰 크레이터로 가운데 봉우리가 솟아 있으며, 트로이의 영웅 아이네아스의 이름입니다."
+     },
+     "clip": "dione/pins/aeneas-crater",
+     "dur": {
+      "ko": 7.9
      }
     },
     "Padua Chasmata": {
      "say": {
       "ko": "파두아 협곡입니다. 뒤따르는 반구를 가로지르는 단열 지대로, 지각이 늘어나며 벌어진 틈들이 줄무늬 지형의 밝은 절벽을 이룹니다."
+     },
+     "clip": "dione/pins/padua-chasmata",
+     "dur": {
+      "ko": 7.6
      }
     }
+   },
+   "clip": "dione/intro",
+   "dur": {
+    "ko": 10.7
    }
   },
   "rhea": {
@@ -1224,18 +2000,34 @@
     "Tirawa": {
      "say": {
       "ko": "티라와 분지입니다. 지름 약 360 km의 다중 고리 충돌 분지로 레아에서 두 번째로 큽니다. 포니족 신화의 창조신 이름입니다."
+     },
+     "clip": "rhea/pins/tirawa",
+     "dur": {
+      "ko": 7.6
      }
     },
     "Inktomi": {
      "say": {
       "ko": "잉크토미 크레이터입니다. 지름 약 48 km의 젊고 밝은 광조 크레이터로, 뒤따르는 반구에서 가장 눈에 띄어 스플랫, 곧 철퍽 튄 자국이라는 별명이 붙었습니다. 라코타족 신화의 거미 이름입니다."
+     },
+     "clip": "rhea/pins/inktomi",
+     "dur": {
+      "ko": 15.3
      }
     },
     "Mamaldi": {
      "say": {
       "ko": "마말디 분지입니다. 앞서 가는 반구에 있는 지름 약 480 km의 오래되고 침식된 충돌 분지로 레아에서 가장 큽니다. 이웃한 티라와와 부분적으로 겹칩니다."
+     },
+     "clip": "rhea/pins/mamaldi",
+     "dur": {
+      "ko": 11.4
      }
     }
+   },
+   "clip": "rhea/intro",
+   "dur": {
+    "ko": 10.1
    }
   },
   "titan": {
@@ -1252,28 +2044,52 @@
     "Xanadu": {
      "say": {
       "ko": "재너두입니다. 적도의 밝은 고지대로 넓이는 오스트레일리아만 하며, 물 얼음으로 된 산과 메탄 강이 깎은 골짜기가 있습니다. 두꺼운 안개 너머로 지구에서도 밝게 보인 첫 지형입니다."
+     },
+     "clip": "titan/pins/xanadu",
+     "dur": {
+      "ko": 12.3
      }
     },
     "Kraken Mare": {
      "say": {
       "ko": "크라켄 바다입니다. 넓이 40만 제곱킬로미터로 타이탄에서 가장 큰 바다이며, 물이 아니라 액체 메탄과 에탄으로 차 있습니다. 카스피해보다 크고 깊이가 100 m를 넘는 곳도 있습니다."
+     },
+     "clip": "titan/pins/kraken-mare",
+     "dur": {
+      "ko": 12.0
      }
     },
     "Ligeia Mare": {
      "say": {
       "ko": "리게이아 바다입니다. 두 번째로 큰 메탄 바다로, 카시니의 레이더가 깊이 170 m 바닥까지 꿰뚫어 봤습니다. 2013년 이 바다 위에 섬처럼 나타났다 사라진 마법의 섬이 관측되었습니다."
+     },
+     "clip": "titan/pins/ligeia-mare",
+     "dur": {
+      "ko": 10.3
      }
     },
     "Ontario Lacus": {
      "say": {
       "ko": "온타리오 호수입니다. 남반구의 메탄과 에탄 호수로, 2008년 액체가 확인된 타이탄 최초의 호수입니다. 지구의 온타리오호와 모양과 크기가 비슷해 이름을 땄습니다."
+     },
+     "clip": "titan/pins/ontario-lacus",
+     "dur": {
+      "ko": 13.5
      }
     },
     "Sotra Patera": {
      "say": {
       "ko": "소트라 파테라입니다. 높이 1 km가 넘는 봉우리 옆에 깊이 1.5 km의 구덩이가 파인 지형으로, 타이탄에서 빙화산일 가능성이 가장 높습니다. 용암 대신 물과 암모니아를 뿜었을 것입니다."
+     },
+     "clip": "titan/pins/sotra-patera",
+     "dur": {
+      "ko": 15.4
      }
     }
+   },
+   "clip": "titan/intro",
+   "dur": {
+    "ko": 14.4
    }
   },
   "iapetus": {
@@ -1290,23 +2106,43 @@
     "Cassini Regio": {
      "say": {
       "ko": "카시니 지역입니다. 앞서 가는 반구를 덮은 석탄처럼 검은 지대로, 반대쪽 밝은 면과 열 배 넘게 밝기가 차이 납니다. 1671년 이 위성이 한쪽에서만 보인다는 것을 알아챈 카시니의 이름입니다."
+     },
+     "clip": "iapetus/pins/cassini-regio",
+     "dur": {
+      "ko": 13.2
      }
     },
     "Equatorial Ridge": {
      "say": {
       "ko": "적도 능선입니다. 적도를 따라 1,300 km 넘게 이어지며 높이 20 km에 이르는 산맥으로, 이아페투스를 호두처럼 보이게 합니다. 옛 고리가 떨어져 쌓였거나 지각이 접힌 것으로 추정됩니다."
+     },
+     "clip": "iapetus/pins/equatorial-ridge",
+     "dur": {
+      "ko": 12.5
      }
     },
     "Engelier": {
      "say": {
       "ko": "엔젤리에 크레이터입니다. 지름 503 km의 거대한 충돌 분지로 가운데 봉우리가 솟아 있고, 밝은 뒤쪽 반구의 사라고사 지역에 있습니다. 롤랑의 노래에 나오는 기사의 이름입니다."
+     },
+     "clip": "iapetus/pins/engelier",
+     "dur": {
+      "ko": 11.0
      }
     },
     "Roncevaux Terra": {
      "say": {
       "ko": "롱스보 지역입니다. 뒤따르는 반구의 얼음이 풍부한 밝은 고지대로, 눈처럼 흰 표면이 검은 카시니 지역과 극적인 대비를 이룹니다. 롤랑의 노래의 전장 롱스보의 이름입니다."
+     },
+     "clip": "iapetus/pins/roncevaux-terra",
+     "dur": {
+      "ko": 9.4
      }
     }
+   },
+   "clip": "iapetus/intro",
+   "dur": {
+    "ko": 8.6
    }
   },
   "halley": {
@@ -1318,6 +2154,10 @@
     "es": "El cometa más famoso, que vuelve cada 76 años. En 1705 Edmond Halley demostró que varias apariciones eran el mismo cometa y predijo su regreso; en 1986 la Giotto de la ESA fotografió de cerca su núcleo por primera vez.",
     "pt": "O cometa mais famoso, que volta a cada 76 anos. Em 1705 Edmond Halley mostrou que várias aparições eram o mesmo cometa e previu seu retorno; em 1986 a Giotto da ESA fez o primeiro close do núcleo.",
     "de": "Der berühmteste Komet, der etwa alle 76 Jahre wiederkehrt. 1705 erkannte Edmond Halley mehrere alte Sichtungen als denselben Kometen und sagte die Rückkehr voraus; 1986 machte ESAs Giotto die erste Nahaufnahme des Kerns."
+   },
+   "clip": "halley/intro",
+   "dur": {
+    "ko": 15.9
    }
   },
   "uranus": {
@@ -1329,6 +2169,10 @@
     "es": "Un gigante de hielo que gira de lado: su eje está inclinado 98 grados y sus polos apuntan al Sol. El metano de su atmósfera absorbe la luz roja y le da un tono azul verdoso. William Herschel lo descubrió en 1781.",
     "pt": "Um gigante de gelo que gira deitado: seu eixo está inclinado 98 graus e os polos apontam para o Sol. O metano da atmosfera absorve a luz vermelha e lhe dá um tom azul-esverdeado. William Herschel o descobriu em 1781.",
     "de": "Ein Eisriese, der auf der Seite liegend rotiert: Seine Achse ist um 98 Grad geneigt, die Pole zeigen zur Sonne. Methan in der Atmosphäre schluckt rotes Licht und färbt ihn blaugrün. William Herschel entdeckte ihn 1781."
+   },
+   "clip": "uranus/intro",
+   "dur": {
+    "ko": 15.1
    }
   },
   "miranda": {
@@ -1345,23 +2189,43 @@
     "Verona Rupes": {
      "say": {
       "ko": "베로나 절벽입니다. 높이 약 20 km로 태양계에서 가장 높은 절벽입니다. 미란다의 약한 중력에서는 꼭대기에서 뛰어내려도 바닥까지 12분쯤 걸립니다. 로미오와 줄리엣의 도시 이름입니다."
+     },
+     "clip": "miranda/pins/verona-rupes",
+     "dur": {
+      "ko": 13.9
      }
     },
     "Inverness Corona": {
      "say": {
       "ko": "인버네스 코로나입니다. 남극 가까이에 밝은 V자 무늬를 그리는 셰브론 지형으로, 미란다를 조각조각 이어 붙인 듯 보이게 하는 세 코로나 가운데 하나입니다. 맥베스의 성 이름입니다."
+     },
+     "clip": "miranda/pins/inverness-corona",
+     "dur": {
+      "ko": 12.5
      }
     },
     "Elsinore Corona": {
      "say": {
       "ko": "엘시노어 코로나입니다. 평행한 홈이 경주 트랙처럼 둘러싼 폭 약 320 km의 타원 지형입니다. 속에서 따뜻한 얼음이 솟아오르며 표면을 갈아 끼운 자리로 보입니다. 햄릿의 성 이름입니다."
+     },
+     "clip": "miranda/pins/elsinore-corona",
+     "dur": {
+      "ko": 13.8
      }
     },
     "Arden Corona": {
      "say": {
       "ko": "아든 코로나입니다. 엘시노어 반대편의 폭 약 320 km 코로나로, 밝고 어두운 띠가 능선과 골을 따라 둘러쌉니다. 희곡 뜻대로 하세요의 무대인 아든 숲의 이름입니다."
+     },
+     "clip": "miranda/pins/arden-corona",
+     "dur": {
+      "ko": 12.3
      }
     }
+   },
+   "clip": "miranda/intro",
+   "dur": {
+    "ko": 13.8
    }
   },
   "ariel": {
@@ -1378,18 +2242,34 @@
     "Kachina Chasmata": {
      "say": {
       "ko": "카치나 협곡입니다. 길이 600 km가 넘는 협곡 지대로, 바닥이 매끈한 협곡이 많아 아리엘의 지각이 갈라진 뒤 메워졌음을 보여 줍니다. 푸에블로 사람들에게 비를 주는 정령의 이름입니다."
+     },
+     "clip": "ariel/pins/kachina-chasmata",
+     "dur": {
+      "ko": 14.3
      }
     },
     "Kewpie Chasma": {
      "say": {
       "ko": "큐피 협곡입니다. 아리엘을 가로지르는 협곡망의 하나로 길이 약 470 km입니다. 아리엘의 지명은 밝은 정령에서 따오는데, 큐피는 영국의 아기 정령입니다."
+     },
+     "clip": "ariel/pins/kewpie-chasma",
+     "dur": {
+      "ko": 12.9
      }
     },
     "Laica": {
      "say": {
       "ko": "라이카 크레이터입니다. 지름 약 30 km의 크레이터로 밝은 테두리를 둘러 이 지도에서 가장 밝은 점입니다. 잉카 신화의 선한 정령 라이카의 이름입니다."
+     },
+     "clip": "ariel/pins/laica",
+     "dur": {
+      "ko": 11.8
      }
     }
+   },
+   "clip": "ariel/intro",
+   "dur": {
+    "ko": 7.4
    }
   },
   "umbriel": {
@@ -1406,18 +2286,34 @@
     "Wunda": {
      "say": {
       "ko": "운다 크레이터입니다. 지름 약 130 km의 크레이터 바닥에 밝은 고리가 또렷해, 천왕성의 큰 위성 가운데 가장 어두운 움브리엘에서 가장 밝은 지형입니다. 고리는 얼어붙은 이산화탄소일 수 있습니다."
+     },
+     "clip": "umbriel/pins/wunda",
+     "dur": {
+      "ko": 14.2
      }
     },
     "Vuver": {
      "say": {
       "ko": "부베르 크레이터입니다. 적도 가까이의 지름 약 100 km 크레이터로, 밝은 중앙 봉우리가 어두운 움브리엘에서 몇 안 되는 밝은 점입니다. 움브리엘의 지명은 어둡고 악한 정령에서 따옵니다."
+     },
+     "clip": "umbriel/pins/vuver",
+     "dur": {
+      "ko": 13.2
      }
     },
     "Wokolo": {
      "say": {
       "ko": "워콜로 크레이터입니다. 지름 약 210 km로 움브리엘에서 가장 큰 크레이터입니다. 크레이터로 빼곡한 이 오래된 표면은 생긴 뒤로 거의 변하지 않았습니다. 서아프리카 밤바라족 악령의 이름입니다."
+     },
+     "clip": "umbriel/pins/wokolo",
+     "dur": {
+      "ko": 13.9
      }
     }
+   },
+   "clip": "umbriel/intro",
+   "dur": {
+    "ko": 9.1
    }
   },
   "titania": {
@@ -1434,18 +2330,34 @@
     "Messina Chasmata": {
      "say": {
       "ko": "메시나 협곡입니다. 길이 약 1,500 km로 티타니아에서 가장 큰 열곡 계곡입니다. 위성 속의 물이 얼며 부피가 늘어나 껍질이 갈라진 자국으로 보입니다. 희곡 헛소동의 무대 메시나의 이름입니다."
+     },
+     "clip": "titania/pins/messina-chasmata",
+     "dur": {
+      "ko": 15.5
      }
     },
     "Gertrude": {
      "say": {
       "ko": "거트루드 크레이터입니다. 지름 약 326 km로 티타니아에서 가장 큰 크레이터이며, 보이저 2호가 찍은 구역의 가장자리에 걸쳐 있습니다. 햄릿의 어머니 거트루드의 이름입니다."
+     },
+     "clip": "titania/pins/gertrude",
+     "dur": {
+      "ko": 13.3
      }
     },
     "Ursula": {
      "say": {
       "ko": "어슐라 크레이터입니다. 지름 약 135 km로 티타니아에서 두 번째로 크며, 벨몬트 협곡이 한가운데를 가릅니다. 티타니아의 크레이터에는 셰익스피어 작품 속 여성들의 이름이 붙습니다."
+     },
+     "clip": "titania/pins/ursula",
+     "dur": {
+      "ko": 13.4
      }
     }
+   },
+   "clip": "titania/intro",
+   "dur": {
+    "ko": 12.1
    }
   },
   "oberon": {
@@ -1462,18 +2374,34 @@
     "Hamlet": {
      "say": {
       "ko": "햄릿 크레이터입니다. 지름 약 206 km로 오베론에서 가장 큰 크레이터이며, 바닥이 유난히 어둡습니다. 충돌로 드러났거나 속에서 분출된 어두운 물질로 보입니다."
+     },
+     "clip": "oberon/pins/hamlet",
+     "dur": {
+      "ko": 11.9
      }
     },
     "Othello": {
      "say": {
       "ko": "오셀로 크레이터입니다. 남반구에서 햄릿 가까이에 있는 지름 약 114 km의 크레이터로, 역시 어두운 바닥을 가졌습니다. 오베론의 크레이터에는 셰익스피어의 남성 인물 이름이 붙습니다."
+     },
+     "clip": "oberon/pins/othello",
+     "dur": {
+      "ko": 12.5
      }
     },
     "Macbeth": {
      "say": {
       "ko": "맥베스 크레이터입니다. 지름 약 203 km로 오베론에서 두 번째로 큰 크레이터입니다. 보이저 2호가 1986년 단 한 번 스쳐 지나며 찍은 남반구 영상에 담겨 있습니다."
+     },
+     "clip": "oberon/pins/macbeth",
+     "dur": {
+      "ko": 14.7
      }
     }
+   },
+   "clip": "oberon/intro",
+   "dur": {
+    "ko": 14.3
    }
   },
   "neptune": {
@@ -1485,6 +2413,10 @@
     "es": "El planeta más lejano del Sol. Sus vientos superan los 2.000 km por hora, los más rápidos del Sistema Solar. Se descubrió en 1846 por cálculo antes de verlo, y solo la Voyager 2 lo ha visitado, en 1989.",
     "pt": "O planeta mais distante do Sol. Seus ventos passam de 2.000 km por hora, os mais rápidos do Sistema Solar. Foi descoberto em 1846 por cálculo, antes de ser visto, e só a Voyager 2 o visitou, em 1989.",
     "de": "Der sonnenfernste Planet. Hier wehen Winde mit über 2.000 km pro Stunde, die schnellsten im Sonnensystem. 1846 wurde er durch Berechnung gefunden, bevor ihn jemand sah; nur Voyager 2 besuchte ihn 1989."
+   },
+   "clip": "neptune/intro",
+   "dur": {
+    "ko": 13.9
    }
   },
   "triton": {
@@ -1501,18 +2433,34 @@
     "South Polar Cap": {
      "say": {
       "ko": "남극 빙관입니다. 질소 얼음이 덮인 분홍빛 빙관으로, 보이저 2호는 1989년 여기서 검은 연기를 8 km 높이로 뿜는 질소 간헐천을 발견했습니다. 햇빛에 얼음이 승화하며 솟구치는 것입니다."
+     },
+     "clip": "triton/pins/south-polar-cap",
+     "dur": {
+      "ko": 13.4
      }
     },
     "Cantaloupe Terrain": {
      "say": {
       "ko": "칸탈루프 지형입니다. 멜론 껍질처럼 옴폭옴폭 패인 지름 30 km쯤의 자국이 이어지는 지형으로, 태양계 어디에도 비슷한 곳이 없습니다. 속의 무른 얼음이 뒤집히며 생겼다는 설이 유력합니다."
+     },
+     "clip": "triton/pins/cantaloupe-terrain",
+     "dur": {
+      "ko": 11.8
      }
     },
     "Leviathan Patera": {
      "say": {
       "ko": "리바이어던 파테라입니다. 지름 약 100 km의 함몰지로 빙화산의 칼데라로 추정되며, 트리톤에서 가장 큰 화산 지형일 가능성이 있습니다. 용암 대신 물과 암모니아, 질소 얼음을 뿜었을 것입니다."
+     },
+     "clip": "triton/pins/leviathan-patera",
+     "dur": {
+      "ko": 10.8
      }
     }
+   },
+   "clip": "triton/intro",
+   "dur": {
+    "ko": 13.1
    }
   },
   "pluto": {
@@ -1529,28 +2477,52 @@
     "Sputnik Planitia": {
      "say": {
       "ko": "스푸트니크 평원입니다. 하트의 왼쪽 엽을 이루는 폭 1,000 km의 질소 얼음 평원으로, 크레이터가 하나도 없습니다. 얼음이 대류하며 수십만 년마다 표면을 갈아 끼우기 때문입니다."
+     },
+     "clip": "pluto/pins/sputnik-planitia",
+     "dur": {
+      "ko": 12.3
      }
     },
     "Tombaugh Regio": {
      "say": {
       "ko": "톰보 지역입니다. 명왕성의 상징인 밝은 하트 모양 지역으로, 1930년 명왕성을 발견한 클라이드 톰보의 이름입니다. 그의 유골 일부가 뉴호라이즌스에 실려 이곳을 지나갔습니다."
+     },
+     "clip": "pluto/pins/tombaugh-regio",
+     "dur": {
+      "ko": 13.7
      }
     },
     "Tartarus Dorsa": {
      "say": {
       "ko": "타르타로스 능선입니다. 수백 m 높이의 날카로운 능선이 빗살처럼 늘어선 칼날 지형으로, 메탄 얼음이 햇빛에 깎이며 생겼습니다. 지구의 열대 고산에 있는 페니텐테와 닮았지만 훨씬 큽니다."
+     },
+     "clip": "pluto/pins/tartarus-dorsa",
+     "dur": {
+      "ko": 12.3
      }
     },
     "Tenzing Montes": {
      "say": {
       "ko": "텐징 산맥입니다. 스푸트니크 평원 남서쪽 가장자리에 높이 6 km까지 솟은 물 얼음 산맥으로, 영하 230도에서 얼음은 바위처럼 단단합니다. 에베레스트에 처음 오른 텐징 노르가이의 이름입니다."
+     },
+     "clip": "pluto/pins/tenzing-montes",
+     "dur": {
+      "ko": 13.2
      }
     },
     "Belton Regio": {
      "say": {
       "ko": "벨턴 지역입니다. 적도를 따라 뻗은 어두운 적갈색 지대로, 비공식적으로 크툴루라 불리던 고래 모양 지형의 일부입니다. 붉은색은 메탄이 햇빛에 변해 만들어진 톨린이라는 유기물입니다."
+     },
+     "clip": "pluto/pins/belton-regio",
+     "dur": {
+      "ko": 12.6
      }
     }
+   },
+   "clip": "pluto/intro",
+   "dur": {
+    "ko": 11.9
    }
   },
   "charon": {
@@ -1567,18 +2539,34 @@
     "Mordor Macula": {
      "say": {
       "ko": "모르도르 마쿨라입니다. 북극을 덮은 어두운 적갈색 지역으로, 명왕성에서 빠져나온 메탄이 카론의 차가운 극에 얼어붙은 뒤 햇빛에 붉게 변한 것으로 보입니다. 반지의 제왕의 어둠의 땅 이름입니다."
+     },
+     "clip": "charon/pins/mordor-macula",
+     "dur": {
+      "ko": 10.5
      }
     },
     "Serenity Chasma": {
      "say": {
       "ko": "세레니티 협곡입니다. 길이 200 km가 넘고 깊이가 수 km에 이르는 거대한 열곡으로, 카론 속의 바다가 얼며 부피가 늘어 껍질을 찢어 놓은 흔적으로 보입니다."
+     },
+     "clip": "charon/pins/serenity-chasma",
+     "dur": {
+      "ko": 12.1
      }
     },
     "Vulcan Planitia": {
      "say": {
       "ko": "벌컨 평원입니다. 명왕성을 마주 보는 남반구의 넓이 40만 제곱킬로미터 평원으로, 크레이터가 적어 비교적 젊습니다. 얼음 속 바다가 얼어 솟아올라 표면을 다시 덮은 것으로 보입니다."
+     },
+     "clip": "charon/pins/vulcan-planitia",
+     "dur": {
+      "ko": 13.4
      }
     }
+   },
+   "clip": "charon/intro",
+   "dur": {
+    "ko": 10.9
    }
   },
   "haumea": {
@@ -1590,6 +2578,10 @@
     "es": "Un planeta enano con forma de balón de rugby: 2.100 km de largo pero solo 1.100 de grosor. Gira cada 3,9 horas, el más rápido entre los cuerpos grandes del Sistema Solar, y en 2017 se le descubrió un anillo.",
     "pt": "Um planeta anão em forma de bola de rúgbi: 2.100 km de comprimento, mas só 1.100 de espessura. Gira a cada 3,9 horas, o mais rápido entre os corpos grandes do Sistema Solar, e em 2017 descobriram um anel ao seu redor.",
     "de": "Ein Zwergplanet wie ein Rugbyball: 2.100 km lang, aber nur 1.100 km dick. Er dreht sich alle 3,9 Stunden, schneller als jeder andere große Körper im Sonnensystem, und 2017 wurde ein Ring um ihn entdeckt."
+   },
+   "clip": "haumea/intro",
+   "dur": {
+    "ko": 14.7
    }
   },
   "quaoar": {
@@ -1601,6 +2593,10 @@
     "es": "Un planeta enano del cinturón de Kuiper de la mitad del tamaño de Plutón, llamado como el dios creador del pueblo tongva de California. Un anillo hallado en 2023 está mucho más lejos de lo que se creía posible.",
     "pt": "Um planeta anão do Cinturão de Kuiper com metade do tamanho de Plutão, batizado com o nome do deus criador do povo tongva da Califórnia. Um anel descoberto em 2023 fica muito além de onde se julgava possível.",
     "de": "Ein Zwergplanet im Kuipergürtel, halb so groß wie Pluto, benannt nach dem Schöpfergott der Tongva aus Südkalifornien. Ein 2023 entdeckter Ring liegt weit jenseits der Distanz, in der Ringe für möglich galten."
+   },
+   "clip": "quaoar/intro",
+   "dur": {
+    "ko": 13.1
    }
   },
   "arrokoth": {
@@ -1617,23 +2613,43 @@
     "Wenu Lobus": {
      "say": {
       "ko": "웨누 덩이입니다. 아로코스의 큰 쪽 덩어리로 폭 약 22 km에 렌즈처럼 납작합니다. 작은 조각들이 살며시 뭉쳐 생긴 흔적이 표면에 남아 있고, 이름은 마푸체어로 하늘을 뜻합니다."
+     },
+     "clip": "arrokoth/pins/wenu-lobus",
+     "dur": {
+      "ko": 13.3
      }
     },
     "Weeyo Lobus": {
      "say": {
       "ko": "위요 덩이입니다. 작은 쪽 덩어리로 폭 약 15 km에 거의 둥글며, 서아프리카 풀라르어로 하늘이라는 뜻입니다. 두 덩어리는 초속 몇 m의 느린 속도로 만나 붙었습니다."
+     },
+     "clip": "arrokoth/pins/weeyo-lobus",
+     "dur": {
+      "ko": 12.4
      }
     },
     "Akasa Collum": {
      "say": {
       "ko": "아카사 목입니다. 두 덩어리가 천천히 맞닿아 붙은 잘록한 목으로, 주변보다 밝습니다. 미세한 얼음 알갱이가 이 골짜기로 굴러 모였기 때문으로 보입니다. 벵골어로 하늘을 뜻합니다."
+     },
+     "clip": "arrokoth/pins/akasa-collum",
+     "dur": {
+      "ko": 10.5
      }
     },
     "Sky": {
      "say": {
       "ko": "스카이 크레이터입니다. 지름 약 7 km로 아로코스에서 가장 큰 크레이터이며, 위요 덩이에 있고 안쪽이 밝습니다. 이름은 영어로 하늘, 아로코스의 지명은 모두 여러 언어의 하늘입니다."
+     },
+     "clip": "arrokoth/pins/sky",
+     "dur": {
+      "ko": 10.2
      }
     }
+   },
+   "clip": "arrokoth/intro",
+   "dur": {
+    "ko": 12.9
    }
   },
   "makemake": {
@@ -1645,6 +2661,10 @@
     "es": "Un planeta enano brillante y rojizo del cinturón de Kuiper, llamado como un dios creador del pueblo rapanui de la isla de Pascua. Su superficie de hielo de metano es de las más reflectantes del Sistema Solar exterior.",
     "pt": "Um planeta anão brilhante e avermelhado do Cinturão de Kuiper, batizado com o nome de um deus criador do povo rapanui da Ilha de Páscoa. Sua superfície de gelo de metano é das mais reflexivas do Sistema Solar externo.",
     "de": "Ein heller, rötlicher Zwergplanet im Kuipergürtel, benannt nach einem Schöpfergott der Rapa Nui von der Osterinsel. Seine Oberfläche aus Methaneis gehört zu den hellsten im äußeren Sonnensystem."
+   },
+   "clip": "makemake/intro",
+   "dur": {
+    "ko": 14.3
    }
   },
   "eris": {
@@ -1656,6 +2676,10 @@
     "es": "Un lejano planeta enano más allá de Neptuno, algo más pequeño que Plutón pero más masivo. Su descubrimiento en 2005 desató el debate que degradó a Plutón. Ninguna nave lo ha visitado.",
     "pt": "Um distante planeta anão além de Netuno, um pouco menor que Plutão, mas mais massivo. Sua descoberta em 2005 iniciou o debate que rebaixou Plutão. Nenhuma sonda o visitou.",
     "de": "Ein ferner Zwergplanet jenseits von Neptun, etwas kleiner als Pluto, aber schwerer. Seine Entdeckung 2005 löste die Debatte aus, die Pluto herabstufte. Keine Sonde hat ihn je besucht."
+   },
+   "clip": "eris/intro",
+   "dur": {
+    "ko": 12.1
    }
   },
   "1i-oumuamua": {
@@ -1667,6 +2691,10 @@
     "es": "El primer objeto interestelar confirmado. Cuando el telescopio Pan-STARRS lo detectó en octubre de 2017, ya había pasado junto al Sol y se alejaba. Su nombre hawaiano significa 'mensajero que llega primero de lejos'.",
     "pt": "O primeiro objeto interestelar confirmado. Quando o Pan-STARRS o detectou em outubro de 2017, ele já havia passado pelo Sol e se afastava. Seu nome havaiano significa 'mensageiro que chega primeiro de longe'.",
     "de": "Das erste bestätigte interstellare Objekt. Als Pan-STARRS es im Oktober 2017 entdeckte, hatte es die Sonne schon passiert und entfernte sich. Sein hawaiianischer Name bedeutet „Bote aus der Ferne, der zuerst eintrifft“."
+   },
+   "clip": "1i-oumuamua/intro",
+   "dur": {
+    "ko": 13.6
    }
   },
   "2i-borisov": {
@@ -1678,6 +2706,10 @@
     "es": "El primer cometa interestelar. El aficionado Gennadiy Borisov lo descubrió el 30 de agosto de 2019 con un telescopio que construyó él mismo. Un cometa clásico, con coma y cola, muy parecido a los nuestros.",
     "pt": "O primeiro cometa interestelar. O amador Gennadiy Borisov o descobriu em 30 de agosto de 2019 com um telescópio que ele mesmo construiu. Um cometa clássico, com coma e cauda, muito parecido com os nossos.",
     "de": "Der erste interstellare Komet. Der Amateurastronom Gennadij Borissow entdeckte ihn am 30. August 2019 mit einem selbst gebauten Teleskop. Ein klassischer Komet mit Koma und Schweif, unseren sehr ähnlich."
+   },
+   "clip": "2i-borisov/intro",
+   "dur": {
+    "ko": 11.9
    }
   },
   "3i-atlas": {
@@ -1689,6 +2721,10 @@
     "es": "Solo el tercer objeto interestelar confirmado. El telescopio ATLAS de Chile lo halló el 1 de julio de 2025 y, a unos 58 km por segundo, es el visitante interestelar más rápido hasta ahora. Pasa junto al Sol y no vuelve.",
     "pt": "Apenas o terceiro objeto interestelar confirmado. O telescópio ATLAS o achou em 1º de julho de 2025 e, a cerca de 58 km por segundo, é o visitante interestelar mais rápido até agora. Passa pelo Sol e não volta.",
     "de": "Erst das dritte bestätigte interstellare Objekt. Das ATLAS-Teleskop in Chile fand es am 1. Juli 2025, und mit rund 58 km pro Sekunde ist es der bisher schnellste interstellare Besucher. Es passiert die Sonne nur einmal."
+   },
+   "clip": "3i-atlas/intro",
+   "dur": {
+    "ko": 12.5
    }
   }
  }

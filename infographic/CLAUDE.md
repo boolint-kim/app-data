@@ -6,7 +6,7 @@
 ## ★ 다음 세션 시작점
 세션은 **레포 루트(`~/server/app-data`)에서** 연다.
 1. ~~push~~ 완료(2026-10-19 `93586f9`). 앱 쪽은 **라이브러리로 결정**(사용자, 같은 날) → Android `~/AndroidStudioProjects/InfographicHub`(`com.boolint:infographic-hub:1.0.0-SNAPSHOT`, mavenLocal) 완성. 사용법은 그 레포 README, 함정은 CLAUDE.md
-2. ~~AptTradeChart 에 붙이기~~ **코드 완료**(2026-10-19, debug·release(R8) 빌드 통과, 로컬 커밋). 남은 것: **에뮬레이터 확인**(통계 메뉴 → 허브 6장 → 웹 화면·배너·공유, 첫 실행에 메뉴가 응답 즉시 생기는지) → 7.1(71) 출시
+2. ~~AptTradeChart 에 붙이기~~ **완료**(2026-10-19 코드 + 에뮬 확인: 첫 실행 응답 즉시 메뉴 생성 → 허브 6장 → 웹·공유 정상, 크래시 0). 남은 것: **7.1(71) 출시**(버전 올리기·릴리즈 노트는 사용자)
 3. 나머지 Android 10개 — AptTradeChart 의 `App.java`·`MainActivity` 변경을 본보기로(형제 OfficeTradeChart·AptRentChart 부터). 대상 앱 표의 "적용 버전" 열을 채운다
 4. **iOS 라이브러리** `~/XcodeProjects/InfographicHub`(SelfBanner iOS 로컬 pod 방식) — 같은 계약, 첫 실행 즉시 표시는 iOS 필수
 5. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정

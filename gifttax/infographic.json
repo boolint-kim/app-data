@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "_generated": "infographic/hub.json 에서 infographic/scripts/build.js 가 만든 파일 — 직접 고치지 말 것(다음 빌드에 덮인다). 끄려면 hub.json 의 enabled(전체) 또는 apps.<앱>.enabled 를 false 로 하고 다시 빌드. 이 파일을 지우면 안 된다(404 면 앱이 직전 캐시를 유지해 메뉴가 남는다)",
+  "enabled": true,
+  "cards": [
+    {
+      "id": "apt",
+      "icon": "🏢",
+      "title": "우리 동네 아파트",
+      "subtitle": "가격·거래량·전세가율·수익률",
+      "url": "https://chart.boolint.com/apt"
+    },
+    {
+      "id": "office",
+      "icon": "🏨",
+      "title": "우리 동네 오피스텔",
+      "subtitle": "가격·거래량·전세가율·수익률",
+      "url": "https://chart.boolint.com/office"
+    },
+    {
+      "id": "multi",
+      "icon": "🏘",
+      "title": "연립·다세대",
+      "subtitle": "평당가·거래량·월세 비중",
+      "url": "https://chart.boolint.com/multi"
+    },
+    {
+      "id": "right",
+      "icon": "📝",
+      "title": "분양권·입주권",
+      "subtitle": "분양권 가격·거래량",
+      "url": "https://chart.boolint.com/right"
+    },
+    {
+      "id": "single",
+      "icon": "🏠",
+      "title": "단독·다가구",
+      "subtitle": "대지 평당가·거래량·월세",
+      "url": "https://chart.boolint.com/single"
+    },
+    {
+      "id": "land",
+      "icon": "🌳",
+      "title": "토지",
+      "subtitle": "지목별 평당가·거래량",
+      "url": "https://chart.boolint.com/land"
+    },
+    {
+      "id": "building",
+      "icon": "🏬",
+      "title": "건물·공장",
+      "subtitle": "평당가·거래량·공장·창고",
+      "url": "https://chart.boolint.com/building"
+    },
+    {
+      "id": "new-high",
+      "icon": "🚀",
+      "title": "신고가",
+      "subtitle": "최고가를 경신한 거래",
+      "url": "https://chart.boolint.com/new-high"
+    },
+    {
+      "id": "cancel",
+      "icon": "🔄",
+      "title": "계약 해제",
+      "subtitle": "해제된 거래와 해제율",
+      "url": "https://chart.boolint.com/cancel"
+    }
+  ]
+}

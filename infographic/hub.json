@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "_comment": "부동산 앱 인포그래픽 메뉴의 노출 스위치 + 앱별 카드 구성(정본). 앱은 이 파일을 읽지 않는다 — `node infographic/scripts/build.js` 가 apps 의 키마다 `<앱>/infographic.json` 을 만들고 앱은 자기 폴더의 그 파일만 받는다(생성물은 직접 고치지 말 것). 전체 철수 = enabled:false → 빌드 → push. 한 앱만 끄기 = apps.<앱>.enabled:false. ★ 앱 키와 생성 파일은 지우지 말 것 — 파일이 404 가 되면 앱은 '수신 실패' 로 보고 직전 캐시를 유지해 메뉴가 남는다. schemaVersion 은 올리지 않는다(올리면 업데이트 안 한 앱 전체가 숨는다 — 그 용도로만). 카드 path 는 chart.boolint.com 뒤에 붙는 상대 경로, 확장자·#섹션·sido·sgg 금지(sido 는 앱 항목에, sgg 는 앱이 붙인다). 카드 정의·섹션·파라미터 계약의 정본은 trade-infographic 이고 여기는 '어느 앱에 무엇을' 만 정한다. 규칙 전체는 infographic/CLAUDE.md. dev 환경이 없다 — push 전 `node infographic/scripts/build.js --check`.",
+  "enabled": true,
+  "base": "https://chart.boolint.com/",
+  "cards": {
+    "apt":            { "icon": "🏢", "title": "우리 동네 아파트",   "subtitle": "가격·거래량·전세가율·수익률", "path": "apt" },
+    "office":         { "icon": "🏨", "title": "우리 동네 오피스텔", "subtitle": "가격·거래량·전세가율·수익률", "path": "office" },
+    "multi":          { "icon": "🏘", "title": "연립·다세대",        "subtitle": "평당가·거래량·월세 비중",      "path": "multi" },
+    "right":          { "icon": "📝", "title": "분양권·입주권",      "subtitle": "분양권 가격·거래량",            "path": "right" },
+    "single":         { "icon": "🏠", "title": "단독·다가구",        "subtitle": "대지 평당가·거래량·월세",       "path": "single" },
+    "land":           { "icon": "🌳", "title": "토지",               "subtitle": "지목별 평당가·거래량",          "path": "land" },
+    "building":       { "icon": "🏬", "title": "건물·공장",          "subtitle": "평당가·거래량·공장·창고",       "path": "building" },
+    "ranking-apt":    { "icon": "💰", "title": "평당가 랭킹",        "subtitle": "단지별 단위면적당 가격",        "path": "ranking?type=apt" },
+    "ranking-office": { "icon": "💰", "title": "오피스텔 랭킹",      "subtitle": "단지별 단위면적당 가격",        "path": "ranking?type=office" },
+    "today":          { "icon": "🆕", "title": "오늘 올라온 거래",   "subtitle": "새로 신고된 실거래",            "path": "today" },
+    "new-high":       { "icon": "🚀", "title": "신고가",             "subtitle": "최고가를 경신한 거래",          "path": "new-high" },
+    "hotspot":        { "icon": "🔥", "title": "거래 급증",          "subtitle": "거래가 몰리는 지역",            "path": "hotspot" },
+    "cancel":         { "icon": "🔄", "title": "계약 해제",          "subtitle": "해제된 거래와 해제율",          "path": "cancel" }
+  },
+  "apps": {
+    "apttradechart":    { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right"] },
+    "aptrentchart":     { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right"],
+                          "_comment": "출발점 — 전월세 앱이라 today(전세·월세 탭)·apt(전세가율·월세 섹션) 위주로 조정 가능" },
+    "officetradechart": { "cards": ["office", "ranking-office", "today", "new-high"] },
+    "transtax":         { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "acqtax":           { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "gifttax":          { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "realestatecal":    { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "propertytax":      { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "junsewolse":       { "cards": ["apt", "office", "multi", "single", "today", "ranking-apt"],
+                          "_comment": "출발점 — 임대 계산기라 전세·월세 섹션이 있는 물건 페이지 + 오늘 거래(전세·월세 탭)" },
+    "seoullife":        { "sido": "11", "cards": ["apt", "right", "new-high", "today"] },
+    "busanlife":        { "sido": "26", "cards": ["apt", "right", "new-high", "today"] }
+  }
+}

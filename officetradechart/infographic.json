@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "_generated": "infographic/hub.json 에서 infographic/scripts/build.js 가 만든 파일 — 직접 고치지 말 것(다음 빌드에 덮인다). 끄려면 hub.json 의 enabled(전체) 또는 apps.<앱>.enabled 를 false 로 하고 다시 빌드. 이 파일을 지우면 안 된다(404 면 앱이 직전 캐시를 유지해 메뉴가 남는다)",
+  "enabled": true,
+  "cards": [
+    {
+      "id": "office",
+      "icon": "🏨",
+      "title": "우리 동네 오피스텔",
+      "subtitle": "가격·거래량·전세가율·수익률",
+      "url": "https://chart.boolint.com/office"
+    },
+    {
+      "id": "ranking-office",
+      "icon": "💰",
+      "title": "오피스텔 랭킹",
+      "subtitle": "단지별 단위면적당 가격",
+      "url": "https://chart.boolint.com/ranking?type=office"
+    },
+    {
+      "id": "today",
+      "icon": "🆕",
+      "title": "오늘 올라온 거래",
+      "subtitle": "새로 신고된 실거래",
+      "url": "https://chart.boolint.com/today"
+    },
+    {
+      "id": "new-high",
+      "icon": "🚀",
+      "title": "신고가",
+      "subtitle": "최고가를 경신한 거래",
+      "url": "https://chart.boolint.com/new-high"
+    }
+  ]
+}

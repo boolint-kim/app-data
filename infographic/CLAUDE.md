@@ -7,7 +7,7 @@
 세션은 **레포 루트(`~/server/app-data`)에서** 연다.
 1. ~~push~~ 완료(2026-10-19 `93586f9`). 앱 쪽은 **라이브러리로 결정**(사용자, 같은 날) → Android `~/AndroidStudioProjects/InfographicHub`(`com.boolint:infographic-hub:1.0.0-SNAPSHOT`, mavenLocal) 완성. 사용법은 그 레포 README, 함정은 CLAUDE.md
 2. ~~AptTradeChart 에 붙이기~~ **완료**(2026-10-19 코드 + 에뮬 확인: 첫 실행 응답 즉시 메뉴 생성 → 허브 6장 → 웹·공유 정상, 크래시 0). 남은 것: **7.1(71) 출시**(버전 올리기·릴리즈 노트는 사용자)
-3. ~~형제 OfficeTradeChart·AptRentChart~~ **완료**(2026-10-19 로컬 커밋, 빌드 통과, 기기 미확인). 나머지 Android 8개(세금 5 · 재개발 2 · 전월세) — AptTradeChart 의 `App.java`·`MainActivity` 를 본보기로. SelfBanner 를 안 쓰는 앱은 AptRentChart 처럼 웹 화면 광고 null + 테마 오버라이드 불필요. 대상 앱 표의 "적용 버전" 열을 채운다
+3. ~~형제 OfficeTradeChart·AptRentChart~~ **완료**(2026-10-19 로컬 커밋 + 에뮬 확인: 게이트 즉시 반영·허브 4장/6장·웹·공유 정상, 크래시 0). 나머지 Android 8개(세금 5 · 재개발 2 · 전월세) — AptTradeChart 의 `App.java`·`MainActivity` 를 본보기로. SelfBanner 를 안 쓰는 앱은 AptRentChart 처럼 웹 화면 광고 null + 테마 오버라이드 불필요. 대상 앱 표의 "적용 버전" 열을 채운다
 4. **iOS 라이브러리** `~/XcodeProjects/InfographicHub`(SelfBanner iOS 로컬 pod 방식) — 같은 계약, 첫 실행 즉시 표시는 iOS 필수
 5. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정
 
@@ -84,7 +84,7 @@ remote-config 스킬의 채널 표는 "운영 스위치 = boolint-notice" 라고
 | 앱 키 | 앱 | Android | iOS | 허브 코드 현황 | 게이트 적용 버전(A / i) |
 |---|---|---|---|---|---|
 | `apttradechart` | AptTradeChart | ✓ | — | **라이브러리로 교체 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 7.0 은 옛 주소 하드코딩) | A 7.1(71) 예정 / — |
-| `officetradechart` | OfficeTradeChart | ✓ | — | **라이브러리로 교체 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 3.1 은 옛 주소 하드코딩) | A 3.2(32) 예정 / — |
+| `officetradechart` | OfficeTradeChart | ✓ | — | **라이브러리로 교체 + 에뮬 확인 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 3.1 은 옛 주소 하드코딩) | A 3.2(32) 예정 / — |
 | `transtax` | TransTax 양도세 | ✓ | ✓ | 출시본 옛 주소 하드코딩(A+i) | 미적용 |
 | `acqtax` | AcqTax 취득세 | ✓ | ✓ | 없음 | 미적용 |
 | `gifttax` | GiftTax 증여세 | ✓ | ✓ | 없음 | 미적용 |
@@ -93,7 +93,7 @@ remote-config 스킬의 채널 표는 "운영 스위치 = boolint-notice" 라고
 | `junsewolse` | JunseWolse 전월세 | ✓ | ✓ | 없음. app-data 수신 본보기 `helper/ContractLinks.java` / iOS `Core/ContractLinks.swift` | 미적용 |
 | `seoullife` | SeoulLife 서울 재개발 | ✓ | ✓ | 없음. `sido=11` | 미적용 |
 | `busanlife` | BusanLife 부산 재개발 | ✓ | ✓ | 없음. `sido=26` | 미적용 |
-| `aptrentchart` | AptRentChart | ✓ | — | **라이브러리 신규 설치 완료**(2026-10-19 로컬 커밋, 미출시. 웹 화면 광고 없음 — SelfBanner 미사용 앱) | A 2.5(25) 예정 / — |
+| `aptrentchart` | AptRentChart | ✓ | — | **라이브러리 신규 설치 + 에뮬 확인 완료**(2026-10-19 로컬 커밋, 미출시. 웹 화면 광고 없음 — SelfBanner 미사용 앱) | A 2.5(25) 예정 / — |
 
 - "적용 버전" = 그 버전부터 JSON 게이트를 읽는다. **그 미만 버전은 철수해도 메뉴가 남는다** — 철수 절차 1번의 근거
 - SelfBanner `v2.json` `apps` 에 11개 키 전부 있음(2026-10-19 확인)

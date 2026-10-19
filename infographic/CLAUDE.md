@@ -1,14 +1,14 @@
 # infographic — 부동산 앱의 인포그래픽 메뉴 (노출 스위치 + 앱별 카드 구성)
 
 > 2026-10-19 trade-infographic 세션에서 결정하고 이 폴더를 만들었다. 같은 날 설계 확정 — **정본 `hub.json` 하나 + 생성물 `<앱>/infographic.json`**(C 방식, 사용자 결정).
-> `hub.json`·`scripts/build.js`·생성물 11개 있음. **앱 코드는 아직 없다**(게이트를 읽는 앱 0개).
+> `hub.json`·`scripts/build.js`·생성물 11개 **push 완료(2026-10-19, 라이브 200 확인)**. Android 라이브러리 `~/AndroidStudioProjects/InfographicHub` 생성(같은 날, mavenLocal 배포됨). **게이트를 읽는 출시 앱은 아직 0개.**
 
 ## ★ 다음 세션 시작점
 세션은 **레포 루트(`~/server/app-data`)에서** 연다.
-1. **push** — 2026-10-19 작업분(이 폴더 + 생성물 11개 + README·CLAUDE.md)은 **아직 커밋·push 전**. 사용자 확인 후 `node infographic/scripts/build.js --check` → 커밋 → push
-2. **앱 쪽 방식 결정(사용자)** — 게이트(수신·캐시·검증·getter) + 허브 화면 + WebView 를 **라이브러리**(`com.boolint:infographic-hub` mavenLocal / iOS 로컬 pod, SelfBanner·TradeHeatmap 과 같은 방식)로 만들지, 앱마다 복사할지. 2026-10-19 보고서의 추천은 라이브러리(복사하면 검증 규칙이 Android 11 + iOS 8 벌이 되어 어긋난다)
-3. **참고 구현 하나(Android 먼저)** — AptTradeChart(허브 코드 `28596f1` 이 있고 미출시라 바꾸기 쉽다). 아래 "앱 쪽 계약" 대로 `buildItems()` 를 JSON 수신으로 교체
-4. 나머지 앱 → 대상 앱 표의 "적용 버전" 열을 채운다
+1. ~~push~~ 완료(2026-10-19 `93586f9`). 앱 쪽은 **라이브러리로 결정**(사용자, 같은 날) → Android `~/AndroidStudioProjects/InfographicHub`(`com.boolint:infographic-hub:1.0.0-SNAPSHOT`, mavenLocal) 완성. 사용법은 그 레포 README, 함정은 CLAUDE.md
+2. **AptTradeChart 에 붙이기(첫 호스트)** — 앱의 `InfographicHubActivity`·`InfographicWebActivity`·`infographic/` 패키지·레이아웃 3·메뉴를 지우고 라이브러리로 교체. `action_stats` 가시성 = `InfographicHub.isAvailable()`, 열기 = `InfographicHub.open(this, pickHomeSgg(codes))`, 광고는 `AdProvider`(허브 AdMob · 웹 SelfBanner). 기기 확인은 에뮬레이터(사전 승낙)
+3. 나머지 Android 10개 → 대상 앱 표의 "적용 버전" 열을 채운다
+4. **iOS 라이브러리** `~/XcodeProjects/InfographicHub`(SelfBanner iOS 로컬 pod 방식) — 같은 계약, 첫 실행 즉시 표시는 iOS 필수
 5. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정
 
 ## 구조

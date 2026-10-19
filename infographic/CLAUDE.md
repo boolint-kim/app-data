@@ -3,13 +3,18 @@
 > 2026-10-19 trade-infographic 세션에서 결정하고 이 폴더를 만들었다. 같은 날 설계 확정 — **정본 `hub.json` 하나 + 생성물 `<앱>/infographic.json`**(C 방식, 사용자 결정).
 > `hub.json`·`scripts/build.js`·생성물 11개 **push 완료(2026-10-19, 라이브 200 확인)**. Android 라이브러리 `~/AndroidStudioProjects/InfographicHub` 생성(같은 날, mavenLocal 배포됨). **게이트를 읽는 출시 앱은 아직 0개.**
 
-## ★ 다음 세션 시작점
-세션은 **레포 루트(`~/server/app-data`)에서** 연다.
-1. ~~push~~ 완료(2026-10-19 `93586f9`). 앱 쪽은 **라이브러리로 결정**(사용자, 같은 날) → Android `~/AndroidStudioProjects/InfographicHub`(`com.boolint:infographic-hub:1.0.0-SNAPSHOT`, mavenLocal) 완성. 사용법은 그 레포 README, 함정은 CLAUDE.md
-2. ~~AptTradeChart 에 붙이기~~ **완료**(2026-10-19 코드 + 에뮬 확인: 첫 실행 응답 즉시 메뉴 생성 → 허브 6장 → 웹·공유 정상, 크래시 0). 남은 것: **7.1(71) 출시**(버전 올리기·릴리즈 노트는 사용자)
-3. ~~형제 OfficeTradeChart·AptRentChart~~ **완료**(2026-10-19 로컬 커밋 + 에뮬 확인: 게이트 즉시 반영·허브 4장/6장·웹·공유 정상, 크래시 0). 나머지 Android 8개(세금 5 · 재개발 2 · 전월세) — AptTradeChart 의 `App.java`·`MainActivity` 를 본보기로. SelfBanner 를 안 쓰는 앱은 AptRentChart 처럼 웹 화면 광고 null + 테마 오버라이드 불필요. 대상 앱 표의 "적용 버전" 열을 채운다
-4. ~~iOS 라이브러리~~ **완료**(2026-10-19 `~/XcodeProjects/InfographicHub`, 로컬 pod, 로직 대조 31건 = Android HubConfigTest). 첫 호스트 TransTax iOS 완료. 나머지 iOS 7개(AcqTax·GiftTax·RealEstateCal·PropertyTax·JunseWolse·SeoulLife·BusanLife)는 TransTax iOS 의 `AppDelegate`·`InfographicAds.swift`·버튼 가시성 세 군데를 복사
-5. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정
+## ★ 다음 세션 시작점 (2026-10-19 저녁 기준)
+세션은 **레포 루트(`~/server/app-data`)에서** 연다. 서버·라이브러리·첫 호스트 4개까지 끝났다. 이 폴더는 **카드 조정과 철수 스위치**만 남았고, 나머지는 앱 쪽 일이다.
+
+**완료**: `hub.json`·`build.js`·생성물 push / Android 라이브러리 `~/AndroidStudioProjects/InfographicHub` / iOS 라이브러리 `~/XcodeProjects/InfographicHub`(로컬 pod) /
+호스트 적용 + 기기 확인: **AptTradeChart · OfficeTradeChart · AptRentChart · TransTax(A+i)** — 전부 로컬 커밋, **미출시**
+
+1. **출시(사용자)** — AptTradeChart 7.1(71) · OfficeTradeChart 3.2(32) · AptRentChart 2.5(25, 버전 올림은 사용자 미커밋 상태) · TransTax A 7.0(70) / i 다음 버전. 출시 뒤 아래 표의 "적용 버전" 열을 확정값으로
+2. **나머지 호스트** — Android 7(acqtax·gifttax·realestatecal·propertytax·junsewolse·seoullife·busanlife) · iOS 7(같은 앱).
+   본보기: SelfBanner 쓰는 앱 → AptTradeChart(`App.java`·`MainActivity`·매니페스트 테마 오버라이드), 안 쓰는 앱 → AptRentChart(웹 광고 null·테마 불필요), 진입이 메뉴가 아닌 버튼 → TransTax.
+   iOS → TransTax iOS 의 `AppDelegate`·`Helper/InfographicAds.swift`·버튼 가시성 세 군데. 각 앱 Podfile `platform` 15.0 이상
+3. **미결(사용자 답 대기)** — ① 첫 실행 수신 실패 시 **빈 캐시일 때만 재시도**(10초·60초) 넣을지(라이브러리 20줄, 앱 변경 없음). 에뮬 DNS 지연에서만 재현됐고 실사용자는 드물다 ② AptRentChart 툴바의 통계 아이콘과 기간 아이콘이 비슷하다 — 기간을 달력 아이콘으로 바꿀지
+4. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정. `heatmap` 카드는 transtax 에만 있다(다른 앱에 주려면 `cards` 에 id 추가)
 
 ## 구조
 ```

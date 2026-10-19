@@ -55,6 +55,8 @@ node infographic/scripts/build.js --preview seoullife
 
 **생성물 `<앱>/infographic.json`**: `{schemaVersion:1, _generated, enabled, cards:[{id, icon, title, subtitle, url}]}`. 앱은 `_generated`·`id` 를 무시해도 된다.
 
+- **히트맵 카드** `heatmap?type=apt-deal`(type: apt-deal·apt-rent·office-deal·office-rent·multi-deal·multi-rent) — **전용 라이브러리 없이 웹 화면이 그대로 연다**(네이버 지도·필터·범례 포함, 양 플랫폼 확인 2026-10-19). 단지 클릭·팝업 브리지는 없다. TradeHeatmap(Android 차트 앱용 네이티브 하이브리드)과는 별개. 2026-10-19 transtax 에 먼저
+
 ## 앱 쪽 계약 (Android·iOS 공통 — 라이브러리든 복사든 이대로)
 - 수신: `https://app-data.pages.dev/<앱>/infographic.json`, 앱 시작 시 1회, 타임아웃 5초, `Cache-Control: no-cache`. CDN 은 `max-age=0, must-revalidate` 라 스위치가 다음 요청에 반영된다
 - **신뢰하는 응답 = HTTP 200 + JSON 파싱 성공 + `schemaVersion == 1`.** 그 밖(네트워크 실패·4xx·5xx·파싱 실패·버전 불일치)은 **캐시를 건드리지 않는다**
@@ -85,7 +87,7 @@ remote-config 스킬의 채널 표는 "운영 스위치 = boolint-notice" 라고
 |---|---|---|---|---|---|
 | `apttradechart` | AptTradeChart | ✓ | — | **라이브러리로 교체 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 7.0 은 옛 주소 하드코딩) | A 7.1(71) 예정 / — |
 | `officetradechart` | OfficeTradeChart | ✓ | — | **라이브러리로 교체 + 에뮬 확인 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 3.1 은 옛 주소 하드코딩) | A 3.2(32) 예정 / — |
-| `transtax` | TransTax 양도세 | ✓ | ✓ | **양쪽 라이브러리로 교체 완료**(2026-10-19 로컬 커밋, 빌드 통과, 기기 미확인. 출시본 A 6.9·i 는 옛 주소 하드코딩) | A 7.0(70) 예정 / i 다음 버전 예정 |
+| `transtax` | TransTax 양도세 | ✓ | ✓ | **양쪽 라이브러리로 교체 + 에뮬·시뮬 확인 완료**(2026-10-19. 카드 10장 = 세금 9 + `heatmap`. 출시본 A 6.9·i 는 옛 주소 하드코딩) | A 7.0(70) 예정 / i 다음 버전 예정 |
 | `acqtax` | AcqTax 취득세 | ✓ | ✓ | 없음 | 미적용 |
 | `gifttax` | GiftTax 증여세 | ✓ | ✓ | 없음 | 미적용 |
 | `realestatecal` | RealEstateCal 중개보수 | ✓ | ✓ | 없음 | 미적용 |

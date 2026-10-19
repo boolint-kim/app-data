@@ -6,8 +6,8 @@
 ## ★ 다음 세션 시작점
 세션은 **레포 루트(`~/server/app-data`)에서** 연다.
 1. ~~push~~ 완료(2026-10-19 `93586f9`). 앱 쪽은 **라이브러리로 결정**(사용자, 같은 날) → Android `~/AndroidStudioProjects/InfographicHub`(`com.boolint:infographic-hub:1.0.0-SNAPSHOT`, mavenLocal) 완성. 사용법은 그 레포 README, 함정은 CLAUDE.md
-2. **AptTradeChart 에 붙이기(첫 호스트)** — 앱의 `InfographicHubActivity`·`InfographicWebActivity`·`infographic/` 패키지·레이아웃 3·메뉴를 지우고 라이브러리로 교체. `action_stats` 가시성 = `InfographicHub.isAvailable()`, 열기 = `InfographicHub.open(this, pickHomeSgg(codes))`, 광고는 `AdProvider`(허브 AdMob · 웹 SelfBanner). 기기 확인은 에뮬레이터(사전 승낙)
-3. 나머지 Android 10개 → 대상 앱 표의 "적용 버전" 열을 채운다
+2. ~~AptTradeChart 에 붙이기~~ **코드 완료**(2026-10-19, debug·release(R8) 빌드 통과, 로컬 커밋). 남은 것: **에뮬레이터 확인**(통계 메뉴 → 허브 6장 → 웹 화면·배너·공유, 첫 실행에 메뉴가 응답 즉시 생기는지) → 7.1(71) 출시
+3. 나머지 Android 10개 — AptTradeChart 의 `App.java`·`MainActivity` 변경을 본보기로(형제 OfficeTradeChart·AptRentChart 부터). 대상 앱 표의 "적용 버전" 열을 채운다
 4. **iOS 라이브러리** `~/XcodeProjects/InfographicHub`(SelfBanner iOS 로컬 pod 방식) — 같은 계약, 첫 실행 즉시 표시는 iOS 필수
 5. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정
 
@@ -83,7 +83,7 @@ remote-config 스킬의 채널 표는 "운영 스위치 = boolint-notice" 라고
 ## 대상 앱 (2026-10-19 실물 확인) — 카드 구성은 `hub.json` 이 정본, 여기는 현황
 | 앱 키 | 앱 | Android | iOS | 허브 코드 현황 | 게이트 적용 버전(A / i) |
 |---|---|---|---|---|---|
-| `apttradechart` | AptTradeChart | ✓ | — | 새 주소·물건 카드 `28596f1` **미출시** (출시본은 옛 주소 하드코딩) | 미적용 |
+| `apttradechart` | AptTradeChart | ✓ | — | **라이브러리로 교체 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 7.0 은 옛 주소 하드코딩) | A 7.1(71) 예정 / — |
 | `officetradechart` | OfficeTradeChart | ✓ | — | 출시본 옛 주소 하드코딩 | 미적용 |
 | `transtax` | TransTax 양도세 | ✓ | ✓ | 출시본 옛 주소 하드코딩(A+i) | 미적용 |
 | `acqtax` | AcqTax 취득세 | ✓ | ✓ | 없음 | 미적용 |

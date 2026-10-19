@@ -8,7 +8,7 @@
 1. ~~push~~ 완료(2026-10-19 `93586f9`). 앱 쪽은 **라이브러리로 결정**(사용자, 같은 날) → Android `~/AndroidStudioProjects/InfographicHub`(`com.boolint:infographic-hub:1.0.0-SNAPSHOT`, mavenLocal) 완성. 사용법은 그 레포 README, 함정은 CLAUDE.md
 2. ~~AptTradeChart 에 붙이기~~ **완료**(2026-10-19 코드 + 에뮬 확인: 첫 실행 응답 즉시 메뉴 생성 → 허브 6장 → 웹·공유 정상, 크래시 0). 남은 것: **7.1(71) 출시**(버전 올리기·릴리즈 노트는 사용자)
 3. ~~형제 OfficeTradeChart·AptRentChart~~ **완료**(2026-10-19 로컬 커밋 + 에뮬 확인: 게이트 즉시 반영·허브 4장/6장·웹·공유 정상, 크래시 0). 나머지 Android 8개(세금 5 · 재개발 2 · 전월세) — AptTradeChart 의 `App.java`·`MainActivity` 를 본보기로. SelfBanner 를 안 쓰는 앱은 AptRentChart 처럼 웹 화면 광고 null + 테마 오버라이드 불필요. 대상 앱 표의 "적용 버전" 열을 채운다
-4. **iOS 라이브러리** `~/XcodeProjects/InfographicHub`(SelfBanner iOS 로컬 pod 방식) — 같은 계약, 첫 실행 즉시 표시는 iOS 필수
+4. ~~iOS 라이브러리~~ **완료**(2026-10-19 `~/XcodeProjects/InfographicHub`, 로컬 pod, 로직 대조 31건 = Android HubConfigTest). 첫 호스트 TransTax iOS 완료. 나머지 iOS 7개(AcqTax·GiftTax·RealEstateCal·PropertyTax·JunseWolse·SeoulLife·BusanLife)는 TransTax iOS 의 `AppDelegate`·`InfographicAds.swift`·버튼 가시성 세 군데를 복사
 5. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정
 
 ## 구조
@@ -85,7 +85,7 @@ remote-config 스킬의 채널 표는 "운영 스위치 = boolint-notice" 라고
 |---|---|---|---|---|---|
 | `apttradechart` | AptTradeChart | ✓ | — | **라이브러리로 교체 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 7.0 은 옛 주소 하드코딩) | A 7.1(71) 예정 / — |
 | `officetradechart` | OfficeTradeChart | ✓ | — | **라이브러리로 교체 + 에뮬 확인 완료**(2026-10-19 로컬 커밋, 미출시. 출시본 3.1 은 옛 주소 하드코딩) | A 3.2(32) 예정 / — |
-| `transtax` | TransTax 양도세 | ✓ | ✓ | 출시본 옛 주소 하드코딩(A+i) | 미적용 |
+| `transtax` | TransTax 양도세 | ✓ | ✓ | **양쪽 라이브러리로 교체 완료**(2026-10-19 로컬 커밋, 빌드 통과, 기기 미확인. 출시본 A 6.9·i 는 옛 주소 하드코딩) | A 7.0(70) 예정 / i 다음 버전 예정 |
 | `acqtax` | AcqTax 취득세 | ✓ | ✓ | 없음 | 미적용 |
 | `gifttax` | GiftTax 증여세 | ✓ | ✓ | 없음 | 미적용 |
 | `realestatecal` | RealEstateCal 중개보수 | ✓ | ✓ | 없음 | 미적용 |
@@ -103,6 +103,7 @@ remote-config 스킬의 채널 표는 "운영 스위치 = boolint-notice" 라고
 |---|---|
 | 페이지·섹션·`?sido=&sgg=`·IS_APP·브리지 계약 | trade-infographic `CLAUDE.md`, trade-collector `docs/infographic-redesign/06-app-hub.md` §1~§4 |
 | 어느 앱에 무엇을·노출 스위치 | **이 폴더** (`hub.json`) |
+| 앱 쪽 구현(계약을 코드로) | Android `~/AndroidStudioProjects/InfographicHub` · iOS `~/XcodeProjects/InfographicHub`(로컬 pod) — 각 CLAUDE.md |
 | 앱 설치 절차 | 06 §7 — 카드는 하드코딩 대신 이 폴더의 생성물을 받는다(2026-10-19 반영) |
 | 채널 예외 | `~/.claude/skills/remote-config/SKILL.md` "어디에 둘까" (2026-10-19 기재) |
 | 각 앱 CLAUDE.md | 허브를 넣을 때 "인포그래픽 메뉴 → app-data/infographic" 한 줄 (앱 작업 때) |

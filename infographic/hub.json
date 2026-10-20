@@ -17,13 +17,15 @@
     "new-high":       { "icon": "🚀", "title": "신고가",             "subtitle": "최고가를 경신한 거래",          "path": "new-high" },
     "hotspot":        { "icon": "🔥", "title": "거래 급증",          "subtitle": "거래가 몰리는 지역",            "path": "hotspot" },
     "cancel":         { "icon": "🔄", "title": "계약 해제",          "subtitle": "해제된 거래와 해제율",          "path": "cancel" },
-    "heatmap":        { "icon": "🗺️", "title": "실거래 히트맵",      "subtitle": "지도에서 보는 평당가·전월세",   "path": "heatmap?type=apt-deal" }
+    "heatmap":        { "icon": "🗺️", "title": "실거래 히트맵",      "subtitle": "지도에서 보는 평당가·전월세",   "path": "heatmap?type=apt-deal" },
+    "heatmap-rent":   { "icon": "🗺️", "title": "전월세 히트맵",      "subtitle": "지도에서 보는 전월세 평당가",   "path": "heatmap?type=apt-rent" },
+    "heatmap-office": { "icon": "🗺️", "title": "오피스텔 히트맵",    "subtitle": "지도에서 보는 오피스텔 평당가", "path": "heatmap?type=office-deal" }
   },
   "apps": {
-    "apttradechart":    { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right"] },
-    "aptrentchart":     { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right"],
+    "apttradechart":    { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right", "heatmap"] },
+    "aptrentchart":     { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right", "heatmap-rent"],
                           "_comment": "출발점 — 전월세 앱이라 today(전세·월세 탭)·apt(전세가율·월세 섹션) 위주로 조정 가능" },
-    "officetradechart": { "cards": ["office", "ranking-office", "today", "new-high"] },
+    "officetradechart": { "cards": ["office", "ranking-office", "today", "new-high", "heatmap-office"] },
     "transtax":         { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel", "heatmap"],
                           "_comment": "heatmap 은 2026-10-19 양도세 앱에 먼저(iOS 포함). 지도 페이지 — 히트맵 전용 라이브러리(TradeHeatmap, Android 차트 앱용) 없이 웹 화면이 그대로 연다" },
     "acqtax":           { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },

@@ -14,7 +14,7 @@
    본보기: SelfBanner 쓰는 앱 → AptTradeChart(`App.java`·`MainActivity`·매니페스트 테마 오버라이드), 안 쓰는 앱 → AptRentChart(웹 광고 null·테마 불필요), 진입이 메뉴가 아닌 버튼 → TransTax.
    iOS → TransTax iOS 의 `AppDelegate`·`Helper/InfographicAds.swift`·버튼 가시성 세 군데. 각 앱 Podfile `platform` 15.0 이상
 3. **미결(사용자 답 대기)** — ① 첫 실행 수신 실패 시 **빈 캐시일 때만 재시도**(10초·60초) 넣을지(라이브러리 20줄, 앱 변경 없음). 에뮬 DNS 지연에서만 재현됐고 실사용자는 드물다 ② AptRentChart 툴바의 통계 아이콘과 기간 아이콘이 비슷하다 — 기간을 달력 아이콘으로 바꿀지
-4. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정. `heatmap` 카드는 transtax 에만 있다(다른 앱에 주려면 `cards` 에 id 추가)
+4. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정. 히트맵 카드: transtax·apttradechart `heatmap`(apt-deal) / aptrentchart `heatmap-rent`(apt-rent) / officetradechart `heatmap-office`(office-deal) — 2026-10-20 차트 앱 3개에 추가
 
 ## 구조
 ```
@@ -60,7 +60,7 @@ node infographic/scripts/build.js --preview seoullife
 
 **생성물 `<앱>/infographic.json`**: `{schemaVersion:1, _generated, enabled, cards:[{id, icon, title, subtitle, url}]}`. 앱은 `_generated`·`id` 를 무시해도 된다.
 
-- **히트맵 카드** `heatmap?type=apt-deal`(type: apt-deal·apt-rent·office-deal·office-rent·multi-deal·multi-rent) — **전용 라이브러리 없이 웹 화면이 그대로 연다**(네이버 지도·필터·범례 포함, 양 플랫폼 확인 2026-10-19). 단지 클릭·팝업 브리지는 없다. TradeHeatmap(Android 차트 앱용 네이티브 하이브리드)과는 별개. 2026-10-19 transtax 에 먼저
+- **히트맵 카드** `heatmap?type=apt-deal`(type: apt-deal·apt-rent·office-deal·office-rent·multi-deal·multi-rent) — **전용 라이브러리 없이 웹 화면이 그대로 연다**(네이버 지도·필터·범례 포함, 양 플랫폼 확인 2026-10-19). 단지 클릭·팝업 브리지는 없다. TradeHeatmap(Android 차트 앱용 네이티브 하이브리드)과는 별개. 2026-10-19 transtax 에 먼저, 2026-10-20 차트 앱 3개(카드 `heatmap-rent`·`heatmap-office` 추가 — 앱 성격에 맞는 type 으로 연다)
 
 ## 앱 쪽 계약 (Android·iOS 공통 — 라이브러리든 복사든 이대로)
 - 수신: `https://app-data.pages.dev/<앱>/infographic.json`, 앱 시작 시 1회, 타임아웃 5초, `Cache-Control: no-cache`. CDN 은 `max-age=0, must-revalidate` 라 스위치가 다음 요청에 반영된다

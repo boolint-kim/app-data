@@ -30,6 +30,13 @@
       "title": "신고가",
       "subtitle": "최고가를 경신한 거래",
       "url": "https://chart.boolint.com/new-high"
+    },
+    {
+      "id": "heatmap-office",
+      "icon": "🗺️",
+      "title": "오피스텔 히트맵",
+      "subtitle": "지도에서 보는 오피스텔 평당가",
+      "url": "https://chart.boolint.com/heatmap?type=office-deal"
     }
   ]
 }

@@ -44,6 +44,13 @@
       "title": "분양권·입주권",
       "subtitle": "분양권 가격·거래량",
       "url": "https://chart.boolint.com/right"
+    },
+    {
+      "id": "heatmap",
+      "icon": "🗺️",
+      "title": "실거래 히트맵",
+      "subtitle": "지도에서 보는 평당가·전월세",
+      "url": "https://chart.boolint.com/heatmap?type=apt-deal"
     }
   ]
 }

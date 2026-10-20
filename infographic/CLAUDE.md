@@ -13,7 +13,7 @@
 2. **나머지 호스트** — Android 7(acqtax·gifttax·realestatecal·propertytax·junsewolse·seoullife·busanlife) · iOS 7(같은 앱).
    본보기: SelfBanner 쓰는 앱 → AptTradeChart(`App.java`·`MainActivity`·매니페스트 테마 오버라이드), 안 쓰는 앱 → AptRentChart(웹 광고 null·테마 불필요), 진입이 메뉴가 아닌 버튼 → TransTax.
    iOS → TransTax iOS 의 `AppDelegate`·`Helper/InfographicAds.swift`·버튼 가시성 세 군데. 각 앱 Podfile `platform` 15.0 이상
-3. **미결(사용자 답 대기)** — ① 첫 실행 수신 실패 시 **빈 캐시일 때만 재시도**(10초·60초) 넣을지(라이브러리 20줄, 앱 변경 없음). 에뮬 DNS 지연에서만 재현됐고 실사용자는 드물다 ② AptRentChart 툴바의 통계 아이콘과 기간 아이콘이 비슷하다 — 기간을 달력 아이콘으로 바꿀지
+3. **미결(사용자 답 대기)** — ① 첫 실행 수신 실패 시 **빈 캐시일 때만 재시도**(10초·60초) 넣을지(라이브러리 20줄, 앱 변경 없음). 에뮬 DNS 지연에서만 재현됐고 실사용자는 드물다. (② AptRentChart 기간 아이콘은 2026-10-20 달력으로 교체 완료 `bb4e24d`)
 4. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정. 히트맵 카드: transtax·apttradechart `heatmap`(apt-deal) / aptrentchart `heatmap-rent`(apt-rent) / officetradechart `heatmap-office`(office-deal) — 2026-10-20 차트 앱 3개에 추가
 
 ## 구조

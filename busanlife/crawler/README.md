@@ -16,26 +16,16 @@ BusanLife(부산 재개발) 앱은 이 파일을 폴링해 **관심(★) 등록�
   앱 `BusanMaintainOpenApiHelper.java`의 필터와 동일. 안 거르면 알림이 오염됨.
 - `해제`/`조합해산` 은 앱이 "종료" 문구로 별도 처리(순서값 판단 금지).
 
-## 로컬 개발 → NCP 실행
-- **코드 수정은 맥북에서** 하고 `git push`. **NCP 는 크론탭에서 pull/실행만** 담당.
-- 의존성 없음(순수 Node `http`/`fs`). 서비스키는 앱 APK에 든 공개 공공데이터 키라 하드코딩.
-- **경로 주의**: 맥북 = `~/server/app-data`, **NCP(root) = `/home/app-data`** (seoullife 크론과 동일 위치).
+## 실행 — GitHub Actions (2026-07-16 부터. NCP 크론은 폐지)
+- `.github/workflows/crawl-app-data.yml` 이 **매일 03:10 KST** 서울 크롤 3종과 함께 이 크롤러를 돌리고,
+  `busanlife/maintain_step.json`·`maintain_step_ver.txt` 만 골라 `git add` → 변경이 있을 때만 커밋·push 한다(커밋 메시지 `auto: app-data crawl (Actions)`).
+- 수동 실행은 GitHub Actions 탭의 **Run workflow**.
+- ⚠️ **NCP 크론탭에 다시 등록하지 말 것** — 마지막 NCP 자동 커밋은 2026-07-13, 그 뒤로 Actions 가 쓴다. 두 곳이 쓰면 push 경합이 난다.
+- 코드 수정은 맥북에서 하고 push 하면 다음 실행부터 반영된다. 의존성 없음(순수 Node `http`/`fs`). 서비스키는 앱 APK 에 든 공개 공공데이터 키라 하드코딩.
+  (이 레포는 Cloudflare Pages 가 통째로 서빙하므로 이 스크립트도 공개 URL 로 나간다 — 비밀을 넣지 말 것)
 
-## NCP 크론탭 등록 — 기존 seoullife 크론과 같은 인라인 방식 (권장, 매일 03:40)
+## 수동 실행 (맥북)
 ```
-40 3 * * * cd /home/app-data/busanlife && git pull && cd crawler && node crawl_maintain_step.js >> /var/log/busan_maintain_step.log 2>&1 && cd /home/app-data && git add busanlife/maintain_step.json busanlife/maintain_step_ver.txt && git commit -m "maintain step auto update" && git push
+node ~/server/app-data/busanlife/crawler/crawl_maintain_step.js
 ```
-- 변동 없으면 크롤러가 파일을 안 써서 `git commit` 이 "nothing to commit" 으로 실패 → `&&` 체인 중단 → push 안 함(정상, seoullife 크론과 동일 동작).
-- 매주(월)로 맞추려면 `40 3 * * 1` — 단, 앱은 매일 폴링하므로 서버도 매일 갱신이 알림 신선도에 유리.
-
-### 대안: 래퍼 스크립트 (변동 없을 때 로그가 더 깔끔)
-```
-40 3 * * * /bin/sh /home/app-data/busanlife/crawler/run.sh >> /var/log/busan_maintain_step.log 2>&1
-```
-`run.sh` 는 경로 독립적(`$(dirname "$0")/../..` 로 repo 루트 계산)이라 NCP/맥북 어디서 실행해도 됨.
-
-## 수동 실행
-```
-node /home/app-data/busanlife/crawler/crawl_maintain_step.js    # NCP
-node ~/server/app-data/busanlife/crawler/crawl_maintain_step.js # 맥북
-```
+`run.sh` 는 경로 독립적(`$(dirname "$0")/../..` 로 repo 루트 계산).

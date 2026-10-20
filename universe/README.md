@@ -21,6 +21,12 @@ universe/
 ├── curation_ver.txt                # 정수 +1, 워커 캐시 invalidation 트리거
 ├── docs/CURATION_GUIDE.md          # 큐레이터용 핸즈온 가이드
 ├── scripts/curate.js               # 큐레이션 자동화 (Node 18+, npm 의존성 0)
+├── scripts/validate-bands.mjs      # bands/ 검증
+├── axes/index.json                 # 크기 비교 축 정의 (UniverseX 앱이 읽는다)
+├── bands/bands.json, band-*.json   # 천체 그룹(별·성단·성운·은하·블랙홀·잔해·대규모 구조). 앱 A+i 가 읽는다
+├── tours/daily.json                # 크기 화면 "오늘의 투어" 기념일 앵커 (7언어, 2026-10-07~)
+├── tours/narration.json            # 투어 소개·핀 해설 대본 + 클립 메타(clipBase·clipFormat·clip·dur)
+├── tours/clips/<천체>/<키>.<lang>.m4a   # 해설 음성 클립 7언어(AAC, 2026-10 기준 약 1,800개·133MB — 레포 파일 수의 대부분)
 └── curation/
     ├── apod/<date>.json            # APOD: date가 자연 키 (예: 2026-05-14.json)
     ├── hubble/<pageId>.json        # ESA Hubble 페이지 ID (예: heic2401a.json)
@@ -30,6 +36,10 @@ universe/
 ```
 
 ---
+
+> 이 README 는 **큐레이션**(`curation/`·`curation_index.json`) 작업 안내다. `axes/`·`bands/`·`tours/` 의 스키마·작업 절차는
+> 각 JSON 의 머리 설명과 UniverseX 앱 문서(`~/AndroidStudioProjects/UniverseX`, `~/XcodeProjects/UniverseX`)가 정본이다.
+> `tours/clips` 는 음성 파일이라 git 이 무겁다 — 언어·천체 단위로 커밋해 왔다(커밋 로그 참고).
 
 ## 큐레이션 JSON 스키마
 

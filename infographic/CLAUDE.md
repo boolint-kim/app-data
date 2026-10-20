@@ -13,7 +13,7 @@
 2. **나머지 호스트** — Android 7(acqtax·gifttax·realestatecal·propertytax·junsewolse·seoullife·busanlife) · iOS 7(같은 앱).
    본보기: SelfBanner 쓰는 앱 → AptTradeChart(`App.java`·`MainActivity`·매니페스트 테마 오버라이드), 안 쓰는 앱 → AptRentChart(웹 광고 null·테마 불필요), 진입이 메뉴가 아닌 버튼 → TransTax.
    iOS → TransTax iOS 의 `AppDelegate`·`Helper/InfographicAds.swift`·버튼 가시성 세 군데. 각 앱 Podfile `platform` 15.0 이상
-3. **미결(사용자 답 대기)** — ① 첫 실행 수신 실패 시 **빈 캐시일 때만 재시도**(10초·60초) 넣을지(라이브러리 20줄, 앱 변경 없음). 에뮬 DNS 지연에서만 재현됐고 실사용자는 드물다. (② AptRentChart 기간 아이콘은 2026-10-20 달력으로 교체 완료 `bb4e24d`)
+3. ~~미결~~ 둘 다 해결(2026-10-20): ① 빈 캐시 재시도 — 양쪽 라이브러리에 넣음(앱은 다음 빌드부터 자동) ② AptRentChart 기간 아이콘 달력으로 교체 `bb4e24d`
 4. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정. 히트맵 카드: transtax·apttradechart `heatmap`(apt-deal) / aptrentchart `heatmap-rent`(apt-rent) / officetradechart `heatmap-office`(office-deal) — 2026-10-20 차트 앱 3개에 추가
 
 ## 구조
@@ -67,6 +67,7 @@ node infographic/scripts/build.js --preview seoullife
 - **신뢰하는 응답 = HTTP 200 + JSON 파싱 성공 + `schemaVersion == 1`.** 그 밖(네트워크 실패·4xx·5xx·파싱 실패·버전 불일치)은 **캐시를 건드리지 않는다**
   - ⚠️ 버전 불일치는 "캐시 유지" 다. 서버가 2 를 보내면 캐시(1 시절)가 남는다 → 그래서 서버는 버전을 올리지 않는다
 - 신뢰한 응답은 그대로 캐시(SharedPreferences / UserDefaults). 반영은 다음 실행(`loadCached`). 캐시가 비어 있으면 받은 자리에서 반영(iOS 필수)
+- **빈 캐시 재시도**(2026-10-20 사용자 결정): 수신 실패 뒤 캐시가 비어 있으면 10초, 60초에 한 번씩 더 받는다. 캐시가 있으면 재시도 없음(다음 실행이 있다), 깨진 응답도 재시도 없음. 양쪽 라이브러리 `HubUtil` 의 같은 표
 - **보일지 말지(getter) = 캐시 있음 && `enabled == true` && 유효 카드 1장 이상.** 유효 카드 = `url` 이 `https://chart.boolint.com/` 로 시작하고 `icon`·`title` 이 비어 있지 않은 것. 아닌 카드는 **그 카드만** 버린다(`links.json` 의 `*.go.kr` 규칙과 같은 방식)
 - 사용자 관심 시군구를 알면 `url + (url.contains("?") ? "&" : "?") + "sgg=" + 코드5자리`(AptTradeChart `withSgg`). `sido` 가 있어도 `sgg` 가 덮는다(06 §3). 카드에 `#` 이 없으므로 끝에 붙여도 안전
 - WebView 허용 호스트 `chart.boolint.com`, `window.IS_APP = true` 문서 시작 시점 주입, 단지 클릭 브리지 — 정본은 trade-collector `docs/infographic-redesign/06-app-hub.md` §1·§3·§4

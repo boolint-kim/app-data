@@ -4,6 +4,7 @@
   "enabled": true,
   "base": "https://chart.boolint.com/",
   "cards": {
+    "complex":        { "icon": "🔎", "title": "단지 실거래가",      "subtitle": "단지 하나의 매매·전월세 전부",   "path": "complex" },
     "apt":            { "icon": "🏢", "title": "우리 동네 아파트",   "subtitle": "가격·거래량·전세가율·수익률", "path": "apt" },
     "office":         { "icon": "🏨", "title": "우리 동네 오피스텔", "subtitle": "가격·거래량·전세가율·수익률", "path": "office" },
     "multi":          { "icon": "🏘", "title": "연립·다세대",        "subtitle": "평당가·거래량·월세 비중",      "path": "multi" },
@@ -22,19 +23,19 @@
     "heatmap-office": { "icon": "🗺️", "title": "오피스텔 히트맵",    "subtitle": "지도에서 보는 오피스텔 평당가", "path": "heatmap?type=office-deal" }
   },
   "apps": {
-    "apttradechart":    { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right", "heatmap"] },
-    "aptrentchart":     { "cards": ["apt", "ranking-apt", "today", "new-high", "hotspot", "right", "heatmap-rent"],
+    "apttradechart":    { "cards": ["complex", "apt", "ranking-apt", "today", "new-high", "hotspot", "right", "heatmap"] },
+    "aptrentchart":     { "cards": ["complex", "apt", "ranking-apt", "today", "new-high", "hotspot", "right", "heatmap-rent"],
                           "_comment": "출발점 — 전월세 앱이라 today(전세·월세 탭)·apt(전세가율·월세 섹션) 위주로 조정 가능" },
-    "officetradechart": { "cards": ["office", "ranking-office", "today", "new-high", "heatmap-office"] },
-    "transtax":         { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel", "heatmap"],
+    "officetradechart": { "cards": ["complex", "office", "ranking-office", "today", "new-high", "heatmap-office"] },
+    "transtax":         { "cards": ["complex", "apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel", "heatmap"],
                           "_comment": "heatmap 은 2026-10-19 양도세 앱에 먼저(iOS 포함). 지도 페이지 — 히트맵 전용 라이브러리(TradeHeatmap, Android 차트 앱용) 없이 웹 화면이 그대로 연다" },
-    "acqtax":           { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
-    "gifttax":          { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
-    "realestatecal":    { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
-    "propertytax":      { "cards": ["apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
-    "junsewolse":       { "cards": ["apt", "office", "multi", "single", "today", "ranking-apt"],
+    "acqtax":           { "cards": ["complex", "apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "gifttax":          { "cards": ["complex", "apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "realestatecal":    { "cards": ["complex", "apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "propertytax":      { "cards": ["complex", "apt", "office", "multi", "right", "single", "land", "building", "new-high", "cancel"] },
+    "junsewolse":       { "cards": ["complex", "apt", "office", "multi", "single", "today", "ranking-apt"],
                           "_comment": "출발점 — 임대 계산기라 전세·월세 섹션이 있는 물건 페이지 + 오늘 거래(전세·월세 탭)" },
-    "seoullife":        { "sido": "11", "cards": ["apt", "right", "new-high", "today"] },
-    "busanlife":        { "sido": "26", "cards": ["apt", "right", "new-high", "today"] }
+    "seoullife":        { "sido": "11", "cards": ["complex", "apt", "right", "new-high", "today"] },
+    "busanlife":        { "sido": "26", "cards": ["complex", "apt", "right", "new-high", "today"] }
   }
 }

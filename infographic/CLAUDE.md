@@ -14,6 +14,7 @@
    본보기: SelfBanner 쓰는 앱 → AptTradeChart(`App.java`·`MainActivity`·매니페스트 테마 오버라이드), 안 쓰는 앱 → AptRentChart(웹 광고 null·테마 불필요), 진입이 메뉴가 아닌 버튼 → TransTax.
    iOS → TransTax iOS 의 `AppDelegate`·`Helper/InfographicAds.swift`·버튼 가시성 세 군데. 각 앱 Podfile `platform` 15.0 이상
 3. ~~미결~~ 둘 다 해결(2026-10-20): ① 빈 캐시 재시도 — 양쪽 라이브러리에 넣음(앱은 다음 빌드부터 자동) ② AptRentChart 기간 아이콘 달력으로 교체 `bb4e24d`
+5. **`complex` 카드(단지 실거래가, 2026-10-27)** — 11개 앱 전부 맨 앞. 실거래 플랫폼 5번(정본 `~/server/trade-serve/docs/platform-plan.md`). 키 없이 열면 시군구 → 단지 고르기라 앱이 붙이는 `?sgg=`·`?sido=` 를 그대로 받는다. 데이터는 이 레포·trade-infographic data/ 가 아니라 `trade-kr.boolint.com`
 4. 카드 구성(문구·순서·앱별 조합)은 **출발점**이다 — 사용자가 `hub.json` 에서 조정. 히트맵 카드: transtax·apttradechart `heatmap`(apt-deal) / aptrentchart `heatmap-rent`(apt-rent) / officetradechart `heatmap-office`(office-deal) — 2026-10-20 차트 앱 3개에 추가
 
 ## 구조

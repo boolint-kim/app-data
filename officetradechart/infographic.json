@@ -4,6 +4,13 @@
   "enabled": true,
   "cards": [
     {
+      "id": "complex",
+      "icon": "🔎",
+      "title": "단지 실거래가",
+      "subtitle": "단지 하나의 매매·전월세 전부",
+      "url": "https://chart.boolint.com/complex"
+    },
+    {
       "id": "office",
       "icon": "🏨",
       "title": "우리 동네 오피스텔",

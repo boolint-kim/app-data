@@ -1,0 +1,18 @@
+{
+ "schemaVersion": 1,
+ "_comment": "LifeGrid 고정 이벤트 카탈로그(정본). 앱에 같은 파일이 번들돼 있고 서버 파일은 덮어쓰기다. 앱은 하루 1회 받아 HTTP 200 + JSON + schemaVersion==1 + 검증 통과면 캐시, 아니면 캐시를 유지한다. 새 항목은 꺼진 채 '새로' 표시만 붙는다. 항목을 지우지 말고 enabled:false 로 내린다. years 는 연도별 날짜 덮어쓰기(단풍 절정 예보 등: \"2026\":{\"m1\":10,\"d1\":24,\"m2\":11,\"d2\":12}). schemaVersion 은 올리지 않는다(필드는 추가만). push 전 node lifegrid/scripts/validate.mjs",
+ "updated": "2026-11-07",
+ "events": [
+  { "id": "sun",     "name": { "ko": "일요일" },      "group": "weekday", "type": "weekday",  "dow": 0,                                   "color": "#6ea8fe", "defaultOn": true,  "enabled": true },
+  { "id": "sat",     "name": { "ko": "토요일" },      "group": "weekday", "type": "weekday",  "dow": 6,                                   "color": "#9ad0ff", "defaultOn": false, "enabled": true },
+  { "id": "xmas",    "name": { "ko": "크리스마스" },  "group": "holiday", "type": "date",     "m": 12, "d": 25,                            "color": "#ff5a7a", "defaultOn": true,  "enabled": true },
+  { "id": "seol",    "name": { "ko": "설날" },        "group": "holiday", "type": "lunar",    "lm": 1, "ld": 1,                            "color": "#f2c14e", "defaultOn": true,  "enabled": true },
+  { "id": "chuseok", "name": { "ko": "추석" },        "group": "holiday", "type": "lunar",    "lm": 8, "ld": 15,                           "color": "#e38b2c", "defaultOn": true,  "enabled": true },
+  { "id": "bday",    "name": { "ko": "내 생일" },     "group": "anniv",   "type": "birthday",                                             "color": "#ff7ac6", "defaultOn": true,  "enabled": true },
+  { "id": "leaf",    "name": { "ko": "단풍철" },      "group": "season",  "type": "range",    "m1": 10, "d1": 20, "m2": 11, "d2": 15,     "color": "#ff6f3c", "defaultOn": true,  "enabled": true, "years": {} },
+  { "id": "cherry",  "name": { "ko": "벚꽃철" },      "group": "season",  "type": "range",    "m1": 3,  "d1": 28, "m2": 4,  "d2": 12,     "color": "#ffb3c6", "defaultOn": false, "enabled": true, "years": {} },
+  { "id": "snow",    "name": { "ko": "첫눈 무렵" },   "group": "season",  "type": "date",     "m": 11, "d": 20,                            "color": "#cfe9ff", "defaultOn": false, "enabled": true },
+  { "id": "buddha",  "name": { "ko": "부처님오신날" },"group": "holiday", "type": "lunar",    "lm": 4, "ld": 8,                            "color": "#c9a0ff", "defaultOn": false, "enabled": true },
+  { "id": "child",   "name": { "ko": "어린이날" },    "group": "holiday", "type": "date",     "m": 5,  "d": 5,                             "color": "#5ad1b3", "defaultOn": false, "enabled": true }
+ ]
+}

@@ -11,5 +11,6 @@
 - 폴더 인덱스(읽는 앱·고치는 법·상태)는 `README.md`
 
 ## 진행 중인 작업
+- **`lifegrid/`** — LifeGrid(남은 시간 격자) 앱 데이터, 2026-11-07 생성, 앱 미출시. 고정 이벤트 카탈로그·기대여명(임시 보간표)·음력 검증 표. push 전 `node lifegrid/scripts/validate.mjs`. 계약은 `lifegrid/README.md`
 - **`infographic/`** — 부동산 앱들의 인포그래픽 메뉴 노출 스위치 + 앱별 카드 구성. 정본 `hub.json` → `scripts/build.js` → 생성물 `<앱>/infographic.json` 11개(2026-10-19 설계 확정, **push 전·앱 코드 전**).
   ★ **시작 전에 `infographic/CLAUDE.md` 를 먼저 읽을 것** — 결정 사항·스키마·앱 쪽 계약과 "다음 세션 시작점"이 거기 있다. 생성물은 직접 고치지 말 것

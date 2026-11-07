@@ -6,7 +6,7 @@
 | 파일 | 내용 | 고치는 법 |
 |---|---|---|
 | `events.json` | 고정 이벤트 카탈로그(일요일·설·추석·단풍철 …). 연도별 날짜 덮어쓰기 `years` | 손으로 고친다 → `node lifegrid/scripts/validate.mjs` → push. 항목은 지우지 말고 `enabled:false` |
-| `lifetable.json` | 연령별 기대여명 남·여·전체 0~100세(2024년 생명표). **`provisional:true` = 임시 보간표** | `node lifegrid/scripts/gen-lifetable.mjs` (KOSIS 키 필요, 아직 임시표). 출시 전 원표 교체 |
+| `lifetable.json` | 연령별 기대여명 남·여·전체 0~100세 — **KOSIS 완전생명표(1세별) DT_1B42 원표**(2024년 생명표, 2025-12-01 갱신). `provisional:false` | 매년 12월 공표 뒤 `node lifegrid/scripts/gen-lifetable.mjs`(키는 `~/.config/kosis.env`, 레포 밖) → validate → push |
 | `lunar.json` | 설·부처님오신날·추석 1930~2050 양력 날짜(KASI 기준) — 앱 내장 변환기의 검증 표 | `node lifegrid/scripts/gen-lunar.mjs` (알려진 날짜 검증 통과 시에만 씀) |
 
 ## 앱 쪽 계약 (infographic 과 같은 규칙)
@@ -23,3 +23,4 @@ Android `ChineseCalendar`·iOS `Calendar(.chinese)` 는 베이징 기준이라 �
 
 ## 스크립트
 `lifegrid/scripts/` — `npm install` 한 번(korean-lunar-calendar). 레포 루트에서 `node lifegrid/scripts/<파일>`.
+KOSIS 인증키(2028-11-07 만료)는 맥북 `~/.config/kosis.env` 에만 있다 — 이 레포는 공개 서빙이라 절대 넣지 말 것. KOSIS 호출은 `itmId=ALL&objL1=ALL`(objL2 를 주면 오류 21), 키는 URL 인코딩 필수(끝의 `=`).

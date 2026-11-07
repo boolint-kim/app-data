@@ -11,7 +11,7 @@ GitHub Actions(매일 03:10 KST)가 크롤 결과(`seoullife/public`, `busanlife
 | `mysalary` | MySalary Android·iOS | `rates.json` 생성 스크립트(아래) | 운영 |
 | `universe` | UniverseX Android·iOS + universe-api 워커 | `universe/README.md` | 운영 (레포 파일 수의 대부분) |
 | `infographic` + `<앱>/infographic.json` 11개 | 부동산 앱 11개(Android·iOS) | `infographic/hub.json` → `build.js`(아래) | 운영 |
-| `lifegrid` | LifeGrid 남은 시간 격자 Android(iOS 예정) | `events.json` 손으로 · `lifetable.json`·`lunar.json` 은 `lifegrid/scripts/`(아래) | **준비 중**(2026-11-07, 앱 미출시 — 생명표는 임시 보간표) |
+| `lifegrid` | LifeGrid 남은 시간 격자 Android(iOS 예정) | `events.json` 손으로 · `lifetable.json`·`lunar.json` 은 `lifegrid/scripts/`(아래) | **준비 중**(2026-11-07, 앱 미출시. 생명표는 KOSIS 원표) |
 | `jpdramaeng` | JpDramaEng Android | `jpdramaeng.json` + `_ver.txt` +1 | 운영 |
 | `thatsong` | ThatSong Android | `songs.json` + `_ver.txt` +1 | **레거시** — 앱 출시정지(사용자 자발 철수). 구버전 설치자가 읽을 수 있어 삭제 금지 |
 | `parkinglot` | (현재 앱 코드 참조 없음 — ParkingLot 은 parking-collector·ev-charger JSON 으로 이전) | 고치지 말 것 | **레거시** — 구버전 설치자용. 삭제 금지 |
@@ -39,7 +39,7 @@ junsewolse/links.json — 외부 링크(표준계약서·인터넷등기소·임
 
 ## lifegrid
 lifegrid/events.json — 고정 이벤트 카탈로그(정본, 앱에 같은 사본 번들). 항목은 지우지 말고 `enabled:false`
-lifegrid/lifetable.json — 연령별 기대여명(2024년 생명표). `provisional:true` 면 임시 보간표 → `node lifegrid/scripts/gen-lifetable.mjs`(KOSIS 키)
+lifegrid/lifetable.json — 연령별 기대여명(2024년 생명표, KOSIS DT_1B42 원표). 매년 12월 `node lifegrid/scripts/gen-lifetable.mjs`(키는 `~/.config/kosis.env`)
 lifegrid/lunar.json — 설·부처님오신날·추석 1930~2050(KASI) 검증 표 → `node lifegrid/scripts/gen-lunar.mjs`
 push 전 `node lifegrid/scripts/validate.mjs`. 계약·근거는 `lifegrid/README.md`
 

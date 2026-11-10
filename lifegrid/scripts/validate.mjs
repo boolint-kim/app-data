@@ -53,6 +53,14 @@ try {
     if (!hex(e.color)) E(`${tag}: color hex`);
     if (typeof e.defaultOn !== 'boolean' || typeof e.enabled !== 'boolean') E(`${tag}: defaultOn/enabled boolean`);
     if (e.calendar !== undefined && (e.type !== 'lunar' || !CALENDARS.includes(e.calendar))) E(`${tag}: calendar 는 lunar 에만, ko|zh`);
+    // 커스텀형과 같은 확장 필드(앱 EventDef 와 같은 규칙): N년마다 · 처음 해 · 상한 나이 · 창 여러 개
+    if (e.everyYears !== undefined && (!Number.isInteger(e.everyYears) || e.everyYears < 1 || e.everyYears > 10)) E(`${tag}: everyYears 1~10`);
+    if (e.anchorYear !== undefined && (!Number.isInteger(e.anchorYear) || e.anchorYear < 1900 || e.anchorYear > 2200)) E(`${tag}: anchorYear 1900~2200`);
+    if (e.untilAge !== undefined && (!Number.isInteger(e.untilAge) || e.untilAge < 1 || e.untilAge > 120)) E(`${tag}: untilAge 1~120`);
+    if (e.windows !== undefined) {
+      if (e.type !== 'range' || !Array.isArray(e.windows) || e.windows.length < 1 || e.windows.length > 3) E(`${tag}: windows 는 range 에만, 1~3개`);
+      else for (const w of e.windows) if (!Array.isArray(w) || w.length !== 4 || !mdOk(w[0], w[1]) || !mdOk(w[2], w[3]) || daysBetween(w[0], w[1], w[2], w[3]) > 120) E(`${tag}: windows 항목 [m1,d1,m2,d2] 120일 이하`);
+    }
     switch (e.type) {
       case 'weekday': if (!Number.isInteger(e.dow) || e.dow < 0 || e.dow > 6) E(`${tag}: dow 0~6`); break;
       case 'date': if (!mdOk(e.m, e.d)) E(`${tag}: m/d`); break;

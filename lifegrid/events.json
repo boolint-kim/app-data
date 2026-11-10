@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "_comment": "LifeGrid 고정 이벤트 카탈로그(정본). 앱에 같은 파일이 번들돼 있고 서버 파일은 덮어쓰기다. 앱은 하루 1회 받아 HTTP 200 + JSON + schemaVersion==1 + 검증 통과면 캐시, 아니면 캐시를 유지한다. 구조(2026-11-10): regions(지역 코드 → 주말 요일·음력 종류·생명표 파일·팩 목록) · packs(시트의 묶음) · events(각 항목은 pack 하나에 속한다). 앱은 자기 지역의 팩에 든 항목만 보여 준다. 모르는 type·pack 의 항목은 앱이 건너뛴다(필드는 추가만, schemaVersion 은 올리지 않는다). 새 항목은 꺼진 채 '새로' 표시만 붙는다. 항목을 지우지 말고 enabled:false 로 내린다. years 는 연도별 날짜 덮어쓰기(단풍 절정 예보 등: \"2026\":{\"m1\":10,\"d1\":24,\"m2\":11,\"d2\":12}). lunar 의 calendar 는 ko(KASI 표, 한국)·zh(OS 중국력) — 없으면 지역 기본. push 전 node lifegrid/scripts/validate.mjs",
+ "_comment": "LifeGrid 고정 이벤트 카탈로그(정본). 앱에 같은 파일이 번들돼 있고 서버 파일은 덮어쓰기다. 앱은 하루 1회 받아 HTTP 200 + JSON + schemaVersion==1 + 검증 통과면 캐시, 아니면 캐시를 유지한다. 구조(2026-11-10): regions(지역 코드 → 주말 요일·음력 종류·생명표 파일·팩 목록) · packs(시트의 묶음) · events(각 항목은 pack 하나에 속한다). 앱은 자기 지역의 팩에 든 항목만 보여 준다. 모르는 type·pack 의 항목은 앱이 건너뛴다(필드는 추가만, schemaVersion 은 올리지 않는다). 새 항목은 꺼진 채 '새로' 표시만 붙는다. 항목을 지우지 말고 enabled:false 로 내린다. years 는 연도별 날짜 덮어쓰기(단풍 절정 예보 등: \"2026\":{\"m1\":10,\"d1\":24,\"m2\":11,\"d2\":12}). lunar 의 calendar 는 ko(KASI 표, 한국)·zh(OS 중국력) — 없으면 지역 기본. push 전 node lifegrid/scripts/validate.mjs date 2/29 는 윤년에만 생긴다(앱이 2/28 로 내리지 않는다). everyYears·anchorYear 는 고정형에도 쓴다(올림픽·월드컵).",
  "updated": "2026-11-10",
  "regions": {
   "KR": {
@@ -103,6 +103,90 @@
    "group": "anniv",
    "type": "birthday",
    "color": "#ff7ac6",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "leap",
+   "name": {
+    "ko": "2월 29일"
+   },
+   "pack": "core",
+   "group": "anniv",
+   "type": "date",
+   "m": 2,
+   "d": 29,
+   "color": "#9ad0ff",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "olympics",
+   "name": {
+    "ko": "올림픽"
+   },
+   "pack": "core",
+   "group": "anniv",
+   "type": "range",
+   "m1": 7,
+   "d1": 20,
+   "m2": 8,
+   "d2": 5,
+   "everyYears": 4,
+   "anchorYear": 2028,
+   "years": {
+    "2024": {
+     "m1": 7,
+     "d1": 26,
+     "m2": 8,
+     "d2": 11
+    },
+    "2028": {
+     "m1": 7,
+     "d1": 14,
+     "m2": 7,
+     "d2": 30
+    },
+    "2032": {
+     "m1": 7,
+     "d1": 23,
+     "m2": 8,
+     "d2": 8
+    }
+   },
+   "color": "#f2c14e",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "worldcup",
+   "name": {
+    "ko": "월드컵"
+   },
+   "pack": "core",
+   "group": "anniv",
+   "type": "range",
+   "m1": 6,
+   "d1": 11,
+   "m2": 7,
+   "d2": 19,
+   "everyYears": 4,
+   "anchorYear": 2026,
+   "years": {
+    "2022": {
+     "m1": 11,
+     "d1": 20,
+     "m2": 12,
+     "d2": 18
+    },
+    "2026": {
+     "m1": 6,
+     "d1": 11,
+     "m2": 7,
+     "d2": 19
+    }
+   },
+   "color": "#5ad1b3",
    "defaultOn": false,
    "enabled": true
   },

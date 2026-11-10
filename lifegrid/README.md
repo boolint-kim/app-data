@@ -5,7 +5,7 @@
 
 | 파일 | 내용 | 고치는 법 |
 |---|---|---|
-| `events.json` | 고정 이벤트 카탈로그. **`regions`**(지역 코드 → `weekend` 요일·`lunar` ko/zh·`lifetable` 파일·`packs`) · **`packs`**(시트 묶음) · **`events`**(항목마다 `pack`, lunar 는 `calendar`). 연도별 날짜 덮어쓰기 `years` | 손으로 고친다 → `node lifegrid/scripts/validate.mjs` → push. 항목은 지우지 말고 `enabled:false`. 지역을 늘릴 땐 regions 에 코드 + 팩 + (필요하면) 그 지역 생명표 파일 |
+| `events.json` | 고정 이벤트 카탈로그. **`regions`**(지역 코드 → `weekend` 요일·`lunar` ko/zh·`lifetable` 파일·`packs`) · **`packs`**(시트 묶음) · **`events`**(항목마다 `pack`, lunar 는 `calendar`) · **`templates`**(활동 템플릿: 누르면 앱 폼이 채워지는 출발점. `hint.ko` 한 줄, `regions` 로 지역 한정, **`untilAge` 금지** — 상한 나이는 사용자 몫). 연도별 날짜 덮어쓰기 `years` | 손으로 고친다 → `node lifegrid/scripts/validate.mjs` → push. 항목은 지우지 말고 `enabled:false`. 지역을 늘릴 땐 regions 에 코드 + 팩 + (필요하면) 그 지역 생명표 파일 |
 | `lifetable.json` | 연령별 기대여명 남·여·전체 0~100세 — **KOSIS 완전생명표(1세별) DT_1B42 원표**(2024년 생명표, 2025-12-01 갱신). `provisional:false` | 매년 12월 공표 뒤 `node lifegrid/scripts/gen-lifetable.mjs`(키는 `~/.config/kosis.env`, 레포 밖) → validate → push |
 | `lunar.json` | 설·부처님오신날·추석 1930~2050 양력 날짜(KASI 기준) — 앱 내장 변환기의 검증 표 | `node lifegrid/scripts/gen-lunar.mjs` (알려진 날짜 검증 통과 시에만 씀) |
 

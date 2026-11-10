@@ -75,6 +75,32 @@ try {
       default: E(`${tag}: type ${e.type}`);
     }
   }
+  // templates — 커스텀 이벤트의 출발점(누르면 폼이 채워진다). 이벤트와 같은 규칙에서 pack·defaultOn·enabled 만 없고 hint·regions 가 있다
+  if (ev.templates !== undefined) {
+    if (!Array.isArray(ev.templates) || ev.templates.length > 20) E('templates: 배열 20개 이하');
+    const tids = new Set();
+    for (const t of ev.templates || []) {
+      const tag = `templates[${t.id}]`;
+      if (!ID.test(t.id || '')) E(`${tag}: id 형식`);
+      if (tids.has(t.id)) E(`${tag}: id 중복`); tids.add(t.id);
+      if (!nameOk(t.name)) E(`${tag}: name.ko 1~12자`);
+      if (!hex(t.color)) E(`${tag}: color hex`);
+      if (!t.hint || typeof t.hint.ko !== 'string' || t.hint.ko.length > 80) E(`${tag}: hint.ko 80자 이하`);
+      if (t.regions !== undefined && (!Array.isArray(t.regions) || t.regions.some(r => !ev.regions || !ev.regions[r]))) E(`${tag}: regions 는 regions 의 키만`);
+      if (t.untilAge !== undefined) E(`${tag}: 템플릿에 untilAge 를 넣지 않는다 — 상한 나이는 사용자 몫`);
+      if (t.everyYears !== undefined && (!Number.isInteger(t.everyYears) || t.everyYears < 1 || t.everyYears > 10)) E(`${tag}: everyYears 1~10`);
+      switch (t.type) {
+        case 'date': if (!mdOk(t.m, t.d)) E(`${tag}: m/d`); break;
+        case 'lunar': if (!Number.isInteger(t.lm) || t.lm < 1 || t.lm > 12 || !Number.isInteger(t.ld) || t.ld < 1 || t.ld > 30) E(`${tag}: lm/ld`); break;
+        case 'weekday': if (!Number.isInteger(t.dow) || t.dow < 0 || t.dow > 6) E(`${tag}: dow`); break;
+        case 'range':
+          if (!Array.isArray(t.windows) || t.windows.length < 1 || t.windows.length > 3) E(`${tag}: windows 1~3개`);
+          else for (const w of t.windows) if (!Array.isArray(w) || w.length !== 4 || !mdOk(w[0], w[1]) || !mdOk(w[2], w[3]) || daysBetween(w[0], w[1], w[2], w[3]) > 120) E(`${tag}: windows 항목`);
+          break;
+        default: E(`${tag}: type ${t.type}`);
+      }
+    }
+  }
   // 지역마다 보이는 항목은 40개 이하(시트·요약 띠 한도)
   for (const [code, r] of Object.entries(ev.regions || {})) {
     const n = (ev.events || []).filter(e => (r.packs || []).includes(e.pack)).length;

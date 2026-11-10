@@ -5,7 +5,7 @@
 
 | 파일 | 내용 | 고치는 법 |
 |---|---|---|
-| `events.json` | 고정 이벤트 카탈로그(일요일·설·추석·단풍철 …). 연도별 날짜 덮어쓰기 `years` | 손으로 고친다 → `node lifegrid/scripts/validate.mjs` → push. 항목은 지우지 말고 `enabled:false` |
+| `events.json` | 고정 이벤트 카탈로그. **`regions`**(지역 코드 → `weekend` 요일·`lunar` ko/zh·`lifetable` 파일·`packs`) · **`packs`**(시트 묶음) · **`events`**(항목마다 `pack`, lunar 는 `calendar`). 연도별 날짜 덮어쓰기 `years` | 손으로 고친다 → `node lifegrid/scripts/validate.mjs` → push. 항목은 지우지 말고 `enabled:false`. 지역을 늘릴 땐 regions 에 코드 + 팩 + (필요하면) 그 지역 생명표 파일 |
 | `lifetable.json` | 연령별 기대여명 남·여·전체 0~100세 — **KOSIS 완전생명표(1세별) DT_1B42 원표**(2024년 생명표, 2025-12-01 갱신). `provisional:false` | 매년 12월 공표 뒤 `node lifegrid/scripts/gen-lifetable.mjs`(키는 `~/.config/kosis.env`, 레포 밖) → validate → push |
 | `lunar.json` | 설·부처님오신날·추석 1930~2050 양력 날짜(KASI 기준) — 앱 내장 변환기의 검증 표 | `node lifegrid/scripts/gen-lunar.mjs` (알려진 날짜 검증 통과 시에만 씀) |
 
@@ -14,7 +14,9 @@
 - **신뢰하는 응답 = HTTP 200 + JSON 파싱 + `schemaVersion == 1` + 검증 통과.** 그 밖(실패·4xx·5xx·버전 불일치·검증 실패)은 캐시를 건드리지 않는다 → 서버는 `schemaVersion` 을 올리지 않는다(필드는 추가만)
 - 그리는 순간에는 네트워크를 부르지 않는다. 반영은 다음 실행
 - 새로 내려온 고정 이벤트는 **꺼진 채** "새로" 표시만 — 사용자가 켠 적 없는 색이 격자에 갑자기 생기지 않게
-- 검증 규칙은 `scripts/validate.mjs` 가 정본(이벤트 40개 이하 · 기간 120일 이하 · 색 hex · 기대여명 101개 단조감소 0~110)
+- 검증 규칙은 `scripts/validate.mjs` 가 정본(이벤트 200개 이하 · 지역마다 보이는 것 40개 이하 · 기간 120일 이하 · 색 hex · `regions.KR` 필수 · 팩 참조 · 기대여명 101개 단조감소 0~110)
+- **앱은 모르는 `type`·`pack` 의 항목만 건너뛰고**(전방 호환 — 새 규칙을 먼저 내보내도 옛 앱이 안 깨진다) 나머지 위반은 파일 전체를 버린다. 활동(등산·낚시 등)은 여기 넣지 않는다 — 날짜는 사용자 것이라 앱의 템플릿(예정)으로 간다
+- 이름은 `name:{ko, en, …}` — 앱이 기기 언어 → ko 순으로 고른다. 문장("앞으로 N번")은 앱 코드(`Phrases`)
 
 ## 음력 — OS 내장 중국력을 쓰지 않는 이유
 Android `ChineseCalendar`·iOS `Calendar(.chinese)` 는 베이징 기준이라 한국 음력과 하루(윤달이면 한 달) 어긋난다.

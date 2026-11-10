@@ -1,18 +1,247 @@
 {
  "schemaVersion": 1,
- "_comment": "LifeGrid 고정 이벤트 카탈로그(정본). 앱에 같은 파일이 번들돼 있고 서버 파일은 덮어쓰기다. 앱은 하루 1회 받아 HTTP 200 + JSON + schemaVersion==1 + 검증 통과면 캐시, 아니면 캐시를 유지한다. 새 항목은 꺼진 채 '새로' 표시만 붙는다. 항목을 지우지 말고 enabled:false 로 내린다. years 는 연도별 날짜 덮어쓰기(단풍 절정 예보 등: \"2026\":{\"m1\":10,\"d1\":24,\"m2\":11,\"d2\":12}). schemaVersion 은 올리지 않는다(필드는 추가만). push 전 node lifegrid/scripts/validate.mjs",
- "updated": "2026-11-07",
+ "_comment": "LifeGrid 고정 이벤트 카탈로그(정본). 앱에 같은 파일이 번들돼 있고 서버 파일은 덮어쓰기다. 앱은 하루 1회 받아 HTTP 200 + JSON + schemaVersion==1 + 검증 통과면 캐시, 아니면 캐시를 유지한다. 구조(2026-11-10): regions(지역 코드 → 주말 요일·음력 종류·생명표 파일·팩 목록) · packs(시트의 묶음) · events(각 항목은 pack 하나에 속한다). 앱은 자기 지역의 팩에 든 항목만 보여 준다. 모르는 type·pack 의 항목은 앱이 건너뛴다(필드는 추가만, schemaVersion 은 올리지 않는다). 새 항목은 꺼진 채 '새로' 표시만 붙는다. 항목을 지우지 말고 enabled:false 로 내린다. years 는 연도별 날짜 덮어쓰기(단풍 절정 예보 등: \"2026\":{\"m1\":10,\"d1\":24,\"m2\":11,\"d2\":12}). lunar 의 calendar 는 ko(KASI 표, 한국)·zh(OS 중국력) — 없으면 지역 기본. push 전 node lifegrid/scripts/validate.mjs",
+ "updated": "2026-11-10",
+ "regions": {
+  "KR": {
+   "name": {
+    "ko": "대한민국"
+   },
+   "weekend": [
+    0,
+    6
+   ],
+   "lunar": "ko",
+   "lifetable": "lifetable.json",
+   "packs": [
+    "core",
+    "kr_days",
+    "kr_seasons"
+   ]
+  },
+  "*": {
+   "name": {
+    "ko": "그 밖"
+   },
+   "weekend": [
+    0,
+    6
+   ],
+   "lunar": "zh",
+   "packs": [
+    "core"
+   ]
+  }
+ },
+ "packs": [
+  {
+   "id": "core",
+   "name": {
+    "ko": "공통"
+   }
+  },
+  {
+   "id": "kr_days",
+   "name": {
+    "ko": "명절·기념일"
+   }
+  },
+  {
+   "id": "kr_seasons",
+   "name": {
+    "ko": "사계절"
+   }
+  }
+ ],
  "events": [
-  { "id": "sun",     "name": { "ko": "일요일" },      "group": "weekday", "type": "weekday",  "dow": 0,                                   "color": "#6ea8fe", "defaultOn": true,  "enabled": true },
-  { "id": "sat",     "name": { "ko": "토요일" },      "group": "weekday", "type": "weekday",  "dow": 6,                                   "color": "#9ad0ff", "defaultOn": false, "enabled": true },
-  { "id": "xmas",    "name": { "ko": "크리스마스" },  "group": "holiday", "type": "date",     "m": 12, "d": 25,                            "color": "#ff5a7a", "defaultOn": true,  "enabled": true },
-  { "id": "seol",    "name": { "ko": "설날" },        "group": "holiday", "type": "lunar",    "lm": 1, "ld": 1,                            "color": "#f2c14e", "defaultOn": true,  "enabled": true },
-  { "id": "chuseok", "name": { "ko": "추석" },        "group": "holiday", "type": "lunar",    "lm": 8, "ld": 15,                           "color": "#e38b2c", "defaultOn": true,  "enabled": true },
-  { "id": "bday",    "name": { "ko": "내 생일" },     "group": "anniv",   "type": "birthday",                                             "color": "#ff7ac6", "defaultOn": true,  "enabled": true },
-  { "id": "leaf",    "name": { "ko": "단풍철" },      "group": "season",  "type": "range",    "m1": 10, "d1": 20, "m2": 11, "d2": 15,     "color": "#ff6f3c", "defaultOn": true,  "enabled": true, "years": {} },
-  { "id": "cherry",  "name": { "ko": "벚꽃철" },      "group": "season",  "type": "range",    "m1": 3,  "d1": 28, "m2": 4,  "d2": 12,     "color": "#ffb3c6", "defaultOn": false, "enabled": true, "years": {} },
-  { "id": "snow",    "name": { "ko": "첫눈 무렵" },   "group": "season",  "type": "date",     "m": 11, "d": 20,                            "color": "#cfe9ff", "defaultOn": false, "enabled": true },
-  { "id": "buddha",  "name": { "ko": "부처님오신날" },"group": "holiday", "type": "lunar",    "lm": 4, "ld": 8,                            "color": "#c9a0ff", "defaultOn": false, "enabled": true },
-  { "id": "child",   "name": { "ko": "어린이날" },    "group": "holiday", "type": "date",     "m": 5,  "d": 5,                             "color": "#5ad1b3", "defaultOn": false, "enabled": true }
+  {
+   "id": "sun",
+   "name": {
+    "ko": "일요일"
+   },
+   "pack": "core",
+   "group": "weekday",
+   "type": "weekday",
+   "dow": 0,
+   "color": "#6ea8fe",
+   "defaultOn": true,
+   "enabled": true
+  },
+  {
+   "id": "sat",
+   "name": {
+    "ko": "토요일"
+   },
+   "pack": "core",
+   "group": "weekday",
+   "type": "weekday",
+   "dow": 6,
+   "color": "#9ad0ff",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "xmas",
+   "name": {
+    "ko": "크리스마스"
+   },
+   "pack": "core",
+   "group": "holiday",
+   "type": "date",
+   "m": 12,
+   "d": 25,
+   "color": "#ff5a7a",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "bday",
+   "name": {
+    "ko": "내 생일"
+   },
+   "pack": "core",
+   "group": "anniv",
+   "type": "birthday",
+   "color": "#ff7ac6",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "seol",
+   "name": {
+    "ko": "설날"
+   },
+   "pack": "kr_days",
+   "group": "holiday",
+   "type": "lunar",
+   "lm": 1,
+   "ld": 1,
+   "calendar": "ko",
+   "color": "#f2c14e",
+   "defaultOn": true,
+   "enabled": true
+  },
+  {
+   "id": "chuseok",
+   "name": {
+    "ko": "추석"
+   },
+   "pack": "kr_days",
+   "group": "holiday",
+   "type": "lunar",
+   "lm": 8,
+   "ld": 15,
+   "calendar": "ko",
+   "color": "#e38b2c",
+   "defaultOn": true,
+   "enabled": true
+  },
+  {
+   "id": "parents",
+   "name": {
+    "ko": "어버이날"
+   },
+   "pack": "kr_days",
+   "group": "anniv",
+   "type": "date",
+   "m": 5,
+   "d": 8,
+   "color": "#ff9f6e",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "child",
+   "name": {
+    "ko": "어린이날"
+   },
+   "pack": "kr_days",
+   "group": "holiday",
+   "type": "date",
+   "m": 5,
+   "d": 5,
+   "color": "#5ad1b3",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "buddha",
+   "name": {
+    "ko": "부처님오신날"
+   },
+   "pack": "kr_days",
+   "group": "holiday",
+   "type": "lunar",
+   "lm": 4,
+   "ld": 8,
+   "calendar": "ko",
+   "color": "#c9a0ff",
+   "defaultOn": false,
+   "enabled": true
+  },
+  {
+   "id": "cherry",
+   "name": {
+    "ko": "벚꽃철"
+   },
+   "pack": "kr_seasons",
+   "group": "season",
+   "type": "range",
+   "m1": 3,
+   "d1": 25,
+   "m2": 4,
+   "d2": 15,
+   "color": "#ffb3c6",
+   "defaultOn": true,
+   "enabled": true
+  },
+  {
+   "id": "summer",
+   "name": {
+    "ko": "여름휴가철"
+   },
+   "pack": "kr_seasons",
+   "group": "season",
+   "type": "range",
+   "m1": 7,
+   "d1": 20,
+   "m2": 8,
+   "d2": 15,
+   "color": "#4fd1c5",
+   "defaultOn": true,
+   "enabled": true
+  },
+  {
+   "id": "leaf",
+   "name": {
+    "ko": "단풍철"
+   },
+   "pack": "kr_seasons",
+   "group": "season",
+   "type": "range",
+   "m1": 10,
+   "d1": 15,
+   "m2": 11,
+   "d2": 10,
+   "color": "#ff6f3c",
+   "defaultOn": true,
+   "enabled": true
+  },
+  {
+   "id": "snow",
+   "name": {
+    "ko": "눈 오는 철"
+   },
+   "pack": "kr_seasons",
+   "group": "season",
+   "type": "range",
+   "m1": 12,
+   "d1": 15,
+   "m2": 2,
+   "d2": 15,
+   "color": "#cfe9ff",
+   "defaultOn": true,
+   "enabled": true
+  }
  ]
 }

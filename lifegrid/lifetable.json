@@ -1,6 +1,7 @@
 {
  "schemaVersion": 1,
  "_comment": "LifeGrid 연령별 기대여명(년). 앱은 현재 나이(소수)로 선형 보간해 끝 날짜를 정한다 — \"기대수명−나이\" 근사 금지. provisional:true 면 10세 간격 공표값을 보간한 임시표. 앱 계약: schemaVersion==1 && 배열 101개 && 단조감소 && 0<값<110 이면 캐시, 아니면 캐시 유지. schemaVersion 은 올리지 않는다.",
+ "sourceName": {"ko": "국가데이터처 2024년 생명표"},
  "source": "국가데이터처 2024년 생명표 — KOSIS 완전생명표(1세별) DT_1B42, 항목 기대여명(전체·남자·여자), 최종 갱신 2025-12-01",
  "asOf": "2024",
  "provisional": false,

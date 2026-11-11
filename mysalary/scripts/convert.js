@@ -45,6 +45,29 @@ const EMPLOYMENT = { employeeRate: 0.009 };        // 고용보험(실업급여)
 const LOCAL_INCOME_TAX_RATE = 0.1;                 // 지방소득세 = 소득세 × 10%
 const MIN_WAGE = 10320;                            // 2026 최저시급
 
+// ── 다음 개정(next) ───────────────────────────────────────────────────────────
+// 시행 전인 다음 연도 값. 앱 1.0.2+ 는 effectiveFrom 이 되면 기기 날짜로 스스로 넘어가고,
+// 그 전에는 "내년 실수령액" 미리보기로 쓴다. 1.0.1 이하 앱은 이 키를 무시한다
+// → 1월 1일 이후 위 "연도별 상수" 를 이 값으로 옮기고 NEXT 를 null 로 되돌려야 구버전도 바뀐다.
+// next 에 incomeTax·localIncomeTaxRate 가 없으면 앱이 올해 표를 그대로 쓴다(세액표는 보통 3월 개정).
+// 출처 (2026-11-11 확인):
+//   국민연금 10%(본인 5%) — 2025 연금개혁법, 2026 9.5% 에서 매년 0.5%p
+//   건강보험 7.19% 동결 — 2026-09-08 건정심 의결 (세계일보 20260908511434)
+//   장기요양 0.9994% — 건강보험료 대비 13.90% (병원신문 252013). 비율식 그대로 둘 것
+//   고용보험 2.0%(본인 1.0%) — ⚠️ 2026-09-01 고용보험위원회 심의, 시행령 개정 연내 예정(경향 202609012118015).
+//                              시행령 의결 확인 전에는 원격 배포하지 말 것
+//   최저시급 10,700원 — 2026-07 최저임금위원회 의결, 고용노동부 고시
+//   국민연금 상·하한은 2027-07 갱신 전까지 현행 유지
+const NEXT = {
+  year: 2027,
+  effectiveFrom: "2027-01-01",
+  pension: { employeeRate: 0.05, upperBase: 6590000, lowerBase: 410000, baseAppliedFrom: "2026-07-01" },
+  health: { employeeRate: 0.03595 },
+  care: { rateOfHealthPremium: 0.9994 / 7.19 },
+  employment: { employeeRate: 0.01 },
+  minWage: 10700,
+};
+
 const INCOME_TAX_EFFECTIVE_FROM = "2026-03-01";    // 2026.2.27 개정, 2026.3.1 시행
 const UNIT = 1000;                                 // 월급여액 구간 단위: 천원
 
@@ -354,6 +377,20 @@ function verify(brackets, exactTop, highIncome, childDeduction) {
   );
 }
 
+// next 는 사람이 손으로 넣는 값이라 범위만 본다 (오타로 1000배·100배 틀리는 것 방지)
+function verifyNext(n) {
+  check(n.year === YEAR + 1, "next.year == YEAR + 1", `${n.year}`);
+  check(/^\d{4}-\d{2}-\d{2}$/.test(n.effectiveFrom) && n.effectiveFrom.startsWith(String(n.year)),
+    "next.effectiveFrom 형식·연도", n.effectiveFrom);
+  const inRange = (v, lo, hi) => typeof v === "number" && v >= lo && v <= hi;
+  check(inRange(n.pension.employeeRate, 0.04, 0.07), "next 국민연금 본인 4~7%", `${n.pension.employeeRate}`);
+  check(inRange(n.health.employeeRate, 0.03, 0.05), "next 건강보험 본인 3~5%", `${n.health.employeeRate}`);
+  check(inRange(n.care.rateOfHealthPremium, 0.1, 0.2), "next 장기요양 비율 0.1~0.2", `${n.care.rateOfHealthPremium}`);
+  check(inRange(n.employment.employeeRate, 0.005, 0.015), "next 고용보험 본인 0.5~1.5%", `${n.employment.employeeRate}`);
+  check(inRange(n.minWage, MIN_WAGE, MIN_WAGE * 1.2), "next 최저시급 올해 이상·20% 이내", `${n.minWage}`);
+  check(n.pension.upperBase > n.pension.lowerBase, "next 연금 상한 > 하한", "");
+}
+
 // ── 직렬화 (brackets 는 한 행당 한 줄 — diff 가독성) ──────────────────────────
 function buildJson(d) {
   const L = [];
@@ -381,7 +418,12 @@ function buildJson(d) {
   L.push(d.incomeTax.highIncome.map((h) => `      ${JSON.stringify(h)}`).join(",\n"));
   L.push(`    ],`);
   L.push(`    "childDeduction": ${JSON.stringify(d.incomeTax.childDeduction)}`);
-  L.push(`  }`);
+  if (d.next) {
+    L.push(`  },`);
+    L.push(`  "next": ${JSON.stringify(d.next)}`);
+  } else {
+    L.push(`  }`);
+  }
   L.push("}");
   return L.join("\n") + "\n";
 }
@@ -407,6 +449,7 @@ function main() {
   const childDeduction = parseChildDeduction(noteRows);
 
   verify(brackets, exactTop, highIncome, childDeduction);
+  if (NEXT) verifyNext(NEXT);
 
   console.log("\n── 검증 ──");
   for (const c of checks) {
@@ -435,6 +478,7 @@ function main() {
       highIncome,
       childDeduction,
     },
+    next: NEXT,
   };
 
   const json = buildJson(data);

@@ -668,5 +668,6 @@
       {"over":87000,"upTo":null,"add":31034600,"mul":1,"rate":0.45}
     ],
     "childDeduction": {"one":20830,"two":45830,"perExtraOver2":33330}
-  }
+  },
+  "next": {"year":2027,"effectiveFrom":"2027-01-01","pension":{"employeeRate":0.05,"upperBase":6590000,"lowerBase":410000,"baseAppliedFrom":"2026-07-01"},"health":{"employeeRate":0.03595},"care":{"rateOfHealthPremium":0.13899860917941584},"employment":{"employeeRate":0.01},"minWage":10700}
 }
